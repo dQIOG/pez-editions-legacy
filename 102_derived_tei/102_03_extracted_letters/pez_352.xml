@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">352 Albert Reichart an Bernhard Pez. 1714-08-20. St. Paul im Lavanttal.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">352</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Albert Reichart</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1714-08-20</date>
+         <place-of-posting xmlns="">St. Paul im Lavanttal</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e38483">ARe schreibt den Brief am Fest von BPs Namenspatron, dem Hl. Bernhard von Clairvaux. Er wünscht <persName>
+                     <abbr>BP</abbr>
+                  </persName> die vielmalige glückliche Wiederkehr dieses Festes.</seg>
+               <seg type="context" n="2" xml:id="d4617e38485">ARe ist erfreut über die günstige Aufnahme einer Schrift des St. Paulers Alphons Stadler (des Verzeichnisses der Benediktinerwerke in St. Paul?). Stadler hat überdies versprochen, seine Bemühungen im Dienste BPs fortzuführen. <persName>
+                     <abbr>BP</abbr>
+                  </persName> soll in seinem der Ehre des Ordens zuträglichen Vorhaben („Bibliotheca Benedictina“) fortfahren; ARe wäre für den Erhalt von Arbeiten BPs höchst dankbar.</seg>
+               <seg type="context" n="3" xml:id="d4617e38487">Weiters ist ARe erfreut, dass der junge Robert Thalheim wegen seines guten Betragens Aussichten auf eine Aufnahme in den Melker Konvent hat.</seg>
+               <seg type="context" n="4" xml:id="d4617e38489">In einem Nachsatz empfiehlt sich ARe Adrian Pliemel.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: I, 542r–v.</p>
+            <p>Bezüge: 339.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>339</idno>
+               </ref>
+            </correspContext>
+            <p>Bemerkungen: Die schlecht lesbare Monatsangabe des Datums ist aufgrund der Aussage in &lt;1&gt;, wonach der Brief am Festtag des Hl. Bernhard geschrieben wird, nicht wie bei Glassner, Verzeichnis 232, mit „Septembris“, sondern mit „Augusti“ aufzulösen.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Plurimum reverende religiosissime et clarissime domine pater bibliothecarie.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e38503"> Exaro hasce festo sancti Bernardi patroni sui, quae festiva dies cum appendice et affluentia bonorum salutarium in seros annos recurrat, Deum precor atque me ipsum in ligamen offero. </seg>
+               <seg type="context" n="2" xml:id="d4617e38505"> Praeterea gaudeo, quod <seg type="lemma" corresp="#d4617e38520">patris nostri Alphonsi</seg> 
+                  <seg type="lemma" corresp="#d4617e38527">tenuis liber</seg> acceptus sit; et acceptus erit, si laborem in suae plurimum reverendae dominationis servitium continuaverit; quod omnino spopondit se facturum, plurimum reverendae dominationi singularissime obligatus. Pergat ergo plurimum reverenda dominatio in hoc glorioso opere toti ordini nostro tam utili quam honorifico. Si quibus suis doctissimis lucubrationibus me dignata fuerit, summae gratiae loco ducam. </seg>
+               <seg type="context" n="3" xml:id="d4617e38507"> Penes gaudeo, quod <seg type="lemma" corresp="#d4617e38532">iuvenis Thalheim</seg> suis bonis moribus spem susceptionis augeat in famosissimo asceterio Mellicensi susceptionis [<hi rend="italic">sic</hi>]. Quibus me sacris precibus et gratiis commendo</seg>
+            </p>
+            <p>Plurimum reverendae et clarissimae dominationis suae servus obligatissimus Albertus abbas.</p>
+            <p>
+               <seg type="context" n="4" xml:id="d4617e38515"> Commendo me etiam affectui singulari plurimum reverendi domini <seg type="lemma" corresp="#d4617e38539">patris professoris</seg>.</seg>
+            </p>
+            <p>Sancti Pauli 20. Augusti 1714.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e38520" target="#d4617e38485 #d4617e38505">
+               <ref target="">2</ref>
+               <label>patris nostri Alphonsi</label>
+               <p>Der St. Pauler Alphons Stadler war von 1709 bis 1711 als Gast in Melk gewesen (vgl. 156) und daher mit BP persönlich bekannt.</p>
+            </note>
+            <note xml:id="d4617e38527" target="#d4617e38485 #d4617e38505">
+               <ref target="#d4617e38485 #d4617e38505">2</ref>
+               <label>tenuis liber</label>
+               <p>Eine gesicherte Identifizierung ist anhand dieser Erwähnung nicht möglich. Denkbar ist jedoch, dass Stadler das von ARe in 339 versprochene Verzeichnis von Büchern in der Bibliothek von St. Paul erstellt hatte; der „tenuis liber“ könnte in diesem Fall mit der in StiA Melk, Karton 7 Patres 10, Fasz. 8, Nr. 25, vorhandenen „Series librorum a Benedictinis conscriptorum“ jener Bibliothek identisch sein. Sie ist elf Folien stark.</p>
+            </note>
+            <note xml:id="d4617e38532" target="#d4617e38487 #d4617e38507">
+               <ref target="">3</ref>
+               <label>iuvenis Thalheim</label>
+               <p>Am 8. Juni 1714 war der St. Pauler Konventuale Karlmann Thalheim mit seinem Bruder, der sich um die Aufnahme in Melk bewerben wollte, dort eingetroffen; am 12. Juni war der Kandidat nach Wien weitergereist, um Abt Dietmayr sein Gesuch zu unterbreiten: PE 5 123. Am folgenden 22. September wurde im Kapitel über vier Kandidaten abgestimmt, wovon nur einer, Joseph Forni, aufgenommen wurde: ebd. 125. Erst 1717 konnte Robert Benedikt Thalheim unter dem Ordensnamen Ignaz in Melk Profess ablegen. Mit dem ungenannten Kandidaten von 1714 ist er eindeutig zu identifizieren anhand des „Scriptum informativum“ des Novizenmeisters Adrian Pliemel, worin vermerkt ist, dass seine Aufnahme um zwei Jahre zurückgestellt worden war: StiA Melk, Karton 6 Konvent 5, Suffragium 1717. Ignaz Thalheim starb im Jahr 1732 als Pfarrer von Groissenbrunn: StiB Melk, Cod. 493, 78r; vgl. Keiblinger, Melk 2/2 405. – Ein dritter Bruder war offenbar jener Joseph Thalheim, der von 1711 bis 1713 in Melk Philosophie gehört hatte (vgl. 292). Zu ihm und zu Karlmann Thalheim vgl. Schroll, Necrologium 76, 79, 181–183, 195.</p>
+            </note>
+            <note xml:id="d4617e38539" target="#d4617e38489 #d4617e38515">
+               <ref target="">4</ref>
+               <label>patris professoris</label>
+               <p>Gemeint ist sicherlich Adrian Pliemel; vgl. 292, 326.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

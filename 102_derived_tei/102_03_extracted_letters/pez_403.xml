@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">403 Adalbert Defuns an Bernhard Pez. 1715-05-01. Disentis.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">403</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Adalbert Defuns</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1715-05-01</date>
+         <place-of-posting xmlns="">Disentis</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e44321">ADe ist nach mehr als einem Jahr von schwerer Gicht einigermaßen genesen und schickt <persName>
+                     <abbr>BP</abbr>
+                  </persName> einen mit zittriger Hand geschriebenen, oder wie man im Mittelalter (media aetas) sagte, gekritzelten (caraxatus) Brief, um sich zu erkundigen, wie die Arbeit an der „Bibliotheca Benedictina“ vorankommt.</seg>
+               <seg type="context" n="2" xml:id="d4617e44323">Er hat <persName>
+                     <abbr>BP</abbr>
+                  </persName> vor seiner Krankheit zwei Briefe (320, 402) gesendet, jedoch keine Antwort erhalten; vielleicht wegen der Nachlässigkeit der Boten, vielleicht aber ist es sein Schicksal, mit einem so bedeutenden Mann wie <persName>
+                     <abbr>BP</abbr>
+                  </persName> keine Freundschaft pflegen zu dürfen. Er hofft, dass <persName>
+                     <abbr>BP</abbr>
+                  </persName> noch lebt, bittet um den Segen Gottes für dessen Vorhaben und für sich selbst um Gedenken im Gebet.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: I, 658r–v.</p>
+            <p>Literatur: Heer, Pez 426; Müller, Disentis 1696–1742 659.</p>
+            <p>Bezüge: 402. 476. Erwähnt 320, 402. Erwähnt in 467, 476.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>402</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>476</idno>
+               </ref>
+               <ref type="mentions">
+                  <label>Erwähnt </label>
+                  <idno>320</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>402</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <label>Erwähnt in </label>
+                  <idno>467</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>476</idno>
+               </ref>
+            </correspContext>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Admodum reverende eruditissime et clarissime domine.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e44337"> Ex diuturna chiragra, qua iam per integrum annum et ultro misere laboravi, aliquantum, quae miserentis Dei in me bonitas fuit, restitutus, hasce ad te, vir clarissime, tremula manu exaratas seu potius, ut <seg type="lemma" corresp="#d4617e44346">verbo mediae aetatis scriptoribus interdum usitato loquar, caraxatas</seg> transmitto, non alio quidem impulsu, quam ut ad incrementum gaudii mei successum praeclarissimi operis tui De scriptoribus Benedictinis a me toties tamque ardenter desiderati ex te discerem. </seg>
+               <seg type="context" n="2" xml:id="d4617e44339"> Miseram ante morbum ad te binas, ad quas tamen nullum hactenus responsum obtinui; sive ea nuntiorum incuria fuit, seu fatum meum potius amicitiam cum tanto viro prohibens, quem etiam subinde ob diuturnum silentium superstitem dubitabam. At superstitem etiamnum credo et voveo, ac insuper hortor et rogo, ut Deus ter optimus maximus eiusdem studia et heroicos labores dignanter secundet. Vale mei memor in precibus.</seg>
+            </p>
+            <p>Tuae clarissimae dominationis amantissimus confrater Adalbertus abbas.</p>
+            <p>Disertinae Calendas Maii 1715.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e44346" target="#d4617e44321 #d4617e44337">
+               <ref target="">1</ref>
+               <label>verbo mediae aetatis ... caraxatas</label>
+               <p>Von χαράσσω „ritzen“, „kratzen“. Aus der Spätantike und dem Mittelalter finden sich zahlreiche Belege für den Gebrauch im Sinne von „schreiben“, allerdings meist ohne die hier anscheinend intendierte Nebenbedeutung „ungelenk schreiben“, „kritzeln“. Iso Müller paraphrasiert die Stelle wie folgt: „Infolge seiner zitternden Hand (tremula manu) waren seine Zeilen mehr Zeichnungen (caraxatas) geworden“ (Müller, Disentis 1696–1742 659).</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

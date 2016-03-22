@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">274 Placidus Haiden an Bernhard Pez. 1712-09-28. Niederaltaich.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">274</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Placidus Haiden</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1712-09-28</date>
+         <place-of-posting xmlns="">Niederaltaich</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e29509">
+                  <persName>
+                     <abbr>PH</abbr>
+                  </persName> bedauert, dass er auf seiner Reise durch Österreich <persName>
+                     <abbr>BP</abbr>
+                  </persName> nicht besuchen konnte und Melk nur aus der Ferne gesehen hat, weil die Geschäfte seinen Abt Joscio Hamberger zur Heimkehr nötigten.</seg>
+               <seg type="context" n="2" xml:id="d4617e29511">
+                  <persName>
+                     <abbr>PH</abbr>
+                  </persName> sendet Band 4,2 und Band 5 von Mabillons „Acta sanctorum OSB“, die <persName>
+                     <abbr>BP</abbr>
+                  </persName> nach der Benützung an die Niederaltaicher Patres in Spitz zurückgeben soll.</seg>
+               <seg type="context" n="3" xml:id="d4617e29513">Da das Weinschiff (navis vindemialis) bereits im Begriff ist, abzulegen, schließt <persName>
+                     <abbr>PH</abbr>
+                  </persName> den Brief.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: II, 49r–v.</p>
+            <p>Literatur: Katschthaler, Briefnachlass 22.</p>
+            <p>Bezüge: 251. 277. Erwähnt in 287.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>251</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>277</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <label>Erwähnt in </label>
+                  <idno>287</idno>
+               </ref>
+            </correspContext>
+            <p>Nummerierung: <hi rend="italic">IX</hi>.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine pater ac patrone colendissime.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e29532"> Inter infelicitates meas reputo, quod in <seg type="lemma" corresp="#d4617e29543">nupero itinere Austriaco</seg> clarissimam suam paternitatem coram venerari mihi haud licuerit, interim venerabile Mellicium eminus saltem salutavi cum reverendissimo domino domino praelato meo, quem domesticae occupationes in momenta quasi huc avocabant et nullas permittebant inducias persistendi in tam claro solo. </seg>
+               <seg type="context" n="2" xml:id="d4617e29534"> Caeterum sequitur hic <seg type="lemma" corresp="#d4617e29550">Actorum ordinis sancti Benedicti authore Mabillonio</seg> saeculum quintum cum saeculi quarti parte secunda, quae post sufficientem lustrationem <seg type="lemma" corresp="#d4617e29557">patribus nostris Spizensibus</seg> consignare placeat. </seg>
+               <seg type="context" n="3" xml:id="d4617e29536"> Plura scribere parantem abbreviare cogit navis vindemialis iamiam a litore solvenda.Vale, vir eximie, et in tuis coeptis perge feliciter.</seg>
+            </p>
+            <p>Plurimum reverendae etc. obligatissimus servus pater Placidus manu propria.</p>
+            <p>Nidernaltahae 28. Septembris anno 1712.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e29543" target="#d4617e29509 #d4617e29532">
+               <ref target="">1</ref>
+               <label>nupero itinere Austriaco</label>
+               <p>Zu den Reisen PHs konnte nichts Näheres ermittelt werden.</p>
+            </note>
+            <note xml:id="d4617e29550" target="#d4617e29511 #d4617e29534">
+               <ref target="">2</ref>
+               <label>Actorum ... authore Mabillonio</label>
+               <p>Die Entlehnung war von BP wohl eingeleitet worden, als deutlich wurde, dass die über Moritz Müller in St. Gallen eingeleitete Beschaffung des Werks aus Frankreich mit der Okkupation St. Gallens durch die Zürcher und Berner zumindest vorläufig als gescheitert anzusehen war; vgl. 259 &lt;8&gt;, 272 &lt;3&gt;.</p>
+            </note>
+            <note xml:id="d4617e29557" target="#d4617e29511 #d4617e29534">
+               <ref target="#d4617e29511 #d4617e29534">2</ref>
+               <label>patribus nostris Spizensibus</label>
+               <p>Vgl. 168, 321. Das „Weinschiff“ sollte vermutlich Wein aus den Niederaltaicher Besitzungen in der Wachau abholen.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">191 Anselm Fischer an Bernhard Pez. 1711-12-01. Ochsenhausen.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">191</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Anselm Fischer</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1711-12-01</date>
+         <place-of-posting xmlns="">Ochsenhausen</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e19848">
+                  <persName>
+                     <abbr>AF</abbr>
+                  </persName> bittet um die Rückgabe der sechs Bände des „Spicilegium“ von d’Achery, die er <persName>
+                     <abbr>BP</abbr>
+                  </persName> vor mehr als einem Jahr nach Melk ausgeliehen hat. Sie werden auch bereits vom Ochsenhausener Bibliothekar urgiert, der sie benutzen möchte. <persName>
+                     <abbr>AF</abbr>
+                  </persName> schließt mit guten Wünschen zum kommenden Neuen Jahr.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: I, 105r–v.</p>
+            <p>Literatur: Stockinger, Fidelis 359f.</p>
+            <p>Bezüge: 112. 218.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>112</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>218</idno>
+               </ref>
+            </correspContext>
+            <p>Nummerierung: <hi rend="italic">IV</hi>.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Admodum reverende religiosissime et clarissime domine pater bibliothecarie.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e19867"> Non aegre feret reverenda paternitas vestra, quod sex tomorum Spicilegii D’Acherii, quos Mellicium ante annum, et quod excedit, miseram [<hi rend="italic">sic</hi>]. Interpellor hac de re etiam a <seg type="lemma" corresp="#d4617e19877">bibliothecario nostro</seg>, qui eorundem usum desiderat. De caetero secuturi anni recursum faustissimum sincero corde apprecor maneoque ad servitia quaevis promptus, dum vixero</seg>
+            </p>
+            <p>Admodum reverendae religiosissimae paternitatis vestrae addictissimus et humillimus pater Anselmus Fischer manu propria.</p>
+            <p>Ochsenhusii 1. Decembris 1711.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e19877" target="#d4617e19848 #d4617e19867">
+               <ref target="">1</ref>
+               <label>bibliothecario nostro</label>
+               <p>Seine Identität konnte nicht ermittelt werden.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

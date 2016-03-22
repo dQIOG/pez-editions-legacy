@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[394] Bernhard Pez an Johann Benedikt Gentilotti. &lt; 1715-03-27.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">394</id>
+         <deduced xmlns="">true</deduced>
+         <sender xmlns="">Bernhard Pez</sender>
+         <recipient xmlns="">Johann Benedikt Gentilotti</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">&lt; 1715-03-27</date>
+         <place-of-posting xmlns=""/>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="editorialNote">
+            <p>Bezüge: 389. 395. Möglicherweise versendet von Melk nach Wien mit 384. Erwähnt in 396.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>389</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>395</idno>
+               </ref>
+               <ref type="sentWith">
+                  <label>Möglicherweise versendet von Melk nach Wien mit </label>
+                  <idno>384</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <label>Erwähnt in </label>
+                  <idno>396</idno>
+               </ref>
+            </correspContext>
+         </div>
+      </front>
+      <body>
+         <ab>
+            <gap reason="letter missing"/>
+         </ab>
+      </body>
+      <back/>
+   </text>
+</TEI>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[225] Bernhard Pez an NN (Rott am Inn?). LE 2. 1712-03-12.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">225</id>
+         <deduced xmlns="">true</deduced>
+         <sender xmlns="">Bernhard Pez</sender>
+         <recipient xmlns="">NN (Rott am Inn?). LE 2</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1712-03-12</date>
+         <place-of-posting xmlns=""/>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="editorialNote">
+            <p>Bezüge: 188. 226. Erwähnt in 226.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>188</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>226</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <label>Erwähnt in </label>
+                  <idno>226</idno>
+               </ref>
+            </correspContext>
+            <p>Bemerkungen: Nach den Angaben in 226 handelte es sich hier wohl um die gedruckte Fassung der LE 2, anscheinend zusammen mit einem persönlichen Schreiben BPs, das deren Anliegen in Bezug auf Rott bekräftigte und präzisierte.</p>
+         </div>
+      </front>
+      <body>
+         <ab>
+            <gap reason="letter missing"/>
+         </ab>
+      </body>
+      <back/>
+   </text>
+</TEI>

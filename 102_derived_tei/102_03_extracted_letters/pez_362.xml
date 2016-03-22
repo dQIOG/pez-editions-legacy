@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[362] Bernhard Pez an Philibert Hueber. 1714-09-20.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">362</id>
+         <deduced xmlns="">true</deduced>
+         <sender xmlns="">Bernhard Pez</sender>
+         <recipient xmlns="">Philibert Hueber</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1714-09-20</date>
+         <place-of-posting xmlns=""/>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="editorialNote">
+            <p>Bezüge: 438. Erwähnt in 360, 365.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>438</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <label>Erwähnt in </label>
+                  <idno>360</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>365</idno>
+               </ref>
+            </correspContext>
+            <p>Bemerkungen: Das Datum ergibt sich aus der Erwähnung in 360 &lt;7&gt;. Der Brief wurde mit der zweiten Büchersendung für René Massuet bis Wien versendet.</p>
+         </div>
+      </front>
+      <body>
+         <ab>
+            <gap reason="letter missing"/>
+         </ab>
+      </body>
+      <back/>
+   </text>
+</TEI>

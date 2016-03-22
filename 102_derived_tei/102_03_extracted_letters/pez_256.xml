@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">256 Benedikt Cherle an Bernhard Pez. 1712-07-11. Thierhaupten.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">256</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Benedikt Cherle</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1712-07-11</date>
+         <place-of-posting xmlns="">Thierhaupten</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e26986">BCh berichtet nun von den angekündigten <ref type="letter">223</ref> Werken aus seiner Bibliothek: zum einen Korbinian Cherles „Explicatio“ zu den Psalmen Davids, zum anderen einen vor etwa hundert Jahren anonym gedruckten Thierhauptener Katechismus (Gaugenrieder, „Catholische fragstuck“).</seg>
+               <seg type="context" n="2" xml:id="d4617e26991">BCh selbst hat aus (der „Aurifodina“ des) Robert von Cambrai ein Werk „Annus sacerdotalis“ kompiliert, das bald erscheinen soll.</seg>
+               <seg type="context" n="3" xml:id="d4617e26993">Auch hat BCh ein deutsches „Martyrologium Benedictinum“ verfasst, das bereits seit einem Jahr in Thierhaupten als Mensallektüre dient und ebenfalls veröffentlicht werden soll.</seg>
+               <seg type="context" n="4" xml:id="d4617e26995">Die Thesen, die demnächst in der Bayerischen Kongregation (am Kommunstudium) disputiert werden, sowie die Festschrift zum 700-Jahr-Jubiläum von St. Ulrich und Afra zu Augsburg, das am 4. Juli gefeiert wurde (Zoller, „Höchst-schuldig vollbrachtes jubl- und dankfest“), will BCh bei nächster Gelegenheit an <persName>
+                     <abbr>BP</abbr>
+                  </persName> übermitteln.</seg>
+               <seg type="context" n="5" xml:id="d4617e26997">In einem Postskriptum sendet BCh Prior Valentin Larson seine Grüße.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: I, 554r–v.</p>
+            <p>Literatur: Benz, Zwischen Tradition und Kritik 564; Machilek, Benedikt Cherle 59–61.</p>
+            <p>Bezüge: 223. Erwähnt 223.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>223</idno>
+               </ref>
+               <ref type="mentions">
+                  <label>Erwähnt </label>
+                  <idno>223</idno>
+               </ref>
+            </correspContext>
+            <p>Nummerierung: <hi rend="italic">V</hi>.</p>
+            <p>Bemerkungen: Bei Glassner, Verzeichnis 205, irrig zum 21. Juli 1712.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Plurimum reverende religiosissime ac clarissime pater, domine ac patrone colendissime.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e27018"> Literarum commercium, quod nuper mea absentia interrupit, hisce renovo et iuxta mea facta promissa manuscipta [<hi rend="italic">sic</hi>] in nostra bibliotheca inventa communico. Imprimis quidem <seg type="lemma" corresp="#d4617e27048">in quarto reperi Psalmos</seg> omnes Davidicos compendiose ac eleganter exsplicatos [<hi rend="italic">sic</hi>] a reverendissimo domino Corbiniano Cherle. <seg type="lemma" corresp="#d4617e27055">Cathecismum</seg> [<hi rend="italic">sic</hi>] insuper ante centum annos in monasterio nostro impressum cum pulcherrimis quaestiunculis ac exsplicatione [<hi rend="italic">sic</hi>] praecipuarum caeremoniarum ecclesiasticarum per totum annum, nullo addito nomine nisi sacerdote nostri monasterii. </seg>
+               <seg type="context" n="2" xml:id="d4617e27032"> Ego vero (ut paternitatis vestrae clarissimae imperio obsequar) collegi ex patre Roberto Cameracensi in unum libellum, censura iam absolutum, proxime imprimendum pro sacerdotibus ad singulos dies ex sanctis patribus sententias. Libellum indigito: <pb n="1v"/> 
+                  <seg type="lemma" corresp="#d4617e27060">Annus sacerdotalis</seg> etc. </seg>
+               <seg type="context" n="3" xml:id="d4617e27036"> Praeterea conscripsi Germanice <seg type="lemma" corresp="#d4617e27067">Martyrologium Benedictinum</seg>, quod nobis iam per integrum annum ad mensam servit, typis evulgandum. Haec raptim cum mei commendatione. </seg>
+               <seg type="context" n="4" xml:id="d4617e27038"> 
+                  <seg type="lemma" corresp="#d4617e27074">Theses in congregatione nostra proxime disputandae</seg> et <seg type="lemma" corresp="#d4617e27081">saeculum 700. ad S. Udalricum</seg> 4. huius celebratum sequentur proxima occasione.</seg>
+            </p>
+            <p>Plurimum reverendae religiosissimae ac clarissimae paternitatis vestrae servus in Christo paratissimus pater Benedictus Cherle prior manu propria.</p>
+            <p>Thierhaupten 11. Julii anno 1712.</p>
+            <p>
+               <seg type="context" n="5" xml:id="d4617e27045"> P.S. Plurimum reverendo venerabili ac clarissimo domino patri priori mei commendationem.</seg>
+            </p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e27048" target="#d4617e26986 #d4617e27018">
+               <ref target="">1</ref>
+               <label>in quarto reperi Psalmos</label>
+               <p>In 223 beschreibt BCh das Format als Folio. Die Handschrift scheint verloren zu sein.</p>
+            </note>
+            <note xml:id="d4617e27055" target="#d4617e26986 #d4617e27018">
+               <ref target="#d4617e26986 #d4617e27018">1</ref>
+               <label>Cathecismum</label>
+               <p>Der Beschreibung nach handelt es sich um eine der Ausgaben von Abt Benedikt Gaugenrieders Katechismusbüchlein „Catholische fragstuck“ (1594), später „Nutzliche fragstuckh“ (1598): Debler, Thierhaupten 311, 313; Künast, Druckerei 212f. Nr. 20, 217 Nr. 30, 223 Nr. 48.</p>
+            </note>
+            <note xml:id="d4617e27060" target="#d4617e26991 #d4617e27032">
+               <ref target="">2</ref>
+               <label>Annus sacerdotalis</label>
+               <p>Zu einer Drucklegung kam es offenbar nicht, auch handschriftlich ist ein derartiges Werk nicht überliefert.</p>
+            </note>
+            <note xml:id="d4617e27067" target="#d4617e26993 #d4617e27036">
+               <ref target="">3</ref>
+               <label>Martyrologium Benedictinum</label>
+               <p>Diese Arbeit BChs ist handschriftlich erhalten in BStB München, cgm 3859 und 3860; vgl. Machilek, Benedikt Cherle 59–61. Gedruckt wurde sie im Verlag von Daniel Walder zu Augsburg 1714; vgl. Eybl, Konfession und Buchwesen 649.</p>
+            </note>
+            <note xml:id="d4617e27074" target="#d4617e26995 #d4617e27038">
+               <ref target="">4</ref>
+               <label>Theses ... disputandae</label>
+               <p>Vgl. BChs Bericht über das Kommunstudium in 85.</p>
+            </note>
+            <note xml:id="d4617e27081" target="#d4617e26995 #d4617e27038">
+               <ref target="#d4617e26995 #d4617e27038">4</ref>
+               <label>saeculum 700. ad S. Udalricum</label>
+               <p>Vgl. Römmelt, Auseinandersetzung 269. Herausgeber der im Wesentlichen aus den gesammelten Festpredigten bestehenden Festschrift war nach Lindner, Memoriale San-Ulricanum 16 15, der Konventuale von St. Ulrich und Afra Joseph Zoller von Zollershausen; zu seiner Person: ebd. 8 42.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

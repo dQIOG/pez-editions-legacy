@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">65 Albert Reichart an Bernhard Pez. 1710-04-21. St. Paul im Lavanttal.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">65</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Albert Reichart</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1710-04-21</date>
+         <place-of-posting xmlns="">St. Paul im Lavanttal</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e6696">ARe beginnt mit Wünschen zur Oster- und Frühlingszeit. Sein Bibliothekar wird versuchen, dem von <persName>
+                     <abbr>BP</abbr>
+                  </persName> geäußerten Wunsch nachzukommen.</seg>
+               <seg type="context" n="2" xml:id="d4617e6698">ARe ist erfreut über den Briefkontakt BPs mit den Maurinern. Er hat diesen selbst einmal geschrieben, jedoch keine Antwort erhalten. Er wünscht sich deren Statuten und die anderer französischer Benediktiner, etwa jener von St.-Vaast (zu Arras).</seg>
+               <seg type="context" n="3" xml:id="d4617e6700">Mabillon erwähnt in seinem Bücherverzeichnis (im „Traité des études monastiques“) das Werk „Le livre des éluz. Jésus-Christ en croix“ des Jesuiten Jean-Baptiste de Saint-Jure. ARe hat dieses Buch nirgends finden können; er hofft, es über <persName>
+                     <abbr>BP</abbr>
+                  </persName> zu erwerben, wofür er alle Kosten ersetzen will.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: I, 536r–v.</p>
+            <p>Bezüge: 64. 82. Erwähnt in 143.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>64</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>82</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <label>Erwähnt in </label>
+                  <idno>143</idno>
+               </ref>
+            </correspContext>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Sancti Pauli 21. Abrilis [<hi rend="italic">sic</hi>] 1710.</p>
+            <p>Plurimum reverende religiosissime et clarissime domine pater bibliothecarie.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e6717"> 
+                  <seg type="lemma" corresp="#d4617e6726">Paschale atque vernum gaudiosissimum apprecor tempus</seg>, ut renovante se in novam vitam natura plurimum reverenda dominatio reflorescentem virium vigorem induta quam diutissime sana et incolumis perennet. <seg type="lemma" corresp="#d4617e6733">Noster bibliothecarius</seg> studebit inservire <seg type="lemma" corresp="#d4617e6738">desiderio intimato</seg>. </seg>
+               <seg type="context" n="2" xml:id="d4617e6719"> Gaudeo praeterea, quod plurimum reverenda dominatio habeat communicationem litterarum cum patribus Gallicis congregationis sancti Mauri. <seg type="lemma" corresp="#d4617e6743">Scripsi enim illis semel</seg>, sed nihil responsi accepi. Libenter haberem eorum statuta et aliorum in Gallia Benedictinorum, uti sancti Vedasti etc. </seg>
+               <seg type="context" n="3" xml:id="d4617e6721"> 
+                  <seg type="lemma" corresp="#d4617e6750">Mabilonius in suo indiculo</seg> memorat librum De Saint-Jure, quem auctor Societatis Jesu nominat: Liber electorum seu Christus crucifixus. Quem librum nullibi possum indagare; forte ero ita felix, ut per plurimum reverendam paternitatem eo potiar, ex quo omnes expensas fideliter solverem. Quibus me sacris precibus et affectui commendo.</seg>
+            </p>
+            <p>Plurimum reverendae et clarissimae dominationis servus obligatissimus Albertus abbas manu propria.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e6726" target="#d4617e6696 #d4617e6717">
+               <ref target="">1</ref>
+               <label>Paschale ... tempus</label>
+               <p>Ostern war im Jahr 1710 auf den 20. April gefallen.</p>
+            </note>
+            <note xml:id="d4617e6733" target="#d4617e6696 #d4617e6717">
+               <ref target="#d4617e6696 #d4617e6717">1</ref>
+               <label>Noster bibliothecarius</label>
+               <p>Zu seiner Identität konnte nichts ermittelt werden.</p>
+            </note>
+            <note xml:id="d4617e6738" target="#d4617e6696 #d4617e6717">
+               <ref target="#d4617e6696 #d4617e6717">1</ref>
+               <label>desiderio intimato</label>
+               <p>Es bleibt unklar, worum BP gebeten hatte. Angesichts der zeitlichen Nähe zum Ersuchen René Massuets um die Mithilfe BPs (48 &lt;6&gt;) sowie zur Übermittlung einer maurinischen Enzyklik durch Anselm Fischer (43 &lt;7&gt;) kann hier der Aufruf zur Einsendung von Material für die „Annales OSB“ gemeint sein; dazu würde auch die unmittelbar anschließende Bezugnahme ARes auf BPs Kontakt mit den Maurinern passen. BP erwähnt später gegenüber Massuet, dass ARe eine Zusage gegeben habe (143 &lt;8&gt;); doch scheint ARe außer den kurzen Angaben in 151 nur Material zu Ossiach geliefert zu haben (vgl. 151, 177 &lt;10&gt;). – Möglich ist auch, dass das von dem Bibliothekar zu Liefernde nähere Angaben über die in 50 kursorisch aufgezählten Werke von St. Pauler Konventualen und ihre dort nicht namentlich genannten Verfasser waren. 1715 kannte BP (Pez, Epistolae apologeticae 255–263) neun Namen von St. Pauler Schriftstellern des 17. Jh., die aus den erhaltenen Briefen ARes nicht zu entnehmen sind.</p>
+            </note>
+            <note xml:id="d4617e6743" target="#d4617e6698 #d4617e6719">
+               <ref target="">2</ref>
+               <label>Scripsi enim illis semel</label>
+               <p>Der Brief ARes stammt von 1686 und ist an Mabillon adressiert; er ist heute in BN FF 19650 überliefert.</p>
+            </note>
+            <note xml:id="d4617e6750" target="#d4617e6700 #d4617e6721">
+               <ref target="">3</ref>
+               <label>Mabilonius in suo indiculo</label>
+               <p>Im Bücherverzeichnis des „Traité des études monastiques“ findet sich, auch in der lateinischen Übersetzung Staudigls, in c. XV „Libri spirituales“ nur die Erwähnung „Les œuvres du P. Saint Jure 8. et in 12. Parisiis“. Für den Titel des genannten Werks musste ARe noch eine weitere Quelle haben.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

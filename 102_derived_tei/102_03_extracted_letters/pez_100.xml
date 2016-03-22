@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[100] Bernhard Pez an Severino de Ò. &lt; 1710-08-26.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">100</id>
+         <deduced xmlns="">true</deduced>
+         <sender xmlns="">Bernhard Pez</sender>
+         <recipient xmlns="">Severino de Ò</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">&lt; 1710-08-26</date>
+         <place-of-posting xmlns=""/>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="editorialNote">
+            <p>Bezüge: 81. 101. Erwähnt in 101.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>81</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>101</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <label>Erwähnt in </label>
+                  <idno>101</idno>
+               </ref>
+            </correspContext>
+         </div>
+      </front>
+      <body>
+         <ab>
+            <gap reason="letter missing"/>
+         </ab>
+      </body>
+      <back/>
+   </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">319 Benedikt Spies an Bernhard Pez. 1713-07-16. Würzburg (St. Stephan).</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">319</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Benedikt Spies</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1713-07-16</date>
+         <place-of-posting xmlns="">Würzburg (St. Stephan)</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e34605">Auf BPs letzten Brief <ref type="letter">313</ref> gibt der Tod die einzige Antwort, der Abt Hyazinth Baumbach am 7. Juli um 2 Uhr nachmittags plötzlich ereilt hat, als er sich bereits zur Antwort anschickte. Die Korrespondenz mit <persName>
+                     <abbr>BP</abbr>
+                  </persName> zur Förderung von dessen Vorhaben („Bibliotheca Benedictina“) wird nach der für den Tag der Hl. Anna (26. Juli) angesetzten Wahl eines Nachfolgers fortgesetzt. <persName>
+                     <abbr>BS</abbr>
+                  </persName> bittet BP, für die Seele des Verstorbenen und für einen guten Ausgang der Wahl zu beten.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: I, 30r–v.</p>
+            <p>Bezüge: 313. 372. Erwähnt 313.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>313</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>372</idno>
+               </ref>
+               <ref type="mentions">
+                  <label>Erwähnt </label>
+                  <idno>313</idno>
+               </ref>
+            </correspContext>
+            <p>Adresse: <hi rend="italic">Plurimum reverendo religiosissimo patri et eximio domino patri Bernardo Pez inclyti et exempti monasterii Mellicensis ordinis sancti Benedicti professo dignissimo ac novitiorum magistro zelosissimo, domino suo confratri colendissimo. Per Regenspurg. Closter Mölckh in Östreich oder zu Wienn in Mölckher hoff.</hi> Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 83v.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Plurimum reverende religiosissime pater et eximie domine.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e34625"> Ad litteras religiosissimae et eximiae paternitatis vestrae aliud responsum pro nunc non habemus nisi responsum <seg type="lemma" corresp="#d4617e34632">mortis, quae responsuro nostro reverendissimo ac dilectissimo praesuli fatali frigore in media aestate scribendi loquendique facultatem 7. Julii hora secunda pomeridiana cum summo omnium nostrum luctu inexspectato sustulit</seg>. Correspondentia tamen, per quam laudatissimus eximiae paternitatis vestrae conatus promoveatur, post festum sanctae Annae (quo die electio successoris fixa est) continuabitur. Placeat suis sacris precibus missaeque sacrificiis tam pro pia defuncti anima, tam pro negotio electionis orare, ut tale caput viduati recipiamus, quod labore et amore suo piissimos eximiae paternitatis vestrae labores aut secundare aut consolari possit.</seg>
+            </p>
+            <p>Plurimum reverendae religiosissimae et eximiae paternitatis vestrae devotissimus pater Benedictus Spies professus S. Stephani magister novitiorum.</p>
+            <p>Dabam Herbipoli 16. Julii 1713.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e34632" target="#d4617e34605 #d4617e34625">
+               <ref target="">1</ref>
+               <label>mortis ... inexspectato sustulit</label>
+               <p>Nach der Angabe von Ignaz Gropp starb Hyazinth Baumbach „ex dolore colico“: Schwinger, St. Stephans-Kloster 40 151, 181. Die Wahl am 26. Juli fiel auf den Bibliothekar Alberich Ebenhöch: ebd. 152.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

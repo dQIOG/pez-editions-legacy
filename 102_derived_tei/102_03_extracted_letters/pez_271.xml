@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">271 Bernhard Pez an Moritz Müller. 1712-09-07. Melk.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">271</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Bernhard Pez</sender>
+         <recipient xmlns="">Moritz Müller</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1712-09-07</date>
+         <place-of-posting xmlns="">Melk</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e28859">
+                  <persName>
+                     <abbr>BP</abbr>
+                  </persName> nimmt an, dass <persName>
+                     <abbr>MM</abbr>
+                  </persName> sein Schreiben vom Juli <ref type="letter">259</ref> aus Wien erhalten hat, worin er das Unglück St. Gallens bedauerte.</seg>
+               <seg type="context" n="2" xml:id="d4617e28864">Der St. Galler Gesandte Lukas Grass hat an dem Tag, bevor <persName>
+                     <abbr>BP</abbr>
+                  </persName> aus Wien abgereist ist, dort bei Abt Dietmayr vorgesprochen. Da wegen der Umbauarbeiten (?) kein Platz im Melkerhof ist, hat ihn Dietmayr auf eigene Kosten anderswo untergebracht und versorgt, und lässt ihn auch an seinem Tisch speisen, wie dies die höchstrangigen Gäste tun. So lebt er wie ein Melker, worüber der Abt wohl auch schon an MMs Fürstabt Bürgisser und an andere geschrieben haben wird. <persName>
+                     <abbr>BP</abbr>
+                  </persName> bedauert, dass nicht <persName>
+                     <abbr>MM</abbr>
+                  </persName> selbst der St. Galler Legat ist.</seg>
+               <seg type="context" n="3" xml:id="d4617e28866">
+                  <persName>
+                     <abbr>BP</abbr>
+                  </persName> erkundigt sich, welches Schicksal den von ihm bestellten „Acta sanctorum OSB“ Mabillons widerfahren ist. Das „Elogium“ des Kardinals Sfondrati hat <persName>
+                     <abbr>BP</abbr>
+                  </persName> noch nicht erhalten und möchte wissen, wem <persName>
+                     <abbr>MM</abbr>
+                  </persName> es anvertraut hat.</seg>
+               <seg type="context" n="4" xml:id="d4617e28868">
+                  <persName>
+                     <abbr>BP</abbr>
+                  </persName> regt <persName>
+                     <abbr>MM</abbr>
+                  </persName> an, die Zwiefaltener Bibliothek auf Schriftsteller (für die „Bibliotheca Benedictina“) durchzusehen.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: StiA St. Gallen, Karton R 13, 28r–v.</p>
+            <p>Literatur: Heer, Pez 411f.; Stockinger, Fidelis 375, 392.</p>
+            <p>Bezüge: 260. 272. Erwähnt 259. Erwähnt in 272.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>260</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>272</idno>
+               </ref>
+               <ref type="mentions">
+                  <label>Erwähnt </label>
+                  <idno>259</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <label>Erwähnt in </label>
+                  <idno>272</idno>
+               </ref>
+            </correspContext>
+            <p>Adresse: <hi rend="italic">Plurimum reverendo religiosissimo ac clarissimo domino patri Mauritio Müller capitulari Sant-Gallensi, sacrae theologiae professori emerito etc., nunc in florentissimo monasterio Zwifaltensi ordinis sancti patris Benedicti etc., amico singulari ac fautori colendissimo.</hi> Postalische Vermerke von mehreren Händen: <hi rend="italic">Franco Augspurg. Kloster Zwifalten in Schwaben abzulegen. 10 kr.</hi> Siegel.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine, patrone ac amice colendissime.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e28890"> Non dubito, quin clarissima dominatio vestra meam epistolam Vienna mense, ni fallor, Julio Zwifuldam datam recte acceperit. In ea tum multa alia, tum maxime de summo nostrum omnium ob adversas S. Gallensium res dolore perscripsi. </seg>
+               <seg type="context" n="2" xml:id="d4617e28892"> Plura haud dubie de vestris rebus mihi narrare scivisset clarissimus vester concapitularis, <seg type="lemma" corresp="#d4617e28905">maior cancellarius</seg>, ut vocant, qui pridie, <seg type="lemma" corresp="#d4617e28912">antequam Vienna discederem</seg>, reverendissimum meum abbatem ibidem invisit; eaque omnia, quae is petierat, promptissime impetravit. Et tametsi ob summas <seg type="lemma" corresp="#d4617e28917">Viennensis nostrae domus angustias</seg> a novi aedificii studio et labore causatas nullum ei cubiculum in ipsa domo dari poterat, reverendissimus tamen meus abbas suis propriis sumptibus eiusmodi commodum <seg type="lemma" corresp="#d4617e28922">alibi pro eo cubiculum</seg> conduxit, honestissimo victu providit, paucis: omnia libentissime et largissime subministravit, subministrabitque tam diu, <seg type="lemma" corresp="#d4617e28927">donec in priorem res vestrae statum redigantur</seg>. Adhaec is velut unus ex nobis Mellicensibus in domo nostra, quoties libet, versari potest, et omni, cui etiam nobilissimi hospites interesse consueverunt, abbatiali mensae pro sua commoditate accumbere. Sane reverendissimus meus abbas eum uti suum filium diligit, neque ulla in re derelinquet. <seg type="lemma" corresp="#d4617e28932">Quocirca ipse meus abbas quin ad illustrissimum vestrum principem, quin pluribus scripserit, nullus dubito</seg>. Utinam clarissima dominatio vestra is fuisset, qui Viennam vestram causam acturus accessit! Quam ego homo fortunatus essem! Sed de hoc nuper plura. </seg>
+               <seg type="context" n="3" xml:id="d4617e28894"> Nunc unum id quaerere non dubito, quonam in loco Acta illa sanctorum ordinis nostri authore Mabillonio agant? <pb n="1v"/> an ea recuperandi spes reliqua etc.? Profecto si quid aliud est, quod scire cupiam, hoc scire quam avidissime cupio. Sfondrati eminentissimi cardinalis Elogium adhuc nullum accepi. Quaeso, scribite, cui id commiseritis. </seg>
+               <seg type="context" n="4" xml:id="d4617e28898"> Aliud nunc non addo, nisi ut plurimum reverenda dominatio meus esse patronus pergat. Habet Zwifulda nobilem bibliothecam, cuius perlustratio meorum scriptorum numerum augere poterit. Si et hic auxiliatrices vestras manus expertus fuero, aeternum ero, uti semper fui</seg>
+            </p>
+            <p>Plurimum reverendae religiosissimae ac clarissimae dominationis vestrae obligatissimus et constantissimus amicus pater Bernardus Pez professus Mellicensis, magister novitiorum et bibliothecarius.</p>
+            <p>Raptissime Mellicii 7. Septembris 1712.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e28905" target="#d4617e28864 #d4617e28892">
+               <ref target="">2</ref>
+               <label>maior cancellarius</label>
+               <p>Für die Verwendung dieses Titels in St. Gallen konnte sonst kein Beleg gefunden werden; unter den weltlichen Beamten des Fürstabtes gab es einen „Kanzler“, der aber hier nicht gemeint sein kann. Der nicht namentlich genannte St. Galler Abgesandte ist eindeutig der Mönch Lukas Grass, der von 1704 bis 1724 das Amt eines Statthalters in der St. Galler Herrschaft Ebringen bekleidete; vgl. Heer, Pez 412; Henggeler, Profeßbuch St. Gallen 345. Neben seiner expliziten Nennung in 272 belegen dies etliche Briefe von Grass an Abt Bürgisser und Landeshofmeister Fidel von Thurn im StiA St. Gallen; speziell zu seiner Absendung nach Wien: StiA St. Gallen, Bd. 1606, 306–311.</p>
+            </note>
+            <note xml:id="d4617e28912" target="#d4617e28864 #d4617e28892">
+               <ref target="#d4617e28864 #d4617e28892">2</ref>
+               <label>antequam Vienna discederem</label>
+               <p>Die Abreise BPs aus Wien dürfte auf den 19. oder 20. Juli gefallen sein, falls er (wie anzunehmen) mit Abt Dietmayr am Abend des 20. in Melk eintraf (vgl. 259 &lt;6&gt;). Die eben zitierten Briefe Grass’ melden dessen Eintreffen in Wien am 16. Juli.</p>
+            </note>
+            <note xml:id="d4617e28917" target="#d4617e28864 #d4617e28892">
+               <ref target="#d4617e28864 #d4617e28892">2</ref>
+               <label>Viennensis ... domus angustias</label>
+               <p>Diese Aussage bleibt unklar. Bauarbeiten am Melkerhof (wie etwa Heer, Pez 412, vermutet) sind aus den Bauamtsrechnungen für 1711 und 1712 (StiA Melk, Karton 11 Bauamt 6) nicht nachzuweisen. Im Stift Melk selbst waren zwar offenbar die Unterbringungsverhältnisse der Konventualen sehr beengt (vgl. 259 &lt;3&gt;), jedoch berichten die Prioratsephemeriden nicht über ein Ausweichen von Konventualen nach Wien.</p>
+            </note>
+            <note xml:id="d4617e28922" target="#d4617e28864 #d4617e28892">
+               <ref target="#d4617e28864 #d4617e28892">2</ref>
+               <label>alibi pro eo cubiculum</label>
+               <p>Wo die Unterbringung von Grass erfolgte, ist nicht feststellbar. Es war im Übrigen unüblich, dass durchreisende Benediktiner in den Wiener Prälatenhöfen auswärtiger Klöster aufgenommen wurden, zumeist bot ihnen das Schottenstift Quartier; aus einem Schreiben von Grass an Bürgisser vom 27. Juli 1712 (StiA St. Gallen, Bd. 1606, 754–757) entnimmt man, dass Blasius Bender (vgl. 194, 327 &lt;7&gt;) aus ungenannten Gründen von einer Quartiernahme dort abgeraten hatte. Abt Dietmayr gewährte Grass eine wöchentliche Zahlung von 9 fl., die er jedoch bald wieder auf 7½ fl. herabsetzte (StiA St. Gallen, Bd. 1607, 571–574).</p>
+            </note>
+            <note xml:id="d4617e28927" target="#d4617e28864 #d4617e28892">
+               <ref target="#d4617e28864 #d4617e28892">2</ref>
+               <label>donec ... redigantur</label>
+               <p>Man hoffte offenbar auf eine rasche Beilegung des Streits. Tatsächlich sollte sich diese noch bis 1718 hinziehen; Grass’ Aufenthalt in Wien war dagegen recht kurz, vgl. 316 &lt;5&gt;.</p>
+            </note>
+            <note xml:id="d4617e28932" target="#d4617e28864 #d4617e28892">
+               <ref target="#d4617e28864 #d4617e28892">2</ref>
+               <label>Quocirca ... nullus dubito</label>
+               <p>Der Brief Dietmayrs an Bürgisser ist erhalten in StiA St. Gallen, Bd. 1607, 270–271. Er entschuldigt darin die Unmöglichkeit der Aufnahme von St. Galler Exulanten mit der „moles aedificii tam ecclesiastici quam claustralis, ob quam ipsi religiosi in commune cubiculum, imo quodammodo in angulos coarctari debent“, und erklärt sich bereit, die Unterbringung und Verpflegung von Grass für mindestens ein Jahr zu begleichen. Unter der Korrespondenz Dietmayrs in Melk (StiA Melk, Karton 3 Äbte 5) finden sich zwei Briefe Bürgissers, die ebenfalls vornehmlich von der Aufnahme Grass’ durch Dietmayr handeln: Am 5. August 1712 dankt Bürgisser für das Angebot Dietmayrs, für Grass’ Unterbringung auf eigene Kosten zu sorgen („de victu hospitioque suis sumptibus paterne prospicere gratiose promiserit“), am 13. Dezember desselben Jahres, nach Grass’ Abreise aus Wien, dankt er nochmals für „die generosität, die sye meinem capitularen und statthalter zue Ebringen pater Lucas guethätig in Wien erwiesen“.</p>
+            </note>
+            <note xml:id="d4617e28937" target="#d4617e28866 #d4617e28894">
+               <ref target="">3</ref>
+               <label>Acta ... Elogium</label>
+               <p>BP wiederholt seine Fragen aus 259, weil er die Antwort (260) nicht erhalten hat.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

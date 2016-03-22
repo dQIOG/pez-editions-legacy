@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[90] Mauro Aspini an Bernhard Pez. &lt; 1710-07-24. Ferrara.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">90</id>
+         <deduced xmlns="">true</deduced>
+         <sender xmlns="">Mauro Aspini</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">&lt; 1710-07-24</date>
+         <place-of-posting xmlns="">Ferrara</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="editorialNote">
+            <p>Bezüge: Erwähnt in 91, 108.</p>
+            <correspContext>
+               <ref type="mentionedIn">
+                  <label>Erwähnt in </label>
+                  <idno>91</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>108</idno>
+               </ref>
+            </correspContext>
+         </div>
+      </front>
+      <body>
+         <ab>
+            <gap reason="letter missing"/>
+         </ab>
+      </body>
+      <back/>
+   </text>
+</TEI>

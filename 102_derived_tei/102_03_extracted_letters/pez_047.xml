@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">47 Kilian Düring an Bernhard Pez. 1710-03-02. Banz.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">47</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Kilian Düring</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1710-03-02</date>
+         <place-of-posting xmlns="">Banz</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e4850">BPs Brief <ref type="letter">46</ref> ist zwar schon früher in Banz angekommen, <persName>
+                     <abbr>KD</abbr>
+                  </persName> konnte jedoch aufgrund von Geschäften für sein Kloster in Würzburg nicht eher antworten.</seg>
+               <seg type="context" n="2" xml:id="d4617e4855">Auch kann er nicht viel zur „Bibliotheca Benedictina“ beitragen, weil sein allzu nahe am protestantischen Sachsen gelegenes Kloster zur Zeit des Dreißigjährigen Krieges (bellum Suecicum) zerstört, zahlreiche Mönche getötet und die Bibliothek sowie die Glocken geraubt wurden. Deshalb ist über die früheren Mönche und ihre Handschriften oder Druckwerke nichts bekannt.</seg>
+               <seg type="context" n="3" xml:id="d4617e4857">Was an Kenntnissen über die Banzer Professen noch vorhanden sein mag, ist so unsicher, dass es <persName>
+                     <abbr>KD</abbr>
+                  </persName> lieber übergeht. <persName>
+                     <abbr>KD</abbr>
+                  </persName> dankt <persName>
+                     <abbr>BP</abbr>
+                  </persName> für das Bemühen um den guten Ruf von Banz.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: I, 238r–v.</p>
+            <p>Literatur: Katschthaler, Briefnachlass 13.</p>
+            <p>Bezüge: 46. Erwähnt 46.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>46</idno>
+               </ref>
+               <ref type="mentions">
+                  <label>Erwähnt </label>
+                  <idno>46</idno>
+               </ref>
+            </correspContext>
+            <p>Adresse: <hi rend="italic">Admodum reverendo religiosissimo ac doctissimo patri patri Bernardo Pez ordinis sancti patris Benedicti amplissimi et exempti monasterii Mellicensis professo et bibliothecario ad fraternas manus et proprias. Viennae</hi>. Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 152r.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Admodum reverende religiosissime et doctissime domine pater.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e4876"> Humanissimas admodum reverendae <seg type="lemma" corresp="#d4617e4889">paternitatis vestrae literas</seg> iam pridem recte quidem delatas Banthum fuisse non abnego; doleo autem, quod propter absentiam meam, dum Herbipoli in mei monasterii negotiis aeque diutius detentus fui ac impeditus, magis prompte respondere non potuerim, quapropter excusatum me benigne habeat </seg>
+               <seg type="context" n="2" xml:id="d4617e4878"> ac tuto credat me quam libentissime quidem pro sacri ordinis decore ac bono velle communicare, quae specifice desideravit Bibliothecae suae Benedictinae iam pridem inchoatae inserere: verum cum non entis nullae sint qualitates aut quantitates, eo quod <seg type="lemma" corresp="#d4617e4896">monasterium meum tempore belli Suecici ultra 30 annos continuati, utpote Saxonibus acatholicis nimis quam vicinum, ex toto eversum</seg>, destructum, et excellens bibliotheca ablata, religiosi occisi, campanae ad partes heterodoxas translatae, atque nobis successoribus nil aliud remanserit quam ruinae ac desolationes, sic summopere <pb n="1v"/> contristor, quod nullam de antecessoribus nostris eorumque manuscriptis aut etiam typo evulgatis habere valeam notitiam. </seg>
+               <seg type="context" n="3" xml:id="d4617e4882"> Eae autem, quae forte superesse possent professorum huius loci notitiae aut qualitates, cum certa fide non constare valeant, tutius silentio praetereunda censeo; atque pro optima, qua monasterio meo admodum reverenda dominatio vestra intendebat consulere, bona fama immortales refero gratias; dum sum et maneo</seg>
+            </p>
+            <p>Admodum reverendae et religiosissimae paternitatis vestrae obligatissimus in Christo servus Chilianus abbas manu propria.</p>
+            <p>Banth 2. Martii 1710.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e4889" target="#d4617e4850 #d4617e4876">
+               <ref target="">1</ref>
+               <label>paternitatis vestrae literas</label>
+               <p>Wie aus einem Brief des Michelsberger Priors Candidus Klitsch (I, 451r–452v; Näheres dazu: vgl. 76) hervorgeht, hatte dieser die Enzyklik erhalten und an KD weitergeleitet, der sie später wieder an Klitsch zurücksendete.</p>
+            </note>
+            <note xml:id="d4617e4896" target="#d4617e4855 #d4617e4878">
+               <ref target="">2</ref>
+               <label>monasterium ... eversum</label>
+               <p>Banz wurde 1633 von schwedischen Truppen besetzt, wobei u. a. die Bücher der Bibliothek als Kriegsbeute ins Coburgische verschleppt und verkauft wurden: vgl. Hemmerle, Benediktinerklöster 58; Hotz, Banz 27; Raggenbass, Reformprogramm 197; Schemmel, Bibliothek 206.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">237 Petrus Friderici an Bernhard Pez. 1712-04-14. Erfurt.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">237</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Petrus Friderici</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1712-04-14</date>
+         <place-of-posting xmlns="">Erfurt</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e24696">
+                  <persName>
+                     <abbr>BP</abbr>
+                  </persName> hat PFs Anfrage zu „Ludolf von Erfurt“ (224; recte: Liutolf von Mainz) zur Zufriedenheit beantwortet <ref type="letter">236</ref>: Die Angabe über dessen Lebenszeit passt zum Datum der Reliquientranslation des Hl. Severus, welche nach dem „Chronicon Ecclesiasticum“ des Nikolaus von Siegen im Jahr 836 durch den Mainzer Erzbischof Otgar unter der Herrschaft Kaiser Ludwigs des Frommen stattfand. Die Severus-Reliquien wurden am 11. November (recte: 22. Oktober) in das Benediktinerinnenkloster St. Paul gebracht, das am Fuße des Petersberges lag. Die Benediktinerinnen wurden 1124 von Erzbischof Adalbert durch Chorherren ersetzt, die sich nach der neuen Severus-Kirche Severianer nannten (recte: siehe Kommentar). Dass Wion (im „Lignum vitae“) Ludolf als Angehörigen des Reformverbandes von Fleury (congregatio Floriacensis) bezeichnet, scheint <persName>
+                     <abbr>PF</abbr>
+                  </persName> nicht abwegig, da das Peterskloster als Gründung des Frankenkönigs Dagobert III. stets Kontakte zu den westfränkischen Klöstern unterhielt, zumal damals die Frankenkönige auch über Thüringen herrschten und es in „Deutschland“ wenige Klöster gab.</seg>
+               <seg type="context" n="2" xml:id="d4617e24701">Die Angaben zu Ludolf kommen <persName>
+                     <abbr>PF</abbr>
+                  </persName> gelegen, da ihn Felix Egger aus Petershausen um Argumente gegen die Kritik des Trithemius an der Petrenser Gründungsurkunde im „Chronicon monasterii Hirsaugiensis“ und im „Compendium sive Breviarium“ gebeten hat. <persName>
+                     <abbr>PF</abbr>
+                  </persName> hat Egger bereits eine neue Darstellung des Petersklosters gesendet, eine genauere Abbildung soll bald folgen.</seg>
+               <seg type="context" n="3" xml:id="d4617e24703">Ein grober Fehler an der Gründungsurkunde besteht darin, dass die Jahreszahl 706 nicht mit der 9. Indiktion übereinstimmt, sondern – wie Trithemius schreibt – die 4. richtig wäre. <persName>
+                     <abbr>PF</abbr>
+                  </persName> weiß dafür keine bessere Erklärung als eine Unachtsamkeit des Schreibers; er bittet <persName>
+                     <abbr>BP</abbr>
+                  </persName> um mögliche bessere Vorschläge.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: I, 374r–v.</p>
+            <p>Bezüge: 236. 247. Erwähnt 224, 236.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>236</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>247</idno>
+               </ref>
+               <ref type="mentions">
+                  <label>Erwähnt </label>
+                  <idno>224</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>236</idno>
+               </ref>
+            </correspContext>
+            <p>Nummerierung: <hi rend="italic">V</hi>.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Admodum reverende ac eximie domine confrater.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e24720"> Petitioni meae quoad <seg type="lemma" corresp="#d4617e24739">Ludulphum</seg> nostrum plene a reverentia vestra satisfactum est; tempus vitae eius translationi sacrarum reliquiarum sancti Severi quadrat; ea enim contigit, <seg type="lemma" corresp="#d4617e24746">iuxta annales</seg> reverendi patris Nicolai de Siegen, anno 836, agente Otgario archiepiscopo Moguntino et Ludovico Pio imperatore. (Nota:) Collocatae fuerunt hae sacrae reliquiae die 11. Novembris in monasterio S. Pauli sanctimonialium ordinis nostri, sito tunc ad pedem Montis S. Petri. <seg type="lemma" corresp="#d4617e24751">Translatae autem inde sunt moniales 1124</seg> per Adalbertum archiepiscopum Moguntinum ac loco erarum [<hi rend="italic">sic</hi>] locati canonici dicti Severiani, eo quod novum ibidem exstructum templum honori sancti Severi dedicatum sit. Quod Wion <seg type="lemma" corresp="#d4617e24739">Ludulphum</seg> Floriacensis congregationis monachum dicat, mihi nullatenus videtur peregrinum, cum semper monasterium nostrum cum Gallicis habuerit correspondentiam eam ob causam, quod a Dagoberto secundo Franciae rege esset fundatum, iisque temporibus Thuringiae a Galliae regibus imperaretur, et perpauca essent in Germania coenobia. <pb n="1v"/> 
+               </seg>
+               <seg type="context" n="2" xml:id="d4617e24727"> Oportune etiam mihi nunc venit instructio ista de Ludolpho, ubi admodum reverendus <seg type="lemma" corresp="#d4617e24761">pater Felix Egger</seg> Peterhusanus, dominationi vestrae non ignotus, a me exigit argumenta, quibus <seg type="lemma" corresp="#d4617e24768">Trithemius contra fundationem nostram Dagobertianam in Chronico suo Hirsaugiensi</seg> et <seg type="lemma" corresp="#d4617e24773">Regum Galliae historia</seg> scribens impugnetur. Descriptionem novam monasterii nostri iam tum benefato domino transmisi, aliam item exactiorem loci deliniationem [<hi rend="italic">sic</hi>] cum refutatione Trithemii proxime transmittam. </seg>
+               <seg type="context" n="3" xml:id="d4617e24732"> Error gravis in diplomate fundationis nostrae Dagobertino invenitur, quo ad positionem indictionis inscribitur annus 706 et ponitur indictio nona, cum tamen dicto anno, ut ait Trithemius, fuerit quarta; nescio sane errorem contegere, nisi incuriam scribae attexendo; suggerat, velim, reverentia vestra, si quid congruentius inveniat. Ad reciproca paratissimus</seg>
+            </p>
+            <p>Plurimum reverendae dominationis vestrae servus pater Petrus Friderici professus Petrensis manu propria.</p>
+            <p>Erffurti 14. Aprilis 1712.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e24739" target="#d4617e24696 #d4617e24720">
+               <ref target="">1</ref>
+               <label>Ludulphum</label>
+               <p>Vgl. 224 &lt;1&gt;.</p>
+            </note>
+            <note xml:id="d4617e24746" target="#d4617e24696 #d4617e24720">
+               <ref target="#d4617e24696 #d4617e24720">1</ref>
+               <label>iuxta annales</label>
+               <p>Chronicon Ecclesiasticum Nicolai de Siegen 168; dort allerdings mit dem Datum „undecimo Kal. Novembris“ (22. Oktober), woraus PF den 11. November macht.</p>
+            </note>
+            <note xml:id="d4617e24751" target="#d4617e24696 #d4617e24720">
+               <ref target="#d4617e24696 #d4617e24720">1</ref>
+               <label>Translatae ... moniales 1124</label>
+               <p>Chronicon Ecclesiasticum Nicolai de Siegen 293f.; dort zu 1123. Ein anderer Beleg für die Verlegung des Benediktinerinnenklosters ist nicht bekannt, vgl. Overmann, Urkundenbuch 1 16 Nr. 20. Das Kanonikerstift St. Severus existierte bereits vor dieser Zeit (ebd. 12f. Nr. 16); auch bietet der Bericht des Nikolaus von Siegen keine Handhabe für die anscheinend von PF vorgenommene Interpretation, die Benediktinerinnen seien durch Chorherren ersetzt worden.</p>
+            </note>
+            <note xml:id="d4617e24756" target="#d4617e24696 #d4617e24720">
+               <ref target="#d4617e24696 #d4617e24720">1</ref>
+               <label>Quod Wion ... dicat</label>
+               <p>Wion, Lignum Vitae 1 435: „Frater Ludolphus Germanus monachus Erfordiensis congregationis Floriacensis, anno Domini 840, scripsit Sermonem de vita et translatione sancti Severi episcopi Ravennatis ad Erphordiam“. Die Rolle Fleurys als Zentrum von Reformbewegungen setzte freilich nicht vor dem 10. Jh. ein. Zur vermeintlichen dagobertinischen Gründung des Petersklosters vgl. 150 &lt;1&gt;.</p>
+            </note>
+            <note xml:id="d4617e24761" target="#d4617e24701 #d4617e24727">
+               <ref target="">2</ref>
+               <label>pater Felix Egger</label>
+               <p>Möglicherweise hatte die von Egger versprochene Weiterleitung einer Enzyklik BPs an PF (vgl. 231) diesen schon erreicht. Egger war jedoch, wie die Erwähnung der versendeten „descriptio“ und noch nachzureichenden „delineatio“ nahelegt, entweder zugleich oder bereits zuvor offenbar auch im Zusammenhang mit der Sammlung von Informationen für seine „Idea ordinis hierarchico-Benedictini“ an PF herangetreten. Vgl. 281 &lt;6&gt;. – Egger berichtete René Massuet vom Erhalt der „descriptio“ in einem Schreiben vom 14. April 1712 (BN FF 19664, 119r–120v). Darin sind auch Anmerkungen PFs gegen Trithemius betreffend das Dagobertinum in einiger Länge wiedergegeben.</p>
+            </note>
+            <note xml:id="d4617e24768" target="#d4617e24701 #d4617e24727">
+               <ref target="#d4617e24701 #d4617e24727">2</ref>
+               <label>Trithemius ... Chronico suo Hirsaugiensi</label>
+               <p>Trithemius, Chronicon monasterii Hirsaugiensis (ed. Freher) 2 65 (knapp und ohne Eingehen auf die Urkunde); Trithemius, Annales Hirsaugienses 1 226. Vgl. 248 &lt;2&gt;.</p>
+            </note>
+            <note xml:id="d4617e24773" target="#d4617e24701 #d4617e24727">
+               <ref target="#d4617e24701 #d4617e24727">2</ref>
+               <label>Regum Galliae historia</label>
+               <p>Trithemius, Compendium sive Breviarium s. p. unter den Ausführungen zu Chlotar IV. Vgl. 248 &lt;1&gt;.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">194 Blasius Bender an Bernhard Pez. 1711-12-08. St. Blasien.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">194</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Blasius Bender</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1711-12-08</date>
+         <place-of-posting xmlns="">St. Blasien</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e20184">
+                  <persName>
+                     <abbr>BB</abbr>
+                  </persName> bestätigt den Erhalt des Briefs BPs vom 28. Oktober <ref type="letter">189</ref> und des diesem beigeschlossenen Schreibens an René Massuet in St.-Germain <ref type="letter">190</ref>, welches er über Straßburg nach Paris weitergesendet hat.</seg>
+               <seg type="context" n="2" xml:id="d4617e20192">
+                  <persName>
+                     <abbr>BB</abbr>
+                  </persName> hat den St. Blasianer Bibliothekar (Augustin Brunner?) aufgefordert, gemäß BPs Wunsch einen Schriftstellerkatalog von St. Blasien anzufertigen, der allerdings dünn ausfallen wird. Wenn er BPs Vorhaben („Bibliotheca Benedictina“) noch in anderer Weise unterstützen kann, so kann dieser auf ihn zählen. <persName>
+                     <abbr>BB</abbr>
+                  </persName> schließt mit guten Wünschen für ein gesegnetes Weihnachtsfest und ein glückliches Neues Jahr.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: I, 255r–v.</p>
+            <p>Bezüge: 189. 253. Erwähnt 189, 190.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>189</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>253</idno>
+               </ref>
+               <ref type="mentions">
+                  <label>Erwähnt </label>
+                  <idno>189</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>190</idno>
+               </ref>
+            </correspContext>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine pater, patrone observandissime.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e20204"> Habeo signatas 28. Octobris una cum accclusis [<hi rend="italic">sic</hi>] <seg type="lemma" corresp="#d4617e20216">ad reverendum patrem Masuet</seg> San-Germanensem; has per Argentoratum secura via Parisios direxi, quo sine dubio secure pervenerint. </seg>
+               <seg type="context" n="2" xml:id="d4617e20209"> Monui insuper patrem <seg type="lemma" corresp="#d4617e20223">bibliothecarium nostrum</seg>, ut paternitati vestrae plurimum reverendae quantocyus satisfaciat; promisit ille operam suam in describendo cathalogo quamvis admodum brevi. Si plurimum reverenda paternitas vestra me idoneum iudicet eiusdem sanctissimam et laudatissimam intentionem quovis modo promovendi, iubeat parato mandetque promptissime obsequuturo. Ferias interim Natalitias Christi Domini annumque proxime oriturum paternitati vestrae admodum reverendae felicissimum ac undequaque beatum ex intimo affectu precor. Quibus me paterno affectui inclusum rogo maneoque</seg>
+            </p>
+            <p>Plurimum reverendae paternitatis vestrae paratissimus et addictissimus servus Blasius Bender.</p>
+            <p>Ex S. Blasio Sylvae Hercyniae 8. Decembris 1711.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e20216" target="#d4617e20184 #d4617e20204">
+               <ref target="">1</ref>
+               <label>ad reverendum patrem Masuet</label>
+               <p>Während des Jahres 1711 war die Korrespondenz BPs mit Moritz Müller in St. Gallen, welcher zu dieser Zeit auch jene zwischen BP und Massuet vermittelte, wegen einer Abwesenheit Müllers längere Zeit hindurch unterbrochen (vgl. 192 &lt;1&gt;, 204 &lt;1&gt;). Vermutlich deshalb war BP an BB herangetreten, von dem er wohl bereits wusste, dass dieser neben den Interessen seines eigenen Klosters auch die St. Gallens in Wien vertrat (vgl. 327 &lt;7&gt;). Das von BB nach Paris weitergeleitete Schreiben kam dort nach der Erwähnung in 205 &lt;1&gt; in den ersten Tagen des Dezember an.</p>
+            </note>
+            <note xml:id="d4617e20223" target="#d4617e20192 #d4617e20209">
+               <ref target="">2</ref>
+               <label>bibliothecarium nostrum</label>
+               <p>Der Katalog der St. Blasianer Amtsträger von Stanislaus Wülberz (StiB Einsiedeln, Cod. 577) verzeichnet keine Bibliothekare; als Archivar scheint dort seit dem 26. Juli 1711 der spätere Abt Franz Schechtelin auf, der wiederum mit 31. Dezember 1711 durch Johann Evangelist Stocker ersetzt wurde: ebd. 156. Gemeint ist hier aber wahrscheinlich Augustin Brunner, der in 253 (im Juli 1712) schreibt, er sei „einige Monate zuvor“ mit der Abfassung eines Schriftstellerkatalogs betraut worden. – Der Brief BPs an BB (189) muss zumindest Elemente einer LE 2, jedenfalls aber die Aufforderung zur Mitarbeit an der „Bibliotheca Benedictina“ enthalten haben. Dass BB während seiner Aufenthalte in Wien schon zuvor mit Melkern in Kontakt gewesen war, ist nicht belegt, aber anzunehmen.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

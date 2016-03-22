@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">3 Ambros Dietmayr an Bernhard Pez. 1709-09-10. Admont.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">3</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Ambros Dietmayr</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1709-09-10</date>
+         <place-of-posting xmlns="">Admont</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e147">
+                  <persName>
+                     <abbr>AD</abbr>
+                  </persName> begrüßt im Namen des ganzen Admonter Konvents BPs Vorhaben („Bibliotheca Benedictina“), von dem er durch dessen Brief <ref type="letter">2</ref> erfahren hat.</seg>
+               <seg type="context" n="2" xml:id="d4617e152">Hätte es die Zeit zugelassen, so hätte <persName>
+                     <abbr>AD</abbr>
+                  </persName> gerne bereits einen Katalog der Admonter Schriftsteller durch die Melker Gäste (Dominikus Kefer und Adalbert Eder) übersendet. Nun will er sich in Bälde um die Auswahl und Übersendung kümmern.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: I, 350r–v.</p>
+            <p>Literatur: Katschthaler, Briefnachlass 12.</p>
+            <p>Bezüge: 2. 122. Erwähnt 2.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>2</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>122</idno>
+               </ref>
+               <ref type="mentions">
+                  <label>Erwähnt </label>
+                  <idno>2</idno>
+               </ref>
+            </correspContext>
+            <p>Adresse: <hi rend="italic">Admodum reverendo religiosissimo ac clarissimo patri Bernardo Pez ordinis sancti patris Benedicti florentissimi asceterii Mellicensis professo, sacrae theologiae baccalaureo, domino plurimum colendo. Mellicii</hi>. Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 151r.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Admodum reverende religiosissime ac clarissime pater, domine plurimum colende.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e171"> Laudatissimo admodum reverendae dominationis vestrae desiderio, quod per officiosissimam epistolam novissime mihi exposuit, morem geram tanto libentius, quanto maiori solatio una mecum Admontenses omnes perfundit ferventissimus ille admodum reverendae dominationis vestrae zelus pro amplianda sacri Benedictini ordinis gloria. </seg>
+               <seg type="context" n="2" xml:id="d4617e173"> Misissem omnino per gratissimos hos <seg type="lemma" corresp="#d4617e182">dominos hospites nostros</seg> desideratum <seg type="lemma" corresp="#d4617e189">Admontensium scriptorum elenchum</seg>, nisi angustiae temporis concepto illico proposito remoram iniecissent. Adpromitto igitur me proxime ea submissurum, quae praefixo scriptionis scopo deservientia <pb n="1v"/> atque ad rem futura iudicavero, interim optatissimum votorum exitum et constantem sospitatem ex animo apprecans.</seg>
+            </p>
+            <p>Admodum reverendae ac colendissimae dominationis vestrae servus in Christo paratissimus pater Ambrosius Dietmayr Admontensis professus sacerdosque.</p>
+            <p>Admontes S. Blasii 10. Septembris 1709.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e182" target="#d4617e152 #d4617e173">
+               <ref target="">2</ref>
+               <label>dominos hospites nostros</label>
+               <p>Wohl die beiden Melker Patres Dominikus Kefer und Adalbert Eder, welche am 26. August 1709 zu einer Reise in die Steiermark aufgebrochen waren, wozu sie von Abt Dietmayr die Erlaubnis zu einer dreiwöchigen Abwesenheit erhalten hatten. Das Datum ihrer Rückkehr ist nicht überliefert, doch wird Kefer am 22. September wieder in Melk vermerkt (PE 5 20, 22). In Admont sind für die fragliche Zeit keine Prioratsephemeriden oder vergleichbare Aufzeichnungen erhalten, aus welchen sich ein Aufenthalt bestätigen ließe; für diese Auskunft danken die Autoren Johann Tomaschek (Admont).</p>
+            </note>
+            <note xml:id="d4617e189" target="#d4617e152 #d4617e173">
+               <ref target="#d4617e152 #d4617e173">2</ref>
+               <label>Admontensium scriptorum elenchum</label>
+               <p>Anscheinend wurde der Katalog vor Oktober 1710 übermittelt, da AD in 122 offenbar auf eine Nachfrage BPs dazu reagiert. Er trägt den Titel „Brevis elenchus insignium virorum, qui [...] sese [...] in monasterio Admontensi conspicuos reddidere“, und ist überliefert in I, 357r–361v (mit Ordnungsvermerk „223“); sowie abschriftlich in StiA Melk, Karton 7 Patres 9, Abschriftencodex 2v–6r. Genannt werden darin: Abt Gottfried I.; Abt Irimbert; Abt Engelbert; „Modest Preinger“ (angeblich fl. 1537; vgl. 122); Simon Huebmann; Friedrich Schumius; Edmund Manincor de Cassez; Michael Seitz; Ignaz von Clavenau; Georg von Leutzendorf; Abt Marian Lendlmayr von Lendenfeld; Cölestin Romoser von Romosegg; Alan Pfeifer; Karlmann Vierholz; Rochus Schroz; Ildephons Lehrer. Die biographischen Angaben im Register nach Kinnast, Album Admontense 72–91; Wichner, Kloster Admont 9–21 (Gottfried, Irimbert), 37–47 (Engelbert), 89–141 (17. und frühes 18. Jh.); außerdem StiA Admont, Aaa 4/d; Aaa 4/e; Aaa 4/g; Aaa 4/l (Professenkataloge); StiA Admont, A 114 (Ecker, Elenchus officialium); StiA Admont, ohne Signatur (Wichner, Verzeichniss). Zu Gottfried vgl. Faust, Gottfried; zu Engelbert vgl. Ubl, Engelbert. Zu Seitz, Manincor, Lendlmayr, Pfeifer, Romoser vgl. Bauer, Thomistische Metaphysik 20, 254–256, 777, 781, 784, 789; Kolb, Präsidium 125, 127, 131–133, 144f., 154f.; Sattler, Collectaneen-Blätter 206, 211f., 254f., 266–268.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

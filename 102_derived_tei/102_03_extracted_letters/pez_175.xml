@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">175 Ildephons Rucker an Bernhard Pez. 1711-07-01. Wien.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">175</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Ildephons Rucker</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1711-07-01</date>
+         <place-of-posting xmlns="">Wien</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e18325">
+                  <persName>
+                     <abbr>IR</abbr>
+                  </persName> reagiert spät auf die Wünsche BPs und fürchtet, dass das Gesendete (Rucker, „Summaria notitia“) nicht dessen Erwartungen entspricht, weil, wie <persName>
+                     <abbr>IR</abbr>
+                  </persName> bereits jüngst geschrieben hat <ref type="letter">174</ref>, sein Abt Karl Fetzer nicht erlaubt, dass mehr aus dem Archiv mitgeteilt wird. Dafür hat Fetzer einerseits eigene Gründe, andererseits plant er selbst eine Hausgeschichte des Schottenklosters zu Wien.</seg>
+               <seg type="context" n="2" xml:id="d4617e18330">Für die späte Antwort IRs sind seine zahlreichen Verpflichtungen verantwortlich, besonders die Predigttätigkeit. <persName>
+                     <abbr>BP</abbr>
+                  </persName> soll das Übermittelte korrigieren, bevor er es (nach Paris an René Massuet) weiterleitet, und mitteilen, falls noch weitere Hilfestellungen gewünscht werden, was allerdings von der Zustimmung Abt Fetzers abhängt.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: BN FF 19664, 268r–v.</p>
+            <p>Literatur: Lecomte, Publication 270 (als Brief an Massuet); Stockinger, Felix mansurus 181.</p>
+            <p>Bezüge: 174. Wohl versendet von Melk bis Paris mit 177. Erwähnt 174.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>174</idno>
+               </ref>
+               <ref type="sentWith">
+                  <label>Wohl versendet von Melk bis Paris mit </label>
+                  <idno>177</idno>
+               </ref>
+               <ref type="mentions">
+                  <label>Erwähnt </label>
+                  <idno>174</idno>
+               </ref>
+            </correspContext>
+            <p>Bemerkungen: Der Brief ist unter der Korrespondenz René Massuets überliefert; eine Adresse ist nicht erhalten. Der Inhalt lässt allerdings darauf schließen, dass er nicht an Massuet gerichtet, sondern BP der Adressat war. Insbesondere die Aufforderung zur Weitersendung des Übermittelten legt dies nahe. BP dürfte den Brief – gemeinsam mit mehreren weiteren (144, 145, 151, 171, 173) – an Massuet weitergesendet haben, wohl mit 177.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Admodum reverende religiosissime ac eximie pater!</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e18346"> Obsequor tandem petitis et respondeo promissis: sed forte non ea satisfactione, quam admodum reverenda paternitas gloriae Benedictinae promovendae studiosissima sperabat. Verum, quod iam nuper scripseram, meus reverendissimus dominus non iudicavit plura ex archivo communicanda de rebus nostri monasterii, quam ea ipsa, <seg type="lemma" corresp="#d4617e18357">quae transmitto</seg>: tum ob rationes sibi reservatas, tum quia Superis faventibus cogitat ipsemet per suorum aliquem posteritati chronicon aut <seg type="lemma" corresp="#d4617e18364">fastos monasterii Scotensis transscribere</seg>. </seg>
+               <seg type="context" n="2" xml:id="d4617e18348"> Quod vero tam tarde utcunque satisfaciam promissis meis, inter alias causas me impedierunt <pb n="1v"/> continui labores et distractiones, quibus adeo in diversa trahebar studia, ut quandoque vix diem habuerim pro <seg type="lemma" corresp="#d4617e18369">concione ordinaria</seg> dominicali scribenda, ut taceam de concursu quandoque plurium concionum. Rogo igitur humiliter, ut admodum reverenda paternitas mihi non succenseat, sed mecum condescendat et hasce paginas transmissas sua prius virgula censoria correptas ulterius promoveat. Si quid forte visum fuerit a me deinceps praestari posse, animum quidem offero promptum, sed reverendissimi domini mei arbitrio determinandum. Commendo me piis suffragiis et maneo</seg>
+            </p>
+            <p>In Christo obsequentissimus servus pater Ildefonsus Rucker indignus professus Beatae Virginis ad Scotos.</p>
+            <p>Viennae 1. Julii 1711.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e18357" target="#d4617e18325 #d4617e18346">
+               <ref target="">1</ref>
+               <label>quae transmitto</label>
+               <p>Die Abhandlung unter dem Titel „Summaria notitia monasterii beatae virginis Mariae vulgo ad Scotos Viennae Austriae“ ist abschriftlich überliefert in StiB Melk, Cod. 396, 92r–93r; vgl. Glassner, Handschriften 87. IR ist dort ausdrücklich als Verfasser genannt und das Datum 1. Juli 1711 angegeben. Zur Weiterversendung nach Paris vgl. 177 &lt;9&gt;.</p>
+            </note>
+            <note xml:id="d4617e18364" target="#d4617e18325 #d4617e18346">
+               <ref target="#d4617e18325 #d4617e18346">1</ref>
+               <label>fastos monasterii Scotensis transscribere</label>
+               <p>Dieses Vorhaben scheint nicht zur Ausführung gelangt zu sein. Im Archiv des Schottenstifts finden sich keine Hinweise darauf; für die Recherche danken die Autoren dem Stiftsarchivar Michael Czernin. Nach Pez, Epistolae apologeticae 20, hatte IR selbst vor seinem Tod 1713 an einer Hausgeschichte gearbeitet: „Loci chronicon molitus fuit admodum reverendus dominus Ildephonsus Rucker, doctissimus ibidem coenobita, quem novissima eheu pestilentia abstulit“.</p>
+            </note>
+            <note xml:id="d4617e18369" target="#d4617e18330 #d4617e18348">
+               <ref target="">2</ref>
+               <label>concione ordinaria</label>
+               <p>IR hatte nach Beendigung seiner Lehrtätigkeit am Hausstudium längere Zeit das Amt eines Stiftspredigers inne: Hübl, Geschichte des Unterrichtes 91. Eine Predigt von 1707 ist auch gedruckt erhalten: Adolph, Chronicum literarium 18f.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

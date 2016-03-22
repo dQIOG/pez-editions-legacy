@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[212] Bernhard Pez an Placidus Haiden. LE 2. &lt; 1712-02-27.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">212</id>
+         <deduced xmlns="">true</deduced>
+         <sender xmlns="">Bernhard Pez</sender>
+         <recipient xmlns="">Placidus Haiden. LE 2</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">&lt; 1712-02-27</date>
+         <place-of-posting xmlns=""/>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="editorialNote">
+            <p>Bezüge: 203. 214. Erwähnt in 214.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>203</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>214</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <label>Erwähnt in </label>
+                  <idno>214</idno>
+               </ref>
+            </correspContext>
+         </div>
+      </front>
+      <body>
+         <ab>
+            <gap reason="letter missing"/>
+         </ab>
+      </body>
+      <back/>
+   </text>
+</TEI>

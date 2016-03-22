@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">286 Benedikt Kistler an Bernhard Pez. 1712-11-14. Augsburg (St. Ulrich und Afra).</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">286</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Benedikt Kistler</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1712-11-14</date>
+         <place-of-posting xmlns="">Augsburg (St. Ulrich und Afra)</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e30890">
+                  <persName>
+                     <abbr>BK</abbr>
+                  </persName> hat von seinem Abt Willibald Popp den Auftrag erhalten, zu BPs Vorhaben („Bibliotheca Benedictina“) beizutragen. Er verspricht, alles Relevante einzusenden, das er in seinem Kloster finden kann, und kündigt an, dass dabei viel sein wird, was zum Ruhm Melks beiträgt, dem St. Ulrich und Afra besonders verbunden ist.</seg>
+               <seg type="context" n="2" xml:id="d4617e30892">In einem Postskriptum übermittelt <persName>
+                     <abbr>BK</abbr>
+                  </persName> die Grüße und Erfolgswünsche seines Abtes.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: I, 31r–v.</p>
+            <p>Adresse: <hi rend="italic">Admodum reverendo religiosissimo ac clarissimo domino patri Bernardo Pez ordinis sancti Benedicti celeberrimi ac exempti monasterii Mellicensis Inferioris Austriae professo et bibliothecario, patri ac patrono suo colendissimo. Wienn.</hi> Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 151v.</p>
+            <p>Bemerkungen: Woher Abt Popp von BPs Vorhaben wusste, ist nicht ersichtlich. Der Erhalt einer LE 2 ist wahrscheinlich, aber nicht sicher, weshalb kein erschlossener Vorbrief angesetzt wird.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Admodum reverende religiosissime ac clarissime domine pater Bernarde, patrone colendissime.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e30909"> In mandatis habeo a reverendissimo <seg type="lemma" corresp="#d4617e30921">meo domino domino abbate</seg> servire laudatissimae intentioni clarissimae suae paternitatis, dum cogitat tale opus congerere, quo peculiari modo illustrabitur noster sanctus isque vere benedictus ordo. Subministrabo in finem desideratum ex hoc loco, quaecunque invenire potero, confido quoque profutura in singulare encomium celeberrimi <seg type="lemma" corresp="#d4617e30928">archisterii Mellicensis</seg>, cui specialiter obstrictum est nostrum monasterium Sanct-Ulricanum; ego vero indignum eiusdem membrum cum ad praefati archisterii vivo, <pb n="1v"/> tum ad perpetua servitia</seg>
+            </p>
+            <p>Admodum reverendae clarissimae paternitatis paratissimus pater Benedictus Kistler subprior manu propria.</p>
+            <p>Augustae ad Sanctos Udalricum et Affram. 14. Novembris anno 1712.</p>
+            <p>
+               <seg type="context" n="2" xml:id="d4617e30918"> P.S. Meus reverendissimus dominus dominus praesul peramice salutat admodum reverendam suam paternitatem et omnem ad vota peroptat bonum successum.</seg>
+            </p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e30921" target="#d4617e30890 #d4617e30909">
+               <ref target="">1</ref>
+               <label>meo ... abbate</label>
+               <p>Zu Willibald Popp: Lindner, Memoriale San-Ulricanum 8 41f. Er hatte selbst in Dillingen und am Collegium Germanicum in Rom studiert und soll großes Interesse für gelehrte Arbeiten besessen haben: Veith, Bibliotheca Augustana 7 128f.</p>
+            </note>
+            <note xml:id="d4617e30928" target="#d4617e30890 #d4617e30909">
+               <ref target="#d4617e30890 #d4617e30909">1</ref>
+               <label>archisterii Mellicensis</label>
+               <p>St. Ulrich und Afra nahm ab 1441 die Melker Reform an und wurde ein „Zentrum der regulären Lebensweise sowie Umschlageplatz für die liturgischen Behelfe“: Angerer, Reform von Melk 291; vgl. ebd. 275f., 288f., 301; Niederkorn-Bruck, Melker Reform 210f.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

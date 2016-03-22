@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">38 Roman Doll an Bernhard Pez. 1710-02-11. Wiblingen.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">38</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Roman Doll</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1710-02-11</date>
+         <place-of-posting xmlns="">Wiblingen</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e3975">
+                  <persName>
+                     <abbr>RD</abbr>
+                  </persName> hat BPs Brief <ref type="letter">37</ref> am Abend des Vortages mitsamt dem beigelegten Buch („De irruptione Bavarica“) durch den Melker Boten erhalten. Er dankt für das Geschenk, das er seinem Abt Modest Huber zeigen wird, sobald dieser von einer Reise zurückgekehrt ist.</seg>
+               <seg type="context" n="2" xml:id="d4617e3980">
+                  <persName>
+                     <abbr>RD</abbr>
+                  </persName> freut sich, <persName>
+                     <abbr>BP</abbr>
+                  </persName> für dessen Vorhaben („Bibliotheca Benedictina“) seine Dienste anzubieten, und will auch von den benachbarten Klöstern Materialien erbitten.</seg>
+               <seg type="context" n="3" xml:id="d4617e3982">
+                  <persName>
+                     <abbr>RD</abbr>
+                  </persName> hat außerdem am Vortag einen Brief an <persName>
+                     <abbr>BP</abbr>
+                  </persName> aus St. Gallen <ref type="letter">32</ref> erhalten, den er beilegt. Er schließt seinen Brief, weil der Bote bereits am Aufbrechen ist.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: I, 155r–v.</p>
+            <p>Bezüge: 37. 51. Versendet von Wiblingen bis Melk mit 32. Erwähnt 32, 37.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>37</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>51</idno>
+               </ref>
+               <ref type="sentWith">
+                  <label>Versendet von Wiblingen bis Melk mit </label>
+                  <idno>32</idno>
+               </ref>
+               <ref type="mentions">
+                  <label>Erwähnt </label>
+                  <idno>32</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>37</idno>
+               </ref>
+            </correspContext>
+            <p>Nummerierung: <hi rend="italic">I</hi>.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Admodum reverende religiosissime ac clarissime domine ac patrone colendissime.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e4002"> Humanissimas per <seg type="lemma" corresp="#d4617e4015">baiulum Mellicensem</seg> heri sub noctem debita veneratione accepi una cum <seg type="lemma" corresp="#d4617e4022">opusculo politico</seg>, quod cum gustu proxime legam. Sed inpraesentiarum pro beneficio immerito quidem exhibito debitas refero gratias, exhibebo illud reverendissimo meo, postquam de itinere coepto redierit. </seg>
+               <seg type="context" n="2" xml:id="d4617e4004"> Me felicem reputabo, si parva obsequia mea pro vestra voluntate applicanda sint, sicut pronissimus ea spondeo; placeat tantum mandare, ut intelligat servus, in quo gratum quid praestare possit. Conabor interea, ut pro intentione inserviam, de vicinis monasteriis conquirendo talia, quae forte non displiceant. </seg>
+               <seg type="context" n="3" xml:id="d4617e4006"> Accepi etiam heri litteras e S. Gallo clarissimae dominationi vestrae destinatas, quas meis hic includo <pb n="1v"/> et simul claudo, siquidem nuntius abitum maturat. Qui cum repetita servitiorum oblatione et ferventissima mei recommendatione perenno</seg>
+            </p>
+            <p>Admodum reverendae religiosissimae ac clarissimae dominationis vestrae obligatissimus in Christo servus pater Romanus Doll professus Wiblingensis capituli secretarius manu propria.</p>
+            <p>Wiblingae 11 Februarii 1710.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e4015" target="#d4617e3975 #d4617e4002">
+               <ref target="">1</ref>
+               <label>baiulum Mellicensem</label>
+               <p>Wohl derselbe Rotelbote mit der Rotel auf Rupert Eckmüller, der in 28 als Überbringer genannt wird. Auch 34 könnte auf diesem Wege transportiert worden sein.</p>
+            </note>
+            <note xml:id="d4617e4022" target="#d4617e3975 #d4617e4002">
+               <ref target="#d4617e3975 #d4617e4002">1</ref>
+               <label>opusculo politico</label>
+               <p>Aller Wahrscheinlichkeit nach BPs „De irruptione Bavarica“, von dem anscheinend auch mit 28 und 34 jeweils ein Exemplar versendet worden war. Die Beförderung durch den Rotelboten war für Büchersendungen billiger und sicherer als jene mit der Post; vgl. 125, 168, 223, 288 &lt;10&gt;, 293, 335.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

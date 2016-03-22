@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">321 Innozenz Grafsturm an Bernhard Pez. 1712-10-20 &lt; 1713-07-22. Aggsbach.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">321</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Innozenz Grafsturm</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1712-10-20 &lt; 1713-07-22</date>
+         <place-of-posting xmlns="">Aggsbach</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e34848">
+                  <persName>
+                     <abbr>IG</abbr>
+                  </persName> sendet die beiden Bände von Mabillon („Acta sanctorum OSB“) zurück an BP, der sie nun so lange benützen kann, wie er will: Niederaltaich will gerne einen Mann unterstützen, der so viel für den Orden tut.</seg>
+               <seg type="context" n="2" xml:id="d4617e34850">
+                  <persName>
+                     <abbr>IG</abbr>
+                  </persName> entschuldigt sich dafür, dass er die Bücher voreilig zurückgefordert hatte, wozu er sich seinem Kloster gegenüber verpflichtet sah, solange er keine Anweisungen hatte.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: Original verloren. Abschrift: StiA Melk, Karton 7 Patres 9, Abschriftencodex 152r.</p>
+            <p>Adresse: <hi rend="italic">Plurimum reverendo religiosissimo et clarissimo domino patri Bernardo Pez ordinis sancti patris Benediciti celeberrimi, antiquissimi et exempti monasterii Mellicensis professo etc., patrono suo observandissimo</hi>.<hi rend="italic" xml:space="preserve"> Mölckh.</hi>
+            </p>
+            <p>Bemerkungen: Im Datum fehlen Monats- und Jahresangabe. Einen sicheren Terminus post quem liefert die erstmalige Versendung der Bände nach Melk (vgl. 274). Der Terminus ante quem ergibt sich aus dem Einlangen der aus Paris angekauften „Acta sanctorum OSB“ in Melk am 10. Juli 1713 (vgl. 318); danach hätte BP keine Veranlassung mehr gehabt, die Niederaltaicher Exemplare weiter behalten zu wollen. Unter Berücksichtigung der von IG offenbar gepflogenen Rückfrage bei den Oberen in Niederaltaich ist der 21. Juli 1713 der späteste Tag, der für die Abfassung dieses Briefs noch in Frage kommt. – Die Reihung im Abschriftencodex (zwischen Abschriften von 286 und 47) bietet keinen Anhaltspunkt.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Plurimum reverende religiosissime et clarissime domine Bernarde, patrone observandissime.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e34869"> Praemitto [<hi rend="italic">sic</hi>] <seg type="lemma" corresp="#d4617e34881">duo tractatus reverendi patris Mabillonii</seg> ad usum tam diu, quam diu iisdem clarissima sua paternitas opus habebit; etenim monasterio meo petitio suae clarissimae paternitatis aequissima visa fuit, et nostrarum partium esse iudicavimus viro suppetias ferre plurimum reverendo, qui pro gloria et honore totius nostri sacri ordinis pugnat, laborat et desudat. </seg>
+               <seg type="context" n="2" xml:id="d4617e34874"> Id tantum deprecor, ne mihi vitio vertatur importunitas mea, qua praefatos tractatus expetii, quoniam obedientia ad eam me adegit, caeca et inscia, num praestet hos libros repetere vel manibus plurimum reverendis relinquere illius (ut modo mihi constat), qui eosdem volvet et revolvet, magnum nomen sacri ordinis nostri vindicaturus. His me humillime commendo et maneo</seg>
+            </p>
+            <p>Reverentiae vestrae servus in Christo humillimus pater Innocentius professus Nüder-altachensis et pro tempore vicarius in Agspach.</p>
+            <p>Agspach 21. currentis huius.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e34881" target="#d4617e34848 #d4617e34869">
+               <ref target="">1</ref>
+               <label>duo tractatus ... Mabillonii</label>
+               <p>Nach 274 handelte es sich hier um die „Saecula“ 4/2 und 5 (d. h. die Bände 6 und 7 des Gesamtwerks) der „Acta sanctorum OSB“.</p>
+            </note>
+            <note xml:id="d4617e34888" target="#d4617e34850 #d4617e34874">
+               <ref target="">2</ref>
+               <label>vicarius in Agspach</label>
+               <p>Aggsbach in der Wachau war eine Pfarre der Niederaltaicher Propstei Spitz; vgl. Stadtmüller–Pfister, Niederaltaich 176, 239. Nach Krick, Ehemalige stabile Klöster 102, amtierte IG von 1713 bis 1715 selbst als Propst von Spitz, welches Amt er offenbar zum Zeitpunkt dieses Briefs noch nicht innehatte. Da der vorige Propst Dominikus von Werndle zuletzt 1712 nachgewiesen ist, dürfte die Propstei wohl einige Monate vakant gewesen sein, sodass IG als Pfarrvikar in Aggsbach der höchstrangige Vertreter Niederaltaichs in dessen niederösterreichischen Besitzungen war und sich in dieser Kapazität um die Rückgabe der entlehnten Bücher bemühte.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

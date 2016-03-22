@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">67 Stefano Omodeo an Bernhard Pez. 1710-05-14. Mailand.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">67</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Stefano Omodeo</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1710-05-14</date>
+         <place-of-posting xmlns="">Mailand</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e6855">SOm kommt BPs in dessen Brief vom vergangenen Monat <ref type="letter">66</ref> geäußerter Bitte nach und übersendet einen Katalog der Schriftsteller seines Klosters S. Simpliciano zu Mailand. Alle sind Professen desselben Klosters, aber nicht alle gleich bedeutend; zumal wahrhaft große Begabungen sehr selten sind, sollen auch die mittleren nicht ungewürdigt bleiben.</seg>
+               <seg type="context" n="2" xml:id="d4617e6860">Der Präses der Cassinenser Kongregation, Severino de Ò, wird indessen deren übrige Prälaten auffordern, gleichermaßen Kataloge an <persName>
+                     <abbr>BP</abbr>
+                  </persName> einzusenden. SOm schließt mit Segenswünschen für <persName>
+                     <abbr>BP</abbr>
+                  </persName> und dessen Vorhaben („Bibliotheca Benedictina“).</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: I, 304r–v.</p>
+            <p>Bezüge: 66. 86. Erwähnt 66. Erwähnt in 87.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>66</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>86</idno>
+               </ref>
+               <ref type="mentions">
+                  <label>Erwähnt </label>
+                  <idno>66</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <label>Erwähnt in </label>
+                  <idno>87</idno>
+               </ref>
+            </correspContext>
+            <p>Adresse: <hi rend="italic">Admodum reverendo patri ac domno domno Bernardo Pez bibliothecario. Vienna.</hi>
+            </p>
+            <p>Nummerierung: <hi rend="italic">II.</hi>
+            </p>
+            <p>Bemerkungen: Im Datum fehlt eine Jahresangabe; aufgrund des engen Zusammenhangs mit 56 ist eine Datierung ins Jahr 1710 jedenfalls anzunehmen.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Admodum reverende pater.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e6882"> Ut petitioni paternitatis vestrae admodum reverendae, quae mense elapso per humanissimas literas suas mihi innotuit, pro viribus satisfaciam, <seg type="lemma" corresp="#d4617e6891">transmitto nomina, patriam, studia scriptorum</seg>, qui ingeniorum suorum lucubrationibus hoc monasterium Sancti Simpliciani, cuius sum abbas, illustrarunt. Hi omnes eiusdem monasterii professi sunt; inter hos tamen non reperiet humanitas vestra uniformitatem. Ingenia enim eximia, ut bene noscit, rara sunt; mediocria tamen, ut de parvis nihil proferam, non debent sua laude carere, cum natura producat multa mediocria, pauca autem eminentia et illustria. </seg>
+               <seg type="context" n="2" xml:id="d4617e6884"> Reverendissimus pater <seg type="lemma" corresp="#d4617e6898">praesidens interea rogabit caeteros praelatos</seg> nostrae congregationis, ut dignentur eadem uti diligentia, qua paternitati vestrae admodum reverendae innotescant omnes, qui laudem et applausum promeriti in caeteris monasteriis ad sapientiae fastigium, si non pervenerunt, adspirarunt. Deus interea sospitet paternitatem vestram, ut eruditissimis suis scriptis exornet et nobilitet universum Benedictinorum ordinem, et memor mei sit in orationibus suis.</seg>
+            </p>
+            <p>Paternitatis vestrae admodum reverendae addictissimus servus in Domino domnus Stephanus Homodeus abbas.</p>
+            <p>Mediolani die 14. mensis Maii.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e6891" target="#d4617e6855 #d4617e6882">
+               <ref target="">1</ref>
+               <label>transmitto ... studia scriptorum</label>
+               <p>Vgl. 56. In Melk sind heute zwei verschiedene Schriftstellerkataloge von S. Simpliciano vorhanden: einer unter dem Titel „Scriptores, qui fuerunt filii monasterii S. Simpliciani“ in I, 306r–307v; ein weiterer unter der Bezeichnung „Catalogus scriptorum monachorum Cassinensium monasterii S. Simpliciani“ in StiA Melk, Karton 85 Varia 25, Fasz. 1, Nr. 38. Genannt werden in dem ersteren: Serafino Cantone; Gabriele Brebbia; Agostino Lampugnani; Ambrogio Ferrari; Valeriano Degano; Ambrogio Rusconi; Ilario Bologna; Pio Muzio; Valeriano Castiglione; Ilarione Lanteri; Chiara Margherita Cozzolani. Der zweite bietet Angaben zu Rusconi, Muzio, Castiglione, Bologna, Degano sowie eine ausführliche Würdigung von SOm selbst. Die Beilage zu diesem Brief ist eher mit dem ersteren zu identifizieren, zumal BP in 86 bereits eine Rückfrage zu Cantone und Brebbia gestellt zu haben scheint (vgl. 87); doch kann hier keine letzte Sicherheit bestehen. Brebbia und Lanteri waren im Übrigen keine Professen von S. Simpliciano, sondern des anderen Mailander Klosters der Cassinenser, S. Pietro in Gessate; Ferrari und Rusconi stammten zwar aus Mailand, waren jedoch Professen der Klöster S. Giorgio Maggiore zu Venedig bzw. S. Giovanni Evangelista zu Parma. Die biographischen Angaben im Register zu allen Genannten außer Cozzolani nach Bossi, Matricula 1 191, 205f., 260f., 270, 415, 582–587, 617; zu allen außer jener und SOm vgl. Armellini, Bibliotheca 1 14f., 62–65, 178, 223f., 227f.; 2 145–151, 168f.; 2, littera V, 1–7. Zu Cozzolani vgl. Eitner, Quellen-Lexikon 3 91f.</p>
+            </note>
+            <note xml:id="d4617e6898" target="#d4617e6860 #d4617e6884">
+               <ref target="">2</ref>
+               <label>praesidens ... caeteros praelatos</label>
+               <p>Die reichlich optimistische Verheißung ist wohl eher Antwort auf eine zu vermutende Ankündigung BPs in 66, entsprechend der Anregung SOms in 56 an De Ò schreiben zu wollen, als Hinweis auf eigene Initiativen SOms gegenüber jenem. Eine einschlägige Kommunikation zwischen SOm und De Ò wird in dessen Briefen an BP (81, 101) nicht erwähnt. Falls BP seinen ersten Brief an De Ò (79) bereits vor 66 verschickt hatte, brauchte dieser mehr als einen Monat, um seinen Adressaten zu erreichen.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">122 Ambros Dietmayr an Bernhard Pez. 1710-10-29. Admont.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">122</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Ambros Dietmayr</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1710-10-29</date>
+         <place-of-posting xmlns="">Admont</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e12571">
+                  <persName>
+                     <abbr>AD</abbr>
+                  </persName> übersendet mit Genehmigung seines Abtes Anselm Luerzer von Zechenthal die mehrfach erbetene Handschrift, die aber nicht, wie fälschlich angenommen, auf „Modest Preinger“, sondern auf Modest Puterer zurückgeht. Er hätte sie schon früher geschickt, wenn sich dazu eine Gelegenheit geboten hätte. Nach Gebrauch soll <persName>
+                     <abbr>BP</abbr>
+                  </persName> die Handschrift zurücksenden.</seg>
+               <seg type="context" n="2" xml:id="d4617e12573">Die Unterlagen zur Geschichte von Admont, die die Mauriner – Mabillons Nachfolger in der Bearbeitung der „Annales OSB“ – angefordert haben, hat Karlmann Vierholz bereits vor Jahren nach Petershausen geschickt. Den Auszug daraus findet er nun in seinen Papieren nicht mehr. <persName>
+                     <abbr>AD</abbr>
+                  </persName> will sich bemühen, dennoch der Bitte zu entsprechen.</seg>
+               <seg type="context" n="3" xml:id="d4617e12575">Den Patres Albert und Adalbert sollen gewisse Musikalien mit der Empfehlung ADs ausgefolgt werden; sie können bei Gelegenheit zusammen mit der genannten Handschrift retourniert werden.</seg>
+               <seg type="context" n="4" xml:id="d4617e12577">In einem Postskriptum lässt <persName>
+                     <abbr>AD</abbr>
+                  </persName> Prior Valentin Larson und den Melker Konvent grüßen.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: I, 348r–349v.</p>
+            <p>Bezüge: 3. 173. Erwähnt in 143, 173.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>3</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>173</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <label>Erwähnt in </label>
+                  <idno>143</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>173</idno>
+               </ref>
+            </correspContext>
+            <p>Adresse: <hi rend="italic">Monsieur le tres-reverend pere Bernard Pez Benedictin de Melck et present à Mölckh.</hi> Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 2r.</p>
+            <p>Ordnungsvermerk: <hi rend="italic">35</hi>.</p>
+            <p>Bemerkungen: Auf der unteren Hälfte von 2v hat BP offenbar Federproben mit Briefformeln, jedoch ohne erkennbaren Zusammenhang, durchgeführt.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Admodum reverende religiosissime ac doctissime domine, domine ac patrone honorandissime.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e12601"> Ex gratiosa reverendissimi domini <seg type="lemma" corresp="#d4617e12621">abbatis mei</seg> permissione mitto tandem codicem manuscriptum <seg type="lemma" corresp="#d4617e12628">non Modesti Preinger</seg>, ut erronee putatur, <seg type="lemma" corresp="#d4617e12633">sed Modesti Puterer</seg> senioris quondam nostri, instanter multoties desideratum; missurus pridem, si commoda sese prius occasio praesentasset. Poterit dein liber isthic, postquam praeconceptis usibus deservierit, fidis iterum tradi manibus, <pb n="1v"/> ut ad me perferatur. </seg>
+               <seg type="context" n="2" xml:id="d4617e12605"> 
+                  <seg type="lemma" corresp="#d4617e12638">Monumenta monasterii nostri, quae patres illi Mabillonii successores eidemque in continuandis sacri instituti nostri memorabilibus succenturiati communicari sibi flagitant, pater Carolomannus</seg> noster annis superioribus <seg type="lemma" corresp="#d4617e12645">Petershusanis</seg> communicaverat, quorum tamen epitomen, esto omnia sua schediasmata in gratiam mei operose excusserit, reperire non potest, fors amica cuiusdam confidentia sublatam <pb n="2r"/> aut prorsus interciduam. Dabo nilominus operam, ut petitis paulo post fiat satis. </seg>
+               <seg type="context" n="3" xml:id="d4617e12609"> 
+                  <seg type="lemma" corresp="#d4617e12650">Res musicas cum mei commendatione extradi rogo admodum reverendis dominis Alberto ac Adalberto</seg>, quae suo tempore cum memorato codice remitti poterunt. Finio raptissime sub acceleratum tabellarii abitum meque in omnia sancta ac constantem affectum impense commendo.</seg>
+            </p>
+            <p>Admodum reverendae paternitatis vestrae servus studiosissimus pater Ambrosius.</p>
+            <p>Admont 29. Octobris 1710.</p>
+            <p>
+               <pb n="2v"/> 
+               <seg type="context" n="4" xml:id="d4617e12618"> P.S. Plurimum reverendum dominum patrem priorem cum caeteris de venerabili capitulo submisse revereor.</seg>
+            </p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e12621" target="#d4617e12571 #d4617e12601">
+               <ref target="">1</ref>
+               <label>abbatis mei</label>
+               <p>Zu Abt Anselm Luerzer: List, Admont 315–322; Wichner, Geschichte 338–348; vgl. Naschenweng, Admont 103.</p>
+            </note>
+            <note xml:id="d4617e12628" target="#d4617e12571 #d4617e12601">
+               <ref target="#d4617e12571 #d4617e12601">1</ref>
+               <label>non Modesti Preinger</label>
+               <p>Offenbar hatte BP auf den zu einem früheren Zeitpunkt erhaltenen Schriftstellerkatalog von Admont (StiA Melk, Karton 7 Patres 9, Abschriftencodex 2v–6r, hier 4r; vgl. 3) reagiert, wo „Modest Preinger“ ein „Catalogus doctorum ex ordine sancti Benedicti, Cisterciensium et Carthusianorum“ zugeschrieben wird. Ein Professe dieses Namens ist in Admont nicht nachweisbar; aller Wahrscheinlichkeit nach handelt es sich um einen Irrtum für den richtigen Namen dieses Autors, vielleicht unter Vermengung mit dem Namen Abt Matthias Preiningers (1615–1628; vgl. List, Admont 261–265; Wichner, Geschichte 265–277).</p>
+            </note>
+            <note xml:id="d4617e12633" target="#d4617e12571 #d4617e12601">
+               <ref target="#d4617e12571 #d4617e12601">1</ref>
+               <label>sed Modesti Puterer</label>
+               <p>Zu Modest Puterer vgl. Amon, Religiöse Literatur 44; Wichner, Kloster Admont 64f., 67f.; ausführlich: Tomaschek, Protestantische Epoche 23–41; speziell zum „Catalogus doctorum“: ebd. 37. Dieser ist überliefert in StiB Admont, Cod. 344, 1r–53v, und trägt von der Hand des Autors den Titel „Catalogus doctorum trium ordinum, scilicet sancti Benedicti, Cisterciensium et Cartusiensium, in distinctione psalmorum ad horas canonicas secundum Regulam sancti Benedicti convenientium“ (1r) und die Datierung 1548 (53v). Dem Codex eingeklebt ist eine Notiz von der Hand BPs, die sich an die Admonter richten dürfte: „N.B. Quae admodum reverendus author praesentis Catalogi in medium attulit, ad verbum ex Trithemii libro secundo De viris illustribus sancti Benedicti et ex Bibliotheca Conradi Gesneri exscripta sunt, praeterquam, quae de reverendissimo domino domino abbate Engelberto et item Irimberto abbate commemorat. Mellicii 6. Septembris 1711. Pater Bernardus Pez professus Mellicensis“. Vgl. dazu Wichner, Kloster Admont 65, welcher die Bemerkung BPs in einer Anmerkung paraphrasiert, ohne ihre Quelle anzugeben.</p>
+            </note>
+            <note xml:id="d4617e12638" target="#d4617e12573 #d4617e12605">
+               <ref target="">2</ref>
+               <label>Monumenta ... Carolomannus</label>
+               <p>Karlmann Vierholz verfasste 1728 eine Schrift „Praerogativa ordini Benedictino ... adiudicata“ (heute erhalten in zwei Exemplaren: StiB Admont Cod. 834, Cod. 899), in der er sich gegen die „Cura salutis“ (vgl. Einleitung, Abschnitt I.5) und eine weitere Jesuitenschrift „Ars artium bene mori“ wendete. Seiner Arbeit inserierte Vierholz einen Text „Ortus et progressus monasterii Admontensis“ (Cod. 834, 118–132; Cod. 899, 149–168), welchen er nach eigenem Bekunden „ex imperio mei tunc praesulis, reverendissimi domini Mariani, synoptice conscripsi“ (Cod. 834, 118; Cod. 899, 148). Da Marian Lendlmayr von 1702 bis 1707 Abt gewesen war (vgl. List, Admont 312–315; Wichner, Geschichte 333–338), dürfte dieser Text mit der von AD in diesem Brief genannten Ausarbeitung verwandt oder vielleicht sogar identisch sein.</p>
+            </note>
+            <note xml:id="d4617e12645" target="#d4617e12573 #d4617e12605">
+               <ref target="#d4617e12573 #d4617e12605">2</ref>
+               <label>Petershusanis</label>
+               <p>Vielleicht im Zusammenhang des Rangstreites zwischen Petershausen und dem Augustiner-Chorherrenstift Kreuzlingen, in dem Petershausen Mabillon konsultierte: vgl. 154 &lt;6&gt;; Einleitung, Abschnitt I.5.</p>
+            </note>
+            <note xml:id="d4617e12650" target="#d4617e12575 #d4617e12609">
+               <ref target="">3</ref>
+               <label>Res musicas ... Alberto ac Adalberto</label>
+               <p>Es ist nicht vollends klar, um wen es sich hier handelt oder wie der Vorgang zu denken ist. Albert Baumgartner war in Melk „compositor musices“ (PE 5 29; vgl. Freeman, Practice of Music 49–51); er und Adalbert Eder (der vermutlich im Vorjahr in Admont gewesen war, vgl. 3) sind am 5. November 1710 in Melk belegt, von wo sie gemeinsam mit Odilo Schenn und Paul Mittermayer zur Einhebung des Zehents nach „Aigen“ (Großaigen bei Mank; vgl. Keiblinger, Melk 2/1 162–165) gingen (PE 5 50). Die Worte ADs lassen sich vielleicht am ehesten so verstehen, dass sich die Musikalien bereits in Melker Händen befanden und AD hier die Erlaubnis erteilte, sie Baumgartner und Eder zu überlassen. Für eine solche Interpretation spricht die Formulierung „extradi rogo“, die sich an den Adressaten (BP bzw. das Stift Melk) zu richten scheint. Doch ist darauf hinzuweisen, dass es auch im Admonter Konvent Patres mit den fraglichen Namen gab, nämlich Adalbert Heuffler von Rasen und Albert von Rechbach, der gleichfalls als „musicus peritissimus“ bezeichnet wird (Kinnast, Album Admontense 88). Über ihren Aufenthalt zur fraglichen Zeit lässt sich nichts Näheres feststellen. Die „mei commendatio“, um die AD bittet, spricht freilich eher dagegen, dass von seinen eigenen Mitbrüdern die Rede ist, und für die Melker.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

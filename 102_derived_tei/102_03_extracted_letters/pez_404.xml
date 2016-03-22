@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[404] Bernhard Pez an NN (Ochsenhausen). 1715-06-13.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">404</id>
+         <deduced xmlns="">true</deduced>
+         <sender xmlns="">Bernhard Pez</sender>
+         <recipient xmlns="">NN (Ochsenhausen)</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1715-06-13</date>
+         <place-of-posting xmlns=""/>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="editorialNote">
+            <p>Bezüge: 246. 407. Erwähnt in 407.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>246</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>407</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <label>Erwähnt in </label>
+                  <idno>407</idno>
+               </ref>
+            </correspContext>
+            <p>Bemerkungen: An wen der Brief adressiert war, geht aus der Erwähnung in 407 nicht hervor. BPs bisheriger Korrespondent in Ochsenhausen, Anselm Fischer, war etwa ein Jahr zuvor, am 27. Juni 1714, an einem Schlaganfall gestorben (Lindner, Verzeichnis Ochsenhausen 17 155). Aemilian Reichardt teilt dies in 407 BP nicht ausdrücklich mit, sondern nennt Fischer nur beiläufig als verstorben; es kann also vermutet werden, dass BP von seinem Ableben wusste (etwa durch eine Rotel) und dies für Reichardt aus BPs Brief ersichtlich gewesen sein dürfte.</p>
+         </div>
+      </front>
+      <body>
+         <ab>
+            <gap reason="letter missing"/>
+         </ab>
+      </body>
+      <back/>
+   </text>
+</TEI>

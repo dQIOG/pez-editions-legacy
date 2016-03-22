@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">183 Placidus Haiden an Bernhard Pez. 1711-08-15. Niederaltaich.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">183</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Placidus Haiden</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1711-08-15</date>
+         <place-of-posting xmlns="">Niederaltaich</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e19295">
+                  <persName>
+                     <abbr>PH</abbr>
+                  </persName> hat aus den Briefen seiner Bekannten erfahren, dass die Bände 3 bis 6 der „Antiquae lectiones“ des Canisius fast nirgends vorhanden sind. Ein Freund aus dem Ingolstädter Jesuitenkolleg hat jedoch alle in diesen Bänden erwähnten Schriftsteller in einer Liste zusammengestellt, welche <persName>
+                     <abbr>PH</abbr>
+                  </persName> beilegt.</seg>
+               <seg type="context" n="2" xml:id="d4617e19297">In einem Postskriptum verspricht PH, BPs Sache weiterhin bei den umliegenden Klöstern zu betreiben, und bittet ihn um weitere Enzykliken. <persName>
+                     <abbr>PH</abbr>
+                  </persName> will diese weiterleiten, dann das Material sammeln und nach Melk weiterschicken.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: II, 44r–v.</p>
+            <p>Bezüge: 182. 186.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>182</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>186</idno>
+               </ref>
+            </correspContext>
+            <p>Nummerierung: <hi rend="italic">IV</hi>.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine pater, domine ac patrone plurimum colende.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e19314"> Post diutinam exspectationem illud mihi tandem ex amicorum responsoriis innotuit, quod posteriores tomi Antiquae lectionis ubique fere desiderentur. Iamque in eo erat, ut spem omnem deponerem, nisi vir mihi intime familiaris <seg type="lemma" corresp="#d4617e19328">ex collegio Societatis Jesu Ingolstadiano</seg> (cum fontem ipsum ob loci distantiam et assiduum usum suppeditare haud posset) iusta [<hi rend="italic">sic</hi>] saltem <seg type="lemma" corresp="#d4617e19335">syllabo</seg> complexus fuisset omnes omnino authores, qui praefatis ultimis tomis, a tertio scilicet usque ad sextum utrinque inclusive, continentur. Quos proinde clarissimae suae paternitati hic accludo meque et confratres omnes demisse commendo.</seg>
+            </p>
+            <p>Plurimum reverendae religiosae ac clarissimae paternitatis servus paratissimus pater Placidus manu propria.</p>
+            <p>Raptim ex Altaha Inferiori die 15. Augusti 1711.</p>
+            <p>&lt;<seg type="context" n="2" xml:id="d4617e19325">&gt; P.S. Proxime urgebo iterum punctum principale plurimum reverendae suae paternitatis in vicinis monasteriis, in quo negotio multum mihi adpromitterem, si clarissimae suae dominationi placeret <seg type="lemma" corresp="#d4617e19340">encyclicam</seg> epistolam ad praecipua saltem coenobia repetere, quam illico ad locum dirigere, responsionem hic recipere ac denique Mellicium transmittere vellem.</seg>
+            </p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e19328" target="#d4617e19295 #d4617e19314">
+               <ref target="">1</ref>
+               <label>ex collegio ... Ingolstadiano</label>
+               <p>Vgl. 168.</p>
+            </note>
+            <note xml:id="d4617e19335" target="#d4617e19295 #d4617e19314">
+               <ref target="#d4617e19295 #d4617e19314">1</ref>
+               <label>syllabo</label>
+               <p>Dieser Auszug ist in Melk nicht feststellbar.</p>
+            </note>
+            <note xml:id="d4617e19340" target="#d4617e19297 #d4617e19325">
+               <ref target="">2</ref>
+               <label>encyclicam</label>
+               <p>Sicherlich bereits die LE 2. Die undatierte Enzyklik 164 könnte in Reaktion hierauf geschrieben worden sein.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

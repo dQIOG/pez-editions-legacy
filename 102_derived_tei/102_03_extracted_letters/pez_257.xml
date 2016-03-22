@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[257] Bernhard Pez an Moritz Müller. &lt; 1712-07-16. Wien.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">257</id>
+         <deduced xmlns="">true</deduced>
+         <sender xmlns="">Bernhard Pez</sender>
+         <recipient xmlns="">Moritz Müller</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">&lt; 1712-07-16</date>
+         <place-of-posting xmlns="">Wien</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="editorialNote">
+            <p>Bezüge: 235. 258. Erwähnt in 259.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>235</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>258</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <label>Erwähnt in </label>
+                  <idno>259</idno>
+               </ref>
+            </correspContext>
+            <p>Bemerkungen: Der Absendeort ergibt sich aus der Aussage BPs in 259 &lt;5&gt;, wonach ihn Franz Jodok Halter „hic salutavit“: BP befand sich also zum Zeitpunkt der Ankunft Halters und des Briefs, in dem er diese meldete, bereits in Wien.</p>
+         </div>
+      </front>
+      <body>
+         <ab>
+            <gap reason="letter missing"/>
+         </ab>
+      </body>
+      <back/>
+   </text>
+</TEI>

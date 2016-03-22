@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">387 Konrad Widow an Bernhard Pez. 1715-02-10. Erfurt.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">387</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Konrad Widow</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1715-02-10</date>
+         <place-of-posting xmlns="">Erfurt</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e42740">
+                  <persName>
+                     <abbr>KW</abbr>
+                  </persName> bestreitet Johann Christoph Bartensteins Unterstellung <ref type="letter">386</ref>, er wolle bloß zum Heiraten nach Hamburg gehen. Bartenstein lügt wie ein Franzose oder zumindest ein Halbfranzose. Vielmehr will <persName>
+                     <abbr>KW</abbr>
+                  </persName> sich in Ruhe den Studien widmen und bittet BP, auf seine Hilfeleistungen zurückzugreifen.</seg>
+               <seg type="context" n="2" xml:id="d4617e42745">Der Schottenmönch Bernard Baillie, der <persName>
+                     <abbr>BP</abbr>
+                  </persName> vor drei Monaten besucht hat, hat nun aus England einen Katalog benediktinischer Schriftsteller erhalten. Bartenstein hat ihn aufgefordert, diesen an <persName>
+                     <abbr>BP</abbr>
+                  </persName> zu senden, und wird dies auch selbst veranlassen, da <persName>
+                     <abbr>KW</abbr>
+                  </persName> am Folgetag nach Wolfenbüttel abreist.</seg>
+               <seg type="context" n="3" xml:id="d4617e42747">Innerhalb eines Monats hofft KW, wieder in Hamburg zu sein; für etwaige Briefe an ihn genügt als Adresse sein dort wohlbekannter Name. <persName>
+                     <abbr>KW</abbr>
+                  </persName> bedauert nochmals, <persName>
+                     <abbr>BP</abbr>
+                  </persName> in Wien nicht mehr gegrüßt zu haben, und schließt mit Grüßen an HP.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: II, 322v.</p>
+            <p>Literatur: Braubach, Bartenstein 125, 131; Mayer, Bartenstein 24.</p>
+            <p>Bezüge: 376. 409. Versendet von Wien bis Melk mit 389. Erwähnt 386. Erwähnt in 393.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>376</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>409</idno>
+               </ref>
+               <ref type="sentWith">
+                  <label>Versendet von Wien bis Melk mit </label>
+                  <idno>389</idno>
+               </ref>
+               <ref type="mentions">
+                  <label>Erwähnt </label>
+                  <idno>386</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <label>Erwähnt in </label>
+                  <idno>393</idno>
+               </ref>
+            </correspContext>
+            <p>Bemerkungen: Die Notiz KWs ist auf denselben Briefbogen wie 386 als Ergänzung zu diesem geschrieben.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> 
+               <seg type="context" n="1" xml:id="d4617e42762"> Vera non loquitur, ut eleganter dicam, sive mentitur ut Gallus (<seg type="lemma" corresp="#d4617e42771">vel Semigallus</seg>). Hamburgum contendo, ast non <seg type="lemma" corresp="#d4617e42778">ut uxorem ducam</seg>, sed ut quiete fruar, quae literis excolendis necessaria est. Hoc sane studium omne erit meum, ut amicis utilis esse queam. Quos inter cum principem semper locum sis obtenturus, vir summe reverende, fac, ut opella mea aliqua in re utaris. </seg>
+               <seg type="context" n="2" xml:id="d4617e42764"> Pater Baillius, <seg type="lemma" corresp="#d4617e42783">qui ante menses tres te invisit</seg>, nuper catalogum scriptorum quorundam ordinis vestri ex Anglia acce–pit, quem ut ilico tecum communicet, rogavit efficietque Bartensteinius, nam crastino die bono cum Deo Guelpherbytum petam. Iter impedimento est, quominus sim prolixior. </seg>
+               <seg type="context" n="3" xml:id="d4617e42766"> Intra mensis spatium Hamburgi ero, ubi si literis tuis me beare dignaberis, maximo me afficies beneficio. Nomen meum satis notum ibi est, ut illud literis inscripsisse sufficiat, nec cognominem habeo ullum. Vale, vir optime, meque amare perge. Doleo doleboque semper nos <seg type="lemma" corresp="#d4617e42790">te insalutato</seg> Vienna excessisse. Salutabis, si placet, admodum reverendum fratrem tuum.</seg>
+            </p>
+            <p>Conradus Widow.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e42771" target="#d4617e42740 #d4617e42762">
+               <ref target="">1</ref>
+               <label>vel Semigallus</label>
+               <p>Anspielung auf die Straßburger Herkunft Bartensteins.</p>
+            </note>
+            <note xml:id="d4617e42778" target="#d4617e42740 #d4617e42762">
+               <ref target="#d4617e42740 #d4617e42762">1</ref>
+               <label>ut uxorem ducam</label>
+               <p>KW verheiratete sich zum ersten Mal 1718, kurz nach seiner Wahl in der Hamburger Rat, mit Margaretha Schrötteringk: Buek, Bürgermeister 214.</p>
+            </note>
+            <note xml:id="d4617e42783" target="#d4617e42745 #d4617e42764">
+               <ref target="">2</ref>
+               <label>qui ... te invisit</label>
+               <p>Die Begegnung müsste nach der Zeitangabe KWs wohl in den Wiener Aufenthalt BPs (vgl. 375) gefallen sein. Zu einer Reise Baillies nach Wien ist weiter nichts bekannt. Zur Zeit dieses Briefs wirkte Baillie im Erfurter Schottenpriorat. Zum Schriftstellerkatalog vgl. 393.</p>
+            </note>
+            <note xml:id="d4617e42790" target="#d4617e42747 #d4617e42766">
+               <ref target="">3</ref>
+               <label>te insalutato</label>
+               <p>Vgl. 381, 386.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

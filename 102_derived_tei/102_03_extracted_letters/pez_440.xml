@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[440] Joachim Edlinger an Bernhard Pez. &lt; 1715-09-19.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">440</id>
+         <deduced xmlns="">true</deduced>
+         <sender xmlns="">Joachim Edlinger</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">&lt; 1715-09-19</date>
+         <place-of-posting xmlns=""/>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="editorialNote">
+            <p>Bezüge: 441. Erwähnt in 444.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>441</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <label>Erwähnt in </label>
+                  <idno>444</idno>
+               </ref>
+            </correspContext>
+            <p>Bemerkungen: Der in 444 &lt;1&gt; erwähnte Brief an BP ist nicht erhalten (und kann auch nicht mit 442 identifiziert werden, der eindeutig an HP gerichtet ist). Die Formulierung dort impliziert, dass der Brief an BP mit dem Versprechen der Übersendung von Materialien (<hi rend="italic">reculae</hi>) vor 442 geschrieben worden war; nicht mit Sicherheit bestimmbar ist dagegen die chronologische Reihenfolge von 440 und 441.</p>
+         </div>
+      </front>
+      <body>
+         <ab>
+            <gap reason="letter missing"/>
+         </ab>
+      </body>
+      <back/>
+   </text>
+</TEI>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[358] Johann Christoph Bartenstein an Bernhard Pez. 1714-09-12 &lt; 1714-09-19.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">358</id>
+         <deduced xmlns="">true</deduced>
+         <sender xmlns="">Johann Christoph Bartenstein</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1714-09-12 &lt; 1714-09-19</date>
+         <place-of-posting xmlns=""/>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="editorialNote">
+            <p>Bezüge: 356. 359. Versendet von Wien bis Melk mit 357. Erwähnt in 359, 360, 379.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>356</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>359</idno>
+               </ref>
+               <ref type="sentWith">
+                  <label>Versendet von Wien bis Melk mit </label>
+                  <idno>357</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <label>Erwähnt in </label>
+                  <idno>359</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>360</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>379</idno>
+               </ref>
+            </correspContext>
+         </div>
+      </front>
+      <body>
+         <ab>
+            <gap reason="letter missing"/>
+         </ab>
+      </body>
+      <back/>
+   </text>
+</TEI>

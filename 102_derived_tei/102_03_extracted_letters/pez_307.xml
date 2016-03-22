@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">307 Hyazinth Baumbach an Bernhard Pez. 1713-04-30. Würzburg (St. Stephan).</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">307</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Hyazinth Baumbach</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1713-04-30</date>
+         <place-of-posting xmlns="">Würzburg (St. Stephan)</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e33239">
+                  <persName>
+                     <abbr>HB</abbr>
+                  </persName> entspricht BPs Wunsch aus dessen letztem Schreiben <ref type="letter">306</ref> und übersendet ihm eine Abschrift der „Epistola monachorum Casinensium“. Zwar trägt diese kein Datum, doch kann man aus der Erwähnung der offensichtlich jüngst begründeten Cluniazenser das Alter ersehen. <persName>
+                     <abbr>HB</abbr>
+                  </persName> ist froh, wenn er <persName>
+                     <abbr>BP</abbr>
+                  </persName> damit gedient hat, und will das gerne wieder tun.</seg>
+               <seg type="context" n="2" xml:id="d4617e33244">Den Wiener Hof wird die Ankunft der Kaiserin Elisabeth Christine erfreuen; <persName>
+                     <abbr>HB</abbr>
+                  </persName> hofft, selbst bald durch den Frieden erfreut zu werden. Kaiser Karl VI. sollte das französische Angebot annehmen, auch wenn es unbillig ist, sonst droht der Gegend, in der <persName>
+                     <abbr>HB</abbr>
+                  </persName> lebt, vom Rhein her noch Schlimmeres als bisher.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: I, 199r–v.</p>
+            <p>Bezüge: 306. 309. Erwähnt 306.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>306</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>309</idno>
+               </ref>
+               <ref type="mentions">
+                  <label>Erwähnt </label>
+                  <idno>306</idno>
+               </ref>
+            </correspContext>
+            <p>Ordnungsvermerk: <hi rend="italic">94</hi>.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Admodum reverende religiose eximie ac doctissime in Christo pater, domine colende.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e33261"> Ut iusto desiderio admodum reverendae paternitatis vestrae in ultimis civilitate nimia in me supereffluentibus explicato maturius satisfaciam, mitto hinc copiam <seg type="lemma" corresp="#d4617e33275">litterarum Cassinensium</seg> ad Fuldenses sine anno, sine mense et die, quarum tamen antiquitas meo iudicio colligi forte poterit a tempore novellae plantationis Gluniacensis [<hi rend="italic">sic</hi>], quam tunc hae litterae novissimam scribere videntur. Si beneplacitum in eis habuerit admodum reverenda paternitas vestra, gaudebo atque, quae potero, plura beneplacita subministrare studebo. </seg>
+               <seg type="context" n="2" xml:id="d4617e33266"> Aulam Viennensem <seg type="lemma" corresp="#d4617e33282">consolabitur adventus imperatricis</seg> augustissimae; modo et nos consolaretur pace acceptata. Si enim imperator augustissimus <pb n="1v"/> pacem licet iniquam non acceptaverit oblatam, nos hisce partibus ex Rheno de novo summo erimus expositi periculo, et fient novissima peiora prioribus. Quod igitur et nos Deo optimo maximo humillime commendo et permaneo sub eius protectione</seg>
+            </p>
+            <p>Admodum reverendae et eximiae paternitatis vestrae addictissimus Hyacinth abbas manu propria.</p>
+            <p>Herbipoli ex monasterio S. Stephani 30. Aprilis 1713.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e33275" target="#d4617e33239 #d4617e33261">
+               <ref target="">1</ref>
+               <label>litterarum Cassinensium</label>
+               <p>Vgl. 308 &lt;4&gt;.</p>
+            </note>
+            <note xml:id="d4617e33282" target="#d4617e33244 #d4617e33266">
+               <ref target="">2</ref>
+               <label>consolabitur adventus imperatricis</label>
+               <p>Kaiserin Elisabeth Christine hatte Barcelona im März 1713 verlassen und war Anfang April in Italien gelandet. In Wien traf sie jedoch erst am 13. Juli 1713 ein: Rill, Karl VI. 119, 123, 130, 183. Zur Position Würzburgs im Spanischen Erbfolgekrieg vgl. 250, 267.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

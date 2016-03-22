@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">431 Johann Christoph Bartenstein an Bernhard Pez. 1715-08-13. Hamburg.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">431</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Johann Christoph Bartenstein</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1715-08-13</date>
+         <place-of-posting xmlns="">Hamburg</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e47002">CB legt <persName>
+                     <abbr>BP</abbr>
+                  </persName> und HP den jungen Johann Baptist Mutzenbecher, einen Verwandten Widows, ans Herz, der über Melk nach Wien reisen will. Die Brüder sollen den Gast so aufnehmen, dass auch CB ein Besuch in Melk schmackhaft gemacht wird. Mutzenbecher wird nicht anspruchsvoll sein, da er aus Frankreich kommt und platonische Symposia gewohnt ist. Es ist gut, dass er nach Melk kommen wird, bevor ihm der Wiener Luxus die Erinnerung an die französische Einfachheit austilgt. Freunde halten CB von weiterem Schreiben ab; er verspricht ausführlichere Post, sobald er einige Tage in Sachsen verbracht hat.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: II, 327r–v.</p>
+            <p>Literatur: Braubach, Bartenstein 125f.; Mayer, Bartenstein 26.</p>
+            <p>Bezüge: 429. 459. Erwähnt in 430.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>429</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>459</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <label>Erwähnt in </label>
+                  <idno>430</idno>
+               </ref>
+            </correspContext>
+            <p>Nummerierung: <hi rend="italic">X</hi>.</p>
+            <p>Bemerkungen: Der Brief sollte BP von Mutzenbecher überbracht werden.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Admodum reverendo in Christo patri domino Bernhardo Petzio Benedictino Mellicensi salutem plurimam dicit Johannes Christophorus Bartenstein.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e47023"> Pauca hac vice ad te scribo, vir amicissime, et ea tantum, quae ad commendationem eruditissimi viri iuvenis domini <seg type="lemma" corresp="#d4617e47030">Muzenbecheri</seg>, a quo, ut spero, hae tibi literae tradentur, pertinere arbitror. Vindobonam is petit, Mellicium, ni fallor, in transitu salutaturus. Mihi in paucis charus est, Widowio vero arcto sanguinis nexu iunctus, ea insuper doctrina, quae tui favorem facile ipsi conciliatura. Ergo iam non tam peto a te quam postulo, vir doctissime, ut ipse aeque ac suavissimus frater nullum officii genus intermittas, quod gratum Muzenbechero putabitis. Certe ita, precor, hunc, quem vobis mitto, hospitem excipite, ut et ipse summo accendar desiderio hospitio vestro aliquando fruendi. Nolite tamen credere importunum illum vobis futurum. En me sponsorem gravem istum non futurum, et in rei huius testimonium allego, quod ex Gallia venit Plat[onicis] <pb n="1v"/> συμποσὶοις assuetus. Commodum vobis accidit, quod vos prius adire constituit, quam Vindobonensis luxus Gallicae parsimoniae memoriam non tam in mente quam ore eius delevit. Plura addere interventus amicorum vetat. Sed sentietis me prolixiorem proxime, mox ac in Saxoniae stativa aliquot dies fixero. Valete interim, charissima capita, meque ambo amare pergite eo ardore, quo et ipse vos vicissim complector.</seg>
+            </p>
+            <p>Scribebam raptim Hamburgi Idus Augusti MDCCXV.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e47030" target="#d4617e47002 #d4617e47023">
+               <ref target="">1</ref>
+               <label>Muzenbecheri</label>
+               <p>Höchstwahrscheinlich der spätere Hamburger Senatssyndikus Johann Baptist Mutzenbecher, welcher 1713 an der Universität Halle zum Doktor der Rechte promoviert worden war und seither ausgedehnte Reisen unternahm: Schröder–Klose, Lexikon 5 470f.; vgl. 430 &lt;6&gt;.</p>
+            </note>
+            <note xml:id="d4617e47037" target="#d4617e47002 #d4617e47023">
+               <ref target="#d4617e47002 #d4617e47023">1</ref>
+               <label>Platonicis ... assuetus</label>
+               <p>Vgl. 375 &lt;4&gt;.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

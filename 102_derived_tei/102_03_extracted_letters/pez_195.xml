@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">195 Placidus Haiden an Bernhard Pez. 1711-12-12. Niederaltaich.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">195</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Placidus Haiden</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1711-12-12</date>
+         <place-of-posting xmlns="">Niederaltaich</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e20279">
+                  <persName>
+                     <abbr>PH</abbr>
+                  </persName> hat BPs Brief <ref type="letter">193</ref> vor acht Tagen erhalten und ist erfreut über die gute Aufnahme seiner Büchersendung.</seg>
+               <seg type="context" n="2" xml:id="d4617e20284">Zugleich mit den Büchern haben die Schriften aus Melk ihr Ziel erreicht, darunter BPs „De irruptione Bavarica“, das <persName>
+                     <abbr>PH</abbr>
+                  </persName> nun als Vorboten künftiger Werke studiert.</seg>
+               <seg type="context" n="3" xml:id="d4617e20286">Was das Werk über französische Schriftsteller (Duchesne, „Historiae Francorum scriptores“?) betrifft, so ist dieses in den Bibliotheken der näheren Umgebung wohl nicht verfügbar. <persName>
+                     <abbr>PH</abbr>
+                  </persName> will daher demnächst in Regensburg danach fragen.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: II, 45r–v.</p>
+            <p>Bezüge: 193. 202. Erwähnt 193.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>193</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>202</idno>
+               </ref>
+               <ref type="mentions">
+                  <label>Erwähnt </label>
+                  <idno>193</idno>
+               </ref>
+            </correspContext>
+            <p>Nummerierung: <hi rend="italic">V</hi>.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine, patrone colendissime.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e20303"> Octiduum est, ex quo humanissimas litteras recipere mihi licuit, in quibus clarissima sua paternitas exiguum conatum meum <seg type="lemma" corresp="#d4617e20316">ob transmissos libros</seg> adeo honorifice et citra meritum respicere dignata est. Vellem! mihi tot vires, quot serviendi et gratificandi vota suppeterent! Et haberet forte plurimum reverenda sua dominatio, quem inter devotos suos recensere posset. </seg>
+               <seg type="context" n="2" xml:id="d4617e20305"> Caeterum praedicti libri portum suum tenuere <seg type="lemma" corresp="#d4617e20323">una cum opusculis Mellicensibus</seg>, quibus omnibus, ac praecipue adiecta Irruptione Gallo-Boica in Tyrolim, mirum quantum auxit clarissima sua dominatio obligationem meam: hodiedum eandem cum gustu volvo et veluti prodromum aliorum laborum, quibus consummata plurimum reverendae paternitatis eruditio et pulcherrima suada apud litteratos quosque inclarescere perget, veneror; simulque demissam gratiarum actionem depono. </seg>
+               <seg type="context" n="3" xml:id="d4617e20307"> Quod <pb n="1v"/> attinet <seg type="lemma" corresp="#d4617e20330">quatuor illa volumina de scriptoribus Francicis</seg>, omnem spondeo industriam, et ideo proxime Ratisbonenses bibliothecas tentabo, quia, quas propiores habemus, eiusmodi margaritas vix recondunt. Finio meque in omnia sacra humillime commendo.</seg>
+            </p>
+            <p>Plurimum reverendae religiosae ac clarissimae dominationis servus obligatissimus pater Placidus doctor et sacrorum canonum professor ordinarius manu propria.</p>
+            <p>Nidernaltahae 12. Decembris 1711.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e20316" target="#d4617e20279 #d4617e20303">
+               <ref target="">1</ref>
+               <label>ob transmissos libros</label>
+               <p>Es handelte sich vermutlich um Bücher, die BP aus der Liste in 182 ausgesucht hatte; in 187 hatte PH die Versendung angekündigt. Darunter könnte sich die Ausgabe von Aimoins „Historia Francorum“ befunden haben; vgl. 251.</p>
+            </note>
+            <note xml:id="d4617e20323" target="#d4617e20284 #d4617e20305">
+               <ref target="">2</ref>
+               <label>una cum opusculis Mellicensibus</label>
+               <p>Gemeint ist wohl das gleichzeitige Eintreffen einander kreuzender Sendungen; eventuell könnte „una cum“ aber auch wörtlich als „zusammen mit“ zu verstehen sein, in welchem Falle bereits an eine Rücksendung einzelner entlehnter Bücher zu denken wäre.</p>
+            </note>
+            <note xml:id="d4617e20330" target="#d4617e20286 #d4617e20307">
+               <ref target="">3</ref>
+               <label>quatuor illa volumina de scriptoribus Francicis</label>
+               <p>Eine sichere Bestimmung erscheint anhand dieser Bezeichnung (die auch bei den beiden weiteren Erwähnungen in 203 und 214 gleich lautet) nicht möglich. René Massuet hatte BP im März 1711 mehrere Werke zu diesem Thema empfohlen (154 &lt;13&gt;). Die Wortwahl PHs hier lässt am ehesten an Duchesnes „Historiae Francorum scriptores“ denken, die allerdings fünf Bände haben.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">50 Albert Reichart an Bernhard Pez. 1710-03-15. St. Paul im Lavanttal.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">50</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Albert Reichart</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1710-03-15</date>
+         <place-of-posting xmlns="">St. Paul im Lavanttal</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e5166">ARe hätte den Bitten BPs schon vor langem entsprochen, wenn es in St. Paul Material gäbe, das für <persName>
+                     <abbr>BP</abbr>
+                  </persName> relevant sein könnte. Doch gibt es nichts, sei es gedruckt oder handgeschrieben, das man als Buch bezeichnen könnte.</seg>
+               <seg type="context" n="2" xml:id="d4617e5168">Zwar liegen einige Schriften von Konventualen vor: ein Werk des Abtes Paul Memminger über die drei Gelübde mit dem Titel „Cynosura religiosorum“; eine Konkordanz zur Benediktusregel; das „Breviarium historiae Carinthiacae“ (von ARe selbst); ein juristisch-theologisches Werk des Priors Candidus Rothenheusler („Ius non scriptum“); eine Schrift „Scena dominicae passionis“ über das Messopfer, mit Kupferstichen.</seg>
+               <seg type="context" n="3" xml:id="d4617e5170">Alle diese sind aber nicht als Bücher zu werten und nicht geeignet, in BPs Werk („Bibliotheca Benedictina“) aufgenommen zu werden. ARe schließt mit Wünschen für die Fastenzeit und das Osterfest.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: I, 537r–v.</p>
+            <p>Literatur: Mayer, Nachlaß 18 499.</p>
+            <p>Bezüge: 49. 64. Erwähnt in 83.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>49</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>64</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <label>Erwähnt in </label>
+                  <idno>83</idno>
+               </ref>
+            </correspContext>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Plurimum reverende religiosissime et clarissime domine pater bibliothecarie.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e5184"> Domine plurimum colende. Satisfecissem dudum desiderio plurimum reverendae dominationis, si materia instructus fuissem, quae ad rem expetitam pertineret. Nihil enim est, quod nomen mereatur alicuius libri sive impressi sive manuscripti. </seg>
+               <seg type="context" n="2" xml:id="d4617e5186"> Composuit quidem abbas Paulus quid de tribus votis, quod intitulavit <seg type="lemma" corresp="#d4617e5195">Cynosuram religiosorum</seg>; <seg type="lemma" corresp="#d4617e5202">alii nostrum</seg> Concordantiam nostrae sacrae Regulae, <seg type="lemma" corresp="#d4617e5207">Compendium historiae Carinthiacae</seg>; <seg type="lemma" corresp="#d4617e5212">noster pater prior</seg> aliquid de consuetudine edidit iuridico-theologicum, alius Scenam dominicae passionis applicandam ad missae sacrificium cum tribus tabulis cupro incisis imaginibus sanctissimae passionis, in quibus enim leguntur Gloria, Credo, Evangelium S. Joannis, Lavabo etc. </seg>
+               <seg type="context" n="3" xml:id="d4617e5188"> Sed haec omnia, uti dixi, non admittunt titulum libri, sed sunt ubique pagellae tantum. Ideo non censui haec referre, ut ingrediantur laudatissimum opus de scriptoribus Benedictinis. Quibus plurimum reverendae paternitati salutarem <seg type="lemma" corresp="#d4617e5217">Quadragesimam, quam gaudiosum Alleluia</seg> excipiat, precor, et in sanctas preces ac affectum me commendo</seg>
+            </p>
+            <p>Plurimum reverendae et clarissimae dominationis servus obligatissimus Albertus abbas manu propria.</p>
+            <p>Sancti Pauli 15. Martii 1710.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e5195" target="#d4617e5168 #d4617e5186">
+               <ref target="">2</ref>
+               <label>Cynosuram religiosorum</label>
+               <p>Nach Schroll, Necrologium 184, hätte Paul Memminger „ein Buch von den 3 Gelübden und ein anderes, das die Aufschrift führt, cynosura Religiosorum“ verfasst. Rader, Äbte 4 9, spricht nur von einem „Traktat über die Mönchsgelübde“ ohne Angabe eines Titels. Das Werk scheint verloren zu sein.</p>
+            </note>
+            <note xml:id="d4617e5202" target="#d4617e5168 #d4617e5186">
+               <ref target="#d4617e5168 #d4617e5186">2</ref>
+               <label>alii nostrum</label>
+               <p>Die von ARe eher angedeuteten als bezeichneten Werke konnten (außer „Breviarium“ und „Ius non scriptum“) bisher nicht bestimmt werden. BP führt 1715 in den „Epistolae apologeticae“ eine Reihe von St. Pauler Mönchen als Schriftsteller an (ebd. 255–263), macht jedoch keine Angaben über Werke. Von zwei der Genannten, Bruno Schlibnigg und Paul Stocker, liegen Salzburger Universitätsschriften vor (Bauer, Thomistische Metaphysik 786, 790f.; Sattler, Collectaneen-Blätter 220, 267), die aber keinesfalls mit den Nennungen in diesem Brief zu identifizieren sind. Die Handschriften von Alt-St. Paul sind nach der Aufhebung größtenteils verloren gegangen (Menhardt, Handschriftenverzeichnis XII); ein noch vorhandener Bibliothekskatalog von ca. 1684 (StiA St. Paul, Hs. 18; die Handschriftennennungen gedruckt bei Eisler, Handschriften 9–11) bietet ebenso wenig Aufklärung wie ein einige Jahre später an BP eingesendetes Verzeichnis der Schriften von Benediktinern in der St. Pauler Bibliothek (vgl. 339).</p>
+            </note>
+            <note xml:id="d4617e5207" target="#d4617e5168 #d4617e5186">
+               <ref target="#d4617e5168 #d4617e5186">2</ref>
+               <label>Compendium historiae Carinthiacae</label>
+               <p>Gewiss ARes eigenes „Breviarium historiae Carinthiacae“. BP erwähnt in 143 &lt;8&gt;, dass ihm ARe ein Exemplar geschenkt habe. Dies wird in den weiteren Briefen ARes zwar nirgends ausdrücklich erwähnt, vgl. jedoch 83.</p>
+            </note>
+            <note xml:id="d4617e5212" target="#d4617e5168 #d4617e5186">
+               <ref target="#d4617e5168 #d4617e5186">2</ref>
+               <label>noster pater prior</label>
+               <p>Candidus Rothenheusler, der Autor der Schrift „Ius non scriptum“, ist durch eine Urkunde von 1710 als Prior von St. Paul belegt: ÖNB, Cod. 8399, Archivum S. Pauli ad 1710, 13. Er fehlt bei Schroll, Necrologium.</p>
+            </note>
+            <note xml:id="d4617e5217" target="#d4617e5170 #d4617e5188">
+               <ref target="">3</ref>
+               <label>Quadragesimam ... Alleluia</label>
+               <p>Der Aschermittwoch 1710 fiel auf den 5. März, der Ostersonntag auf den 20. April.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

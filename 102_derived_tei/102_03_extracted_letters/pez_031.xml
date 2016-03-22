@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">31 Leopold Herderer an Bernhard Pez. 1710-01-31. Weingarten.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">31</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Leopold Herderer</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1710-01-31</date>
+         <place-of-posting xmlns="">Weingarten</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e2668">
+                  <persName>
+                     <abbr>LH</abbr>
+                  </persName> hat länger gebraucht, um auf BPs Brief vom 10. Oktober 1709 <ref type="letter">13</ref> zu antworten, weil ihn nicht nur verschiedene Hemmnisse, sondern auch der Aufwand seiner Nachforschungen zur Sammlung der Weingartner Schriftsteller selbst aufgehalten haben.</seg>
+               <seg type="context" n="2" xml:id="d4617e2673">Nun aber, da er etwas Freizeit hat, schickt er <persName>
+                     <abbr>BP</abbr>
+                  </persName> ein Verzeichnis der Weingartner Schriftsteller mit Angabe ihrer Geburtsorte und Todesdaten, gereiht nicht nach Ämtern oder Würden, sondern nach dem Datum der Profess.</seg>
+               <seg type="context" n="3" xml:id="d4617e2675">
+                  <persName>
+                     <abbr>LH</abbr>
+                  </persName> wünscht, BPs Vorhaben einer „Bibliotheca Benedictina“ möge zur Ehre jedes einzelnen Klosters und des ganzen Ordens sowie zur Konfusion der dem Orden feindselig Gesonnenen voranschreiten, und bietet dazu seine weitere Hilfe an.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: I, 22r–v.</p>
+            <p>Literatur: Katschthaler, Briefnachlass 14.</p>
+            <p>Bezüge: 13. Erwähnt 13.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>13</idno>
+               </ref>
+               <ref type="mentions">
+                  <label>Erwähnt </label>
+                  <idno>13</idno>
+               </ref>
+            </correspContext>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine pater in Christo, domine ac patrone observande.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e2689">Serius est ipsa etiam spe mea, quod ad gratissimas plurimum reverendae paternitatis suae de 10. elapsi Octobris iniunctumque ibi in re litteraria subiungo responsum, cuius tamen moram humanitas sua tolerabit una excusabitque tanto facilius, quanto illud retardabant hactenus non culpa mea, sed tum <seg type="lemma" corresp="#d4617e2700">occurrentia in dies fere impedimenta</seg> nonnulla, tum non unum in colligendis scriptoribus nostris evolvendum folium satis amplum. </seg>
+               <seg type="context" n="2" xml:id="d4617e2691"> Nunc vero tandem, dum hora et tempus vacat, <seg type="lemma" corresp="#d4617e2707">communico in adiacentibus scriptores nostros</seg>, quotque invenire potui, omnes, patria eorum obituque ad singulos annotato, ubi etiam, quod legenti patebit, non secundum officiorum aut dignitatis, sed religiosae professionis ordinem procedo. </seg>
+               <seg type="context" n="3" xml:id="d4617e2693"> Faxit interim supremum ac optimum Numen, ut opus illud insigne Bibliothecae Benedictinae eo, quo caepit, pede pergat strenue, haud dubie tum ad monasterii cuiusque, tum ad ordinis nostri sacri universi decus nobile, necnon ad malevolorum forte quorumdam confusionem iustam cessurum; ad quod si quid ulterius conferre poterit humilis opella mea, obsequia spondeo offeroque ad nutus promptissima, qui in sacra me impensius commendans maneo</seg>
+            </p>
+            <p>Plurimum reverendae ac religiosissimae dominationis suae servus in Christo frater Leopoldus Herderer bibliothecarius.</p>
+            <p>E Vineis 31. Ianuarii 1710.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e2700" target="#d4617e2668 #d4617e2689">
+               <ref target="">1</ref>
+               <label>occurrentia ... impedimenta</label>
+               <p>Zu den von LH bekleideten Ämtern vgl. das Verzeichnis der Pez-Korrespondenten. Aus den Angaben bei Lindner, Professbuch Weingarten 62, geht allerdings nicht hervor, ob LH 1709/10 neben der Leitung der Bibliothek noch weitere Verpflichtungen zu erfüllen hatte.</p>
+            </note>
+            <note xml:id="d4617e2707" target="#d4617e2673 #d4617e2691">
+               <ref target="">2</ref>
+               <label>communico in adiacentibus scriptores nostros</label>
+               <p>Der Schriftstellerkatalog ist gemeinsam mit einer Geschichte von Weingarten unter dem Titel „Synopsis de origine et fundatoribus monasterii nostri Weingartensis“ erhalten in StiA Melk, Karton 85 Varia 22, Fasz. 3, Nr. 3. Genannt werden: Abt Georg Wegelin; Jakob Plaz; Christoph Emhardt; Christoph Hammerer; Maurus Baldung; Augustin Brendlin; Matthäus Völker; Gabriel Bucelin (in ausführlicher Darstellung mit Auszügen aus den Diarien Bucelins und einem umfänglichen Werkverzeichnis); Abt Alphons Stadelmayr; Leodegar Martini; Gottfried Reding; Maurus Alzinger; Placidus Renz; Michael Höcht; Augustin Magg. BP hat nach Baldung, offenbar aus anderer Quelle, noch Johann Spieß eingefügt. Die biographischen Angaben im Register nach Lindner, Professbuch Weingarten. Zu Georg Wegelin vgl. Reinhardt, Restauration 17–30, 198–241 und passim; zu Plaz, Emhardt, Baldung, Spieß, Völker vgl. ebd. 21, 81, 112f., 209, 217, 225, 228f., 231f. Zu Stadelmayr und Magg vgl. Bauer, Thomistische Metaphysik 19f., 40, 696, 709, 717f., 777, 790; Kolb, Präsidium 121–123, 128–131, 133, 144; Sattler, Collectaneen-Blätter 181f., 265; zu Brendlin, Stadelmayr, Renz, Magg: Greiner, Schule in Rottweil 431–433, 438; Nägele, Schulwesen 883–886; zu Reding: Heer, Rorschacher Benediktiner 59. Zu Bucelin ist nunmehr zentral: Neesen, Bucelin; vgl. auch Lindner, Schriftsteller Württemberg 7/2 84–91; Stump, Bucelin; Zimmermann, Bucelin als Hagiograph.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

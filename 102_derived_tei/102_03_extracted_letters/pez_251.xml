@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">251 Placidus Haiden an Bernhard Pez. 1712-06-18. Niederaltaich.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">251</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Placidus Haiden</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1712-06-18</date>
+         <place-of-posting xmlns="">Niederaltaich</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e26339">
+                  <persName>
+                     <abbr>PH</abbr>
+                  </persName> entschuldigt sich für die Unterbrechung des Briefwechsels. Sie war durch eine längere Abwesenheit vom Kloster bedingt, unter der PHs Korrespondenz wie auch seine Lehrtätigkeit gelitten haben.</seg>
+               <seg type="context" n="2" xml:id="d4617e26341">Inzwischen ist Aimoins „Historia Francorum“ mit zwei weiteren Exemplaren von BPs Enzyklik in Niederaltaich eingetroffen, die <persName>
+                     <abbr>PH</abbr>
+                  </persName> bei nächster Gelegenheit weiterversenden will.</seg>
+               <seg type="context" n="3" xml:id="d4617e26343">
+                  <persName>
+                     <abbr>PH</abbr>
+                  </persName> bittet BP, die Beilage („De origine et nomine monasterii ... in Metten“) und einen Brief an René Massuet in Frankreich weiterzuleiten und auf Letzterem die richtige Titulatur und Adresse einzutragen, da <persName>
+                     <abbr>PH</abbr>
+                  </persName> diese nicht kennt.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: II, 48r–v.</p>
+            <p>Bezüge: 214. 274. Erwähnt in 266, 354.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>214</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>274</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <label>Erwähnt in </label>
+                  <idno>266</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>354</idno>
+               </ref>
+            </correspContext>
+            <p>Adresse: <hi rend="italic">Plurimum reverendo religiosissimo et clarissimo domino patri Bernardo Pez celeberrimi et exempti monasterii Mellicensis in Austria Inferiori capitulari et bibliothecario meritissimo, domino patrono gratiosissimo. Wienn.</hi> Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 98v.</p>
+            <p>Nummerierung: <hi rend="italic">VIII</hi>.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine pater, patrone mihi observandissime.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e26365"> Doleo vehementer ob interceptum hactenus devinctissimum obsequium meum et suspensum epistolare commercium cum fautore et amico meo prorsus singulari, qualem in plurimum reverenda et clarissima sua paternitate iure veneror. Excusationem tamen merebitur iterata domo absentia, qua alicubi in monasterii negotiis cum aliquanto amicitiae et professurae meae dispendio morari me oportuit. </seg>
+               <seg type="context" n="2" xml:id="d4617e26367"> Interea <seg type="lemma" corresp="#d4617e26376">Aimoinus</seg> recte hic appulit cum duobus exemplaribus epistolae encyclicae, quae proxima occasione ad loca praefixa destinabo; </seg>
+               <seg type="context" n="3" xml:id="d4617e26369"> illud impraesentiarum humanissime rogans, dignetur clarissima sua dominatio pro sua benevolentia <seg type="lemma" corresp="#d4617e26383">adiacentes pagellas</seg> una cum <seg type="lemma" corresp="#d4617e26390">epistola mea ad reverendum patrem Massuet</seg> dirigenda (cui titulum praefigere nolui, eo quod viri optimi nomen et officium mihi sit incompertum) data opportunitate in Galliam transmittere et mihi quoad titulum et externam inscriptionem in partem laboris venire. Quem favorem pro viribus demereri nunquam non studebo.</seg>
+            </p>
+            <p>Plurimum reverendae religiosae ac clarissimae dominationis obligatissimus in Christo servus pater Placidus manu propria.</p>
+            <p>Ex Nidern-Altaich die 18. Junii anno 1712.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e26376" target="#d4617e26341 #d4617e26367">
+               <ref target="">2</ref>
+               <label>Aimoinus</label>
+               <p>Es handelt sich wohl um die Rücksendung eines ausgeliehenen Werks, vgl. 182.</p>
+            </note>
+            <note xml:id="d4617e26383" target="#d4617e26343 #d4617e26369">
+               <ref target="">3</ref>
+               <label>adiacentes pagellas</label>
+               <p>Nach BPs Aussage in 266 &lt;4&gt; handelt es sich hier um eine Hausgeschichte des Klosters Metten („De origine et nomine monasterii S. Michaelis archangeli in Metten“). Diese ist abschriftlich überliefert in StiB Melk, Cod. 396, 123v–129r (Glassner, Handschriften 88).</p>
+            </note>
+            <note xml:id="d4617e26390" target="#d4617e26343 #d4617e26369">
+               <ref target="#d4617e26343 #d4617e26369">3</ref>
+               <label>epistola mea ... Massuet</label>
+               <p>Dieser Brief ist erhalten: BN FF 19664, 150r–v; vgl. Lecomte, Publication 270. Die Adresse fehlt allerdings, sodass nicht feststellbar ist, ob BP sie ergänzt hat.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

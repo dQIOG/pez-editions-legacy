@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">217 Odo Illem an Bernhard Pez. 1712-03-04. Gladbach.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">217</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Odo Illem</sender>
+         <recipient xmlns="">Bernhard Pez</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1712-03-04</date>
+         <place-of-posting xmlns="">Gladbach</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e22473">
+                  <persName>
+                     <abbr>OI</abbr>
+                  </persName> ist erfreut über BPs Vorhaben („Bibliotheca Benedictina“). In der Beilage sendet er einen Schriftstellerkatalog von St. Veit zu Gladbach mit Lebensskizzen, soweit sie aus St. Veiter Quellen hervorgehen. Er schließt mit Wünschen für BPs langes Leben.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: I, 266r–v.</p>
+            <p>Bezüge: 242.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>242</idno>
+               </ref>
+            </correspContext>
+            <p>Nummerierung: <hi rend="italic">I</hi>.</p>
+            <p>Ordnungsvermerk: <hi rend="italic">56</hi>.</p>
+            <p>Bemerkungen: Die Formulierung lässt Kenntnis von BPs Anliegen erkennen, aber nicht zwingend auf den Erhalt einer Enzyklik schließen; ein Vorbrief wird im Zweifel nicht angesetzt.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Admodum reverende et eximie domine.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e22497"> Gavisus sum valde, quod eximia sua dominatio pro bono communi laborem in se suscipere intendat colligendi auctores, qui in ordine nostro scripserunt et claruerunt. Hinc libentissime <seg type="lemma" corresp="#d4617e22504">nomina religiosorum nostrorum, qui sua opera in lucem ediderunt, subministro</seg> et vitam eorum, quantum <seg type="lemma" corresp="#d4617e22511">ex nostris annalibus</seg> patuit, in adiuncto cathalogo adnecto. Rogabo Deum, ut eximiam dominationem suam pro ordinis nostri decore insudantem quam diutissime servet incolumem. Ita vovet, qui est</seg>
+            </p>
+            <p>Admodum reverendae et doctissimae dominationis suae paratissimus servus et confrater frater Odo Illem ad S. Vitum in Gladbach prior indignus.</p>
+            <p>Gladbaci 4. Martii 1712.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e22504" target="#d4617e22473 #d4617e22497">
+               <ref target="">1</ref>
+               <label>nomina ... subministro</label>
+               <p>Der Schriftstellerkatalog (ohne Titel) ist im Original erhalten in StiA Melk, Karton 85 Varia 23, Fasz. 1, Nr. 21; eine Abschrift unter dem irrigen Titel „Scriptores aliquot, qui vixerunt in monasteriis S. Petri et Pauli vulgo Abdinghof intra Paderborn et S. Viti Gladbacensis“ ebd., Karton 7 Patres 11, Fasz. 1, Nr. 26. Genannt werden: der „Hl. Bruno von Gladbach“; Abt Wolfhelm von Brauweiler; Gottfried Kempens; Abt Petrus Sybenius; Abt Bruno Charmans; Laurenz van Dript; Eberhard Nakatenus. Zu den neuzeitlichen Autoren: Ropertz, Quellen 12, 29, 60, 63–68, 73, 76. Zu Wolfhelm vgl. Bange–Löhr, Gladbach 331; Wisplinghoff, Brauweiler 185–187; dass er zeitweise Vorsteher in Gladbach war, ist zutreffend, doch wird er in der Regel nicht (wie in dem Katalog) unter den Äbten geführt, weil er das Kloster in Stellvertretung seines Onkels, Abt Heinrich, leitete. – Die Nachricht über den angeblichen „Hl. Bruno von Gladbach“ wird bereits von dem Verfasser des Katalogs mit sichtlichem Misstrauen wiedergegeben: „S. Bruno Gladbacensis floruit saeculo decimo, sicut annotatur, sed ipsius opera in hoc monasterio non reperiuntur. Annales nostrae [sic] habent, quod sanctitate et doctrina claruerit obieritque anno 986“. Die Quelle dieser Nachricht konnte nicht ermittelt werden: Weder Chronicon Gladbacense noch die bei Ropertz, Quellen, publizierten späteren Chroniken erwähnen einen Bruno; auch unter den Reliquien der Gladbacher Kirche (Ropertz, Quellen 29f., 89–94) scheinen keine eines Hl. Bruno auf. Es könnte sich um eine korrumpierte Nachricht über den Hl. Bruno von Köln handeln, welcher in St. Pantaleon zu Köln begraben liegt; zu diesem Kloster stand Gladbach im 11. Jh. in enger Verbindung.</p>
+            </note>
+            <note xml:id="d4617e22511" target="#d4617e22473 #d4617e22497">
+               <ref target="#d4617e22473 #d4617e22497">1</ref>
+               <label>ex nostris annalibus</label>
+               <p>Diese Quellenangabe, die auch in der Beilage aufscheint (vgl. oben), ist nicht exakt zu bestimmen, falls sie überhaupt ein einzelnes Werk und nicht den gesamten Fundus an Gladbacher Geschichtsdarstellungen meint. Abt Petrus Knor stellte 1717 eine Chronik „Liber de fundatione et abbatibus monasterii S. Viti in Gladbach“ fertig (ediert bei Ropertz, Quellen 33–94), welche für die neuzeitlichen Konventualen dieselben Lebensdaten bietet wie der Katalog, jedoch keine Angaben über Lebensgang und Werke.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

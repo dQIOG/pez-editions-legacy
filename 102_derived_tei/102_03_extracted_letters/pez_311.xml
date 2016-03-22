@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[311] Bernhard Pez an Konrad Sigler. 1713-06-17 (?).</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">311</id>
+         <deduced xmlns="">true</deduced>
+         <sender xmlns="">Bernhard Pez</sender>
+         <recipient xmlns="">Konrad Sigler</recipient>
+         <destination xmlns=""/>
+         <date xmlns="" cert="low">1713-06-17</date>
+         <place-of-posting xmlns=""/>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="editorialNote">
+            <p>Bezüge: 308. 317. Versendet von Melk bis Würzburg mit 310. Erwähnt in 312, 317.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>308</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>317</idno>
+               </ref>
+               <ref type="sentWith">
+                  <label>Versendet von Melk bis Würzburg mit </label>
+                  <idno>310</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <label>Erwähnt in </label>
+                  <idno>312</idno>
+               </ref>
+               <ref type="relatedTo">
+                  <idno>317</idno>
+               </ref>
+            </correspContext>
+            <p>Bemerkungen: Die Datumsangabe <hi rend="italic">XV. Kalendas Junii</hi> (18. Mai) in 317 ist offenkundig ein Irrtum. Emendiert man <hi rend="italic">Junii</hi> in <hi rend="italic">Julii</hi>, ergibt sich der 17. Juni, was bedeuten würde, dass BP die laut 312 zusammen verschickten Briefe 310 und 311 an aufeinanderfolgenden Tagen geschrieben hatte. Freilich ist auch ein Fehler beim Tagesdatum nicht ausgeschlossen.</p>
+         </div>
+      </front>
+      <body>
+         <ab>
+            <gap reason="letter missing"/>
+         </ab>
+      </body>
+      <back/>
+   </text>
+</TEI>

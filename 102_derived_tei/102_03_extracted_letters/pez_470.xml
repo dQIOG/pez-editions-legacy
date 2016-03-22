@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">470 Bernhard Pez an Anton Steyerer. 1715-12-12. Melk.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+      </profileDesc>
+      <xenoData>
+         <id xmlns="">470</id>
+         <deduced xmlns="">false</deduced>
+         <sender xmlns="">Bernhard Pez</sender>
+         <recipient xmlns="">Anton Steyerer</recipient>
+         <destination xmlns=""/>
+         <date xmlns="">1715-12-12</date>
+         <place-of-posting xmlns="">Melk</place-of-posting>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>
+               <seg type="context" n="1" xml:id="d4617e51290">
+                  <persName>
+                     <abbr>BP</abbr>
+                  </persName> ist im Einband einer Melker Handschrift auf einen Habsburgerstammbaum aus dem 15. Jahrhundert gestoßen, den er sogleich abgeschrieben hat und nun mitsendet. Er wünscht, dass ASt für seine Arbeiten mehr Zeit gewährt würde, zumal <persName>
+                     <abbr>BP</abbr>
+                  </persName> und HP in den österreichischen Bibliotheken zweifellos noch vieles finden werden, das für ASt nützlich sein kann.</seg>
+               <seg type="context" n="2" xml:id="d4617e51292">Demnächst will <persName>
+                     <abbr>BP</abbr>
+                  </persName> Exzerpte aus dem Kleinmariazeller Nekrolog übermitteln.</seg>
+               <seg type="context" n="3" xml:id="d4617e51294">
+                  <persName>
+                     <abbr>BP</abbr>
+                  </persName> hat gehört, dass sich (der Bollandist) Jean-Baptiste Du Sollier in Wien aufhält. Er will diesem, sofern er die Werke nicht schon besitzt, den „Triumphus castitatis“ und die „Acta sancti Colomanni“ (von HP) als Geschenke anbieten. Sollte Du Sollier auf seiner Rückreise Melk besuchen, so kann <persName>
+                     <abbr>BP</abbr>
+                  </persName> einiges zu den Leben der Heiligen (zu den „Acta sanctorum“) beitragen.</seg>
+            </p>
+         </div>
+         <div type="editorialNote">
+            <p>Überlieferung: HHStA Wien, Hs. Rot 8/2, 645–646.</p>
+            <p>Bezüge: 469.</p>
+            <correspContext>
+               <ref type="relatedTo">
+                  <idno>469</idno>
+               </ref>
+            </correspContext>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p>
+               <pb n="1r"/> Plurimum reverendo religiosissimo ac clarissimo patri Antonio Steyrer e Societate Jesu pater Bernardus Pez Benedictinus Mellicensis.</p>
+            <p>
+               <seg type="context" n="1" xml:id="d4617e51306"> His diebus forte fortuna in quendam nostrae bibliothecae codicem incidi, in cuius antico assere <seg type="lemma" corresp="#d4617e51315">schema stirpis Austriaco-Habspurgicae</seg> manu saeculi XV. depictum et exaratum erat. Id quoniam ad res tuas, vir clarissime, pertinere videbatur, mox exscripsi et tecum communicandum putavi. Itaque hoc, quidquid rei est, in altera pagina accipe, et persuasus esto doctissima tua consilia ex mente mea nunquam abesse. Utinam amplius quid temporis tibi indulgeretur ad tanti operis structuram! Ne dubita, quin multa praeclara a nobis adhuc in Austriae bibliothecis detegentur, quae magnam tibi lucem afferant. </seg>
+               <seg type="context" n="2" xml:id="d4617e51308"> Proxime mittam excerpta ex <seg type="lemma" corresp="#d4617e51322">Necrologio Mariaecellensi</seg>, quod penes me est. </seg>
+               <seg type="context" n="3" xml:id="d4617e51310"> Audio eruditissimum patrem Solerum Viennae agere. Ei, nisi iam habeat, dono Acta Wilburgis et sancti Colomanni offeram. Si in reditu nos invisere dignabitur, multa, <seg type="lemma" corresp="#d4617e51336">quae acta sanctorum spectant</seg>, ei suggerere potero. Vale, pater doctissime, et Mellicenses amare perge.</seg>
+            </p>
+            <p>Mellicii pridie Idus Decembris MDCCXV.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d4617e51315" target="#d4617e51290 #d4617e51306">
+               <ref target="">1</ref>
+               <label>schema stirpis Austriaco-Habspurgicae</label>
+               <p>Die Abschrift BPs ist erhalten in HHStA Wien, Hs. Rot 8/2, 647–648, unter dem Titel „Arbor sive Figura ducum Austriae de genere Habsburg“. Der Stammbaum setzt mit Rudolf I. ein und reicht bis zu Philipp dem Schönen, Karl V. und Ferdinand I.; die letzten Eintragungen sind nach einer Anmerkung BPs „recentiore manu“ hinzugefügt. Die Melker Vorlage befindet sich an der Innenseite des Vorderdeckels von StiB Melk, Cod. 1605; vgl. Holzer, Geschichtliche Handschriften 11.</p>
+            </note>
+            <note xml:id="d4617e51322" target="#d4617e51292 #d4617e51308">
+               <ref target="">2</ref>
+               <label>Necrologio Mariaecellensi</label>
+               <p>Die von BP angesprochene Handschrift ist heute StiB Melk, Cod. 836, das Nekrologium findet sich darin auf 113r–138v; vgl. Eigner, Mariazell 363–372; Fuchs, Totenbücher 758f.; Holzer, Geschichtliche Handschriften 42. Editionen: Staufer, Todtenbuch; Necrologia Germaniae 5 128–150. – Exzerpte von der Hand BPs aus diesem sowie dem Melker Nekrologium zu den frühen Habsburgern sind erhalten in HHStA Wien, Hs. Rot 8/2, 641–644. Sie wurden mit einem weiteren Brief am 12. Januar 1716 an ASt versendet.</p>
+            </note>
+            <note xml:id="d4617e51329" target="#d4617e51294 #d4617e51310">
+               <ref target="">3</ref>
+               <label>Solerum Vienna agere</label>
+               <p>Zur Reise Du Solliers nach Wien vgl. Delehaye, Œuvre 82; Joassart, Voyage littéraire 91. Ein Kontakt mit BP oder Melk ist für diese Zeit nicht nachweisbar.</p>
+            </note>
+            <note xml:id="d4617e51336" target="#d4617e51294 #d4617e51310">
+               <ref target="#d4617e51294 #d4617e51310">3</ref>
+               <label>quae acta sanctorum spectant</label>
+               <p>Im Original „acta“ (ohne Majuskel) „Sanctorum“ (mit Majuskel). BP scheint vermeiden zu wollen, dass der Ausdruck als Buchtitel aufgefasst wird.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>
