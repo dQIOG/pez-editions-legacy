@@ -3,19 +3,57 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>REGISTER</title>
-            <author>Wallnig</author>
+            <title type="main">Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare, Band 2: 1716–1718 - Register</title>
+            <title type="sub">Digital Version</title>
+            <title type="short">Die gelehrte Korrespondenz der Brüder Pez, Band 2: Register</title>
+            <editor>
+                  <persName xml:id="tw">
+                  <forename>Thomas</forename>
+                  <surname>Wallnig</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName xml:id="ts">
+                  <forename>Thomas</forename>
+                  <surname>Stockinger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName xml:id="pf">
+                  <forename>Patrick</forename>
+                 <surname>Fiska</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName xml:id="ip">
+                  <forename>Ines</forename> 
+                  <surname>Peper</surname></persName>
+            </editor>
+            <editor>
+               <persName>
+                  <forename>Manuela</forename>
+                  <surname>Mayer</surname></persName>
+            </editor>
+            <respStmt>
+               <resp>unter Mitarbeit von</resp>
+               <persName xml:id="cs">
+                  <forename>Claudia</forename>
+                  <surname>Sojer</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName xml:id="ds">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
          </titleStmt>
-         <editionStmt>
-            <edition>
-               <date>2015-12-22</date>
-            </edition>
-         </editionStmt>
          <publicationStmt>
-            <p>unknown</p>
+            <p>Internal intermediate stage in the conversion process, not to be published.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Converted from a Word document</p>
+            <p>Converted from 001_src/07_Register_Endphase_schwarz.docx by the TEI DocX XSL stylesheets and upconverted with 082_scripts_xsl/register2tei.xsl.</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -27,10 +65,9 @@
       </encodingDesc>
       <revisionDesc>
          <listChange>
-            <change>
-               <date>2016-03-22T01:03:57Z</date>
-               <name>Wallnig</name>
-            </change>
+            <change who="#ds" when="2016-03-22">Converstion to basic TEI</change>
+            <change who="#ds" when="2016-04-12">upconversion to structured index</change>
+            <change who="#ds" when="2016-04-13">adding TEI header</change>
          </listChange>
       </revisionDesc>
    </teiHeader>

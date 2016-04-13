@@ -3,19 +3,40 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Basel (Basilea)    MM 14</title>
-            <author>Wallnig_Stockinger</author>
+            <title type="main">Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715 - Register</title>
+            <title type="sub">Digital Version</title>
+            <title type="short">Die gelehrte Korrespondenz der Brüder Pez, Band 1: Register</title>
+            <editor>
+               <persName xml:id="tw">
+                  <forename>Thomas</forename>
+                  <surname>Wallnig</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName xml:id="ts">
+                  <forename>Thomas</forename>
+                  <surname>Stockinger</surname>
+               </persName>
+            </editor>
+            <editor>
+               <persName xml:id="pf">
+                  <forename>Patrick</forename>
+                  <surname>Fiska</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName xml:id="ds">
+                  <forename>Daniel</forename>
+                  <surname>Schopper</surname>
+               </persName>
+            </respStmt>
          </titleStmt>
-         <editionStmt>
-            <edition>
-               <date>2016-03-21</date>
-            </edition>
-         </editionStmt>
          <publicationStmt>
-            <p>unknown</p>
+            <p>Internal intermediate stage in the conversion process, not to be published.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Converted from a Word document</p>
+            <p>Converted from 001_src/Register_20090805.doc by the TEI DocX XSL stylesheets and upconverted with 082_scripts_xsl/register2tei.xsl.</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -27,10 +48,9 @@
       </encodingDesc>
       <revisionDesc>
          <listChange>
-            <change>
-               <date>2016-03-22T00:57:56Z</date>
-               <name>Wallnig_Stockinger</name>
-            </change>
+            <change who="#ds" when="2016-02-23">Converstion to basic TEI</change>
+            <change who="#ds" when="2016-03-22">upconversion to structured index</change>
+            <change who="#ds" when="2016-04-13">adding TEI header</change>
          </listChange>
       </revisionDesc>
    </teiHeader>
