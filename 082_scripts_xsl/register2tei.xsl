@@ -47,20 +47,40 @@
         <xsl:attribute name="rend">Register 1</xsl:attribute>
     </xsl:template>
     
-    <xsl:template match="p[matches(., '^—\s\p{L}')]/@rend" mode="prepare" priority="1">
-        <xsl:attribute name="rend">Register 2</xsl:attribute>
+    <xsl:template match="p[matches(., '^—[\t\s]\p{L}')]/@rend" mode="prepare" priority="1"/>
+    <xsl:template match="p[matches(., '^—[\t\s]\p{L}')]" mode="prepare" priority="1">
+        <xsl:copy>
+            <xsl:copy-of select="@* except @rend"/>
+            <xsl:attribute name="rend">Register 2</xsl:attribute>
+            <xsl:apply-templates select="node()" mode="#current"/>
+        </xsl:copy>
     </xsl:template>
         
-    <xsl:template match="p[matches(., '^—[\t\s]—\s\p{L}')]/@rend" mode="prepare" priority="2">
-        <xsl:attribute name="rend">Register 3</xsl:attribute>
+    <xsl:template match="p[matches(., '^—[\t\s]—\s\p{L}')]/@rend" mode="prepare" priority="2"/>
+    <xsl:template match="p[matches(., '^—[\t\s]—\s\p{L}')]" mode="prepare" priority="2">
+        <xsl:copy>
+            <xsl:copy-of select="@* except @rend"/>
+            <xsl:attribute name="rend">Register 3</xsl:attribute>
+            <xsl:apply-templates select="node()" mode="#current"/>
+        </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="p[matches(., '^—[\t\s]—[\t\s]—\s\p{L}')]/@rend" mode="prepare" priority="3">
-        <xsl:attribute name="rend">Register 4</xsl:attribute>
+    <xsl:template match="p[matches(., '^—[\t\s]—[\t\s]—\s\p{L}')]/@rend" mode="prepare" priority="3"/>
+    <xsl:template match="p[matches(., '^—[\t\s]—[\t\s]—\s\p{L}')]" mode="prepare" priority="3">
+        <xsl:copy>
+            <xsl:copy-of select="@* except @rend"/>
+            <xsl:attribute name="rend">Register 4</xsl:attribute>
+            <xsl:apply-templates select="node()" mode="#current"/>
+        </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="p[matches(., '^—[\t\s]—[\t\s]—[\t\s]—\s\p{L}')]/@rend" mode="prepare" priority="4">
-        <xsl:attribute name="rend">Register 5</xsl:attribute>
+    <xsl:template match="p[matches(., '^—[\t\s]—[\t\s]—[\t\s]—\s\p{L}')]/@rend" mode="prepare" priority="4"/>
+    <xsl:template match="p[matches(., '^—[\t\s]—[\t\s]—[\t\s]—\s\p{L}')]" mode="prepare" priority="4">
+        <xsl:copy>
+            <xsl:copy-of select="@* except @rend"/>
+            <xsl:attribute name="rend">Register 5</xsl:attribute>
+            <xsl:apply-templates select="node()" mode="#current"/>
+        </xsl:copy>
     </xsl:template>
     
     <xsl:template match="p[starts-with(., 'Personen oder Werke, die mit einem Asterisk (*) gekennzeichnet')]" mode="prepare">
@@ -163,11 +183,11 @@
                     <xsl:matching-substring>
                         <xsl:choose>
                             <xsl:when test="matches(regex-group(1),'^ \d+\.$')">
-                                <ref type="page"><xsl:value-of select="substring-before(regex-group(1), '.')"/></ref>
+                                <ref type="letter"><xsl:value-of select="substring-before(regex-group(1), '.')"/></ref>
                             </xsl:when>
                             <xsl:otherwise>
                                 <xsl:for-each select="tokenize(regex-group(1), '\s+')">
-                                    <ref type="page"><xsl:value-of select="substring-before(., '.')"/></ref>
+                                    <ref type="letter"><xsl:value-of select="substring-before(., '.')"/></ref>
                                 </xsl:for-each>
                             </xsl:otherwise>
                         </xsl:choose>
