@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Siglen</title>
+            <author>IP</author>
+            <author>TS</author>
+            <author>TW</author>
+            <author>MM</author>
+            <author>IR</author>
+            <author>CS</author>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Auxiliary file, not to be published.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Manually extracted from Namenssiglen.doc (text extractin + regex)</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>Siglen</head>
+         <p>Die nachstehenden Namenssiglen sind für Korrespondenten im ersten Band vergeben worden und sollten daher in Hinkunft vermieden werden (auch wenn die meisten dieser Korrespondenten nicht wieder vorkommen werden).</p>
+         <p>Nicht als Namenssiglen gebraucht werden sollten PE (Prioratsephemeriden), BN (Bibliothèque nationale), SJ (Societas Jesu).</p>
+         <p>Anm. Namenssiglen werden nur in Regesten/Kommentaren zu den Briefen der betreffenden Person gebraucht (Ausnahmen: BP, HP), dh. in einem Kommentar zu einem MM-Brief wird MM mit Sigle abgekürzt, Felix Egger oder René Massuet aber ausgeschrieben.</p>
+         <list>
+            <head>Siglen von Personen</head>
+            <item>
+               <choice>
+                  <abbr>MX</abbr>
+                  <expan>Johann Heinrich Franz Graf Hohenwaldeck und Maxlrain</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>NA</abbr>
+                  <expan>Noël Alexandre</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>NC</abbr>
+                  <expan>Nicolas Chaudière</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>NÖ</abbr>
+                  <expan>Nikolaus Öttl</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>NT</abbr>
+                  <expan>Nicolas Tacquet</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>OI</abbr>
+                  <expan>Odo Illem</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>OZ</abbr>
+                  <expan>Othmar Zinke</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PB</abbr>
+                  <expan>Placidus Böckhn</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PC</abbr>
+                  <expan>Pierre Carpentier</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PD</abbr>
+                  <expan>Pierre Ducrocq</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PEm</abbr>
+                  <expan>Placidus Emer</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PF</abbr>
+                  <expan>Petrus Friderici</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PG</abbr>
+                  <expan>Pius Nikolaus Garelli</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PGu</abbr>
+                  <expan>Petrus von Guetrather</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PGua</abbr>
+                  <expan>Pierre Guarin</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PH</abbr>
+                  <expan>Placidus Haiden</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PHu</abbr>
+                  <expan>Philibert Hueber</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PL</abbr>
+                  <expan>Pierre Le Paige</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PM</abbr>
+                  <expan>Placidus Maderer von Ehrenreichskron</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PMar</abbr>
+                  <expan>Prudent Maran</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PMay</abbr>
+                  <expan>Placidus Mayrhauser</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>QM</abbr>
+                  <expan>Quirin Millon</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>RC</abbr>
+                  <expan>Rupert Carl</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>RD</abbr>
+                  <expan>Roman Doll</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>RDr</abbr>
+                  <expan>René-Hyacinthe Drouin</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>RDu</abbr>
+                  <expan>Raimund Duellius</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>RH</abbr>
+                  <expan>Rupert Hausdorf</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>RJ</abbr>
+                  <expan>Raphael a Sancto Josepho</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>RK</abbr>
+                  <expan>Robert König</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>RKr</abbr>
+                  <expan>Roman Krinner</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>RKre</abbr>
+                  <expan>Rupert Krenner</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>RL</abbr>
+                  <expan>Robert Leeb</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>RM</abbr>
+                  <expan>René Massuet</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>RW</abbr>
+                  <expan>Rupert Wilhelmseder</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>SM</abbr>
+                  <expan>Sigismund Münich</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>SO</abbr>
+                  <expan>Severino de Ò</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>SOm</abbr>
+                  <expan>Stefano Omodeo</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>SS</abbr>
+                  <expan>Sebastian Schott</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>TE</abbr>
+                  <expan>Thomas Eixl</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>TEr</abbr>
+                  <expan>Thomas Aquin Erhardt</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PT</abbr>
+                  <expan>Paulus Tröllinger, </expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>TT</abbr>
+                  <expan>Theodor Thier</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>VL</abbr>
+                  <expan>Valentin Larson</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>VT</abbr>
+                  <expan>Vincent Thuillier</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>VW</abbr>
+                  <expan>Vitalis Waldmüller</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>WD</abbr>
+                  <expan>Wolfgang Dullinger</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>WH</abbr>
+                  <expan>Wilhelm Haagn</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>WS</abbr>
+                  <expan>Wolfgang Schmidt</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>WW</abbr>
+                  <expan>Wolfgang Wetter</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>ZU</abbr>
+                  <expan>Zacharias Konrad Uffenbach</expan>
+               </choice>
+            </item>
+         </list>
+         <list>
+            <head>Siglen von Klöstern in erschlossenen Briefen</head>
+            <item>
+               <choice>
+                  <abbr>AAA</abbr>
+                  <expan>St.-Aubin zu Angers</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>AAE</abbr>
+                  <expan>St.-Amand zu St.-Amand-les-Eaux</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>ACF</abbr>
+                  <expan>St.-Alyre zu Clermont-Ferrand</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>Aff</abbr>
+                  <expan>Afflighem</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>ALi</abbr>
+                  <expan>St.-Augustin zu Limoges</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>AMe</abbr>
+                  <expan>St.-Arnul zu Metz</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>AMo</abbr>
+                  <expan>Auchy-les-Moines</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>APe</abbr>
+                  <expan>Anchin zu Pecquencourt</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>Asb</abbr>
+                  <expan>Asbach</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>BAr</abbr>
+                  <expan>St.-Bertin bei Arras</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>BDi</abbr>
+                  <expan>St.-Bénigne zu Dijon</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>Bel</abbr>
+                  <expan>Bellomar</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>BFl</abbr>
+                  <expan>St.-Benoit zu Fleury</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>BGe</abbr>
+                  <expan>St.-Bavon zu Gent</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>BW</abbr>
+                  <expan>Brauweiler</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>BWM</abbr>
+                  <expan>Beinwil-Mariastein</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>CBo</abbr>
+                  <expan>Ste.-Croix zu Bouzonville</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>CBr</abbr>
+                  <expan>St.-Cyran-en-Brenne</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>CCC</abbr>
+                  <expan>St.-Corneille zu Compiègne</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>CFo</abbr>
+                  <expan>Cerisy-la-Fôret</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>CGe</abbr>
+                  <expan>S. Caterina zu Genua</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>CGS</abbr>
+                  <expan>St.-Crépin-le-Grand zu Soissons</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>Clu</abbr>
+                  <expan>Cluny</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>CPo</abbr>
+                  <expan>St.-Cyprien zu Poitiers</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>CQu</abbr>
+                  <expan>Ste.-Croix zu Quimperlé</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>DBr</abbr>
+                  <expan>St.-Denis-en-Brocqueroie</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>DFM</abbr>
+                  <expan>Notre-Dame de Forest-Montiers</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>GAu</abbr>
+                  <expan>St.-Germain d’Auxerre</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>GLa</abbr>
+                  <expan>Saint-Guénolé zu Landénnevec</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>Hil</abbr>
+                  <expan>St. Michael/St. Godehard zu Hildesheim</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>Hlk</abbr>
+                  <expan>Heiligenkreuz</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>HLR</abbr>
+                  <expan>Huysburg/Lampsringe/Ringelheim</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>Ibg</abbr>
+                  <expan>Iburg</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>JLa</abbr>
+                  <expan>St.-Jean zu Laon</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>LBe</abbr>
+                  <expan>St.-Lucien zu Beauvais</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>LBl</abbr>
+                  <expan>St.-Laumer zu Blois</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>Lot</abbr>
+                  <expan>St.-Lothain</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>LPa</abbr>
+                  <expan>Liesborn/Abdinghof zu Paderborn</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>MCa</abbr>
+                  <expan>Monte Cassino</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>MLi</abbr>
+                  <expan>St.-Martial zu Limoges</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>MLo</abbr>
+                  <expan>St.-Maur-sur-Loire</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>MLS</abbr>
+                  <expan>Maria Laach/Schönau</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>MMA</abbr>
+                  <expan>St.-Mihiel an der Maas</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>MMü</abbr>
+                  <expan>Marienmünster</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>MSS</abbr>
+                  <expan>St.-Medard et St.-Sébastien zu Soissons</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>NA</abbr>
+                  <expan>Niederaltaich</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>NDB</abbr>
+                  <expan>Notre-Dame zu Blangy bei Arras</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>NDM</abbr>
+                  <expan>Notre-Dame zu Montivilliers</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>ORo</abbr>
+                  <expan>St.-Ouen zu Rouen</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PBe</abbr>
+                  <expan>St.-Pierre zu Beaulieu</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PBG</abbr>
+                  <expan>St.-Pierre-au-mont-Blandin zu Gent</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PBo</abbr>
+                  <expan>St.-Pierre zu Bourgueil</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PCh</abbr>
+                  <expan>St.-Pierre zu Chartres</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PCo</abbr>
+                  <expan>St.-Paul zu Cormery</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PGe</abbr>
+                  <expan>St.-Pierre zu Gembloux</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PHa</abbr>
+                  <expan>St.-Pierre-et-paul zu Hautmont</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PJu</abbr>
+                  <expan>St.-Pierre zu Jumièges</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PLa</abbr>
+                  <expan>St.-Pierre zu Lagny</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PLu</abbr>
+                  <expan>St.-Pierre zu Luxeuil</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PMC</abbr>
+                  <expan>St.-Pierre de Montier-la-Celle zu Troyes</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PMo</abbr>
+                  <expan>St.-Pierre zu Moissac</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PPB</abbr>
+                  <expan>St.-Pierre-et-Paul zu Bèze</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PPF</abbr>
+                  <expan>St.-Pierre-et-Paul zu Ferrières-en-Gâtinais</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PPH</abbr>
+                  <expan>St.-Pierre-et-Paul zu Hautevillers</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>Prü</abbr>
+                  <expan>Prüm</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PSl</abbr>
+                  <expan>St.-Pierre de Solesmes bei Le Mans</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>PVS</abbr>
+                  <expan>St.-Pierre-le-Vif zu Sens</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>Rai</abbr>
+                  <expan>Raigern</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>RBr</abbr>
+                  <expan>Reuil-en-Brie</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>Rh</abbr>
+                  <expan>Rheinau</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>RI</abbr>
+                  <expan>Rott am Inn</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>SBo</abbr>
+                  <expan>St.-Sulpice zu Bourges</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>SCh</abbr>
+                  <expan>St.-Sauveur zu Charroux</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>SPM</abbr>
+                  <expan>St.-Pierre le Monestier</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>ST</abbr>
+                  <expan>Schuttern</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>SWa</abbr>
+                  <expan>St.-Wandrille</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>TFe</abbr>
+                  <expan>St.-Trinité zu Fécamps</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>VBa</abbr>
+                  <expan>St.-Vigor zu Bayeux</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>VMa</abbr>
+                  <expan>St.-Victor zu Marseille</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>VMe</abbr>
+                  <expan>St.-Vincent de Metz</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>VSS</abbr>
+                  <expan>St.-Valéry-sur-Somme</expan>
+               </choice>
+            </item>
+            <item>
+               <choice>
+                  <abbr>Wh</abbr>
+                  <expan>Waldhausen</expan>
+               </choice>
+            </item>
+         </list>
+      </body>
+   </text>
+</TEI>
