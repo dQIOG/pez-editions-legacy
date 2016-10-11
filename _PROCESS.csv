@@ -9,6 +9,7 @@
 #INDEX-VOL2: Converts the index of volume 2 to a TEI list						
 #INDEX-MERGE: Merges the indexes of volume 1 and 2 into one TEI list. YET TO BE FINISHED!						
 #PERSONS-ENTITYLINKING: Entity linking of a list of persons to GND, VIAF and CERL						
+#PERSON-IMAGE-RELATIONS: Creates a list of persons and their related images in UNIDAM						
 #Conversion-ID	Step	Source	Format IN / OUT	Process/Script/Service	Manually / programmatically	Output
 BIBL-VOL2	1	001_src\06b_Literaturverzeichnis_Endphase.doc	DOC / DOCX	DOCX export via MS Word	p	001_src\06b_Literaturverzeichnis_Endphase.docx
 BIBL-VOL2	2	001_src\06b_Literaturverzeichnis_Endphase.docx	DOCX / TEI	DOCX to TEI conversion via Oxygen	p	102_01_derived_by_TEI_scripts\06b_Literaturverzeichnis_Endphase-TEI-P5.xml
@@ -34,3 +35,4 @@ INDEX-VOL2	2	001_src\07_Register_Endphase_schwarz.docx	DOCX / TEI	DOCX to TEI co
 INDEX-VOL2	3	102_01_derived_by_TEI_scripts\07_Register_Endphase_schwarz-TEI-P5.xml	TEI / TEI	082_scripts_xsl\register2tei.xsl	p	102_02_extracted_index_entries\Pez_Register_Bd2.xml
 INDEX-MERGE	1	102_02_extracted_index_entries\Pez_Register_Bd1.xml + 102_02_extracted_index_entries\Pez_Register_Bd2.xml	TEI / TEI	082_scripts_xsl\mergeIndexes.xsl	p	102_02_extracted_index_entries\Pez_Register_merged.xml
 PERSONS-ENTITYLINKING	1	001_src\2016-03-21_Institutionen-Personen.xlsx	XLSX / TEI	http://www.tei-c.org/oxgarage/	p	001_src\2016-03-21_Institutionen-Personen.xml
+PERSON-IMAGE-RELATIONS	1	001_src\UNIDAM-Exporte\BildPersonen.xml	XML / XML	083_scripts_xquery\BildPersonen2PersonBilder.xql	p	101_derived\PersonBilder.xml
