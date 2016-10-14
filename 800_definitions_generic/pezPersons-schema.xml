@@ -15,7 +15,6 @@
         <!-- s: sure  u: unsure  d: delete this token    -->
         <property>
             <propertyName>Status</propertyName>
-            <propertyName>Status</propertyName>
             <propertyXPath>./Status</propertyXPath>
             <propertyType>closed list</propertyType>
             <propertyValues>
@@ -60,12 +59,21 @@
             <propertyName>SameAsManual</propertyName>
             <propertyXPath>./SameAsManual</propertyXPath>
             <propertyType>free text</propertyType>
-        </property>
+        </property> 
+
+<!-- ? activate Link-widget ???  --> 
+<!--<property>-->
+<!--            <propertyName>link</propertyName>-->
+<!--            <propertyXPath>@link</propertyXPath>-->
+<!--            <propertyType>link</propertyType>-->
+<!--</property>-->
+
+
 
         <property>
             <propertyName>CERL_Permalink</propertyName>
             <propertyXPath>./CERL_Permalink</propertyXPath>
-            <propertyType>free text</propertyType>
+            <propertyType>link</propertyType>
         </property>
 
         <property>
@@ -83,7 +91,7 @@
         <property>
             <propertyName>VIAFPermalink</propertyName>
             <propertyXPath>./VIAFPermalink</propertyXPath>
-            <propertyType>free text</propertyType>
+            <propertyType>link</propertyType>
         </property>
 
         <property>
@@ -107,7 +115,7 @@
         <property>
             <propertyName>PNDGNDPermalink</propertyName>
             <propertyXPath>./PNDGNDPermalink</propertyXPath>
-            <propertyType>free text</propertyType>
+            <propertyType>link</propertyType>
         </property>
 
         <property>
@@ -131,7 +139,7 @@
         <property>
             <propertyName>GSPermalink</propertyName>
             <propertyXPath>./GSPermalink</propertyXPath>
-            <propertyType>free text</propertyType>
+            <propertyType>link</propertyType>
         </property>
 
         <property>
@@ -155,7 +163,7 @@
         <property>
             <propertyName>UrheberBeispiel_URL</propertyName>
             <propertyXPath>./UrheberBeispiel_URL</propertyXPath>
-            <propertyType>free text</propertyType>
+            <propertyType>link</propertyType>
         </property>
 
         <property>
@@ -173,7 +181,7 @@
         <property>
             <propertyName>BehandeltInBeispiel_URL</propertyName>
             <propertyXPath>./BehandeltInBeispiel_URL</propertyXPath>
-            <propertyType>free text</propertyType>
+            <propertyType>link</propertyType>
         </property>
 
         <property>
