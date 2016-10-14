@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- TEST: ADD EXTRA ELEMENT --> 
+
+<schema>
+    <namespaces>
+        <namespace>
+            <prefix>tei</prefix>
+            <uri>http://www.tei-c.org/ns/1.0</uri>
+        </namespace>
+<!--        <namespace>-->
+<!--            <prefix>tt</prefix>-->
+<!--            <uri>http://acdh.oeaw.ac.at/ns/TreeTagger</uri>-->
+<!--        </namespace>-->
+<!--        <namespace>-->
+<!--            <prefix>marmot</prefix>-->
+<!--            <uri>http://acdh.oeaw.ac.at/ns/MaMoT</uri>-->
+<!--        </namespace>-->
+
+<!--map also marmot to tei ?  so that marmot: can stay in place ? -->
+<!--        <namespace>-->
+<!--            <prefix>marmot</prefix>-->
+<!--            <uri>http://www.tei-c.org/ns/1.0</uri>-->
+<!--        </namespace>-->
+
+    </namespaces>
+ 
+    <tokenXPath>//tei:w | //tei:c</tokenXPath>
+<!--
+    <tokenXPath>//tei:w</tokenXPath>
+-->
+    <tokenValueXPath>.</tokenValueXPath>
+    <properties>
+
+        <!-- s: sure  u: unsure  d: delete this token  x: differences spoted in the tokenisation  -->
+        <property>
+            <propertyName>State</propertyName>
+            <propertyXPath>@State</propertyXPath>
+            <propertyType>closed list</propertyType>
+            <propertyValues>
+                 <value></value>
+                 <value>s</value>
+                 <value>u</value>
+                 <value>d</value>
+                 <value>x</value>
+            </propertyValues>  
+        </property>
+
+
+        <property>
+            <propertyName>Mlemma</propertyName>
+            <propertyXPath>@lemma</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+
+        <property>
+            <propertyName>MType</propertyName>
+            <propertyXPath>@type</propertyXPath>
+<!--            <propertyType>free text</propertyType>-->
+            <propertyType>closed list</propertyType>
+            <propertyValues>
+                 <value></value>
+                 <value>$(</value>
+                 <value>$,</value>
+                 <value>$.</value>
+                 <value>ADJ</value>
+                 <value>ADV</value>
+                 <value>AP</value>
+                 <value>CON</value>
+                 <value>DIST</value>
+                 <value>ITJ</value>
+                 <value>NE</value>
+                 <value>NN</value>
+                 <value>NP</value>
+                 <value>NUM</value>
+                 <value>ORD</value>
+                 <value>PRO</value>
+                 <value>V</value>
+                 <value>XY</value>
+            </propertyValues>  
+        </property>
+
+        <property>
+            <propertyName>Mcase</propertyName>
+            <propertyXPath>@case</propertyXPath>
+<!--	    <propertyType>free text</propertyType>-->
+            <propertyType>closed list</propertyType>
+            <propertyValues>
+                 <value></value>
+                 <value>NOMINATIVE</value>
+                 <value>GENITIVE</value>
+                 <value>DATIVE</value>
+                 <value>ACCUSATIVE</value>
+		         <value>VOCATIVE</value>
+                 <value>ABLATIVE</value>
+		         <value>LOCATIVE</value>
+    	         <value>IDECLINABLE</value>
+<!--                 <value>Abl</value>-->
+<!--                 <value>Acc</value>-->
+<!--                 <value>Dat</value>-->
+<!--                 <value>Gen</value>-->
+<!--                 <value>Ide</value>-->
+<!--                 <value>Voc</value>-->
+<!--                 <value>Nom</value>-->
+            </propertyValues> 
+        </property>
+
+        <property>
+            <propertyName>Mnum</propertyName>
+            <propertyXPath>@number</propertyXPath>
+            <propertyType>closed list</propertyType>
+            <propertyValues>
+                 <value></value>
+                 <value>SINGULAR</value>
+                 <value>PLURAL</value>
+<!--                 <value>Pl</value>-->
+<!--                 <value>Sg</value>-->
+            </propertyValues>
+        </property>
+
+        <property>
+            <propertyName>Mgend</propertyName>
+            <propertyXPath>@gender</propertyXPath>
+            <propertyType>closed list</propertyType>
+            <propertyValues>
+                 <value></value>
+                 <value>FEMININE</value>
+                 <value>MASCULINE</value>
+                 <value>NEUTER</value>
+                 <value>COMMON</value>
+<!--                 <value>Com</value>-->
+<!--                 <value>Fem</value>-->
+<!--                 <value>Mas</value>-->
+<!--                 <value>Neu</value>-->
+            </propertyValues>  
+        </property>
+
+        <property>
+            <propertyName>Mpers</propertyName>
+            <propertyXPath>@person</propertyXPath>
+<!--	<propertyType>free text</propertyType>-->
+            <propertyType>closed list</propertyType>
+            <propertyValues>
+                 <value></value>
+                 <value>PERSON_1</value>
+                 <value>PERSON_2</value>
+                 <value>PERSON_3</value>
+<!--                 <value>P1</value>-->
+<!--                 <value>P2</value>-->
+<!--                 <value>P3</value>-->
+            </propertyValues> 
+        </property>
+
+        <property>
+            <propertyName>Mtense</propertyName>
+            <propertyXPath>@tense</propertyXPath>
+<!--	<propertyType>free text</propertyType>-->
+            <propertyType>closed list</propertyType>
+            <propertyValues>
+                 <value></value>
+                 <value>PRESENT</value>
+                 <value>PERFECT</value>
+                 <value>IMPERFECT</value>
+                 <value>PLUPERFECT</value>
+                 <value>FUTURE</value>   
+<!--                 <value>Fut</value>-->
+<!--                 <value>Imp</value>-->
+<!--                 <value>Per</value>-->
+<!--                 <value>Plu</value>-->
+<!--                 <value>Pre</value>-->
+            </propertyValues> 
+        </property>
+
+        <property>
+            <propertyName>Mmood</propertyName>
+            <propertyXPath>@mood</propertyXPath>
+<!--            <propertyType>free text</propertyType>-->
+            <propertyType>closed list</propertyType>
+            <propertyValues>
+                 <value></value>
+                 <value>INDICATIVE</value>
+                 <value>INFINITIVE</value>
+                 <value>IMPERATIVE</value>
+                 <value>PARTICIPLE</value>
+                 <value>SUBJUNCTIVE</value>
+                 <value>GERUND</value>
+                 <value>GERUNDIVE</value>
+                 <value>SUPINE</value>
+<!--                 <value>Gerund</value>-->
+<!--                 <value>Gerundive</value>-->
+<!--                 <value>Imperative</value>-->
+<!--                 <value>Indicative</value>-->
+<!--                 <value>Infinitive</value>-->
+<!--                 <value>Participle</value>-->
+<!--                 <value>Subjunctive</value>-->
+<!--                 <value>Supine</value>-->
+            </propertyValues>
+        </property>
+
+        <property>
+            <propertyName>Mvoice</propertyName>
+            <propertyXPath>@voice</propertyXPath>
+<!--            <propertyType>free text</propertyType>-->
+            <propertyType>closed list</propertyType>
+            <propertyValues>
+                 <value></value>
+                 <value>ACTIVE</value>
+                 <value>PASSIVE</value>
+<!--                 <value>Act</value>-->
+<!--                 <value>Pas</value>-->
+            </propertyValues>  
+        </property>
+
+	<!-- additional attr only provided manually -->
+        <property>
+            <propertyName>degree</propertyName>
+            <propertyXPath>@degree</propertyXPath>
+            <propertyType>closed list</propertyType>
+            <propertyValues>
+                 <value></value>
+                 <value>positive</value>
+                 <value>comparative</value>
+                 <value>superlative</value>
+            </propertyValues>  
+        </property>
+
+<!--        <property>-->
+<!--            <propertyName>skipTT</propertyName>-->
+<!--            <propertyXPath>@skippedTT</propertyXPath>-->
+<!--            <propertyType>free text</propertyType>-->
+<!--            <readOnly/>-->
+<!--        </property>-->
+
+    </properties>
+
+<structures>
+<structure>
+            <structureName>doc</structureName>
+            <structureXPath>//doc</structureXPath>
+            <structureType></structureType>
+</structure>
+<structure>
+            <structureName>s</structureName>
+            <structureXPath>//s</structureXPath>
+            <structureType></structureType>
+</structure>
+</structures>
+
+</schema>

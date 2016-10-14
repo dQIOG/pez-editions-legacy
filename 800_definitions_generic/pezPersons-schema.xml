@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<schema>
+    <namespaces>
+<!--        <namespace>-->
+<!--            <prefix>tei</prefix>-->
+<!--            <uri>http://www.tei-c.org/ns/1.0</uri>-->
+<!--        </namespace>-->
+    </namespaces>
+ 
+    <tokenXPath>//person</tokenXPath>
+
+    <tokenValueXPath>./PersonNameCanonical</tokenValueXPath>
+    <properties>
+
+        <!-- s: sure  u: unsure  d: delete this token    -->
+        <property>
+            <propertyName>Status</propertyName>
+            <propertyName>Status</propertyName>
+            <propertyXPath>./Status</propertyXPath>
+            <propertyType>closed list</propertyType>
+            <propertyValues>
+                 <value></value>
+                 <value>s</value>
+                 <value>u</value>
+                 <value>d</value>
+            </propertyValues>  
+        </property>
+
+        <property>
+            <propertyName>PrimarySource</propertyName>
+            <propertyXPath>./PrimarySource</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>FoundName</propertyName>
+            <propertyXPath>./FoundName</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>FoundBIO</propertyName>
+            <propertyXPath>./FoundBIO</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>CERL</propertyName>
+            <propertyXPath>./CERL</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>ManualCERL</propertyName>
+            <propertyXPath>./ManualCERL</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>SameAsManual</propertyName>
+            <propertyXPath>./SameAsManual</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>CERL_Permalink</propertyName>
+            <propertyXPath>./CERL_Permalink</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>VIAF</propertyName>
+            <propertyXPath>./VIAF</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>SameAsManual_cerl</propertyName>
+            <propertyXPath>./SameAsManual_cerl</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>VIAFPermalink</propertyName>
+            <propertyXPath>./VIAFPermalink</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>ManualVIAF</propertyName>
+            <propertyXPath>./ManualVIAF</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>PND_GND</propertyName>
+            <propertyXPath>./PND_GND</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>SameAsManualGND</propertyName>
+            <propertyXPath>./SameAsManualGND</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>PNDGNDPermalink</propertyName>
+            <propertyXPath>./PNDGNDPermalink</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>ManualGND</propertyName>
+            <propertyXPath>./ManualGND</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>GS</propertyName>
+            <propertyXPath>./GS</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>SameAsManualGS</propertyName>
+            <propertyXPath>./SameAsManualGS</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>GSPermalink</propertyName>
+            <propertyXPath>./GSPermalink</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>ManualGS</propertyName>
+            <propertyXPath>./ManualGS</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>MatchedPersonID</propertyName>
+            <propertyXPath>./MatchedPersonID</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>Urheber_Count</propertyName>
+            <propertyXPath>./Urheber_Count</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>UrheberBeispiel_URL</propertyName>
+            <propertyXPath>./UrheberBeispiel_URL</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>UrheberBeispiel_Text</propertyName>
+            <propertyXPath>./UrheberBeispiel_Text</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>BehandeltIn_Count</propertyName>
+            <propertyXPath>./BehandeltIn_Count</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>BehandeltInBeispiel_URL</propertyName>
+            <propertyXPath>./BehandeltInBeispiel_URL</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+        <property>
+            <propertyName>BehandeltInBeispiel_Text</propertyName>
+            <propertyXPath>./BehandeltInBeispiel_Text</propertyXPath>
+            <propertyType>free text</propertyType>
+        </property>
+
+   
+    </properties>
+</schema>
