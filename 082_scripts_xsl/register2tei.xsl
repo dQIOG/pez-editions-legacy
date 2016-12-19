@@ -47,8 +47,8 @@
         <xsl:attribute name="rend">Register 1</xsl:attribute>
     </xsl:template>
     
-    <xsl:template match="p[matches(., '^—[\t\s]\p{L}')]/@rend" mode="prepare" priority="1"/>
-    <xsl:template match="p[matches(., '^—[\t\s]\p{L}')]" mode="prepare" priority="1">
+    <xsl:template match="p[matches(., '^—[\t\s][-\[\*\p{L}]')]/@rend" mode="prepare" priority="1"/>
+    <xsl:template match="p[matches(., '^—[\t\s][-\[\*\p{L}]')]" mode="prepare" priority="1">
         <xsl:copy>
             <xsl:copy-of select="@* except @rend"/>
             <xsl:attribute name="rend">Register 2</xsl:attribute>
@@ -56,8 +56,8 @@
         </xsl:copy>
     </xsl:template>
         
-    <xsl:template match="p[matches(., '^—[\t\s]—\s\p{L}')]/@rend" mode="prepare" priority="2"/>
-    <xsl:template match="p[matches(., '^—[\t\s]—\s\p{L}')]" mode="prepare" priority="2">
+    <xsl:template match="p[matches(., '^—[\t\s]—\s[-\[\*\d\p{L}]')]/@rend" mode="prepare" priority="2"/>
+    <xsl:template match="p[matches(., '^—[\t\s]—\s[-\[\*\d\p{L}]')]" mode="prepare" priority="2">
         <xsl:copy>
             <xsl:copy-of select="@* except @rend"/>
             <xsl:attribute name="rend">Register 3</xsl:attribute>
@@ -65,8 +65,8 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="p[matches(., '^—[\t\s]—[\t\s]—\s\p{L}')]/@rend" mode="prepare" priority="3"/>
-    <xsl:template match="p[matches(., '^—[\t\s]—[\t\s]—\s\p{L}')]" mode="prepare" priority="3">
+    <xsl:template match="p[matches(., '^—[\t\s]—[\t\s]—\s[-\[\*\d\p{L}]')]/@rend" mode="prepare" priority="3"/>
+    <xsl:template match="p[matches(., '^—[\t\s]—[\t\s]—\s[-\[\*\d\p{L}]')]" mode="prepare" priority="3">
         <xsl:copy>
             <xsl:copy-of select="@* except @rend"/>
             <xsl:attribute name="rend">Register 4</xsl:attribute>
@@ -74,8 +74,8 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="p[matches(., '^—[\t\s]—[\t\s]—[\t\s]—\s\p{L}')]/@rend" mode="prepare" priority="4"/>
-    <xsl:template match="p[matches(., '^—[\t\s]—[\t\s]—[\t\s]—\s\p{L}')]" mode="prepare" priority="4">
+    <xsl:template match="p[matches(., '^—[\t\s]—[\t\s]—[\t\s]—\s[-\[\*\d\p{L}]')]/@rend" mode="prepare" priority="4"/>
+    <xsl:template match="p[matches(., '^—[\t\s]—[\t\s]—[\t\s]—\s[-\[\*\d\p{L}]')]" mode="prepare" priority="4">
         <xsl:copy>
             <xsl:copy-of select="@* except @rend"/>
             <xsl:attribute name="rend">Register 5</xsl:attribute>
@@ -85,6 +85,14 @@
     
     <xsl:template match="p[starts-with(., 'Personen oder Werke, die mit einem Asterisk (*) gekennzeichnet')]" mode="prepare">
         <note><xsl:value-of select="."/></note>
+    </xsl:template>
+    
+    <xsl:template match="hi[@rend = ('Register_3_Zchn', 'Strong')]|seg[@rend = 'normalweight']" mode="prepare">
+        <xsl:apply-templates mode="#current"/>
+    </xsl:template>
+    
+    <xsl:template match="hi[@rend = 'italic'][matches(.,'^[&#160;\s\t]+$')]" mode="prepare">
+        <xsl:apply-templates mode="#current"/>
     </xsl:template>
     
     <xsl:template match="body" mode="indexes">
@@ -175,8 +183,55 @@
         </xsl:for-each-group>
     </xsl:template>
     
-    <xsl:template match="desc/text()" mode="tagText">
-        <xsl:analyze-string select="." regex="^(—[\t\s])+">
+    <!-- "Vide" entries enthalten höchstwahrscheinlich keine weitere Information, d.h. wir 
+        können hier davon ausgehen, dass die Klammern Namensteile etc. sind. -->
+    <xsl:template match="desc[not(starts-with(.,'Vide'))]/text()" mode="parenthesis2ms">
+        <xsl:analyze-string select="." regex="[\(\)]\.?">
+            <xsl:matching-substring>
+                <milestone unit="parenthesis-{if (. eq '(') then 'open' else 'close'}"/>
+            </xsl:matching-substring>
+            <xsl:non-matching-substring>
+                <xsl:value-of select="."/>
+            </xsl:non-matching-substring>
+        </xsl:analyze-string>
+    </xsl:template>
+    
+    <xsl:template match="desc" mode="tagNotes">
+        <xsl:copy>
+            <xsl:copy-of select="@*"/>
+            <xsl:for-each-group select="node()" group-starting-with="milestone[@unit = 'parenthesis-open']">
+                <xsl:choose>
+                    <xsl:when test="current-group()[1]/self::milestone">
+                        <xsl:for-each-group select="current-group()[position() gt 1]" group-ending-with="milestone[@unit = 'parenthesis-close']">
+                            <xsl:choose>
+                                <xsl:when test="current-group()[last()]/self::milestone">
+                                    <note>
+                                        <xsl:sequence select="current-group() except current-group()[last()]"/>
+                                    </note>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:sequence select="current-group()"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:for-each-group>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:sequence select="current-group()"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:for-each-group>
+        </xsl:copy>
+    </xsl:template>
+    
+    <xsl:template match="desc" mode="tagText">
+        <xsl:variable name="parenthesis2ms">
+            <xsl:apply-templates select="." mode="parenthesis2ms"/>
+        </xsl:variable>
+        <xsl:variable name="notesTagged">
+            <xsl:apply-templates select="$parenthesis2ms" mode="tagNotes"/>
+        </xsl:variable>
+        <xsl:apply-templates select="$notesTagged" mode="tagRefs"/>
+        <!--<xsl:analyze-string select="." regex="^(—[\t\s])+">
             <xsl:matching-substring/>
             <xsl:non-matching-substring>
                 <xsl:analyze-string select="." regex="&#160;{{4,}}((\d+(-\d+)?\.\s*)+)">
@@ -204,9 +259,25 @@
                     </xsl:non-matching-substring>
                 </xsl:analyze-string>
             </xsl:non-matching-substring>
+        </xsl:analyze-string>-->
+    </xsl:template>
+    <xsl:template match="desc/text()" mode="tagRefs">
+        <xsl:analyze-string select="." regex="&#160;{{4,}}\s*((\d+(-\d+)?\.\s*)+)">
+            <xsl:matching-substring>
+                <xsl:choose>
+                    <xsl:when test="matches(regex-group(1),'^ \d+\.$')">
+                        <ref type="letter"><xsl:value-of select="substring-before(regex-group(1), '.')"/></ref>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:for-each select="tokenize(regex-group(1), '\s+')">
+                            <ref type="letter"><xsl:value-of select="substring-before(., '.')"/></ref>
+                        </xsl:for-each>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:matching-substring>
+            <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
         </xsl:analyze-string>
     </xsl:template>
-        
     
     
     <xsl:template match="desc/note | desc/ref" mode="unnestDesc"/>
@@ -239,5 +310,11 @@
         </xsl:copy>
     </xsl:template>
     
+    <xsl:template match="term[text() and not(*)]" mode="addIDs">
+        <xsl:copy>
+            <xsl:copy-of select="@*"/>
+            <xsl:value-of select="replace(normalize-space(.),'\.$','')"/>
+        </xsl:copy>
+    </xsl:template>
     
 </xsl:stylesheet>
