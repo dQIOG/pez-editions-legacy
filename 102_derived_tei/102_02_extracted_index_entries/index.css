@@ -1,0 +1,73 @@
+teiHeader {
+    display: none;
+}
+
+TEI, text, body, list {
+    display: inline;
+}
+
+head {
+    font-size: large;
+    display: block;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+item {
+    display: block;
+    text-indent: -2em;
+    margin-left: 2em;
+}
+note:before {
+    content: "(";
+}
+note:after {
+    content: ")";
+}
+
+hi{
+    display: inline;
+}
+hi[rend = "italic"]{
+    font-style: italic;
+}
+/*
+list[n = '1'] {
+    text-indent: 0em;
+}
+
+list[n = '2'] {
+    text-indent: 3em;
+}
+
+list[n = '3'] {
+    text-indent: 6em;
+}
+
+list[n = "4"] {
+    text-indent: 9em;
+}*/
+
+list[n = '2'] item term:before {
+    content: "— "
+}
+
+list[n = '3'] item term:before{
+    content: "— — "
+}
+
+list[n = '4'] item term:before {
+    content: "— — — "
+}
+
+ref{
+    margin-left: 4em;
+}
+
+ref+ref{
+    margin-left: 0em;
+}
+
+ref:after{
+    content: ".";
+}
