@@ -1,0 +1,92 @@
+pb:before {
+    content: oxy_xpath("concat('[',@n,']')");
+    display: block!important;
+    color: red;
+    width: 125px;
+}
+
+cit:before, cit:after {
+    content: "";
+}
+
+teiHeader {
+    display: none;
+}
+
+TEI, text, body {
+    display: inline;
+}
+
+
+div[type = 'regest']:before,
+div[type = 'editorialNote']:before,
+div[type = 'commentary']:before,
+div[type = 'regest']:before,
+div[type = 'edition']:before {
+    display: block;
+    font-size: 16pt;
+    color: gray;
+}
+
+div[type = 'regest']:before {
+    content: "Regest";
+}
+
+div[type = 'address']:before {
+    content: "Adresse: ";
+    font-style: italic;
+}
+
+div[type = 'edition']:before {
+    content: "Edition";
+}
+
+div[type = 'editorialNote'] {
+    font-size: 13pt;
+}
+
+div[type = 'regest'] {
+    font-style: italic;
+}
+
+div[type = 'commentary']:before {
+    content: "Kommentar";
+}
+
+
+seg[type = 'context'] {
+    display: inline;
+}
+
+seg[type = 'context']:before {
+    content: oxy_xpath("concat('<',@n,'> ')");
+    font-style: italic;
+}
+
+ref[type = 'context']:before {
+    content: "<";
+}
+ref[type = 'context']:after {
+    content: ">";
+}
+ref[type = 'context'] {
+    font-style: italic;
+}
+
+ref[type = 'context'] + label {
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 2pt;
+}
+
+div[type = 'commentary'] note p:before {
+    content: ": ";
+}
+div[type = 'commentary'] note p {
+    display: inline;
+    font-style: italic;
+}
+
+relatedItem[type]:before {
+    content: oxy_xpath("@type")":";
+}

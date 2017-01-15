@@ -17,6 +17,46 @@
                                     <String>text/any</String>
                                 </field>
                                 <field name="unparsedInsertString">
+                                    <String>&lt;seg type="lemma" corresp="${caret}">${selection}&lt;/seg></String>
+                                </field>
+                                <field name="descriptionString">
+                                    <String></String>
+                                </field>
+                                <field name="renderString">
+                                    <String>Lemma</String>
+                                </field>
+                                <field name="enabled">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="accelerator">
+                                    <String>ctrl alt L</String>
+                                </field>
+                            </codeTemplateItem>
+                            <codeTemplateItem>
+                                <field name="contentType">
+                                    <String>text/any</String>
+                                </field>
+                                <field name="unparsedInsertString">
+                                    <String>&lt;rs type="letter">${selection}&lt;/rs>${caret}</String>
+                                </field>
+                                <field name="descriptionString">
+                                    <String></String>
+                                </field>
+                                <field name="renderString">
+                                    <String>Verweis_auf_Brief</String>
+                                </field>
+                                <field name="enabled">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="accelerator">
+                                    <String>ctrl alt B</String>
+                                </field>
+                            </codeTemplateItem>
+                            <codeTemplateItem>
+                                <field name="contentType">
+                                    <String>text/any</String>
+                                </field>
+                                <field name="unparsedInsertString">
                                     <String>&lt;lb/>
 ${caret}</String>
                                 </field>
@@ -5731,7 +5771,7 @@ ${caret}</String>
                                 </field>
                                 <field name="classpath">
                                     <String-array>
-                                        <String>file:/C:/Users/Daniel/lib/ediarum.jar</String>
+                                        <String>${pdu}/ediarum.jar</String>
                                     </String-array>
                                 </field>
                                 <field name="parentClassLoaderID">
@@ -5740,7 +5780,30 @@ ${caret}</String>
                                 <field name="authorExtensionDescriptor">
                                     <authorExtension>
                                         <field name="cssDescriptors">
-                                            <cssFile-array/>
+                                            <cssFile-array>
+                                                <cssFile>
+                                                    <field name="href">
+                                                        <String>${pdu}/letter.css</String>
+                                                    </field>
+                                                    <field name="title">
+                                                        <String></String>
+                                                    </field>
+                                                    <field name="alternate">
+                                                        <Boolean>false</Boolean>
+                                                    </field>
+                                                </cssFile>
+                                                <cssFile>
+                                                    <field name="href">
+                                                        <String>${framework(TEI P5)}/xml/tei/css/tei_oxygen.css</String>
+                                                    </field>
+                                                    <field name="title">
+                                                        <String></String>
+                                                    </field>
+                                                    <field name="alternate">
+                                                        <Boolean>false</Boolean>
+                                                    </field>
+                                                </cssFile>
+                                            </cssFile-array>
                                         </field>
                                         <field name="mergeCSSsFromDocument">
                                             <Boolean>false</Boolean>
@@ -5770,7 +5833,7 @@ ${caret}</String>
                                                         <String></String>
                                                     </field>
                                                     <field name="accelerator">
-                                                        <null/>
+                                                        <String>ctrl alt I</String>
                                                     </field>
                                                     <field name="actionModes">
                                                         <actionMode-array>
@@ -5782,19 +5845,19 @@ ${caret}</String>
                                                                     <serializableOrderedMap>
                                                                         <entry>
                                                                             <String>URL</String>
-                                                                            <String>http://localhost:8080/exist/rest/db/pez/register.xml  </String>
+                                                                            <String>https://exist-curation.minerva.arz.oeaw.ac.at/exist/restxq/pez/index/query</String>
                                                                         </entry>
                                                                         <entry>
                                                                             <String>element</String>
-                                                                            <String>&lt;index xmlns='http://www.tei-c.org/ns/1.0' key='" + @xml:id + "'>${selection}&lt;/index></String>
+                                                                            <String>"&lt;rs xmlns='http://www.tei-c.org/ns/1.0' key='" + @xml:id + "'>&lt;/rs>"</String>
                                                                         </entry>
                                                                         <entry>
                                                                             <String>expression</String>
-                                                                            <String>/term</String>
+                                                                            <String>@position + /term</String>
                                                                         </entry>
                                                                         <entry>
                                                                             <String>node</String>
-                                                                            <String>//entry</String>
+                                                                            <String>//item</String>
                                                                         </entry>
                                                                     </serializableOrderedMap>
                                                                 </field>
@@ -13749,6 +13812,42 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                         </documentTypeDescriptor-array>
                     </entry>
                     <entry>
+                        <String>editor.format.break.line.elements</String>
+                        <breakLineElement-array>
+                            <breakLineElement>
+                                <field name="elementExpression">
+                                    <String>tei:lb[not(@break="no")]</String>
+                                </field>
+                                <field name="breakPolicy">
+                                    <Integer>2</Integer>
+                                </field>
+                            </breakLineElement>
+                        </breakLineElement-array>
+                    </entry>
+                    <entry>
+                        <String>editor.format.mixed.content.elements</String>
+                        <String-array>
+                            <String>title</String>
+                            <String>p</String>
+                            <String>seg</String>
+                        </String-array>
+                    </entry>
+                    <entry>
+                        <String>editor.format.preserve.spaces.elements.v11</String>
+                        <String-array>
+                            <String>xsl:text</String>
+                            <String>xsl:comment</String>
+                            <String>xsl:processing-instruction</String>
+                            <String>literallayout</String>
+                            <String>programlisting</String>
+                            <String>screen</String>
+                            <String>synopsis</String>
+                            <String>pre</String>
+                            <String>xd:pre</String>
+                            <String>title</String>
+                        </String-array>
+                    </entry>
+                    <entry>
                         <String>extensions.update.sites</String>
                         <String-array>
                             <String>http://www.oxygenxml.com/InstData/Addons/default/updateSite.xml</String>
@@ -13764,12 +13863,76 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                         <Boolean>true</Boolean>
                     </entry>
                     <entry>
+                        <String>key.editor.format.xml.option.pane</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
                         <String>key.extensions.update.site.option.pane</String>
                         <Boolean>true</Boolean>
                     </entry>
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>082_scripts_xsl/biographica2persList.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TEI2Biographica</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>102_derived_tei/102_01_derived_by_TEI_scripts/Einheitsfile_formatiert_20090729-TEI-P5.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>oxgarage TEI 2 letters</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>082_scripts_xsl/compareIndexes.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>compare indexes</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>082_scripts_xsl/mergeIndexes_v2.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>merge indexes</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>102_derived_tei/102_02_extracted_index_entries/Pez_Register_Bd2.xml</String>
@@ -13832,36 +13995,6 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>082_scripts_xsl/compareIndexes.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>compare indexes</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>082_scripts_xsl/mergeIndexes_v2.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>merge indexes</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>082_scripts_xsl/tests/register2tei/Yepes.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -13902,21 +14035,6 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XQUERY</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>102_derived_tei/102_01_derived_by_TEI_scripts/Einheitsfile_formatiert_20090729-TEI-P5.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>oxgarage TEI 2 letters</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -15458,6 +15576,92 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 </field>
                                 <field name="outputResource">
                                     <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon-PE</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
+                            <scenario>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>TEI2Biographica</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XML</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <File>${pd}/102_derived_tei/102_04_auxiliary_files/biographica.xml</File>
+                                </field>
+                                <field name="outputResource">
+                                    <String>${pd}/102_derived_tei/102_04_auxiliary_files/biographica.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
