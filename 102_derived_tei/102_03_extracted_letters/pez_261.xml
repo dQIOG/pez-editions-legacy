@@ -13,118 +13,108 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">261</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Katschthaler, Briefnachlass 20</bibl>
+                  <bibl>Hammermayer, Forschungszentren 133</bibl>
+                  <bibl>Hammermayer, Maurinismus 397</bibl>
+                  <bibl>Mayer, Nachlaß 18 499 (irrig zu 1711)</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">II</biblScope>
+               <biblScope unit="page">124r–125v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Mariano Armellini</persName>
+               <date when="1712-08-03">1712-08-03</date>
+               <placeName>Rom</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="next">
+                  <idno type="pezEd">207</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">207</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">261</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Mariano Armellini</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1712-08-03</date>
-         <place-of-posting xmlns="">Rom</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e27492">
-                  <persName>
-                     <abbr>MA</abbr>
-                  </persName> entschuldigt sich für die späte Antwort auf BPs Brief <ref type="letter">207</ref>, da er diesen vor einer Reise nach Senigallia erhielt, einer Bischofsstadt an der Adria im Piceno, wo er in der Fastenzeit täglich im Dom gepredigt hat. Auch nach seiner Rückkehr nach Rom vor vier Monaten haben ihn dringende Geschäfte vom Schreiben abgehalten.</seg>
-               <seg type="context" n="2" xml:id="d4617e27497">
-                  <persName>
-                     <abbr>MA</abbr>
-                  </persName> arbeitet zwar an einer „Bibliotheca“ der Cassinenser Kongregation seit 1420, dem Jahr ihrer Konstituierung (recte: 1419), fürchtet aber, dass die darin behandelten Autoren, ebenso wie jene aller jüngeren Kongregationen, neben den benediktinischen Gelehrten früherer Jahrhunderte nicht bestehen können. Die Hoffnungen, die <persName>
-                     <abbr>BP</abbr>
-                  </persName> und andere in MAs Werk setzen, sind zu hoch.</seg>
-               <seg type="context" n="3" xml:id="d4617e27499">Deshalb wird sich das Erscheinen verzögern, falls nicht das Urteil anderer Gelehrter, das <persName>
-                     <abbr>MA</abbr>
-                  </persName> einholen will, die Bedenken zerstreut. Gerne würde er das Werk auch <persName>
-                     <abbr>BP</abbr>
-                  </persName> vorlegen, wozu jedoch ein Besuch BPs in Rom nötig wäre. Eine Abschrift durch einen Gehilfen würde eine Vielzahl an Fehlern mit sich bringen und zudem viel kosten.</seg>
-               <seg type="context" n="4" xml:id="d4617e27501">In Rom würde <persName>
-                     <abbr>BP</abbr>
-                  </persName> namhafte Gelehrte und gut ausgestattete Bibliotheken zum Nutzen seines Vorhabens vorfinden. Zudem könnte eine Reise BPs zu den Benediktinerklöstern Deutschlands und Italiens aus deren Bibliotheken vieles für sein wie für MAs Vorhaben abwerfen.</seg>
-               <seg type="context" n="5" xml:id="d4617e27503">
-                  <persName>
-                     <abbr>MA</abbr>
-                  </persName> selbst hat auf seinen Predigtreisen, sooft er konnte, Forschungen angestellt, doch bei weitem nicht alle cassinensischen Klöster bereist, vor allem nicht jene im Gebiet der Republik Venedig, wo sich zahlreiche der ältesten Klöster der Kongregation befinden.</seg>
-               <seg type="context" n="6" xml:id="d4617e27505">Abschließend fordert <persName>
-                     <abbr>MA</abbr>
-                  </persName> BP neuerlich zu einer Reise nach Rom auf.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e31706"><rs type="person" role="sender">MA</rs> entschuldigt sich für die späte Antwort auf <rs type="person" role="sender">BPs</rs> Brief <ref type="letter">207</ref>, da er diesen vor einer Reise nach Senigallia erhielt, einer Bischofsstadt an der Adria im Piceno, wo er in der Fastenzeit täglich im Dom gepredigt hat. Auch nach seiner Rückkehr nach Rom vor vier Monaten haben ihn dringende Geschäfte vom Schreiben abgehalten.</seg><seg type="context" n="2" xml:id="d4618e31711"><rs type="person" role="sender">MA</rs> arbeitet zwar an einer „Bibliotheca“ der Cassinenser Kongregation seit 1420, dem Jahr ihrer Konstituierung (recte: 1419), fürchtet aber, dass die darin behandelten Autoren, ebenso wie jene aller jüngeren Kongregationen, neben den benediktinischen Gelehrten früherer Jahrhunderte nicht bestehen können. Die Hoffnungen, die <rs type="person" role="sender">BP</rs> und andere in <rs type="person" role="sender">MAs</rs> Werk setzen, sind zu hoch.</seg><seg type="context" n="3" xml:id="d4618e31713">Deshalb wird sich das Erscheinen verzögern, falls nicht das Urteil anderer Gelehrter, das <rs type="person" role="sender">MA</rs> einholen will, die Bedenken zerstreut. Gerne würde er das Werk auch <rs type="person" role="sender">BP</rs> vorlegen, wozu jedoch ein Besuch <rs type="person" role="sender">BPs</rs> in Rom nötig wäre. Eine Abschrift durch einen Gehilfen würde eine Vielzahl an Fehlern mit sich bringen und zudem viel kosten.</seg><seg type="context" n="4" xml:id="d4618e31715">In Rom würde <rs type="person" role="sender">BP</rs> namhafte Gelehrte und gut ausgestattete Bibliotheken zum Nutzen seines Vorhabens vorfinden. Zudem könnte eine Reise <rs type="person" role="sender">BPs</rs> zu den Benediktinerklöstern Deutschlands und Italiens aus deren Bibliotheken vieles für sein wie für <rs type="person" role="sender">MAs</rs> Vorhaben abwerfen.</seg><seg type="context" n="5" xml:id="d4618e31717"><rs type="person" role="sender">MA</rs> selbst hat auf seinen Predigtreisen, sooft er konnte, Forschungen angestellt, doch bei weitem nicht alle cassinensischen Klöster bereist, vor allem nicht jene im Gebiet der Republik Venedig, wo sich zahlreiche der ältesten Klöster der Kongregation befinden.</seg><seg type="context" n="6" xml:id="d4618e31719">Abschließend fordert <rs type="person" role="sender">MA</rs> BP neuerlich zu einer Reise nach Rom auf.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: II, 124r–125v.</p>
-            <p>Literatur: Katschthaler, Briefnachlass 20; Hammermayer, Forschungszentren 133; Hammermayer, Maurinismus 397; Mayer, Nachlaß 18 499 (irrig zu 1711).</p>
-            <p>Bezüge: 207. Erwähnt 207.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>207</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>207</idno>
-               </ref>
-            </correspContext>
-            <p>Adresse: <hi rend="italic">Reverendo admodum religiosissimo ac clarissimo patri ac domino Bernardo Pez celeberrimi monasterii Mellicensis in Inferiori Austria ordinis sancti patris Benedicti professo ac bibliothecario eruditissimo, domino ac patrono colendissimo. Apud Mölker-hoff. Viennam.</hi>
-            </p>
-            <p>Nummerierung: <hi rend="italic">I</hi>.</p>
-            <p>Ordnungsvermerk: <hi rend="italic">76</hi>.</p>
-            <p>Bemerkungen: Auf 2v unterhalb der Adresse Vermerk: <hi rend="italic">Roma N. 39.</hi> – Dass sich die Erwähnung bei Mayer, Nachlaß 18 499, auf den verlorenen Brief 128 beziehen könnte, der zu Mayers Zeiten etwa noch vorhanden gewesen wäre, ist aufgrund der wohl schon im 18. Jh. auf diesem Brief angebrachten Nummerierung <hi rend="italic">I.</hi> wenig wahrscheinlich.</p>
+            <div type="address">
+               <cit>
+                  <q>Reverendo admodum religiosissimo ac clarissimo patri ac domino Bernardo Pez celeberrimi monasterii Mellicensis in Inferiori Austria ordinis sancti patris Benedicti professo ac bibliothecario eruditissimo, domino ac patrono colendissimo. Apud Mölker-hoff. Viennam.</q>
+               </cit>
+            </div>
+            <p xml:space="preserve">Nummerierung: <hi rend="italic">I</hi>.</p>
+            <p xml:space="preserve">Ordnungsvermerk: <hi rend="italic">76</hi>.</p>
+            <p xml:space="preserve">Bemerkungen: Auf 2v unterhalb der Adresse Vermerk: <hi rend="italic">Roma N. 39.</hi> – Dass sich die Erwähnung bei Mayer, Nachlaß 18 499, auf den verlorenen Brief 128 beziehen könnte, der zu Mayers Zeiten etwa noch vorhanden gewesen wäre, ist aufgrund der wohl schon im 18. Jh. auf diesem Brief angebrachten Nummerierung <hi rend="italic">I.</hi> wenig wahrscheinlich.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Reverende admodum pater religiosissime ac clarissime, domine omni observantia ac veneratione dignissime.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e27541"> Dabis veniam, pater optime ac doctissime, si serius, quam putaveras, certe quam ipse volueram, humanissimae epistolae tuae amoris ac benevolentiae erga me, immerentem quidem, plenissimae tandem respondeam. Nam illa reddita mihi fuit eo prorsus tempore, quo me itineri, nec satis brevi, eram commissurus, Senogalliam scilicet versus, quae civitas est Piceni episcopalis ad littus [<hi rend="italic">sic</hi>] Adriatici maris, ubi per Quadragesimam currentis anni in cathedrali ecclesia quotidianas Deo adiuvante habui conciones. Itaque nec tempus nec muneris obeundi ratio ad epistolare officium otium mihi relinquebat. Plurimis enim domi novisque curis ex obedientia implicitus vix primae ex meis concionibus pulverem detrahere ante Quadragesimam potui. Sed quamvis a quatuor iam mensibus regressus sim in Urbem, attamen tanta me curarum ac negotiorum moles excepit, ut satis importune coegerint ad hanc usque diem gravissimi alioquin debiti solutionem differre. Inciviliter, fateor, me gessi, sed temporis laborumque urgens necessitas excusationem praestabit; imo potius humanitas illa tua singularis, quam in toto epistolae decursu abunde praefers atque demonstras: mihi vero hominum, nedum monachorum minimo unde tanta et a viro tanto dignatio ac benignitas? Erubescendum itaque mihi non mediocriter fuit dulcissimos caracteres tuos legenti, quippe qui ab opinione, quem de me geris, distem longissime! </seg>
-               <seg type="context" n="2" xml:id="d4617e27546"> Adornavi quidem congregationis nostrae Cassinensis Bibliothecam ab anno scilicet <seg type="lemma" corresp="#d4617e27575">1420, quo illa coaluit</seg>, ea sane diligentia ac studio, quo maxime potui, et nitidiore etiam calamo adhibita critica correctione <seg type="lemma" corresp="#d4617e27582">magna ex parte rescripsi</seg>, sed ut ingenue loquar, scriptores, quotquot in ea recensentur, et numero et sapientia cum priscis illis ac celeberrimis antecedentium saeculorum ex ordine nostro doctoribus minime <pb n="1v"/> sunt comparandi, quod ipsum de omnibus recentiorum congregationum monasticarum auctoribus existimandum puto inficiari non posse: vereor itaque, ne opus a me magno licet labore concinnatum expectationi, quam de illo nedum humanitas tua, quae facile in meas partes transivit, verum etiam eruditi quique, ut inquis, istic nutriunt, nihil prorsus respondeat. </seg>
-               <seg type="context" n="3" xml:id="d4617e27550"> Qui sane timor praeter enarratas occupationes expeditam eiusdem operis <seg type="lemma" corresp="#d4617e27587">editionem forsitan diutius remorabitur</seg>, nisi sapientum iudicium, quorum censurae opus submittam, scrupulum istum omnino diluat. Eos inter primos tibi libentissime trado, nam ex ipsis epistolis tuis doctrinam, eruditionem prudentiamque satis conicio. Ad hoc autem obtinendum praesentia tua in Urbe omnimodo opus est, ut Bibliothecam meam oculis propriis lustrare, emendare, demere, augere commode possis; nam si amanuensi illam excribendam [<hi rend="italic">sic</hi>] tradidero, praeter erratorum myriades, quas ille insereret, non mediocri impensa id peragendum esset. </seg>
-               <seg type="context" n="4" xml:id="d4617e27555"> Romam igitur ut te conferas (siquidem fieri potest), opto hortorque, non indignum sapientia tua theatrum. Hic non opellam tantum meam, quam si videris, forte nihil facies, verum etiam selectissimos libros, refertissimas bibliothecas, viros etiam doctissimos, qui non parum ad insigne opus tuum conferre possent, facile invenies; nec minus etiam iuvabit, si in ipso itinere tum per Germaniam, cum per Italiam bibliothecas, quotquot praesertim in nostri ordinis coenobiis adire poteris, sedulo circumspicias; plurima enim, quae in tuum meumque scopum colliment, passim occurrent. </seg>
-               <seg type="context" n="5" xml:id="d4617e27557"> Ego, quot potui, meis in itineribus concionandi gratia habitis non indiligenter percurri magno utique emolumento. Sed non ubique fui, praecipue <seg type="lemma" corresp="#d4617e27594">in Venetorum ditione, ubi multa ex celebrioribus congregationis nostrae archisteria</seg>. Nec cuiquam sperandum, tantundem sedulitatis ac diligentiae in eruditae <pb n="2r"/> antiquitatis monumentis revolvendis a quoquam pro alio impendendum, quantum a semetipso. </seg>
-               <seg type="context" n="6" xml:id="d4617e27561"> Capesse igitur consilium, hortamentum amplectere, meque, Italiam Urbemque tua praesentia ac doctrina consolare: initi consilii (si persuasero) pro certo habeo fore, ut te minime paeniteat, mihique et gaudii et eruditionis ex tuis doctissimis colloquiis plurimum accedat. Hanc spem dum foveo (utinam non inaniter), pater optime ac dignissime, multam tibi salutem faustaque omnia ex intimo corde precor, nam perpetuo futurus sum, uti sincere spondeo,</seg>
-            </p>
-            <p>Dominationis tuae plurimum reverendae addictissimus famulus amicusque fidissimus domnus Marianus Armellini decanus Cassinensis ac S. Pauli de Urbe vicarius.</p>
-            <p>Romae die 3. Augusti 1712.</p>
+            <p xml:space="preserve"><pb n="1r"/> Reverende admodum pater religiosissime ac clarissime, domine omni observantia ac veneratione dignissime.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e31755"> Dabis veniam, pater optime ac doctissime, si serius, quam putaveras, certe quam ipse volueram, humanissimae epistolae tuae amoris ac benevolentiae erga me, immerentem quidem, plenissimae tandem respondeam. Nam illa reddita mihi fuit eo prorsus tempore, quo me itineri, nec satis brevi, eram commissurus, Senogalliam scilicet versus, quae civitas est Piceni episcopalis ad littus [<hi rend="italic">sic</hi>] Adriatici maris, ubi per Quadragesimam currentis anni in cathedrali ecclesia quotidianas Deo adiuvante habui conciones. Itaque nec tempus nec muneris obeundi ratio ad epistolare officium otium mihi relinquebat. Plurimis enim domi novisque curis ex obedientia implicitus vix primae ex meis concionibus pulverem detrahere ante Quadragesimam potui. Sed quamvis a quatuor iam mensibus regressus sim in Urbem, attamen tanta me curarum ac negotiorum moles excepit, ut satis importune coegerint ad hanc usque diem gravissimi alioquin debiti solutionem differre. Inciviliter, fateor, me gessi, sed temporis laborumque urgens necessitas excusationem praestabit; imo potius humanitas illa tua singularis, quam in toto epistolae decursu abunde praefers atque demonstras: mihi vero hominum, nedum monachorum minimo unde tanta et a viro tanto dignatio ac benignitas? Erubescendum itaque mihi non mediocriter fuit dulcissimos caracteres tuos legenti, quippe qui ab opinione, quem de me geris, distem longissime! </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e31760"> Adornavi quidem congregationis nostrae Cassinensis Bibliothecam ab anno scilicet <seg type="lemma" corresp="#d4618e31789">1420, quo illa coaluit</seg>, ea sane diligentia ac studio, quo maxime potui, et nitidiore etiam calamo adhibita critica correctione <seg type="lemma" corresp="#d4618e31796">magna ex parte rescripsi</seg>, sed ut ingenue loquar, scriptores, quotquot in ea recensentur, et numero et sapientia cum priscis illis ac celeberrimis antecedentium saeculorum ex ordine nostro doctoribus minime <pb n="1v"/> sunt comparandi, quod ipsum de omnibus recentiorum congregationum monasticarum auctoribus existimandum puto inficiari non posse: vereor itaque, ne opus a me magno licet labore concinnatum expectationi, quam de illo nedum humanitas tua, quae facile in meas partes transivit, verum etiam eruditi quique, ut inquis, istic nutriunt, nihil prorsus respondeat. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e31764"> Qui sane timor praeter enarratas occupationes expeditam eiusdem operis <seg type="lemma" corresp="#d4618e31801">editionem forsitan diutius remorabitur</seg>, nisi sapientum iudicium, quorum censurae opus submittam, scrupulum istum omnino diluat. Eos inter primos tibi libentissime trado, nam ex ipsis epistolis tuis doctrinam, eruditionem prudentiamque satis conicio. Ad hoc autem obtinendum praesentia tua in Urbe omnimodo opus est, ut Bibliothecam meam oculis propriis lustrare, emendare, demere, augere commode possis; nam si amanuensi illam excribendam [<hi rend="italic">sic</hi>] tradidero, praeter erratorum myriades, quas ille insereret, non mediocri impensa id peragendum esset. </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e31769"> Romam igitur ut te conferas (siquidem fieri potest), opto hortorque, non indignum sapientia tua theatrum. Hic non opellam tantum meam, quam si videris, forte nihil facies, verum etiam selectissimos libros, refertissimas bibliothecas, viros etiam doctissimos, qui non parum ad insigne opus tuum conferre possent, facile invenies; nec minus etiam iuvabit, si in ipso itinere tum per Germaniam, cum per Italiam bibliothecas, quotquot praesertim in nostri ordinis coenobiis adire poteris, sedulo circumspicias; plurima enim, quae in tuum meumque scopum colliment, passim occurrent. </seg><seg type="context" n="5" xml:space="preserve" xml:id="d4618e31771"> Ego, quot potui, meis in itineribus concionandi gratia habitis non indiligenter percurri magno utique emolumento. Sed non ubique fui, praecipue <seg type="lemma" corresp="#d4618e31808">in Venetorum ditione, ubi multa ex celebrioribus congregationis nostrae archisteria</seg>. Nec cuiquam sperandum, tantundem sedulitatis ac diligentiae in eruditae <pb n="2r"/> antiquitatis monumentis revolvendis a quoquam pro alio impendendum, quantum a semetipso. </seg><seg type="context" n="6" xml:space="preserve" xml:id="d4618e31775"> Capesse igitur consilium, hortamentum amplectere, meque, Italiam Urbemque tua praesentia ac doctrina consolare: initi consilii (si persuasero) pro certo habeo fore, ut te minime paeniteat, mihique et gaudii et eruditionis ex tuis doctissimis colloquiis plurimum accedat. Hanc spem dum foveo (utinam non inaniter), pater optime ac dignissime, multam tibi salutem faustaque omnia ex intimo corde precor, nam perpetuo futurus sum, uti sincere spondeo,</seg></p>
+            <p xml:space="preserve">Dominationis tuae plurimum reverendae addictissimus famulus amicusque fidissimus domnus Marianus Armellini decanus Cassinensis ac S. Pauli de Urbe vicarius.</p>
+            <p xml:space="preserve">Romae die 3. Augusti 1712.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e27568" target="#d4617e27492 #d4617e27541">
-               <ref target="">1</ref>
+            <note xml:id="d4618e31782">
+               <ref type="context">1</ref>
                <label>Senogalliam ... habui conciones</label>
                <p>MAs Predigtreisen, die er jährlich zur Fastenzeit und im Advent unternahm, führten ihn in eine Vielzahl verschiedener Städte (vgl. das Verzeichnis der Pez-Korrespondenten). Ein Kloster der Cassinenser bestand in Senigallia nicht.</p>
             </note>
-            <note xml:id="d4617e27575" target="#d4617e27497 #d4617e27546">
-               <ref target="">2</ref>
+            <note xml:id="d4618e31789">
+               <ref type="context">2</ref>
                <label>1420, quo illa coaluit</label>
                <p>Vgl. 81 &lt;4&gt;. Das dort genannte Gründungsjahr 1408 bezieht sich auf die Wiedereinsetzung der „schwarzen“ Benediktiner (anstelle der Olivetaner) in S. Giustina zu Padua; MA meint vermutlich die päpstliche Bestätigung der Kongregation durch die Bulle „Ineffabilis“, welche jedoch nicht 1420, sondern am 1. Januar 1419 erging: Kilian, S. Giustina 77.</p>
             </note>
-            <note xml:id="d4617e27582" target="#d4617e27497 #d4617e27546">
-               <ref target="#d4617e27497 #d4617e27546">2</ref>
+            <note xml:id="d4618e31796">
+               <ref type="context">2</ref>
                <label>magna ex parte rescripsi</label>
                <p>Über Redaktionsstufen der „Bibliotheca Benedictino-Casinensis“ ist nichts Näheres bekannt, auch nicht genau, wann MA mit den Vorarbeiten begonnen hatte.</p>
             </note>
-            <note xml:id="d4617e27587" target="#d4617e27499 #d4617e27550">
-               <ref target="">3</ref>
+            <note xml:id="d4618e31801">
+               <ref type="context">3</ref>
                <label>editionem ... remorabitur</label>
                <p>MAs Formulierungen deuten auf das Vorliegen eines weitgehend vollständigen Manuskripts („adornavi“, „rescripsi“). Auch in seinem früheren Brief (128) dürfte MA die Erwartung eines baldigen Erscheinens geweckt haben (vgl. 129 &lt;5&gt;); tatsächlich aber verstrichen noch beinahe 20 Jahre bis zur Drucklegung der „Bibliotheca Benedictino-Casinensis“ in den Jahren 1731–1732.</p>
             </note>
-            <note xml:id="d4617e27594" target="#d4617e27503 #d4617e27557">
-               <ref target="">5</ref>
+            <note xml:id="d4618e31808">
+               <ref type="context">5</ref>
                <label>in Venetorum ditione ... archisteria</label>
                <p>Cassinensische Abteien in der Republik Venedig waren S. Giustina zu Padua, S. Giorgio Maggiore und S. Nicolò del Lido zu Venedig, S. Eufemia und SS. Faustino e Giovita zu Brescia, S. Paolo zu Argon und S. Giacomo zu Pontida (beide in der Provinz Bergamo), S. Maria Assunta zu Praglia (bei Teolo), S. Andrea zu Busco a Ponte di Piave, SS. Nazaro e Celso zu Verona, SS. Felice e Fortunato zu Vicenza, schließlich noch in Dalmatien S. Maria della Croma (vor Ragusa) und S. Crisogono zu Zara; vgl. Bossi, Matricula 1 XXVI–XXIX, 658–660; Leccisotti, Congregazione Cassinese 40f.</p>
             </note>

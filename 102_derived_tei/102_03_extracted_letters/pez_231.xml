@@ -13,149 +13,143 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">231</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Benz, Zwischen Tradition und Kritik 567</bibl>
+                  <bibl>Hammermayer, Forschungszentren 133</bibl>
+                  <bibl>Hammermayer, Maurinismus 396f</bibl>
+                  <bibl>Heer, Pez 408</bibl>
+                  <bibl>Katschthaler, Briefnachlass 20</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">II</biblScope>
+               <biblScope unit="page">32r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Felix Egger</persName>
+               <date when="1712-03-23">1712-03-23</date>
+               <placeName>Petershausen</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">241</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">220</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">220</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">231</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Felix Egger</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1712-03-23</date>
-         <place-of-posting xmlns="">Petershausen</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e23943">
-                  <persName>
-                     <abbr>FE</abbr>
-                  </persName> hat am 20. März BPs Enzyklik vom 9. März mit dem Schriftstellerkatalog <ref type="letter">220</ref> erhalten und sendet diese mit der gleichen Post weiter ins Peterskloster zu Erfurt, damit sie auch in der Bursfelder Kongregation bekannt gemacht werden kann. Das will <persName>
-                     <abbr>FE</abbr>
-                  </persName> später auch für andere Gegenden leisten.</seg>
-               <seg type="context" n="2" xml:id="d4617e23948">Aus Petershausen selbst sind wenige Schriftsteller und überhaupt keine gedruckten Werke hervorgegangen, sieht man von den philosophischen Thesen von FEs Lehrer Roman Steigentesch ab. Mehr als 20 Bücher des Asketen Petrus Ower liegen handschriftlich vor. <persName>
-                     <abbr>FE</abbr>
-                  </persName> fürchtet, dass die Jesuiten die Benediktiner verspotten könnten, wenn sie Schulschriften unter ihre Literatur zählen – selbst haben die Jesuiten nahezu unzählige Thesenautoren. Deshalb schlägt <persName>
-                     <abbr>FE</abbr>
-                  </persName> für BPs Werk („Bibliotheca Benedictina“) eine Auswahl nach der Wichtigkeit vor. Allerdings zählt er Autoren wie Benedikt Pettschacher oder Maurus Oberascher, die auch von den Jesuiten zitiert werden, nicht zu den Thesisten.</seg>
-               <seg type="context" n="3" xml:id="d4617e23950">Auch <persName>
-                     <abbr>FE</abbr>
-                  </persName> hat mit einer Sammlung von benediktinischen Schriftstellern aus Wions „Lignum vitae“, Ughellis „Italia sacra“ und Bucelins „Benedictus redivivus“ begonnen; er hat dabei jedoch nach Klassen, nicht nach Jahrhunderten unterteilt, zudem hat er eine Auswahl aufgrund der Nähe und Bedeutung getroffen. Nun jedoch streicht er die Segel, überlässt <persName>
-                     <abbr>BP</abbr>
-                  </persName> das Feld und bietet ihm jede Art von Mithilfe an. <persName>
-                     <abbr>FE</abbr>
-                  </persName> schließt mit Wünschen zum Osterfest.</seg>
-               <seg type="context" n="4" xml:id="d4617e23952">In einem Postskriptum erklärt FE, dass er einen Schriftstellerkatalog der Anglikanischen Kongregation sowie einen von Muri mitsendet.</seg>
-               <seg type="context" n="5" xml:id="d4617e23954">Weiters merkt <persName>
-                     <abbr>FE</abbr>
-                  </persName> an, dass er den besseren Klostergeschichten, zu denen Anselm Schrambs „Chronicon Mellicense“ gehört, (bei der Verwendung für seine „Idea ordinis hierarchico-Benedictini“?) nichts hinzufügt außer einzelnen Anmerkungen, wo es Unstimmigkeiten mit der Literatur gibt oder wo noch etwas ergänzt werden kann.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e27655"><rs type="person" role="sender">FE</rs> hat am 20. März <rs type="person" role="sender">BPs</rs> Enzyklik vom 9. März mit dem Schriftstellerkatalog <ref type="letter">220</ref> erhalten und sendet diese mit der gleichen Post weiter ins Peterskloster zu Erfurt, damit sie auch in der Bursfelder Kongregation bekannt gemacht werden kann. Das will <rs type="person" role="sender">FE</rs> später auch für andere Gegenden leisten.</seg><seg type="context" n="2" xml:id="d4618e27660">Aus Petershausen selbst sind wenige Schriftsteller und überhaupt keine gedruckten Werke hervorgegangen, sieht man von den philosophischen Thesen von <rs type="person" role="sender">FEs</rs> Lehrer Roman Steigentesch ab. Mehr als 20 Bücher des Asketen Petrus Ower liegen handschriftlich vor. <rs type="person" role="sender">FE</rs> fürchtet, dass die Jesuiten die Benediktiner verspotten könnten, wenn sie Schulschriften unter ihre Literatur zählen – selbst haben die Jesuiten nahezu unzählige Thesenautoren. Deshalb schlägt <rs type="person" role="sender">FE</rs> für <rs type="person" role="sender">BPs</rs> Werk („Bibliotheca Benedictina“) eine Auswahl nach der Wichtigkeit vor. Allerdings zählt er Autoren wie Benedikt Pettschacher oder Maurus Oberascher, die auch von den Jesuiten zitiert werden, nicht zu den Thesisten.</seg><seg type="context" n="3" xml:id="d4618e27662">Auch <rs type="person" role="sender">FE</rs> hat mit einer Sammlung von benediktinischen Schriftstellern aus Wions „Lignum vitae“, Ughellis „Italia sacra“ und Bucelins „Benedictus redivivus“ begonnen; er hat dabei jedoch nach Klassen, nicht nach Jahrhunderten unterteilt, zudem hat er eine Auswahl aufgrund der Nähe und Bedeutung getroffen. Nun jedoch streicht er die Segel, überlässt <rs type="person" role="sender">BP</rs> das Feld und bietet ihm jede Art von Mithilfe an. <rs type="person" role="sender">FE</rs> schließt mit Wünschen zum Osterfest.</seg><seg type="context" n="4" xml:id="d4618e27664">In einem Postskriptum erklärt FE, dass er einen Schriftstellerkatalog der Anglikanischen Kongregation sowie einen von Muri mitsendet.</seg><seg type="context" n="5" xml:id="d4618e27666">Weiters merkt <rs type="person" role="sender">FE</rs> an, dass er den besseren Klostergeschichten, zu denen Anselm Schrambs „Chronicon Mellicense“ gehört, (bei der Verwendung für seine „Idea ordinis hierarchico-Benedictini“?) nichts hinzufügt außer einzelnen Anmerkungen, wo es Unstimmigkeiten mit der Literatur gibt oder wo noch etwas ergänzt werden kann.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: II, 32r–v.</p>
-            <p>Literatur: Benz, Zwischen Tradition und Kritik 567; Hammermayer, Forschungszentren 133; Hammermayer, Maurinismus 396f.; Heer, Pez 408; Katschthaler, Briefnachlass 20.</p>
-            <p>Bezüge: 220. 241. Erwähnt 220.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>220</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>241</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>220</idno>
-               </ref>
-            </correspContext>
-            <p>Adresse: <hi rend="italic">Plurimum reverendo religiosissimo ac clarissimo domino patri Bernardo Pez celeberrimi ac florentissimi monasterii Mellicensis capitulari ac bibliothecario dignissimo ad colendissimas manus. Mölckh öb Wienn.</hi> Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 132v.</p>
-            <p>Nummerierung: <hi rend="italic">I</hi>.</p>
-            <p>Ordnungsvermerk: <hi rend="italic">70</hi>.</p>
-            <p>Bemerkungen: Bei Glassner, Verzeichnis 210, ist irrig Klingenzell als Absendeort genannt.</p>
+            <div type="address">
+               <cit>
+                  <q>Plurimum reverendo religiosissimo ac clarissimo domino patri Bernardo Pez celeberrimi ac florentissimi monasterii Mellicensis capitulari ac bibliothecario dignissimo ad colendissimas manus. Mölckh öb Wienn. Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 132v.</q>
+               </cit>
+            </div>
+            <p xml:space="preserve">Nummerierung: <hi rend="italic">I</hi>.</p>
+            <p xml:space="preserve">Ordnungsvermerk: <hi rend="italic">70</hi>.</p>
+            <p xml:space="preserve">Bemerkungen: Bei Glassner, Verzeichnis 210, ist irrig Klingenzell als Absendeort genannt.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine pater, patrone colendissime.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e23985"> Novissimas vestras 9. Martii datas una cum <seg type="lemma" corresp="#d4617e24006">adiuncto catalogo</seg> 20. eiusdem magno animi oblectamento tenui. Quem ipsum catalogum hac ipsa posta mitto <seg type="lemma" corresp="#d4617e24013">Erfordium ad monasterium Petrense additis precibus, ut intentionem vestram promovere et aliis insuper congregationis Bursfeldensis monasteriis</seg> aperire dignentur Petrenses: id quod posthac alibi etiam praestabo. </seg>
-               <seg type="context" n="2" xml:id="d4617e23987"> Inter haec non sine rubore Petrhusianam profiteri sterilitatem compellor, cum nullus omnino a tot retro saeculis impressus libellus reperiatur a nostris compositus, praeter theses quasdam tenues philosophicas a reverendo patre <seg type="lemma" corresp="#d4617e24018">Romano Steigentesch</seg>, meo olim professore, elucubratas. Extant etiam ultra viginti libri ab uno <seg type="lemma" corresp="#d4617e24025">Petro Ower</seg>, asceta Petrhusiano vere pio ac docto, conscripti, typo digni, cum doctrinam spirent coelestis odoris. Verum quid dicent patres Societatis, si tot thesistas consarcinemus, quorum ipsis numerus pene infinitus? Censeo (meliori salvo iudicio) secernendos saltem eiusmodi gregarios a ducibus, ne aemulis risum cieamus. <pb n="1v"/> Aut forte peculiares ac graviores rationes vos moveant: quibus meum ego iudicium lubens submitto. Inter thesistas autem non intelligo patres Pattscacher [<hi rend="italic">sic</hi>], Oberascher etc., etiam a patribus Societatis subinde citatos. </seg>
-               <seg type="context" n="3" xml:id="d4617e23994"> 
-                  <seg type="lemma" corresp="#d4617e24035">Congessi pariter et ego plurimorum scriptorum nomina</seg> in classes, non saecula, digesta, ex Wione, Ughello, Bucelini Benedicto redivivo collecta, et quos vicinia aut illustrior fama commendarat. Sed <seg type="lemma" corresp="#d4617e24042">vela nunc contraho</seg>, cum luce oriente merito umbra cedat. Gratulor sane vel ex hoc capite gloriosissimae religioni nostrae eximiam, quam ei industria vestra comparat, gloriam. Habet posthac clarissima dominatio vestra, quod imperet tenuitati meae, si quocunque obsequiorum genere auxiliatricem porrigere dextram liceat. Qua sincerissima contestatione dum praesentes obsigno ac multo iucundissimum <seg type="lemma" corresp="#d4617e24047">Alleluia</seg> cum Paschalibus affluentiis animitus apprecor, me meaque impensissime commendo ac persto</seg>
-            </p>
-            <p>Plurimum reverendae ac clarissimae dominationis vestrae servus pater Felix Egger.</p>
-            <p>Phetershausen bei Costanz, 23. Martii 1712.</p>
-            <p>
-               <seg type="context" n="4" xml:id="d4617e24001"> P.S. Pro sincera amicitiae tessera adiungo <seg type="lemma" corresp="#d4617e24052">catalogum congregationis Anglicanae</seg> ac <seg type="lemma" corresp="#d4617e24059">monasterii Murensis</seg>. </seg>
-               <seg type="context" n="5" xml:id="d4617e24003"> N.B. <seg type="lemma" corresp="#d4617e24064">Monasteriorum historiis tersiori stylo exornatis (quas inter fulget Mellicensis) prorsus nil addo</seg>, nisi annotationes subinde quasdam, si forte cum authoribus non conveniant, aut pro cumulo gloriae aliunde quidpiam occurrat.</seg>
-            </p>
+            <p xml:space="preserve"><pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine pater, patrone colendissime.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e27697"> Novissimas vestras 9. Martii datas una cum <seg type="lemma" corresp="#d4618e27724">adiuncto catalogo</seg> 20. eiusdem magno animi oblectamento tenui. Quem ipsum catalogum hac ipsa posta mitto <seg type="lemma" corresp="#d4618e27731">Erfordium ad monasterium Petrense additis precibus, ut intentionem vestram promovere et aliis insuper congregationis Bursfeldensis monasteriis</seg> aperire dignentur Petrenses: id quod posthac alibi etiam praestabo. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e27699"> Inter haec non sine rubore Petrhusianam profiteri sterilitatem compellor, cum nullus omnino a tot retro saeculis impressus libellus reperiatur a nostris compositus, praeter theses quasdam tenues philosophicas a reverendo patre <seg type="lemma" corresp="#d4618e27736">Romano Steigentesch</seg>, meo olim professore, elucubratas. Extant etiam ultra viginti libri ab uno <seg type="lemma" corresp="#d4618e27743">Petro Ower</seg>, asceta Petrhusiano vere pio ac docto, conscripti, typo digni, cum doctrinam spirent coelestis odoris. Verum quid dicent patres Societatis, si tot thesistas consarcinemus, quorum ipsis numerus pene infinitus? Censeo (meliori salvo iudicio) secernendos saltem eiusmodi gregarios a ducibus, ne aemulis risum cieamus. <pb n="1v"/> Aut forte peculiares ac graviores rationes vos moveant: quibus meum ego iudicium lubens submitto. Inter thesistas autem non intelligo patres Pattscacher [<hi rend="italic">sic</hi>], Oberascher etc., etiam a patribus Societatis subinde citatos. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e27706"> <seg type="lemma" corresp="#d4618e27753">Congessi pariter et ego plurimorum scriptorum nomina</seg> in classes, non saecula, digesta, ex Wione, Ughello, Bucelini Benedicto redivivo collecta, et quos vicinia aut illustrior fama commendarat. Sed <seg type="lemma" corresp="#d4618e27760">vela nunc contraho</seg>, cum luce oriente merito umbra cedat. Gratulor sane vel ex hoc capite gloriosissimae religioni nostrae eximiam, quam ei industria vestra comparat, gloriam. Habet posthac clarissima dominatio vestra, quod imperet<note place="foot" xml:id="d4618e27708">	<hi rend="italic">quod imperet</hi> über der Zeile eingefügt.</note> tenuitati meae, si quocunque obsequiorum genere auxiliatricem porrigere dextram liceat. Qua sincerissima contestatione dum praesentes obsigno ac multo iucundissimum <seg type="lemma" corresp="#d4618e27765">Alleluia</seg> cum Paschalibus affluentiis animitus apprecor, me meaque impensissime commendo ac persto</seg></p>
+            <p xml:space="preserve">Plurimum reverendae ac clarissimae dominationis vestrae servus pater Felix Egger.</p>
+            <p xml:space="preserve">Phetershausen bei Costanz, 23. Martii 1712.</p>
+            <p xml:space="preserve"><seg type="context" n="4" xml:space="preserve" xml:id="d4618e27719"> P.S. Pro sincera amicitiae tessera adiungo <seg type="lemma" corresp="#d4618e27770">catalogum congregationis Anglicanae</seg> ac <seg type="lemma" corresp="#d4618e27777">monasterii Murensis</seg>. </seg><seg type="context" n="5" xml:space="preserve" xml:id="d4618e27721"> N.B. <seg type="lemma" corresp="#d4618e27782">Monasteriorum historiis tersiori stylo exornatis (quas inter fulget Mellicensis) prorsus nil addo</seg>, nisi annotationes subinde quasdam, si forte cum authoribus non conveniant, aut pro cumulo gloriae aliunde quidpiam occurrat.</seg></p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e24006" target="#d4617e23943 #d4617e23985">
-               <ref target="">1</ref>
+            <note xml:id="d4618e27724">
+               <ref type="context">1</ref>
                <label>adiuncto catalogo</label>
                <p>Ein Exemplar der gedruckten LE 2; vgl. 213, 214, 238.</p>
             </note>
-            <note xml:id="d4617e24013" target="#d4617e23943 #d4617e23985">
-               <ref target="#d4617e23943 #d4617e23985">1</ref>
+            <note xml:id="d4618e27731">
+               <ref type="context">1</ref>
                <label>Erfordium ... congregationis Bursfeldensis monasteriis</label>
                <p>Der Korrespondent BPs in St. Peter zu Erfurt, Petrus Friderici, hatte bereits ein Exemplar der Enzyklik erhalten (222) und beantwortet (224), was freilich FE nicht wissen konnte.</p>
             </note>
-            <note xml:id="d4617e24018" target="#d4617e23948 #d4617e23987">
-               <ref target="">2</ref>
+            <note xml:id="d4618e27736">
+               <ref type="context">2</ref>
                <label>Romano Steigentesch</label>
                <p>Lindner, Professbuch Petershausen 9f., mit Angabe von vier gedruckten Werken (Thesen sowie einer Festpredigt).</p>
             </note>
-            <note xml:id="d4617e24025" target="#d4617e23948 #d4617e23987">
-               <ref target="#d4617e23948 #d4617e23987">2</ref>
+            <note xml:id="d4618e27743">
+               <ref type="context">2</ref>
                <label>Petro Ower</label>
                <p>Zu ihm sehr knapp Lindner, Professbuch Petershausen 8; vgl. die Beilagen zu 249, 281.</p>
             </note>
-            <note xml:id="d4617e24030" target="#d4617e23948 #d4617e23987">
-               <ref target="#d4617e23948 #d4617e23987">2</ref>
+            <note xml:id="d4618e27748">
+               <ref type="context">2</ref>
                <label>patres Pattscacher, Oberascher</label>
                <p>Beide waren Professoren der Theologie an der Salzburger Universität gewesen, Pettschacher auch Rektor von 1673–1681: Bauer, Thomistische Metaphysik 20, 780; Hermann, Salzburg 441, 472; Kolb, Präsidium 122–125, 131, 142; Sattler, Collectaneen-Blätter 204f., 228f. Zu Pettschacher vgl. weiters Plank, St. Lambrecht 327; zu Oberascher: Lindner, Profeßbuch Mondsee 139, 142f., 161; Staufer, Mondseer Gelehrte 15 20–22. Von beiden lagen Thesen und andere Universitätsschriften in großer Zahl vor. Vgl. 249.</p>
             </note>
-            <note xml:id="d4617e24035" target="#d4617e23950 #d4617e23994">
-               <ref target="">3</ref>
+            <note xml:id="d4618e27753">
+               <ref type="context">3</ref>
                <label>Congessi ... nomina</label>
                <p>Nämlich als Teil einer geplanten umfassenden Darstellung des Benediktinerordens („Idea ordinis hierarchico-Benedictini“). Die Frage, inwieweit dieses Unternehmen für die „Bibliotheca Benedictina“ zur Konkurrenz werden könnte, hatte BP bereits an Moritz Müller und Albert Krez gerichtet: vgl. 57, 63.</p>
             </note>
-            <note xml:id="d4617e24042" target="#d4617e23950 #d4617e23994">
-               <ref target="#d4617e23950 #d4617e23994">3</ref>
+            <note xml:id="d4618e27760">
+               <ref type="context">3</ref>
                <label>vela nunc contraho</label>
                <p>Die von Katschthaler, Briefnachlass 20, zuerst aufgestellte Behauptung, FE habe sein gesamtes Material BP überlassen, bestätigt sich weder aus diesem noch aus den weiteren Briefen FEs. Auch in einem von Heer, Pez 408, in diesem Sinne angeführten Schreiben FEs an René Massuet vom 14. April 1712 (BN FF 19664, 119r–120v) ist ebenso wenig von Materialübergabe die Rede, FE schreibt lediglich: „De scriptoribus nostris nil porro desidero, sed spartam hanc relinquo egregio domino Pez Mellicensi“.</p>
             </note>
-            <note xml:id="d4617e24047" target="#d4617e23950 #d4617e23994">
-               <ref target="#d4617e23950 #d4617e23994">3</ref>
+            <note xml:id="d4618e27765">
+               <ref type="context">3</ref>
                <label>Alleluia</label>
                <p>Der Ostersonntag fiel 1712 auf den 27. März.</p>
             </note>
-            <note xml:id="d4617e24052" target="#d4617e23952 #d4617e24001">
-               <ref target="">4</ref>
+            <note xml:id="d4618e27770">
+               <ref type="context">4</ref>
                <label>catalogum congregationis Anglicanae</label>
                <p>Dieser Katalog unter dem Titel „Nomina quorundam ordinis sancti Benedicti congregationis Anglicanae, qui saeculo 17. quaedam opuscula scripserunt“ ist im Original überliefert in II, 1r–2v; abschriftlich in StiA Melk, Karton 7 Patres 9, Abschriftencodex 133v–136v. Genannt werden: Rudesind Barlow; Clement Reyner; Gabriel Gifford; Augustine Baker; Serenus Cressy; Richard Huddleston; Anthony Batt; Placid Gascoigne; Francis Hull; Jerome Porter; Peter Salvin; Augustine Conyers; Edward Llewellin; Maurus Corker; Thomas Vincent Sadler; Gertrude More. Die biographischen Angaben im Register zu allen außer More nach Allanson, Biography. Vgl. zu allen außer Batt, Porter, Conyers und Llewellin: Lunn, English Benedictines 19, 42f., 72, 75–78, 96, 98–111, 129–135, 137, 149, 159, 161, 171f., 177–184, 189, 201–217, 233–235; zu Gifford, Baker, Cressy und More: Watkin, Roman Catholicism 43f., 69f., 74, 76, 81f., 86; zu Gifford: Bossy, Community 28, 33. Zu Reyner, Gascoigne und Corker als Äbten von Lamspringe: Bellenger, Abbots 22–26; Scott, Library 49, 52f. Werke von Reyner und Batt finden sich bei Allison–Rogers, Catalogue 139, 145, 149, 199, 265, 287. Außerdem noch zu Baker, Cressy, Salvin, More: Truran, Spirituality 83f., 86–88; zu Baker: Low, Baker; zu Corker: Rowell, Abbot Corker; zu Porter: Scott, Gothic Rage Undone 135.</p>
             </note>
-            <note xml:id="d4617e24059" target="#d4617e23952 #d4617e24001">
-               <ref target="#d4617e23952 #d4617e24001">4</ref>
+            <note xml:id="d4618e27777">
+               <ref type="context">4</ref>
                <label>monasterii Murensis</label>
                <p>Der Katalog unter dem Titel „Scriptores monasterii Murensis“ ist im Original überliefert in StiA Melk, Karton 85 Varia 23, Fasz. 1, Nr. 3; abschriftlich in StiA Melk, Karton 7 Patres 9, Abschriftencodex 136v–137r. Genannt werden: Abt Rudolf Gwicht von Engelberg; Abt Augustin Stöcklin von Disentis; Abt Dominikus Tschudi; Abt Placidus Zurlauben; Martin Brunner; Anselm Weißenbach. Zu Stöcklin vgl. 291; zu Weißenbach vgl. 294. Zu Gwicht: Büchler-Mattmann–Heer, Engelberg 631f.; Kiem, Muri 1 351f., 388. Zu den Übrigen: Kiem, Muri 2 19–32, 104, 138–177, 493–496.</p>
             </note>
-            <note xml:id="d4617e24064" target="#d4617e23954 #d4617e24003">
-               <ref target="">5</ref>
+            <note xml:id="d4618e27782">
+               <ref type="context">5</ref>
                <label>Monasteriorum historiis ... nil addo</label>
                <p>Die Bemerkung bezieht sich wohl auf die Darstellungen einzelner Klöster in der „Idea ordinis hierarchico-Benedictini“, an der FE arbeitete. Die erwähnte Melker Geschichte ist zweifellos das „Chronicon Mellicense“, das Schramb als Geschenk nach Petershausen geschickt hatte (281 &lt;5&gt;), ähnlich wie dies für weitere Korrespondenten BPs geschah, etwa René Massuet oder Moritz Müller (vgl. 68 &lt;6&gt;, 92 &lt;3&gt;, 246 &lt;1&gt;).</p>
             </note>

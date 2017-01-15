@@ -13,107 +13,99 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">35</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">113r–114v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Albert Krez</persName>
+               <date when="1710-02-07">1710-02-07</date>
+               <placeName>Ottobeuren</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">61</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">34</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">34</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">35</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Albert Krez</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1710-02-07</date>
-         <place-of-posting xmlns="">Ottobeuren</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e3525">
-                  <persName>
-                     <abbr>AK</abbr>
-                  </persName> antwortet kurz auf BPs Schreiben <ref type="letter">34</ref> und dankt für die Übersendung von BPs gelehrter Schrift („De irruptione Bavarica“), auf die er mit einem eigenen Werk („Aphorismi paralleli“) antwortet. Gesundheit und ewiges Leben von Körper und Seele, von denen es handelt, wünscht er <persName>
-                     <abbr>BP</abbr>
-                  </persName> und dem ganzen Melker Konvent.</seg>
-               <seg type="context" n="2" xml:id="d4617e3530">Über dasselbe Kriegsgeschehen wie <persName>
-                     <abbr>BP</abbr>
-                  </persName> – den bayerisch-französischen Feldzug von 1702 bis 1704 (im Spanischen Erbfolgekrieg) – hat auch <persName>
-                     <abbr>AK</abbr>
-                  </persName> ein Werk verfasst, die „Summarische oder kurze beschreibung“, das wesentlich ausführlicher ist, jedoch nie gedruckt werden wird.</seg>
-               <seg type="context" n="3" xml:id="d4617e3532">
-                  <persName>
-                     <abbr>AK</abbr>
-                  </persName> ist erfreut, dass BPs Vorhaben („Bibliotheca Benedictina“) Unterstützer gefunden hat, und erbittet Gottes Hilfe dafür.</seg>
-               <seg type="context" n="4" xml:id="d4617e3534">Zur geographischen Lage von Irsee kann <persName>
-                     <abbr>AK</abbr>
-                  </persName> nicht viel sagen, obwohl es ihm gut bekannt ist und nur etwa fünf Stunden von Ottobeuren entfernt liegt. Es befindet sich in einer von Wäldern und Gebirge rings eingeschlossenen Vertiefung, somit in durchaus ungünstiger Lage. Mehr Auskunft kann der dortige Subprior Placidus Emer geben, vielleicht auch Stiche des alten und des in Bau befindlichen neuen Klosters senden, da in Irsee ein künstlerisch begabter Laienbruder (Magnus Remy) lebt.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e3865"><rs type="person" role="sender">AK</rs> antwortet kurz auf <rs type="person" role="sender">BPs</rs> Schreiben <ref type="letter">34</ref> und dankt für die Übersendung von <rs type="person" role="sender">BPs</rs> gelehrter Schrift („De irruptione Bavarica“), auf die er mit einem eigenen Werk („Aphorismi paralleli“) antwortet. Gesundheit und ewiges Leben von Körper und Seele, von denen es handelt, wünscht er <rs type="person" role="sender">BP</rs> und dem ganzen Melker Konvent.</seg><seg type="context" n="2" xml:id="d4618e3870">Über dasselbe Kriegsgeschehen wie <rs type="person" role="sender">BP</rs> – den bayerisch-französischen Feldzug von 1702 bis 1704 (im Spanischen Erbfolgekrieg) – hat auch <rs type="person" role="sender">AK</rs> ein Werk verfasst, die „Summarische oder kurze beschreibung“, das wesentlich ausführlicher ist, jedoch nie gedruckt werden wird.</seg><seg type="context" n="3" xml:id="d4618e3872"><rs type="person" role="sender">AK</rs> ist erfreut, dass <rs type="person" role="sender">BPs</rs> Vorhaben („Bibliotheca Benedictina“) Unterstützer gefunden hat, und erbittet Gottes Hilfe dafür.</seg><seg type="context" n="4" xml:id="d4618e3874">Zur geographischen Lage von Irsee kann <rs type="person" role="sender">AK</rs> nicht viel sagen, obwohl es ihm gut bekannt ist und nur etwa fünf Stunden von Ottobeuren entfernt liegt. Es befindet sich in einer von Wäldern und Gebirge rings eingeschlossenen Vertiefung, somit in durchaus ungünstiger Lage. Mehr Auskunft kann der dortige Subprior Placidus Emer geben, vielleicht auch Stiche des alten und des in Bau befindlichen neuen Klosters senden, da in Irsee ein künstlerisch begabter Laienbruder (Magnus Remy) lebt.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: I, 113r–114v.</p>
-            <p>Bezüge: 34. 61. Erwähnt 34.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>34</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>61</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>34</idno>
-               </ref>
-            </correspContext>
-            <p>Adresse: <hi rend="italic">Admodum reverendo religiosissimo ac clarissimo domino patri Bernardo Pez celeberrimi monasterii Mellicensis ordinis sancti Benedicti professo et bibliothecario ac historico eruditissimo, domino patri ac patrono observandissimo. Ottobeyren. Melch in Under Österreich</hi>. Siegel.</p>
-            <p>Nummerierung: <hi rend="italic">III</hi>.</p>
-            <p>Ordnungsvermerk: <hi rend="italic">8</hi> (korrigiert aus <hi rend="italic">19</hi>).</p>
-            <p>Bemerkungen: Auf 2v bei der Adresse Eingangsvermerk BPs: <hi rend="italic">Accepi 6. Martii</hi> (davor durchgestrichen <hi rend="italic">Feb.</hi>).</p>
+            <div type="address">
+               <cit>
+                  <q>Admodum reverendo religiosissimo ac clarissimo domino patri Bernardo Pez celeberrimi monasterii Mellicensis ordinis sancti Benedicti professo et bibliothecario ac historico eruditissimo, domino patri ac patrono observandissimo. Ottobeyren. Melch in Under Österreich. Siegel.</q>
+               </cit>
+            </div>
+            <p xml:space="preserve">Nummerierung: <hi rend="italic">III</hi>.</p>
+            <p xml:space="preserve">Ordnungsvermerk: <hi rend="italic">8</hi> (korrigiert aus <hi rend="italic">19</hi>).</p>
+            <p xml:space="preserve">Bemerkungen: Auf 2v bei der Adresse Eingangsvermerk BPs: <hi rend="italic">Accepi 6. Martii</hi> (davor durchgestrichen <hi rend="italic">Feb.</hi>).</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiosissime et clarissime domine pater in Christo et patrone colendissime observandissime.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e3572"> Laconice ad gratissimas una cum opusculo eruditissimo, sed serius acceptas litteras respondere cogor; gratias ergo pro tanta in me indignum ac immeritum benevolentia ac beneficentia maximas ago et pro libello <seg type="lemma" corresp="#d4617e3595">libellum remitto</seg>, quamvis nulla ratione illi aequiparandum, quippe simplicis tantum et rudis ingenii partum, quod tamen de salute corporis et animae ac utriusque longaevitate beataque aeternitate dicit, docet et spectat, admodum reverendae paternitati vestrae totique monasterio Mellicensi celeberrimo ex animo precor. </seg>
-               <seg type="context" n="2" xml:id="d4617e3574"> De caetero de eiusdem belli, de quo illa in libello suo egit, rebus ego quoque similem, sed longe maiorem ac fusiorem sub hoc titulo scripsi: <seg type="lemma" corresp="#d4617e3602">Summarische oder kurze beschreibung</seg> der churbayrisch- und französischen kriegsläuffe umb, in und durch die ottobeyrische herrschafft von dem 1702 biß 4 inclusive <pb n="1v"/> sambt einem zuesatz von copiis underschidlicher schreiben betreffend das obergesagte zway iährige kriegswesen. At haec historia mea non videbit lumen. </seg>
-               <seg type="context" n="3" xml:id="d4617e3578"> Porro vehementer gaudeo admodum reverendae paternitatis vestri [<hi rend="italic">sic</hi>] laudatissimis conatibus pro illustrando ordine nostro et adesse fautores et non deesse felicem successum. Bonus Deus secundet et coronet glorioso operis fine. </seg>
-               <seg type="context" n="4" xml:id="d4617e3583"> Quod attinet Ursinensis monasterii situm, vereor, ne satis exponere possim, licet mihi notissimum et tantum quinque horis Ottobura distantem; iacet id in depresso solo fere undique sylvis et montibus clauso, adeoque loco prorsus inamoeno. Plura docere poterit reverendus pater <seg type="lemma" corresp="#d4617e3609">Placidus Emer</seg> subprior ibi, vir optimus et eruditissimus, qui honori haud dubie sibi ducet, si litteris conventus admodum [<hi rend="italic">sic</hi>] paternitatis vestrae gratificari possit, et forsan etiam tam antiqui coenobii quam novi, <pb n="2r"/> quod moliuntur, delineationem mittet, quia Ursinenses <seg type="lemma" corresp="#d4617e3620">fratrem laicum habent artis pictoriae peritissimum</seg>. Atque hisce me in constantes favores religiosos, sacras preces et sacrificia commendo.</seg>
-            </p>
-            <p>Admodum reverendae et religiosissimae paternitatis vestrae obligatissimus in Christo servus pater Albertus Krez subprior.</p>
-            <p>Raptim Ottoburae 1710 7. Februarii.</p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiosissime et clarissime domine pater in Christo et patrone colendissime observandissime.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e3912"> Laconice ad gratissimas una cum opusculo eruditissimo, sed serius acceptas litteras respondere cogor; gratias ergo pro tanta in me indignum ac immeritum benevolentia ac beneficentia maximas ago et pro libello <seg type="lemma" corresp="#d4618e3944">libellum remitto</seg>, quamvis nulla ratione illi aequiparandum, quippe simplicis tantum et rudis ingenii partum, quod tamen de salute corporis et animae ac utriusque longaevitate beataque aeternitate dicit, docet et spectat, admodum reverendae paternitati vestrae totique monasterio Mellicensi celeberrimo ex animo precor. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e3914"> De caetero de eiusdem belli, de quo illa in libello suo egit, rebus<note place="foot" xml:id="d4618e3916">	Über der Zeile eingefügt.</note> ego quoque similem, sed longe maiorem ac fusiorem sub hoc titulo scripsi: <seg type="lemma" corresp="#d4618e3951">Summarische oder kurze beschreibung</seg> der churbayrisch- und französischen kriegsläuffe umb, in und durch die ottobeyrische herrschafft von dem 1702 biß 4 inclusive <pb n="1v"/> sambt einem zuesatz von copiis underschidlicher schreiben betreffend das obergesagte zway iährige kriegswesen. At haec historia mea non videbit lumen. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e3921"> Porro vehementer gaudeo admodum reverendae paternitatis vestri [<hi rend="italic">sic</hi>] laudatissimis conatibus pro illustrando ordine nostro et adesse fautores et non deesse felicem successum. Bonus Deus secundet et coronet glorioso operis fine. </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e3926"> Quod attinet Ursinensis monasterii situm, vereor, ne satis exponere possim, licet mihi notissimum et tantum quinque horis Ottobura distantem; iacet id in depresso solo fere undique sylvis et montibus clauso, adeoque loco prorsus inamoeno. Plura docere poterit reverendus pater <seg type="lemma" corresp="#d4618e3958">Placidus Emer</seg> subprior ibi, vir optimus et eruditissimus, qui honori haud dubie sibi ducet, si litteris conventus admodum [<hi rend="italic">sic</hi>]<note place="foot" xml:id="d4618e3931">	Sicherlich irrig ausgelassen <hi rend="italic">reverendae</hi>.</note> paternitatis vestrae gratificari possit, et forsan etiam tam antiqui coenobii quam novi, <pb n="2r"/> quod moliuntur, delineationem mittet, quia Ursinenses <seg type="lemma" corresp="#d4618e3969">fratrem laicum habent artis pictoriae peritissimum</seg>. Atque hisce me in constantes favores religiosos, sacras preces et sacrificia commendo.</seg></p>
+            <p xml:space="preserve">Admodum reverendae et religiosissimae paternitatis vestrae obligatissimus in Christo servus pater Albertus Krez subprior.</p>
+            <p xml:space="preserve">Raptim Ottoburae 1710 7. Februarii.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e3595" target="#d4617e3525 #d4617e3572">
-               <ref target="">1</ref>
+            <note xml:id="d4618e3944">
+               <ref type="context">1</ref>
                <label>libellum remitto</label>
                <p>Nach der Angabe zum Inhalt zweifellos AKs eben erschienene „Aphorismi paralleli“; in der StiB Melk ist heute kein Exemplar nachweisbar.</p>
             </note>
-            <note xml:id="d4617e3602" target="#d4617e3530 #d4617e3574">
-               <ref target="">2</ref>
+            <note xml:id="d4618e3951">
+               <ref type="context">2</ref>
                <label>Summarische oder kurze beschreibung</label>
                <p>Wohl zu identifizieren mit der Schrift zu demselben Thema, die Lindner, Album Ottoburanum 30 138, unter dem Titel „Bellum Boio-Gallicum in Suevia grassans 1702–1704, tomus unicus“ als verloren vermerkt.</p>
             </note>
-            <note xml:id="d4617e3609" target="#d4617e3534 #d4617e3583">
-               <ref target="">4</ref>
+            <note xml:id="d4618e3958">
+               <ref type="context">4</ref>
                <label>Placidus Emer</label>
                <p>Zu seiner Person vgl. das Verzeichnis der Pez-Korrespondenten. Die historiographischen Arbeiten Emers dürften AK bekannt gewesen sein. BP hatte bereits nach Irsee geschrieben (41), wo auch tatsächlich Placidus Emer mit der Antwort auf seine Enzyklik beauftragt wurde, die jedoch nicht überaus hilfreich ausfiel (42, vom 19. Februar 1710). Ein Zusammenhang dieses Vorgangs mit dem Hinweis AKs in diesem Brief ist freilich allein schon aus chronologischen Gründen auszuschließen.</p>
                <hi rend="">novi, quod moliuntur:</hi>
                <p>Dischinger, Lapides loquuntur 327–330; Pörnbacher, Kloster Irsee 93, 116–129; Steichele–Schröder, Bistum Augsburg 6 237f.</p>
             </note>
-            <note xml:id="d4617e3620" target="#d4617e3534 #d4617e3583">
-               <ref target="#d4617e3534 #d4617e3583">4</ref>
+            <note xml:id="d4618e3969">
+               <ref type="context">4</ref>
                <label>fratrem laicum ... peritissimum</label>
                <p>Gemeint ist zweifellos Magnus Remy, von dem auch große Teile der noch heute erhaltenen Gemäldeausstattung von Kirche und Kloster Irsee gemalt wurden. Zu seinen Werken und seiner ungewöhnlichen Biographie vgl. Dischinger, Lapides loquuntur 327–333; Dischinger, Pläne 208–210; Herzog, Magnus Remy; Layer, Magnus Remy; Pörnbacher, Kloster Irsee 78, 91f.; Pötzl, Irseer Konvent 42, 52, 70; Vollmer, Ausstattung 220f.</p>
             </note>

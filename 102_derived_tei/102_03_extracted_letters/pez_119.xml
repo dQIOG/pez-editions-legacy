@@ -13,36 +13,47 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">119</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="inferedFrom">
+               <bibl>
+                  <author>Bernhard Pez</author>
+                  <title>Littera encyclica 1</title>
+               </bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>No direct source, inferred letter.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Bernhard Pez</persName>
+               <date when="1710-10-15">1710-10-15</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="monastery">Neustadt am Main</orgName>
+            </correspAction>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">119</id>
-         <deduced xmlns="">true</deduced>
-         <sender xmlns="">Bernhard Pez</sender>
-         <recipient xmlns="">NN (Neustadt am Main). LE 1</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1710-10-15</date>
-         <place-of-posting xmlns=""/>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="editorialNote">
-            <p>Bemerkung: Die Ansetzung ergibt sich aus einem der Vermerke BPs auf 110.</p>
+            <p xml:space="preserve">Bemerkung: Die Ansetzung ergibt sich aus einem der Vermerke BPs auf 110.</p>
          </div>
       </front>
       <body>
          <ab>
-            <gap reason="letter missing"/>
+            <gap reason="inferred letter"/>
          </ab>
       </body>
       <back/>

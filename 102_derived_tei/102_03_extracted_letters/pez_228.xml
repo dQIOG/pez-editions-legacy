@@ -13,43 +13,49 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">228</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>No direct source, inferred letter.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Bernhard Pez</persName>
+               <date notBefore="1712-03-20">&lt; 1712-03-20</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Felician Müller</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="next">
+                  <idno type="pezEd"/>
+               </ref>
+               <ref type="sentWith">
+                  <idno type="pezEd">208</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">228</id>
-         <deduced xmlns="">true</deduced>
-         <sender xmlns="">Bernhard Pez</sender>
-         <recipient xmlns="">Felician Müller</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">&lt; 1712-03-20</date>
-         <place-of-posting xmlns=""/>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="editorialNote">
-            <p>Bezüge: Versendet von Melk bis Wiblingen mit 208 (?).</p>
-            <correspContext>
-               <ref type="sentWith">
-                  <label>Versendet von Melk bis Wiblingen mit </label>
-                  <idno>208</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: Ein Brief BPs an FM wird in 230 nicht explizit erwähnt, geht jedoch aus der Versendung von 208 über Wiblingen hervor. Die gleichzeitige Sendung ist wahrscheinlich, aber nicht zwingend anzunehmen.</p>
+            <p xml:space="preserve">Bemerkungen: Ein Brief BPs an FM wird in 230 nicht explizit erwähnt, geht jedoch aus der Versendung von 208 über Wiblingen hervor. Die gleichzeitige Sendung ist wahrscheinlich, aber nicht zwingend anzunehmen.</p>
          </div>
       </front>
       <body>
          <ab>
-            <gap reason="letter missing"/>
+            <gap reason="inferred letter"/>
          </ab>
       </body>
       <back/>

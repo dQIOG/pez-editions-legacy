@@ -13,46 +13,49 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">155</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>No direct source, inferred letter.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Bernhard Pez</persName>
+               <date notBefore="1711-03-28">&lt; 1711-03-28</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Hieronymus Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="next">
+                  <idno type="pezEd">156</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">156</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">155</id>
-         <deduced xmlns="">true</deduced>
-         <sender xmlns="">Bernhard Pez</sender>
-         <recipient xmlns="">Hieronymus Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">&lt; 1711-03-28</date>
-         <place-of-posting xmlns=""/>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="editorialNote">
-            <p>Bezüge: 156. Erwähnt in 156.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>156</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>156</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: Aus der Erwähnung in 156 geht nicht schlüssig hervor, ob von einem oder von mehreren Briefen die Rede ist.</p>
+            <p xml:space="preserve">Bemerkungen: Aus der Erwähnung in 156 geht nicht schlüssig hervor, ob von einem oder von mehreren Briefen die Rede ist.</p>
          </div>
       </front>
       <body>
          <ab>
-            <gap reason="letter missing"/>
+            <gap reason="inferred letter"/>
          </ab>
       </body>
       <back/>

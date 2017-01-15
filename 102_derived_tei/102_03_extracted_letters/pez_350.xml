@@ -13,83 +13,82 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">350</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">535r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Christoph Müller von Prankenheim</persName>
+               <date when="1714-08-01">1714-08-01</date>
+               <placeName>St. Pölten</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">350</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Christoph Müller von Prankenheim</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1714-08-01</date>
-         <place-of-posting xmlns="">St. Pölten</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e38333">CM erinnert an seinen kürzlichen Besuch in der Melker Bibliothek, bei dem er von <persName>
-                     <abbr>BP</abbr>
-                  </persName> erfahren hat, dass es dort in einer alten Handschrift eine Beschreibung des Stifts St. Pölten gibt, von der ihm <persName>
-                     <abbr>BP</abbr>
-                  </persName> auch eine Abschrift versprochen hat. Um diese bittet er nun und spricht zugleich eine Einladung an <persName>
-                     <abbr>BP</abbr>
-                  </persName> zu den Feierlichkeiten des St. Hippolytstages (13. August) in St. Pölten aus, wobei <persName>
-                     <abbr>BP</abbr>
-                  </persName> die Abschrift selbst mitbringen könnte.</seg>
-               <seg type="context" n="2" xml:id="d4617e38335">CM hat erfahren, dass der Melker Abt Dietmayr gemeinsam mit dem Propst von St. Dorothea zu Wien, Ferdinand Adler, nach Oberösterreich gereist ist, von wo sie bald zurückkehren werden. Er ersucht BP, ihm den Zeitpunkt ihrer Rückkehr mitzuteilen, weil er den beiden Prälaten seine Aufwartung machen und sie auf seinen Landsitz in Ochsenburg zum Speisen einladen möchte.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e43584">CM erinnert an seinen kürzlichen Besuch in der Melker Bibliothek, bei dem er von <rs type="person" role="sender">BP</rs> erfahren hat, dass es dort in einer alten Handschrift eine Beschreibung des Stifts St. Pölten gibt, von der ihm <rs type="person" role="sender">BP</rs> auch eine Abschrift versprochen hat. Um diese bittet er nun und spricht zugleich eine Einladung an <rs type="person" role="sender">BP</rs> zu den Feierlichkeiten des St. Hippolytstages (13. August) in St. Pölten aus, wobei <rs type="person" role="sender">BP</rs> die Abschrift selbst mitbringen könnte.</seg><seg type="context" n="2" xml:id="d4618e43586">CM hat erfahren, dass der Melker Abt Dietmayr gemeinsam mit dem Propst von St. Dorothea zu Wien, Ferdinand Adler, nach Oberösterreich gereist ist, von wo sie bald zurückkehren werden. Er ersucht BP, ihm den Zeitpunkt ihrer Rückkehr mitzuteilen, weil er den beiden Prälaten seine Aufwartung machen und sie auf seinen Landsitz in Ochsenburg zum Speisen einladen möchte.</seg></p>
          </div>
-         <div type="editorialNote">
-            <p>Überlieferung: I, 535r–v.</p>
-         </div>
+         <div type="editorialNote"/>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiose ac eximie domine.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e38345"> Cum <seg type="lemma" corresp="#d4617e38356">nuper in Mellicensi librophylacio</seg> dominationis vestrae admodum reverendae eruditissimo alloquio perfrui liceret, id quod ulterioris desiderii mei meta est unica, singulare illud memoriae impressum remansit, reperiri videlicet ibidem <seg type="lemma" corresp="#d4617e38363">in vetusto codice</seg> manuscripto insigne quodpiam de regulari nostra collegiata elogium, cuius copia haud illiberali humanitate adpromissa tunc una fuerat. Eam itaque obsequiosis hisce requisitoriis imploro pro commoditate transmittendam. Quod si porro dominatio vestra eximia ad futura divi Hippolyti megalomartyris nostri sollemnia, hospes gratissimus atque amicissimis votis meis ex integro commensuratus, eam rei literariae supellectilem adferre dignaretur, tanto inde amplius ad reciproca obsequia quaeque provocarer. </seg>
-               <seg type="context" n="2" xml:id="d4617e38347"> Coeterum intelligo reverendissimum dominum abbatem patronum domesticum, <seg type="lemma" corresp="#d4617e38375">caput decusque status nostri</seg> etc., cum reverendissimo domino Dorotheano praesule <pb n="1v"/> itineris comite ad superiora Austriae concessisse, brevi, ut auguror, feliciter reversurum. Idcirco tempus reditus nosse cupio, illico servum mille titulis debitissimum praesentaturus et eosdem amplissimos patronos meos ad <seg type="lemma" corresp="#d4617e38380">Tusculanum obsonium in Oxenburg</seg> officiose invitaturus, quod cum amicissime requiro, maneo ad urnam usque et cineres</seg>
-            </p>
-            <p>Admodum reverendae et eximiae dominationis vestrae servus illibatus Christophorus ad S. Hippolytum praelatus manu propria.</p>
-            <p>Ex S. Hippolyto 1. Augusti 1714.</p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiose ac eximie domine.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e43596"> Cum <seg type="lemma" corresp="#d4618e43607">nuper in Mellicensi librophylacio</seg> dominationis vestrae admodum reverendae eruditissimo alloquio perfrui liceret, id quod ulterioris desiderii mei meta est unica, singulare illud memoriae impressum remansit, reperiri videlicet ibidem <seg type="lemma" corresp="#d4618e43614">in vetusto codice</seg> manuscripto insigne quodpiam de regulari nostra collegiata elogium, cuius copia haud illiberali humanitate adpromissa tunc una fuerat. Eam itaque obsequiosis hisce requisitoriis imploro pro commoditate transmittendam. Quod si porro dominatio vestra eximia ad futura divi Hippolyti megalomartyris nostri sollemnia, hospes gratissimus atque amicissimis votis meis ex integro commensuratus, eam rei literariae supellectilem adferre dignaretur, tanto inde amplius ad reciproca obsequia quaeque provocarer. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e43598"> Coeterum intelligo reverendissimum dominum abbatem patronum domesticum, <seg type="lemma" corresp="#d4618e43626">caput decusque status nostri</seg> etc., cum reverendissimo domino Dorotheano praesule <pb n="1v"/> itineris comite ad superiora Austriae concessisse, brevi, ut auguror, feliciter reversurum. Idcirco tempus reditus nosse cupio, illico servum mille titulis debitissimum praesentaturus et eosdem amplissimos patronos meos ad <seg type="lemma" corresp="#d4618e43631">Tusculanum obsonium in Oxenburg</seg> officiose invitaturus, quod cum amicissime requiro, maneo ad urnam usque et cineres</seg></p>
+            <p xml:space="preserve">Admodum reverendae et eximiae dominationis vestrae servus illibatus Christophorus ad S. Hippolytum praelatus manu propria.</p>
+            <p xml:space="preserve">Ex S. Hippolyto 1. Augusti 1714.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e38356" target="#d4617e38333 #d4617e38345">
-               <ref target="">1</ref>
+            <note xml:id="d4618e43607">
+               <ref type="context">1</ref>
                <label>nuper in Mellicensi librophylacio</label>
                <p>CM war am 13. Oktober 1713 in Melk gewesen, wo er das Hochamt zum St. Kolomanstag gehalten hatte: PE 5 111. Ob seither weitere Besuche stattgefunden hatten, ist unbekannt, aber durchaus möglich.</p>
             </note>
-            <note xml:id="d4617e38363" target="#d4617e38333 #d4617e38345">
-               <ref target="#d4617e38333 #d4617e38345">1</ref>
+            <note xml:id="d4618e43614">
+               <ref type="context">1</ref>
                <label>in vetusto codice</label>
                <p>Die Handschrift und der Text konnten anhand der Angaben CMs nicht identifiziert werden.</p>
             </note>
-            <note xml:id="d4617e38368" target="#d4617e38335 #d4617e38347">
-               <ref target="">2</ref>
+            <note xml:id="d4618e43619">
+               <ref type="context">2</ref>
                <label>abbatem ... concessisse</label>
                <p>Die Melker Prioratsephemeriden vermerken die Durchreise Dietmayrs in Melk gemeinsam mit den Äbten bzw. Pröpsten von Dürnstein, Zwettl, Pernegg, St. Dorothea und Säusenstein. Die Gruppe kam am 29. Juli in Melk an und reiste am 30. nach Waldhausen weiter; am 2. August trafen sie aus Säusenstein kommend wieder in Melk ein, von wo die Gäste am 4., Dietmayr am 17. August wieder abreiste: PE 5 123f. Der Zweck der Reise wird nicht genannt.</p>
             </note>
-            <note xml:id="d4617e38375" target="#d4617e38335 #d4617e38347">
-               <ref target="#d4617e38335 #d4617e38347">2</ref>
+            <note xml:id="d4618e43626">
+               <ref type="context">2</ref>
                <label>caput decusque status nostri</label>
                <p>Die Formulierung bezieht sich auf Dietmayrs Funktion als Oberhaupt des niederösterreichischen Prälatenstandes; dies legt nahe, dass die Reise der Prälatengruppe ständischen Geschäften galt. Vgl. Einleitung, Abschnitt I.5.</p>
             </note>
-            <note xml:id="d4617e38380" target="#d4617e38335 #d4617e38347">
-               <ref target="#d4617e38335 #d4617e38347">2</ref>
+            <note xml:id="d4618e43631">
+               <ref type="context">2</ref>
                <label>Tusculanum obsonium in Oxenburg</label>
                <p>CM pflegte seinen 1699 erworbenen Landsitz in Ochsenburg als „Tusculanum“ (in Anlehnung an Ciceros Landgut bei Tusculum) zu bezeichnen: Duelli, Miscellanea 1 279. Zu dieser Besitzung vgl. Schragl, St. Pölten 463, 468f.</p>
             </note>

@@ -13,81 +13,83 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">407</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Stockinger, Fidelis 359f</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">100r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Aemilian Reichardt</persName>
+               <date when="1715-06-22">1715-06-22</date>
+               <placeName>Ochsenhausen</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="next">
+                  <idno type="pezEd">404</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">404</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">407</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Aemilian Reichardt</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1715-06-22</date>
-         <place-of-posting xmlns="">Ochsenhausen</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e44657">
-                  <persName>
-                     <abbr>AR</abbr>
-                  </persName> hat BPs Brief vom 13. Juni 1715 <ref type="letter">404</ref> am 19. Juni erhalten und ist darüber sehr erfreut, denn die genannten Bände (des „Spicilegium“ von d’Achery) waren von dem verstorbenen Anselm Fischer ohne Wissen oder zumindest in Abwesenheit des Bibliothekars an <persName>
-                     <abbr>BP</abbr>
-                  </persName> geschickt worden. In Ochsenhausen hat man sie nun schon seit einiger Zeit gesucht. <persName>
-                     <abbr>AR</abbr>
-                  </persName> zeigt sich froh darüber, dass sie in <persName>
-                     <abbr>BP</abbr>
-                  </persName> einen verantwortungsbewussten Hüter haben, der bereits drei Bände zurückerstattet hat und auch die übrigen zu gegebener Zeit retournieren wird. Er bietet <persName>
-                     <abbr>BP</abbr>
-                  </persName> auch weitere Hilfe oder Dienste seiner Bibliothek an.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e50719"><rs type="person" role="sender">AR</rs> hat <rs type="person" role="sender">BPs</rs> Brief vom 13. Juni 1715 <ref type="letter">404</ref> am 19. Juni erhalten und ist darüber sehr erfreut, denn die genannten Bände (des „Spicilegium“ von d’Achery) waren von dem verstorbenen Anselm Fischer ohne Wissen oder zumindest in Abwesenheit des Bibliothekars an <rs type="person" role="sender">BP</rs> geschickt worden. In Ochsenhausen hat man sie nun schon seit einiger Zeit gesucht. <rs type="person" role="sender">AR</rs> zeigt sich froh darüber, dass sie in <rs type="person" role="sender">BP</rs> einen verantwortungsbewussten Hüter haben, der bereits drei Bände zurückerstattet hat und auch die übrigen zu gegebener Zeit retournieren wird. Er bietet <rs type="person" role="sender">BP</rs> auch weitere Hilfe oder Dienste seiner Bibliothek an.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: I, 100r–v.</p>
-            <p>Literatur: Stockinger, Fidelis 359f.</p>
-            <p>Bezüge: 404. Erwähnt 404.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>404</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>404</idno>
-               </ref>
-            </correspContext>
-            <p>Nummerierung: <hi rend="italic">I</hi>.</p>
+            <p xml:space="preserve">Nummerierung: <hi rend="italic">I</hi>.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiosissime ac clarissime domine, domine patrone colendissime.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e44679"> Humanissimas ab admodum reverenda paternitate vestra 13. huius exaratas 19. acceptas, imo et acceptissimas fuisse hisce contestor. Enimvero <seg type="lemma" corresp="#d4617e44686">nominati tomuli</seg>, quos defunctus noster pater Anselmus fors inscio aut saltem non praesente <seg type="lemma" corresp="#d4617e44693">bibliothecario</seg> admodum reverendae paternitati vestrae transmisit, a nobis aliquamdiu iam solicite quaesiti fuere. Ast tam bonum custodem, a quo iam tres accepti, reliqui data occasione recipiendi, fuisse sortitos, intime gaudeo; et si quid aliud ex penu nostra bibliothecaria officiis et servitiis esse possit, non parvo honori et favori mihi ducam, si hoc intimatum cognovero. Caeterum praeter humillimam mei recommendationem maneo</seg>
-            </p>
-            <p>Admodum reverendae religiosissimae ac clarissimae paternitatis vestrae paratissimus pater Aemilianus Reichardt professus Ochsenhusanus et prior.</p>
-            <p>Ochsenhusii 22. Junii 1715.</p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiosissime ac clarissime domine, domine patrone colendissime.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e50741"> Humanissimas ab admodum reverenda paternitate vestra 13. huius exaratas 19. acceptas, imo et acceptissimas fuisse hisce contestor. Enimvero <seg type="lemma" corresp="#d4618e50748">nominati tomuli</seg>, quos defunctus noster pater Anselmus fors inscio aut saltem non praesente <seg type="lemma" corresp="#d4618e50755">bibliothecario</seg> admodum reverendae paternitati vestrae transmisit, a nobis aliquamdiu iam solicite quaesiti fuere. Ast tam bonum custodem, a quo iam tres accepti, reliqui data occasione recipiendi, fuisse sortitos, intime gaudeo; et si quid aliud ex penu nostra bibliothecaria officiis et servitiis esse possit, non parvo honori et favori mihi ducam, si hoc intimatum cognovero. Caeterum praeter humillimam mei recommendationem maneo</seg></p>
+            <p xml:space="preserve">Admodum reverendae religiosissimae ac clarissimae paternitatis vestrae paratissimus pater Aemilianus Reichardt professus Ochsenhusanus et prior.</p>
+            <p xml:space="preserve">Ochsenhusii 22. Junii 1715.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e44686" target="#d4617e44657 #d4617e44679">
-               <ref target="">1</ref>
+            <note xml:id="d4618e50748">
+               <ref type="context">1</ref>
                <label>nominati tomuli</label>
                <p>Sicherlich das „Spicilegium“ von d’Achery, das Anselm Fischer mit 246 nochmals nach Melk gesendet hatte. Die Rückerstattung der weiteren Bände erfolgte nach einem weiteren Brief ARs (I, 101r–v), in welchem das Werk auch ausdrücklich genannt wird, im Sommer 1716.</p>
             </note>
-            <note xml:id="d4617e44693" target="#d4617e44657 #d4617e44679">
-               <ref target="#d4617e44657 #d4617e44679">1</ref>
+            <note xml:id="d4618e50755">
+               <ref type="context">1</ref>
                <label>bibliothecario</label>
                <p>Seine Identität konnte nicht ermittelt werden.</p>
             </note>

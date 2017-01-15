@@ -13,126 +13,117 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">101</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Katschthaler, Briefnachlass 19 (vgl. Editorische Notiz zu 81)</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">362r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Severino de Ò</persName>
+               <date when="1710-08-26">1710-08-26</date>
+               <placeName>Pavia (S. Spirito)</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">100</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">100</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">81</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">101</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Severino de Ò</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1710-08-26</date>
-         <place-of-posting xmlns="">Pavia (S. Spirito)</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e10479">SO hat erneut einen Brief von <persName>
-                     <abbr>BP</abbr>
-                  </persName> erhalten <ref type="letter">100</ref> und lobt wiederum dessen Vorhaben („Bibliotheca Benedictina“).</seg>
-               <seg type="context" n="2" xml:id="d4617e10484">Dessen Aufwand ist durch die Einschränkung auf die schwarzen Mönche (Benediktiner) zu begrenzen, was aber ebenfalls nicht ohne Streitigkeiten möglich sein wird, weil sich andere Orden, nicht nur die Zisterzienser (semi-albi), sondern auch die Chorherren – die sich fälschlich oder zumindest erst seit kurzem nach dem Hl. Augustinus benennen und dem Mönchtum stets feindlich gegenüberstehen –, viele benediktinischen Schriftsteller zu Unrecht selbst zuschreiben. So wird Johannes Gersens Schrift „De imitatione Christi“ allen geführten Beweisen zum Trotz beharrlich von ihnen vereinnahmt.</seg>
-               <seg type="context" n="3" xml:id="d4617e10486">SO bedauert, dass <persName>
-                     <abbr>BP</abbr>
-                  </persName> von den italienischen Prälaten noch keine Antworten erhalten hat. Nicht jeder ist befähigt, geeignetes Material auszuwählen. Es ist mühsam, auf die Zuarbeit anderer angewiesen zu sein; deshalb ist auch etwa die Geographie noch mit so vielen Fehlern behaftet, weil niemand allein die ganze Welt bereist hat, sondern Karten nach den Angaben anderer gezeichnet werden.</seg>
-               <seg type="context" n="4" xml:id="d4617e10488">SO verweist <persName>
-                     <abbr>BP</abbr>
-                  </persName> auf die Ratschläge in seinem ersten Brief <ref type="letter">81</ref>; insbesondere legt er <persName>
-                     <abbr>BP</abbr>
-                  </persName> erneut nahe, sich an Mariano Armellini zu wenden oder das Erscheinen von dessen Arbeiten abzuwarten.</seg>
-               <seg type="context" n="5" xml:id="d4617e10493">SOs Kanzler, Giovanni Gaspare Beretti, der diesen Brief schreibt, könnte <persName>
-                     <abbr>BP</abbr>
-                  </persName> einiges Material zur Verfügung stellen, wenn er Muße hätte. Beretti arbeitet selbst an bibliographischen Werken (bibliothecae) zum Senat von Mailand, zu den Schriftstellern der Universität Pavia, wo er unterrichtet, und der Stadt Pavia. Nach dem Ende von SOs Amt als Kongregationspräses wird Beretti Gelegenheit haben, <persName>
-                     <abbr>BP</abbr>
-                  </persName> ein Exemplar seines Werks „Lychnus chronologico-juridicus“ zu schicken, sowie, falls Armellini die Mitteilung hinauszögert, auch Material, das bereits diesem übermittelt wurde.</seg>
-               <seg type="context" n="6" xml:id="d4617e10495">
-                  <persName>
-                     <abbr>BP</abbr>
-                  </persName> soll an seinem Vorhaben festhalten; mehr kann SO nicht für ihn tun. Er wünscht sich, die Fertigstellung von BPs Werk zu erleben.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e12312"><rs type="person" key="">SO</rs> hat erneut einen Brief von <rs type="person" role="sender">BP</rs> erhalten <ref type="letter">100</ref> und lobt wiederum dessen Vorhaben („Bibliotheca Benedictina“).</seg><seg type="context" n="2" xml:id="d4618e12317">Dessen Aufwand ist durch die Einschränkung auf die schwarzen Mönche (Benediktiner) zu begrenzen, was aber ebenfalls nicht ohne Streitigkeiten möglich sein wird, weil sich andere Orden, nicht nur die Zisterzienser (semi-albi), sondern auch die Chorherren – die sich fälschlich oder zumindest erst seit kurzem nach dem Hl. Augustinus benennen und dem Mönchtum stets feindlich gegenüberstehen –, viele benediktinischen Schriftsteller zu Unrecht selbst zuschreiben. So wird Johannes Gersens Schrift „De imitatione Christi“ allen geführten Beweisen zum Trotz beharrlich von ihnen vereinnahmt.</seg><seg type="context" n="3" xml:id="d4618e12319"><rs type="person" key="">SO</rs> bedauert, dass <rs type="person" role="sender">BP</rs> von den italienischen Prälaten noch keine Antworten erhalten hat. Nicht jeder ist befähigt, geeignetes Material auszuwählen. Es ist mühsam, auf die Zuarbeit anderer angewiesen zu sein; deshalb ist auch etwa die Geographie noch mit so vielen Fehlern behaftet, weil niemand allein die ganze Welt bereist hat, sondern Karten nach den Angaben anderer gezeichnet werden.</seg><seg type="context" n="4" xml:id="d4618e12321"><rs type="person" key="">SO</rs> verweist <rs type="person" role="sender">BP</rs> auf die Ratschläge in seinem ersten Brief <ref type="letter">81</ref>; insbesondere legt er <rs type="person" role="sender">BP</rs> erneut nahe, sich an Mariano Armellini zu wenden oder das Erscheinen von dessen Arbeiten abzuwarten.</seg><seg type="context" n="5" xml:id="d4618e12326"><rs type="person" key="">SOs</rs> Kanzler, Giovanni Gaspare Beretti, der diesen Brief schreibt, könnte <rs type="person" role="sender">BP</rs> einiges Material zur Verfügung stellen, wenn er Muße hätte. Beretti arbeitet selbst an bibliographischen Werken (bibliothecae) zum Senat von Mailand, zu den Schriftstellern der Universität Pavia, wo er unterrichtet, und der Stadt Pavia. Nach dem Ende von <rs type="person" key="">SOs</rs> Amt als Kongregationspräses wird Beretti Gelegenheit haben, <rs type="person" role="sender">BP</rs> ein Exemplar seines Werks „Lychnus chronologico-juridicus“ zu schicken, sowie, falls Armellini die Mitteilung hinauszögert, auch Material, das bereits diesem übermittelt wurde.</seg><seg type="context" n="6" xml:id="d4618e12328"><rs type="person" role="sender">BP</rs> soll an seinem Vorhaben festhalten; mehr kann <rs type="person" key="">SO</rs> nicht für ihn tun. Er wünscht sich, die Fertigstellung von <rs type="person" role="sender">BPs</rs> Werk zu erleben.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: I, 362r–v.</p>
-            <p>Literatur: Katschthaler, Briefnachlass 19 (vgl. Editorische Notiz zu 81).</p>
-            <p>Bezüge: 100. Erwähnt 81, 100.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>100</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>81</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>100</idno>
-               </ref>
-            </correspContext>
-            <p>Adresse: <hi rend="italic">Reverendo admodum patri patrono colendissimo domino Bernardo Pez Mellicensi monacho bibliothecario. Mellicii</hi>. Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 143v.</p>
-            <p>Nummerierung:<hi rend="italic" xml:space="preserve"> II.</hi>
-            </p>
-            <p>Bemerkung: Der Brief wurde von SOs „cancellarius“, Giovanni Gaspare Beretti, geschrieben, nur die Unterschrift ab <hi rend="italic">addictissimus</hi> von SO.</p>
+            <div type="address">
+               <cit>
+                  <q>Reverendo admodum patri patrono colendissimo domino Bernardo Pez Mellicensi monacho bibliothecario. Mellicii. Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 143v.</q>
+               </cit>
+            </div>
+            <p xml:space="preserve">Nummerierung:<hi rend="italic" xml:space="preserve"> II.</hi></p>
+            <p xml:space="preserve">Bemerkung: Der Brief wurde von SOs „cancellarius“, Giovanni Gaspare Beretti, geschrieben, nur die Unterschrift ab <hi rend="italic">addictissimus</hi> von SO.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Reverende admodum pater et patrone colendissime.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e10523"> Tuas iterum excipio literas, et ea omnia, quae in ipsis, undique eruditionem tuam praeferunt. Excelsa meditaris, nec miror. Quid enim literati viri tam proprium, quam erigi et alta petere? Alta, inquam, cum scriptorum nostrorum nomina aeternitati donare cogitas. </seg>
-               <seg type="context" n="2" xml:id="d4617e10525"> Et iterum oeconomiam tuam percipio. Oppido propior, si nigrorum tantum monachorum arctabitur terminis. Verumtamen res semper operosa ob ingentem ipsorum numerum, nec sine iurgiis explenda. Quot enim <seg type="lemma" corresp="#d4617e10548">nigros nedum semi-albi, sed et canonici (falso vel recens sancti Augustini, monachismo semper infensi) perperam sibi asciscunt</seg>? <seg type="lemma" corresp="#d4617e10560">Gersenis nostri libellum</seg> De imitatione Christi, ut mille alios ommittam [<hi rend="italic">sic</hi>], toties in libertatem vindicatum, et hodie pervicaciter occupant. </seg>
-               <seg type="context" n="3" xml:id="d4617e10530"> Doleo valde praelatos Italos tibi responsa non reddidisse. Parce, nam omnium non est tuo obsequi genio. Paucorum adaeque est legitima seligere. Durum fatum in aliena fide laborare! Adeo mendosa adhuc geographia, quia totum nemo orbem lustravit, et universum in alterius fide quisque lineare attentat. Quid, si exemplaria claudicant? </seg>
-               <seg type="context" n="4" xml:id="d4617e10532"> Quae pro suscepta tua provincia suggerere poteram, iam prima mea epistola tuam in mentem revocavi. Sanius meum excipe consilium eas ob causas, quas scripsi. Declaravi satis, quo te animo esse censerem. Domnum Marianum Armellinum vel consule vel expecta. Te ad ipsum adiuncto cuncta in unum facile consequeris. </seg>
-               <seg type="context" n="5" xml:id="d4617e10534"> Si <seg type="lemma" corresp="#d4617e10565">cancellario meo haec scribenti</seg> otium esset, nonnulla eius ope tibi suppeditare possem. <seg type="lemma" corresp="#d4617e10572">Tres Bibliothecas</seg>: primo senatus Insubriae; secundo scriptorum huius universitatis, in qua profitetur; tertio et civium Papiensium ipse etiam meditatur. Mea absoluta praesidentia liber erit. Lychum [<hi rend="italic">sic</hi>] suum chronologico-juridicum anno 1700 editum ad te tunc transmi[ttet, et] forte <seg type="lemma" corresp="#d4617e10582">si domnus Marianus cunctabitur</seg>, aliqua iam eidem communicata. </seg>
-               <seg type="context" n="6" xml:id="d4617e10539"> Permane interim in incoepto, et omnia maxima tua cum laude obtinebis. Quae pro religione egeris, literatorum iudicio ac testimonio comprobabitur. Ad meum interim erga te officium nihil addere possum. Deus det mihi lucis usuram, <pb n="1v"/> ut tua opportuno tempore virtute perfruar. Hic modum facio teque perenni obsequio salvere iubeo</seg>
-            </p>
-            <p>Paternitatis tuae admodum reverendae addictissimus servus domnus Severinus a Papia abbas et praesidens.</p>
-            <p>In S. Spiritus die 26. Augusti 1710.</p>
+            <p xml:space="preserve"><pb n="1r"/> Reverende admodum pater et patrone colendissime.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e12356"> Tuas iterum excipio literas, et ea omnia, quae in ipsis, undique eruditionem tuam praeferunt. Excelsa meditaris, nec miror. Quid enim literati viri tam proprium, quam erigi et alta petere? Alta, inquam, cum scriptorum nostrorum nomina aeternitati donare cogitas. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e12358"> Et iterum oeconomiam tuam percipio. Oppido propior, si nigrorum tantum monachorum arctabitur terminis. Verumtamen res semper operosa ob ingentem ipsorum numerum, nec sine iurgiis explenda. Quot enim <seg type="lemma" corresp="#d4618e12384">nigros nedum semi-albi, sed et canonici (falso vel recens sancti Augustini, monachismo semper infensi) perperam sibi asciscunt</seg>? <seg type="lemma" corresp="#d4618e12396">Gersenis nostri libellum</seg> De imitatione Christi, ut mille alios ommittam [<hi rend="italic">sic</hi>], toties in libertatem vindicatum, et hodie pervicaciter occupant. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e12363"> Doleo valde praelatos Italos tibi responsa non reddidisse. Parce, nam omnium non est tuo obsequi genio. Paucorum adaeque est legitima seligere. Durum fatum in aliena fide laborare! Adeo mendosa adhuc geographia, quia totum nemo orbem lustravit, et universum in alterius fide quisque lineare attentat. Quid, si exemplaria claudicant? </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e12365"> Quae pro suscepta tua provincia suggerere poteram, iam prima mea epistola tuam in mentem revocavi. Sanius meum excipe consilium eas ob causas, quas scripsi. Declaravi satis, quo te animo esse censerem. Domnum Marianum Armellinum vel consule vel expecta. Te ad ipsum adiuncto cuncta in unum facile consequeris. </seg><seg type="context" n="5" xml:space="preserve" xml:id="d4618e12367"> Si <seg type="lemma" corresp="#d4618e12401">cancellario meo haec scribenti</seg> otium esset, nonnulla eius ope tibi suppeditare possem. <seg type="lemma" corresp="#d4618e12408">Tres Bibliothecas</seg>: primo senatus Insubriae; secundo scriptorum huius universitatis, in qua profitetur; tertio et civium Papiensium ipse etiam meditatur. Mea absoluta praesidentia liber erit. Lychum [<hi rend="italic">sic</hi>] suum chronologico-juridicum anno 1700 editum ad te tunc transmi[ttet, et]<note place="foot" xml:id="d4618e12372">	Textverlust im Ausmaß von ca. 6–7 Buchstaben.</note> forte <seg type="lemma" corresp="#d4618e12418">si domnus Marianus cunctabitur</seg>, aliqua iam eidem communicata. </seg><seg type="context" n="6" xml:space="preserve" xml:id="d4618e12375"> Permane interim in incoepto, et omnia maxima tua cum laude obtinebis. Quae pro religione egeris, literatorum iudicio ac testimonio comprobabitur. Ad meum interim erga te officium nihil addere possum. Deus det mihi lucis usuram, <pb n="1v"/> ut tua opportuno tempore virtute perfruar. Hic modum facio teque perenni obsequio salvere iubeo</seg></p>
+            <p xml:space="preserve">Paternitatis tuae admodum reverendae addictissimus servus domnus Severinus a Papia abbas et praesidens.</p>
+            <p xml:space="preserve">In S. Spiritus die 26. Augusti 1710.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e10548" target="#d4617e10484 #d4617e10525">
-               <ref target="">2</ref>
+            <note xml:id="d4618e12384">
+               <ref type="context">2</ref>
                <label>nigros ... sibi asciscunt</label>
                <p>Zu Kontroversen um die Ordenszugehörigkeit von Autoren vgl. auch 98 &lt;8&gt; (Benediktinertum Gregors I.), 369 &lt;6&gt; (Anspruch der Serviten auf Heinrich von Gent).</p>
             </note>
-            <note xml:id="d4617e10555" target="#d4617e10484 #d4617e10525">
-               <ref target="#d4617e10484 #d4617e10525">2</ref>
+            <note xml:id="d4618e12391">
+               <ref type="context">2</ref>
                <label>recens sancti Augustini</label>
                <p>Die etwas unklare Formulierung dürfte sich auf den Streit um die Ursprünge der Augustiner-Chorherren beziehen; vgl. Einleitung, Abschnitt I.5.</p>
             </note>
-            <note xml:id="d4617e10560" target="#d4617e10484 #d4617e10525">
-               <ref target="#d4617e10484 #d4617e10525">2</ref>
+            <note xml:id="d4618e12396">
+               <ref type="context">2</ref>
                <label>Gersenis ... libellum</label>
                <p>Vgl. 71 &lt;6&gt;.</p>
             </note>
-            <note xml:id="d4617e10565" target="#d4617e10493 #d4617e10534">
-               <ref target="">5</ref>
+            <note xml:id="d4618e12401">
+               <ref type="context">5</ref>
                <label>cancellario meo haec scribenti</label>
                <p>Zur Ausfertigung der Briefe vgl. Einleitung, Abschnitt II.3. Es liegt nahe, dass der gelehrte Kanzler Beretti wohl auch auf die inhaltliche Gestaltung von 81 und 101 eingewirkt haben wird. Zu ihm: Armellini, Bibliotheca 2 38–42; Bossi, Matricula 1 269; Mazzuchelli, Scrittori 2/2 921–923; Petrucci, Beretti; vgl. seine Briefe bei Burlini Calapaj, Carteggio 6 262–374; Castagna, Corrispondenza 6 270–286; 7 61–84; 9 249–280; 10 121–141; 11 97–108.</p>
             </note>
-            <note xml:id="d4617e10572" target="#d4617e10493 #d4617e10534">
-               <ref target="#d4617e10493 #d4617e10534">5</ref>
+            <note xml:id="d4618e12408">
+               <ref type="context">5</ref>
                <label>Tres Bibliothecas</label>
                <p>Diese geplanten Werke Berettis blieben unvollendet; einige Angaben über ihre vorgesehene Komposition und Titel bieten allerdings Armellini, Bibliotheca 2 42; Mazzuchelli, Scrittori 2/2 922f.</p>
             </note>
-            <note xml:id="d4617e10577" target="#d4617e10493 #d4617e10534">
-               <ref target="#d4617e10493 #d4617e10534">5</ref>
+            <note xml:id="d4618e12413">
+               <ref type="context">5</ref>
                <label>Lychum ... chronologico-iuridicum</label>
                <p>Beretti war 1695 unter den Examinatoren gewesen, die im Auftrage des Bischofs von Pavia die Echtheit der dort in der Kirche S. Pietro in Ciel d’Oro aufgefundenen angeblichen Gebeine des Hl. Augustinus bestätigten; sein „Lychnus chronologico-juridicus“ ist eine Entgegnung auf mehrere Schriften, die Zweifel an diesen Reliquien geäußert hatten, vor allem aber auf jene des Laterankanonikers Giuseppe Maria Bellini, und gehört somit in den Zusammenhang des in &lt;2&gt; angedeuteten Vorrangstreits zwischen Benediktinern und Augustiner-Chorherren.</p>
             </note>
-            <note xml:id="d4617e10582" target="#d4617e10493 #d4617e10534">
-               <ref target="#d4617e10493 #d4617e10534">5</ref>
+            <note xml:id="d4618e12418">
+               <ref type="context">5</ref>
                <label>si ... Marianus cunctabitur</label>
                <p>SO scheint die Unwilligkeit Armellinis, von seinem Material etwas weiterzugeben, bereits zu ahnen.</p>
             </note>

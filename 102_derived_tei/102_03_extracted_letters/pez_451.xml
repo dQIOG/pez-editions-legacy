@@ -13,121 +13,91 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">451</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Glassner, Handschriften 73</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>StiB Melk, Cod. 394, 60r–v.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Rupert Hausdorf</persName>
+               <date when="1715-10-09">1715-10-09</date>
+               <placeName>Braunau (Broumov)</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">445</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">445</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">33</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">451</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Rupert Hausdorf</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1715-10-09</date>
-         <place-of-posting xmlns="">Braunau (Broumov)</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e48853">
-                  <persName>
-                     <abbr>RH</abbr>
-                  </persName> dankt für BPs Brief vom 29. September <ref type="letter">445</ref>, den er am 8. Oktober erhalten hat. Ein Buch „Orthodoxus“ von Juan Caramuel ist <persName>
-                     <abbr>RH</abbr>
-                  </persName> nicht bekannt, wohl aber dessen „Demonstratio catholica ad omnes orthodoxae fidei controversias“; <persName>
-                     <abbr>RH</abbr>
-                  </persName> gibt dazu nähere Angaben, damit die Frage der Identität geklärt werden kann. Die „Demonstratio“ ist nicht in Böhmen, sondern 1665 zu Krakau von Stanisław Szczygielski, dem benediktinischen Propst von Tuchów in Polen, herausgegeben worden. Dieser war einst Gast Caramuels gewesen, als jener noch Abt (des Emmausklosters) zu Prag war; er war selbst Gelehrter und veröffentlichte das Buch „Aquila Polono-Benedictina“. Die „Demonstratio catholica“ widmete er Stefan Kobierzycki, dem Benediktinerabt von Stare Troki. Das Werk ist von geringem Umfang, es umfasst nur sechs Bögen in Duodez, insgesamt 144 Seiten. <persName>
-                     <abbr>RH</abbr>
-                  </persName> nennt Incipit und Explicit des Werks und zählt dann die zwölf Kapitel auf, in denen es um die Wahrheit der katholischen Lehre und Kirche im Gegensatz zu jenen der Lutheraner, Calvinisten und Juden geht. Da die Buchhändler Böhmens ebenso wie jene Österreichs keinen Kontakt zu Polen unterhalten, weiß <persName>
-                     <abbr>RH</abbr>
-                  </persName> selbst nicht, wie das Werk nach Braunau kommen konnte, und rät BP, es neu herauszubringen.</seg>
-               <seg type="context" n="2" xml:id="d4617e48858">
-                  <persName>
-                     <abbr>RH</abbr>
-                  </persName> wünscht <persName>
-                     <abbr>BP</abbr>
-                  </persName> den Segen des Hl. Benedikt und aller in den Himmel eingegangenen Benediktiner, für deren Andenken <persName>
-                     <abbr>BP</abbr>
-                  </persName> sorgt, damit ihm Kraft und Alter zur Fertigstellung der „Bibliotheca Benedictina“ zuteil werde. <persName>
-                     <abbr>RH</abbr>
-                  </persName> wünscht weiters, dass alle Mitbrüder in Italien, Spanien und Portugal ihren Beitrag leisten mögen; was Böhmen betrifft, so will <persName>
-                     <abbr>RH</abbr>
-                  </persName> die Materialien aus Kladrau übersenden, sobald sie eintreffen.</seg>
-               <seg type="context" n="3" xml:id="d4617e48860">
-                  <persName>
-                     <abbr>RH</abbr>
-                  </persName> hat in einem früheren Brief <ref type="letter">33</ref> Matthäus Ferdinand Sobek von Bilenberg genannt, der Professe von Břevnov, Abt von St. Johann unter dem Felsen, dann von St. Nikolaus in der Prager Altstadt, schließlich erster Bischof von Königgrätz und Erzbischof von Prag war, 1675 starb und in Braunau begraben ist. Bei Balbín (in den „Miscellanea“) hat <persName>
-                     <abbr>RH</abbr>
-                  </persName> inzwischen gelesen, dass die unter Sobeks Namen erschienene „Vita sancti Ivani“ aus der Feder des Jesuiten Friedrich Bridel stammt. <persName>
-                     <abbr>BP</abbr>
-                  </persName> soll dies berücksichtigen, damit nicht der Eindruck entsteht, dass sich die Benediktiner mit fremden Federn schmücken.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e55202"><rs type="person" key="">RH</rs> dankt für <rs type="person" role="sender">BPs</rs> Brief vom 29. September <ref type="letter">445</ref>, den er am 8. Oktober erhalten hat. Ein Buch „Orthodoxus“ von Juan Caramuel ist <rs type="person" key="">RH</rs> nicht bekannt, wohl aber dessen „Demonstratio catholica ad omnes orthodoxae fidei controversias“; <rs type="person" key="">RH</rs> gibt dazu nähere Angaben, damit die Frage der Identität geklärt werden kann. Die „Demonstratio“ ist nicht in Böhmen, sondern 1665 zu Krakau von Stanisław Szczygielski, dem benediktinischen Propst von Tuchów in Polen, herausgegeben worden. Dieser war einst Gast Caramuels gewesen, als jener noch Abt (des Emmausklosters) zu Prag war; er war selbst Gelehrter und veröffentlichte das Buch „Aquila Polono-Benedictina“. Die „Demonstratio catholica“ widmete er Stefan Kobierzycki, dem Benediktinerabt von Stare Troki. Das Werk ist von geringem Umfang, es umfasst nur sechs Bögen in Duodez, insgesamt 144 Seiten. <rs type="person" key="">RH</rs> nennt Incipit und Explicit des Werks und zählt dann die zwölf Kapitel auf, in denen es um die Wahrheit der katholischen Lehre und Kirche im Gegensatz zu jenen der Lutheraner, Calvinisten und Juden geht. Da die Buchhändler Böhmens ebenso wie jene Österreichs keinen Kontakt zu Polen unterhalten, weiß <rs type="person" key="">RH</rs> selbst nicht, wie das Werk nach Braunau kommen konnte, und rät BP, es neu herauszubringen.</seg><seg type="context" n="2" xml:id="d4618e55207"><rs type="person" key="">RH</rs> wünscht <rs type="person" role="sender">BP</rs> den Segen des Hl. Benedikt und aller in den Himmel eingegangenen Benediktiner, für deren Andenken <rs type="person" role="sender">BP</rs> sorgt, damit ihm Kraft und Alter zur Fertigstellung der „Bibliotheca Benedictina“ zuteil werde. <rs type="person" key="">RH</rs> wünscht weiters, dass alle Mitbrüder in Italien, Spanien und Portugal ihren Beitrag leisten mögen; was Böhmen betrifft, so will <rs type="person" key="">RH</rs> die Materialien aus Kladrau übersenden, sobald sie eintreffen.</seg><seg type="context" n="3" xml:id="d4618e55209"><rs type="person" key="">RH</rs> hat in einem früheren Brief <ref type="letter">33</ref> Matthäus Ferdinand Sobek von Bilenberg genannt, der Professe von Břevnov, Abt von St. Johann unter dem Felsen, dann von St. Nikolaus in der Prager Altstadt, schließlich erster Bischof von Königgrätz und Erzbischof von Prag war, 1675 starb und in Braunau begraben ist. Bei Balbín (in den „Miscellanea“) hat <rs type="person" key="">RH</rs> inzwischen gelesen, dass die unter Sobeks Namen erschienene „Vita sancti Ivani“ aus der Feder des Jesuiten Friedrich Bridel stammt. <rs type="person" role="sender">BP</rs> soll dies berücksichtigen, damit nicht der Eindruck entsteht, dass sich die Benediktiner mit fremden Federn schmücken.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: StiB Melk, Cod. 394, 60r–v.</p>
-            <p>Literatur: Glassner, Handschriften 73.</p>
-            <p>Bezüge: 445. Erwähnt 33, 445.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>445</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>33</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>445</idno>
-               </ref>
-            </correspContext>
-            <p>Nummerierung: <hi rend="italic">II</hi>.</p>
+            <p xml:space="preserve">Nummerierung: <hi rend="italic">II</hi>.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiosissime clarissime ac eximie pater ac domine Bernarde, amicorum venerandissime. Salutem et obsequia.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e48882"> Ad perdilectas de dato 29. Septembris datas et a me 8. Octobris ea, qua erat par, veneratione acceptas lectasque paucis repono me de libello sub hoc titulo: Orthodoxus Caramuelis, usque in praesens nil inaudiisse, sed solum mihi in hocce argumento versantem pariter libellum domini Caramuelis notum esse, et qui est sub hoc titulo: Demonstratio catholica ad omnes orthodoxae fidei controversias decidendas clarissima; an autem idem sit cum libello a dominatione vestra admodum reverenda mentionato, facile distingui vel identitas eius agnosci poterit ex sequentibus. Libellus iste Demonstratio catholica editus est non in Boemia, sed Cracoviae 1665 a reverendo patre Stanislao <seg type="lemma" corresp="#d4617e48904">Sczygielski ordinis sancti Benedicti in Polonia praeposito Tuchoviensi (qui olim hospes</seg> fuit domini Caramuelis ut Pragae adhuc abbatis, et domum redux deinde hunc libellum Praga acceptum sub nomine domini Caramuelis edidit, vir et ipse doctus, qui composuit et edidit <seg type="lemma" corresp="#d4617e48911">Aquilam Polono-Benedictinam</seg>) et dedicatus domino Stephano Kobierzycki abbati in Polonia Trocensi ordinis sancti Benedicti anno, ut dixi, 65. Parvae molis est, non protendens se nisi ad sex phyleras [<hi rend="italic">sic</hi>], usque ad F inclusive, et in duodecimo. Compositio huius libelli seu contextus domini Caramuelis sic incipit: Fundamentum I. De veritate et veracitate suprema, stat quasi titulus. Caput autem ipsum (scilicet primum) hoc habet initium: Deus est veritas prima, est veracitas prima: homo est mendacium, homo est mendax. Finis autem libelli in ultima pagina sic habet: manet iam demonstratum omnes nostrae religionis articulos esse veros omnesque contradictorios esse falsos. Paginae totius opusculi sunt solummodo 144. Totus libellus constat duodecim rationibus tantummodo, sed aliqualiter tamen oratorie deductis, quarum: Prima ratio est. Fides divina a Deo revelata est, Lutherana a Deo revelata non est, ergo non est fides divina. Secunda. Religio vera eadem, quae catholica, at Lutherana (idem de Calviniana etc.) non est catholica, et sola Romana est catholica etc., ergo. Tertia. Christi et apostolorum debet in ecclesia vera dari ininterrupta successio, haec datur in ecclesia catholica, non apud Lutheranos et Calvinianos, ergo. Quarta. Religio inventa et vulgata a viro dubio habente animum deripiendi et loquente contra mentem non est admittenda a prudentibus; sed talis est religio Lutheri, quod probat textibus ex libris originalibus Lutheri. Quinta. Respublica bene ordinata non potest carere tribunali supremo, dum tale nuspiam est nisi in ecclesia catholica. Sexta. In vera religione debere esse sanctos, hos esse apud nos, non apud sectas Lutheranam vel Calvinianam. Septima. Vera debet clarere miraculis, haec autem nullibi nisi in ecclesia catholica. Octava. De librorum canonicorum distinctione et discretione, quae dabilis non est in catholica ecclesia. Nona. Ecclesia illa vera, quae demonstrat probatque sanctitatem suam quoad numerum, materiam et formam etc. Decima. In ecclesia debet esse authoritas praeceptiva et legislativa, qualem monstrat ecclesia catholica loco Sabbathi Judaeorum praecipiens Dominicam diem. Undecima. De praeceptorum ecclesiastica commutatione. Duodecima. De authoritate et discretione traditionum etc. <pb n="1v"/> Ex his vel obiter consinatis [<hi rend="italic">sic</hi>] facile patere potest, an uterque liber, Orthodoxus Caramuelis et Demonstratio etc. solo titulo, an hoc et re ipsa simul differant. Dato autem, quod unus et idem esset libellus, adhuc tamen mereretur ab admodum reverenda dominatione vestra edi, tum quia est nostri authoris, tum quia est typo dignus et hic loci in Boemia nullibi notus (bibliopolae enim huius agri, uti et Austriae, nulla cum Polonicis habent commercia), ita ut nesciam, quo casu vel errore exemplar hoc Braunam pervenerit. Haec de illo libello. </seg>
-               <seg type="context" n="2" xml:id="d4617e48892"> Nullus dubito, quin opus solenne (Bibliotheca Benedictina scilicet) quotidianis incrementis proficiat sensimque ad consummationem suam feratur. Suppeditat, opto, et sanctissimus pater noster et viri illi sanctissimi et doctissimi simul coelo recepti (quorum memoriae honorique innovando et nomini ab oblivione vindicando operose desudat) vires ac aetatem tot saeculorum moli in ordinem digerendo [<hi rend="italic">sic</hi>] parem, ut aetas nostra hoc sacro ordini nostro futurum eximium decus quantocyus intueatur. Optarem non minus, ut domini confratres tum in Italia, tum in Hispania et Portugallo, praeter dominos Germanos symbolas suas strenue conferrent. Quod nostram Boemiam attinet, ubi Cladrubio notitias ad hoc opus referibiles accepero, non ero in mora transmittendi. </seg>
-               <seg type="context" n="3" xml:id="d4617e48897"> Hoc pro nunc moneo, me scripsisse antehac admodum reverendae paternitati vestrae et nominasse simul <seg type="lemma" corresp="#d4617e48916">dominum Matthaeum Ferdinandum</seg> archiepiscopum Pragensem ex professo Braunensi seu Brzewnoviensi, post abbatiam Rupensem et Vetero-Pragensem et protoepiscopatum Reginohradecensem eousque promotum, nunc post fata et mortem suam 1675 29. Aprilis obitam apud nos Braunae sub marmoreo epitaphio ex ultima voluntate praesentem, tamquam inter scriptores nostros referendum, quod abbas Rupensis adhuc existens anno 1656 Vitam et res gestas divi Ivani augustissimo caesari dedicaverit; posterius autem e lectione <seg type="lemma" corresp="#d4617e48923">operum patris Balbini</seg> comperi, quod totus iste labor in actis divi Ivani concinne combinandis non fuerit ipsius proprius, sed eidem a calamo servierit quidam e Societate Jesu, vir ipsi notus et familiaris, pater Fridericus <seg type="lemma" corresp="#d4617e48928">Bridelius</seg>; quod pro directione notificandum duxi, ne videamur nos alienis plumis ornare velle. Caeterum admodum reverendam dominationem vestram divinae providentiae et me fiducialis amicitiae affectui recommendans maneo</seg>
-            </p>
-            <p>Admodum reverendae religiosissimae clarissimae ac eximiae dominationis vestrae paratissimus confrater et servus pater Rupertus Hausdorff ordinis sancti Benedicti, exempti monasterii Brzewnoviensis senior, protonotarius apostolicus.</p>
-            <p>Braunae 9. Octobris 1715.</p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiosissime clarissime ac eximie pater ac domine Bernarde, amicorum venerandissime. Salutem et obsequia.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e55231"> Ad perdilectas de dato 29. Septembris datas et a me 8. Octobris ea, qua erat par, veneratione acceptas lectasque paucis repono me de libello sub hoc titulo: Orthodoxus Caramuelis, usque in praesens nil inaudiisse, sed solum mihi in hocce argumento versantem pariter libellum domini Caramuelis notum esse, et qui est<note place="foot" xml:id="d4618e55233">	<hi rend="italic">et qui est</hi> korrigiert aus <hi rend="italic">sed</hi>.</note> sub hoc titulo: Demonstratio catholica ad omnes orthodoxae fidei controversias decidendas clarissima; an autem idem sit cum libello a dominatione vestra admodum reverenda mentionato, facile distingui vel identitas eius agnosci poterit ex sequentibus. Libellus iste Demonstratio catholica editus est non in Boemia, sed<note place="foot" xml:id="d4618e55242">	Danach durchgestrichen <hi rend="italic">in</hi>.</note> Cracoviae 1665 a reverendo patre Stanislao <seg type="lemma" corresp="#d4618e55281">Sczygielski ordinis sancti Benedicti in Polonia praeposito Tuchoviensi (qui olim hospes</seg> fuit domini Caramuelis ut Pragae adhuc abbatis, et domum redux deinde hunc libellum Praga acceptum sub nomine domini Caramuelis edidit, vir et ipse doctus, qui composuit et edidit <seg type="lemma" corresp="#d4618e55288">Aquilam Polono-Benedictinam</seg>) et dedicatus domino Stephano Kobierzycki abbati in Polonia Trocensi ordinis sancti Benedicti anno, ut dixi, 65. Parvae molis est, non protendens se nisi ad sex phyleras [<hi rend="italic">sic</hi>]<note place="foot" xml:id="d4618e55251">	Vgl. Anm. b zu 111.</note>, usque ad F inclusive, et in duodecimo. Compositio huius libelli seu contextus domini Caramuelis sic incipit: Fundamentum I. De veritate et veracitate suprema, stat quasi titulus. Caput autem ipsum (scilicet primum) hoc habet initium: Deus est veritas prima, est veracitas prima: homo est mendacium, homo est mendax. Finis autem libelli in ultima pagina sic habet: manet iam demonstratum omnes nostrae religionis articulos esse veros omnesque contradictorios esse falsos. Paginae totius opusculi sunt solummodo 144. Totus libellus constat duodecim rationibus tantummodo, sed aliqualiter tamen oratorie deductis, quarum: Prima ratio est. Fides divina a Deo revelata est, Lutherana a Deo revelata non est, ergo non est fides divina. Secunda. Religio vera eadem, quae catholica, at Lutherana (idem de Calviniana etc.) non est catholica, et sola Romana est catholica etc., ergo. Tertia. Christi et apostolorum debet in ecclesia vera dari ininterrupta successio, haec datur in ecclesia catholica, non apud Lutheranos et Calvinianos, ergo. Quarta. Religio inventa et vulgata a viro dubio habente animum deripiendi et loquente contra mentem non est admittenda a prudentibus; sed talis est religio Lutheri, quod probat textibus ex libris originalibus Lutheri. Quinta. Respublica bene ordinata non potest carere tribunali supremo, dum tale nuspiam est nisi in ecclesia catholica. Sexta. In vera religione debere esse sanctos, hos esse apud nos, non apud sectas Lutheranam vel Calvinianam. Septima. Vera debet clarere miraculis, haec autem nullibi nisi in ecclesia catholica. Octava. De librorum canonicorum distinctione et discretione, quae dabilis non est in catholica ecclesia. Nona. Ecclesia illa vera, quae demonstrat probatque sanctitatem suam quoad numerum, materiam et formam etc. Decima. In ecclesia debet esse authoritas praeceptiva et legislativa, qualem monstrat ecclesia catholica loco Sabbathi Judaeorum praecipiens Dominicam diem. Undecima. De praeceptorum ecclesiastica commutatione. Duodecima. De authoritate et discretione traditionum etc. <pb n="1v"/> Ex his vel obiter consinatis [<hi rend="italic">sic</hi>]<note place="foot" xml:id="d4618e55260">	Für <hi rend="italic">consignatis</hi>.</note> facile patere potest, an uterque liber, Orthodoxus Caramuelis et Demonstratio etc. solo titulo, an hoc et re ipsa simul differant. Dato autem, quod unus et idem esset libellus, adhuc tamen mereretur ab admodum reverenda dominatione vestra edi, tum quia est nostri authoris, tum quia est typo dignus et hic loci in Boemia nullibi notus (bibliopolae enim huius agri, uti et Austriae, nulla cum Polonicis habent commercia), ita ut nesciam, quo casu vel errore exemplar hoc Braunam pervenerit. Haec de illo libello. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e55266"> Nullus dubito, quin opus solenne (Bibliotheca Benedictina scilicet) quotidianis incrementis proficiat sensimque ad consummationem suam feratur. Suppeditat, opto, et sanctissimus pater noster et viri illi sanctissimi et doctissimi simul coelo recepti (quorum memoriae honorique innovando et nomini ab oblivione vindicando operose desudat) vires ac aetatem tot saeculorum moli in ordinem digerendo [<hi rend="italic">sic</hi>] parem, ut aetas nostra hoc sacro ordini nostro futurum eximium decus quantocyus intueatur. Optarem non minus, ut domini confratres tum in Italia, tum in Hispania et Portugallo, praeter dominos Germanos symbolas suas strenue conferrent. Quod nostram Boemiam attinet, ubi Cladrubio notitias ad hoc opus referibiles accepero, non ero in mora transmittendi. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e55271"> Hoc pro nunc moneo, me scripsisse antehac admodum reverendae paternitati vestrae et nominasse simul <seg type="lemma" corresp="#d4618e55293">dominum Matthaeum Ferdinandum</seg> archiepiscopum Pragensem ex professo Braunensi seu Brzewnoviensi, post abbatiam Rupensem et Vetero-Pragensem et protoepiscopatum Reginohradecensem eousque promotum, nunc post fata et mortem suam 1675 29. Aprilis obitam apud nos Braunae sub marmoreo epitaphio ex ultima voluntate praesentem, tamquam inter scriptores nostros referendum, quod abbas Rupensis adhuc existens anno 1656 Vitam et res gestas divi Ivani augustissimo caesari dedicaverit; posterius autem e lectione <seg type="lemma" corresp="#d4618e55300">operum patris Balbini</seg> comperi<note place="foot" xml:id="d4618e55273">	Über der Zeile eingefügt.</note>, quod totus iste labor in actis divi Ivani concinne combinandis non fuerit ipsius proprius, sed eidem a calamo servierit quidam e Societate Jesu, vir ipsi notus et familiaris, pater Fridericus <seg type="lemma" corresp="#d4618e55305">Bridelius</seg>; quod pro directione notificandum duxi, ne videamur nos alienis plumis ornare velle. Caeterum admodum reverendam dominationem vestram divinae providentiae et me fiducialis amicitiae affectui recommendans maneo</seg></p>
+            <p xml:space="preserve">Admodum reverendae religiosissimae clarissimae ac eximiae dominationis vestrae paratissimus confrater et servus pater Rupertus Hausdorff ordinis sancti Benedicti, exempti monasterii Brzewnoviensis senior, protonotarius apostolicus.</p>
+            <p xml:space="preserve">Braunae 9. Octobris 1715.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e48904" target="#d4617e48853 #d4617e48882">
-               <ref target="">1</ref>
+            <note xml:id="d4618e55281">
+               <ref type="context">1</ref>
                <label>Sczygielski ... hospes</label>
                <p>Szczygielski war während des Zweiten Schwedisch-Polnischen Kriegs nach Prag gegangen und hatte Caramuel etwa zwei Jahre hindurch als Schreiber gedient: Ozorowski, Szczygielski 268; vgl. Krawczyk, Książka 162.</p>
             </note>
-            <note xml:id="d4617e48911" target="#d4617e48853 #d4617e48882">
-               <ref target="#d4617e48853 #d4617e48882">1</ref>
+            <note xml:id="d4618e55288">
+               <ref type="context">1</ref>
                <label>Aquilam Polono-Benedictinam</label>
                <p>Vgl. 143 &lt;11&gt;.</p>
             </note>
-            <note xml:id="d4617e48916" target="#d4617e48860 #d4617e48897">
-               <ref target="">3</ref>
+            <note xml:id="d4618e55293">
+               <ref type="context">3</ref>
                <label>dominum Matthaeum Ferdinandum</label>
                <p>Vgl. 33 &lt;14&gt;.</p>
             </note>
-            <note xml:id="d4617e48923" target="#d4617e48860 #d4617e48897">
-               <ref target="#d4617e48860 #d4617e48897">3</ref>
+            <note xml:id="d4618e55300">
+               <ref type="context">3</ref>
                <label>operum ... Balbini</label>
                <p>Balbín, Miscellanea 1/4 74, in dem Bericht über den Hl. Ivan.</p>
             </note>
-            <note xml:id="d4617e48928" target="#d4617e48860 #d4617e48897">
-               <ref target="#d4617e48860 #d4617e48897">3</ref>
+            <note xml:id="d4618e55305">
+               <ref type="context">3</ref>
                <label>Bridelius</label>
                <p>Die Verfasserschaft Bridels ist gesichert: Vašica, České literární baroko 32; zum Werk (in der tschechischen Fassung) vgl. Dierna, Život svatého Ivana.</p>
             </note>

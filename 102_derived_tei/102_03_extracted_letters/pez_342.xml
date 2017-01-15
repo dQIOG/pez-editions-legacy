@@ -13,38 +13,47 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">342</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Czerny, Bibliothek 107</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>No direct source, inferred letter.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Johann Pachl</persName>
+               <date when="1714-06-08">1714-06-08</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">342</id>
-         <deduced xmlns="">true</deduced>
-         <sender xmlns="">Johann Pachl</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1714-06-08</date>
-         <place-of-posting xmlns=""/>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="editorialNote">
-            <p>Literatur: Czerny, Bibliothek 107.</p>
-            <p>Bemerkungen: In der Einleitung („Dissertatio isagogica“) zu Pez, Triumphus castitatis, zitiert BP zweimal aus einem Schreiben des Dekans von St. Florian, Johann Pachl, vom 8. Juni 1714. Die erste dieser beiden Textpassagen lautet: <hi rend="italic">[</hi>3<hi rend="italic">] Non conveniunt scriptores. Nam quidam asserunt canoniam nostram anno Christi 776 a Tassilone Bavariae duce fuisse fundatam; alii, et verius, quod illa a quibusdam Christi fidelibus in exordio fidei circa annum Domini (ut ego in antiquissimo manuscripto reperi) 512 fuerit nostris consignata et ad censum unius aurei Romanae ecclesiae defendenda tradita.</hi> BP widerlegt im Folgenden diese Behauptung. Auf welche Handschrift sich JP stützt, ist anhand von Czerny, Handschriften, nicht eruierbar. Die zweite Textpassage lautet: <hi rend="italic">[</hi>41<hi rend="italic">] Sciendum, quod vicini nullam virginis habeant notitiam, a nostris tamen passim Wilburgis appellatur. Nullibi authentice reperi, [</hi>42<hi rend="italic">] an et quo tempore nomen beatae sit nacta? Nullus ei saltem cultus publicus exhibetur. Ante triginta circiter annos corpus virginis ex loco, de quo Eynwicus seu, ut nostri codices habent, Ainwicus, ob novam ecclesiam erigendam fuit translatum, et modo in archivio nostro eiusdem ossa in tumba lapidea asservantur.</hi>
-            </p>
+            <p xml:space="preserve">Bemerkungen: In der Einleitung („Dissertatio isagogica“) zu Pez, Triumphus castitatis, zitiert BP zweimal aus einem Schreiben des Dekans von St. Florian, Johann Pachl, vom 8. Juni 1714. Die erste dieser beiden Textpassagen lautet: <hi rend="italic">[</hi>3<hi rend="italic">] Non conveniunt scriptores. Nam quidam asserunt canoniam nostram anno Christi 776 a Tassilone Bavariae duce fuisse fundatam; alii, et verius, quod illa a quibusdam Christi fidelibus in exordio fidei circa annum Domini (ut ego in antiquissimo manuscripto reperi) 512 fuerit nostris consignata et ad censum unius aurei Romanae ecclesiae defendenda tradita.</hi> BP widerlegt im Folgenden diese Behauptung. Auf welche Handschrift sich JP stützt, ist anhand von Czerny, Handschriften, nicht eruierbar. Die zweite Textpassage lautet: <hi rend="italic">[</hi>41<hi rend="italic">] Sciendum, quod vicini nullam virginis habeant notitiam, a nostris tamen passim Wilburgis appellatur. Nullibi authentice reperi, [</hi>42<hi rend="italic">] an et quo tempore nomen beatae sit nacta? Nullus ei saltem cultus publicus exhibetur. Ante triginta circiter annos corpus virginis ex loco, de quo Eynwicus seu, ut nostri codices habent, Ainwicus, ob novam ecclesiam erigendam fuit translatum, et modo in archivio nostro eiusdem ossa in tumba lapidea asservantur.</hi></p>
          </div>
       </front>
       <body>
          <ab>
-            <gap reason="letter missing"/>
+            <gap reason="inferred letter"/>
          </ab>
       </body>
       <back/>

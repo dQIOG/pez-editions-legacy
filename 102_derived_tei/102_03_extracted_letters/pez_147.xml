@@ -13,48 +13,50 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">147</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>No direct source, inferred letter.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Bernhard Pez</persName>
+               <date notBefore="1711-03-01">&lt; 1711-03-01</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Flaminio Avanzi</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">148</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">116</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">148</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">147</id>
-         <deduced xmlns="">true</deduced>
-         <sender xmlns="">Bernhard Pez</sender>
-         <recipient xmlns="">Flaminio Avanzi</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">&lt; 1711-03-01</date>
-         <place-of-posting xmlns=""/>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
-         <div type="editorialNote">
-            <p>Bezüge: 116. 148. Erwähnt in 148.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>116</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>148</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>148</idno>
-               </ref>
-            </correspContext>
-         </div>
+         <div type="editorialNote"/>
       </front>
       <body>
          <ab>
-            <gap reason="letter missing"/>
+            <gap reason="inferred letter"/>
          </ab>
       </body>
       <back/>

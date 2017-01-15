@@ -13,99 +13,101 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">422</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Stockinger, Felix mansurus 156, 189</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">533r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Augustin Erath</persName>
+               <date when="1715-07-19">1715-07-19</date>
+               <placeName>St. Andrä an der Traisen</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">420</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">421</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">419</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">422</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Augustin Erath</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1715-07-19</date>
-         <place-of-posting xmlns="">St. Andrä an der Traisen</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e45876">AEr hat drei Briefe BPs (419, 420, 421) empfangen, ist aber wegen schwerer Gicht kaum in der Lage, angemessen zu antworten.</seg>
-               <seg type="context" n="2" xml:id="d4617e45878">BPs „Triumphus castitatis“ hat AEr von diesem erhalten, nachdem er bereits selbst ein Exemplar von dem Verleger Veith bezogen hatte. Er bezeichnet das Werk als tadellos, beklagt aber, dass alle Chorherrenstifte Niederösterreichs erwähnt werden, nur St. Andrä nicht.</seg>
-               <seg type="context" n="3" xml:id="d4617e45880">Korbinian Khamms „Hierarchia Augustana“ besitzt AEr schon seit einiger Zeit. Khamm bekämpft darin AErs „Commentarius in Regulam sancti Augustini“, wenn auch in höflicher Form und ohne Namensnennung AErs. Dieser gedenkt darauf ebenso höflich zu entgegnen. Die „Antilogia“ (von Anselm Schramb) hat AEr noch nicht gesehen, wird mit ihr aber, wenn er sie erworben hat, ebenso verfahren. Den logischen Fehler beider Autoren sieht er in der mangelnden Unterscheidung zwischen Wesen und Akzidentien.</seg>
-               <seg type="context" n="4" xml:id="d4617e45882">AEr kann BPs Beschwerden gegen die Schrift „Cura salutis“ (von Gábor Hevenesi) nicht verstehen. Er hat diese lange studiert und wird es weiter tun, weil sie ihm hervorragend geeignet zu sein scheint, jungen Männern die Wahl eines Ordens zu erleichtern. Er kann darin keine Beleidigung der Benediktiner oder der Regularkanoniker entdecken; dass diese die Ortsfestigkeit (stabilitas loci) praktizieren, ist allgemein bekannt und nicht verwerflich.</seg>
-               <seg type="context" n="5" xml:id="d4617e45884">AEr hat etliche neue Bücher für seine Bibliothek angekauft, wegen seiner Gicht zählt er diese jedoch nicht auf, sondern schließt den Brief mit dem Ersuchen um BPs Fürbitte bei der Messe.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e51968">AEr hat drei Briefe <rs type="person" role="sender">BPs</rs> (419, 420, 421) empfangen, ist aber wegen schwerer Gicht kaum in der Lage, angemessen zu antworten.</seg><seg type="context" n="2" xml:id="d4618e51970"><rs type="person" role="sender">BPs</rs> „Triumphus castitatis“ hat AEr von diesem erhalten, nachdem er bereits selbst ein Exemplar von dem Verleger Veith bezogen hatte. Er bezeichnet das Werk als tadellos, beklagt aber, dass alle Chorherrenstifte Niederösterreichs erwähnt werden, nur St. Andrä nicht.</seg><seg type="context" n="3" xml:id="d4618e51972">Korbinian Khamms „Hierarchia Augustana“ besitzt AEr schon seit einiger Zeit. Khamm bekämpft darin AErs „Commentarius in Regulam sancti Augustini“, wenn auch in höflicher Form und ohne Namensnennung AErs. Dieser gedenkt darauf ebenso höflich zu entgegnen. Die „Antilogia“ (von Anselm Schramb) hat AEr noch nicht gesehen, wird mit ihr aber, wenn er sie erworben hat, ebenso verfahren. Den logischen Fehler beider Autoren sieht er in der mangelnden Unterscheidung zwischen Wesen und Akzidentien.</seg><seg type="context" n="4" xml:id="d4618e51974">AEr kann <rs type="person" role="sender">BPs</rs> Beschwerden gegen die Schrift „Cura salutis“ (von Gábor Hevenesi) nicht verstehen. Er hat diese lange studiert und wird es weiter tun, weil sie ihm hervorragend geeignet zu sein scheint, jungen Männern die Wahl eines Ordens zu erleichtern. Er kann darin keine Beleidigung der Benediktiner oder der Regularkanoniker entdecken; dass diese die Ortsfestigkeit (stabilitas loci) praktizieren, ist allgemein bekannt und nicht verwerflich.</seg><seg type="context" n="5" xml:id="d4618e51976">AEr hat etliche neue Bücher für seine Bibliothek angekauft, wegen seiner Gicht zählt er diese jedoch nicht auf, sondern schließt den Brief mit dem Ersuchen um <rs type="person" role="sender">BPs</rs> Fürbitte bei der Messe.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: I, 533r–v.</p>
-            <p>Literatur: Stockinger, Felix mansurus 156, 189.</p>
-            <p>Bezüge: 421. Erwähnt 419, 420, 421.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>421</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>419</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>420</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>421</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: Bei Glassner, Verzeichnis 210, irrig zum 19. Juli 1718.</p>
+            <p xml:space="preserve">Bemerkungen: Bei Glassner, Verzeichnis 210, irrig zum 19. Juli 1718.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiosissime et clarissime domine.</p>
-            <p>Domine plurimum colende. <seg type="context" n="1" xml:id="d4617e45901"> Ad trinam epistolam responsum debeo, cum vix ad unam possim. Adeo enim dolorosa chiragra et podagra manus pedesque perterebrant, ut et eundo et scribendo fiam impar. </seg>
-               <seg type="context" n="2" xml:id="d4617e45903"> 
-                  <seg type="lemma" corresp="#d4617e45919">Librum venerabilis Wilburgis accepi</seg>, postquam illum pridem antea a <seg type="lemma" corresp="#d4617e45926">domino Veit</seg> coemeram. Est is omnibus numeris absolutus, nec quidquam desiderari potest. Habeo tamen, quod suggillem [<hi rend="italic">sic</hi>]; omnium enim collegiorum canonicorum regularium Austriae Inferioris fit in eo mentio splendida; at solus S. Andreas cogitur exulare. </seg>
-               <seg type="context" n="3" xml:id="d4617e45908"> Corbiniani Kamm <seg type="lemma" corresp="#d4617e45931">Hierarchiam Augustanam pridem habui</seg>. Refutat ibi tecto nomine et humanissime meum Commentarium. Sed quia hominem non timeo, respondebo eadem mensura et humanitate. <seg type="lemma" corresp="#d4617e45938">Antilogiam necdum vidi; sed ubi nanciscar, eodem pondere librabitur</seg>. Neque enim hi homines discernunt, quid per se et per accidens alicui competat. </seg>
-               <seg type="context" n="4" xml:id="d4617e45910"> Quaeso, quid habet admodum reverenda paternitas vestra cum libello, cui nomen <seg type="lemma" corresp="#d4617e45943">Cura salutis</seg>? Dudum versabam illum in manibus, et necdum versari mihi sufficit, adeo solide cuiusvis status essentiam explicat, ut iuvenis satis fundate possit in eligendo statu progredi. Nescio, quid propudiosum ordinibus nostris ibi reperiatur. Quod stabilitatem loci habeamus, publicum est, nec vituperabile. Alias certe nihil scio, unde vituperari queat hic libellus, omnino praestans nec satis laudabilis. </seg>
-               <seg type="context" n="5" xml:id="d4617e45912"> Libros varios meae bibliothecae intuli; quos tamen enumerare manus tremula non permittit. Sed manum de tabula, quia non plus ultra permittit defectuosa manus. Commendo me in sacra sacrificia.</seg>
-            </p>
-            <p>Admodum reverendae paternitatis vestrae deditissimus Augustinus praelatus manu propria.</p>
-            <p>Ad S. Andream 19. Julii 1715.</p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiosissime et clarissime domine.</p>
+            <p xml:space="preserve">Domine plurimum colende. <seg type="context" n="1" xml:space="preserve" xml:id="d4618e51993"> Ad trinam epistolam responsum debeo, cum vix ad unam possim. Adeo enim dolorosa chiragra et podagra manus pedesque perterebrant, ut et eundo et scribendo fiam impar. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e51995"> <seg type="lemma" corresp="#d4618e52011">Librum venerabilis Wilburgis accepi</seg>, postquam illum pridem antea a <seg type="lemma" corresp="#d4618e52018">domino Veit</seg> coemeram. Est is omnibus numeris absolutus, nec quidquam desiderari potest. Habeo tamen, quod suggillem [<hi rend="italic">sic</hi>]; omnium enim collegiorum canonicorum regularium Austriae Inferioris fit in eo mentio splendida; at solus S. Andreas cogitur exulare. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e52000"> Corbiniani Kamm <seg type="lemma" corresp="#d4618e52023">Hierarchiam Augustanam pridem habui</seg>. Refutat ibi tecto nomine et humanissime meum Commentarium. Sed quia hominem non timeo, respondebo eadem mensura et humanitate. <seg type="lemma" corresp="#d4618e52030">Antilogiam necdum vidi; sed ubi nanciscar, eodem pondere librabitur</seg>. Neque enim hi homines discernunt, quid per se et per accidens alicui competat. </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e52002"> Quaeso, quid habet admodum reverenda paternitas vestra cum libello, cui nomen <seg type="lemma" corresp="#d4618e52035">Cura salutis</seg>? Dudum versabam illum in manibus, et necdum versari mihi sufficit, adeo solide cuiusvis status essentiam explicat, ut iuvenis satis fundate possit in eligendo statu progredi. Nescio, quid propudiosum ordinibus nostris ibi reperiatur. Quod stabilitatem loci habeamus, publicum est, nec vituperabile. Alias certe nihil scio, unde vituperari queat hic libellus, omnino praestans nec satis laudabilis. </seg><seg type="context" n="5" xml:space="preserve" xml:id="d4618e52004"> Libros varios meae bibliothecae intuli; quos tamen enumerare manus tremula non permittit. Sed manum de tabula, quia non plus ultra permittit defectuosa manus. Commendo me in sacra sacrificia.</seg></p>
+            <p xml:space="preserve">Admodum reverendae paternitatis vestrae deditissimus Augustinus praelatus manu propria.</p>
+            <p xml:space="preserve">Ad S. Andream 19. Julii 1715.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e45919" target="#d4617e45878 #d4617e45903">
-               <ref target="">2</ref>
+            <note xml:id="d4618e52011">
+               <ref type="context">2</ref>
                <label>Librum ... Wilburgis accepi</label>
                <p>Das Buch ist im Bibliothekskatalog von St. Andrä (vgl. 331 &lt;3&gt;) verzeichnet: StiA Herzogenburg, A4. B. 1, 282.</p>
             </note>
-            <note xml:id="d4617e45926" target="#d4617e45878 #d4617e45903">
-               <ref target="#d4617e45878 #d4617e45903">2</ref>
+            <note xml:id="d4618e52018">
+               <ref type="context">2</ref>
                <label>domino Veit</label>
                <p>Wohl Martin Veith, der den „Triumphus castitatis“ zu Augsburg gedruckt hatte; vielleicht aber auch sein Bruder Philipp Jakob Veith, der die Grazer Niederlassung des Verlagshauses Veith leitete: Künast, Dokumentation 1266f.; Paisey, Buchdrucker 269; vgl. zudem Hammermayer, Brockie und Legipont 105–111.</p>
             </note>
-            <note xml:id="d4617e45931" target="#d4617e45880 #d4617e45908">
-               <ref target="">3</ref>
+            <note xml:id="d4618e52023">
+               <ref type="context">3</ref>
                <label>Hierarchiam Augustanam pridem habui</label>
                <p>Der St. Andräer Bibliothekskatalog verzeichnet von dem Werk nur den ersten Band von 1709: StiA Herzogenburg, A4. B. 1, 193. In dessen „Praefatio“ hatte sich Khamm bereits mit der Vorrangfrage zwischen Augustiner-Chorherren und Benediktinern befasst. Von dem soeben (1715) erschienenen, zur Gänze dieser Causa gewidmeten vierten Band scheint AEr nicht zu wissen. Vgl. Einleitung, Abschnitt I.5; sowie 411, 425, 457.</p>
             </note>
-            <note xml:id="d4617e45938" target="#d4617e45880 #d4617e45908">
-               <ref target="#d4617e45880 #d4617e45908">3</ref>
+            <note xml:id="d4618e52030">
+               <ref type="context">3</ref>
                <label>Antilogiam ... librabitur</label>
                <p>Tatsächlich stellte AEr binnen kurzer Zeit eine Entgegnung unter dem Titel „Antilogia prostrata“ fertig, die bereits 1716 druckreif war, deren Erscheinen jedoch von der Wiener Zensur unterbunden wurde; vgl. Oppitz, Archiv und Bibliothek 282. Das Werk ist noch in zwei Exemplaren erhalten in StiB Herzogenburg, Hs. 128 und 149; vgl. Stockinger, Felix mansurus 189, 200. Es ist zweifelsfrei zu identifizieren mit jenem „Tractatus contra Antilogiam Carlomaeschin“, den Duelli, Miscellanea 2 praef. ad nr. XV, sowie (diesen wiederholend) Agricola, Saeculi XVIII. bibliotheca 4 46, als im Nachlass AErs vorhanden erwähnen. – AEr scheint nicht zu bekannt zu sein, dass der Verfasser der „Antilogia“ Anselm Schramb war. Zur „Antilogia“ vgl. 401, 411; sowie Einleitung, Abschnitte I.1 und I.5.</p>
             </note>
-            <note xml:id="d4617e45943" target="#d4617e45882 #d4617e45910">
-               <ref target="">4</ref>
+            <note xml:id="d4618e52035">
+               <ref type="context">4</ref>
                <label>Cura salutis</label>
                <p>Zur „Cura salutis“ und BPs Gegenschrift „Epistolae apologeticae“ vgl. Einleitung, Abschnitt I.5. Im St. Andräer Bibliothekskatalog ist die „Cura salutis“ nicht nachweisbar, die „Epistolae apologeticae“ sind dagegen verzeichnet: StiA Herzogenburg, A4. B. 1, 282. Das Verhältnis AErs zur Gesellschaft Jesu scheint seit seiner Ausbildung am Münchner Jesuitengymnasium und an der Universität Dillingen ein durchaus entspanntes gewesen zu sein; vgl. Stockinger, Felix mansurus 156.</p>
             </note>

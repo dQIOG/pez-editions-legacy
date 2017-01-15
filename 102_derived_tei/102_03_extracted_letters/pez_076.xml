@@ -13,142 +13,113 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">76</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Katschthaler, Briefnachlass 16</bibl>
+                  <bibl>Mayer, Nachlaß 18 499</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>I, 178r–v, 200r–v.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Hyazinth Baumbach</persName>
+               <date when="1710-05-31">1710-05-31</date>
+               <placeName>Würzburg (St. Stephan)</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">80</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">75</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">75</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">213</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">76</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Hyazinth Baumbach</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1710-05-31</date>
-         <place-of-posting xmlns="">Würzburg (St. Stephan)</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e7830">
-                  <persName>
-                     <abbr>HB</abbr>
-                  </persName> bedauert, nicht eher auf BPs Schreiben <ref type="letter">75</ref> geantwortet zu haben. Der Grund dafür liegt bei anderen, die ihm zunächst die Übermittlung von Material versprochen hatten, dann aber auf seine Urgenz erklärt haben, jenes direkt an <persName>
-                     <abbr>BP</abbr>
-                  </persName> senden zu wollen.</seg>
-               <seg type="context" n="2" xml:id="d4617e7835">Im Würzburger Schottenkloster St. Jakob hat <persName>
-                     <abbr>HB</abbr>
-                  </persName> nach Handschriften des Trithemius gefragt, die dort dem Vernehmen nach noch vorhanden sind, da Trithemius nach seiner Prälatur in Sponheim im Erzbistum Mainz in diesem Kloster Abt war. <persName>
-                     <abbr>HB</abbr>
-                  </persName> hat nichts erhalten, was vielleicht an der Abneigung der Schotten gegen Trithemius liegt, der ja nicht ihrer Nation angehörte. Dessen gedruckte Werke dürfte die Melker Bibliothek besitzen.</seg>
-               <seg type="context" n="3" xml:id="d4617e7837">
-                  <persName>
-                     <abbr>HB</abbr>
-                  </persName> kann deshalb nicht mehr anbieten als die beifolgenden Ausführungen (zu Benedikt Gerhard), deren Inhalt ihm jedoch als zu unbedeutend für BPs geplantes Werk („Bibliotheca Benedictina“) erscheint. Er schließt den Brief mit Gebeten für das Fortschreiten des Vorhabens und für die Gesundheit BPs.</seg>
-               <seg type="context" n="4" xml:id="d4617e7839">Benedikt Gerhard aus Stettheim (recte: Stetten) in Franken war seit 1657 (recte: 1661) Abt von St. Stephan und verfasste 1666 und 1667 zwei Erbauungsschriften in deutscher Sprache, nämlich die „Geistliche zucht“ und die „Geistliche einöde“. Diese Werke waren besonders für die Benediktinerinnen im Kloster St. Afra zu Würzburg gedacht, in dem er Beichtvater gewesen war, ehe er zum Abt gewählt wurde. Gerhard führte nach dem Niedergang der Disziplin im Dreißigjährigen Krieg in seinem Kloster neue Statuten ein, die er selbst aus verschiedenen Quellen zusammengestellt hatte und die nach wie vor in Geltung stehen. Er starb 1667.</seg>
-               <seg type="context" n="5" xml:id="d4617e7841">Einige alte Schriften von Mitbrüdern, die es in St. Stephan gab, haben die Bollandisten für die „Acta sanctorum“ mit nach Antwerpen genommen, und <persName>
-                     <abbr>HB</abbr>
-                  </persName> rechnet nicht mit ihrer Rückgabe.</seg>
-               <seg type="context" n="6" xml:id="d4617e7843">
-                  <persName>
-                     <abbr>HB</abbr>
-                  </persName> fügt seinem Schreiben jenes des Priors von St. Michael zu Bamberg (Candidus Klitsch) an und bedauert abermals, aus Franken nicht mehr beisteuern zu können.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e8899"><rs type="person" role="sender">HB</rs> bedauert, nicht eher auf <rs type="person" role="sender">BPs</rs> Schreiben <ref type="letter">75</ref> geantwortet zu haben. Der Grund dafür liegt bei anderen, die ihm zunächst die Übermittlung von Material versprochen hatten, dann aber auf seine Urgenz erklärt haben, jenes direkt an <rs type="person" role="sender">BP</rs> senden zu wollen.</seg><seg type="context" n="2" xml:id="d4618e8904">Im Würzburger Schottenkloster St. Jakob hat <rs type="person" role="sender">HB</rs> nach Handschriften des Trithemius gefragt, die dort dem Vernehmen nach noch vorhanden sind, da Trithemius nach seiner Prälatur in Sponheim im Erzbistum Mainz in diesem Kloster Abt war. <rs type="person" role="sender">HB</rs> hat nichts erhalten, was vielleicht an der Abneigung der Schotten gegen Trithemius liegt, der ja nicht ihrer Nation angehörte. Dessen gedruckte Werke dürfte die Melker Bibliothek besitzen.</seg><seg type="context" n="3" xml:id="d4618e8906"><rs type="person" role="sender">HB</rs> kann deshalb nicht mehr anbieten als die beifolgenden Ausführungen (zu Benedikt Gerhard), deren Inhalt ihm jedoch als zu unbedeutend für <rs type="person" role="sender">BPs</rs> geplantes Werk („Bibliotheca Benedictina“) erscheint. Er schließt den Brief mit Gebeten für das Fortschreiten des Vorhabens und für die Gesundheit BPs.</seg><seg type="context" n="4" xml:id="d4618e8908">Benedikt Gerhard aus Stettheim (recte: Stetten) in Franken war seit 1657 (recte: 1661) Abt von St. Stephan und verfasste 1666 und 1667 zwei Erbauungsschriften in deutscher Sprache, nämlich die „Geistliche zucht“ und die „Geistliche einöde“. Diese Werke waren besonders für die Benediktinerinnen im Kloster St. Afra zu Würzburg gedacht, in dem er Beichtvater gewesen war, ehe er zum Abt gewählt wurde. Gerhard führte nach dem Niedergang der Disziplin im Dreißigjährigen Krieg in seinem Kloster neue Statuten ein, die er selbst aus verschiedenen Quellen zusammengestellt hatte und die nach wie vor in Geltung stehen. Er starb 1667.</seg><seg type="context" n="5" xml:id="d4618e8910">Einige alte Schriften von Mitbrüdern, die es in St. Stephan gab, haben die Bollandisten für die „Acta sanctorum“ mit nach Antwerpen genommen, und <rs type="person" role="sender">HB</rs> rechnet nicht mit ihrer Rückgabe.</seg><seg type="context" n="6" xml:id="d4618e8912"><rs type="person" role="sender">HB</rs> fügt seinem Schreiben jenes des Priors von St. Michael zu Bamberg (Candidus Klitsch) an und bedauert abermals, aus Franken nicht mehr beisteuern zu können.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: I, 178r–v, 200r–v.</p>
-            <p>Literatur: Katschthaler, Briefnachlass 16; Mayer, Nachlaß 18 499.</p>
-            <p>Bezüge: 75. 80. Erwähnt 75. Erwähnt in 213.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>75</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>80</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>75</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>213</idno>
-               </ref>
-            </correspContext>
-            <p>Ordnungsvermerk: <hi rend="italic">19</hi> (korrigiert aus <hi rend="italic">29</hi>).</p>
-            <p>Bemerkungen: Es handelt sich um zwei separate Blätter, von denen eines eindeutig als Brief (1r–v), das andere als Merkblatt zu Benedikt Gerhard (2r–v) zu verstehen ist. BP verschränkt die beiden Texte jedoch durch ein Verweiszeichen auf 2r, das er auf 1v mit folgender Notiz auflöst: <hi rend="italic">De hoc abbate, qui Mauri Fabri Dettelbacensis sucessor [</hi>sic<hi rend="italic" xml:space="preserve">] fuit, haec habet reverendissimus abbas Hyacinthus in prosecutione Catalogi abbatum monasterii sui: Benedictus Gerardt Stettheimensis XXXIX. abbas, vir disciplinae monasticae zelosissimus. Unde et statuta ordinis ex aliis collecta induxit. Variis autem corporis infirmitatibus detentus non nisi sex annis praefuit bene et obiit 1667 23. Maii, locumque cessit ei, qui iam in ipsius electione in magna consideratione erat, numero tantum posterior: licet enim rei tunc inducendae forte adversarius fuerit, strenuus tamen postmodum exsecutor fuit, nempe Eucharius Weiner Kissingensis XXXX. abbas, electus anno 1667 23. Junii unanimi fratrum consensu et votis etc. </hi>(Das Zitat dürfte wohl aus der Beilage zu 120 genommen sein.) Zudem ist der Ordnungsvermerk in der Form, die sich auf Briefe und nicht auf Beilagen bezieht, auf 2v angebracht, und der Brieftext wird nach dem bio-bibliographischen Einschub fortgesetzt. Daher ist dieser nicht als Beilage behandelt. Glassner, Verzeichnis 201, führt die beiden Blätter als separate Briefe mit demselben Datum. Unter der Unterschrift HBs hat BP dessen Familiennamen und Herkunftsort (Fladungen) vermerkt: <hi rend="italic">Baumbach Fladungus</hi>.</p>
+            <p xml:space="preserve">Ordnungsvermerk: <hi rend="italic">19</hi> (korrigiert aus <hi rend="italic">29</hi>).</p>
+            <p xml:space="preserve">Bemerkungen: Es handelt sich um zwei separate Blätter, von denen eines eindeutig als Brief (1r–v), das andere als Merkblatt zu Benedikt Gerhard (2r–v) zu verstehen ist. BP verschränkt die beiden Texte jedoch durch ein Verweiszeichen auf 2r, das er auf 1v mit folgender Notiz auflöst: <hi rend="italic">De hoc abbate, qui Mauri Fabri Dettelbacensis sucessor [</hi>sic<hi rend="italic" xml:space="preserve">] fuit, haec habet reverendissimus abbas Hyacinthus in prosecutione Catalogi abbatum monasterii sui: Benedictus Gerardt Stettheimensis XXXIX. abbas, vir disciplinae monasticae zelosissimus. Unde et statuta ordinis ex aliis collecta induxit. Variis autem corporis infirmitatibus detentus non nisi sex annis praefuit bene et obiit 1667 23. Maii, locumque cessit ei, qui iam in ipsius electione in magna consideratione erat, numero tantum posterior: licet enim rei tunc inducendae forte adversarius fuerit, strenuus tamen postmodum exsecutor fuit, nempe Eucharius Weiner Kissingensis XXXX. abbas, electus anno 1667 23. Junii unanimi fratrum consensu et votis etc. </hi>(Das Zitat dürfte wohl aus der Beilage zu 120 genommen sein.) Zudem ist der Ordnungsvermerk in der Form, die sich auf Briefe und nicht auf Beilagen bezieht, auf 2v angebracht, und der Brieftext wird nach dem bio-bibliographischen Einschub fortgesetzt. Daher ist dieser nicht als Beilage behandelt. Glassner, Verzeichnis 201, führt die beiden Blätter als separate Briefe mit demselben Datum. Unter der Unterschrift HBs hat BP dessen Familiennamen und Herkunftsort (Fladungen) vermerkt: <hi rend="italic">Baumbach Fladungus</hi>.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiose ac doctissime in Christo pater ac domine colende.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e7876"> Ignoscat admodum reverenda paternitas vestra ad datas et acceptas respondere cunctanti calamo: eius ratio non tam mea quam aliorum est, qui quidem suorum communicationem primitus spondebant mihi, post longa vero tempora urgenti responderunt <seg type="lemma" corresp="#d4617e7902">se sua immediate ad admodum reverendam paternitatem vestram dirigere velle</seg>, quod factum credam. </seg>
-               <seg type="context" n="2" xml:id="d4617e7878"> A nostris dominis confratribus Scotis hic Herbipoli rogavi et exspectavi non tam opera typis edita quam nobilia <seg type="lemma" corresp="#d4617e7909">manuscripta, quae adhuc habere dicuntur, Trithemii</seg> abbatis primo Spanheimensis archidioecesis Moguntinae, dein praedictorum Scotorum Herbipoli ad S. Jacobum. Sed usquemodo nihil obtinui ex aliqua forte aversione, quam saepius ostenderunt in hunc abbatem, cum non esset de eorum natione. <pb n="1v"/> Impressa huius abbatis opera, non dubito, ipsamet celebrior bibliotheca Melicensis continebit. </seg>
-               <seg type="context" n="3" xml:id="d4617e7882"> Adeoque nil habeo communicare nisi paucula adiecta, tanto quidem et tali operi inseri meo iudicio non digna. Caeterum ad incrementum sacri ordinis nostri benedicat Deus operi concepto et intento, et pro eo feliciter perficiendo servet incolumem admodum reverendam paternitatem vestram in seros annos, cuius sub protectione Altissimi semper ero imposterum</seg>
-            </p>
-            <p>Paratissimus Hyacinth abbas manu propria.</p>
-            <p>Herbipoli ex monasterio S. Stephani 31. Maii 1710.</p>
-            <p>
-               <pb n="2r"/> 
-               <seg type="context" n="4" xml:id="d4617e7891"> Ex monasterio S. Stephani Herbipoli.</seg>
-            </p>
-            <p>Reverendissimus dominus Benedictus (Gerhart cognomine, patria Franco Stettheimensis) abbas monasterii S. Stephani scripsit et edidit opuscula spiritualia duo in octavo, idiomate Germanico, 1666, alterum 1667. Primum sub titulo: Geistliche zucht, daß ist: Tägliche geistliche aus der Regul deß heiligen Benedikt gezogene übungen etc. Secundum: Geistliche einöde, daß ist: Zehentägige übungen geistlicher betrachtungen etc. Hos libellos composuit ad usum maxime monialium sacri ordinis nostri ad S. Afram hic Herbipoli, quarum confessarius erat, priusquam abbas esset, in quem eligebatur anno 1657. Vir zelosus collegit ex variis et introduxit post bellum Suecicum, quod disciplinam multum proscripserat, praeclara ordinis statuta, quae Dei gratia adhuc hodiedum in usu sunt et praxi in nostro monasterio, plura praestiturus, si non infirmitatibus pressus morte praematura obiisset 1667 23. Maii. <seg type="context" n="5" xml:id="d4617e7895"> 
-                  <seg type="lemma" corresp="#d4617e7938">Manuscripta habuimus antiquorum patrum aut confratrum nostrorum, quae secum Antverpiam sumpserunt authores librorum Acta sanctorum Bollandi etc., sine dubio nunquam recipienda</seg>. <pb n="2v"/> 
-               </seg>
-               <seg type="context" n="6" xml:id="d4617e7899"> 
-                  <seg type="lemma" corresp="#d4617e7945">Litteras reverendi patris prioris in Monte S. Michaelis</seg> Bambergae ipsasmet includo et mitto, unum dolens, quod non plus, vel potius prope nihil de Franconia nostra communicare habeamus pro tanto opere, cui placeret admodum reverendae paternitati vestrae tam benevole, fraterne et cum labore ea inserere. Repeto votum: fortunet Deus admodum reverendam paternitatem vestram in hoc opere et labore.</seg>
-            </p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiose ac doctissime in Christo pater ac domine colende.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e8945"> Ignoscat admodum reverenda paternitas vestra ad datas et acceptas respondere cunctanti calamo: eius ratio non tam mea quam aliorum est, qui quidem suorum communicationem primitus spondebant mihi, post longa vero tempora urgenti responderunt <seg type="lemma" corresp="#d4618e8989">se sua immediate ad admodum reverendam paternitatem vestram dirigere velle</seg>, quod factum credam. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e8947"> A nostris dominis confratribus Scotis hic Herbipoli rogavi et exspectavi non tam opera typis edita quam nobilia <seg type="lemma" corresp="#d4618e8996">manuscripta, quae adhuc habere dicuntur, Trithemii</seg> abbatis primo Spanheimensis archidioecesis Moguntinae, dein praedictorum Scotorum Herbipoli ad S. Jacobum. Sed usquemodo nihil obtinui ex aliqua forte aversione, quam saepius ostenderunt in hunc abbatem, cum non esset de eorum natione. <pb n="1v"/> Impressa huius abbatis opera, non dubito, ipsamet celebrior bibliotheca Melicensis continebit. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e8951"> Adeoque nil habeo communicare nisi paucula adiecta, tanto quidem et tali operi inseri<note place="foot" xml:id="d4618e8953">	Korrigiert aus <hi rend="italic">ingeri</hi>.</note> meo iudicio non digna. Caeterum ad incrementum sacri ordinis nostri benedicat Deus operi concepto et intento, et pro eo feliciter perficiendo servet incolumem admodum reverendam paternitatem vestram in seros annos, cuius sub protectione Altissimi semper ero imposterum</seg></p>
+            <p xml:space="preserve">Paratissimus Hyacinth abbas manu propria.</p>
+            <p xml:space="preserve">Herbipoli ex monasterio S. Stephani 31. Maii 1710.</p>
+            <p xml:space="preserve"><pb n="2r"/> <seg type="context" n="4" xml:space="preserve" xml:id="d4618e8966"> Ex monasterio S. Stephani Herbipoli.</seg></p>
+            <p xml:space="preserve">Reverendissimus dominus Benedictus (Gerhart cognomine, patria Franco Stettheimensis<note place="foot" xml:id="d4618e8970">	<hi rend="italic">patria ... Stettheimensis</hi> über der Zeile eingefügt.</note>) abbas monasterii S. Stephani scripsit et edidit opuscula spiritualia duo in octavo, idiomate Germanico, 1666, alterum 1667. Primum sub titulo: Geistliche zucht, daß ist: Tägliche geistliche aus der Regul deß heiligen Benedikt gezogene übungen etc. Secundum: Geistliche einöde, daß ist: Zehentägige übungen geistlicher betrachtungen etc. Hos libellos composuit ad usum maxime monialium sacri ordinis nostri ad S. Afram hic Herbipoli, quarum confessarius erat, priusquam abbas esset, in quem eligebatur anno 1657. Vir zelosus collegit ex variis et introduxit post bellum Suecicum, quod disciplinam multum proscripserat, praeclara ordinis statuta, quae Dei gratia adhuc hodiedum in usu sunt et praxi in nostro monasterio, plura praestiturus<note place="foot" xml:id="d4618e8976">	Korrigiert aus <hi rend="italic">praestitutus</hi>.</note>, si non infirmitatibus pressus morte praematura obiisset 1667 23. Maii. <seg type="context" n="5" xml:space="preserve" xml:id="d4618e8982"> <seg type="lemma" corresp="#d4618e9025">Manuscripta habuimus antiquorum patrum aut confratrum nostrorum, quae secum Antverpiam sumpserunt authores librorum Acta sanctorum Bollandi etc., sine dubio nunquam recipienda</seg>. <pb n="2v"/> </seg><seg type="context" n="6" xml:space="preserve" xml:id="d4618e8986"> <seg type="lemma" corresp="#d4618e9032">Litteras reverendi patris prioris in Monte S. Michaelis</seg> Bambergae ipsasmet includo et mitto, unum dolens, quod non plus, vel potius prope nihil de Franconia nostra communicare habeamus pro tanto opere, cui placeret admodum reverendae paternitati vestrae tam benevole, fraterne et cum labore ea inserere. Repeto votum: fortunet Deus admodum reverendam paternitatem vestram in hoc opere et labore.</seg></p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e7902" target="#d4617e7830 #d4617e7876">
-               <ref target="">1</ref>
+            <note xml:id="d4618e8989">
+               <ref type="context">1</ref>
                <label>se sua ... dirigere velle</label>
                <p>Hier kann etwa an Banz gedacht sein; vgl. 47 sowie unten &lt;6&gt; zum Schreiben von Candidus Klitsch.</p>
             </note>
-            <note xml:id="d4617e7909" target="#d4617e7835 #d4617e7878">
-               <ref target="">2</ref>
+            <note xml:id="d4618e8996">
+               <ref type="context">2</ref>
                <label>manuscripta ... Trithemii</label>
                <p>Zu den Trithemius-Autographen im Würzburger Schottenkloster vgl. Arnold, Trithemius 64–69; Dilworth, Scots in Franconia 230; Fischer, Nachlaß 77–79.</p>
             </note>
-            <note xml:id="d4617e7916" target="#d4617e7839 #d4617e7891">
-               <ref target="">4</ref>
+            <note xml:id="d4618e9003">
+               <ref type="context">4</ref>
                <label>Benedictus ... abbas</label>
                <p>Schwinger, St. Stephans-Kloster 40 147f., 172; 41 180.</p>
             </note>
-            <note xml:id="d4617e7923" target="#d4617e7839 #d4617e7891">
-               <ref target="#d4617e7839 #d4617e7891">4</ref>
+            <note xml:id="d4618e9010">
+               <ref type="context">4</ref>
                <label>Stettheimensis</label>
                <p>Nach den angegebenen Stellen bei Schwinger, der sich auf die Hauschronik Ignaz Gropps und den Professenkatalog von Alberich Ebenhöch stützt, war Gerhard aus „Stetten“ (vermutlich Stetten bei Karlstadt). Ein Ort namens Stettheim existiert in Franken, soweit feststellbar, nirgends.</p>
             </note>
-            <note xml:id="d4617e7928" target="#d4617e7839 #d4617e7891">
-               <ref target="#d4617e7839 #d4617e7891">4</ref>
+            <note xml:id="d4618e9015">
+               <ref type="context">4</ref>
                <label>opuscula spiritualia</label>
                <p>Diese Schriften erwähnt (ohne nähere bibliographische Angaben) Gropp, Collectio 2 169; sonst sind sie nicht nachweisbar.</p>
             </note>
-            <note xml:id="d4617e7933" target="#d4617e7839 #d4617e7891">
-               <ref target="#d4617e7839 #d4617e7891">4</ref>
+            <note xml:id="d4618e9020">
+               <ref type="context">4</ref>
                <label>statuta</label>
                <p>Vgl. Gropp, Collectio 2 169, nach welchem die Hauptquelle der neuen fränkischen Statuten das Dillinger „Caeremoniale Benedictinum“ vom Jahre 1641 war.</p>
             </note>
-            <note xml:id="d4617e7938" target="#d4617e7841 #d4617e7895">
-               <ref target="">5</ref>
+            <note xml:id="d4618e9025">
+               <ref type="context">5</ref>
                <label>Manuscripta ... sine dubio nunquam recipienda</label>
                <p>Weder für den Aufenthalt von Henskens und Papenbroeck in Würzburg 1660 (Kindermann, Kunstdenkmäler 349–360) noch für die Deutschland-Reise von Janning und Baert, die 1688 zwar nicht Würzburg, wohl aber Aschaffenburg und Bamberg besuchten (Joassart, Voyage littéraire 109–111), ist ein direkter Kontakt mit dem Kloster St. Stephan belegbar. Nach freundlicher Auskunft von Bernard Joassart (Brüssel) enthalten auch die Briefe Henskens’ von der genannten Reise keinen Hinweis, und weder in den Kollektaneen der Société des Bollandistes noch in den einschlägigen Beständen der Bibliothèque royale de Belgique findet sich Material, das aus St. Stephan gekommen sein könnte. Denkbar wäre, dass sich in den umfangreichen Sammlungen des Jesuiten Johann Gamans zu Aschaffenburg († 1684) Handschriften aus St. Stephan befanden. Die Reise von Janning und Baert galt u. a. dem Versuch, diesen Nachlass zu erwerben, was nur zum geringen Teil gelang; die Kollektaneen von Gamans sind heute teils zerstreut, teils verloren, das von den beiden Bollandisten tatsächlich erlangte Material angeblich beim Transport nach Antwerpen im Main versunken; vgl. Benz, Zwischen Tradition und Kritik 76f.; Duhr, Jesuiten 3 560. Sofern die vage Aussage HBs nicht einfach unrichtig ist, wäre ein Zusammenhang mit diesen Vorgängen die plausibelste Erklärung; diese Überlegung wird von Joassart, Stephan Benz und Jan Marco Sawilla geteilt.</p>
             </note>
-            <note xml:id="d4617e7945" target="#d4617e7843 #d4617e7899">
-               <ref target="">6</ref>
+            <note xml:id="d4618e9032">
+               <ref type="context">6</ref>
                <label>Litteras ... prioris in Monte S. Michaelis</label>
                <p>Zur Person des Priors Candidus Klitsch vgl. Amrhein, Verzeichnis 25 223; Jäck, Verdienste LXIV. Sein Schreiben vom 30. Januar 1710 ist erhalten in I, 451r–452v, mit dem Ordnungsvermerk „5“. Glassner, Verzeichnis 221, und offenbar auch Katschthaler, Briefnachlass 105, verstehen es als Brief Klitschs an BP. Die Anredeformel richtet sich nicht an einen Prälaten, sondern einen Pater, weshalb HB selbst nicht der Adressat gewesen sein kann. Von BP ist allerdings als vom Adressaten verschiedene Person die Rede. Klitsch hat BPs Enzyklik spät und ohne die gewünschten Beilagen aus Banz zurückerhalten und kann zu seinem Bedauern auch selbst wenig zur „Bibliotheca Benedictina“ beitragen, da zwar viele gebildete Mönche in St. Michael gelebt haben, doch durch die Widrigkeiten der Zeit die Überlieferung großteils verloren gegangen ist. Klitsch nennt Andreas Lang aus Staffelstein, der von 1483 bis 1502 Abt war (Lahner, Michelsberg 197–211, sowie zuletzt Dippold, Lang; dort auch Quellenbeleg für den Familiennamen, welcher in der Literatur mehrfach für apokryph gehalten wurde: ebd. 36) und folgende Werke verfasste (zum literarischen Schaffen Langs ausführlich: Fassbinder, Catalogus; zu ergänzen durch Zimmermann, Lang): „Catalogus canonizatorum“ (heute StB Bamberg, Msc. Hist. 141; vgl. Fassbinder, Catalogus 31–134); „De immaculata conceptione beatae Mariae virginis“ (heute StB Bamberg, Msc. Theol. 239, 1r–100v; vgl. Fassbinder, Catalogus 29f.); sowie „Legenda sancti Ottonis episcopi Bambergensis et Pomeranae gentis apostoli“, die er dem Guardian des Bamberger Franziskanerklosters, Johannes Macarius, widmete (die zweite Fassung von Langs Otto-Legende, heute StB Bamberg, R. B. Msc. 122; vgl. Fassbinder, Catalogus 26–29; Machilek, Ottogedächtnis 27). Der Jesuit Jakob Gretser gab die Legende 1611 zu Ingolstadt bei Adam Sartorius heraus (in der Sammlung „Divi Bambergenses“, 143–368). Bei jedem Betreten der Abteikirche soll Lang ein Psalmwort ausgerufen haben (Ps 25,8; die in der Literatur vielfach aufgegriffene Anekdote geht auf das Elogium Langs in dem von ihm selbst begonnenen Äbtekatalog „Fasciculus abbatum“ – heute StB Bamberg, R. B. Msc. 49 – zurück: Fassbinder, Catalogus 19). Auch ließ er das Dach der Kirche mit Bleischindeln decken und fügte eine Orgel und zahlreiche Altäre hinzu (Dengler-Schreiber, Michelsberg 59; Dippold, Lang 32; Fassbinder, Catalogus 18f.; Lahner, Michelsberg 203–206). Als 1492 Teile des Klosters einstürzten (vgl. Dengler-Schreiber, Michelsberg 60; Lahner, Michelsberg 210), ließ Lang es zum größten Teile wieder aufbauen. In diesem Gebäude leben die Mönche bis heute, es soll jedoch bald umgebaut werden (vgl. Dengler-Schreiber, Michelsberg 65–67; Engelberg, Renovatio 515; Lahner, Michelsberg 322–324). Klitsch hofft, dass BP mit diesen Angaben gedient ist. – In einem eigenhändigen Vermerk meint BP, Andreas Lang könnte der Autor eines Buches sein, das er im Zusammenhang mit Abt Ezzo von St. Stephan (vgl. 120 &lt;2&gt;, 144 &lt;1&gt; und &lt;5&gt;) zum Jahr 1097 vermerkt hat. In den Notizen zur „Bibliotheca Benedictina“ (StiA Melk, Karton 85 Varia 24, Fasz. 2, ad annum 1097) findet sich zu Abt Ezzo die Liste von Handschriften aus 144 &lt;5&gt; und darin eine entsprechende Anmerkung BPs zum „Tractatus de beata Maria virgine“ eines „abbas ad Montem“ (eigentlich Engelbert von Admont): „Forte is est Andreas abbas ad Montem S. Michaelis prope Bambergam“.</p>
             </note>

@@ -13,79 +13,88 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">9</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Katschthaler, Briefnachlass 12f</bibl>
+                  <bibl>Mayer, Nachlaß 18 499</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">570r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Johann Baptist Hemm</persName>
+               <date when="1709-09-24">1709-09-24</date>
+               <placeName>Regensburg (St. Emmeram)</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">428</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">8</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">8</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">9</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Johann Baptist Hemm</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1709-09-24</date>
-         <place-of-posting xmlns="">Regensburg (St. Emmeram)</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e641">JH hat mit Freude aus BPs Brief <ref type="letter">8</ref> von dessen Vorhaben („Bibliotheca Benedictina“) erfahren. Er lobt dieses und will zwei seiner Konventualen beauftragen, Material, das nach dem von <persName>
-                     <abbr>BP</abbr>
-                  </persName> vorgegebenen Fragenkatalog relevant erscheint, zu sammeln und möglichst bald einzuschicken. Er wünscht für das Werk den Segen des Hl. Benedikt und Gottes.</seg>
-               <seg type="context" n="2" xml:id="d4617e646">In einem Postskriptum lässt sich JH an Abt Dietmayr empfehlen.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e665">JH hat mit Freude aus <rs type="person" role="sender">BPs</rs> Brief <ref type="letter">8</ref> von dessen Vorhaben („Bibliotheca Benedictina“) erfahren. Er lobt dieses und will zwei seiner Konventualen beauftragen, Material, das nach dem von <rs type="person" role="sender">BP</rs> vorgegebenen Fragenkatalog relevant erscheint, zu sammeln und möglichst bald einzuschicken. Er wünscht für das Werk den Segen des Hl. Benedikt und Gottes.</seg><seg type="context" n="2" xml:id="d4618e670">In einem Postskriptum lässt sich JH an Abt Dietmayr empfehlen.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: I, 570r–v.</p>
-            <p>Literatur: Katschthaler, Briefnachlass 12f.; Mayer, Nachlaß 18 499.</p>
-            <p>Bezüge: 8. 428. Erwähnt 8.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>8</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>428</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>8</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: Der Brief ist von einem Sekretär geschrieben, nur das Postskriptum und die Unterschrift ab <hi rend="italic">ad obsequia</hi> von JH.</p>
+            <p xml:space="preserve">Bemerkungen: Der Brief ist von einem Sekretär geschrieben, nur das Postskriptum und die Unterschrift ab <hi rend="italic">ad obsequia</hi> von JH.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiosissime ac clarissime pater Bernarde, domine multum colende.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e665"> Maximo sane animi sensu intentionem paternitatis vestrae ratione praeclari operis proxime edendi ex litteris nuper ad me datis intellexi. Laudo et approbo tam generosos conatus et pios labores. Ego, ne quid meis in hoc passu desim partibus, quo citius nobilissimus hic partus lucem aspiciat, <seg type="lemma" corresp="#d4617e675">constituam ex meis duos patres collectores, qui ea, quae ad rem iuxta praescriptum elenchum videbuntur, mature et in tempore subministrabunt</seg>. Interim precor, ut sanctissimus pater ad sui suorumque gloriam opus hoc large benedicat et riget, Deus autem incrementum det. Quibus cordialissimis votis praeter salutem plurimam me in preces et sacrificia commendo</seg>
-            </p>
-            <p>Admodum reverendae paternitatis vestrae ad obsequia paratus Joannes Baptista abbas manu propria.</p>
-            <p>Ratisbonae ad S. Emmeramum 24. Septembris 1709.</p>
-            <p>
-               <seg type="context" n="2" xml:id="d4617e672"> P.S. Reverendissimo ac gratioso suo domino abbati dignetur paternitas vestra me commendare.</seg>
-            </p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiosissime ac clarissime pater Bernarde, domine multum colende.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e689"> Maximo sane animi sensu intentionem paternitatis vestrae ratione praeclari operis proxime edendi ex litteris nuper ad me datis intellexi. Laudo et approbo tam generosos conatus et pios labores. Ego, ne quid meis in hoc passu desim partibus, quo citius nobilissimus hic partus lucem aspiciat, <seg type="lemma" corresp="#d4618e699">constituam ex meis duos patres collectores, qui ea, quae ad rem iuxta praescriptum elenchum videbuntur, mature et in tempore subministrabunt</seg>. Interim precor, ut sanctissimus pater ad sui suorumque gloriam opus hoc large benedicat et riget, Deus autem incrementum det. Quibus cordialissimis votis praeter salutem plurimam me in preces et sacrificia commendo</seg></p>
+            <p xml:space="preserve">Admodum reverendae paternitatis vestrae ad obsequia paratus Joannes Baptista abbas manu propria.</p>
+            <p xml:space="preserve">Ratisbonae ad S. Emmeramum 24. Septembris 1709.</p>
+            <p xml:space="preserve"><seg type="context" n="2" xml:space="preserve" xml:id="d4618e696"> P.S. Reverendissimo ac gratioso suo domino abbati dignetur paternitas vestra me commendare.</seg></p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e675" target="#d4617e641 #d4617e665">
-               <ref target="">1</ref>
+            <note xml:id="d4618e699">
+               <ref type="context">1</ref>
                <label>constituam ... subministrabunt</label>
                <p>Es ist als fraglich anzusehen, ob diesem Versprechen nachgekommen wurde; vgl. die Aussage Kaspar Erhardts in 428 (3. August 1715), wonach BPs Anliegen in St. Emmeram lange vernachlässigt worden sei, bis Erhardt aus eigenem Antrieb aktiv wurde.</p>
             </note>
-            <note xml:id="d4617e682" target="#d4617e641 #d4617e665">
-               <ref target="#d4617e641 #d4617e665">1</ref>
+            <note xml:id="d4618e706">
+               <ref type="context">1</ref>
                <label>praescriptum elenchum</label>
                <p>Offenbar enthielt die von JH erhaltene Enzyklik (8) einen Fragenkatalog entsprechend 7 &lt;3&gt;, 16 &lt;3&gt;, 19 &lt;3&gt;, 23 &lt;3&gt;, 24 &lt;3&gt; etc.</p>
             </note>

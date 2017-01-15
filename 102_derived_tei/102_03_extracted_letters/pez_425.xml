@@ -13,136 +13,123 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">425</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Katschthaler, Briefnachlass 33</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">587r–588v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Alphons Hueber</persName>
+               <date when="1715-07-26">1715-07-26</date>
+               <placeName>Tegernsee</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">443</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">351</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">351</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">425</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Alphons Hueber</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1715-07-26</date>
-         <place-of-posting xmlns="">Tegernsee</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e46197">Es ist beinahe ein Jahr verstrichen, seit <persName>
-                     <abbr>AH</abbr>
-                  </persName> am 16. August 1714 zum letzten Mal einen Brief von <persName>
-                     <abbr>BP</abbr>
-                  </persName> 
-                  <ref type="letter">351</ref> erhalten hat. Er hat seither die versprochene Zusendung einer in Augsburg zu druckenden Schrift BPs („Triumphus castitatis“) erwartet, allerdings vergeblich. Kürzlich sind nun BPs „Epistolae apologeticae“ dem Kloster Tegernsee zum Kauf angeboten worden, derzeit werden sie zur Mensallesung im Refektorium verwendet. <persName>
-                     <abbr>AH</abbr>
-                  </persName> gratuliert <persName>
-                     <abbr>BP</abbr>
-                  </persName> gemeinsam mit allen aufrechten Benediktinern zu dieser Leistung und äußert den Wunsch, dass auch die anderen Orden mit Ortsfestigkeit (stabilitas loci) derartige Entgegnungen an den Autor der „Cura salutis“ (Gábor Hevenesi) verfassen und ihm und seinesgleichen das unverschämte Maul (impudens os) stopfen möchten. Sofern <persName>
-                     <abbr>AH</abbr>
-                  </persName> nicht demnächst ein Exemplar von <persName>
-                     <abbr>BP</abbr>
-                  </persName> erhält, wird er sich selbst eines kaufen.</seg>
-               <seg type="context" n="2" xml:id="d4617e46202">
-                  <persName>
-                     <abbr>AH</abbr>
-                  </persName> schickt mehrere kleinere Tegernseer Schriften an <persName>
-                     <abbr>BP</abbr>
-                  </persName> und hofft, auch von diesem etwas im Gegenzug zu erhalten. Er empfiehlt sich und sein Kloster Tegernsee, in dem am kommenden 20. August, dem Bernhardstag, ein neuer Abt zu wählen ist.</seg>
-               <seg type="context" n="3" xml:id="d4617e46204">In einem Postskriptum vermutet AH, dass <persName>
-                     <abbr>BP</abbr>
-                  </persName> das jüngst zu Augsburg erschienene Werk (Band 4 der „Hierarchia Augustana“) von Korbinian Khamm gegen den Autor des „Commentarius in Regulam sancti Augustini“ (Augustin Erath) und gegen die Regularkanoniker bereits erhalten hat.</seg>
-               <seg type="context" n="4" xml:id="d4617e46206">Er selbst will sein bereits fertiges und vom Generalpräses der Bayerischen Benediktinerkongregation (Placidus Stainbacher) approbiertes asketisches Werk in deutscher Sprache („Wegzehrung der reisenden“) <persName>
-                     <abbr>BP</abbr>
-                  </persName> zukommen lassen, wenn es demnächst gedruckt wird.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e52301">Es ist beinahe ein Jahr verstrichen, seit <rs type="person" role="sender">AH</rs> am 16. August 1714 zum letzten Mal einen Brief von <rs type="person" role="sender">BP</rs> <ref type="letter">351</ref> erhalten hat. Er hat seither die versprochene Zusendung einer in Augsburg zu druckenden Schrift <rs type="person" role="sender">BPs</rs> („Triumphus castitatis“) erwartet, allerdings vergeblich. Kürzlich sind nun <rs type="person" role="sender">BPs</rs> „Epistolae apologeticae“ dem Kloster Tegernsee zum Kauf angeboten worden, derzeit werden sie zur Mensallesung im Refektorium verwendet. <rs type="person" role="sender">AH</rs> gratuliert <rs type="person" role="sender">BP</rs> gemeinsam mit allen aufrechten Benediktinern zu dieser Leistung und äußert den Wunsch, dass auch die anderen Orden mit Ortsfestigkeit (stabilitas loci) derartige Entgegnungen an den Autor der „Cura salutis“ (Gábor Hevenesi) verfassen und ihm und seinesgleichen das unverschämte Maul (impudens os) stopfen möchten. Sofern <rs type="person" role="sender">AH</rs> nicht demnächst ein Exemplar von <rs type="person" role="sender">BP</rs> erhält, wird er sich selbst eines kaufen.</seg><seg type="context" n="2" xml:id="d4618e52306"><rs type="person" role="sender">AH</rs> schickt mehrere kleinere Tegernseer Schriften an <rs type="person" role="sender">BP</rs> und hofft, auch von diesem etwas im Gegenzug zu erhalten. Er empfiehlt sich und sein Kloster Tegernsee, in dem am kommenden 20. August, dem Bernhardstag, ein neuer Abt zu wählen ist.</seg><seg type="context" n="3" xml:id="d4618e52308">In einem Postskriptum vermutet AH, dass <rs type="person" role="sender">BP</rs> das jüngst zu Augsburg erschienene Werk (Band 4 der „Hierarchia Augustana“) von Korbinian Khamm gegen den Autor des „Commentarius in Regulam sancti Augustini“ (Augustin Erath) und gegen die Regularkanoniker bereits erhalten hat.</seg><seg type="context" n="4" xml:id="d4618e52310">Er selbst will sein bereits fertiges und vom Generalpräses der Bayerischen Benediktinerkongregation (Placidus Stainbacher) approbiertes asketisches Werk in deutscher Sprache („Wegzehrung der reisenden“) <rs type="person" role="sender">BP</rs> zukommen lassen, wenn es demnächst gedruckt wird.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: I, 587r–588v.</p>
-            <p>Literatur: Katschthaler, Briefnachlass 33.</p>
-            <p>Bezüge: 351. 443. Erwähnt 351.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>351</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>443</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>351</idno>
-               </ref>
-            </correspContext>
-            <p>Adresse: <hi rend="italic">Plurimum reverendo religiosissimo ac clarissimo domino patri Bernardo Pez florentissimi et exempti monasterii Mellicensis ordinis sancti Benedicti capitulari dignissimo ac bibliothecario ibidem meritissimo, domino patri ac patrono meo [colen]dissimo</hi>. Siegel.</p>
-            <p>Nummerierung: <hi rend="italic">III</hi>.</p>
-            <p>Ordnungsvermerk: <hi rend="italic">110</hi>.</p>
+            <div type="address">
+               <cit>
+                  <q>Plurimum reverendo religiosissimo ac clarissimo domino patri Bernardo Pez florentissimi et exempti monasterii Mellicensis ordinis sancti Benedicti capitulari dignissimo ac bibliothecario ibidem meritissimo, domino patri ac patrono meo [colen]dissimo. Siegel.</q>
+               </cit>
+            </div>
+            <p xml:space="preserve">Nummerierung: <hi rend="italic">III</hi>.</p>
+            <p xml:space="preserve">Ordnungsvermerk: <hi rend="italic">110</hi>.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine pater Bernarde, domine colendissime, amicorum optime.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e46235"> Annus prope iamiam effluxit, quo ultimas a clarissima paternitate vestra (17. scilicet Calendas elapsi Septembris) accepi. Exspectans exspectavi hactenus promissum mihi in iis opusculum a paternitate vestra <seg type="lemma" corresp="#d4617e46256">typis Augustanis subiectum</seg>, sed quod visu iucundum accipere non merebar, illud lectu iucundissimum, insigne nempe illud <seg type="lemma" corresp="#d4617e46263">opusculum apologeticum</seg> contra anonymum illum Societatis patrem Viennensem, ad monasterium nostrum nuper delatum est venale, pro tempore actualiter publicae lectioni mensali in refectorio nostro meritissime expositum. Gratulamur tibi omnes et singuli sinceri Benedictini de tam nobili partu contra ingratos hos adversarios nostros. Utinam et caeteri ordines stabilitatem profitentes similiter contra Socium hunc insurgerent et impudens os eius similiumque hominum obthurarent! <pb n="1v"/> Nisi e manibus tuis, Bernarde melliflue, libellum hunc nobilem proxime recepero, ipse mihi in dulcissimam tui memoriam procurare studebo. </seg>
-               <seg type="context" n="2" xml:id="d4617e46239"> Deus ter optimus maximus te pro incremento, honore et gloria ordinis nostri quam diutissime salvum et incolumem conservet, cui adiectas <seg type="lemma" corresp="#d4617e46268">levidenses has opellas Tegurinas</seg> in antiquam [<hi rend="italic">sic</hi>] amicitiae et amoris nostri tesseram affectu sincerissimo offero, et a te suo tempore etiam atque etiam aliquid reciproce transmittendum exspecto. Vale interim, Bernarde amandissime, et Alphonsum cum asceterio nostro proximo 20. Augusti die, <seg type="lemma" corresp="#d4617e46275">mellifluo tuo patrono</seg> sacro, <seg type="lemma" corresp="#d4617e46280">novo abbate</seg> et reverendissimo capite condecorando ulterius recommendatum habe. Iterum vale.</seg>
-            </p>
-            <p>Tegurii <pb n="2r"/> VII. Calendas Augusti MDCCXV.</p>
-            <p>Plurimum reverendae religiosissimae clarissimae dominationis vestrae servus et amicus addictissimus paratissimus pater Alphonsus Hueber Tegernseensis pro tempore vicarius in Egern manu propria.</p>
-            <p>
-               <seg type="context" n="3" xml:id="d4617e46251"> P.S. Quin ad manus clarissimae dominationis vestrae iam pervenerit insigne <seg type="lemma" corresp="#d4617e46285">opus a patre Corbiniano Kham</seg> Augustano contra commentatorem in Regulam sancti Augustini et reliquos canonicos regulares nuperrime editum Augustae Vindelicorum, nullus dubito. </seg>
-               <seg type="context" n="4" xml:id="d4617e46253"> 
-                  <seg type="lemma" corresp="#d4617e46292">Librum Germano-asceticum</seg> a me iam completum et a reverendissimo domino domino <seg type="lemma" corresp="#d4617e46299">praeside generali</seg> congregationis nostrae approbatum, typis proxime transmittendum, etiam in sinum tuum data occasione convolaturum spera, meque tuae memoriae interesse patere. Vale.</seg>
-            </p>
+            <p xml:space="preserve"><pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine pater Bernarde, domine colendissime, amicorum optime.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e52339"> Annus prope iamiam effluxit, quo ultimas a clarissima paternitate vestra (17. scilicet Calendas elapsi Septembris) accepi. Exspectans exspectavi hactenus promissum mihi in iis opusculum a paternitate vestra <seg type="lemma" corresp="#d4618e52381">typis Augustanis subiectum</seg>, sed quod visu iucundum accipere non merebar, illud lectu iucundissimum, insigne nempe illud <seg type="lemma" corresp="#d4618e52388">opusculum apologeticum</seg> contra anonymum illum Societatis patrem Viennensem, ad monasterium nostrum nuper delatum est venale, pro tempore actualiter publicae lectioni mensali in refectorio nostro meritissime expositum. Gratulamur tibi<note place="foot" xml:id="d4618e52341">	Über der Zeile eingefügt.</note> omnes et singuli sinceri Benedictini de tam nobili partu contra ingratos hos adversarios nostros. Utinam et caeteri ordines stabilitatem profitentes similiter contra Socium hunc insurgerent et impudens os eius similiumque hominum obthurarent! <pb n="1v"/> Nisi e manibus tuis, Bernarde melliflue, libellum hunc nobilem proxime recepero, ipse mihi in dulcissimam tui memoriam<note place="foot" xml:id="d4618e52346">	Danach durchgestrichen <hi rend="italic">mihi</hi>.</note> procurare studebo. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e52352"> Deus ter optimus maximus te pro incremento, honore et gloria ordinis nostri quam diutissime salvum et incolumem conservet, cui adiectas <seg type="lemma" corresp="#d4618e52393">levidenses has opellas Tegurinas</seg> in antiquam [<hi rend="italic">sic</hi>]<note place="foot" xml:id="d4618e52357">	Wohl für <hi rend="italic">antiquae</hi>.</note> amicitiae et amoris nostri tesseram affectu sincerissimo offero, et a te suo tempore etiam atque etiam aliquid reciproce transmittendum exspecto. Vale interim, Bernarde amandissime, et Alphonsum cum asceterio nostro proximo 20. Augusti die, <seg type="lemma" corresp="#d4618e52400">mellifluo tuo patrono</seg> sacro, <seg type="lemma" corresp="#d4618e52405">novo abbate</seg> et reverendissimo capite condecorando<note place="foot" xml:id="d4618e52363">	Danach durchgestrichen <hi rend="italic">ulterium</hi>.</note> ulterius recommendatum habe. Iterum vale.</seg></p>
+            <p xml:space="preserve">Tegurii <pb n="2r"/> VII. Calendas Augusti MDCCXV.</p>
+            <p xml:space="preserve">Plurimum reverendae religiosissimae clarissimae dominationis vestrae servus et amicus addictissimus paratissimus pater Alphonsus Hueber Tegernseensis pro tempore vicarius in Egern manu propria.</p>
+            <p xml:space="preserve"><seg type="context" n="3" xml:space="preserve" xml:id="d4618e52376"> P.S. Quin ad manus clarissimae dominationis vestrae iam pervenerit insigne <seg type="lemma" corresp="#d4618e52410">opus a patre Corbiniano Kham</seg> Augustano contra commentatorem in Regulam sancti Augustini et reliquos canonicos regulares nuperrime editum Augustae Vindelicorum, nullus dubito. </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e52378"> <seg type="lemma" corresp="#d4618e52417">Librum Germano-asceticum</seg> a me iam completum et a reverendissimo domino domino <seg type="lemma" corresp="#d4618e52424">praeside generali</seg> congregationis nostrae approbatum, typis proxime transmittendum, etiam in sinum tuum data occasione convolaturum spera, meque tuae memoriae interesse patere. Vale.</seg></p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e46256" target="#d4617e46197 #d4617e46235">
-               <ref target="">1</ref>
+            <note xml:id="d4618e52381">
+               <ref type="context">1</ref>
                <label>typis Augustanis subiectum</label>
                <p>Der Angabe des Druckortes zufolge muss es sich um den „Triumphus castitatis“ handeln. Es wäre außerdem erstaunlich, wenn BP schon im Sommer 1714 die „Epistolae apologeticae“ angekündigt hätte, auf die sich sonst erst im Frühjahr 1715 Hinweise finden (vgl. 391, 396). AHs Formulierung im Folgenden deutet freilich darauf, dass er das (wohl ohne nähere Angaben) versprochene Werk mit den nun vorliegenden „Epistolae apologeticae“ identifizierte.</p>
             </note>
-            <note xml:id="d4617e46263" target="#d4617e46197 #d4617e46235">
-               <ref target="#d4617e46197 #d4617e46235">1</ref>
+            <note xml:id="d4618e52388">
+               <ref type="context">1</ref>
                <label>opusculum apologeticum</label>
                <p>Zum Streit um die „Cura salutis“ vgl. Einleitung, Abschnitt I.5.</p>
             </note>
-            <note xml:id="d4617e46268" target="#d4617e46202 #d4617e46239">
-               <ref target="">2</ref>
+            <note xml:id="d4618e52393">
+               <ref type="context">2</ref>
                <label>levidenses has opellas Tegurinas</label>
                <p>Eine Identifizierung anhand dieser Angabe erscheint unmöglich.</p>
             </note>
-            <note xml:id="d4617e46275" target="#d4617e46202 #d4617e46239">
-               <ref target="#d4617e46202 #d4617e46239">2</ref>
+            <note xml:id="d4618e52400">
+               <ref type="context">2</ref>
                <label>mellifluo tuo patrono</label>
                <p>Vgl. 92 &lt;1&gt;, 273; sowie Einleitung, Abschnitt II.1.2.</p>
             </note>
-            <note xml:id="d4617e46280" target="#d4617e46202 #d4617e46239">
-               <ref target="#d4617e46202 #d4617e46239">2</ref>
+            <note xml:id="d4618e52405">
+               <ref type="context">2</ref>
                <label>novo abbate</label>
                <p>Abt Quirin Millon war am 5. Juli 1715 verstorben, am 20. August wurde der bisherige Prior Petrus Guetrather zu seinem Nachfolger gewählt: Lindner, Familia S. Quirini Ergh. 59, 77.</p>
             </note>
-            <note xml:id="d4617e46285" target="#d4617e46204 #d4617e46251">
-               <ref target="">3</ref>
+            <note xml:id="d4618e52410">
+               <ref type="context">3</ref>
                <label>opus a ... Kham</label>
                <p>Vgl. 411 &lt;4&gt;, 422, 457; sowie Einleitung, Abschnitt I.5.</p>
             </note>
-            <note xml:id="d4617e46292" target="#d4617e46206 #d4617e46253">
-               <ref target="">4</ref>
+            <note xml:id="d4618e52417">
+               <ref type="context">4</ref>
                <label>Librum Germano-asceticum</label>
                <p>Die „Wegzehrung der reisenden“ erschien letztlich erst 1718.</p>
             </note>
-            <note xml:id="d4617e46299" target="#d4617e46206 #d4617e46253">
-               <ref target="#d4617e46206 #d4617e46253">4</ref>
+            <note xml:id="d4618e52424">
+               <ref type="context">4</ref>
                <label>praeside generali</label>
                <p>Präses war seit 1711 der Abt von Frauenzell, Placidus Stainbacher: Haering, Bayerische Benediktinerkongregation 633. Als Professor der Theologie am Kommunstudium (Reichhold, 300 Jahre 671) war er Lehrer Guetrathers und AHs und Präses bei der Verteidigung ihrer Thesen gewesen; vgl. 255 &lt;3&gt;.</p>
             </note>

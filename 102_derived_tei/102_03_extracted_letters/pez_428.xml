@@ -13,88 +13,83 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">428</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">667r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Kaspar Erhardt</persName>
+               <date when="1715-08-03">1715-08-03</date>
+               <placeName>Regensburg (St. Emmeram)</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="next">
+                  <idno type="pezEd">9</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">8</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">428</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Kaspar Erhardt</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1715-08-03</date>
-         <place-of-posting xmlns="">Regensburg (St. Emmeram)</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e46558">Nachdem <persName>
-                     <abbr>BP</abbr>
-                  </persName> vor einigen Jahren um ein Schriftstellerverzeichnis von St. Emmeram gebeten hatte <ref type="letter">8</ref>, schmerzte es KE, dass die Aufgabe vernachlässigt wurde. Er beschloss deshalb, sich ihr nach Ende seiner Studien selbst zu widmen. Durch Pflichten in Lehre und Seelsorge in Anspruch genommen, hat er jedoch bislang nur wenig leisten können. Da er aber an <persName>
-                     <abbr>BP</abbr>
-                  </persName> wie schon an René Massuet, den Fortsetzer der „Annales OSB“, lieber ein partielles Ergebnis als nichts mitteilt, sendet er nun das Resultat der Durchforstung etwa eines Drittels der Handschriften in der St. Emmeramer Bibliothek. Er befürchtet freilich, dass das von ihm mit großer Mühe Erarbeitete für <persName>
-                     <abbr>BP</abbr>
-                  </persName> wenig nützlich sein wird, weil die von diesem begehrten biographischen Angaben zu den Verfassern den Handschriften nicht zu entnehmen waren. Sollte sein Material doch von Nutzen sein, ist er bereit, auch die übrigen Handschriften durchzusehen.</seg>
-               <seg type="context" n="2" xml:id="d4617e46563">
-                  <persName>
-                     <abbr>KE</abbr>
-                  </persName> ersucht BP, das übermittelte Material auch an Massuet weiterzuleiten, falls er es dazu für geeignet hält, und wünscht abschließend <persName>
-                     <abbr>BP</abbr>
-                  </persName> ein langes Leben zur Zierde seines Klosters und des gesamten Benediktinerordens.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e52710">Nachdem <rs type="person" role="sender">BP</rs> vor einigen Jahren um ein Schriftstellerverzeichnis von St. Emmeram gebeten hatte <ref type="letter">8</ref>, schmerzte es KE, dass die Aufgabe vernachlässigt wurde. Er beschloss deshalb, sich ihr nach Ende seiner Studien selbst zu widmen. Durch Pflichten in Lehre und Seelsorge in Anspruch genommen, hat er jedoch bislang nur wenig leisten können. Da er aber an <rs type="person" role="sender">BP</rs> wie schon an René Massuet, den Fortsetzer der „Annales OSB“, lieber ein partielles Ergebnis als nichts mitteilt, sendet er nun das Resultat der Durchforstung etwa eines Drittels der Handschriften in der St. Emmeramer Bibliothek. Er befürchtet freilich, dass das von ihm mit großer Mühe Erarbeitete für <rs type="person" role="sender">BP</rs> wenig nützlich sein wird, weil die von diesem begehrten biographischen Angaben zu den Verfassern den Handschriften nicht zu entnehmen waren. Sollte sein Material doch von Nutzen sein, ist er bereit, auch die übrigen Handschriften durchzusehen.</seg><seg type="context" n="2" xml:id="d4618e52715"><rs type="person" role="sender">KE</rs> ersucht BP, das übermittelte Material auch an Massuet weiterzuleiten, falls er es dazu für geeignet hält, und wünscht abschließend <rs type="person" role="sender">BP</rs> ein langes Leben zur Zierde seines Klosters und des gesamten Benediktinerordens.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: I, 667r–v.</p>
-            <p>Bezüge: 9. Erwähnt 8.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>9</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>8</idno>
-               </ref>
-            </correspContext>
-            <p>Nummerierung: <hi rend="italic">I</hi>.</p>
+            <p xml:space="preserve">Nummerierung: <hi rend="italic">I</hi>.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Benedictus Deus!</p>
-            <p>Admodum reverende religiosissime ac clarissime domine pater, patrone observandissime.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e46582"> Aliquot abhinc annis clarissima paternitas sibi <seg type="lemma" corresp="#d4617e46593">expetiit catalogum monachorum illorum, qui in monasterio nostro libros vulgarunt. Dolui semper rem hanc et monasterio et universo sacro ordini gloriosam negligi, quare absolutis studiis me huic statim accinxi</seg> operi, sed laboribus tum scholasticis tum parochialibus, qui mihi invito imponuntur, prohibitus aut parum aut nihil effeci. Malui tamen et clarissimo <seg type="lemma" corresp="#d4617e46600">auctori Annalium et hodie clarissimae dominationi aliquid perscribere</seg> quam nihil. Lustravi proin tertiam circiter veterum codicum partem, hosque collegi authores plurimo meo labore, sed exiguo forte (ut non vane ominor) vestro commodo. Desiderat enim clarissima paternitas nomen auctoris ipsumque auctorem, item vitam, officium, obitum etc., quae tamen in manuscriptis codicibus non reperio. Si nihilominus pauca haec, quae <pb n="1v"/> hic affero, sint forte usui, reliquam etiam manuscriptorum bibliothecam excutiam, ut si quos adhuc inveniam scriptores, eosdem perscribam. </seg>
-               <seg type="context" n="2" xml:id="d4617e46586"> Coeterum rogatur dominatio sua, ut illa, quae hic communico, eadem communicet clarissimo Renato Massuet, si tamen digna iudicet, quae transmittantur, et talia, quae typis vulgari mereantur. Qui interim rogabo Deum, ut ad celeberrimi monasterii Mellicensis decus totiusque sacri ordinis nostri gloriam in annos sanos et canos incolumem conservet clarissimam paternitatem suam.</seg>
-            </p>
-            <p>Clarissimae dominationis humillimus obsequentissimusque servus pater Casparus Erhardt ad S. Emmeramum professus.</p>
-            <p>Ratisbonae in monasterio S. Emmerami 3. Augusti anno 1715.</p>
+            <p xml:space="preserve"><pb n="1r"/> Benedictus Deus!</p>
+            <p xml:space="preserve">Admodum reverende religiosissime ac clarissime domine pater, patrone observandissime.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e52734"> Aliquot abhinc annis clarissima paternitas sibi <seg type="lemma" corresp="#d4618e52748">expetiit catalogum monachorum illorum, qui in monasterio nostro libros vulgarunt. Dolui semper rem hanc et monasterio et universo sacro ordini gloriosam negligi, quare absolutis studiis me huic statim accinxi</seg> operi, sed laboribus tum<note place="foot" xml:id="d4618e52736">	Über der Zeile eingefügt.</note> scholasticis tum parochialibus, qui mihi invito imponuntur, prohibitus aut parum aut nihil effeci. Malui tamen et clarissimo <seg type="lemma" corresp="#d4618e52755">auctori Annalium et hodie clarissimae dominationi aliquid perscribere</seg> quam nihil. Lustravi proin tertiam circiter veterum codicum partem, hosque collegi authores plurimo meo labore, sed exiguo forte (ut non vane ominor) vestro commodo. Desiderat enim clarissima paternitas nomen auctoris ipsumque auctorem, item vitam, officium, obitum etc., quae tamen in manuscriptis codicibus non reperio. Si nihilominus pauca haec, quae <pb n="1v"/> hic affero, sint forte usui, reliquam etiam manuscriptorum bibliothecam excutiam, ut si quos adhuc inveniam scriptores, eosdem perscribam. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e52741"> Coeterum rogatur dominatio sua, ut illa, quae hic communico, eadem communicet clarissimo Renato Massuet, si tamen digna iudicet, quae transmittantur, et talia, quae typis vulgari mereantur. Qui interim rogabo Deum, ut ad celeberrimi monasterii Mellicensis decus totiusque sacri ordinis nostri gloriam in annos sanos et canos incolumem conservet clarissimam paternitatem suam.</seg></p>
+            <p xml:space="preserve">Clarissimae dominationis humillimus obsequentissimusque servus pater Casparus Erhardt ad S. Emmeramum professus.</p>
+            <p xml:space="preserve">Ratisbonae in monasterio S. Emmerami 3. Augusti anno 1715.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e46593" target="#d4617e46558 #d4617e46582">
-               <ref target="">1</ref>
+            <note xml:id="d4618e52748">
+               <ref type="context">1</ref>
                <label>expetiit catalogum ... me ... accinxi</label>
                <p>Aus der Formulierung KEs ergibt sich kein Hinweis auf eine Beauftragung durch seinen Abt Johann Baptist Hemm. Mit dessen Ankündigung von 1709, zwei Konventualen für BP einen Schriftstellerkatalog erstellen zu lassen (vgl. 9), dürfte schon aufgrund des langen Zeitintervalls kein direkter Zusammenhang bestehen. KEs Erwähnung der Sammlung von Material für Massuet und die „Annales OSB“ verrät außerdem, dass er auch von den späteren Aufrufen BPs Kenntnis hatte, möglicherweise durch eine LE 2. Die Verbindung dürfte über Placidus Haiden verlaufen sein, der mehrfach Anfragen in Regensburg erwähnt, wenn auch er St. Emmeram nicht explizit nennt (vgl. 195, 214, 287).</p>
             </note>
-            <note xml:id="d4617e46600" target="#d4617e46558 #d4617e46582">
-               <ref target="#d4617e46558 #d4617e46582">1</ref>
+            <note xml:id="d4618e52755">
+               <ref type="context">1</ref>
                <label>auctori Annalium ... perscribere</label>
                <p>Vermutlich bezieht sich KE hier auf die über Haiden an BP gelangte Hausgeschichte „De antiquo nomine monasterii S. Emmerami“; vgl. 388.</p>
             </note>
-            <note xml:id="d4617e46605" target="#d4617e46558 #d4617e46582">
-               <ref target="#d4617e46558 #d4617e46582">1</ref>
+            <note xml:id="d4618e52760">
+               <ref type="context">1</ref>
                <label>quae hic affero</label>
                <p>Der Pez-Nachlass enthält etliches Material zu St. Emmeram, wovon ein in StiA Melk, Karton 85 Varia 25, Fasz. 1, Nr. 29, erhaltenes starkes Konvolut „Catalogus scriptorum monasterii Sancti Emmerami Ratisbonae“ am ehesten ganz oder zum Teil mit der hier erwähnten Beilage zu identifizieren sein könnte.</p>
             </note>

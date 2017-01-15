@@ -13,299 +13,178 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">177</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Wallnig, Pez und Mauriner 160 (mit irriger Folioangabe 101–102)</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>BN FF 17711, 101r–v, sowie beigeheftetes Zettelchen ohne eigene Folioangabe.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Bernhard Pez</persName>
+               <date when="1711-07-11">1711-07-11</date>
+               <placeName>Melk</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>René Massuet</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">190</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">154</idno>
+               </ref>
+               <ref type="sentWith">
+                  <idno type="pezEd">144</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">74</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">192</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">177</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Bernhard Pez</sender>
-         <recipient xmlns="">René Massuet</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1711-07-11</date>
-         <place-of-posting xmlns="">Melk</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="" xml:id="d4617e18474"/>
-               <seg type="context" n="1" xml:id="d4617e18475">Reiffenstuels „Germania Austriaca“, ein Geschenk des Melkers Jakob Mayr an RM.</seg>
-               <seg type="context" n="2" xml:id="d4617e18477">Benedikt Cherles „Chronologia monastico-philosophica“ zum Kloster Thierhaupten in Bayern, die vom Autor über <persName>
-                     <abbr>BP</abbr>
-                  </persName> an <persName>
-                     <abbr>RM</abbr>
-                  </persName> gesendet wird.</seg>
-               <seg type="context" n="3" xml:id="d4617e18479">Ulrichs „Themeliosis“ zum Kloster St. Lambrecht in der Steiermark, als Leihgabe aus der Melker Bibliothek.</seg>
-               <seg type="context" n="4" xml:id="d4617e18481">Fischers „Historia Cellensis“ (?) als Geschenk, da sie auch für die Geschichte von St. Lambrecht notwendig ist.</seg>
-               <seg type="context" n="5" xml:id="d4617e18483">Szczygielskis „Aquila Polono-Benedictina“, ebenfalls als Geschenk aus der Melker Bibliothek.</seg>
-               <seg type="context" n="6" xml:id="d4617e18485">Materialien zu Niederaltaich in Bayern.</seg>
-               <seg type="context" n="7" xml:id="d4617e18487">Materialien zu Lambach, aus denen <persName>
-                     <abbr>BP</abbr>
-                  </persName> jedoch Bimmels „Vitae et miracula“ der seligen Adalbero von Würzburg, Altmann von Passau sowie Gebhard von Salzburg entnommen hat, weil <persName>
-                     <abbr>RM</abbr>
-                  </persName> mitgeteilt hat <ref type="letter">154</ref>, dass er über diese bereits verfügt. Sollte er das Buch dennoch erhalten wollen, möge er dies mitteilen.</seg>
-               <seg type="context" n="8" xml:id="d4617e18492">Materialien zu Gleink.</seg>
-               <seg type="context" n="9" xml:id="d4617e18494">Materialien zum Wiener Schottenkloster (Rucker, „Summaria notitia“), darin die Gründungs- und die Bestätigungsurkunde Herzog Heinrichs II.</seg>
-               <seg type="context" n="10" xml:id="d4617e18496">Materialien zu Ossiach in Kärnten, aus einem umfangreicheren Werk (Wallner, „Annus millesimus“?) zusammengestellt und von Albert Reichart, Abt von St. Paul, für <persName>
-                     <abbr>RM</abbr>
-                  </persName> eingesendet <ref type="letter">151</ref>.</seg>
-               <seg type="context" n="11" xml:id="d4617e18502">Materialien zu Admont in der Steiermark. Mehr und Besseres soll noch folgen.</seg>
-               <seg type="context" n="12" xml:id="d4617e18504">Materialien zum Kloster St. Stephan zu Würzburg, verfasst von Abt Hyazinth Baumbach.</seg>
-               <seg type="context" n="13" xml:id="d4617e18506">Materialien zu Seitenstetten in Niederösterreich („Descriptio fundationis Seittenstettensis“), die jedoch nicht die von <persName>
-                     <abbr>BP</abbr>
-                  </persName> mehrfach eingeforderten <ref type="letter">136</ref> Urkundenabschriften enthalten.</seg>
-               <seg type="context" n="14" xml:id="d4617e18511">Materialien zu Vornbach in Bayern. Wer diese gesendet hat, wird <persName>
-                     <abbr>RM</abbr>
-                  </persName> vermutlich aus dem beigelegten Brief Placidus Haidens erfahren, den <persName>
-                     <abbr>BP</abbr>
-                  </persName> nicht lesen wollte.</seg>
-               <seg type="context" n="15" xml:id="d4617e18513">Materialien zu Theres in Franken (Fuchs, „Monasterii Theres in Franconia fundatio“). Den Autor kann <persName>
-                     <abbr>RM</abbr>
-                  </persName> am Ende des Traktats ersehen.</seg>
-               <seg type="context" n="16" xml:id="d4617e18515">Eine Hausgeschichte von Mondsee in Österreich, übersendet von Prior Koloman Seeau <ref type="letter">135</ref>.</seg>
-               <seg type="context" n="17" xml:id="d4617e18520">Materialien zu Göttweig in Österreich („Ursprung klosters Göttweig“), übersendet von Prior Karlmann Schretl, samt zwei Abbildungen des Klosters, von denen die beschädigte die bessere ist <ref type="letter">74</ref>.</seg>
-               <seg type="context" n="18" xml:id="d4617e18525">In einem Notabene-Vermerk fügt <persName>
-                     <abbr>BP</abbr>
-                  </persName> hinzu, dass er auch eine Hausgeschichte von Banz in Franken („Acta Banthensis monasterii“) zwar jüngst erhalten, aber noch nicht vollständig abgeschrieben hat, und sie daher in einem späteren Paket senden will.</seg>
-               <seg type="context" n="19" xml:id="d4617e18527">In einem Postskriptum vermerkt BP, dass nach der Schließung des Paketes der Abt von Heiligkreuz in Polen (Stanisław Mirecki) in Melk eingetroffen ist. Der Abt, der zugleich Präses der Benediktiner in Polen ist, verfügt über umfangreiche handschriftliche Sammlungen an historischem Material. <persName>
-                     <abbr>BP</abbr>
-                  </persName> hat ihm von RMs Vorhaben berichtet; er hat daraufhin versprochen, nach seiner Ankunft in Rom alles ihm Mögliche zu tun. <persName>
-                     <abbr>BP</abbr>
-                  </persName> fordert <persName>
-                     <abbr>RM</abbr>
-                  </persName> auf, in der Sache an den maurinischen Generalprokurator in Rom (Philippe Raffier) zu schreiben.</seg>
-               <seg type="context" n="20" xml:id="d4617e18529">Am Vortag hat <persName>
-                     <abbr>BP</abbr>
-                  </persName> das in Rotterdam erschienene „Dictionnaire historique et critique“ von Pierre Bayle erhalten, von dem er sehr angetan ist.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="" xml:id="d4618e21736"/><seg type="context" n="1" xml:id="d4618e21737">Reiffenstuels „Germania Austriaca“, ein Geschenk des Melkers Jakob Mayr an RM.</seg><seg type="context" n="2" xml:id="d4618e21739">Benedikt Cherles „Chronologia monastico-philosophica“ zum Kloster Thierhaupten in Bayern, die vom Autor über <rs type="person" role="sender">BP</rs> an <rs type="person" key="">RM</rs> gesendet wird.</seg><seg type="context" n="3" xml:id="d4618e21741">Ulrichs „Themeliosis“ zum Kloster St. Lambrecht in der Steiermark, als Leihgabe aus der Melker Bibliothek.</seg><seg type="context" n="4" xml:id="d4618e21743">Fischers „Historia Cellensis“ (?) als Geschenk, da sie auch für die Geschichte von St. Lambrecht notwendig ist.</seg><seg type="context" n="5" xml:id="d4618e21745">Szczygielskis „Aquila Polono-Benedictina“, ebenfalls als Geschenk aus der Melker Bibliothek.</seg><seg type="context" n="6" xml:id="d4618e21747">Materialien zu Niederaltaich in Bayern.</seg><seg type="context" n="7" xml:id="d4618e21749">Materialien zu Lambach, aus denen <rs type="person" role="sender">BP</rs> jedoch Bimmels „Vitae et miracula“ der seligen Adalbero von Würzburg, Altmann von Passau sowie Gebhard von Salzburg entnommen hat, weil <rs type="person" key="">RM</rs> mitgeteilt hat <ref type="letter">154</ref>, dass er über diese bereits verfügt. Sollte er das Buch dennoch erhalten wollen, möge er dies mitteilen.</seg><seg type="context" n="8" xml:id="d4618e21754">Materialien zu Gleink.</seg><seg type="context" n="9" xml:id="d4618e21756">Materialien zum Wiener Schottenkloster (Rucker, „Summaria notitia“), darin die Gründungs- und die Bestätigungsurkunde Herzog Heinrichs II.</seg><seg type="context" n="10" xml:id="d4618e21758">Materialien zu Ossiach in Kärnten, aus einem umfangreicheren Werk (Wallner, „Annus millesimus“?) zusammengestellt und von Albert Reichart, Abt von St. Paul, für <rs type="person" key="">RM</rs> eingesendet <ref type="letter">151</ref>.</seg><seg type="context" n="11" xml:id="d4618e21764">Materialien zu Admont in der Steiermark. Mehr und Besseres soll noch folgen.</seg><seg type="context" n="12" xml:id="d4618e21766">Materialien zum Kloster St. Stephan zu Würzburg, verfasst von Abt Hyazinth Baumbach.</seg><seg type="context" n="13" xml:id="d4618e21768">Materialien zu Seitenstetten in Niederösterreich („Descriptio fundationis Seittenstettensis“), die jedoch nicht die von <rs type="person" role="sender">BP</rs> mehrfach eingeforderten <ref type="letter">136</ref> Urkundenabschriften enthalten.</seg><seg type="context" n="14" xml:id="d4618e21773">Materialien zu Vornbach in Bayern. Wer diese gesendet hat, wird <rs type="person" key="">RM</rs> vermutlich aus dem beigelegten Brief Placidus Haidens erfahren, den <rs type="person" role="sender">BP</rs> nicht lesen wollte.</seg><seg type="context" n="15" xml:id="d4618e21775">Materialien zu Theres in Franken (Fuchs, „Monasterii Theres in Franconia fundatio“). Den Autor kann <rs type="person" key="">RM</rs> am Ende des Traktats ersehen.</seg><seg type="context" n="16" xml:id="d4618e21777">Eine Hausgeschichte von Mondsee in Österreich, übersendet von Prior Koloman Seeau <ref type="letter">135</ref>.</seg><seg type="context" n="17" xml:id="d4618e21782">Materialien zu Göttweig in Österreich („Ursprung klosters Göttweig“), übersendet von Prior Karlmann Schretl, samt zwei Abbildungen des Klosters, von denen die beschädigte die bessere ist <ref type="letter">74</ref>.</seg><seg type="context" n="18" xml:id="d4618e21787">In einem Notabene-Vermerk fügt <rs type="person" role="sender">BP</rs> hinzu, dass er auch eine Hausgeschichte von Banz in Franken („Acta Banthensis monasterii“) zwar jüngst erhalten, aber noch nicht vollständig abgeschrieben hat, und sie daher in einem späteren Paket senden will.</seg><seg type="context" n="19" xml:id="d4618e21789">In einem Postskriptum vermerkt BP, dass nach der Schließung des Paketes der Abt von Heiligkreuz in Polen (Stanisław Mirecki) in Melk eingetroffen ist. Der Abt, der zugleich Präses der Benediktiner in Polen ist, verfügt über umfangreiche handschriftliche Sammlungen an historischem Material. <rs type="person" role="sender">BP</rs> hat ihm von <rs type="person" key="">RMs</rs> Vorhaben berichtet; er hat daraufhin versprochen, nach seiner Ankunft in Rom alles ihm Mögliche zu tun. <rs type="person" role="sender">BP</rs> fordert <rs type="person" key="">RM</rs> auf, in der Sache an den maurinischen Generalprokurator in Rom (Philippe Raffier) zu schreiben.</seg><seg type="context" n="20" xml:id="d4618e21791">Am Vortag hat <rs type="person" role="sender">BP</rs> das in Rotterdam erschienene „Dictionnaire historique et critique“ von Pierre Bayle erhalten, von dem er sehr angetan ist.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: BN FF 17711, 101r–v, sowie beigeheftetes Zettelchen ohne eigene Folioangabe.</p>
-            <p>Literatur: Wallnig, Pez und Mauriner 160 (mit irriger Folioangabe 101–102).</p>
-            <p>Bezüge: 154. 190. Wohl versendet von Melk bis Paris mit 144, 145, 151, 171, 173, 175. Erwähnt 74, 135, 136, 151, 154. Erwähnt in 192, 205, 219, 266, 285.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>154</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>190</idno>
-               </ref>
-               <ref type="sentWith">
-                  <label>Wohl versendet von Melk bis Paris mit </label>
-                  <idno>144</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>145</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>151</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>171</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>173</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>175</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>74</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>135</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>136</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>151</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>154</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>192</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>205</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>219</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>266</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>285</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: Die Liste ist im Original nummeriert, im Editionstext wurden die Nummern aus Gründen der Kohärenz durch die Sinneinheiten ersetzt. Die Einheiten &lt;19&gt; und &lt;20&gt; sind auf einem beigehefteten Zettel nachgetragen. Die Liste und das Bücherpaket wurden über Moritz Müller in St. Gallen versendet (vgl. 192, 219).</p>
+            <p xml:space="preserve">Bemerkungen: Die Liste ist im Original nummeriert, im Editionstext wurden die Nummern aus Gründen der Kohärenz durch die Sinneinheiten ersetzt. Die Einheiten &lt;19&gt; und &lt;20&gt; sind auf einem beigehefteten Zettel nachgetragen. Die Liste und das Bücherpaket wurden über Moritz Müller in St. Gallen versendet (vgl. 192, 219).</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Contenta in hoc fasciculo.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e18545"> Germania Austriaca, in qua non pauca de monasteriorum ordinis sancti patris nostri Benedicti originibus etc. fide optima memorantur. Mittitur haec tibi et donatur, charissime Renate, a reverendo patre <seg type="lemma" corresp="#d4617e18599">Jacobo Mayr</seg> professo Mellicensi. </seg>
-               <seg type="context" n="2" xml:id="d4617e18547"> 
-                  <seg type="lemma" corresp="#d4617e18606">Chronologia Thierhauptani in Bavaria monasterii ab ipso authore, admodum reverendo domino Benedicto Cherle priore, per me ad te missa</seg>. </seg>
-               <seg type="context" n="3" xml:id="d4617e18549"> Θεμελίωσις monasterii S. Lamberti in Styria authore Georgio Ulrico Chemnicensi. Hanc tibi ex bibliotheca Mellicensi utendam mitto: remittes, cum ea, quae e re tua visa fuerint, excerpseris. </seg>
-               <seg type="context" n="4" xml:id="d4617e18551"> 
-                  <seg type="lemma" corresp="#d4617e18613">Historia beatae Mariae virginis Cellensis</seg> in Styria, quae, cum ad res S. Lambertinas illustrandas necessaria sit, tibi a nobis dono datur. </seg>
-               <seg type="context" n="5" xml:id="d4617e18553"> Aquila Polono-Benedictina Stanislai Scygielzci [<hi rend="italic">sic</hi>] itidem ex nostra bibliotheca tibi missa et donata. </seg>
-               <seg type="context" n="6" xml:id="d4617e18558"> 
-                  <seg type="lemma" corresp="#d4617e18620">Res monasterii Altahae Inferioris</seg> in Bavaria. </seg>
-               <seg type="context" n="7" xml:id="d4617e18560"> 
-                  <seg type="lemma" corresp="#d4617e18627">Res monasterii Lambacensis</seg>, quibus vitae Adalberonis episcopi Herbipolensis et fundatoris, Altmanni episcopi Pataviensis et Gebehardi Salisburgensis adiectae erant. Verum cum intellexerim aliunde has vitas a te haberi, minuendi fasciculi causa illae a me retentae sunt. Si et has volueris, scribe. </seg>
-               <seg type="context" n="8" xml:id="d4617e18562"> 
-                  <seg type="lemma" corresp="#d4617e18634">Res monasterii Clunicensis</seg> in Austria. </seg>
-               <seg type="context" n="9" xml:id="d4617e18564"> 
-                  <seg type="lemma" corresp="#d4617e18641">Res monasterii beatae Mariae virginis ad Scotos Viennae</seg> Austriae, ubi <seg type="lemma" corresp="#d4617e18648">geminum fundationis et confirmationis ab Henrico factae diploma</seg>. </seg>
-               <seg type="context" n="10" xml:id="d4617e18566"> 
-                  <seg type="lemma" corresp="#d4617e18653">Res monasterii Ossiacensis in Charinthia ex diffusiori opere desumptae et a reverendissimo domino abbate S. Pauli</seg> tibi missae. </seg>
-               <seg type="context" n="11" xml:id="d4617e18568"> 
-                  <seg type="lemma" corresp="#d4617e18660">Res Admontensis in Styria monasterii</seg>. Habes inde plura et solidiora exspectanda. </seg>
-               <seg type="context" n="12" xml:id="d4617e18571"> 
-                  <seg type="lemma" corresp="#d4617e18667">Res monasterii S. Stephani Herbipoli</seg>, quarum author de tuis rebus unice sollicitus et meritus est reverendissimus dominus Hyacinthus abbas ibidem. </seg>
-               <seg type="context" n="13" xml:id="d4617e18573"> 
-                  <seg type="lemma" corresp="#d4617e18675">Res monasterii Seittenstadiensis</seg> in Austria Inferiore. Desunt diplomata frustra a me diu iam exspectata et petita. </seg>
-               <seg type="context" n="14" xml:id="d4617e18575"> 
-                  <seg type="lemma" corresp="#d4617e18682">Res monasterii Varnpacensis</seg> in Bavaria. In his multa egregia occurrunt. Quis autem eas tibi miserit, intelliges, ut spero, ex <seg type="lemma" corresp="#d4617e18689">litteris reverendi domini Placidi</seg> Nideraltahensis, quas cum rebus Nideraltahensibus commiscui et, licet resignatas, legere nolui. </seg>
-               <seg type="context" n="15" xml:id="d4617e18577"> 
-                  <seg type="lemma" corresp="#d4617e18694">Res monasterii Therensis</seg> in Franconia, ubi pene omnia praeclara. Authorem in fine commentarioli reperies. </seg>
-               <seg type="context" n="16" xml:id="d4617e18579"> 
-                  <seg type="lemma" corresp="#d4617e18701">Historia brevis monasterii Monseensis</seg> in Austria ab admodum reverendo domino Colomanno priore tui gratia missa. </seg>
-               <seg type="context" n="17" xml:id="d4617e18581"> 
-                  <seg type="lemma" corresp="#d4617e18708">Res monasterii Gottwicensis</seg> in Austria ab admodum reverendo domino Carolomanno priore transmissae, una cum monasterii delineatione gemina, quarum illa est optima, quae lacera. </seg>
-               <seg type="context" n="18" xml:id="d4617e18583"> N.B. <seg type="lemma" corresp="#d4617e18715">Historia monasterii Banthensis</seg> in Franconia mihi nuper missa fuit. Est illa quidem omnibus numeris absoluta, sed quia nimis fuse scripta, necdum omnis a me exscribi et ad te hac occasione mitti potuit. Accipies autem cum altero rerum nostrarum fasciculo.</seg>
-            </p>
-            <p>Pater Bernardus Pez professus Mellicensis.</p>
-            <p>Mellicii 11. Julii 1711.</p>
-            <p>
-               <pb n="2r"/> 
-               <seg type="context" n="19" xml:id="d4617e18592"> P.S. Iam conclusi epistolam, cum ecce <seg type="lemma" corresp="#d4617e18722">abbas S. Crucis ex Polonia in meo monasterio</seg> adest. Is omnia fere, quae petis, sat grandibus manuscriptis voluminibus comprehensa habebat. Rogatus itaque tui causa a me omnia, cum Romam venerit, se facturum promisit. Quare rogo te, ut <pb n="2v"/> quamprimum Romam, ubi praedictus abbas, praeses omnium in Polonia monasteriorum ordinis Benedictini, brevi aderit, ad vestrae congregationis <seg type="lemma" corresp="#d4617e18729">procuratorem</seg> scribas, quidque fieri velis, eidem exponas. </seg>
-               <seg type="context" n="20" xml:id="d4617e18596"> Heri ad me allatum est <seg type="lemma" corresp="#d4617e18734">Bayle Dictionarium historico-criticum Roterodami editum Gallice</seg>, opus, quod satis laudare nequeo.</seg>
-            </p>
+            <p xml:space="preserve"><pb n="1r"/> Contenta in hoc fasciculo.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e21807"> Germania Austriaca, in qua non pauca de monasteriorum ordinis sancti patris nostri Benedicti originibus etc. fide optima memorantur. Mittitur haec tibi et donatur<note place="foot" xml:id="d4618e21809">	<hi rend="italic">et donatur</hi> am rechten Blattrand eingefügt.</note>, charissime Renate, a reverendo patre <seg type="lemma" corresp="#d4618e21879">Jacobo Mayr</seg> professo Mellicensi. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e21815"> <seg type="lemma" corresp="#d4618e21886">Chronologia Thierhauptani in Bavaria monasterii ab ipso authore, admodum reverendo domino Benedicto Cherle priore, per me ad te missa</seg>. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e21817"> Θεμελίωσις monasterii S. Lamberti in Styria authore Georgio Ulrico Chemnicensi. Hanc tibi ex bibliotheca Mellicensi utendam mitto: remittes, cum ea, quae e re tua visa fuerint, excerpseris. </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e21819"> <seg type="lemma" corresp="#d4618e21893">Historia beatae Mariae virginis Cellensis</seg> in Styria, quae, cum ad res S. Lambertinas illustrandas necessaria sit, tibi a nobis dono datur. </seg><seg type="context" n="5" xml:space="preserve" xml:id="d4618e21821"> Aquila Polono-Benedictina Stanislai Scygielzci [<hi rend="italic">sic</hi>] itidem ex nostra bibliotheca tibi missa et donata. </seg><seg type="context" n="6" xml:space="preserve" xml:id="d4618e21826"> <seg type="lemma" corresp="#d4618e21900">Res monasterii Altahae Inferioris</seg> in Bavaria. </seg><seg type="context" n="7" xml:space="preserve" xml:id="d4618e21828"> <seg type="lemma" corresp="#d4618e21907">Res monasterii Lambacensis</seg>, quibus vitae Adalberonis episcopi Herbipolensis et fundatoris, Altmanni episcopi Pataviensis et Gebehardi Salisburgensis adiectae erant. Verum cum intellexerim aliunde has vitas a te haberi, minuendi fasciculi causa illae a me retentae sunt. Si et has volueris, scribe. </seg><seg type="context" n="8" xml:space="preserve" xml:id="d4618e21830"> <seg type="lemma" corresp="#d4618e21914">Res monasterii Clunicensis</seg> in Austria. </seg><seg type="context" n="9" xml:space="preserve" xml:id="d4618e21832"> <seg type="lemma" corresp="#d4618e21921">Res monasterii beatae Mariae virginis ad Scotos Viennae</seg> Austriae, ubi <seg type="lemma" corresp="#d4618e21928">geminum fundationis et confirmationis ab Henrico factae diploma</seg>. </seg><seg type="context" n="10" xml:space="preserve" xml:id="d4618e21834"> <seg type="lemma" corresp="#d4618e21933">Res monasterii Ossiacensis in Charinthia ex diffusiori opere desumptae et a reverendissimo domino abbate S. Pauli</seg> tibi missae. </seg><seg type="context" n="11" xml:space="preserve" xml:id="d4618e21836"> <seg type="lemma" corresp="#d4618e21940">Res Admontensis in Styria monasterii</seg>. Habes inde plura et solidiora<note place="foot" xml:id="d4618e21838">	Danach durchgestrichen <hi rend="italic">proxime</hi>.</note> exspectanda. </seg><seg type="context" n="12" xml:space="preserve" xml:id="d4618e21845"> <seg type="lemma" corresp="#d4618e21947">Res monasterii S. Stephani Herbipoli</seg>, quarum author de tuis rebus unice sollicitus et meritus est reverendissimus dominus Hyacinthus abbas ibidem. </seg><seg type="context" n="13" xml:space="preserve" xml:id="d4618e21847"> <seg type="lemma" corresp="#d4618e21955">Res monasterii Seittenstadiensis</seg> in Austria Inferiore. Desunt diplomata frustra a me diu iam exspectata et petita. </seg><seg type="context" n="14" xml:space="preserve" xml:id="d4618e21849"> <seg type="lemma" corresp="#d4618e21962">Res monasterii Varnpacensis</seg> in Bavaria. In his multa egregia occurrunt. Quis autem eas tibi<note place="foot" xml:id="d4618e21851">	Auf Rasur.</note> miserit, intelliges, ut spero, ex <seg type="lemma" corresp="#d4618e21969">litteris reverendi domini Placidi</seg> Nideraltahensis, quas cum rebus Nideraltahensibus commiscui et<note place="foot" xml:id="d4618e21854">	Danach Rasur im Ausmaß von ca. 3–5 Buchstaben.</note>, licet resignatas, legere nolui. </seg><seg type="context" n="15" xml:space="preserve" xml:id="d4618e21857"> <seg type="lemma" corresp="#d4618e21974">Res monasterii Therensis</seg> in Franconia, ubi pene omnia praeclara. Authorem in fine commentarioli reperies. </seg><seg type="context" n="16" xml:space="preserve" xml:id="d4618e21859"> <seg type="lemma" corresp="#d4618e21981">Historia brevis monasterii Monseensis</seg> in Austria ab admodum reverendo domino Colomanno priore tui gratia missa. </seg><seg type="context" n="17" xml:space="preserve" xml:id="d4618e21861"> <seg type="lemma" corresp="#d4618e21988">Res monasterii Gottwicensis</seg> in Austria ab admodum reverendo domino Carolomanno priore transmissae, una cum monasterii delineatione gemina, quarum illa est optima, quae lacera. </seg><seg type="context" n="18" xml:space="preserve" xml:id="d4618e21863"> N.B. <seg type="lemma" corresp="#d4618e21995">Historia monasterii Banthensis</seg> in Franconia mihi nuper missa fuit. Est illa quidem omnibus numeris absoluta, sed quia nimis fuse scripta, necdum omnis a me exscribi et ad te hac occasione mitti potuit. Accipies autem cum altero rerum nostrarum fasciculo.</seg></p>
+            <p xml:space="preserve">Pater Bernardus Pez professus Mellicensis.</p>
+            <p xml:space="preserve">Mellicii 11. Julii 1711.</p>
+            <p xml:space="preserve"><pb n="2r"/> <seg type="context" n="19" xml:space="preserve" xml:id="d4618e21872"> P.S. Iam conclusi epistolam, cum ecce <seg type="lemma" corresp="#d4618e22002">abbas S. Crucis ex Polonia in meo monasterio</seg> adest. Is omnia fere, quae petis, sat grandibus manuscriptis voluminibus comprehensa habebat. Rogatus itaque tui causa a me omnia, cum Romam venerit, se facturum promisit. Quare rogo te, ut <pb n="2v"/> quamprimum Romam, ubi praedictus abbas, praeses omnium in Polonia monasteriorum ordinis Benedictini, brevi aderit, ad vestrae congregationis <seg type="lemma" corresp="#d4618e22009">procuratorem</seg> scribas, quidque fieri velis, eidem exponas. </seg><seg type="context" n="20" xml:space="preserve" xml:id="d4618e21876"> Heri ad me allatum est <seg type="lemma" corresp="#d4618e22014">Bayle Dictionarium historico-criticum Roterodami editum Gallice</seg>, opus, quod satis laudare nequeo.</seg></p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e18599" target="#d4617e18475 #d4617e18545">
-               <ref target="">1</ref>
+            <note xml:id="d4618e21879">
+               <ref type="context">1</ref>
                <label>Jacobo Mayr</label>
                <p>Vgl. 156 &lt;13&gt;.</p>
             </note>
-            <note xml:id="d4617e18606" target="#d4617e18477 #d4617e18547">
-               <ref target="">2</ref>
+            <note xml:id="d4618e21886">
+               <ref type="context">2</ref>
                <label>Chronologia ... per me ad te missa</label>
                <p>Vgl. 52, 68 &lt;6&gt;. Auf die Sendung eines Exemplars für RM bieten die bis zu diesem Zeitpunkt eingegangenen Briefe Cherles keinen Hinweis; BP dürfte das mit 52 für ihn selbst geschickte Exemplar weitergegeben haben.</p>
             </note>
-            <note xml:id="d4617e18613" target="#d4617e18481 #d4617e18551">
-               <ref target="">4</ref>
+            <note xml:id="d4618e21893">
+               <ref type="context">4</ref>
                <label>Historia beatae Mariae virginis Cellensis</label>
                <p>Von den Druckwerken des 17. Jh. zur Geschichte von Mariazell (Maier, Mariazell 438f.; Wonisch, Bibliographie 17f.) trägt keines exakt diesen Titel. Am nächsten kommt Fischers „Historia ecclesiae Cellensis“ (1604), die hier mit Vorbehalt angesetzt wird. In erheblich späteren Notizen (StiA Melk, Karton 85 Varia 24, Fasz. 1, ad annum 1480) zitiert BP unter dem Titel „Historia Cellensis“ aus Christoph Jägers „Synoptica rerum Cellensium narratio“, die in Gerhard Pettschachers Wundersammlung „Benedicta virgo Cellensis“ (Graz 1678) eingerückt erschien. Auch diese kann hier gemeint sein.</p>
             </note>
-            <note xml:id="d4617e18620" target="#d4617e18485 #d4617e18558">
-               <ref target="">6</ref>
+            <note xml:id="d4618e21900">
+               <ref type="context">6</ref>
                <label>Res ... Altahae Inferioris</label>
                <p>Laut dem Brief Placidus Haidens an RM (vgl. &lt;14&gt;) hatte dieser bereits etwa drei Monate zuvor, also ungefähr im Februar 1711, eine „historica synopsis monasterii mei“ an Anselm Fischer in Ochsenhausen gesendet, damit sie dieser an Ruinart weiterleite. An BP schickte Haiden demnach mit 163 einige Quellen („documenta“) zur Ergänzung dieser Hausgeschichte. Diese Materialien sind hier sicherlich gemeint. Welche Beziehung zu einer Schrift „De institutione seu fundatione monasterii Altahensis Inferioris“ in StiA Melk, Karton 7 Patres 10, Fasz. 8, Nr. 47, besteht, ist nicht klar.</p>
             </note>
-            <note xml:id="d4617e18627" target="#d4617e18487 #d4617e18560">
-               <ref target="">7</ref>
+            <note xml:id="d4618e21907">
+               <ref type="context">7</ref>
                <label>Res ... Lambacensis</label>
                <p>Bei Zurückhaltung von Bimmels Werk bleibt wohl der in 143 &lt;4&gt; erwähnte Äbtekatalog.</p>
             </note>
-            <note xml:id="d4617e18634" target="#d4617e18492 #d4617e18562">
-               <ref target="">8</ref>
+            <note xml:id="d4618e21914">
+               <ref type="context">8</ref>
                <label>Res ... Clunicensis</label>
                <p>Vgl. 97, 143 &lt;4&gt;.</p>
             </note>
-            <note xml:id="d4617e18641" target="#d4617e18494 #d4617e18564">
-               <ref target="">9</ref>
+            <note xml:id="d4618e21921">
+               <ref type="context">9</ref>
                <label>Res ... ad Scotos Viennae</label>
                <p>Vgl. 175.</p>
             </note>
-            <note xml:id="d4617e18648" target="#d4617e18494 #d4617e18564">
-               <ref target="#d4617e18494 #d4617e18564">9</ref>
+            <note xml:id="d4618e21928">
+               <ref type="context">9</ref>
                <label>geminum ... diploma</label>
                <p>Über die Gründung des Wiener Schottenstifts gibt es insgesamt vier Urkunden, deren freilich nur eine echt ist. Die angebliche Gründungsurkunde von 1158 (Fichtenau–Zöllner, Urkundenbuch Babenberger 1 36–40 Nr. 27) ist ebenso ein Spurium wie zwei erweiterte Fassungen (ebd. 44–46 Nr. 30, 31) der echten Bestätigung von 1161 (ebd. 42–44 Nr. 29). BP kannte später drei dieser Urkunden (Nr. 27, 29, 31) und druckte sie auch selbst ab (Pez, Thesaurus 6/1 col. 383–386 Nr. 143, 435–439 Nr. 162, 163). Mit „geminum diploma“ dürften Nr. 27 sowie 29 oder 31 gemeint sein („fundatio et confirmatio“). Die Texte sind nicht in Ildephons Ruckers sehr knapper „Summaria notitia“ enthalten, sie dürften zusätzlich zu dieser mit 175 übermittelt worden sein. Von Nr. 27 findet sich eine Abschrift in StiA Melk, Karton 85 Varia 22, Fasz. 3, Nr. 4; ob ein Zusammenhang besteht, ist unbestimmbar.</p>
             </note>
-            <note xml:id="d4617e18653" target="#d4617e18496 #d4617e18566">
-               <ref target="">10</ref>
+            <note xml:id="d4618e21933">
+               <ref type="context">10</ref>
                <label>Res ... Ossiacensis ... abbate S. Pauli</label>
                <p>Vgl. 151. BP erwähnt nicht, dass er den Brief Reicharts mitsendet, doch wäre dies die wahrscheinlichste Gelegenheit, bei der dieser nach St.-Germain hätte gelangen können.</p>
             </note>
-            <note xml:id="d4617e18660" target="#d4617e18502 #d4617e18568">
-               <ref target="">11</ref>
+            <note xml:id="d4618e21940">
+               <ref type="context">11</ref>
                <label>Res Admontensis ... monasterii</label>
                <p>Vgl. 173 &lt;2&gt;.</p>
             </note>
-            <note xml:id="d4617e18667" target="#d4617e18504 #d4617e18571">
-               <ref target="">12</ref>
+            <note xml:id="d4618e21947">
+               <ref type="context">12</ref>
                <label>Res ... S. Stephani Herbipoli</label>
                <p>Vgl. 120.</p>
             </note>
-            <note xml:id="d4617e18675" target="#d4617e18506 #d4617e18573">
-               <ref target="">13</ref>
+            <note xml:id="d4618e21955">
+               <ref type="context">13</ref>
                <label>Res ... Seittenstadiensis</label>
                <p>Vgl. 143 &lt;5&gt;.</p>
             </note>
-            <note xml:id="d4617e18682" target="#d4617e18511 #d4617e18575">
-               <ref target="">14</ref>
+            <note xml:id="d4618e21962">
+               <ref type="context">14</ref>
                <label>Res ... Varnpacensis</label>
                <p>Vgl. 163 &lt;3&gt;.</p>
             </note>
-            <note xml:id="d4617e18689" target="#d4617e18511 #d4617e18575">
-               <ref target="#d4617e18511 #d4617e18575">14</ref>
+            <note xml:id="d4618e21969">
+               <ref type="context">14</ref>
                <label>litteris ... Placidi</label>
                <p>Dieses Schreiben Placidus Haidens an RM vom 1. Mai 1711 ist erhalten: BN FF 19664, 64r–v; vgl. Lecomte, Publication 270. Es nennt jedoch nicht den Autor der Vornbacher Materialien.</p>
             </note>
-            <note xml:id="d4617e18694" target="#d4617e18513 #d4617e18577">
-               <ref target="">15</ref>
+            <note xml:id="d4618e21974">
+               <ref type="context">15</ref>
                <label>Res ... Therensis</label>
                <p>Vgl. 144 &lt;2&gt;, 161 &lt;1&gt;. Die Formulierung am Ende des Traktats (StiB Melk, Cod. 396, 40v) lautet: „Haec itaque dicta sint de monasterii Theres fundatione, donationibus, iuribus etc., quae data opera in breviorem stylum contraximus, ne prolixis ambagibus inferremus lectori fastidium. Testor autem, qui scripsi haec, Gregorius Fuchs pro tempore prior, me optima fide exscripsisse cuncta, nec timendum posteritati de aliquo mendacii fuco vel apice falsitatis. Ad Dei divinorumque gloriam, proximorum aedificationem et ordinis splendorem actum in Theres anno Domini MDCCXI“.</p>
             </note>
-            <note xml:id="d4617e18701" target="#d4617e18515 #d4617e18579">
-               <ref target="">16</ref>
+            <note xml:id="d4618e21981">
+               <ref type="context">16</ref>
                <label>Historia ... Monseensis</label>
                <p>Vgl. 135, 143 &lt;4&gt;.</p>
             </note>
-            <note xml:id="d4617e18708" target="#d4617e18520 #d4617e18581">
-               <ref target="">17</ref>
+            <note xml:id="d4618e21988">
+               <ref type="context">17</ref>
                <label>Res ... Gottwicensis</label>
                <p>Vgl. 74.</p>
             </note>
-            <note xml:id="d4617e18715" target="#d4617e18525 #d4617e18583">
-               <ref target="">18</ref>
+            <note xml:id="d4618e21995">
+               <ref type="context">18</ref>
                <label>Historia monasterii Banthensis</label>
                <p>Vgl. 171 &lt;3&gt;.</p>
             </note>
-            <note xml:id="d4617e18722" target="#d4617e18527 #d4617e18592">
-               <ref target="">19</ref>
+            <note xml:id="d4618e22002">
+               <ref type="context">19</ref>
                <label>abbas S. Crucis ... in meo monasterio</label>
                <p>In den Melker Prioratsephemeriden fehlen Eintragungen zum Juli 1711; zum 29. Oktober 1711 ist dort allerdings ein Aufenthalt Mireckis in Melk, offenbar auf der Rückfahrt, belegt (PE 5 66). Es handelte sich um eine von mehreren Reisen Mireckis nach Rom im Zusammenhang seiner Bemühungen um Anerkennung der Polnischen Benediktinerkongregation: Kanior, Rola 131–133; vgl. Derwich, Opactwo 60. Zur Person: Kanior–Sczaniecki, Mirecki.</p>
             </note>
-            <note xml:id="d4617e18729" target="#d4617e18527 #d4617e18592">
-               <ref target="#d4617e18527 #d4617e18592">19</ref>
+            <note xml:id="d4618e22009">
+               <ref type="context">19</ref>
                <label>procuratorem</label>
                <p>Das maurinische Generalkapitel von 1711 (vgl. 154 &lt;2&gt;) hatte den bisherigen Prokurator Guillaume Laparre durch Philippe Raffier ersetzt; vgl. Gasnault, Correspondance 403. Dass BP über diese Interna unterrichtet war, kann getrost ausgeschlossen werden. Vgl. 205 &lt;9&gt;.</p>
             </note>
-            <note xml:id="d4617e18734" target="#d4617e18529 #d4617e18596">
-               <ref target="">20</ref>
+            <note xml:id="d4618e22014">
+               <ref type="context">20</ref>
                <label>Bayle Dictionarium ... Gallice</label>
                <p>In Melk ist ein Exemplar der ersten Ausgabe Rotterdam 1697 vorhanden (StiB Melk 4131, zu zwei Bänden gebunden).</p>
             </note>

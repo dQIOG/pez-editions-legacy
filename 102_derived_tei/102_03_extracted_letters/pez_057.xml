@@ -13,146 +13,116 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">57</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Stockinger, Fidelis 353, 355, 357f., 360, 369f., 376</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">II</biblScope>
+               <biblScope unit="page">92r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Moritz Müller</persName>
+               <date when="1710-04-05">1710-04-05</date>
+               <placeName>St. Gallen</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">62</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">54</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">48</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">57</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Moritz Müller</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1710-04-05</date>
-         <place-of-posting xmlns="">St. Gallen</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e5793">
-                  <persName>
-                     <abbr>MM</abbr>
-                  </persName> antwortet auf BPs Brief vom 30. März <ref type="letter">54</ref>, den er am gegenwärtigen Tag erhalten hat, nur kurz, da ihn seine Geschäfte sehr in Beschlag nehmen.</seg>
-               <seg type="context" n="2" xml:id="d4617e5798">Er ist erfreut über die positive Resonanz seines Angebotes hinsichtlich des Bücherkaufes und erwartet weitere Weisungen vom Melker Abt Dietmayr.</seg>
-               <seg type="context" n="3" xml:id="d4617e5800">Von Ruinarts „Abregé“ des Lebens Mabillons hat <persName>
-                     <abbr>MM</abbr>
-                  </persName> derzeit kein Exemplar, da er vor wenigen Tagen über dreißig Exemplare an andere Klöster verschickt hat. Sobald er wieder ein Exemplar beschafft hat, wird er es nach Melk senden, ebenso die St. Galler Ausgabe der „Annales Hirsaugienses“ des Trithemius.</seg>
-               <seg type="context" n="4" xml:id="d4617e5802">Wenn Abt Dietmayr die Werke Mabillons und der anderen Mauriner aus Antwerpen über Wien anschafft, so kommt dies teurer, als wenn <persName>
-                     <abbr>MM</abbr>
-                  </persName> die Bücher mit Maultieren von Paris nach St. Gallen transportieren lässt.</seg>
-               <seg type="context" n="5" xml:id="d4617e5804">Als sichersten Weg schlägt <persName>
-                     <abbr>MM</abbr>
-                  </persName> jenen über Ulm vor. Die Melker sollen ihre Sendungen bis dort freimachen, dann kann der St. Galler Bote, der einmal wöchentlich nach Ulm geht, sie mitnehmen. Als Adresse gibt <persName>
-                     <abbr>MM</abbr>
-                  </persName> seinen Freund, den Buchhändler Johann Wolfgang Beuerlein, an.</seg>
-               <seg type="context" n="6" xml:id="d4617e5806">Über Felix Egger von Petershausen weiß <persName>
-                     <abbr>MM</abbr>
-                  </persName> wenig zu berichten, obwohl ihm jener gut bekannt ist. Egger hat zwar ein ähnliches Werk geplant wie BP, erscheinen wird es aber wohl nie (ad Graecas Calendas). Er lebt nicht in Appenzell, das zum gleichnamigen Schweizer Kanton gehört, sondern in Klingenzell bei Konstanz, wo er als Pfarrer wirkt.</seg>
-               <seg type="context" n="7" xml:id="d4617e5808">
-                  <persName>
-                     <abbr>MM</abbr>
-                  </persName> entnimmt BPs Schreiben, dass dieser den Antwortbrief aus St.-Germain-des-Prés <ref type="letter">48</ref> noch nicht erhalten hat, den <persName>
-                     <abbr>MM</abbr>
-                  </persName> gemeinsam mit seinem eigenen Schreiben <ref type="letter">53</ref> über den Wiblinger Roman Doll weiter nach Melk geschickt hat. Er weist auf die hohen Kosten des Briefverkehrs mit Paris hin: Ein Brief kostet nicht unter 30 bis 40 Kreuzer bei Empfang oder Versendung, und er selbst gibt monatlich zwischen 20 und 30 Gulden für Porto aus. Deshalb soll <persName>
-                     <abbr>BP</abbr>
-                  </persName> seine Briefe entweder mit dem Vermerk „franco“ versehen oder <persName>
-                     <abbr>MM</abbr>
-                  </persName> eine Vollmacht erteilen; dieser wird dann allfällige Ausgaben notieren. Dies schreibt <persName>
-                     <abbr>MM</abbr>
-                  </persName> zu später Nachtstunde und mit großem Bedürfnis nach Schlaf.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e6711"><rs type="person" role="sender">MM</rs> antwortet auf <rs type="person" role="sender">BPs</rs> Brief vom 30. März <ref type="letter">54</ref>, den er am gegenwärtigen Tag erhalten hat, nur kurz, da ihn seine Geschäfte sehr in Beschlag nehmen.</seg><seg type="context" n="2" xml:id="d4618e6716">Er ist erfreut über die positive Resonanz seines Angebotes hinsichtlich des Bücherkaufes und erwartet weitere Weisungen vom Melker Abt Dietmayr.</seg><seg type="context" n="3" xml:id="d4618e6718">Von Ruinarts „Abregé“ des Lebens Mabillons hat <rs type="person" role="sender">MM</rs> derzeit kein Exemplar, da er vor wenigen Tagen über dreißig Exemplare an andere Klöster verschickt hat. Sobald er wieder ein Exemplar beschafft hat, wird er es nach Melk senden, ebenso die St. Galler Ausgabe der „Annales Hirsaugienses“ des Trithemius.</seg><seg type="context" n="4" xml:id="d4618e6720">Wenn Abt Dietmayr die Werke Mabillons und der anderen Mauriner aus Antwerpen über Wien anschafft, so kommt dies teurer, als wenn <rs type="person" role="sender">MM</rs> die Bücher mit Maultieren von Paris nach St. Gallen transportieren lässt.</seg><seg type="context" n="5" xml:id="d4618e6722">Als sichersten Weg schlägt <rs type="person" role="sender">MM</rs> jenen über Ulm vor. Die Melker sollen ihre Sendungen bis dort freimachen, dann kann der St. Galler Bote, der einmal wöchentlich nach Ulm geht, sie mitnehmen. Als Adresse gibt <rs type="person" role="sender">MM</rs> seinen Freund, den Buchhändler Johann Wolfgang Beuerlein, an.</seg><seg type="context" n="6" xml:id="d4618e6724">Über Felix Egger von Petershausen weiß <rs type="person" role="sender">MM</rs> wenig zu berichten, obwohl ihm jener gut bekannt ist. Egger hat zwar ein ähnliches Werk geplant wie BP, erscheinen wird es aber wohl nie (ad Graecas Calendas). Er lebt nicht in Appenzell, das zum gleichnamigen Schweizer Kanton gehört, sondern in Klingenzell bei Konstanz, wo er als Pfarrer wirkt.</seg><seg type="context" n="7" xml:id="d4618e6726"><rs type="person" role="sender">MM</rs> entnimmt <rs type="person" role="sender">BPs</rs> Schreiben, dass dieser den Antwortbrief aus St.-Germain-des-Prés <ref type="letter">48</ref> noch nicht erhalten hat, den <rs type="person" role="sender">MM</rs> gemeinsam mit seinem eigenen Schreiben <ref type="letter">53</ref> über den Wiblinger Roman Doll weiter nach Melk geschickt hat. Er weist auf die hohen Kosten des Briefverkehrs mit Paris hin: Ein Brief kostet nicht unter 30 bis 40 Kreuzer bei Empfang oder Versendung, und er selbst gibt monatlich zwischen 20 und 30 Gulden für Porto aus. Deshalb soll <rs type="person" role="sender">BP</rs> seine Briefe entweder mit dem Vermerk „franco“ versehen oder <rs type="person" role="sender">MM</rs> eine Vollmacht erteilen; dieser wird dann allfällige Ausgaben notieren. Dies schreibt <rs type="person" role="sender">MM</rs> zu später Nachtstunde und mit großem Bedürfnis nach Schlaf.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: II, 92r–v.</p>
-            <p>Literatur: Stockinger, Fidelis 353, 355, 357f., 360, 369f., 376.</p>
-            <p>Bezüge: 54. 62. Erwähnt 48, 53, 54.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>54</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>62</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>48</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>53</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>54</idno>
-               </ref>
-            </correspContext>
-            <p>Nummerierung: <hi rend="italic">III</hi>.</p>
+            <p xml:space="preserve">Nummerierung: <hi rend="italic">III</hi>.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Ex S. Gallo. 1710 die 5. Aprilis.</p>
-            <p>Admodum reverende clarissime domine in Christo pater ac domine colendissime.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e5835"> Ultimas admodum reverendae dominationis suae de 30. Martii ad me datas hodie die 5. Aprilis accipio: ad quas breviter et raptissime respondeo, quia inter negotia me totum obruentia vix respiro. </seg>
-               <seg type="context" n="2" xml:id="d4617e5837"> Primo. Gaudeo de gaudio ac beneplacito vestro ex meis oblatis obsequiis hausto; spondeoque me votis vestris deinceps porro non defuturum. Exspecto proin quoad libros e Gallia conducendos reverendissimi vestri imperium ac determinationem, et quidquid placuerit, promptus efficiam. </seg>
-               <seg type="context" n="3" xml:id="d4617e5839"> Secundo. Vitae Mabillonii de facto nullum exemplar ad manum est, <seg type="lemma" corresp="#d4617e5857">quia ultra 30 paucis abhinc diebus passim varia in monasteria distribui</seg>. Comparabo tamen illam proxime iterum et Melicium transmittam, sicut et <seg type="lemma" corresp="#d4617e5864">Trithemii Annales</seg> nostris typis editos, qui liber sane omni bibliotheca religiosa, praesertim et Benedictina dignus est. </seg>
-               <seg type="context" n="4" xml:id="d4617e5841"> Tertio. Si reverendissimus vester libros Mabillonii et aliorum patrum Gallorum Antwerpia per Viennam comparat, vereor certe, ne magnum in pretio dispendium faciat. Ego enim illos a prima manu Parisiis in S. Gallum per nostros mulos et clitellarios adveho, et ideo magno viarum et vecturae compendio fruor. </seg>
-               <seg type="context" n="5" xml:id="d4617e5843"> Quarto. Quoad viae et rerum ultro citroque transmittendarum securitatem quod attinet: credo, tutissima illa foret, si vos Melicio Ulmam usque franco res vestras mitteretis. Inde ego secure illas accipio, Sanct-Gallensi nuntio nostro singulis septimanis illuc abeunte et redeunte. Ego vicissim, si quid mittendum erit, eousque secure omnia ablegabo. Habeo amicum ibi, et quasi factorem meum, ut aiunt, dominum Wolfgangum <seg type="lemma" corresp="#d4617e5869">Beürlin</seg>, ad quem fasciculi inscribi et eidem recommendari possunt. Est is professione sua celebris librarius. <pb n="1v"/> 
-               </seg>
-               <seg type="context" n="6" xml:id="d4617e5847"> Quinto. De reverendo domino patre <seg type="lemma" corresp="#d4617e5876">Felice Egger Petrihusano (mihi optime noto</seg>) quid certi rescribam, nescio. Hoc solum dico: praedictum patrem multa dicere et concipere, sed parum efficere. Conatus est aliquid simile; sed num et quando conatus iste erupturus sit in optatos effectus, vereor scilicet ego ad Graecas Calendas. Is <seg type="lemma" corresp="#d4617e5883">non in Abbatiscella</seg> (qui locus est pagus cantonis Helvetici), sed in Clingencella parochum agit haud longe ab urbe Constantia. </seg>
-               <seg type="context" n="7" xml:id="d4617e5849"> Caeterum <seg type="lemma" corresp="#d4617e5888">suspicor plane ex his ultimis vestris meas una cum acclusis et ex monasterio S. Germani a Pratis per me obtentis ad vestras responsoriis nondum fuisse receptas</seg>, quia altum de hoc in vestris silentium. Transmisi illas Wiblingam a [<hi rend="italic">sic</hi>] reverendum dominum patrem <seg type="lemma" corresp="#d4617e5895">Romanum Doll</seg>. Id unum moneo: litterarum commercia Parisios usque continuanda <seg type="lemma" corresp="#d4617e5900">magnis expensis stare</seg>. Adeo ut unica epistola etsi modica citra 30 vel 40 x. non veniat aut illuc abeat. Ego alias fere singulis mensibus ultra 20 fl. et saepe ultra 30 fl. expendo ob litterarum commercia latissime et necessario propaganda: proinde rogarem, ut eaedem deinceps cum nota: franco, inscriberentur, aut mihi commissio detur, et ego omni faciliori modo pretium annotabo, si quod a me erit expendendum. Haec raptissime et fere media nocte totus fessus et in somnum languidus. Me in omnia sacra interim commendans constans maneo</seg>
-            </p>
-            <p>Totus vester pater Mauritius manu propria.</p>
+            <p xml:space="preserve"><pb n="1r"/> Ex S. Gallo. 1710 die 5. Aprilis.</p>
+            <p xml:space="preserve">Admodum reverende clarissime domine in Christo pater ac domine colendissime.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e6753"> Ultimas admodum reverendae dominationis suae de 30. Martii ad me datas hodie die 5. Aprilis accipio: ad quas breviter et raptissime respondeo, quia inter negotia me totum obruentia vix respiro. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e6755"> Primo. Gaudeo de gaudio ac beneplacito vestro ex meis oblatis obsequiis hausto; spondeoque me votis vestris deinceps porro non defuturum. Exspecto proin quoad libros e Gallia conducendos reverendissimi vestri imperium ac determinationem, et quidquid placuerit, promptus efficiam. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e6757"> Secundo. Vitae Mabillonii de facto nullum exemplar ad manum est, <seg type="lemma" corresp="#d4618e6775">quia ultra 30 paucis abhinc diebus passim varia in monasteria distribui</seg>. Comparabo tamen illam proxime iterum et Melicium transmittam, sicut et <seg type="lemma" corresp="#d4618e6782">Trithemii Annales</seg> nostris typis editos, qui liber sane omni bibliotheca religiosa, praesertim et Benedictina dignus est. </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e6759"> Tertio. Si reverendissimus vester libros Mabillonii et aliorum patrum Gallorum Antwerpia per Viennam comparat, vereor certe, ne magnum in pretio dispendium faciat. Ego enim illos a prima manu Parisiis in S. Gallum per nostros mulos et clitellarios adveho, et ideo magno viarum et vecturae compendio fruor. </seg><seg type="context" n="5" xml:space="preserve" xml:id="d4618e6761"> Quarto. Quoad viae et rerum ultro citroque transmittendarum securitatem quod attinet: credo, tutissima illa foret, si vos Melicio Ulmam usque franco res vestras mitteretis. Inde ego secure illas accipio, Sanct-Gallensi nuntio nostro singulis septimanis illuc abeunte et redeunte. Ego vicissim, si quid mittendum erit, eousque secure omnia ablegabo. Habeo amicum ibi, et quasi factorem meum, ut aiunt, dominum Wolfgangum <seg type="lemma" corresp="#d4618e6787">Beürlin</seg>, ad quem fasciculi inscribi et eidem recommendari possunt. Est is professione sua celebris librarius. <pb n="1v"/> </seg><seg type="context" n="6" xml:space="preserve" xml:id="d4618e6765"> Quinto. De reverendo domino patre <seg type="lemma" corresp="#d4618e6794">Felice Egger Petrihusano (mihi optime noto</seg>) quid certi rescribam, nescio. Hoc solum dico: praedictum patrem multa dicere et concipere, sed parum efficere. Conatus est aliquid simile; sed num et quando conatus iste erupturus sit in optatos effectus, vereor scilicet ego ad Graecas Calendas. Is <seg type="lemma" corresp="#d4618e6801">non in Abbatiscella</seg> (qui locus est pagus cantonis Helvetici), sed in Clingencella parochum agit haud longe ab urbe Constantia. </seg><seg type="context" n="7" xml:space="preserve" xml:id="d4618e6767"> Caeterum <seg type="lemma" corresp="#d4618e6806">suspicor plane ex his ultimis vestris meas una cum acclusis et ex monasterio S. Germani a Pratis per me obtentis ad vestras responsoriis nondum fuisse receptas</seg>, quia altum de hoc in vestris silentium. Transmisi illas Wiblingam a [<hi rend="italic">sic</hi>] reverendum dominum patrem <seg type="lemma" corresp="#d4618e6813">Romanum Doll</seg>. Id unum moneo: litterarum commercia Parisios usque continuanda <seg type="lemma" corresp="#d4618e6818">magnis expensis stare</seg>. Adeo ut unica epistola etsi modica citra 30 vel 40 x. non veniat aut illuc abeat. Ego alias fere singulis mensibus ultra 20 fl. et saepe ultra 30 fl. expendo ob litterarum commercia latissime et necessario propaganda: proinde rogarem, ut eaedem deinceps cum nota: franco, inscriberentur, aut mihi commissio detur, et ego omni faciliori modo pretium annotabo, si quod a me erit expendendum. Haec raptissime et fere media nocte totus fessus et in somnum languidus. Me in omnia sacra interim commendans constans maneo</seg></p>
+            <p xml:space="preserve">Totus vester pater Mauritius manu propria.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e5857" target="#d4617e5800 #d4617e5839">
-               <ref target="">3</ref>
+            <note xml:id="d4618e6775">
+               <ref type="context">3</ref>
                <label>quia ultra 30 ... distribui</label>
                <p>MM hatte diese Exemplare des „Abregé“ nicht über René Massuet erhalten. In dessen einzigem Brief, den MM bisher erhalten hatte, vom 7. März 1710 (StiA St. Gallen, Bd. 322, 319–326; diesem Brief lag 48 bei, welchen MM mit 53 an BP weitersendete), ist keine Rede von einer solchen Sendung. Als sehr wahrscheinlich kann gelten, dass er die Lieferung über Anisson und Posuel bezog (vgl. 32 &lt;4&gt;). Die hohe Zahl der Exemplare scheint auf eine Verteilung über die Helvetische Kongregation hinaus hinzuweisen.</p>
             </note>
-            <note xml:id="d4617e5864" target="#d4617e5800 #d4617e5839">
-               <ref target="#d4617e5800 #d4617e5839">3</ref>
+            <note xml:id="d4618e6782">
+               <ref type="context">3</ref>
                <label>Trithemii Annales</label>
                <p>Mabillon hatte bei seinem Besuch in St. Gallen 1683 eine Abschrift der zweiten, viel längeren Fassung der Hirsauer Annalen des Trithemius in der dortigen Bibliothek entdeckt. Da bislang nur die frühere, einbändige Fassung gedruckt vorlag (Basel 1559), drängte er beständig auf die Edition dieses Fundes, die aber erst 1690 realisiert wurde: Heer, Mabillon 187–190; Schreiner, Trithemius 77f., 89–93; Strehler, Drucklegung 174–176.</p>
             </note>
-            <note xml:id="d4617e5869" target="#d4617e5804 #d4617e5843">
-               <ref target="">5</ref>
+            <note xml:id="d4618e6787">
+               <ref type="context">5</ref>
                <label>Beürlin</label>
                <p>Paisey, Buchdrucker 16.</p>
             </note>
-            <note xml:id="d4617e5876" target="#d4617e5806 #d4617e5847">
-               <ref target="">6</ref>
+            <note xml:id="d4618e6794">
+               <ref type="context">6</ref>
                <label>Felice Egger ... noto</label>
                <p>Zum Verhältnis zwischen MM und Felix Egger ist nichts Näheres bekannt. MM beweist allerdings hier einige Kenntnis der Person und Tätigkeit Eggers; auch findet sich ein Brief Massuets an Egger (im Original) im St. Galler Stiftsarchiv in demselben Band mit den Briefen Massuets an MM (StiA St. Gallen, Bd. 322, 558–561; vgl. Stockinger, Fidelis 376). Zu Eggers Vorhaben einer Literaturgeschichte des Benediktinerordens vgl. 231 &lt;3&gt;.</p>
             </note>
-            <note xml:id="d4617e5883" target="#d4617e5806 #d4617e5847">
-               <ref target="#d4617e5806 #d4617e5847">6</ref>
+            <note xml:id="d4618e6801">
+               <ref type="context">6</ref>
                <label>non in Abbatiscella</label>
                <p>BP hatte diese Fehlinformation von Johann Weinckens, der ihn als Erster auf Egger aufmerksam gemacht hatte; vgl. 29.</p>
             </note>
-            <note xml:id="d4617e5888" target="#d4617e5808 #d4617e5849">
-               <ref target="">7</ref>
+            <note xml:id="d4618e6806">
+               <ref type="context">7</ref>
                <label>suspicor ... nondum fuisse receptas</label>
                <p>Seinem zweiten Brief an Massuet (vom 14. April 1710; BN FF 19664, 213r–214v) zufolge hatte MM dessen ersten vom 7. März am 2. April erhalten; diesem lag auch 48 bei (vgl. &lt;3&gt;). Diese Datumsangabe steht in offenbarem Widerspruch zu dem, was MM hier schreibt; eine der Angaben MMs muss unrichtig sein, doch ist nicht zu entscheiden, welche.</p>
             </note>
-            <note xml:id="d4617e5895" target="#d4617e5808 #d4617e5849">
-               <ref target="#d4617e5808 #d4617e5849">7</ref>
+            <note xml:id="d4618e6813">
+               <ref type="context">7</ref>
                <label>Romanum Doll</label>
                <p>Vgl. 58. Doll war 1703, als er an der Wiblinger Klosterschule Philosophie unterrichtete, von seinem Abt mit den jungen Klerikern nach St. Gallen geschickt worden, um sie vor den Kriegswirren von 1703/04 in Schwaben in Sicherheit zu bringen: Braig, Wiblingen 261, 268. Er hatte bei dieser Gelegenheit etwa ein Jahr in St. Gallen verbracht und dürfte deshalb MM, der zu dieser Zeit gleichfalls als Lehrer gewirkt hatte, auch persönlich gut bekannt gewesen sein. Vgl. 325 &lt;2&gt;.</p>
             </note>
-            <note xml:id="d4617e5900" target="#d4617e5808 #d4617e5849">
-               <ref target="#d4617e5808 #d4617e5849">7</ref>
+            <note xml:id="d4618e6818">
+               <ref type="context">7</ref>
                <label>magnis expensis stare</label>
                <p>Vgl. Einleitung, Abschnitt II.2.</p>
             </note>

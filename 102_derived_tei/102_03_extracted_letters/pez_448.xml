@@ -13,116 +13,93 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">448</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="otherEdition">
+               <bibl> Spevak, Edlinger 9–11.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>StiA Melk, Karton 7 Patres 13, Fasz. 1, 4r–5v.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Joachim Edlinger</persName>
+               <date when="1715-10-03">1715-10-03</date>
+               <placeName>Seitenstetten</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Hieronymus Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">447</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">447</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">446</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">448</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Joachim Edlinger</sender>
-         <recipient xmlns="">Hieronymus Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1715-10-03</date>
-         <place-of-posting xmlns="">Seitenstetten</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e48464">
-                  <persName>
-                     <abbr>JE</abbr>
-                  </persName> erinnert daran, <persName>
-                     <abbr>HP</abbr>
-                  </persName> während dessen (und BPs) Besuches in der Seitenstettener Stiftsbibliothek gesagt zu haben, dass er nicht in der Lage ist, einen französischen Brief zu verfassen; er nimmt sich deswegen nun die Freiheit, <persName>
-                     <abbr>HP</abbr>
-                  </persName> lateinisch zu antworten.</seg>
-               <seg type="context" n="2" xml:id="d4617e48466">
-                  <persName>
-                     <abbr>JE</abbr>
-                  </persName> dankt für die letzten Briefe HPs und BPs (446, 447) und will ihre durch die Übersendung von Schwanenfedern und durch das mühevolle Ausforschen einer Schrift aus St. Peter erwiesenen Dienste auf jede Weise erwidern.</seg>
-               <seg type="context" n="3" xml:id="d4617e48468">
-                  <persName>
-                     <abbr>JE</abbr>
-                  </persName> ist erfreut über die positive Beurteilung seines Vorhabens (eines Werks über richtige Aussprache) durch <persName>
-                     <abbr>HP</abbr>
-                  </persName> und BP.</seg>
-               <seg type="context" n="4" xml:id="d4617e48470">Abt Benedikt Abelzhauser hat Pater Ignaz beauftragt, mitzuteilen, wie hoch der Abt BPs „Epistolae apologeticae“ schätzt.</seg>
-               <seg type="context" n="5" xml:id="d4617e48472">Da der Seitenstettener Briefbote bereits die Abreise vorbereitet, will <persName>
-                     <abbr>JE</abbr>
-                  </persName> Weiteres möglichst persönlich mitteilen; er wünscht, <persName>
-                     <abbr>HP</abbr>
-                  </persName> und BP in Melk zu besuchen, und bittet, ihm am kommenden Sonntag bekannt zu geben, ob sie in der folgenden Woche in ihrem Kloster sein werden.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e54807"><rs type="person" role="sender">JE</rs> erinnert daran, <rs type="person" role="sender">HP</rs> während dessen (und BPs) Besuches in der Seitenstettener Stiftsbibliothek gesagt zu haben, dass er nicht in der Lage ist, einen französischen Brief zu verfassen; er nimmt sich deswegen nun die Freiheit, <rs type="person" role="sender">HP</rs> lateinisch zu antworten.</seg><seg type="context" n="2" xml:id="d4618e54809"><rs type="person" role="sender">JE</rs> dankt für die letzten Briefe <rs type="person" role="sender">HPs</rs> und BPs (446, 447) und will ihre durch die Übersendung von Schwanenfedern und durch das mühevolle Ausforschen einer Schrift aus St. Peter erwiesenen Dienste auf jede Weise erwidern.</seg><seg type="context" n="3" xml:id="d4618e54811"><rs type="person" role="sender">JE</rs> ist erfreut über die positive Beurteilung seines Vorhabens (eines Werks über richtige Aussprache) durch <rs type="person" role="sender">HP</rs> und BP.</seg><seg type="context" n="4" xml:id="d4618e54813">Abt Benedikt Abelzhauser hat Pater Ignaz beauftragt, mitzuteilen, wie hoch der Abt BPs „Epistolae apologeticae“ schätzt.</seg><seg type="context" n="5" xml:id="d4618e54815">Da der Seitenstettener Briefbote bereits die Abreise vorbereitet, will <rs type="person" role="sender">JE</rs> Weiteres möglichst persönlich mitteilen; er wünscht, <rs type="person" role="sender">HP</rs> und BP in Melk zu besuchen, und bittet, ihm am kommenden Sonntag bekannt zu geben, ob sie in der folgenden Woche in ihrem Kloster sein werden.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: StiA Melk, Karton 7 Patres 13, Fasz. 1, 4r–5v.</p>
-            <p>Edition: Spevak, Edlinger 9–11.</p>
-            <p>Bezüge: 447. Erwähnt 446, 447.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>447</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>446</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>447</idno>
-               </ref>
-            </correspContext>
-            <p>Adresse: <hi rend="italic" xml:space="preserve">Admodum reverendo religiosissimo ac eximio domino patri Hieronymo Pez ordinis sanctissimi patris Benedicti in celeberrimo ac exempto monasterio Mellicensi professo, domino ac patrono meo colendissimo. Closter Mölck. </hi>Siegel.</p>
-            <p>Bemerkungen: Auf der Außenseite des Umschlagblattes spätere Notizen: <hi rend="italic" xml:space="preserve">Expression, id est: Certae quaedam loquendi formulae, rationes ac modi Sacrae Scripturae et sanctorum patrum familiares etc. Avec reflexions morales, id est: in quo reflexe consideratur. Idem non est ac moralis. In quo, adiectis animadversionibus moralibus, expenditur genio etc. </hi>Dieser Vermerk könnte im Zusammenhang mit dem „Nouveau Testament“ von Quesnel stehen. Von anderer Hand die Notiz: <hi rend="italic">Bruno Chunradus Medlicensis Styram abiit</hi>.</p>
+            <div type="address">
+               <cit>
+                  <q>Admodum reverendo religiosissimo ac eximio domino patri Hieronymo Pez ordinis sanctissimi patris Benedicti in celeberrimo ac exempto monasterio Mellicensi professo, domino ac patrono meo colendissimo. Closter Mölck. Siegel.</q>
+               </cit>
+            </div>
+            <p xml:space="preserve">Bemerkungen: Auf der Außenseite des Umschlagblattes spätere Notizen: <hi rend="italic" xml:space="preserve">Expression, id est: Certae quaedam loquendi formulae, rationes ac modi Sacrae Scripturae et sanctorum patrum familiares etc. Avec reflexions morales, id est: in quo reflexe consideratur. Idem non est ac moralis. In quo, adiectis animadversionibus moralibus, expenditur genio etc. </hi>Dieser Vermerk könnte im Zusammenhang mit dem „Nouveau Testament“ von Quesnel stehen. Von anderer Hand die Notiz: <hi rend="italic">Bruno Chunradus Medlicensis Styram abiit</hi>.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Mon reverend pere.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e48499"> Je vous ay dit en ayant la grace de <seg type="lemma" corresp="#d4617e48514">vous voir dans ma bibliotheque</seg>, que je ne suis pas capable de faire la réponse à vôtres lettres en langue françoise. Je prends donc avec vôtre permission, dont je vous prie, la liberté de vous répondre en latin. </seg>
-               <seg type="context" n="2" xml:id="d4617e48501"> Pro insignis igitur ex utriusque vestrum, vir amicissime, ad me datis epistolis erga me immeritissimum elucescentis affectus contestatione, quas possum, gratias ago meque ad omnia sive tibi sive colendissimo domino germano tuo praestanda obsequia promtissimum offero: modos solum viasque indigita, queis redhibere favores possim a vobis per submissionem pennarum cygnearum ac laborem in indaganda <seg type="lemma" corresp="#d4617e48521">San-Petrensi scriptura</seg> exantlatum in me collatos. </seg>
-               <seg type="context" n="3" xml:id="d4617e48503"> Quod propositum meum probetis, gaudio maiori an stimulo sit, haud facile dixero. </seg>
-               <seg type="context" n="4" xml:id="d4617e48505"> Quam sublime de domini patris Bernardi <seg type="lemma" corresp="#d4617e48528">Epistolis</seg> reverendissimus noster sentiat, clarissimus dominus <seg type="lemma" corresp="#d4617e48535">pater Ignatius</seg>, ut exponat, in commissis habet. </seg>
-               <seg type="context" n="5" xml:id="d4617e48507"> Plura, quia abitum iamiam tabellarius noster parat, fortassis coram: nam prurit mihi animus ad vos excurrendi, quod si probes, instante <seg type="lemma" corresp="#d4617e48540">die Dominica</seg> vel rectulo mihi notum facito, utrum domi vos futura hebdomada continueritis an non. Valete, favete</seg>
-            </p>
-            <p>Obstrictissimo promptissimoque vestro servulo patri Joachimo Edlinger Benedictino Seittenstadiensi.</p>
-            <p>Dabam in Seittenstadio 3. Octobris 1715.</p>
+            <p xml:space="preserve"><pb n="1r"/> Mon reverend pere.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e54842"> Je vous ay dit en ayant la grace de <seg type="lemma" corresp="#d4618e54863">vous voir dans ma bibliotheque</seg>, que je ne suis pas capable de faire la réponse à vôtres lettres en langue françoise. Je prends donc avec vôtre permission, dont je vous prie, la liberté de vous répondre en latin. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e54844"> Pro insignis igitur ex utriusque vestrum, vir amicissime, ad me datis epistolis erga me immeritissimum elucescentis affectus contestatione, quas possum, gratias ago meque ad omnia sive tibi sive colendissimo domino germano tuo praestanda obsequia promtissimum offero: modos solum viasque indigita, queis redhibere favores possim a vobis per submissionem pennarum cygnearum ac laborem in indaganda <seg type="lemma" corresp="#d4618e54870">San-Petrensi scriptura</seg> exantlatum in me collatos. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e54846"> Quod propositum meum probetis, gaudio maiori an stimulo sit, haud facile dixero. </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e54848"> Quam sublime de domini patris Bernardi <seg type="lemma" corresp="#d4618e54877">Epistolis</seg> reverendissimus noster sentiat, clarissimus dominus <seg type="lemma" corresp="#d4618e54884">pater Ignatius</seg>, ut exponat, in commissis habet. </seg><seg type="context" n="5" xml:space="preserve" xml:id="d4618e54850"> Plura, quia abitum iamiam tabellarius noster parat, fortassis coram: nam prurit mihi animus ad vos excurrendi<note place="foot" xml:id="d4618e54852">	Korrigiert aus <hi rend="italic">excurrere</hi>.</note>, quod si probes, instante <seg type="lemma" corresp="#d4618e54889">die Dominica</seg> vel rectulo mihi notum facito, utrum domi vos futura hebdomada continueritis an non. Valete, favete</seg></p>
+            <p xml:space="preserve">Obstrictissimo promptissimoque vestro servulo patri Joachimo Edlinger Benedictino Seittenstadiensi.</p>
+            <p xml:space="preserve">Dabam in Seittenstadio 3. Octobris 1715.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e48514" target="#d4617e48464 #d4617e48499">
-               <ref target="">1</ref>
+            <note xml:id="d4618e54863">
+               <ref type="context">1</ref>
                <label>vous voir dans ma bibliotheque</label>
                <p>BP und HP hatten im Mai 1715 auf ihrer Bibliotheksreise nach Oberösterreich in Seitenstetten Station gemacht; vgl. 406, 411 &lt;8&gt;; Katschthaler, Briefnachlass 30.</p>
             </note>
-            <note xml:id="d4617e48521" target="#d4617e48466 #d4617e48501">
-               <ref target="">2</ref>
+            <note xml:id="d4618e54870">
+               <ref type="context">2</ref>
                <label>San-Petrensi scriptura</label>
                <p>Es findet sich weder in der späteren Korrespondenz mit JE noch andernorts ein Hinweis, von welcher Schrift oder auch nur von welcher Institution oder welchem Ort namens „St. Peter“ hier die Rede ist.</p>
             </note>
-            <note xml:id="d4617e48528" target="#d4617e48470 #d4617e48505">
-               <ref target="">4</ref>
+            <note xml:id="d4618e54877">
+               <ref type="context">4</ref>
                <label>Epistolis</label>
                <p>Gewiss die „Epistolae apologeticae“, nicht Briefe an Abelzhauser. Dieser hatte selbst unter dem Pseudonym „Eulogius abbas Europolitanus“ einen Text beigesteuert, welchen BP als „Epistola tertia“ in das Werk eingerückt hatte. Zum Weiteren vgl. Einleitung, Abschnitt I.5.</p>
             </note>
-            <note xml:id="d4617e48535" target="#d4617e48470 #d4617e48505">
-               <ref target="#d4617e48470 #d4617e48505">4</ref>
+            <note xml:id="d4618e54884">
+               <ref type="context">4</ref>
                <label>pater Ignatius</label>
                <p>In Frage kommt in erster Linie der Melker Konventuale Ignaz Müller, zu dieser Zeit Professor am Hausstudium (PE 5 129, 144, 148). Er war am 22. September mit Frater Karlmann Hueber ins oberösterreichische Zisterzienserstift Schlierbach gereist, wo eben Huebers Verwandter Christian Stadler zum Abt gewählt worden war, und kehrte am 6. Oktober nach Melk zurück; die Prioratsephemeriden vermerken ausdrücklich, dass auf dem Weg in Seitenstetten Station gemacht wurde: PE 5 139f. Zu Müller vgl. StiB Melk, Cod. 493, 76r. – Freilich gab es auch im Seitenstettener Konvent einen Mönch namens Ignaz Ambthofer. Von ihm ist lediglich bekannt, dass er aus Berchtesgaden stammte, 1704 Profess abgelegt hatte und zu einem späteren Zeitpunkt das Kloster verließ, wonach sich seine Spur verliert: Spevak, Edlinger 11.</p>
             </note>
-            <note xml:id="d4617e48540" target="#d4617e48472 #d4617e48507">
-               <ref target="">5</ref>
+            <note xml:id="d4618e54889">
+               <ref type="context">5</ref>
                <label>die Dominica</label>
                <p>6. Oktober.</p>
             </note>

@@ -13,49 +13,58 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">79</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="inferedFrom">
+               <bibl>
+                  <author>Bernhard Pez</author>
+                  <title>Littera encyclica 1</title>
+               </bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>No direct source, inferred letter.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Bernhard Pez</persName>
+               <date notBefore="1710-06-16">1710-03-31 &lt; 1710-06-16</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Severino de Ò. LE 1 (?)</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">91</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">81</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">81</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">79</id>
-         <deduced xmlns="">true</deduced>
-         <sender xmlns="">Bernhard Pez</sender>
-         <recipient xmlns="">Severino de Ò. LE 1 (?)</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1710-03-31 &lt; 1710-06-16</date>
-         <place-of-posting xmlns=""/>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="editorialNote">
-            <p>Bezüge: 81. Erwähnt in 81, 91.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>81</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>81</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>91</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: Der Terminus post quem ergibt sich aus der Anregung Stefano Omodeos in 56, die diesen Brief veranlasste.</p>
+            <p xml:space="preserve">Bemerkungen: Der Terminus post quem ergibt sich aus der Anregung Stefano Omodeos in 56, die diesen Brief veranlasste.</p>
          </div>
       </front>
       <body>
          <ab>
-            <gap reason="letter missing"/>
+            <gap reason="inferred letter"/>
          </ab>
       </body>
       <back/>

@@ -13,121 +13,111 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">294</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">II</biblScope>
+               <biblScope unit="page">38r–39v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Felix Egger</persName>
+               <date when="1713-01-19">1713-01-19</date>
+               <placeName>Klingenzell</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">380</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">281</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">280</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">294</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Felix Egger</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1713-01-19</date>
-         <place-of-posting xmlns="">Klingenzell</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e31853">
-                  <persName>
-                     <abbr>FE</abbr>
-                  </persName> nimmt an, dass sein letzter Brief vom 17. November (recte: 7. November) des Vorjahres <ref type="letter">281</ref> bei <persName>
-                     <abbr>BP</abbr>
-                  </persName> eingetroffen ist. Darin hat er die Fragen aus BPs letztem Brief <ref type="letter">280</ref> beantwortet und in der Beilage die Titel zweier Traktate von Petrus Ower und ein Epigramm von Thomas Metzler aus Zwiefalten übermittelt. <persName>
-                     <abbr>FE</abbr>
-                  </persName> hatte des Weiteren mitgeteilt, dass er fortan als Propst in Klingenzell postalisch zu erreichen ist.</seg>
-               <seg type="context" n="2" xml:id="d4617e31861">
-                  <persName>
-                     <abbr>FE</abbr>
-                  </persName> leitet nun Angaben zu Anselm Weißenbach weiter, die ihm aus Muri (von Benedikt Studer?) übermittelt worden sind. <persName>
-                     <abbr>FE</abbr>
-                  </persName> hat einen Auszug aus den zwei Bänden erhalten, die Weißenbach zur Hausgeschichte von Muri verfasst hat; dieser besteht jedoch bloß aus einer Abtreihe ohne Stellenangaben aus der Vorlage. Die beiden Werke Weißenbachs sind unveröffentlicht und werden es, wie FEs Korrespondent in Muri schreibt, aus guten Gründen bleiben.</seg>
-               <seg type="context" n="3" xml:id="d4617e31863">
-                  <persName>
-                     <abbr>FE</abbr>
-                  </persName> zitiert aus dem Brief aus Muri weitere Angaben zur Person Weißenbachs. Dieser wurde in Zug in der Schweiz geboren, wirkte nach seiner Profess zeitweise in Pfäfers, dann als Pfarrer in Muri, als Subprior und Prior und schließlich als Verwalter der Herrschaft Klingenberg. Vergleichbar ist er einem Schwan, der nicht durch die Pracht des Gefieders, sondern die Reinheit seiner Sitten leuchtet. An seinem Sterbetag, dem 4. Dezember 1696, sang er noch selbst den Hymnus „Jesu corona virginum“ zu Ehren der Hl. Barbara, die er zeitlebens besonders verehrt hatte.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e36480"><rs type="person" role="sender">FE</rs> nimmt an, dass sein letzter Brief vom 17. November (recte: 7. November) des Vorjahres <ref type="letter">281</ref> bei <rs type="person" role="sender">BP</rs> eingetroffen ist. Darin hat er die Fragen aus <rs type="person" role="sender">BPs</rs> letztem Brief <ref type="letter">280</ref> beantwortet und in der Beilage die Titel zweier Traktate von Petrus Ower und ein Epigramm von Thomas Metzler aus Zwiefalten übermittelt. <rs type="person" role="sender">FE</rs> hatte des Weiteren mitgeteilt, dass er fortan als Propst in Klingenzell postalisch zu erreichen ist.</seg><seg type="context" n="2" xml:id="d4618e36488"><rs type="person" role="sender">FE</rs> leitet nun Angaben zu Anselm Weißenbach weiter, die ihm aus Muri (von Benedikt Studer?) übermittelt worden sind. <rs type="person" role="sender">FE</rs> hat einen Auszug aus den zwei Bänden erhalten, die Weißenbach zur Hausgeschichte von Muri verfasst hat; dieser besteht jedoch bloß aus einer Abtreihe ohne Stellenangaben aus der Vorlage. Die beiden Werke Weißenbachs sind unveröffentlicht und werden es, wie <rs type="person" role="sender">FEs</rs> Korrespondent in Muri schreibt, aus guten Gründen bleiben.</seg><seg type="context" n="3" xml:id="d4618e36490"><rs type="person" role="sender">FE</rs> zitiert aus dem Brief aus Muri weitere Angaben zur Person Weißenbachs. Dieser wurde in Zug in der Schweiz geboren, wirkte nach seiner Profess zeitweise in Pfäfers, dann als Pfarrer in Muri, als Subprior und Prior und schließlich als Verwalter der Herrschaft Klingenberg. Vergleichbar ist er einem Schwan, der nicht durch die Pracht des Gefieders, sondern die Reinheit seiner Sitten leuchtet. An seinem Sterbetag, dem 4. Dezember 1696, sang er noch selbst den Hymnus „Jesu corona virginum“ zu Ehren der Hl. Barbara, die er zeitlebens besonders verehrt hatte.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: II, 38r–39v.</p>
-            <p>Bezüge: 281. 380. Erwähnt 280, 281.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>281</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>380</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>280</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>281</idno>
-               </ref>
-            </correspContext>
-            <p>Adresse: <hi rend="italic">Plurimum reverendo religiosissimo ac clarissimo domino Bernardo Pez, celeberrimi monasterii Mellicensis bibliothecario ad colendissimas manus. Gottshaus Mölck ob Wien.</hi> Siegel.</p>
-            <p>Nummerierung: <hi rend="italic">IV</hi>.</p>
-            <p>Ordnungsvermerk: <hi rend="italic">88</hi>.</p>
+            <div type="address">
+               <cit>
+                  <q>Plurimum reverendo religiosissimo ac clarissimo domino Bernardo Pez, celeberrimi monasterii Mellicensis bibliothecario ad colendissimas manus. Gottshaus Mölck ob Wien. Siegel.</q>
+               </cit>
+            </div>
+            <p xml:space="preserve">Nummerierung: <hi rend="italic">IV</hi>.</p>
+            <p xml:space="preserve">Ordnungsvermerk: <hi rend="italic">88</hi>.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Plurimum reverende religiosissime et clarissime domine pater ac patrone colendissime.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e31890"> Novissimas meas <seg type="lemma" corresp="#d4617e31908">17. Novembris</seg> priori anno datas rite ad vos pervenisse nullus dubito. Iis exacte respondi ad ultimas vestras; addidi insuper geminos titulos duorum tractatuum, quos recenter reperi, patris Oweri, cum epigrammate Mezleri Zwifaltensi [<hi rend="italic">sic</hi>] ad eundem. Praeter alia denique significavi per sacram me obedientiam destinatum denuo fuisse ad praeposituram Klingenzelensem, ubi deinceps per ordinariam postam conveniendus sum. </seg>
-               <seg type="context" n="2" xml:id="d4617e31895"> Praesentibus modo aliud non volo, quam ut ea significem, quae de patre Weissenbach Murensi nuperrime mihi communicata sunt. Primo. Submissa synopsis historiae Murensis monasterii desumpta ex <seg type="lemma" corresp="#d4617e31915">duobus tomis annalium</seg> dicti authoris; quae tamen nil prorsus continet nisi seriem abbatum Murensium nullo citato capite aut pagina, prout desiderabatur. Addit ille, <seg type="lemma" corresp="#d4617e31922">qui haec mecum communicavit</seg>, praedictos <pb n="1v"/> duos tomos dignos quidem esse publicae lucis, quam tamen hactenus non vidissent, nec iustis ex causis visuri sint. </seg>
-               <seg type="context" n="3" xml:id="d4617e31899"> Secundo. De ipso porro Anselmo Weissenbach haec perscripta fuerunt: Anselmus Weissenbach asceta Murensis natus erat anno 1638 Tugii in Helvetia parentibus patritiae dignitatis, ac primum (fors primo) aetatis flore Muris insertus eam de se instructoribus suis relinquebat spem, quae non confundebat. Sacerdotio initiatus is erat, quem superiores seu pro restaurando seu pro <seg type="lemma" corresp="#d4617e31927">reformando Fabariensi monasterio</seg> inter alios aptum ducerent. Redux ad Muros instructor fratrum designatus, inde <seg type="lemma" corresp="#d4617e31934">parochus</seg> esse iussus erat. A labore monasticam ad quietem denuo revocatus subprioris, prioris postmodum munus laudabiliter subiit. Tandem <seg type="lemma" corresp="#d4617e31939">Klingenbergensis dynastiae factus oeconomus</seg> seu vicarius per tres annos omnibus ita se exhibuit, ut quivis illum et veneraretur et amaret. Amavit et coelum animam piam, quam ad se dignis tot laboribus praemiis coronandam 4. Decembris anno 1696 evocavit. <pb n="2r"/> Innocentem hanc animam cignum diceres, non pennarum sed morum candore conspicuam, dum in ipso mortis die sibi vel lessum seu epithalamium praecinebat, intonando hymnum: <seg type="lemma" corresp="#d4617e31944">Jesu corona virginum</seg>, sanctae Barbarae in honorem, quam inter coelites praecipuo ad dies vitae colebat honore. Atque haec sunt, quae ista vice desideriis vestris servire possunt; quibus me in sinum vestrum abscondo</seg>
-            </p>
-            <p>Plurimum reverendae et clarissimae dominationis vestrae servus obstrictissimus pater Felix Egger manu propria.</p>
-            <p>Klingencellae under Costanz die 19. Januarii 1713.</p>
+            <p xml:space="preserve"><pb n="1r"/> Plurimum reverende religiosissime et clarissime domine pater ac patrone colendissime.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e36517"> Novissimas meas <seg type="lemma" corresp="#d4618e36550">17. Novembris</seg> priori anno datas rite ad vos pervenisse nullus dubito. Iis exacte respondi ad ultimas vestras; addidi insuper geminos titulos duorum tractatuum, quos recenter reperi, patris Oweri, cum epigrammate Mezleri Zwifaltensi [<hi rend="italic">sic</hi>] ad eundem. Praeter alia denique significavi per sacram me obedientiam destinatum denuo fuisse ad praeposituram Klingenzelensem, ubi deinceps per ordinariam postam conveniendus sum. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e36522"> Praesentibus modo aliud non volo, quam ut ea significem, quae de patre Weissenbach Murensi nuperrime mihi communicata sunt. Primo. Submissa<note place="foot" xml:id="d4618e36524">	Davor unleserliche Streichung im Ausmaß von 1–2 Buchstaben.</note> synopsis historiae Murensis monasterii desumpta ex <seg type="lemma" corresp="#d4618e36557">duobus tomis annalium</seg> dicti authoris; quae tamen nil prorsus continet nisi seriem abbatum Murensium nullo citato capite aut pagina, prout desiderabatur. Addit ille, <seg type="lemma" corresp="#d4618e36564">qui haec mecum communicavit</seg>, praedictos <pb n="1v"/> duos tomos dignos quidem esse publicae lucis, quam tamen hactenus non vidissent, nec iustis ex causis visuri sint. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e36529"> Secundo. De ipso porro Anselmo Weissenbach haec perscripta fuerunt<note place="foot" xml:id="d4618e36531">	Danach von anderer Hand mit Verweiszeichen am unteren Blattrand eingefügt: <hi rend="italic">sequitur a 157</hi>. Die Hand ist nicht jene FEs und auch eher nicht jene BPs.</note>: Anselmus Weissenbach asceta Murensis natus erat anno 1638 Tugii in Helvetia parentibus patritiae dignitatis, ac primum (fors primo) aetatis flore Muris insertus eam de se instructoribus suis relinquebat spem, quae non confundebat. Sacerdotio initiatus is erat, quem superiores seu pro restaurando<note place="foot" xml:id="d4618e36537">	Danach durchgestrichen <hi rend="italic">restaurando</hi>.</note> seu pro <seg type="lemma" corresp="#d4618e36569">reformando Fabariensi monasterio</seg> inter alios aptum ducerent. Redux ad Muros instructor fratrum designatus, inde <seg type="lemma" corresp="#d4618e36576">parochus</seg> esse iussus erat. A labore monasticam ad quietem denuo revocatus subprioris, prioris postmodum munus laudabiliter subiit. Tandem <seg type="lemma" corresp="#d4618e36581">Klingenbergensis dynastiae factus oeconomus</seg> seu vicarius per tres annos omnibus ita se exhibuit, ut quivis illum et veneraretur et amaret. Amavit et coelum animam piam, quam ad se dignis tot laboribus praemiis coronandam 4. Decembris anno 1696 evocavit. <pb n="2r"/> Innocentem hanc animam cignum diceres, non pennarum sed morum candore conspicuam, dum in ipso mortis die sibi vel lessum seu epithalamium praecinebat, intonando hymnum: <seg type="lemma" corresp="#d4618e36586">Jesu corona virginum</seg>, sanctae Barbarae in honorem, quam inter coelites praecipuo ad dies vitae colebat honore. Atque haec sunt, quae ista vice desideriis vestris servire possunt; quibus me in sinum vestrum abscondo</seg></p>
+            <p xml:space="preserve">Plurimum reverendae et clarissimae dominationis vestrae servus obstrictissimus pater Felix Egger manu propria.</p>
+            <p xml:space="preserve">Klingencellae under Costanz die 19. Januarii 1713.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e31908" target="#d4617e31853 #d4617e31890">
-               <ref target="">1</ref>
+            <note xml:id="d4618e36550">
+               <ref type="context">1</ref>
                <label>17. Novembris</label>
                <p>Aufgrund der Angaben zum Inhalt handelt es sich bei dem erwähnten Brief unzweifelhaft um 281; die einander widersprechenden Datumsangaben hier und in der Datierung von 281 sind beide eindeutig zu lesen. Welche von beiden ein Irrtum FEs ist, lässt sich nicht mit Sicherheit entscheiden, doch wird der Datierung von 281 im Zweifel vor der retrospektiven Angabe der Vorzug gegeben.</p>
             </note>
-            <note xml:id="d4617e31915" target="#d4617e31861 #d4617e31895">
-               <ref target="">2</ref>
+            <note xml:id="d4618e36557">
+               <ref type="context">2</ref>
                <label>duobus tomis annalium</label>
                <p>Es handelt sich bei Weißenbachs Arbeiten nicht um ein Werk in zwei Bänden, sondern um zwei separate Werke zur Geschichte von Muri, deren eines („Ecclesiastica monasterii Murensis“) nach thematischen Gesichtspunkten, das andere („Annales monasterii Murensis“) chronologisch angeordnet ist: Heer, Mabillon 77f.; Kiem, Muri 2 225f. Diese beiden Werke sind heute erhalten in Sarnen, StiA Muri, Cod. 312 und 309.</p>
             </note>
-            <note xml:id="d4617e31922" target="#d4617e31861 #d4617e31895">
-               <ref target="#d4617e31861 #d4617e31895">2</ref>
+            <note xml:id="d4618e36564">
+               <ref type="context">2</ref>
                <label>qui ... communicavit</label>
                <p>Mit einiger Wahrscheinlichkeit könnte dies Benedikt Studer gewesen sein, der wenig später – im Frühjahr 1713 – einen zum großen Teil aus Weißenbachs Annalen geschöpften Auszug zur Geschichte Muris an René Massuet nach Paris sendete: Heer, Mabillon 344f.; vgl. Kiem, Muri 2 229, 497. Es kann sich dabei möglicherweise sogar um denselben Text handeln wie jenen, den FE erhielt. Ein weiterer historiographisch tätiger Mönch von Muri, der an der Erstellung und Übermittlung beteiligt gewesen sein könnte, wäre Leodegar Maier, der Fortsetzer der Annalen Weißenbachs: Kiem, Muri 2 227f. Vgl. 231 &lt;4&gt;.</p>
             </note>
-            <note xml:id="d4617e31927" target="#d4617e31863 #d4617e31899">
-               <ref target="">3</ref>
+            <note xml:id="d4618e36569">
+               <ref type="context">3</ref>
                <label>reformando Fabariensi monasterio</label>
                <p>Seit dem Anfang des 17. Jh. unternahm die Helvetische Benediktinerkongregation fortgesetzte, doch lange Zeit wenig erfolgreiche Bemühungen zur Klosterreform in Pfäfers durch die Entsendung von Konventualen anderer Klöster, darunter häufig solcher aus Muri. Unter diesen kam Weißenbach 1665 nach Pfäfers, wo er ab 1667 den Posten eines „Vize-Statthalters“ bekleidete, doch schon wenige Jahre später nach Muri zurückkehrte. Er nutzte den Aufenthalt in Pfäfers auch zu historischen Forschungen in der dortigen Bibliothek, wo er etwa die zu dieser Zeit noch unveröffentlichte Schweizer Chronik des Ägidius Tschudi abschrieb, die er später für seine eigenen Werke heranzog: Kiem, Muri 2 76, 225f.</p>
             </note>
-            <note xml:id="d4617e31934" target="#d4617e31863 #d4617e31899">
-               <ref target="#d4617e31863 #d4617e31899">3</ref>
+            <note xml:id="d4618e36576">
+               <ref type="context">3</ref>
                <label>parochus</label>
                <p>Anselm Weißenbach war von 1674 bis 1683 Pfarrer von Muri: Kiem, Muri 2 226.</p>
             </note>
-            <note xml:id="d4617e31939" target="#d4617e31863 #d4617e31899">
-               <ref target="#d4617e31863 #d4617e31899">3</ref>
+            <note xml:id="d4618e36581">
+               <ref type="context">3</ref>
                <label>Klingenbergensis ... oeconomus</label>
                <p>Schloss und Herrschaft Klingenberg im Thurgau waren vom Kloster Muri 1651 angekauft worden: Kiem, Muri 2 29f.</p>
             </note>
-            <note xml:id="d4617e31944" target="#d4617e31863 #d4617e31899">
-               <ref target="#d4617e31863 #d4617e31899">3</ref>
+            <note xml:id="d4618e36586">
+               <ref type="context">3</ref>
                <label>Jesu corona virginum</label>
                <p>Der Laudes- und Vesperhymnus des Commune Virginum, welches am 4. Dezember als Fest der Hl. Barbara gesungen wird. Die Erwähnung, dass Weißenbach diesen Hymnus kurz vor seinem Tod sang, findet sich nach Kiem, Muri 2 226, auch in den von Leodegar Maier fortgesetzten Murenser Annalen.</p>
             </note>

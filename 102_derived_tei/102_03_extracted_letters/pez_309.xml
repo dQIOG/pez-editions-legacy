@@ -13,52 +13,53 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">309</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>No direct source, inferred letter.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Hyazinth Baumbach</persName>
+               <date notBefore="1713-06-16">&lt; 1713-06-16</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">310</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">307</idno>
+               </ref>
+               <ref type="sentWith">
+                  <idno type="pezEd">308</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">312</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">309</id>
-         <deduced xmlns="">true</deduced>
-         <sender xmlns="">Hyazinth Baumbach</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">&lt; 1713-06-16</date>
-         <place-of-posting xmlns=""/>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
-         <div type="editorialNote">
-            <p>Bezüge: 307. 310. Versendet von Würzburg bis Melk mit 308. Erwähnt in 312.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>307</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>310</idno>
-               </ref>
-               <ref type="sentWith">
-                  <label>Versendet von Würzburg bis Melk mit </label>
-                  <idno>308</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>312</idno>
-               </ref>
-            </correspContext>
-         </div>
+         <div type="editorialNote"/>
       </front>
       <body>
          <ab>
-            <gap reason="letter missing"/>
+            <gap reason="inferred letter"/>
          </ab>
       </body>
       <back/>

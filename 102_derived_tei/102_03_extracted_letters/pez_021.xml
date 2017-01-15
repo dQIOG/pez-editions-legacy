@@ -13,88 +13,86 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">21</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Katschthaler, Briefnachlass 12 (zur Beilage), 13</bibl>
+                  <bibl>Stockinger, Fidelis 384</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>Original verloren. Abschrift: StiA Melk, Karton 7 Patres 9, Abschriftencodex 145v–146r.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Wolfgang Wetter</persName>
+               <date when="1709-11-21">1709-11-21</date>
+               <placeName>Reichenau</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="next">
+                  <idno type="pezEd">20</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">20</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">143</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">21</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Wolfgang Wetter</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1709-11-21</date>
-         <place-of-posting xmlns="">Reichenau</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e1841">
-                  <persName>
-                     <abbr>WW</abbr>
-                  </persName> antwortet auf BPs Schreiben <ref type="letter">20</ref>, dass er ihn zwar nicht kennt, doch geehrt ist, an einem für den Orden so ruhmreichen Vorhaben („Bibliotheca Benedictina“) mitwirken zu dürfen. So sendet er in der Anlage das, was er aus den handschriftlichen Aufzeichnungen seines Klosters, vor allem aus Johann Egons „De viris illustribus Augiae Divitis“, zusammengestellt hat. Mitunter konnte <persName>
-                     <abbr>WW</abbr>
-                  </persName> keine Angaben zu Herkunft und Lebensdaten der Schriftsteller ausfindig machen. Manches wird vielleicht nicht nützlich sein; wenn noch etwas fehlt, so wollen <persName>
-                     <abbr>WW</abbr>
-                  </persName> und seine Mitbrüder es gerne beibringen. <persName>
-                     <abbr>WW</abbr>
-                  </persName> schließt mit Segenswünschen für BPs Vorhaben und wünscht sich, einmal ein Exemplar der „Bibliotheca“ zu erhalten.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e2087"><rs type="person" key="">WW</rs> antwortet auf <rs type="person" role="sender">BPs</rs> Schreiben <ref type="letter">20</ref>, dass er ihn zwar nicht kennt, doch geehrt ist, an einem für den Orden so ruhmreichen Vorhaben („Bibliotheca Benedictina“) mitwirken zu dürfen. So sendet er in der Anlage das, was er aus den handschriftlichen Aufzeichnungen seines Klosters, vor allem aus Johann Egons „De viris illustribus Augiae Divitis“, zusammengestellt hat. Mitunter konnte <rs type="person" key="">WW</rs> keine Angaben zu Herkunft und Lebensdaten der Schriftsteller ausfindig machen. Manches wird vielleicht nicht nützlich sein; wenn noch etwas fehlt, so wollen <rs type="person" key="">WW</rs> und seine Mitbrüder es gerne beibringen. <rs type="person" key="">WW</rs> schließt mit Segenswünschen für <rs type="person" role="sender">BPs</rs> Vorhaben und wünscht sich, einmal ein Exemplar der „Bibliotheca“ zu erhalten.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: Original verloren. Abschrift: StiA Melk, Karton 7 Patres 9, Abschriftencodex 145v–146r.</p>
-            <p>Literatur: Katschthaler, Briefnachlass 12 (zur Beilage), 13; Stockinger, Fidelis 384.</p>
-            <p>Bezüge: 20. Erwähnt 20. Erwähnt in 143.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>20</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>20</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>143</idno>
-               </ref>
-            </correspContext>
-            <p>Adresse: <hi rend="italic">Admodum reverendo religiosissimo et clarissimo domino patri Bernardo Pez celeberrimi et florentissimi monasterii Mellicensis sacri ordinis sancti patris nostri Benedicti capitulari et bibliothecario meritissimo etc., domino patrono meo observandissimo. Reichenau. Mölckh in Österreich</hi>.</p>
+            <div type="address">
+               <cit>
+                  <q>Admodum reverendo religiosissimo et clarissimo domino patri Bernardo Pez celeberrimi et florentissimi monasterii Mellicensis sacri ordinis sancti patris nostri Benedicti capitulari et bibliothecario meritissimo etc., domino patrono meo observandissimo. Reichenau. Mölckh in Österreich.</q>
+               </cit>
+            </div>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiosissime et clarissime domine pater Bernarde, domine colendissime.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e1863"> Ab ignota quidem, mihi tamen inprimis veneranda manu accepi gratissimas, quibus proinde et ego ignotus respondeo, singulari mihi ducere honori, si quid ad laudatissimum intentum admodum reverendae paternitatis vestrae pro gloria sacri ordinis nostri promovendum efficere valeam. Quae videbantur e re fore, in <seg type="lemma" corresp="#d4617e1872">acclusas pagellas</seg> ipsemet comportavi e chronico nostro et <pb n="1v"/> annalibus manuscriptis atque potissimum itidem manuscripto tractatu nostri patris <seg type="lemma" corresp="#d4617e1884">Joannis Egonii De viris illustribus</seg> monasterii Augiae Divitis excerpta. Patriam et natales quorundam scriptorum reperire nusquam potui; si qua ex adiectis bona et hystorica fide notata facile proposito reverendae paternitatis vestrae non serviant aut aliqua adhuc desiderentur, desuper edoctus lubenter supplebo defectum. Sane non recuso laborem tam per me quam per meos confratres subire in describendis et communicandis documentis necessariis et congruis. Deus et superiores conservent confirmentque admodum reverendam paternitatem vestram in coepto opere toti sacro ordini tam honorifico ac toti ecclesiae proficuo, cuius aliquando unum exemplar videre si dignus fuero, me et nostram bibliothecam reputabo felicem. Interim me impensissime commendans sum et ero</seg>
-            </p>
-            <p>Admodum reverendae clarissimae paternitatis vestrae paratissimus in Christo servus frater Wolfgangus Vötter pro tempore prior.</p>
-            <p>Ex Augia Divite 21. Novembris anno 1709.</p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiosissime et clarissime domine pater Bernarde, domine colendissime.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e2109"> Ab ignota quidem, mihi tamen inprimis veneranda manu accepi gratissimas, quibus proinde et ego ignotus respondeo, singulari mihi ducere honori, si quid ad laudatissimum intentum admodum reverendae paternitatis vestrae pro gloria sacri ordinis nostri promovendum efficere valeam. Quae videbantur e re fore, in <seg type="lemma" corresp="#d4618e2124">acclusas pagellas</seg> ipsemet comportavi e chronico nostro et <pb n="1v"/> annalibus manuscriptis atque potissimum itidem manuscripto tractatu nostri patris <seg type="lemma" corresp="#d4618e2136">Joannis Egonii De viris illustribus</seg> monasterii Augiae Divitis excerpta. Patriam et natales quorundam scriptorum reperire nusquam potui; si qua ex adiectis bona et hystorica fide notata facile proposito reverendae paternitatis vestrae non serviant aut aliqua adhuc desiderentur, desuper edoctus lubenter supplebo defectum. Sane non recuso laborem tam per me quam<note place="foot" xml:id="d4618e2113">	Davor durchgestrichen <hi rend="italic">ta</hi>.</note> per meos confratres subire in describendis et communicandis documentis necessariis et congruis. Deus et superiores conservent confirmentque admodum reverendam paternitatem vestram in coepto opere toti sacro ordini tam honorifico ac toti ecclesiae proficuo, cuius aliquando unum exemplar videre si dignus fuero, me et nostram bibliothecam reputabo felicem. Interim me impensissime commendans sum et ero</seg></p>
+            <p xml:space="preserve">Admodum reverendae clarissimae paternitatis vestrae paratissimus in Christo servus frater Wolfgangus Vötter pro tempore prior.</p>
+            <p xml:space="preserve">Ex Augia Divite 21. Novembris anno 1709.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e1872" target="#d4617e1841 #d4617e1863">
-               <ref target="">1</ref>
+            <note xml:id="d4618e2124">
+               <ref type="context">1</ref>
                <label>acclusas pagellas</label>
                <p>Der Katalog ist abschriftlich überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 146v–151r. Er trägt den Titel: „Scriptores monasterii Augiae Divitis“ und behandelt die folgenden Personen: Abt Arnefrid, Bischof von Konstanz; Abt Waldo; Abt Hatto I., Bischof von Basel; Abt Erlebald; Wetti; Abt Tatto von Kempten; Reginbert; „Kerardus“; Abt Walahfrid Strabo; Ermenrich von Ellwangen, Bischof von Passau; Abt Hatto III., Erzbischof von Mainz; Purchard; Ruotpert; Warmann, Bischof von Konstanz; Abt Berno; Hermann (von Reichenau); Abt Heinrich von Karpfen; Abt Konrad von Zimmern; Prior Johann Egon. Die Angaben zu den Äbten nach Begrich, Reichenau 1068–1073, 1076, 1081f.; Quarthal et al., Reichenau 531–533. Zu Arnefrid und Warman (der jedoch nicht in Reichenau, sondern in Einsiedeln Mönch war) vgl. Bischof et al., Bischöfe 243f., 259f.; zu Hatto I. vgl. Bruckner et al., Bischöfe 165. Zu allen Übrigen vgl. u. a. Bergmann, Dichtung; Berschin, Hermann der Lahme; Beyerle, Gründung 60, 63–73, 85–108, 112/2–112/7, 112/19–112/23, 112/26–116, 152–157; Dieterich, Geschichtschreibung 778f., 784–798; Hartig, Klosterschule 620, 622–629, 642–644/2; Önnerfors, Walahfrid; Preisendanz, Bücherei; Schmale, Weltchronistik 128, 132–149. – Für den Mönch „Kerardus“, der um die Zeit Abt Erlebalds (823–838) gelebt und eine Synonymensammlung verfasst haben soll, gibt es vor dem Eintrag in Egons Traktat „De viris illustribus“ (ediert: Holder–Preisendanz, Reichenauer Handschriften 3/2 226) anscheinend keinen früheren Beleg außer einigen Zitaten bei Goldast, Alamannicarum rerum scriptores. Dieser gibt aus dem angeblichen Werk „Kerardi Augiensis Synonyma“ mehrere lange Reihen lateinischer Synonyme (ebd. 1 194, 196, 222, 224 und öfter), wenigstens einmal aber auch eine althochdeutsche Glosse wieder (ebd. 1 223). Die Vorlage, über die Goldast keine Angaben macht, war offenbar eine Glossarhandschrift, die allenfalls durch einen eingehenden Vergleich der Zitate mit dem Wortbestand erhaltener Glossare aus der Reichenau, vielleicht auch aus St. Gallen, zu bestimmen wäre; sie könnte jedoch auch – wie viele Handschriften, mit denen Goldast gearbeitet hatte (vgl. etwa Hertenstein, Joachim von Watt 158–165) – verloren sein. Ob, wie schon Munding, Waldo 26, vermutet hat, ein Zusammenhang zwischen dem Namen des angeblichen Verfassers „Kerardus“ und jenem Reichenauer Mönch Kerhart besteht, der als Schreiber eines „Moralia in Hiob“-Codex des 9. Jh. (Landesbibliothek Karlsruhe, Cod. Augiensis IV; vgl. Holder, Reichenauer Handschriften 1 3) greifbar ist, lässt sich nicht erweisen; angesichts dessen, dass Goldast in mehreren bekannten Fällen aufgrund von Schreibervermerken zu gewagten Annahmen einer Verfasserschaft gelangte (vgl. Hertenstein, Joachim von Watt 117, 138, 159, 185–190, 194f.), scheint Derartiges auch hier zumindest denkbar. Auf welchem Wege WW in seiner Beilage zu diesem Brief zur von Egon abweichenden Darstellung gelangt, das Werk des „Kerardus“ sei ein Vergilkommentar (!) und in der Reichenauer Bibliothek noch vorhanden – wohingegen schon Egon den Verlust der „Synonyma“ beklagt hatte –, möge dahingestellt bleiben.</p>
             </note>
-            <note xml:id="d4617e1879" target="#d4617e1841 #d4617e1863">
-               <ref target="#d4617e1841 #d4617e1863">1</ref>
+            <note xml:id="d4618e2131">
+               <ref type="context">1</ref>
                <label>chronico ... annalibus</label>
                <p>Zu den Arbeiten der Reichenauer Geschichtsschreibung vgl. die oben angeführte Literatur; was WW mit der Erwähnung meint, ist nicht zu bestimmen. Die Angaben seiner Beilage scheinen sich beinahe zur Gänze auf Johann Egon zu stützen.</p>
             </note>
-            <note xml:id="d4617e1884" target="#d4617e1841 #d4617e1863">
-               <ref target="#d4617e1841 #d4617e1863">1</ref>
+            <note xml:id="d4618e2136">
+               <ref type="context">1</ref>
                <label>Joannis Egonii De viris illustribus</label>
                <p>Zu Egon: Begrich, Reichenau 1094; Holder–Preisendanz, Reichenauer Handschriften 3/1 69f., 3/2 212–245; Mone, Quellensammlung 1 (85)f. Das Autograph seines 1630 fertig gestellten Traktats „De viris illustribus monasterii Augiae Divitis“ befindet sich heute im GLA Karlsruhe, 65/1100. Die Nachricht WWs über Egon und besonders über diese Schrift ist von Bedeutung für die Haltung BPs in der Korrespondenz mit Moritz Müller, der ihm dazu unvollständige und irreführende Informationen zu übermitteln versuchte (204). Vgl. auch 143 &lt;14&gt;.</p>
             </note>

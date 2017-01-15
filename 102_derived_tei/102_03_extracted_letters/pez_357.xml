@@ -13,65 +13,55 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">357</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>No direct source, inferred letter.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>René Massuet</persName>
+               <date notBefore="1714-09-19">&lt; 1714-09-19</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">364</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">354</idno>
+               </ref>
+               <ref type="sentWith">
+                  <idno type="pezEd">358</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">359</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">357</id>
-         <deduced xmlns="">true</deduced>
-         <sender xmlns="">René Massuet</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">&lt; 1714-09-19</date>
-         <place-of-posting xmlns=""/>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="editorialNote">
-            <p>Bezüge: 354. 364. Versendet von Wien bis Melk mit 358. Erwähnt in 359, 360, 364, 379, 384.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>354</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>364</idno>
-               </ref>
-               <ref type="sentWith">
-                  <label>Versendet von Wien bis Melk mit </label>
-                  <idno>358</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>359</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>360</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>364</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>379</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>384</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: Der Brief wurde von RM an Johann Christoph Bartenstein geschickt, der ihn nach Melk weiterleitete. Die Reihung erfolgt trotz des gleichen Terminus ante quem vor 358.</p>
+            <p xml:space="preserve">Bemerkungen: Der Brief wurde von RM an Johann Christoph Bartenstein geschickt, der ihn nach Melk weiterleitete. Die Reihung erfolgt trotz des gleichen Terminus ante quem vor 358.</p>
          </div>
       </front>
       <body>
          <ab>
-            <gap reason="letter missing"/>
+            <gap reason="inferred letter"/>
          </ab>
       </body>
       <back/>

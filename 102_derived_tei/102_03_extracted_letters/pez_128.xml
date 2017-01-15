@@ -13,51 +13,51 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">128</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>No direct source, inferred letter.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Mariano Armellini</persName>
+               <date notBefore="1710-12-02">&lt; 1710-12-02</date>
+               <placeName>Rom (S. Paolo fuori le Mura)</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">207</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">104</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">129</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">128</id>
-         <deduced xmlns="">true</deduced>
-         <sender xmlns="">Mariano Armellini</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">&lt; 1710-12-02</date>
-         <place-of-posting xmlns="">Rom (S. Paolo fuori le Mura)</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
-         <div type="editorialNote">
-            <p>Bezüge: 104. 207. Erwähnt in 129, 143.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>104</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>207</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>129</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>143</idno>
-               </ref>
-            </correspContext>
-         </div>
+         <div type="editorialNote"/>
       </front>
       <body>
          <ab>
-            <gap reason="letter missing"/>
+            <gap reason="inferred letter"/>
          </ab>
       </body>
       <back/>

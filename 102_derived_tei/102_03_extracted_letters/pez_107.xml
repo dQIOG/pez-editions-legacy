@@ -13,124 +13,111 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">107</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Katschthaler, Briefnachlass 16 (mit 43 vermengt)</bibl>
+                  <bibl>Stockinger, Fidelis 359f</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">103r–104v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Anselm Fischer</persName>
+               <date when="1710-09-07">1710-09-07</date>
+               <placeName>Ochsenhausen</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">112</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">105</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">105</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">107</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Anselm Fischer</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1710-09-07</date>
-         <place-of-posting xmlns="">Ochsenhausen</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e10885">
-                  <persName>
-                     <abbr>AF</abbr>
-                  </persName> hat auf BPs letzten Brief <ref type="letter">105</ref> deshalb nicht eher geantwortet, weil er einige Zeit von seinem Kloster abwesend war.</seg>
-               <seg type="context" n="2" xml:id="d4617e10890">Der Ochsenhausener Abt Hieronymus Lindau ist zwar durchaus bereit, <persName>
-                     <abbr>BP</abbr>
-                  </persName> das „Spicilegium“ von d’Achery zu schicken, schlägt aber zunächst vor, das Werk aus Frankreich zu beziehen, da er annimmt, dass <persName>
-                     <abbr>BP</abbr>
-                  </persName> ein Ankauf lieber ist als eine Ausleihe. Lindau und <persName>
-                     <abbr>AF</abbr>
-                  </persName> empfehlen die Methode, die sie selbst erfolgreich angewandt haben, nämlich das Geschäft einem Großhändler mit guten Beziehungen zu französischen Händlern anzuvertrauen, von dem sie die Bücher dann bereits gebunden erhalten haben. So kann man leicht und weit sicherer einkaufen als über persönliche Bekannte oder Buchhändler. <persName>
-                     <abbr>AF</abbr>
-                  </persName> nimmt an, dass es in Wien etliche geeignete Händler geben muss.</seg>
-               <seg type="context" n="3" xml:id="d4617e10892">
-                  <persName>
-                     <abbr>AF</abbr>
-                  </persName> fragt an, ob das „Chronicon Mellicense“ von Schramb auch in seine Gegend ausgeliefert worden ist, sodass er es in Ulm, Augsburg oder einem anderen nahen Ort kaufen könnte; in Buchhandelskatalogen hat er es bisher nicht finden können.</seg>
-               <seg type="context" n="4" xml:id="d4617e10894">In einem Postskriptum spricht <persName>
-                     <abbr>AF</abbr>
-                  </persName> die Hoffnung aus, dass sein neuestes Werk „Conversatio externa religiosa“ innerhalb eines Monats fertig sein wird, und lässt seine Bekannten Anselm Schramb und Koloman Scherb grüßen.</seg>
-               <seg type="context" n="5" xml:id="d4617e10896">In einer zusätzlichen Notiz nennt <persName>
-                     <abbr>AF</abbr>
-                  </persName> die genauen bibliographischen Angaben des „Spicilegium“. Das Ochsenhausener Exemplar ist aus der zweiten Ausgabe.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e12721"><rs type="person" role="sender">AF</rs> hat auf <rs type="person" role="sender">BPs</rs> letzten Brief <ref type="letter">105</ref> deshalb nicht eher geantwortet, weil er einige Zeit von seinem Kloster abwesend war.</seg><seg type="context" n="2" xml:id="d4618e12726">Der Ochsenhausener Abt Hieronymus Lindau ist zwar durchaus bereit, <rs type="person" role="sender">BP</rs> das „Spicilegium“ von d’Achery zu schicken, schlägt aber zunächst vor, das Werk aus Frankreich zu beziehen, da er annimmt, dass <rs type="person" role="sender">BP</rs> ein Ankauf lieber ist als eine Ausleihe. Lindau und <rs type="person" role="sender">AF</rs> empfehlen die Methode, die sie selbst erfolgreich angewandt haben, nämlich das Geschäft einem Großhändler mit guten Beziehungen zu französischen Händlern anzuvertrauen, von dem sie die Bücher dann bereits gebunden erhalten haben. So kann man leicht und weit sicherer einkaufen als über persönliche Bekannte oder Buchhändler. <rs type="person" role="sender">AF</rs> nimmt an, dass es in Wien etliche geeignete Händler geben muss.</seg><seg type="context" n="3" xml:id="d4618e12728"><rs type="person" role="sender">AF</rs> fragt an, ob das „Chronicon Mellicense“ von Schramb auch in seine Gegend ausgeliefert worden ist, sodass er es in Ulm, Augsburg oder einem anderen nahen Ort kaufen könnte; in Buchhandelskatalogen hat er es bisher nicht finden können.</seg><seg type="context" n="4" xml:id="d4618e12730">In einem Postskriptum spricht <rs type="person" role="sender">AF</rs> die Hoffnung aus, dass sein neuestes Werk „Conversatio externa religiosa“ innerhalb eines Monats fertig sein wird, und lässt seine Bekannten Anselm Schramb und Koloman Scherb grüßen.</seg><seg type="context" n="5" xml:id="d4618e12732">In einer zusätzlichen Notiz nennt <rs type="person" role="sender">AF</rs> die genauen bibliographischen Angaben des „Spicilegium“. Das Ochsenhausener Exemplar ist aus der zweiten Ausgabe.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: I, 103r–104v.</p>
-            <p>Literatur: Katschthaler, Briefnachlass 16 (mit 43 vermengt); Stockinger, Fidelis 359f.</p>
-            <p>Bezüge: 105. 112. Erwähnt 105.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>105</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>112</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>105</idno>
-               </ref>
-            </correspContext>
-            <p>Adresse: <hi rend="italic">Admodum reverendo religiosissimo et clarissimo domino patri Bernardo Pez celeberrimi et antiquissimi monasterii Mellicensis in Austria professo, capitulari et bibliothecario meritissimo etc., domino meo colendissimo.</hi> Postalische Vermerke von mehreren Händen: <hi rend="italic">Ochsenhausen. Gottshaus Melckh in Österreich. Franco 10. Reegenspurg.</hi>
-            </p>
-            <p>Nummerierung: <hi rend="italic">III</hi>.</p>
-            <p>Ordnungsvermerk: <hi rend="italic">30</hi>.</p>
-            <p>Bemerkungen: Auf 2v oberhalb der Adresse Eingangsvermerk BPs: <hi rend="italic">Accepi 23. Septembris 1710. Respondi 27 Septembris 1710.</hi>
-            </p>
+            <div type="address">
+               <cit>
+                  <q>Admodum reverendo religiosissimo et clarissimo domino patri Bernardo Pez celeberrimi et antiquissimi monasterii Mellicensis in Austria professo, capitulari et bibliothecario meritissimo etc., domino meo colendissimo. Postalische Vermerke von mehreren Händen: Ochsenhausen. Gottshaus Melckh in Österreich. Franco 10. Reegenspurg.</q>
+               </cit>
+            </div>
+            <p xml:space="preserve">Nummerierung: <hi rend="italic">III</hi>.</p>
+            <p xml:space="preserve">Ordnungsvermerk: <hi rend="italic">30</hi>.</p>
+            <p xml:space="preserve">Bemerkungen: Auf 2v oberhalb der Adresse Eingangsvermerk BPs: <hi rend="italic">Accepi 23. Septembris 1710. Respondi 27 Septembris 1710.</hi></p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiosissime ac clarissime domine pater bibliotharie [<hi rend="italic">sic</hi>], amice colendissime.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e10934"> Quod ad clarissimae dominationis vestrae litteras non citius respondeam, causa est, quod aliquanto tempore domo abfuerim. </seg>
-               <seg type="context" n="2" xml:id="d4617e10936"> Unde, quod hucusque intermissum, nunc suppleo, et significo reverendissimum dominum dominum abbatem meum non esse invitum ad mittenda desiderata <seg type="lemma" corresp="#d4617e10955">opuscula a domno Luca D’Acheri collecta</seg>; prius tamen scribendum et modum quempiam suggerendum duxit, qualiter opuscula illa ex Gallia haberi possint: quia gratius supponit fore, si comparari possint, quam si mutuari tantum debeant. Modum autem meliorem non scimus, quam quem nos practicavimus, et est iste: commisimus negotium celebri cuidam mercatori habenti correspondentiam cum mercatoribus Gallicis, per quem omnia opuscula <seg type="lemma" corresp="#d4617e10962">iam compacta</seg> (sic enim fieri solet) accepimus; quo modo et vos facili negotio et longe certius comparare quam per quosvis amicos aut <pb n="1v"/> bibliopolas poteritis. Tales autem mercatores plures Viennae dari suppono, qui, si voluerint, procurare poterunt. </seg>
-               <seg type="context" n="3" xml:id="d4617e10940"> Hac etiam occasione ego quoque certiorari cupio rogoque, an <seg type="lemma" corresp="#d4617e10967">Annales vestri</seg> ad has partes iam devenerint, et an Ulmae vel Augustae aut alibi extent, ut eos emere possim: neque enim in cathalogis librorum quidquam de iis expressum legi. De caetero me sincero affectu humanissime commendo et, dum vixero, perservero</seg>
-            </p>
-            <p>Admodum reverendae clarissimae dominationis vestrae servus paratissimus pater Anselmus Fischer Ochsenhusanus manu propria.</p>
-            <p>Ochsenhusii 7. Septembris 1710.</p>
-            <p>
-               <seg type="context" n="4" xml:id="d4617e10947"> Opusculum meum novum intra mensem absolvendum spero. Commendo me meis <seg type="lemma" corresp="#d4617e10974">olim notis dominis patribus Anselmo et Colomanno</seg>.</seg>
-            </p>
-            <p>
-               <pb n="2r"/> 
-               <seg type="context" n="5" xml:id="d4617e10952"> Titulus desideratorum opusculorum est iste: Veterum aliquot scriptorum, qui in Galliae bibliothecis maxime Benedictinorum latuerant, spicilegium. Opera et studio domni Lucae D’Acherii e congregatione sancti Mauri monachi Benedictini. Parisiis etc. N.B. Nostra <seg type="lemma" corresp="#d4617e10981">editio est secunda</seg>.</seg>
-            </p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiosissime ac clarissime domine pater bibliotharie [<hi rend="italic">sic</hi>], amice colendissime.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e12770"> Quod ad clarissimae dominationis vestrae litteras non citius respondeam, causa est, quod aliquanto tempore domo abfuerim. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e12772"> Unde, quod hucusque intermissum, nunc suppleo, et significo reverendissimum dominum dominum abbatem meum non esse invitum ad mittenda desiderata <seg type="lemma" corresp="#d4618e12797">opuscula a domno Luca D’Acheri collecta</seg>; prius tamen scribendum et modum quempiam suggerendum duxit, qualiter opuscula illa ex Gallia haberi possint: quia gratius supponit fore, si comparari possint, quam si mutuari tantum debeant. Modum autem meliorem non scimus, quam quem nos practicavimus, et est iste: commisimus negotium celebri cuidam mercatori habenti correspondentiam cum mercatoribus Gallicis, per quem omnia<note place="foot" xml:id="d4618e12774">	Korrigiert aus <hi rend="italic">omp</hi>.</note> opuscula <seg type="lemma" corresp="#d4618e12804">iam compacta</seg> (sic enim fieri solet) accepimus; quo modo et vos facili negotio et longe certius comparare quam per quosvis amicos aut <pb n="1v"/> bibliopolas poteritis. Tales autem mercatores plures Viennae dari suppono, qui, si voluerint, procurare poterunt. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e12782"> Hac etiam occasione ego quoque certiorari cupio rogoque, an <seg type="lemma" corresp="#d4618e12809">Annales vestri</seg> ad has partes iam devenerint, et an Ulmae vel Augustae aut alibi extent, ut eos emere possim: neque enim in cathalogis librorum quidquam de iis expressum legi. De caetero me sincero affectu humanissime commendo et, dum vixero, perservero</seg></p>
+            <p xml:space="preserve">Admodum reverendae clarissimae dominationis vestrae servus paratissimus pater Anselmus Fischer Ochsenhusanus manu propria.</p>
+            <p xml:space="preserve">Ochsenhusii 7. Septembris 1710.</p>
+            <p xml:space="preserve"><seg type="context" n="4" xml:space="preserve" xml:id="d4618e12789"> Opusculum meum novum intra mensem absolvendum spero. Commendo me meis <seg type="lemma" corresp="#d4618e12816">olim notis dominis patribus Anselmo et Colomanno</seg>.</seg></p>
+            <p xml:space="preserve"><pb n="2r"/> <seg type="context" n="5" xml:space="preserve" xml:id="d4618e12794"> Titulus desideratorum opusculorum est iste: Veterum aliquot scriptorum, qui in Galliae bibliothecis maxime Benedictinorum latuerant, spicilegium. Opera et studio domni Lucae D’Acherii e congregatione sancti Mauri monachi Benedictini. Parisiis etc. N.B. Nostra <seg type="lemma" corresp="#d4618e12823">editio est secunda</seg>.</seg></p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e10955" target="#d4617e10890 #d4617e10936">
-               <ref target="">2</ref>
+            <note xml:id="d4618e12797">
+               <ref type="context">2</ref>
                <label>opuscula a ... D’Acheri collecta</label>
                <p>Vgl. 68 &lt;3&gt;, 71 &lt;8&gt;, 88 &lt;3&gt;, 92 &lt;6&gt;.</p>
             </note>
-            <note xml:id="d4617e10962" target="#d4617e10890 #d4617e10936">
-               <ref target="#d4617e10890 #d4617e10936">2</ref>
+            <note xml:id="d4618e12804">
+               <ref type="context">2</ref>
                <label>iam compacta</label>
                <p>Vgl. die Aussage Moritz Müllers in 32 &lt;6&gt;, wonach er Bücher aus Frankreich vorzugsweise ungebunden zu beziehen pflegte.</p>
             </note>
-            <note xml:id="d4617e10967" target="#d4617e10892 #d4617e10940">
-               <ref target="">3</ref>
+            <note xml:id="d4618e12809">
+               <ref type="context">3</ref>
                <label>Annales vestri</label>
                <p>Sicherlich das „Chronicon Mellicense“, dessen zweiter Titel mit „Annales“ beginnt.</p>
             </note>
-            <note xml:id="d4617e10974" target="#d4617e10894 #d4617e10947">
-               <ref target="">4</ref>
+            <note xml:id="d4618e12816">
+               <ref type="context">4</ref>
                <label>olim notis ... Anselmo et Colomanno</label>
                <p>Vgl. 43 &lt;9&gt;.</p>
             </note>
-            <note xml:id="d4617e10981" target="#d4617e10896 #d4617e10952">
-               <ref target="">5</ref>
+            <note xml:id="d4618e12823">
+               <ref type="context">5</ref>
                <label>editio ... secunda</label>
                <p>Die wenig veränderte zweite Ausgabe begann noch während des Erscheinens der ersten herauszukommen (1665).</p>
             </note>

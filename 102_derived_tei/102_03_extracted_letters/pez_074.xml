@@ -13,131 +13,134 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">74</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Katschthaler, Briefnachlass 14f</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">II</biblScope>
+               <biblScope unit="page">223r–224v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Karlmann Schretl</persName>
+               <date when="1710-05-28">1710-05-28</date>
+               <placeName>Göttweig</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">139</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">73</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">72</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">177</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">74</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Karlmann Schretl</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1710-05-28</date>
-         <place-of-posting xmlns="">Göttweig</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e7618">KSch ist nun endlich in der Lage, auf BPs Brief von vor beinahe einem halben Jahr <ref type="letter">72</ref> zu antworten, in welchem dieser um einen Schriftstellerkatalog von Göttweig ersucht hat. Es hat nämlich eben einer der auf den Pfarren befindlichen Göttweiger Konventualen ein Verzeichnis der Werke des berühmten Göttweiger Abtes David Gregor Corner, Doktors der Theologie und der Rechte, eingeschickt. Mit dessen Anfertigung hatte KSch seinen Mitbruder unmittelbar nach Erhalt von BPs Brief beauftragt, weil er selbst im Begriff war, eine Reise anzutreten; da jener aber bald darauf als Kooperator in eine der Stiftspfarren versetzt wurde, hat sich die Arbeit verzögert. KSch bittet um Verzeihung, dass er wegen seiner vielen Verpflichtungen der Bitte nicht eher entsprechen konnte; er schließt das Schriftenverzeichnis Corners bei und bittet BP, einige Schreibfehler darin verbessern zu wollen.</seg>
-               <seg type="context" n="2" xml:id="d4617e7623">Während KSch diesen Brief schreibt, ist der Kammerdiener seines Abtes Berthold Mayr eingetreten und hat ihm einen weiteren Brief BPs <ref type="letter">73</ref> mit dem Auftrag zur Beantwortung überbracht. Er ersieht aus diesem Brief, dass <persName>
-                     <abbr>BP</abbr>
-                  </persName> die Denkmäler und Urkunden sowohl Göttweigs als auch anderer Klöster für die „Annales OSB“ der Mauriner sammelt. Er lobt das Bemühen sowohl der Nachfolger Mabillons als auch BPs und will der Bitte entsprechen, indem er eine Darstellung der Gründung und weiteren Erwerbungen Göttweigs zusammenstellen lässt. Hieran haben bereits zwei Göttweiger nacheinander gearbeitet, von denen der erste verstorben ist, der zweite wegen wirtschaftlicher Aufgaben in seiner Pfarre nur langsam vorankommt. KSch will nun jedoch die Fertigstellung einfordern und das Material („Ursprung klosters Göttweig“) übermitteln; dessen sinnvolle Anordnung überlässt er BP.</seg>
-               <seg type="context" n="3" xml:id="d4617e7628">Zu bedauern ist allerdings, dass ein Brand in Göttweig zu Anfang des 17. Jahrhunderts (recte: 1580) auch Archiv und Bibliothek in Mitleidenschaft gezogen hat und dadurch vieles Wissenswerte im Dunkeln bleibt, vor allem über die bedeutenden Göttweiger Konventualen.</seg>
-               <seg type="context" n="4" xml:id="d4617e7630">Am kommenden Samstag (31. Mai) wird KSch durch seinen Diener, der nach Maria Taferl abgeht, <persName>
-                     <abbr>BP</abbr>
-                  </persName> einen Stich von Göttweig und dessen Umgebung senden, auf welchem eine kurze Darstellung der Gründung zu lesen ist.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e8605">KSch ist nun endlich in der Lage, auf <rs type="person" role="sender">BPs</rs> Brief von vor beinahe einem halben Jahr <ref type="letter">72</ref> zu antworten, in welchem dieser um einen Schriftstellerkatalog von Göttweig ersucht hat. Es hat nämlich eben einer der auf den Pfarren befindlichen Göttweiger Konventualen ein Verzeichnis der Werke des berühmten Göttweiger Abtes David Gregor Corner, Doktors der Theologie und der Rechte, eingeschickt. Mit dessen Anfertigung hatte KSch seinen Mitbruder unmittelbar nach Erhalt von <rs type="person" role="sender">BPs</rs> Brief beauftragt, weil er selbst im Begriff war, eine Reise anzutreten; da jener aber bald darauf als Kooperator in eine der Stiftspfarren versetzt wurde, hat sich die Arbeit verzögert. KSch bittet um Verzeihung, dass er wegen seiner vielen Verpflichtungen der Bitte nicht eher entsprechen konnte; er schließt das Schriftenverzeichnis Corners bei und bittet BP, einige Schreibfehler darin verbessern zu wollen.</seg><seg type="context" n="2" xml:id="d4618e8610">Während KSch diesen Brief schreibt, ist der Kammerdiener seines Abtes Berthold Mayr eingetreten und hat ihm einen weiteren Brief <rs type="person" role="sender">BPs</rs> <ref type="letter">73</ref> mit dem Auftrag zur Beantwortung überbracht. Er ersieht aus diesem Brief, dass <rs type="person" role="sender">BP</rs> die Denkmäler und Urkunden sowohl Göttweigs als auch anderer Klöster für die „Annales OSB“ der Mauriner sammelt. Er lobt das Bemühen sowohl der Nachfolger Mabillons als auch <rs type="person" role="sender">BPs</rs> und will der Bitte entsprechen, indem er eine Darstellung der Gründung und weiteren Erwerbungen Göttweigs zusammenstellen lässt. Hieran haben bereits zwei Göttweiger nacheinander gearbeitet, von denen der erste verstorben ist, der zweite wegen wirtschaftlicher Aufgaben in seiner Pfarre nur langsam vorankommt. KSch will nun jedoch die Fertigstellung einfordern und das Material („Ursprung klosters Göttweig“) übermitteln; dessen sinnvolle Anordnung überlässt er BP.</seg><seg type="context" n="3" xml:id="d4618e8615">Zu bedauern ist allerdings, dass ein Brand in Göttweig zu Anfang des 17. Jahrhunderts (recte: 1580) auch Archiv und Bibliothek in Mitleidenschaft gezogen hat und dadurch vieles Wissenswerte im Dunkeln bleibt, vor allem über die bedeutenden Göttweiger Konventualen.</seg><seg type="context" n="4" xml:id="d4618e8617">Am kommenden Samstag (31. Mai) wird KSch durch seinen Diener, der nach Maria Taferl abgeht, <rs type="person" role="sender">BP</rs> einen Stich von Göttweig und dessen Umgebung senden, auf welchem eine kurze Darstellung der Gründung zu lesen ist.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: II, 223r–224v.</p>
-            <p>Literatur: Katschthaler, Briefnachlass 14f.</p>
-            <p>Bezüge: 73. 139. Erwähnt 72, 73. Erwähnt in 177.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>73</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>139</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>72</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>73</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>177</idno>
-               </ref>
-            </correspContext>
-            <p>Adresse: <hi rend="italic">Admodum reverendo religiosissimo nobili ac eximio domino patri Bernardo Pez ordinis sancti Benedicti celeberrimi et exempti monasterii Mellicensis professo et bibliothecario eruditissimo, domino mihi colendo. Mölckh</hi>. Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 55r.</p>
-            <p>Ordnungsvermerk: <hi rend="italic">18</hi>.</p>
+            <div type="address">
+               <cit>
+                  <q>Admodum reverendo religiosissimo nobili ac eximio domino patri Bernardo Pez ordinis sancti Benedicti celeberrimi et exempti monasterii Mellicensis professo et bibliothecario eruditissimo, domino mihi colendo. Mölckh. Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 55r.</q>
+               </cit>
+            </div>
+            <p xml:space="preserve">Ordnungsvermerk: <hi rend="italic">18</hi>.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiosissime nobilis ac eximie domine pater Bernarde.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e7654"> Tandem aliquando ad datas ad me elapso vix non anni dimidio gratissimas, quibus et nomina et scripta virorum clarorum monasterii nostri postulaverat, respondere licet, ubi ab inopinato a quodam nostrate exposito sacerdote accipio numerum descriptum librorum, quos reverendissimus noster abbas David Gregorius Cornerus sacrae theologiae et, quantum mihi videtur, <seg type="lemma" corresp="#d4617e7674">utriusque quoque iuris doctor</seg>, vir scriptis toto imperio clarissimus, ediderat. Statim a quo litteras dominationis vestrae accepi, provinciam hanc inquirendi in scripta reverendissimi domini domini Corneri et simul respondendi praedicto sacerdoti tum adhuc in conventu degenti commisi (eram enim iam accinctus cuidam itineri). Sed quia paulo post idem e conventu <seg type="lemma" corresp="#d4617e7681">dimissus fuit cuidam parocho nostro cooperaturus</seg>, negotium hoc non tam neglectum quam dilatum fuit. Dabit proinde veniam dominatio vestra admodum reverenda, quod iustae et laudabili suae petitioni non citius satisfactum sit; continua et concatenata quasi negotia, vix non dixerim insupportabilia onera, me ita distrahunt, ut et <pb n="1v"/> maxime necessaria seponere quandoque cogar. Accludo hisce meis <seg type="lemma" corresp="#d4617e7686">descriptionem librorum</seg>, prout illam a memorato cooperatore accepi; adverti in perfunctoria relectione irrepsisse quosdam errores calami, quos dominatio vestra admodum reverenda pro sua benignitate sciet corrigere. </seg>
-               <seg type="context" n="2" xml:id="d4617e7658"> Mira res: dum haec scribo, ingreditur cellam meam <seg type="lemma" corresp="#d4617e7691">cubicularius mei reverendissimi</seg> domini afferens cum litteris dominationis vestrae quoque mandatum ad easdem respondendi, ex quibus intelligo eidem studium hoc esse: conquirendi <seg type="lemma" corresp="#d4617e7698">monumenta et decora et nostri monasterii et aliorum, Parisiis in universalem descriptionem congerenda</seg>. Zelus summis certe encomiis dignus tam in asseclis celeberrimi Mabillonii quam in dominatione vestra admodum reverenda, cuius votis ut morem geram, non deero memorabilia nostrae fundationis, et quidquid huic per industriam praesulum accessit, conquirere. Laborarunt quidem successive in iis describendis duo ex expositis nostris, quorum <seg type="lemma" corresp="#d4617e7703">prior fatis cessit, alter suae oeconomiae ita insudat</seg>, ut res ista nondum perfecta sit, quam autem proxime avocabo et dominationi vestrae reverendae concinno ordine pro propria <pb n="2r"/> intentione componendam transmittam. </seg>
-               <seg type="context" n="3" xml:id="d4617e7662"> Dolemus unice ad initium (quantum credo) elapsi saeculi cum monasterio nostro et archivum et bibliothecam <seg type="lemma" corresp="#d4617e7713">flammis misere devastata</seg> esse, sicque plurima alias memorabilia nos latere, praesertim circa viros aut scriptis aut aliis meritis conspicuos. </seg>
-               <seg type="context" n="4" xml:id="d4617e7664"> Proxima die Sabbati praemittam per famulum meum ad <seg type="lemma" corresp="#d4617e7720">Tabulas Marianas</seg> digredientem <seg type="lemma" corresp="#d4617e7727">iconem nostri monasterii</seg> et situm huius regionis, in qua in sinopsi [<hi rend="italic">sic</hi>] descripta est fundatio nostra. Me interea in favores et benevolentiam insinuans persisto</seg>
-            </p>
-            <p>Dominationis vestrae admodum reverendae paratissimus servus pater Carolomannus Schretl praefectus praebendarum manu propria.</p>
-            <p>Gottwici 28. Maii 1710.</p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiosissime nobilis ac eximie domine pater Bernarde.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e8641"> Tandem aliquando ad datas ad me elapso vix non anni dimidio gratissimas, quibus et nomina et scripta virorum clarorum monasterii nostri postulaverat, respondere licet, ubi ab inopinato a quodam nostrate exposito sacerdote accipio numerum descriptum librorum, quos reverendissimus noster abbas David Gregorius Cornerus sacrae<note place="foot" xml:id="d4618e8643">	Am linken Blattrand eingefügt.</note> theologiae et, quantum mihi videtur, <seg type="lemma" corresp="#d4618e8743">utriusque quoque iuris doctor</seg>, vir scriptis toto imperio clarissimus, ediderat. Statim a quo litteras dominationis vestrae accepi, provinciam hanc<note place="foot" xml:id="d4618e8646">	Über der Zeile eingefügt.</note> inquirendi in scripta reverendissimi domini domini Corneri et simul respondendi praedicto sacerdoti tum adhuc in conventu degenti<note place="foot" xml:id="d4618e8649">	Danach durchgestrichen <hi rend="italic">d</hi>.</note> commisi (eram enim iam accinctus cuidam itineri). Sed quia paulo<note place="foot" xml:id="d4618e8655">	Über der Zeile eingefügt.</note> post idem e conventu <seg type="lemma" corresp="#d4618e8750">dimissus fuit cuidam parocho nostro cooperaturus</seg>, negotium hoc non tam neglectum quam dilatum fuit. Dabit proinde veniam dominatio vestra admodum reverenda, quod iustae et laudabili suae<note place="foot" xml:id="d4618e8658">	Über der Zeile eingefügt, davor über der Zeile durchgestrichen <hi rend="italic">apud</hi>.</note> petitioni non citius satisfactum sit; continua et concatenata quasi negotia<note place="foot" xml:id="d4618e8665">	Danach durchgestrichen <hi rend="italic">me ita</hi>.</note>, vix non dixerim insupportabilia onera, me ita distrahunt, ut et <pb n="1v"/> maxime necessaria seponere quandoque cogar. Accludo hisce meis <seg type="lemma" corresp="#d4618e8755">descriptionem librorum</seg>, prout illam a memorato<note place="foot" xml:id="d4618e8673">	Korrigiert aus <hi rend="italic">memoratore</hi>.</note> cooperatore accepi; adverti in perfunctoria relectione irrepsisse quosdam errores calami, quos dominatio vestra admodum reverenda pro sua benignitate sciet corrigere. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e8679"> Mira res: dum haec scribo, ingreditur cellam meam <seg type="lemma" corresp="#d4618e8760">cubicularius mei reverendissimi</seg> domini afferens cum litteris dominationis vestrae quoque mandatum ad easdem respondendi, ex quibus intelligo eidem studium hoc esse: conquirendi <seg type="lemma" corresp="#d4618e8767">monumenta et decora et nostri monasterii et aliorum, Parisiis in universalem descriptionem congerenda</seg>. Zelus summis certe encomiis dignus tam in asseclis celeberrimi Mabillonii quam in dominatione vestra admodum reverenda, cuius votis ut morem geram, non deero memorabilia nostrae fundationis, et quidquid huic per industriam praesulum accessit, conquirere. Laborarunt quidem successive<note place="foot" xml:id="d4618e8681">	Mit Verweiszeichen am unteren Blattrand eingefügt.</note> in iis describendis duo ex expositis nostris, quorum prior fatis cessit, alter suae oeconomiae ita<note place="foot" xml:id="d4618e8684">	Über der Zeile eingefügt.</note> insudat, ut res ista nondum perfecta sit, quam autem proxime avocabo et<note place="foot" xml:id="d4618e8687">	Danach durchgestrichen <hi rend="italic">sub</hi>.</note> dominationi vestrae reverendae concinno ordine<note place="foot" xml:id="d4618e8693">	Danach durchgestrichen <hi rend="italic">com</hi>.</note> pro propria <pb n="2r"/> intentione componendam transmittam. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e8701"> Dolemus unice ad initium (quantum credo) elapsi saeculi cum monasterio nostro et archivum et bibliothecam<note place="foot" xml:id="d4618e8703">	Danach durchgestrichen <hi rend="italic">no</hi>.</note> <seg type="lemma" corresp="#d4618e8782">flammis misere devastata</seg> esse, sicque plurima<note place="foot" xml:id="d4618e8709">	Korrigiert aus <hi rend="italic">pluma</hi>.</note> alias memorabilia nos latere, praesertim circa viros aut<note place="foot" xml:id="d4618e8715">	Korrigiert aus <hi rend="italic">et</hi>.</note> scriptis aut aliis meritis conspicuos. </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e8721"> Proxima die Sabbati praemittam per famulum meum ad <seg type="lemma" corresp="#d4618e8789">Tabulas Marianas</seg> digredientem<note place="foot" xml:id="d4618e8723">	Danach durchgestrichen <hi rend="italic">in</hi>.</note> <seg type="lemma" corresp="#d4618e8796">iconem nostri monasterii</seg> et situm huius regionis<note place="foot" xml:id="d4618e8729">	Korrigiert aus <hi rend="italic">reginis</hi>.</note>, in qua in sinopsi [<hi rend="italic">sic</hi>] descripta est fundatio nostra. Me interea in favores et benevolentiam insinuans persisto</seg></p>
+            <p xml:space="preserve">Dominationis vestrae admodum reverendae paratissimus servus pater Carolomannus Schretl praefectus praebendarum manu propria.</p>
+            <p xml:space="preserve">Gottwici 28. Maii 1710.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e7674" target="#d4617e7618 #d4617e7654">
-               <ref target="">1</ref>
+            <note xml:id="d4618e8743">
+               <ref type="context">1</ref>
                <label>utriusque quoque iuris doctor</label>
                <p>David Gregor Corner hatte 1625 das Doktorat der Theologie erworben: Lashofer, Profeßbuch Göttweig 151. Von einem juristischen Doktorat ist dagegen nichts bekannt. Seine Werke umfassten das weitverbreitete „Groß catholische gesangbuch“ (Erstausgabe Nürnberg 1625) und weitere Andachts- und Erbauungstexte sowie theologische Schriften: Lashofer, Profeßbuch Göttweig 153f.; Tropper, Stift 270f.</p>
             </note>
-            <note xml:id="d4617e7681" target="#d4617e7618 #d4617e7654">
-               <ref target="#d4617e7618 #d4617e7654">1</ref>
+            <note xml:id="d4618e8750">
+               <ref type="context">1</ref>
                <label>dimissus fuit ... cooperaturus</label>
                <p>Die Angaben über die Besetzung von Kooperatorenstellen bei Lashofer, Profeßbuch Göttweig 467–536, sind für die fragliche Zeit noch nicht vollständig genug, um eine Identifizierung zu gestatten.</p>
             </note>
-            <note xml:id="d4617e7686" target="#d4617e7618 #d4617e7654">
-               <ref target="#d4617e7618 #d4617e7654">1</ref>
+            <note xml:id="d4618e8755">
+               <ref type="context">1</ref>
                <label>descriptionem librorum</label>
                <p>Das Schriftenverzeichnis Corners mit beigefügter Kurzbiographie unter dem Titel „Opera reverendissimi domini Corneri“ ist überliefert in II, 225r–227v, sowie abschriftlich in StiA Melk, Karton 7 Patres 9, Abschriftencodex 56v–60r.</p>
             </note>
-            <note xml:id="d4617e7691" target="#d4617e7623 #d4617e7658">
-               <ref target="">2</ref>
+            <note xml:id="d4618e8760">
+               <ref type="context">2</ref>
                <label>cubicularius ... reverendissimi</label>
                <p>Als erster namentlich bekannter Kammerdiener eines Göttweiger Abtes ist seit 1721 Bartholomäus Paul Pucher belegbar: Lashofer, Profeßbuch Göttweig 462.</p>
             </note>
-            <note xml:id="d4617e7698" target="#d4617e7623 #d4617e7658">
-               <ref target="#d4617e7623 #d4617e7658">2</ref>
+            <note xml:id="d4618e8767">
+               <ref type="context">2</ref>
                <label>monumenta ... Parisiis ... congerenda</label>
                <p>Vgl. 43 &lt;7&gt;, 48 &lt;6&gt;, 68 &lt;5&gt;. Ob BP mit diesem Schreiben auch ein Exemplar der Enzyklik Ruinarts verschickt hatte, geht aus den Worten KSchs nicht hervor.</p>
             </note>
-            <note xml:id="d4617e7703" target="#d4617e7623 #d4617e7658">
-               <ref target="#d4617e7623 #d4617e7658">2</ref>
+            <note xml:id="d4618e8772">
+               <ref type="context">2</ref>
                <label>prior fatis cessit, alter ... insudat</label>
                <p>Auch diese beiden Personen lassen sich nicht bestimmen. Die Todesdaten der Göttweiger Konventualen in diesem Zeitraum sind zwar bekannt, doch ist aus der Formulierung KSchs nicht deutlich zu entnehmen, wie lange der angesprochene Todesfall zurücklag. Verstorben waren 1708 Moritz Schweiger, Propst in Nalb; 1709 Anselm Berghoff, Pfarrvikar in Pfaffendorf, Vitalis Paur, Pfarrvikar in Nappersdorf, und Robert Halbemer, Pfarrvikar in Kottes; sowie am 24. Januar 1710 Maurus Helmperger, Pfarrvikar in Rabenstein: Lashofer, Profeßbuch Göttweig 169, 175f., 181f., 187. Doch können auch noch früher gestorbene Konventualen in Frage kommen.</p>
             </note>
-            <note xml:id="d4617e7708" target="#d4617e7623 #d4617e7658">
-               <ref target="#d4617e7623 #d4617e7658">2</ref>
+            <note xml:id="d4618e8777">
+               <ref type="context">2</ref>
                <label>avocabo ... transmittam</label>
                <p>Vermutlich ist dies der Traktat „Ursprung des closters Göttweig und desselben stifts merkwürdigste begebenheiten“, abschriftlich überliefert in StiB Melk, Cod. 396, 1r–24r (Glassner, Handschriften 87). Die Erwähnung von Berthold Mayr († 1713) als regierendem Abt sowie die Überlieferung im Zusammenhang mit Abschriften von anderen 1710–1711 für Massuet gesammelten Klostergeschichten lassen die Identifizierung plausibel scheinen. Über den Verfasser ist aus dem Text nichts zu ersehen. Er müsste vor dem 25. Januar 1711 an BP eingesendet worden sein (vgl. 143 &lt;5&gt;) und wurde von diesem mit 177 nach Paris weiterverschickt.</p>
             </note>
-            <note xml:id="d4617e7713" target="#d4617e7628 #d4617e7662">
-               <ref target="">3</ref>
+            <note xml:id="d4618e8782">
+               <ref type="context">3</ref>
                <label>flammis misere devastata</label>
                <p>Gemeint sein kann nur der Stiftsbrand von 1580. Die irreführende Zeitangabe beruht eventuell auf einer Verwechslung mit einem weiteren Brand in der Kirche des ehemaligen Göttweiger Frauenklosters im Jahre 1608: vgl. Lechner, Göttweig 802f.; Tropper, Stift 240f., 248.</p>
             </note>
-            <note xml:id="d4617e7720" target="#d4617e7630 #d4617e7664">
-               <ref target="">4</ref>
+            <note xml:id="d4618e8789">
+               <ref type="context">4</ref>
                <label>Tabulas Marianas</label>
                <p>Beliebter Wallfahrtsort bei Marbach an der Donau, stromaufwärts von Melk, das sich somit auf dem Weg von Göttweig dorthin als Station anbot.</p>
             </note>
-            <note xml:id="d4617e7727" target="#d4617e7630 #d4617e7664">
-               <ref target="#d4617e7630 #d4617e7664">4</ref>
+            <note xml:id="d4618e8796">
+               <ref type="context">4</ref>
                <label>iconem nostri monasterii</label>
                <p>Es handelt sich der Beschreibung nach um ein Exemplar des Dedikationsblattes an die Landstände ober und unter der Enns zu Neujahr 1668, gewidmet von Abt Gregor Heller. Der Stich von Matthäus Küsel nach Zeichnung von Matthäus Mannagetta zeigt das Stift Göttweig und seine Umgebung aus der Vogelschau, darüber die Stifter und Patrone des Klosters und am unteren Rand seine Gründungslegende: Grünwald, Vom Graphischen Kabinett 473–475, 510; Lechner–Grünwald, Göttweiger Ansichten 9–11, 50–53. Der Stich war wohl einer der beiden, die BP mit der Göttweiger Hausgeschichte nach Paris sendete (177 &lt;17&gt;).</p>
             </note>

@@ -13,119 +13,95 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">213</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Katschthaler, Briefnachlass 16</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">189r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Hyazinth Baumbach</persName>
+               <date when="1712-02-27">1712-02-27</date>
+               <placeName>Würzburg (St. Stephan)</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">239</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">211</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">76</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">213</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Hyazinth Baumbach</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1712-02-27</date>
-         <place-of-posting xmlns="">Würzburg (St. Stephan)</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e22024">
-                  <persName>
-                     <abbr>HB</abbr>
-                  </persName> hat BPs Enzyklik <ref type="letter">211</ref> mit der Kostprobe seiner „Bibliotheca Benedictina“ mit Freude gelesen und wünscht, dass sie im ganzen Orden verbreitet werde, damit <persName>
-                     <abbr>BP</abbr>
-                  </persName> die benediktinischen Schriftsteller aus Deutschland mitgeteilt werden. <persName>
-                     <abbr>HB</abbr>
-                  </persName> selbst will die Enzyklik an die Äbte Frankens weiterleiten und bittet um ein weiteres Exemplar für Fulda.</seg>
-               <seg type="context" n="2" xml:id="d4617e22029">Unter den lebenden Autoren nennt <persName>
-                     <abbr>BP</abbr>
-                  </persName> in seinem Katalog einen Kölner aus St. Pantaleon (Albin Feinhals). Dieser sollte unbedingt eine Enzyklik erhalten, damit <persName>
-                     <abbr>BP</abbr>
-                  </persName> über ihn, wie er im vorigen Jahr gewünscht hat, mit der ganzen Bursfelder Kongregation, mit St. Michael zu Hildesheim, Corvey und den übrigen Klöstern Westfalens in Verbindung treten kann. <persName>
-                     <abbr>HB</abbr>
-                  </persName> bietet sich als Vermittler an.</seg>
-               <seg type="context" n="3" xml:id="d4617e22031">In seinem Katalog hat <persName>
-                     <abbr>BP</abbr>
-                  </persName> auch unterlassen, den ehemaligen St. Stephaner Abt Benedikt Gerhard und dessen zwei Werke („Geistliche zucht“ und „Geistliche einöde“) zu erwähnen, von denen <persName>
-                     <abbr>HB</abbr>
-                  </persName> berichtet hatte <ref type="letter">76</ref>.</seg>
-               <seg type="context" n="4" xml:id="d4617e22036">
-                  <persName>
-                     <abbr>HB</abbr>
-                  </persName> hat einen weiteren Brief von Ruinard Massuet (recte: René Massuet) aus Paris erhalten, in dem dieser für die über <persName>
-                     <abbr>BP</abbr>
-                  </persName> erhaltenen Materialien dankt und Vorschläge zur Erwerbung der letzten Bände von Mabillons „Acta sanctorum OSB“ trotz der Erschwernis des Buchhandels in Kriegszeiten unterbreitet.</seg>
-               <seg type="context" n="5" xml:id="d4617e22038">In einem Postskriptum berichtet HB, dass er BPs Katalog seinem Konvent weitergegeben hat, damit durch die Lektüre die Lauheit der ärmlichen Klöster seiner Gegend im Vergleich zum Eifer berühmter und reicherer Häuser allen vor Augen gehalten wird.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e25638"><rs type="person" role="sender">HB</rs> hat <rs type="person" role="sender">BPs</rs> Enzyklik <ref type="letter">211</ref> mit der Kostprobe seiner „Bibliotheca Benedictina“ mit Freude gelesen und wünscht, dass sie im ganzen Orden verbreitet werde, damit <rs type="person" role="sender">BP</rs> die benediktinischen Schriftsteller aus Deutschland mitgeteilt werden. <rs type="person" role="sender">HB</rs> selbst will die Enzyklik an die Äbte Frankens weiterleiten und bittet um ein weiteres Exemplar für Fulda.</seg><seg type="context" n="2" xml:id="d4618e25643">Unter den lebenden Autoren nennt <rs type="person" role="sender">BP</rs> in seinem Katalog einen Kölner aus St. Pantaleon (Albin Feinhals). Dieser sollte unbedingt eine Enzyklik erhalten, damit <rs type="person" role="sender">BP</rs> über ihn, wie er im vorigen Jahr gewünscht hat, mit der ganzen Bursfelder Kongregation, mit St. Michael zu Hildesheim, Corvey und den übrigen Klöstern Westfalens in Verbindung treten kann. <rs type="person" role="sender">HB</rs> bietet sich als Vermittler an.</seg><seg type="context" n="3" xml:id="d4618e25645">In seinem Katalog hat <rs type="person" role="sender">BP</rs> auch unterlassen, den ehemaligen St. Stephaner Abt Benedikt Gerhard und dessen zwei Werke („Geistliche zucht“ und „Geistliche einöde“) zu erwähnen, von denen <rs type="person" role="sender">HB</rs> berichtet hatte <ref type="letter">76</ref>.</seg><seg type="context" n="4" xml:id="d4618e25650"><rs type="person" role="sender">HB</rs> hat einen weiteren Brief von Ruinard Massuet (recte: René Massuet) aus Paris erhalten, in dem dieser für die über <rs type="person" role="sender">BP</rs> erhaltenen Materialien dankt und Vorschläge zur Erwerbung der letzten Bände von Mabillons „Acta sanctorum OSB“ trotz der Erschwernis des Buchhandels in Kriegszeiten unterbreitet.</seg><seg type="context" n="5" xml:id="d4618e25652">In einem Postskriptum berichtet HB, dass er <rs type="person" role="sender">BPs</rs> Katalog seinem Konvent weitergegeben hat, damit durch die Lektüre die Lauheit der ärmlichen Klöster seiner Gegend im Vergleich zum Eifer berühmter und reicherer Häuser allen vor Augen gehalten wird.</seg></p>
          </div>
-         <div type="editorialNote">
-            <p>Überlieferung: I, 189r–v.</p>
-            <p>Literatur: Katschthaler, Briefnachlass 16.</p>
-            <p>Bezüge: 211. 239. Erwähnt 76, 211.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>211</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>239</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>76</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>211</idno>
-               </ref>
-            </correspContext>
-         </div>
+         <div type="editorialNote"/>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiose eximie pater, domine plurimum colende.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e22052"> 
-                  <seg type="lemma" corresp="#d4617e22073">Exemplar seu specimen</seg> quoddam grandioris laboris seu operis, quod admodum reverendae eximiae paternitati vestrae in mente et prae manibus est, mihi communicatum cum gaudio suscepi et legi, ac cito in toto sacro ordine nostro divulgari optavi, dum ex hoc commovendos iudicavi omnes ad communicandos reliquos, si quos haberent aut noverint, Germaniae scriptores sacri ordinis nostri. Reverendissimis Franconiae abbatibus, licet sciam eos non habere ultra, quos suggerant, scriptores, exemplar transmissum tamen communicabo. Aliud, quod Fuldam mitterem, necessarium haberem. </seg>
-               <seg type="context" n="2" xml:id="d4617e22054"> Inter vivos lego scriptores <seg type="lemma" corresp="#d4617e22080">unum Coloniensem</seg> apud S. Panthaleonem, cui prae caeteris communicandum censeo, quippe per quem admodum reverenda paternitas vestra, <seg type="lemma" corresp="#d4617e22087">uti ante annum desideravit</seg>, correspondentiam habere poterit cum tota congregatione Bursfeldensi, Hildesheim, Corbei et caeteris Westphaliae monasteriis. Et si noluerit immediate Coloniam mittere, ego mediator ero et eo mittam. </seg>
-               <seg type="context" n="3" xml:id="d4617e22056"> Aliter visum fuerit admodum reverendae paternitati vestrae circa nostrum abbatem piae memoriae Benedictum eiusque duo ascetica opuscula Germanico idiomate in octavo edita, uti ante annum transscripsi, dum eum in catalogo omisit. <pb n="1v"/> 
-               </seg>
-               <seg type="context" n="4" xml:id="d4617e22060"> Accepi interim iterum <seg type="lemma" corresp="#d4617e22092">litteras Parisiis a patre domino Ruinard Masuet</seg> [<hi rend="italic">sic</hi>], in quibus scribit se omnia accepisse transmissa ab admodum reverenda paternitate vestra, ac consueto ipsi more multa civilitate pro collectis gratias agit suggeritque viam et modum, quo etiam turbidiore hoc tempore reliquos, qui nobis desunt, Mabillionis piae memoriae tomos, Acta sanctorum ordinis nostri habere et accipere possem. Hisce nos divinae protectioni humillime commendans permaneo</seg>
-            </p>
-            <p>Admodum reverendae et eximiae paternitatis vestrae addictissimus et paratissimus Hyacinth abbas manu propria.</p>
-            <p>Herbipoli ex monasterio S. Stephani 27. Februarii 1712.</p>
-            <p>
-               <seg type="context" n="5" xml:id="d4617e22070"> P.S. Acceptum catalogum mox ad conventum misi, ut ex eo nostram in hisce partibus et respective pauperibus monasteriis tepiditatem ac econtra aliorum multo celebriorum et praedivitum monasteriorum fervorem piissimum ac diligentiam non satis depraedicandam legamus.</seg>
-            </p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiose eximie pater, domine plurimum colende.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e25666"> <seg type="lemma" corresp="#d4618e25693">Exemplar seu specimen</seg> quoddam grandioris laboris seu operis, quod admodum reverendae eximiae paternitati vestrae in mente et prae manibus est, mihi communicatum cum gaudio suscepi et legi, ac cito in toto sacro ordine nostro divulgari optavi, dum ex hoc commovendos iudicavi omnes ad communicandos reliquos, si quos haberent aut noverint, Germaniae scriptores sacri ordinis nostri. Reverendissimis Franconiae abbatibus, licet sciam eos non habere ultra, quos suggerant, scriptores, exemplar transmissum tamen communicabo. Aliud, quod Fuldam mitterem, necessarium haberem. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e25668"> Inter vivos lego scriptores <seg type="lemma" corresp="#d4618e25700">unum Coloniensem</seg> apud S. Panthaleonem, cui prae caeteris communicandum censeo<note place="foot" xml:id="d4618e25670">	Korrigiert aus <hi rend="italic">nescio</hi>.</note>, quippe per quem admodum reverenda paternitas vestra, <seg type="lemma" corresp="#d4618e25707">uti ante annum desideravit</seg>, correspondentiam habere poterit cum tota congregatione Bursfeldensi, Hildesheim, Corbei et caeteris Westphaliae monasteriis. Et si noluerit immediate Coloniam mittere, ego mediator ero et eo mittam. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e25676"> Aliter visum fuerit admodum reverendae paternitati vestrae circa nostrum abbatem piae memoriae Benedictum eiusque duo ascetica opuscula Germanico idiomate in octavo edita, uti ante annum transscripsi, dum eum in catalogo omisit. <pb n="1v"/> </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e25680"> Accepi interim iterum <seg type="lemma" corresp="#d4618e25712">litteras Parisiis a patre domino Ruinard Masuet</seg> [<hi rend="italic">sic</hi>], in quibus scribit se omnia accepisse transmissa ab admodum reverenda paternitate vestra, ac consueto ipsi more multa civilitate pro collectis gratias agit suggeritque viam et modum, quo etiam turbidiore hoc tempore reliquos, qui nobis desunt, Mabillionis piae memoriae tomos, Acta sanctorum ordinis nostri habere et accipere possem. Hisce nos divinae protectioni humillime commendans permaneo</seg></p>
+            <p xml:space="preserve">Admodum reverendae et eximiae paternitatis vestrae addictissimus et paratissimus Hyacinth abbas manu propria.</p>
+            <p xml:space="preserve">Herbipoli ex monasterio S. Stephani 27. Februarii 1712.</p>
+            <p xml:space="preserve"><seg type="context" n="5" xml:space="preserve" xml:id="d4618e25690"> P.S. Acceptum catalogum mox ad conventum misi, ut ex eo nostram in hisce partibus et respective pauperibus monasteriis tepiditatem ac econtra aliorum multo celebriorum et praedivitum monasteriorum fervorem piissimum ac diligentiam non satis depraedicandam legamus.</seg></p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e22073" target="#d4617e22024 #d4617e22052">
-               <ref target="">1</ref>
+            <note xml:id="d4618e25693">
+               <ref type="context">1</ref>
                <label>Exemplar seu specimen</label>
                <p>Die Formulierung bezieht sich wohl auf das der LE 2 beigegebene Schriftstellerverzeichnis; in diesem Fall wäre die Stelle das früheste deutliche Zeugnis für die gedruckte Fassung der Enzyklik, nachdem handschriftliche Versionen mit ähnlichem Brieftext, aber ohne Schriftstellerverzeichnis bereits spätestens seit dem Spätsommer 1711 von BP verschickt worden waren (vgl. 164, 183).</p>
             </note>
-            <note xml:id="d4617e22080" target="#d4617e22029 #d4617e22054">
-               <ref target="">2</ref>
+            <note xml:id="d4618e25700">
+               <ref type="context">2</ref>
                <label>unum Coloniensem</label>
                <p>Im Schriftstellerverzeichnis zu 238 erwähnt BP nur Albin Feinhals (Abb. 5.4). Dieser war ihm vielleicht durch sein Druckwerk „Vademecum utriusque iuris candidatorum“ (Köln 1707) bekannt geworden. Zu ihm nur: Torsy, Regularklerus 1 151; Volk, Generalkapitels-Rezesse 3 223; sowie Köln, Historisches Archiv der Stadt Köln, Best. 295 Nr. 205, 55r–v, wonach er aus Köln gebürtig war. (Letzteres nach Mitteilung von Letha Böhringer vom 18. Dezember 2008; das Archivale ist durch den Einsturz des Historischen Archivs am 3. März 2009 vermutlich verloren.)</p>
             </note>
-            <note xml:id="d4617e22087" target="#d4617e22029 #d4617e22054">
-               <ref target="#d4617e22029 #d4617e22054">2</ref>
+            <note xml:id="d4618e25707">
+               <ref type="context">2</ref>
                <label>uti ante annum desideravit</label>
                <p>Vgl. 196 &lt;2&gt;.</p>
             </note>
-            <note xml:id="d4617e22092" target="#d4617e22036 #d4617e22060">
-               <ref target="">4</ref>
+            <note xml:id="d4618e25712">
+               <ref type="context">4</ref>
                <label>litteras ... domino Ruinard Masuet</label>
                <p>Vgl. 192 &lt;6&gt;. HB hielt „Ruinard“ möglicherweise für einen Vornamen.</p>
             </note>

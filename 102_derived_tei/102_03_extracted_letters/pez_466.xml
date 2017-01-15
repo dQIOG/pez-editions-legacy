@@ -13,100 +13,94 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">466</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="otherEdition">
+               <bibl> Staufer, Litterae 15.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">III</biblScope>
+               <biblScope unit="page">250r–251v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Johann Benedikt Gentilotti</persName>
+               <date when="1715-11-30">1715-11-30</date>
+               <placeName>Wien</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="next">
+                  <idno type="pezEd">458</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">458</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">466</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Johann Benedikt Gentilotti</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1715-11-30</date>
-         <place-of-posting xmlns="">Wien</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e50728">BG entschuldigt sich für seine arbeitsbedingte Säumigkeit bei der Beantwortung von BPs letztem Brief vom 7. November <ref type="letter">458</ref>.</seg>
-               <seg type="context" n="2" xml:id="d4617e50733">Zu BPs Reaktion auf das von BG geäußerte Urteil über BPs „Epistolae apologeticae“ hält BG fest, dass er die Gelehrtheit des Werks schätzt und nur den allzu scharfen Ton bemängelt. Wäre dieser unterblieben, so hätten die Jesuiten keinen Anhaltspunkt für weitere Entgegnungen. Diese Ansicht teilen auch andere <persName>
-                     <abbr>BP</abbr>
-                  </persName> wohlgesinnte Männer. BG möchte in die Angelegenheit aber nicht weiter hineingezogen werden.</seg>
-               <seg type="context" n="3" xml:id="d4617e50735">Johann Christoph Bartenstein ist endlich nach Wien zurückgekehrt, aber weiterhin unzufrieden mit seiner Lage. BG versucht ihn zu unterstützen und zu seinen Gunsten zu intervenieren, was <persName>
-                     <abbr>BP</abbr>
-                  </persName> jedoch für sich behalten soll.</seg>
-               <seg type="context" n="4" xml:id="d4617e50737">BG war bestürzt über die Nachricht von BPs Krankheit, die er auf übermäßige Arbeit zurückführt. Von zwei jungen Melkern, die BG in der Hofbibliothek besucht haben, hat er nun aber von BPs Besserung erfahren. Er rät ihm, seine Gesundheit im Interesse des gemeinen Nutzens (bonum publicum) zu wahren.</seg>
-               <seg type="context" n="5" xml:id="d4617e50739">Die zwei Melker haben BG zugleich ein Verzeichnis der in der Melker Bibliothek vorhandenen alten Editionen ausgehändigt. Im Gegenzug sendet BG eine Liste von Büchertiteln, um die <persName>
-                     <abbr>BP</abbr>
-                  </persName> gebeten hatte, mit der Bitte, die Ungenauigkeit des Buchhändlers zu entschuldigen. Er übersendet weiters einen Brief an René Massuet, den <persName>
-                     <abbr>BP</abbr>
-                  </persName> mit Entschuldigung für BGs Säumigkeit weiterleiten soll. BG schließt mit Grüßen an HP.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e57276">BG entschuldigt sich für seine arbeitsbedingte Säumigkeit bei der Beantwortung von <rs type="person" role="sender">BPs</rs> letztem Brief vom 7. November <ref type="letter">458</ref>.</seg><seg type="context" n="2" xml:id="d4618e57281">Zu <rs type="person" role="sender">BPs</rs> Reaktion auf das von BG geäußerte Urteil über <rs type="person" role="sender">BPs</rs> „Epistolae apologeticae“ hält BG fest, dass er die Gelehrtheit des Werks schätzt und nur den allzu scharfen Ton bemängelt. Wäre dieser unterblieben, so hätten die Jesuiten keinen Anhaltspunkt für weitere Entgegnungen. Diese Ansicht teilen auch andere <rs type="person" role="sender">BP</rs> wohlgesinnte Männer. BG möchte in die Angelegenheit aber nicht weiter hineingezogen werden.</seg><seg type="context" n="3" xml:id="d4618e57283">Johann Christoph Bartenstein ist endlich nach Wien zurückgekehrt, aber weiterhin unzufrieden mit seiner Lage. BG versucht ihn zu unterstützen und zu seinen Gunsten zu intervenieren, was <rs type="person" role="sender">BP</rs> jedoch für sich behalten soll.</seg><seg type="context" n="4" xml:id="d4618e57285">BG war bestürzt über die Nachricht von <rs type="person" role="sender">BPs</rs> Krankheit, die er auf übermäßige Arbeit zurückführt. Von zwei jungen Melkern, die BG in der Hofbibliothek besucht haben, hat er nun aber von <rs type="person" role="sender">BPs</rs> Besserung erfahren. Er rät ihm, seine Gesundheit im Interesse des gemeinen Nutzens (bonum publicum) zu wahren.</seg><seg type="context" n="5" xml:id="d4618e57287">Die zwei Melker haben BG zugleich ein Verzeichnis der in der Melker Bibliothek vorhandenen alten Editionen ausgehändigt. Im Gegenzug sendet BG eine Liste von Büchertiteln, um die <rs type="person" role="sender">BP</rs> gebeten hatte, mit der Bitte, die Ungenauigkeit des Buchhändlers zu entschuldigen. Er übersendet weiters einen Brief an René Massuet, den <rs type="person" role="sender">BP</rs> mit Entschuldigung für BGs Säumigkeit weiterleiten soll. BG schließt mit Grüßen an HP.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: III, 250r–251v.</p>
-            <p>Edition: Staufer, Litterae 15.</p>
-            <p>Bezüge: 458. Erwähnt 458.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>458</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>458</idno>
-               </ref>
-            </correspContext>
-            <p>Nummerierung: <hi rend="italic">VIII</hi>.</p>
+            <p xml:space="preserve">Nummerierung: <hi rend="italic">VIII</hi>.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Venerando et eruditissimo viro domno Bernardo Pez Benedictino et bibliothecario Mellicensi salutem plurimam dicit Joannes Benedictus Gentilottus ab Engelsbrun.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e50758"> Debeo patrocinium negligentiae meae in respondendo litteris tuis, quibus dies VII. Idus Novembris adscriptus erat. Illud autem aliunde non sumam, quam ab occupationibus, quibus superiori tempore praeter consuetudinem fui implicatus, quibus tu, virorum optime, huiusmodi cunctationem assignes, velim. </seg>
-               <seg type="context" n="2" xml:id="d4617e50760"> Secus atque in animo habeo, meum, si quod est, <seg type="lemma" corresp="#d4617e50775">de Epistolis tuis apologeticis iudicium</seg> a te accipi video; nam iis ingenii, eruditionis et eloquentiae laudem tribuo, nec quidquam praeter acerba quaedam verba a te in adversarium emissa minus probo, mecumque alii, qui te aeque amant. Quod si tibi ab illis temperasses, omnem Sociis non solum respondendi, sed et conquerendi ansam praecidisses. Sed haec vos inter vos partite; <pb n="1v"/> neque enim ego eam litem meam facere, neque, quod sensus meos tibi, amicissime Bernarde, aperte atque ingenue exposui, de tuo in me amore quidquam detractum velim. </seg>
-               <seg type="context" n="3" xml:id="d4617e50764"> Bartensteinius noster eo, quo dudum intenderat, tandem pervenit, id est Vindobonam. Quod autem non illico omnia illa, quae animo conceperat, assequitur, commotum ac perturbatum video; eumque optima spe et expectatione sustento atque excito fore, ut res ex eius sententia fluant. Sed haec tecum habeto: nemini dixeris. </seg>
-               <seg type="context" n="4" xml:id="d4617e50766"> Tristi invaletudinis tuae nuntio vehementer perculsus fui; at me erexerunt duo humanissimi <seg type="lemma" corresp="#d4617e50782">iuvenes vestri</seg>, ex quibus, cum me nuper convenissent, intellexi te ex eo morbo, quem <seg type="lemma" corresp="#d4617e50789">ex immoderato studio</seg> contractum reor, recreatum. Ita igitur studeas, ut corpusculi ac valetudinis rationem ducas diuque studere et bono publico superesse possis. </seg>
-               <seg type="context" n="5" xml:id="d4617e50768"> Iidem illi iuvenes <pb n="2r"/> catalogum veterum editionum, quas locupletissima bibliotheca vestra servat, de manu in manum tradiderunt, quo nomine me tibi alias obstrictum atque addictum arctius obligasti. Tibi vicissim <seg type="lemma" corresp="#d4617e50794">librorum, quos postulasti, titulos</seg> et <seg type="lemma" corresp="#d4617e50801">epistolam ad domnum Massuetum</seg> curandam mitto. In illis librarii imperitiam, in hac tarditatem apud clarissimum virum excuses, velim. Valetudinem tuam cura diligenter meisque verbis domnum Hieronymum germanum tuum plurimum salvere iube. Etiam atque etiam vale meque, quod mutuo facis, amare perge.</seg>
-            </p>
-            <p>Vindobona pridie Kalendas Decembres MDCCXV.</p>
+            <p xml:space="preserve"><pb n="1r"/> Venerando et eruditissimo viro domno Bernardo Pez Benedictino et bibliothecario Mellicensi salutem plurimam dicit Joannes Benedictus Gentilottus ab Engelsbrun.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e57306"> Debeo patrocinium negligentiae meae in respondendo litteris tuis, quibus dies VII. Idus Novembris adscriptus erat. Illud autem aliunde non sumam, quam ab occupationibus, quibus superiori tempore praeter consuetudinem fui implicatus, quibus tu, virorum optime, huiusmodi cunctationem assignes, velim. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e57308"> Secus atque in animo habeo, meum, si quod est, <seg type="lemma" corresp="#d4618e57326">de Epistolis tuis apologeticis iudicium</seg> a te accipi video; nam iis ingenii, eruditionis et eloquentiae laudem tribuo, nec quidquam praeter acerba quaedam verba a te in adversarium emissa minus probo, mecumque alii, qui te aeque amant. Quod si tibi ab illis temperasses, omnem Sociis non solum respondendi, sed et conquerendi ansam praecidisses. Sed haec vos inter vos partite; <pb n="1v"/> neque enim ego eam litem meam facere, neque, quod sensus meos tibi, amicissime Bernarde, aperte atque ingenue exposui, de tuo in me amore quidquam detractum velim. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e57312"> Bartensteinius noster eo, quo dudum intenderat, tandem pervenit, id est Vindobonam. Quod autem non illico omnia illa, quae animo conceperat, assequitur, commotum ac perturbatum video; eumque optima spe et expectatione sustento atque excito fore<note place="foot" xml:id="d4618e57314">	Über der Zeile eingefügt.</note>, ut res ex eius sententia fluant. Sed haec tecum habeto: nemini dixeris. </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e57317"> Tristi invaletudinis tuae nuntio vehementer perculsus fui; at me erexerunt duo humanissimi <seg type="lemma" corresp="#d4618e57333">iuvenes vestri</seg>, ex quibus, cum me nuper convenissent, intellexi te ex eo morbo, quem <seg type="lemma" corresp="#d4618e57340">ex immoderato studio</seg> contractum reor, recreatum. Ita igitur studeas, ut corpusculi ac valetudinis rationem ducas diuque studere et bono publico superesse possis. </seg><seg type="context" n="5" xml:space="preserve" xml:id="d4618e57319"> Iidem illi iuvenes <pb n="2r"/> catalogum veterum editionum, quas locupletissima bibliotheca vestra servat, de manu in manum tradiderunt, quo nomine me tibi alias obstrictum atque addictum arctius obligasti. Tibi vicissim <seg type="lemma" corresp="#d4618e57345">librorum, quos postulasti, titulos</seg> et <seg type="lemma" corresp="#d4618e57352">epistolam ad domnum Massuetum</seg> curandam mitto. In illis librarii imperitiam, in hac tarditatem apud clarissimum virum excuses, velim. Valetudinem tuam cura diligenter meisque verbis domnum Hieronymum germanum tuum plurimum salvere iube. Etiam atque etiam vale meque, quod mutuo facis, amare perge.</seg></p>
+            <p xml:space="preserve">Vindobona pridie Kalendas Decembres MDCCXV.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e50775" target="#d4617e50733 #d4617e50760">
-               <ref target="">2</ref>
+            <note xml:id="d4618e57326">
+               <ref type="context">2</ref>
                <label>de Epistolis ... iudicium</label>
                <p>Vgl. 459.</p>
             </note>
-            <note xml:id="d4617e50782" target="#d4617e50737 #d4617e50766">
-               <ref target="">4</ref>
+            <note xml:id="d4618e57333">
+               <ref type="context">4</ref>
                <label>iuvenes vestri</label>
                <p>Am 29. Oktober 1715 hatten sich die drei Fratres Kaspar Altlechner, Benedikt Bonneth und Vitalis Waldmüller nach den Herbstferien von Melk wieder zum Studium nach Wien begeben: PE 5 143. Altlechner und Waldmüller führten nachweislich bibliographische Hilfsarbeiten für BP aus (vgl. 334, 391), Altlechner und Bonneth arbeiteten später am „Thesaurus anecdotorum novissimus“ mit (Glassner, Thesaurus 356). Somit kommen alle drei Genannten als die Besucher BGs in Frage.</p>
             </note>
-            <note xml:id="d4617e50789" target="#d4617e50737 #d4617e50766">
-               <ref target="#d4617e50737 #d4617e50766">4</ref>
+            <note xml:id="d4618e57340">
+               <ref type="context">4</ref>
                <label>ex immoderato studio</label>
                <p>Vgl. 467, 478.</p>
             </note>
-            <note xml:id="d4617e50794" target="#d4617e50739 #d4617e50768">
-               <ref target="">5</ref>
+            <note xml:id="d4618e57345">
+               <ref type="context">5</ref>
                <label>librorum ... titulos</label>
                <p>Es ist nicht festzustellen, wovon hier die Rede ist.</p>
             </note>
-            <note xml:id="d4617e50801" target="#d4617e50739 #d4617e50768">
-               <ref target="#d4617e50739 #d4617e50768">5</ref>
+            <note xml:id="d4618e57352">
+               <ref type="context">5</ref>
                <label>epistolam ad ... Massuetum</label>
                <p>Dieser Brief ist erhalten in BN FF 19664, 148r–149v. Er trägt dasselbe Datum wie der an BP, den 30. November, und enthält BGs Dank für die Zusendung von Coustants „Vindiciae“; vgl. 434 &lt;6&gt;.</p>
             </note>

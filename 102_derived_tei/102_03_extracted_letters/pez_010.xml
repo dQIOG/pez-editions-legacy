@@ -13,83 +13,87 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">10</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Mayer, Nachlaß 18 499</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">157r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Modest Huber</persName>
+               <date when="1709-09-29">1709-09-29</date>
+               <placeName>Wiblingen</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">37</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">1</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">1</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">10</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Modest Huber</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1709-09-29</date>
-         <place-of-posting xmlns="">Wiblingen</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e736">
-                  <persName>
-                     <abbr>MH</abbr>
-                  </persName> hat BPs Brief vom 8. September <ref type="letter">1</ref> erhalten und daraus von BPs Vorhaben erfahren, die Schriftsteller des Benediktinerordens in einem Werk („Bibliotheca Benedictina“) zu sammeln. Da dieses Vorhaben zum Ruhm des Ordens beiträgt, will sich <persName>
-                     <abbr>MH</abbr>
-                  </persName> der Bitte nicht entziehen. Er hat bereits einen seiner Konventualen (Roman Doll?) dazu bestimmt, sich um BPs Anliegen zu kümmern. Sollte von anderen schwäbischen Klöstern etwas nach Wiblingen eingesendet werden, will <persName>
-                     <abbr>MH</abbr>
-                  </persName> dafür sorgen, es an <persName>
-                     <abbr>BP</abbr>
-                  </persName> weiterzuleiten.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e760"><rs type="person" role="sender">MH</rs> hat <rs type="person" role="sender">BPs</rs> Brief vom 8. September <ref type="letter">1</ref> erhalten und daraus von <rs type="person" role="sender">BPs</rs> Vorhaben erfahren, die Schriftsteller des Benediktinerordens in einem Werk („Bibliotheca Benedictina“) zu sammeln. Da dieses Vorhaben zum Ruhm des Ordens beiträgt, will sich <rs type="person" role="sender">MH</rs> der Bitte nicht entziehen. Er hat bereits einen seiner Konventualen (Roman Doll?) dazu bestimmt, sich um <rs type="person" role="sender">BPs</rs> Anliegen zu kümmern. Sollte von anderen schwäbischen Klöstern etwas nach Wiblingen eingesendet werden, will <rs type="person" role="sender">MH</rs> dafür sorgen, es an <rs type="person" role="sender">BP</rs> weiterzuleiten.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: I, 157r–v.</p>
-            <p>Literatur: Mayer, Nachlaß 18 499.</p>
-            <p>Bezüge: 1. 37. Erwähnt 1.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>1</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>37</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>1</idno>
-               </ref>
-            </correspContext>
-            <p>Ordnungsvermerk: <hi rend="italic">203</hi>.</p>
-            <p>Bemerkungen: Der Brief ist von Roman Doll geschrieben, nur die Unterschrift ab <hi rend="italic">addictissimus</hi> von MH.</p>
+            <p xml:space="preserve">Ordnungsvermerk: <hi rend="italic">203</hi>.</p>
+            <p xml:space="preserve">Bemerkungen: Der Brief ist von Roman Doll geschrieben, nur die Unterschrift ab <hi rend="italic">addictissimus</hi> von MH.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiosissime ac doctissime domine perquam colende.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e763"> Litteras paternitatis vestrae 8. currentis signatas ad me in tempore delatas accepi; intellexi studium et intentionem, qua desiderat florentissimi ordinis nostri scriptores in unam seriem et praeclarum opus includere atque eum in finem de monasterio meo eorum <seg type="lemma" corresp="#d4617e773">nomina, patriam, cognomen et studium exspectat, qui aliquando libris scriptis claruere</seg>. Et sicut paternitatis vestrae admodum reverendae conatus in sacri ordinis nostri gloriam cedit, sic petitis non deero, quemadmodum de meis capitularibus <seg type="lemma" corresp="#d4617e780">iam unum constitui</seg>, qui intentioni vestrae cum industria inserviet brevi. Si quid forte ab aliis Sueviae nostrae monasteriis Wiblingam dirigatur, curabo, ut opportuna ocasione [<hi rend="italic">sic</hi>] ad manus destinatas perveniat. Utrinque divinae providentiae commendati, permaneo</seg>
-            </p>
-            <p>Admodum reverendae religiosissimae ac doctissimae paternitatis vestrae addictissimus Modestus abbas manu propria.</p>
-            <p>Wiblingae 29. Septembris 1709.</p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiosissime ac doctissime domine perquam colende.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e787"> Litteras paternitatis vestrae 8. currentis signatas ad me in tempore delatas accepi; intellexi studium et intentionem, qua desiderat florentissimi ordinis nostri scriptores in unam seriem et praeclarum opus includere atque eum in finem de monasterio meo eorum <seg type="lemma" corresp="#d4618e797">nomina, patriam, cognomen et studium exspectat, qui aliquando libris scriptis claruere</seg>. Et sicut paternitatis vestrae admodum reverendae conatus in sacri ordinis nostri gloriam cedit, sic petitis non deero, quemadmodum de meis capitularibus <seg type="lemma" corresp="#d4618e804">iam unum constitui</seg>, qui intentioni vestrae cum industria inserviet brevi. Si quid forte ab aliis Sueviae nostrae monasteriis Wiblingam dirigatur, curabo, ut opportuna ocasione [<hi rend="italic">sic</hi>] ad manus destinatas perveniat. Utrinque divinae providentiae commendati, permaneo</seg></p>
+            <p xml:space="preserve">Admodum reverendae religiosissimae ac doctissimae paternitatis vestrae addictissimus Modestus abbas manu propria.</p>
+            <p xml:space="preserve">Wiblingae 29. Septembris 1709.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e773" target="#d4617e736 #d4617e763">
-               <ref target="">1</ref>
+            <note xml:id="d4618e797">
+               <ref type="context">1</ref>
                <label>nomina ... scriptis claruere</label>
                <p>Diese Formulierung ist deutlich an den Standardtext angelehnt, den BP in den LE 1 variierte.</p>
             </note>
-            <note xml:id="d4617e780" target="#d4617e736 #d4617e763">
-               <ref target="#d4617e736 #d4617e763">1</ref>
+            <note xml:id="d4618e804">
+               <ref type="context">1</ref>
                <label>iam unum constitui</label>
                <p>Höchstwahrscheinlich ist hier Roman Doll gemeint, der 1710 als Korrespondent BPs in Wiblingen begegnet (38, 58).</p>
                <hi rend="">Si quid ... Wiblingam dirigatur:</hi>

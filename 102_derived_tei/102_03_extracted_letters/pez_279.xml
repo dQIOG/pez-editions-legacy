@@ -13,64 +13,64 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">279</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>Original verloren. Abschrift: StiA Melk, Karton 7 Patres 9, Abschriftencodex 154r–v.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Amand Guolfinger von Steinsberg</persName>
+               <date when="1712-10-27">1712-10-27</date>
+               <placeName>Lilienfeld</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">279</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Amand Guolfinger von Steinsberg</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1712-10-27</date>
-         <place-of-posting xmlns="">Lilienfeld</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e30062">AGu berichtet, dass die zwei von <persName>
-                     <abbr>BP</abbr>
-                  </persName> empfohlenen Kandidaten (Franz Anton Hofer und Johann Michael Koppler) von Abt Sigismund Braun zum Noviziat zugelassen werden. Wenn sie sich ernsthaft für das klösterliche Leben entscheiden wollen, so können sie in den nächsten Wochen nach Lilienfeld kommen.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e34540">AGu berichtet, dass die zwei von <rs type="person" role="sender">BP</rs> empfohlenen Kandidaten (Franz Anton Hofer und Johann Michael Koppler) von Abt Sigismund Braun zum Noviziat zugelassen werden. Wenn sie sich ernsthaft für das klösterliche Leben entscheiden wollen, so können sie in den nächsten Wochen nach Lilienfeld kommen.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: Original verloren. Abschrift: StiA Melk, Karton 7 Patres 9, Abschriftencodex 154r–v.</p>
-            <p>Adresse: <hi rend="italic">Admodum reverendo religiosissimo ac eximio in Christo patri Bernardo Pez ordinis sancti Benedicti celeberrimi ac exempti monasterii Mellicensis professo ibidemque novitiorum magistro meritissimo, domino colendissimo. Mellicii.</hi>
-            </p>
-            <p>Bemerkungen: Die Form der von BP ausgesprochenen Empfehlung geht aus dem Text nicht hervor; ein erschlossener Vorbrief wird deshalb nicht angesetzt.</p>
+            <div type="address">
+               <cit>
+                  <q>Admodum reverendo religiosissimo ac eximio in Christo patri Bernardo Pez ordinis sancti Benedicti celeberrimi ac exempti monasterii Mellicensis professo ibidemque novitiorum magistro meritissimo, domino colendissimo. Mellicii.</q>
+               </cit>
+            </div>
+            <p xml:space="preserve">Bemerkungen: Die Form der von BP ausgesprochenen Empfehlung geht aus dem Text nicht hervor; ein erschlossener Vorbrief wird deshalb nicht angesetzt.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiosissime ac eximie in Christo pater.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e30078"> 
-                  <seg type="lemma" corresp="#d4617e30088">Duo illi iuvenes</seg> ab eximia paternitate pro sacro ordine nostro nuper recommendati invenerunt omnino desideratam gratiam in oculis reverendissimi <seg type="lemma" corresp="#d4617e30095">domini mei</seg>, ita ut illi ipsissimi, si etiamnum velint serio ad religiosam solitudinem nostram confugere causa parae [<hi rend="italic">sic</hi>] salutis et portare iugum Domini, post unam alteramve hebdomadam possint iam advenire; quibus me plurimum recommendo et persevero</seg>
-            </p>
-            <p>Admodum reverendae religiosissimae ac eximiae paternitatis vestrae obsequentissimus servus pater Amandus prior.</p>
-            <p>Campililii 27. Octobris 1712.</p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiosissime ac eximie in Christo pater.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e34556"> <seg type="lemma" corresp="#d4618e34578">Duo illi iuvenes</seg> ab eximia paternitate pro sacro ordine nostro nuper recommendati invenerunt omnino desideratam gratiam in oculis reverendissimi <seg type="lemma" corresp="#d4618e34585">domini mei</seg>, ita ut illi ipsissimi, si etiamnum velint serio ad religiosam solitudinem nostram confugere causa parae [<hi rend="italic">sic</hi>]<note place="foot" xml:id="d4618e34561">	Wohl Abschreibfehler, vielleicht für <hi rend="italic">parandae</hi>?</note> salutis et portare iugum Domini, post unam alteramve hebdomadam possint<note place="foot" xml:id="d4618e34567">	Danach durchgestrichen <hi rend="italic">ad</hi>.</note> iam advenire; quibus me plurimum recommendo et persevero</seg></p>
+            <p xml:space="preserve">Admodum reverendae religiosissimae ac eximiae paternitatis vestrae obsequentissimus servus pater Amandus prior.</p>
+            <p xml:space="preserve">Campililii 27. Octobris 1712.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e30088" target="#d4617e30062 #d4617e30078">
-               <ref target="">1</ref>
+            <note xml:id="d4618e34578">
+               <ref type="context">1</ref>
                <label>Duo illi iuvenes</label>
                <p>Mit hoher Wahrscheinlichkeit handelt es sich um Franz Anton Hofer und Johann Michael Koppler, beide aus Melk. Sie legten ihre Profess in Lilienfeld unter den Ordensnamen Robert respektive Malachias am 1. Januar 1714 ab, was zum Antritt des einjährigen Noviziats Ende 1712 passt. Hofer war ein Sohn des Melker Schulmeisters Johann Friedrich Hofer, Koppler Sohn des Melker Kanzleischreibers und Gastwirts Matthias Koppler und der Katharina, geb. Bleicher, aus Ybbs: Müller, Profeßbuch Lilienfeld 256. BP hatte die Empfehlung sichtlich in seiner Eigenschaft als Novizenmeister ausgesprochen, als welcher er auch in der Adresse angesprochen wird; vgl. Einleitung, Abschnitt I.1, sowie 266 &lt;15&gt;. In Melk selbst wurden am 13. November 1712 fünf Novizen eingekleidet: PE 5 86.</p>
             </note>
-            <note xml:id="d4617e30095" target="#d4617e30062 #d4617e30078">
-               <ref target="#d4617e30062 #d4617e30078">1</ref>
+            <note xml:id="d4618e34585">
+               <ref type="context">1</ref>
                <label>domini mei</label>
                <p>Zu Sigismund Braun: Müller, Profeßbuch Lilienfeld 243f. Der eigentliche Leiter des Stifts Lilienfeld war bereits seit mehreren Jahren wegen der schweren Krankheit des Abtes AGu selbst als Prior und Administrator.</p>
             </note>

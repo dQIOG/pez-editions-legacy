@@ -13,49 +13,52 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">207</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>No direct source, inferred letter.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Bernhard Pez</persName>
+               <date notBefore="1712-02-09">&lt; 1712-02-09</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Mariano Armellini</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">261</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">128</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">261</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">207</id>
-         <deduced xmlns="">true</deduced>
-         <sender xmlns="">Bernhard Pez</sender>
-         <recipient xmlns="">Mariano Armellini</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">&lt; 1712-02-09</date>
-         <place-of-posting xmlns=""/>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="editorialNote">
-            <p>Bezüge: 128. 261. Erwähnt in 261.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>128</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>261</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>261</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: Der Datumsansatz ergibt sich aus der Aussage Armellinis in 261 &lt;1&gt;, wonach er den Brief etwas vor dem 9. Februar 1712 (Aschermittwoch) erhalten hatte.</p>
+            <p xml:space="preserve">Bemerkungen: Der Datumsansatz ergibt sich aus der Aussage Armellinis in 261 &lt;1&gt;, wonach er den Brief etwas vor dem 9. Februar 1712 (Aschermittwoch) erhalten hatte.</p>
          </div>
       </front>
       <body>
          <ab>
-            <gap reason="letter missing"/>
+            <gap reason="inferred letter"/>
          </ab>
       </body>
       <back/>

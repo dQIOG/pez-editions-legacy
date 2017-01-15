@@ -13,163 +13,107 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">209</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Heer, Mabillon 458</bibl>
+                  <bibl>Heer, Pez 410f. (irrig zum 12. Februar 1712)</bibl>
+                  <bibl>Stockinger, Fidelis 358, 375, 378, 380</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>StiA Einsiedeln, Cod. Rheinau 91 XIII, 401–404.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Bernhard Pez</persName>
+               <date when="1712-02-13">1712-02-13</date>
+               <placeName>Melk</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Moritz Müller</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">230</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">208</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">204</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">230</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">209</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Bernhard Pez</sender>
-         <recipient xmlns="">Moritz Müller</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1712-02-13</date>
-         <place-of-posting xmlns="">Melk</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e21704">
-                  <persName>
-                     <abbr>BP</abbr>
-                  </persName> dankt ausführlich und mit dem Ausdruck seines Erstaunens für das ihm und allen Melkern von <persName>
-                     <abbr>MM</abbr>
-                  </persName> entgegengebrachte Wohlwollen und die übersendeten Schriften (Müller, „Idea congregationis Helveto-Benedictinae“; Müller, „Coelum novum et terram novam“).</seg>
-               <seg type="context" n="2" xml:id="d4617e21706">Er sammelt verschiedene Schriften österreichischer Autoren, um sie an <persName>
-                     <abbr>MM</abbr>
-                  </persName> zu schicken. Darunter will er auch sein Werk „De irruptione Bavarica“ senden, das zwar schmal ist, aber von den Gebildeten günstig aufgenommen wurde und fast vergriffen ist.</seg>
-               <seg type="context" n="3" xml:id="d4617e21708">
-                  <persName>
-                     <abbr>BP</abbr>
-                  </persName> hat MMs letzten Brief <ref type="letter">204</ref> an Anselm Schramb nach Wien weitergeleitet, der keine Mühe scheuen wird, allen Wünschen zu entsprechen.</seg>
-               <seg type="context" n="4" xml:id="d4617e21713">
-                  <persName>
-                     <abbr>BP</abbr>
-                  </persName> hofft, dass MMs Abt Leodegar Bürgisser einen Besuch MMs in Melk gestatten wird.</seg>
-               <seg type="context" n="5" xml:id="d4617e21715">
-                  <persName>
-                     <abbr>BP</abbr>
-                  </persName> nimmt an, dass <persName>
-                     <abbr>MM</abbr>
-                  </persName> die ihm zugesendete Enzyklik <ref type="letter">208</ref> erhalten hat, und hofft, von ihm bald seine Meinung darüber zu erfahren. Der Umfang der Arbeiten für die „Bibliotheca Benedictina“ ist unvorstellbar.</seg>
-               <seg type="context" n="6" xml:id="d4617e21720">Bei der Anschaffung der „Acta sanctorum OSB“ soll <persName>
-                     <abbr>MM</abbr>
-                  </persName> nach seinem Ermessen vorgehen. <persName>
-                     <abbr>BP</abbr>
-                  </persName> ist für diesen Dienst sehr dankbar und will dafür nichts schuldig bleiben.</seg>
-               <seg type="context" n="7" xml:id="d4617e21722">Der Wiener Hof ist zu den Friedensverhandlungen, wie sie sich derzeit darstellen, sehr negativ eingestellt. Dies ist dem Kaiser und seinen Beratern auch nicht zu verdenken, weil die jüngst zu Utrecht von den Franzosen vorgelegten Bedingungen so ungünstig sind, wie sie diese als Sieger nur hätten anbieten können, geschweige denn als vielmals Besiegte. <persName>
-                     <abbr>BP</abbr>
-                  </persName> meint, dass König Ludwig XIV. von Frankreich nicht den Frieden wünscht, sondern die Verbündeten zu spalten versucht. Er hofft aber, dass dies ein Wunschtraum der Franzosen bleiben wird.</seg>
-               <seg type="context" n="8" xml:id="d4617e21724">
-                  <persName>
-                     <abbr>BP</abbr>
-                  </persName> beschreibt den neuen Kaiser Karl VI. als ernst, würdevoll, allen Vergnügungen abgeneigt, als gewissenhaften Regenten mit gut gewählten Beratern, als sparsam und militärisch gewandt, als fromm, den religiösen Orden zugetan und großen Verehrer der Mutter Gottes. Deutschland (Germania) hätte sich von Gott keinen besseren Fürsten erbitten können. <persName>
-                     <abbr>BP</abbr>
-                  </persName> hofft, dass Karls Tugenden auch in der Toggenburger Angelegenheit zugunsten der St. Galler zum Tragen kommen.</seg>
-               <seg type="context" n="9" xml:id="d4617e21726">
-                  <persName>
-                     <abbr>BP</abbr>
-                  </persName> schließt mit Osterwünschen.</seg>
-               <seg type="context" n="10" xml:id="d4617e21728">In einem Postskriptum bittet BP, <persName>
-                     <abbr>MM</abbr>
-                  </persName> möge bei der nächsten Gelegenheit, wenn er etwas aus Lyon kommen lässt, für ihn die „Chronologia sanctorum insulae Lerinensis“ von Vincenzo Barrali bestellen. Den Preis will er dann prompt erstatten.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e25267"><rs type="person" role="sender">BP</rs> dankt ausführlich und mit dem Ausdruck seines Erstaunens für das ihm und allen Melkern von <rs type="person" role="sender">MM</rs> entgegengebrachte Wohlwollen und die übersendeten Schriften (Müller, „Idea congregationis Helveto-Benedictinae“; Müller, „Coelum novum et terram novam“).</seg><seg type="context" n="2" xml:id="d4618e25269">Er sammelt verschiedene Schriften österreichischer Autoren, um sie an <rs type="person" role="sender">MM</rs> zu schicken. Darunter will er auch sein Werk „De irruptione Bavarica“ senden, das zwar schmal ist, aber von den Gebildeten günstig aufgenommen wurde und fast vergriffen ist.</seg><seg type="context" n="3" xml:id="d4618e25271"><rs type="person" role="sender">BP</rs> hat <rs type="person" role="sender">MMs</rs> letzten Brief <ref type="letter">204</ref> an Anselm Schramb nach Wien weitergeleitet, der keine Mühe scheuen wird, allen Wünschen zu entsprechen.</seg><seg type="context" n="4" xml:id="d4618e25276"><rs type="person" role="sender">BP</rs> hofft, dass <rs type="person" role="sender">MMs</rs> Abt Leodegar Bürgisser einen Besuch <rs type="person" role="sender">MMs</rs> in Melk gestatten wird.</seg><seg type="context" n="5" xml:id="d4618e25278"><rs type="person" role="sender">BP</rs> nimmt an, dass <rs type="person" role="sender">MM</rs> die ihm zugesendete Enzyklik <ref type="letter">208</ref> erhalten hat, und hofft, von ihm bald seine Meinung darüber zu erfahren. Der Umfang der Arbeiten für die „Bibliotheca Benedictina“ ist unvorstellbar.</seg><seg type="context" n="6" xml:id="d4618e25283">Bei der Anschaffung der „Acta sanctorum OSB“ soll <rs type="person" role="sender">MM</rs> nach seinem Ermessen vorgehen. <rs type="person" role="sender">BP</rs> ist für diesen Dienst sehr dankbar und will dafür nichts schuldig bleiben.</seg><seg type="context" n="7" xml:id="d4618e25285">Der Wiener Hof ist zu den Friedensverhandlungen, wie sie sich derzeit darstellen, sehr negativ eingestellt. Dies ist dem Kaiser und seinen Beratern auch nicht zu verdenken, weil die jüngst zu Utrecht von den Franzosen vorgelegten Bedingungen so ungünstig sind, wie sie diese als Sieger nur hätten anbieten können, geschweige denn als vielmals Besiegte. <rs type="person" role="sender">BP</rs> meint, dass König Ludwig XIV. von Frankreich nicht den Frieden wünscht, sondern die Verbündeten zu spalten versucht. Er hofft aber, dass dies ein Wunschtraum der Franzosen bleiben wird.</seg><seg type="context" n="8" xml:id="d4618e25287"><rs type="person" role="sender">BP</rs> beschreibt den neuen Kaiser Karl VI. als ernst, würdevoll, allen Vergnügungen abgeneigt, als gewissenhaften Regenten mit gut gewählten Beratern, als sparsam und militärisch gewandt, als fromm, den religiösen Orden zugetan und großen Verehrer der Mutter Gottes. Deutschland (Germania) hätte sich von Gott keinen besseren Fürsten erbitten können. <rs type="person" role="sender">BP</rs> hofft, dass Karls Tugenden auch in der Toggenburger Angelegenheit zugunsten der St. Galler zum Tragen kommen.</seg><seg type="context" n="9" xml:id="d4618e25289"><rs type="person" role="sender">BP</rs> schließt mit Osterwünschen.</seg><seg type="context" n="10" xml:id="d4618e25291">In einem Postskriptum bittet BP, <rs type="person" role="sender">MM</rs> möge bei der nächsten Gelegenheit, wenn er etwas aus Lyon kommen lässt, für ihn die „Chronologia sanctorum insulae Lerinensis“ von Vincenzo Barrali bestellen. Den Preis will er dann prompt erstatten.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: StiA Einsiedeln, Cod. Rheinau 91 XIII, 401–404.</p>
-            <p>Literatur: Heer, Mabillon 458; Heer, Pez 410f. (irrig zum 12. Februar 1712); Stockinger, Fidelis 358, 375, 378, 380.</p>
-            <p>Bezüge: 208. 230. Erwähnt 204, 208. Erwähnt in 230, 235.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>208</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>230</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>204</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>208</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>230</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>235</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: Der Brief wird bei Heer, Pez 410f., erwähnt, jedoch ohne Angabe des Fundortes. Bei Heer, Mabillon 458, ist er im Briefregister als Nr. 198 angeführt, mit der Einsiedler Signatur des Codex, jedoch mit irriger Seitenangabe 481 statt 401. Erstaunlicherweise sind die anderen Briefe BPs, die sich im selben Codex in unmittelbarer Folge befinden, nicht aufgenommen.</p>
+            <p xml:space="preserve">Bemerkungen: Der Brief wird bei Heer, Pez 410f., erwähnt, jedoch ohne Angabe des Fundortes. Bei Heer, Mabillon 458, ist er im Briefregister als Nr. 198 angeführt, mit der Einsiedler Signatur des Codex, jedoch mit irriger Seitenangabe 481 statt 401. Erstaunlicherweise sind die anderen Briefe BPs, die sich im selben Codex in unmittelbarer Folge befinden, nicht aufgenommen.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine, amice in Christo et patrone colendissimo [<hi rend="italic">sic</hi>].</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e21747"> Nescio sane, quae occulta meis epistolis vis et ἐνέργεια insit, ut, quoties in plurimum reverendae dominationis vestrae oculos et pectus incidunt, toties immensam veluti flammam summi erga me caeterosque Mellicenses amoris excitent. Ego id nulli alii causae tribuerim nisi sublimi iuxta ac suavissimo plurimum reverendae dominationis vestrae animo, qui amicos semel in se receptos sine multiplici favore et complexu nescit dimittere. Porro, dum praeter egregium hunc erga me animum doctissima illa librorum missorum munera quoque considero, omnino, quid cogitem reponamve, ignoro. Gratiae pro omnibus sint infinitae! Faxint Superi, ut tandem aliquando sat gratus sim! </seg>
-               <seg type="context" n="2" xml:id="d4617e21749"> Interim, ut nonnullum hoc munere contractum nomen expungam, pluscula quaedam a variis Austriacorum ingeniis parta opuscula colligo plurimum reverendae dominationi vestrae mittenda. Inter ea animus est etiam historicum meum <seg type="lemma" corresp="#d4617e21777">De bello Tirolensi opusculum</seg> mittere; tenue id quidem, sed quod eruditis adeo hactenus placuit, ut pene nullum amplius exemplar supersit. </seg>
-               <seg type="context" n="3" xml:id="d4617e21751"> Reverendus pater Anselmus, cui novissimas vestras litteras Viennam misi, nullam non operam dabit, <seg type="lemma" corresp="#d4617e21784">ut vobis gratiosissimis dominis patronis satisfiat</seg>. </seg>
-               <seg type="context" n="4" xml:id="d4617e21753"> Utinam Deus celsissimo ac illustrissimo principi vestro eum immittat animum, ut plurimum reverendam dominationem vestram hic Mellicii complecti, imo venerari liceat. Prorsus extra me tunc ero et totus in vestros nutus transfusus. </seg>
-               <seg type="context" n="5" xml:id="d4617e21755"> Encyclicam meam quin acceperitis, non dubito. <pb n="1v"/> Ea an aeque vobis arriserit, proxime intelligam. Incredibiles sunt labores, quos in elaborando hoc opere insumo. </seg>
-               <seg type="context" n="6" xml:id="d4617e21759"> 
-                  <seg type="lemma" corresp="#d4617e21791">Acta sanctorum ordinis nostri, ut plurimum reverendae dominationi vestrae videbitur, ita comparentur</seg>. Nos praeter aeternam tanti beneficii memoriam ut nihil debeamus, impense studebimus. Quod toties dictum velim, nimirum ut nostrum hominum vilissimorum causa vestram quietem ne turbetis, id nunc denuo repeto, addoque malle nos omni commodo carere quam colendissimis nostris patronis paulo maiori molestiae esse. </seg>
-               <seg type="context" n="7" xml:id="d4617e21761"> Ad nova quod attinet, haec accipite. Aula caesareo-Viennensis a pacis negotio, siquidem non aliis modis tractetur, penitus abhorret. Nec id nostro principi doctissimis consiliariis circumsepto vitio vertendum. Namque <seg type="lemma" corresp="#d4617e21798">conditiones pacis</seg> nostris nuper legatis Traiecti ad Rhenum oblatae eiusmodi sunt, ut ne a victore quidem Gallo, nedum toties victo deteriores sperari possent. Ego, monachus licet a publicis rebus remotus, iudico regem Franciae alia longe, nisi animum mutet, quam pacem velle. Nimirum nemo non videt eo Gallica consilia tendere, ut foederatorum coniuncta hactenus arma separentur, quo is fortius in singulos perdomandos possit incumbere. Sed haec Gallorum <pb n="2r"/> somnia sunto. </seg>
-               <seg type="context" n="8" xml:id="d4617e21765"> Habebunt ii sane, quem in nostro Carolo timeant aut revereantur. Est hic princeps pulcherrimis a Deo donis ornatus. Nihil ille de venationibus, spectaculis, risibus etc. cogitat. Omnia seria et ad Austriacam maiestatem composita sunt. Haeret inter consilia, preces et laudatorum hominum consortia. Ipsa Vienna fere dubitat, num intra se caesarem contineat, tantum in a[ula] silentium, tanta in omnibus gravitas maiestasque conspicitur! Nummorum parcissimus est, militaris scientiae ut expertissimus, ita diligentissimus cultor. Rationes suorum officialium scrutatur accurate. Religiosos amat, Matrem, sanctissimam foeminam, veneratur. Quid multis? Non potuisset Germania meliorem a Deo principem exorare. Deus det, ut pars tot principalium virtutum etiam in fructum vestrae iustissimae <seg type="lemma" corresp="#d4617e21805">Doggenburgensis causae</seg>, quae mihi probe perspecta est, derivetur! </seg>
-               <seg type="context" n="9" xml:id="d4617e21767"> Finio haec, et [... cordi]alissimam <seg type="lemma" corresp="#d4617e21812">sacrosancti Paschatis</seg> appreca[tione]m me meosque omnes Mellicenses in plurimum reverendae dominationis intima commendo</seg>
-            </p>
-            <p>Pater Bernardus Pez professus Mellicensis bibliothecarius.</p>
-            <p>Raptissime Mellicii 13. Februarii 1712.</p>
-            <p>
-               <seg type="context" n="10" xml:id="d4617e21774"> P.S. Si plurimum reverenda dominatio aliunde aliquid Lugduno afferri iusserit, humillime rogo, etiam inde mihi procuret <seg type="lemma" corresp="#d4617e21819">Scripta patrum Lirinensium</seg> a Vincentio Barrali Lugduni (nescio quo anno) edita. Pecunias e vestigio mittam.</seg>
-            </p>
+            <p xml:space="preserve"><pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine, amice in Christo et patrone colendissimo [<hi rend="italic">sic</hi>].</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e25310"> Nescio sane, quae occulta meis epistolis vis et ἐνέργεια insit, ut, quoties in plurimum reverendae dominationis vestrae oculos et pectus incidunt, toties immensam veluti flammam summi erga me caeterosque Mellicenses amoris<note place="foot" xml:id="d4618e25312">	Über der Zeile eingefügt.</note> excitent. Ego id nulli alii causae tribuerim nisi sublimi iuxta ac suavissimo plurimum reverendae dominationis vestrae animo, qui amicos semel in se receptos sine multiplici favore et complexu nescit dimittere. Porro, dum praeter egregium hunc erga me animum doctissima illa librorum missorum munera quoque considero, omnino, quid cogitem reponamve, ignoro. Gratiae pro omnibus sint infinitae! Faxint Superi, ut tandem aliquando sat gratus sim! </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e25315"> Interim, ut nonnullum hoc munere contractum nomen expungam, pluscula quaedam a variis Austriacorum ingeniis parta opuscula colligo plurimum reverendae dominationi vestrae mittenda. Inter ea animus est etiam historicum meum <seg type="lemma" corresp="#d4618e25391">De bello Tirolensi opusculum</seg> mittere; tenue id quidem, sed quod eruditis adeo hactenus placuit, ut pene nullum amplius exemplar supersit. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e25317"> Reverendus pater Anselmus, cui novissimas vestras litteras Viennam misi, nullam non operam dabit, <seg type="lemma" corresp="#d4618e25398">ut vobis gratiosissimis dominis patronis satisfiat</seg>. </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e25319"> Utinam Deus celsissimo ac illustrissimo principi vestro eum immittat animum, ut plurimum reverendam dominationem vestram hic Mellicii complecti, imo venerari liceat. Prorsus extra me tunc ero et totus in vestros nutus transfusus. </seg><seg type="context" n="5" xml:space="preserve" xml:id="d4618e25321"> Encyclicam meam quin acceperitis, non dubito. <pb n="1v"/> Ea an aeque vobis arriserit, proxime intelligam. Incredibiles sunt labores, quos in elaborando hoc opere insumo. </seg><seg type="context" n="6" xml:space="preserve" xml:id="d4618e25325"> <seg type="lemma" corresp="#d4618e25405">Acta sanctorum ordinis nostri, ut plurimum reverendae dominationi vestrae videbitur, ita comparentur</seg>. Nos praeter aeternam tanti beneficii memoriam ut nihil debeamus, impense studebimus. Quod toties dictum velim, nimirum ut nostrum hominum vilissimorum causa vestram<note place="foot" xml:id="d4618e25327">	Danach durchgestrichen <hi rend="italic">v</hi>.</note> quietem ne turbetis, id nunc denuo repeto, addoque malle nos omni commodo carere quam colendissimis nostris patronis paulo maiori molestiae esse. </seg><seg type="context" n="7" xml:space="preserve" xml:id="d4618e25333"> Ad nova quod attinet, haec accipite. Aula caesareo-Viennensis a pacis negotio, siquidem non aliis modis tractetur, penitus abhorret. Nec id nostro principi doctissimis consiliariis circumsepto vitio vertendum. Namque <seg type="lemma" corresp="#d4618e25412">conditiones pacis</seg> nostris nuper legatis Traiecti ad Rhenum oblatae eiusmodi sunt, ut ne a victore quidem Gallo, nedum toties victo deteriores sperari possent. Ego, monachus licet a publicis rebus remotus, iudico regem Franciae<note place="foot" xml:id="d4618e25335">	Danach durchgestrichen <hi rend="italic">s</hi>.</note> alia longe, nisi animum mutet, quam pacem velle. Nimirum nemo non videt eo Gallica consilia tendere, ut foederatorum coniuncta hactenus arma separentur, quo is fortius in singulos perdomandos possit incumbere. Sed haec Gallorum <pb n="2r"/> somnia sunto. </seg><seg type="context" n="8" xml:space="preserve" xml:id="d4618e25343"> Habebunt ii sane, quem in nostro Carolo timeant aut revereantur. Est hic princeps pulcherrimis a Deo donis ornatus. Nihil ille de venationibus, spectaculis, risibus etc. cogitat. Omnia seria et ad Austriacam maiestatem composita sunt. Haeret<note place="foot" xml:id="d4618e25345">	Danach durchgestrichen <hi rend="italic">de die</hi>.</note> inter consilia, preces et laudatorum hominum consortia. Ipsa Vienna fere dubitat, num intra se caesarem contineat, tantum in a[ula]<note place="foot" xml:id="d4618e25351">	Textverlust am rechten Blattrand im Ausmaß von ca. 2–3 Buchstaben; eventuell auch <hi rend="italic">a[lto]</hi> zu ergänzen.</note> silentium, tanta in omnibus gravitas maiestasque conspicitur! Nummorum parcissimus est, militaris scientiae ut expertissimus, ita diligentissimus cultor. Rationes suorum officialium scrutatur accurate. Religiosos amat, Matrem, sanctissimam foeminam, veneratur. Quid<note place="foot" xml:id="d4618e25357">	Danach durchgestrichen <hi rend="italic">praet</hi>.</note> multis? Non potuisset Germania meliorem a Deo principem exorare. Deus det, ut pars tot principalium virtutum etiam in fructum vestrae iustissimae <seg type="lemma" corresp="#d4618e25419">Doggenburgensis causae</seg>, quae mihi probe perspecta est, derivetur! </seg><seg type="context" n="9" xml:space="preserve" xml:id="d4618e25363"> Finio haec, et [... cordi]alissimam<note place="foot" xml:id="d4618e25365">	Textverlust im Ausmaß von ca. 8–10 Buchstaben durch einen Ausriss am linken Blattrand. Die Buchstaben <hi rend="italic">cordi</hi> sind Konjektur nach sonstigem Gebrauch BPs; davor fehlt noch eine Präposition, vielleicht <hi rend="italic" xml:space="preserve">praeter </hi>oder<hi rend="italic" xml:space="preserve"> post</hi>.</note> <seg type="lemma" corresp="#d4618e25426">sacrosancti Paschatis</seg> appreca[tione]m me meosque omnes Mellicenses in plurimum reverendae dominationis intima commendo</seg></p>
+            <p xml:space="preserve">Pater Bernardus Pez professus Mellicensis bibliothecarius.</p>
+            <p xml:space="preserve">Raptissime Mellicii 13. Februarii 1712.</p>
+            <p xml:space="preserve"><seg type="context" n="10" xml:space="preserve" xml:id="d4618e25382"> P.S. Si plurimum reverenda dominatio aliunde aliquid Lugduno afferri iusserit, humillime rogo, etiam inde mihi procuret <seg type="lemma" corresp="#d4618e25433">Scripta patrum Lirinensium</seg> a<note place="foot" xml:id="d4618e25384">	Danach durchgestrichen <hi rend="italic">Vinc</hi>.</note> Vincentio Barrali Lugduni (nescio quo anno) edita. Pecunias e vestigio mittam.</seg></p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e21777" target="#d4617e21706 #d4617e21749">
-               <ref target="">2</ref>
+            <note xml:id="d4618e25391">
+               <ref type="context">2</ref>
                <label>De bello Tirolensi opusculum</label>
                <p>BP verschickte um diese Zeit noch wenigstens ein weiteres Exemplar (vgl. 195, 198). Die Sendung an MM wurde in der Folge zwar abgeschickt, doch ist unklar, ob sie ihn erreichte (vgl. 302, 304).</p>
             </note>
-            <note xml:id="d4617e21784" target="#d4617e21708 #d4617e21751">
-               <ref target="">3</ref>
+            <note xml:id="d4618e25398">
+               <ref type="context">3</ref>
                <label>ut vobis ... satisfiat</label>
                <p>MM hatte in 204 &lt;8&gt; lediglich um Nachrichten Schrambs aus Wien gebeten.</p>
             </note>
-            <note xml:id="d4617e21791" target="#d4617e21720 #d4617e21759">
-               <ref target="">6</ref>
+            <note xml:id="d4618e25405">
+               <ref type="context">6</ref>
                <label>Acta sanctorum ... comparentur</label>
                <p>Vgl. 204 &lt;2&gt;; Stockinger, Fidelis 358f.</p>
             </note>
-            <note xml:id="d4617e21798" target="#d4617e21722 #d4617e21761">
-               <ref target="">7</ref>
+            <note xml:id="d4618e25412">
+               <ref type="context">7</ref>
                <label>conditiones pacis</label>
                <p>Der Utrechter Friedenskongress war Ende Januar 1712 eröffnet worden. Am 11. Februar, kurz nach dem Eintreffen der kaiserlichen Gesandten, unterbreiteten die Franzosen ein erstes Friedensangebot, das nicht nur vom Kaiser, sondern auch von den meisten seiner Verbündeten mit größtem Unwillen aufgenommen wurde: Braubach, Prinz Eugen 3 99; Weber, Friede von Utrecht 204–207.</p>
             </note>
-            <note xml:id="d4617e21805" target="#d4617e21724 #d4617e21765">
-               <ref target="">8</ref>
+            <note xml:id="d4618e25419">
+               <ref type="context">8</ref>
                <label>Doggenburgensis causae</label>
                <p>Vgl. 15, 249, 259, 271, 272.</p>
             </note>
-            <note xml:id="d4617e21812" target="#d4617e21726 #d4617e21767">
-               <ref target="">9</ref>
+            <note xml:id="d4618e25426">
+               <ref type="context">9</ref>
                <label>sacrosancti Paschatis</label>
                <p>Der Ostersonntag fiel 1712 auf den 27. März.</p>
             </note>
-            <note xml:id="d4617e21819" target="#d4617e21728 #d4617e21774">
-               <ref target="">10</ref>
+            <note xml:id="d4618e25433">
+               <ref type="context">10</ref>
                <label>Scripta patrum Lirinensium</label>
                <p>In einem Brief der Lyoner Buchhändler (Jacques) Anisson, Posuel und Rigaud an MM vom 12. April 1712 (StiA St. Gallen, Bd. 322, 481–482; vgl. 204 &lt;2&gt;) wird u. a. mitgeteilt: „Scripta patrum Lirinensium hic non reperiuntur“.</p>
             </note>

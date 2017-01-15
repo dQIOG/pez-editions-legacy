@@ -13,515 +13,305 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">143</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Lecomte, Publication 270</bibl>
+                  <bibl>Stockinger, Fidelis 384</bibl>
+                  <bibl>Wallnig, Gasthaus und Gelehrsamkeit 99</bibl>
+                  <bibl>Wallnig, Mönch oder Gelehrter 372, 381</bibl>
+                  <bibl>Wallnig, Pez und Mauriner 160</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>BN FF 17681, 46r–47v.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Bernhard Pez</persName>
+               <date when="1711-01-25">1711-01-25</date>
+               <placeName>Melk</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>René Massuet</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">154</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">88</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">12</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">149</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">143</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Bernhard Pez</sender>
-         <recipient xmlns="">René Massuet</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1711-01-25</date>
-         <place-of-posting xmlns="">Melk</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e14222">
-                  <persName>
-                     <abbr>BP</abbr>
-                  </persName> bedauert, <persName>
-                     <abbr>RM</abbr>
-                  </persName> lange nicht geschrieben zu haben, und nennt als Grund dafür den Krieg. Die Fürsten zeigen keine Kompromissbereitschaft, und der Briefverkehr wird durch vielfältige Hindernisse gestört. Der Austausch unter den Gelehrten leidet besonders darunter, auch weil es schwierig ist, sich in Kriegszeiten zur wissenschaftlichen Arbeit zu motivieren, deren Resultate so unsicher sind.</seg>
-               <seg type="context" n="2" xml:id="d4617e14224">Das Anliegen der Mauriner liegt <persName>
-                     <abbr>BP</abbr>
-                  </persName> am Herzen wie sein eigenes, sodass er die mangelnde Mitarbeit mancher Klöster sehr bedauert. Über die Reaktionen auf RMs und Ruinarts Enzykliken, das erhaltene und noch zu erwartende Material will <persName>
-                     <abbr>BP</abbr>
-                  </persName> nun ausführlicher berichten.</seg>
-               <seg type="context" n="3" xml:id="d4617e14226">
-                  <persName>
-                     <abbr>BP</abbr>
-                  </persName> beginnt mit Österreich. In Oberösterreich, das an Bayern grenzt, befinden sich fünf Benediktinerklöster: zuerst Kremsmünster, dann Garsten bei Steyr, Gleink, Lambach und Mondsee; in Niederösterreich, das bei Ungarn liegt, die folgenden: Melk, Göttweig, Seitenstetten, das Schottenkloster zu Wien, Kleinmariazell, Altenburg nahe der Grenze zu Mähren sowie das Schwarzspanierkloster in der Wiener Vorstadt, das im vergangenen Jahr die spanischen Consuetudines von Montserrat abgelegt und sich der Observanz der österreichischen Klöster angeglichen hat.</seg>
-               <seg type="context" n="4" xml:id="d4617e14228">Gleink hat bloß eine kurze Darstellung seiner Gründung und Abtreihe eingeschickt <ref type="letter">97</ref> und sich ansonsten auf Überlieferungsverluste durch Brände und Kriegseinwirkung berufen, was auch sonst viele Klöster tun. Lambach hat neben einem Äbtekatalog auch Bimmels „Vitae et miracula“ der seligen Adalbero von Würzburg, des Gründers von Lambach, Altmann von Passau, des Gründers von Göttweig, und Gebhard von Salzburg, des Gründers von Admont in der Steiermark, gesendet. Mondsee hat ebenfalls einen Äbtekatalog sowie zahlreiche Urkundenabschriften zur Geschichte der Gründung und des Abtes Konrad vorgelegt. Garsten hat auf einen Brief BPs <ref type="letter">137</ref> noch nicht geantwortet, eine Urgenz scheint aber nicht tunlich, da <persName>
-                     <abbr>RM</abbr>
-                  </persName> mitgeteilt hat <ref type="letter">88</ref>, dass er bereits über Materialien verfügt. Nach Kremsmünster hat <persName>
-                     <abbr>BP</abbr>
-                  </persName> nicht geschrieben, weil er aus Mabillons „Annales OSB“ ersehen hat, dass diesem Rettenbachers „Annales monasterii Cremifanensis“ zugänglich waren.</seg>
-               <seg type="context" n="5" xml:id="d4617e14239">Zu Melk verweist <persName>
-                     <abbr>BP</abbr>
-                  </persName> auf Anselm Schrambs „Chronicon Mellicense“, aus Göttweig hat er eine Abhandlung zur Hausgeschichte erhalten („Ursprung klosters Göttweig“), in der jedoch die wichtigsten Urkunden fehlen. <persName>
-                     <abbr>BP</abbr>
-                  </persName> hat deswegen an den Prior Karlmann Schretl geschrieben <ref type="letter">139</ref>, aber noch nichts erreichen können. Eine ähnliche Abhandlung mit denselben Schwächen („Descriptio fundationis Seittenstettensis“) hat <persName>
-                     <abbr>BP</abbr>
-                  </persName> nach vielem Urgieren <ref type="letter">136</ref> aus Seitenstetten erhalten. Manche Klöster Deutschlands hüten ihre Urkunden nicht weniger gut als die Römer die Sibyllinischen Geheimnisse und der Drache die Äpfel der Hesperiden; ohne Urkunden kann freilich kein historisches Faktum Glaubwürdigkeit (fides) beanspruchen. Von Altenburg konnten BPs Briefe <ref type="letter">140</ref> wegen der Trägheit des ehemals blühenden Konvents keine Mitarbeit erwirken; zudem vermutet BP, dass Abt Raimund Regondi aus politischen Gründen nicht gerne Material nach Frankreich senden wird. Gleiches gilt für den Schwarzspanierabt Anton Vogel, der wegen seiner guten Beziehungen zum Kaiserhof in diesem Punkt furchtsam ist. Karl Fetzer, der Abt des Wiener Schottenklosters, hat einen mit <persName>
-                     <abbr>BP</abbr>
-                  </persName> befreundeten gelehrten Konventualen (Ildephons Rucker) beauftragt, RMs Wünschen Genüge zu tun. Jener ist allerdings sehr beschäftigt und kommt deshalb nur langsam voran, sodass <persName>
-                     <abbr>BP</abbr>
-                  </persName> ihn vor einigen Tagen durch einen scharfen Brief <ref type="letter">138</ref> ermahnt hat.</seg>
-               <seg type="context" n="6" xml:id="d4617e14253">In Böhmen existieren noch sechs Benediktinerklöster, in Mähren keines, in Schlesien ein Benediktinerinnenkloster. Den böhmischen Klöstern steht der Abt von Břevnov bei Prag, derzeit Othmar Zinke, als Generalvisitator vor. Seine Stellung kommt beinahe jener eines Bischofs gleich. Zinke hat einen Freund BPs (Rupert Hausdorf) mit der Bearbeitung der Anliegen RMs und BPs betraut, sodass auf reichen Ertrag von dieser Seite zu hoffen ist. Nirgends ist RMs Enzyklik so freudig aufgenommen worden wie in Böhmen.</seg>
-               <seg type="context" n="7" xml:id="d4617e14255">Im Herzogtum Steiermark befinden sich zwei Benediktinerklöster, von denen Admont seine Mitarbeit bereits zugesagt <ref type="letter">122</ref>, aber noch nichts gesendet hat. Nach St. Lambrecht hat <persName>
-                     <abbr>BP</abbr>
-                  </persName> noch nicht geschrieben, will dies aber bald tun. Georg Ulrich aus Chemnitz hat eine Geschichte von St. Lambrecht mit dem Titel „Themeliosis“ verfasst, die 1604 zu Salzburg gedruckt wurde. Wenn <persName>
-                     <abbr>RM</abbr>
-                  </persName> das Werk nicht zur Verfügung steht, will <persName>
-                     <abbr>BP</abbr>
-                  </persName> sich bei Abt Dietmayr um Übersendung des Melker Exemplars bemühen.</seg>
-               <seg type="context" n="8" xml:id="d4617e14260">Im Herzogtum Kärnten gibt es drei Benediktinerklöster: St. Paul im Lavanttal, Arnoldstein und Ossiach. An alle hat <persName>
-                     <abbr>BP</abbr>
-                  </persName> in der Sache RMs geschrieben (64, 141, 142), die beiden letzteren haben noch nicht geantwortet. Albert Reichart, der Abt von St. Paul, hat seine Mitarbeit versprochen (65, 83), wozu er umso besser befähigt ist, als er selbst ein Werk zur Geschichte Kärntens, das „Breviarium historiae Carinthiacae“, veröffentlicht hat, das er auch <persName>
-                     <abbr>BP</abbr>
-                  </persName> geschenkt hat. Den Abt von Ossiach (Edmund Ibelpacher) hat <persName>
-                     <abbr>BP</abbr>
-                  </persName> um Wallners „Annus millesimus“ gebeten, von dem er <persName>
-                     <abbr>RM</abbr>
-                  </persName> im letzten Jahr berichtet hatte <ref type="letter">68</ref>.</seg>
-               <seg type="context" n="9" xml:id="d4617e14265">Die drei Tiroler Klöster St. Georgenberg, St. Michael an der Etsch (recte: CRSA) und Marienberg im Vintschgau haben RMs Enzyklik von <persName>
-                     <abbr>BP</abbr>
-                  </persName> noch nicht bekommen. Nun, da ihm die an Anselm Schramb geschickten und von diesem aus Wien weitergeleiteten Enzykliken in reichlicher Zahl zur Verfügung stehen, steht einer Verteilung auch in die Rhätischen Alpen nichts mehr im Wege.</seg>
-               <seg type="context" n="10" xml:id="d4617e14267">Wegen der Unruhen in Ungarn (Rákóczi-Aufstand) ist von Pannonhalma vorerst nichts zu erwarten, obwohl die kaiserlichen Truppen die Rebellion schon fast niedergeschlagen haben. Sobald Friede eingekehrt sein wird, will <persName>
-                     <abbr>BP</abbr>
-                  </persName> seiner Pflicht nachkommen.</seg>
-               <seg type="context" n="11" xml:id="d4617e14269">Polen wird von Hunger, Krieg, Seuchen und Türkenangst geplagt, daher ist eine Kontaktaufnahme schwierig. Doch hat Stanisław Szczygielski, Propst von Tuchów, eine „Aquila Polono-Benedictina“ über die Geschichte des Ordens in Polen verfasst, die 1663 zu Krakau gedruckt wurde und von der <persName>
-                     <abbr>BP</abbr>
-                  </persName> zwei Exemplare besitzt. Wenn <persName>
-                     <abbr>RM</abbr>
-                  </persName> das Werk nicht auf anderem Weg beschaffen kann, soll er eines davon erhalten.</seg>
-               <seg type="context" n="12" xml:id="d4617e14272">In Deutschland hat besonders Abt Hyazinth Baumbach von St. Stephan zu Würzburg Bereitschaft zur Mitarbeit gezeigt, indem er die Enzyklik Ruinarts – jene RMs hatte ihm <persName>
-                     <abbr>BP</abbr>
-                  </persName> damals noch nicht schicken können – an alle Klöster Frankens versendet hat. Baumbach hat auch selbst bereits Material zu seinem Kloster übermittelt <ref type="letter">120</ref>, worin eine interessante Urkunde (das angebliche Gründungsdiplom Adalberos?) vorkommt. Weiters hat Baumbach berichtet <ref type="letter">132</ref>, dass Bernhard Krieg, Abt von Neustadt am Main, dessen Gründungsgeschichte direkt nach Paris geschickt hat. Nachdem <persName>
-                     <abbr>BP</abbr>
-                  </persName> schließlich auch RMs Enzyklik an Baumbach gesendet hatte <ref type="letter">131</ref>, hat sie dieser eigenhändig mehrfach abgeschrieben; ein Exemplar hat er nach Fulda an den Sekretär der Abtei Konrad Sigler weitergegeben, der sich mit der Erstellung einer Geschichte Fuldas (Annales Fuldenses) befasst. <persName>
-                     <abbr>BP</abbr>
-                  </persName> bittet RM, Baumbach gebührend zu danken. Von den restlichen Klöstern Frankens hat er keine Nachrichten.</seg>
-               <seg type="context" n="13" xml:id="d4617e14283">Aus Bayern hat <persName>
-                     <abbr>BP</abbr>
-                  </persName> von dem Thierhauptener Prior Benedikt Cherle dessen „Chronologia monastico-philosophica“ erhalten <ref type="letter">52</ref>. Ebenfalls in Bayern arbeitet der Tegernseer Abt Quirin Millon an einer Hausgeschichte, die er – so hofft <persName>
-                     <abbr>BP</abbr>
-                  </persName> – bereits fertig gestellt hat. Wenn <persName>
-                     <abbr>RM</abbr>
-                  </persName> sie sich nicht besorgen kann, will <persName>
-                     <abbr>BP</abbr>
-                  </persName> dabei helfen. Er will auch trotz ungünstiger Umstände in Bayern weiterhin RMs Sache betreiben.</seg>
-               <seg type="context" n="14" xml:id="d4617e14288">Aus einem Schreiben des Ottobeurener Subpriors Albert Krez <ref type="letter">125</ref> weiß BP, dass die Enzyklik RMs auch in Schwaben kursiert. Krez hat sechs Bände zur Geschichte seines Klosters geschrieben; <persName>
-                     <abbr>RM</abbr>
-                  </persName> soll sich direkt an ihn wenden. Ähnliches gilt für Johann Weinckens, den Prior von Seligenstadt, der ebenfalls mit der Zusammenstellung einer Hausgeschichte („Navarchia Seligenstadiana“) beschäftigt ist. Bemerkenswert ist auch ein Hinweis des Reichenauer Priors Wolfgang Wetter <ref type="letter">21</ref> auf zwei Werke des 1643 verstorbenen Johann Egon, das „Chronicon Augiense“ und den Traktat „De viris illustribus monasterii Augiae Divitis“. All dies wird jedoch übertroffen von der zwar schlecht geschriebenen, aber mit Urkunden gut bestückten „Suevia ecclesiastica“ des Wettenhausener Augustiner-Chorherren Franz Petrus, welche 1699 zu Augsburg bei Bencard erschienen ist und sämtliche Klöster aller Orden in Schwaben beschreibt. Vor rund einem halben Jahr hat <persName>
-                     <abbr>BP</abbr>
-                  </persName> den Zwiefaltener Abt Wolfgang Schmidt gebeten <ref type="letter">77</ref>, er möge <persName>
-                     <abbr>RM</abbr>
-                  </persName> die „Annales imperialis monasterii Zwifaltensis“ des Arsenius Sulger senden.</seg>
-               <seg type="context" n="15" xml:id="d4617e14299">Das ist alles, was <persName>
-                     <abbr>BP</abbr>
-                  </persName> zu bieten hat. Er hofft, damit seine Wertschätzung für <persName>
-                     <abbr>RM</abbr>
-                  </persName> unter Beweis zu stellen, und wundert sich, dass er – trotz der Arbeit an der „Bibliotheca Benedictina“, diverser Aufträge seiner Superioren sowie des Fehlens von Mitarbeitern – überhaupt so viel erreichen konnte. <persName>
-                     <abbr>BP</abbr>
-                  </persName> hat in letzter Zeit in über 30 Briefen RMs Sache empfohlen (patrocinor), und es gibt kein Kloster, dessen noch so bescheidene Einsendungen ihn nicht drei Briefe kosten würden. Anselm Schramb hat zwar reichlich Zeit und Interesse, wird aber aus anderen Gründen (Krankheit?) von der Mitarbeit abgehalten, sodass die ganze Last <persName>
-                     <abbr>BP</abbr>
-                  </persName> zufällt. Diesem ist die Arbeit für <persName>
-                     <abbr>RM</abbr>
-                  </persName> und die „Annales OSB“ durchaus willkommen, doch soll <persName>
-                     <abbr>RM</abbr>
-                  </persName> die Gründe für BPs langsames Vorankommen kennen. Umgekehrt bittet <persName>
-                     <abbr>BP</abbr>
-                  </persName> auch weiterhin um Unterstützung in seinem Vorhaben.</seg>
-               <seg type="context" n="16" xml:id="d4617e14301">Das Elogium auf Nikolaus Ellenbog aus den Materialien des von <persName>
-                     <abbr>BP</abbr>
-                  </persName> verehrten Étienne Baluze hat diesem große Freude bereitet. <persName>
-                     <abbr>BP</abbr>
-                  </persName> kannte Ellenbog bereits aus dem von Albert Krez zugesendeten <ref type="letter">12</ref> Schriftstellerkatalog von Ottobeuren, wusste aber nicht, dass von ihm so viele Briefbände erhalten sind, da Krez bloß zwei erwähnt. Caves gutes, aber nicht fehlerfreies Werk „Scriptorum ecclesiasticorum historia literaria“ in der Genfer Ausgabe von 1705 hat <persName>
-                     <abbr>BP</abbr>
-                  </persName> neulich aus Wien angeschafft. Ebenso ist dort der erste Teil einer lateinischen Ausgabe von Du Pins „Nova bibliotheca“ erhältlich, der bis zum 4. Jahrhundert reicht. <persName>
-                     <abbr>BP</abbr>
-                  </persName> wünscht die baldige Fortsetzung der lateinischen Übersetzung. Die ersten sechs Bände von d’Acherys „Spicilegium“ hat er aus Ochsenhausen erhalten. In S. Paolo fuori le Mura zu Rom bereitet Mariano Armellini seine „Bibliotheca Benedictino-Casinensis“ vor, wie er an <persName>
-                     <abbr>BP</abbr>
-                  </persName> geschrieben hat <ref type="letter">128</ref>. <persName>
-                     <abbr>BP</abbr>
-                  </persName> bittet um weitere Literaturhinweise.</seg>
-               <seg type="context" n="17" xml:id="d4617e14309">
-                  <persName>
-                     <abbr>BP</abbr>
-                  </persName> und Anselm Schramb danken <persName>
-                     <abbr>RM</abbr>
-                  </persName> für die erhaltenen Geschenke (u. a. Ruinart, „Abregé“). <persName>
-                     <abbr>BP</abbr>
-                  </persName> wird sich um die Übersendung der gesammelten Klosterdarstellungen zu Anfang des Frühjahrs kümmern; <persName>
-                     <abbr>RM</abbr>
-                  </persName> soll einen sicheren Postweg nach Paris angeben. Das übermittelte Mabillon-Bild wird als Ermunterung zu den Studien im Kloster Melk öffentlich aufgehängt werden. <persName>
-                     <abbr>BP</abbr>
-                  </persName> bittet RM, ihn bei seinen gelehrten Kollegen zu empfehlen, um deren Namen <persName>
-                     <abbr>BP</abbr>
-                  </persName> bittet, und seiner im Gebet zu gedenken. Er übermittelt Grüße des gesamten Melker Konvents, dem RMs Briefe wie Tau und Honig sind.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e16230"><rs type="person" role="sender">BP</rs> bedauert, <rs type="person" key="">RM</rs> lange nicht geschrieben zu haben, und nennt als Grund dafür den Krieg. Die Fürsten zeigen keine Kompromissbereitschaft, und der Briefverkehr wird durch vielfältige Hindernisse gestört. Der Austausch unter den Gelehrten leidet besonders darunter, auch weil es schwierig ist, sich in Kriegszeiten zur wissenschaftlichen Arbeit zu motivieren, deren Resultate so unsicher sind.</seg><seg type="context" n="2" xml:id="d4618e16232">Das Anliegen der Mauriner liegt <rs type="person" role="sender">BP</rs> am Herzen wie sein eigenes, sodass er die mangelnde Mitarbeit mancher Klöster sehr bedauert. Über die Reaktionen auf <rs type="person" key="">RMs</rs> und Ruinarts Enzykliken, das erhaltene und noch zu erwartende Material will <rs type="person" role="sender">BP</rs> nun ausführlicher berichten.</seg><seg type="context" n="3" xml:id="d4618e16234"><rs type="person" role="sender">BP</rs> beginnt mit Österreich. In Oberösterreich, das an Bayern grenzt, befinden sich fünf Benediktinerklöster: zuerst Kremsmünster, dann Garsten bei Steyr, Gleink, Lambach und Mondsee; in Niederösterreich, das bei Ungarn liegt, die folgenden: Melk, Göttweig, Seitenstetten, das Schottenkloster zu Wien, Kleinmariazell, Altenburg nahe der Grenze zu Mähren sowie das Schwarzspanierkloster in der Wiener Vorstadt, das im vergangenen Jahr die spanischen Consuetudines von Montserrat abgelegt und sich der Observanz der österreichischen Klöster angeglichen hat.</seg><seg type="context" n="4" xml:id="d4618e16236">Gleink hat bloß eine kurze Darstellung seiner Gründung und Abtreihe eingeschickt <ref type="letter">97</ref> und sich ansonsten auf Überlieferungsverluste durch Brände und Kriegseinwirkung berufen, was auch sonst viele Klöster tun. Lambach hat neben einem Äbtekatalog auch Bimmels „Vitae et miracula“ der seligen Adalbero von Würzburg, des Gründers von Lambach, Altmann von Passau, des Gründers von Göttweig, und Gebhard von Salzburg, des Gründers von Admont in der Steiermark, gesendet. Mondsee hat ebenfalls einen Äbtekatalog sowie zahlreiche Urkundenabschriften zur Geschichte der Gründung und des Abtes Konrad vorgelegt. Garsten hat auf einen Brief <rs type="person" role="sender">BPs</rs> <ref type="letter">137</ref> noch nicht geantwortet, eine Urgenz scheint aber nicht tunlich, da <rs type="person" key="">RM</rs> mitgeteilt hat <ref type="letter">88</ref>, dass er bereits über Materialien verfügt. Nach Kremsmünster hat <rs type="person" role="sender">BP</rs> nicht geschrieben, weil er aus Mabillons „Annales OSB“ ersehen hat, dass diesem Rettenbachers „Annales monasterii Cremifanensis“ zugänglich waren.</seg><seg type="context" n="5" xml:id="d4618e16247">Zu Melk verweist <rs type="person" role="sender">BP</rs> auf Anselm Schrambs „Chronicon Mellicense“, aus Göttweig hat er eine Abhandlung zur Hausgeschichte erhalten („Ursprung klosters Göttweig“), in der jedoch die wichtigsten Urkunden fehlen. <rs type="person" role="sender">BP</rs> hat deswegen an den Prior Karlmann Schretl geschrieben <ref type="letter">139</ref>, aber noch nichts erreichen können. Eine ähnliche Abhandlung mit denselben Schwächen („Descriptio fundationis Seittenstettensis“) hat <rs type="person" role="sender">BP</rs> nach vielem Urgieren <ref type="letter">136</ref> aus Seitenstetten erhalten. Manche Klöster Deutschlands hüten ihre Urkunden nicht weniger gut als die Römer die Sibyllinischen Geheimnisse und der Drache die Äpfel der Hesperiden; ohne Urkunden kann freilich kein historisches Faktum Glaubwürdigkeit (fides) beanspruchen. Von Altenburg konnten <rs type="person" role="sender">BPs</rs> Briefe <ref type="letter">140</ref> wegen der Trägheit des ehemals blühenden Konvents keine Mitarbeit erwirken; zudem vermutet BP, dass Abt Raimund Regondi aus politischen Gründen nicht gerne Material nach Frankreich senden wird. Gleiches gilt für den Schwarzspanierabt Anton Vogel, der wegen seiner guten Beziehungen zum Kaiserhof in diesem Punkt furchtsam ist. Karl Fetzer, der Abt des Wiener Schottenklosters, hat einen mit <rs type="person" role="sender">BP</rs> befreundeten gelehrten Konventualen (Ildephons Rucker) beauftragt, <rs type="person" key="">RMs</rs> Wünschen Genüge zu tun. Jener ist allerdings sehr beschäftigt und kommt deshalb nur langsam voran, sodass <rs type="person" role="sender">BP</rs> ihn vor einigen Tagen durch einen scharfen Brief <ref type="letter">138</ref> ermahnt hat.</seg><seg type="context" n="6" xml:id="d4618e16261">In Böhmen existieren noch sechs Benediktinerklöster, in Mähren keines, in Schlesien ein Benediktinerinnenkloster. Den böhmischen Klöstern steht der Abt von Břevnov bei Prag, derzeit Othmar Zinke, als Generalvisitator vor. Seine Stellung kommt beinahe jener eines Bischofs gleich. Zinke hat einen Freund <rs type="person" role="sender">BPs</rs> (Rupert Hausdorf) mit der Bearbeitung der Anliegen <rs type="person" key="">RMs</rs> und <rs type="person" role="sender">BPs</rs> betraut, sodass auf reichen Ertrag von dieser Seite zu hoffen ist. Nirgends ist <rs type="person" key="">RMs</rs> Enzyklik so freudig aufgenommen worden wie in Böhmen.</seg><seg type="context" n="7" xml:id="d4618e16263">Im Herzogtum Steiermark befinden sich zwei Benediktinerklöster, von denen Admont seine Mitarbeit bereits zugesagt <ref type="letter">122</ref>, aber noch nichts gesendet hat. Nach St. Lambrecht hat <rs type="person" role="sender">BP</rs> noch nicht geschrieben, will dies aber bald tun. Georg Ulrich aus Chemnitz hat eine Geschichte von St. Lambrecht mit dem Titel „Themeliosis“ verfasst, die 1604 zu Salzburg gedruckt wurde. Wenn <rs type="person" key="">RM</rs> das Werk nicht zur Verfügung steht, will <rs type="person" role="sender">BP</rs> sich bei Abt Dietmayr um Übersendung des Melker Exemplars bemühen.</seg><seg type="context" n="8" xml:id="d4618e16268">Im Herzogtum Kärnten gibt es drei Benediktinerklöster: St. Paul im Lavanttal, Arnoldstein und Ossiach. An alle hat <rs type="person" role="sender">BP</rs> in der Sache <rs type="person" key="">RMs</rs> geschrieben (64, 141, 142), die beiden letzteren haben noch nicht geantwortet. Albert Reichart, der Abt von St. Paul, hat seine Mitarbeit versprochen (65, 83), wozu er umso besser befähigt ist, als er selbst ein Werk zur Geschichte Kärntens, das „Breviarium historiae Carinthiacae“, veröffentlicht hat, das er auch <rs type="person" role="sender">BP</rs> geschenkt hat. Den Abt von Ossiach (Edmund Ibelpacher) hat <rs type="person" role="sender">BP</rs> um Wallners „Annus millesimus“ gebeten, von dem er <rs type="person" key="">RM</rs> im letzten Jahr berichtet hatte <ref type="letter">68</ref>.</seg><seg type="context" n="9" xml:id="d4618e16273">Die drei Tiroler Klöster St. Georgenberg, St. Michael an der Etsch (recte: CRSA) und Marienberg im Vintschgau haben <rs type="person" key="">RMs</rs> Enzyklik von <rs type="person" role="sender">BP</rs> noch nicht bekommen. Nun, da ihm die an Anselm Schramb geschickten und von diesem aus Wien weitergeleiteten Enzykliken in reichlicher Zahl zur Verfügung stehen, steht einer Verteilung auch in die Rhätischen Alpen nichts mehr im Wege.</seg><seg type="context" n="10" xml:id="d4618e16275">Wegen der Unruhen in Ungarn (Rákóczi-Aufstand) ist von Pannonhalma vorerst nichts zu erwarten, obwohl die kaiserlichen Truppen die Rebellion schon fast niedergeschlagen haben. Sobald Friede eingekehrt sein wird, will <rs type="person" role="sender">BP</rs> seiner Pflicht nachkommen.</seg><seg type="context" n="11" xml:id="d4618e16277">Polen wird von Hunger, Krieg, Seuchen und Türkenangst geplagt, daher ist eine Kontaktaufnahme schwierig. Doch hat Stanisław Szczygielski, Propst von Tuchów, eine „Aquila Polono-Benedictina“ über die Geschichte des Ordens in Polen verfasst, die 1663 zu Krakau gedruckt wurde und von der <rs type="person" role="sender">BP</rs> zwei Exemplare besitzt. Wenn <rs type="person" key="">RM</rs> das Werk nicht auf anderem Weg beschaffen kann, soll er eines davon erhalten.</seg><seg type="context" n="12" xml:id="d4618e16280">In Deutschland hat besonders Abt Hyazinth Baumbach von St. Stephan zu Würzburg Bereitschaft zur Mitarbeit gezeigt, indem er die Enzyklik Ruinarts – jene <rs type="person" key="">RMs</rs> hatte ihm <rs type="person" role="sender">BP</rs> damals noch nicht schicken können – an alle Klöster Frankens versendet hat. Baumbach hat auch selbst bereits Material zu seinem Kloster übermittelt <ref type="letter">120</ref>, worin eine interessante Urkunde (das angebliche Gründungsdiplom Adalberos?) vorkommt. Weiters hat Baumbach berichtet <ref type="letter">132</ref>, dass Bernhard Krieg, Abt von Neustadt am Main, dessen Gründungsgeschichte direkt nach Paris geschickt hat. Nachdem <rs type="person" role="sender">BP</rs> schließlich auch <rs type="person" key="">RMs</rs> Enzyklik an Baumbach gesendet hatte <ref type="letter">131</ref>, hat sie dieser eigenhändig mehrfach abgeschrieben; ein Exemplar hat er nach Fulda an den Sekretär der Abtei Konrad Sigler weitergegeben, der sich mit der Erstellung einer Geschichte Fuldas (Annales Fuldenses) befasst. <rs type="person" role="sender">BP</rs> bittet RM, Baumbach gebührend zu danken. Von den restlichen Klöstern Frankens hat er keine Nachrichten.</seg><seg type="context" n="13" xml:id="d4618e16291">Aus Bayern hat <rs type="person" role="sender">BP</rs> von dem Thierhauptener Prior Benedikt Cherle dessen „Chronologia monastico-philosophica“ erhalten <ref type="letter">52</ref>. Ebenfalls in Bayern arbeitet der Tegernseer Abt Quirin Millon an einer Hausgeschichte, die er – so hofft <rs type="person" role="sender">BP</rs> – bereits fertig gestellt hat. Wenn <rs type="person" key="">RM</rs> sie sich nicht besorgen kann, will <rs type="person" role="sender">BP</rs> dabei helfen. Er will auch trotz ungünstiger Umstände in Bayern weiterhin <rs type="person" key="">RMs</rs> Sache betreiben.</seg><seg type="context" n="14" xml:id="d4618e16296">Aus einem Schreiben des Ottobeurener Subpriors Albert Krez <ref type="letter">125</ref> weiß BP, dass die Enzyklik <rs type="person" key="">RMs</rs> auch in Schwaben kursiert. Krez hat sechs Bände zur Geschichte seines Klosters geschrieben; <rs type="person" key="">RM</rs> soll sich direkt an ihn wenden. Ähnliches gilt für Johann Weinckens, den Prior von Seligenstadt, der ebenfalls mit der Zusammenstellung einer Hausgeschichte („Navarchia Seligenstadiana“) beschäftigt ist. Bemerkenswert ist auch ein Hinweis des Reichenauer Priors Wolfgang Wetter <ref type="letter">21</ref> auf zwei Werke des 1643 verstorbenen Johann Egon, das „Chronicon Augiense“ und den Traktat „De viris illustribus monasterii Augiae Divitis“. All dies wird jedoch übertroffen von der zwar schlecht geschriebenen, aber mit Urkunden gut bestückten „Suevia ecclesiastica“ des Wettenhausener Augustiner-Chorherren Franz Petrus, welche 1699 zu Augsburg bei Bencard erschienen ist und sämtliche Klöster aller Orden in Schwaben beschreibt. Vor rund einem halben Jahr hat <rs type="person" role="sender">BP</rs> den Zwiefaltener Abt Wolfgang Schmidt gebeten <ref type="letter">77</ref>, er möge <rs type="person" key="">RM</rs> die „Annales imperialis monasterii Zwifaltensis“ des Arsenius Sulger senden.</seg><seg type="context" n="15" xml:id="d4618e16307">Das ist alles, was <rs type="person" role="sender">BP</rs> zu bieten hat. Er hofft, damit seine Wertschätzung für <rs type="person" key="">RM</rs> unter Beweis zu stellen, und wundert sich, dass er – trotz der Arbeit an der „Bibliotheca Benedictina“, diverser Aufträge seiner Superioren sowie des Fehlens von Mitarbeitern – überhaupt so viel erreichen konnte. <rs type="person" role="sender">BP</rs> hat in letzter Zeit in über 30 Briefen <rs type="person" key="">RMs</rs> Sache empfohlen (patrocinor), und es gibt kein Kloster, dessen noch so bescheidene Einsendungen ihn nicht drei Briefe kosten würden. Anselm Schramb hat zwar reichlich Zeit und Interesse, wird aber aus anderen Gründen (Krankheit?) von der Mitarbeit abgehalten, sodass die ganze Last <rs type="person" role="sender">BP</rs> zufällt. Diesem ist die Arbeit für <rs type="person" key="">RM</rs> und die „Annales OSB“ durchaus willkommen, doch soll <rs type="person" key="">RM</rs> die Gründe für <rs type="person" role="sender">BPs</rs> langsames Vorankommen kennen. Umgekehrt bittet <rs type="person" role="sender">BP</rs> auch weiterhin um Unterstützung in seinem Vorhaben.</seg><seg type="context" n="16" xml:id="d4618e16309">Das Elogium auf Nikolaus Ellenbog aus den Materialien des von <rs type="person" role="sender">BP</rs> verehrten Étienne Baluze hat diesem große Freude bereitet. <rs type="person" role="sender">BP</rs> kannte Ellenbog bereits aus dem von Albert Krez zugesendeten <ref type="letter">12</ref> Schriftstellerkatalog von Ottobeuren, wusste aber nicht, dass von ihm so viele Briefbände erhalten sind, da Krez bloß zwei erwähnt. Caves gutes, aber nicht fehlerfreies Werk „Scriptorum ecclesiasticorum historia literaria“ in der Genfer Ausgabe von 1705 hat <rs type="person" role="sender">BP</rs> neulich aus Wien angeschafft. Ebenso ist dort der erste Teil einer lateinischen Ausgabe von Du Pins „Nova bibliotheca“ erhältlich, der bis zum 4. Jahrhundert reicht. <rs type="person" role="sender">BP</rs> wünscht die baldige Fortsetzung der lateinischen Übersetzung. Die ersten sechs Bände von d’Acherys „Spicilegium“ hat er aus Ochsenhausen erhalten. In S. Paolo fuori le Mura zu Rom bereitet Mariano Armellini seine „Bibliotheca Benedictino-Casinensis“ vor, wie er an <rs type="person" role="sender">BP</rs> geschrieben hat <ref type="letter">128</ref>. <rs type="person" role="sender">BP</rs> bittet um weitere Literaturhinweise.</seg><seg type="context" n="17" xml:id="d4618e16317"><rs type="person" role="sender">BP</rs> und Anselm Schramb danken <rs type="person" key="">RM</rs> für die erhaltenen Geschenke (u. a. Ruinart, „Abregé“). <rs type="person" role="sender">BP</rs> wird sich um die Übersendung der gesammelten Klosterdarstellungen zu Anfang des Frühjahrs kümmern; <rs type="person" key="">RM</rs> soll einen sicheren Postweg nach Paris angeben. Das übermittelte Mabillon-Bild wird als Ermunterung zu den Studien im Kloster Melk öffentlich aufgehängt werden. <rs type="person" role="sender">BP</rs> bittet RM, ihn bei seinen gelehrten Kollegen zu empfehlen, um deren Namen <rs type="person" role="sender">BP</rs> bittet, und seiner im Gebet zu gedenken. Er übermittelt Grüße des gesamten Melker Konvents, dem <rs type="person" key="">RMs</rs> Briefe wie Tau und Honig sind.</seg></p>
          </div>
-         <div type="editorialNote">
-            <p>Überlieferung: BN FF 17681, 46r–47v.</p>
-            <p>Literatur: Lecomte, Publication 270; Stockinger, Fidelis 384; Wallnig, Gasthaus und Gelehrsamkeit 99; Wallnig, Mönch oder Gelehrter 372, 381; Wallnig, Pez und Mauriner 160.</p>
-            <p>Bezüge: 88. 154. Erwähnt 12, 21, 52, 64, 65, 68, 77, 83, 88, 97, 120, 122, 125, 128, 131, 132, 135, 136, 137, 138, 139, 140, 141, 142. Erwähnt in 149, 154, 266.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>88</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>154</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>12</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>21</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>52</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>64</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>65</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>68</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>77</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>83</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>88</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>97</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>120</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>122</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>125</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>128</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>131</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>132</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>135</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>136</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>137</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>138</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>139</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>140</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>141</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>142</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>149</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>154</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>266</idno>
-               </ref>
-            </correspContext>
-         </div>
+         <div type="editorialNote"/>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Pater Bernardus Pez professus Mellicensis admodum reverendo ac clarissimo domino Renato Massuet Benedictino S.-Germanensi, amicorum suorum optimo ἐυπράξειν.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e14323"> Diu et forte etiam longius, quam amicitia nostra coniunctioque animorum ferat, est, quod nihil ad te literarum dederim. In causa fuit negotiorum, quibus tantum non opprimor, multitudo. Quamvis, ut, quod sentio, aperte eloquar, nulla res perinde mutuis literis suavissimoque alioquin huic commercio nostro adhuc obstitit, quam nata ex tristissimo hoc bello, in quo partium principes animum obfirmasse penitus et indurasse videntur, calamitas quaedam communis et bonorum omnium desperatio. Quae res cum affligat plurimos, eruditos tamen et ad illustrandas literas intentos ferit quam maxime et fere prosternit. Scribimus ad diversa regna et amicos epistolas encyclicas, familiares, petitorias, hortatrices et cuius non generis nominisve? Quibus tamen persaepe non aliud operae referimus pretium, quam sumptuum iuxta ac temporis iacturam. Nec in aliud infortunium hoc profecto magnum et peracerbum reicere soleo, quam in bellicosum hoc et literis infestissimum tempus, quo epistolae ob sexcenta itinerum pericula aut intercipiuntur, aperiuntur, aut alia quavis ratione amicis minime redduntur; praeterquam quod nullius non animus etsi ad honesta alias studia maxime factus et propensissimus langueat, ubi hostilis metus aut nullam aut certe lentam et exiguam spem percipiendi ex susceptis laboribus fructus facit. Neque tamen haec a me admodum ὀδυρτικῶς scripta eo tu, velim, accipias, uti si omnia iam nostra deposita desperataque essent, sed exponenda praemittendaque haec videbantur, quo magis amor erga te tuasque, imo totius sacri ordinis nostri meus elucesceret, utpote qui tot fluminibus obrutus exstingui tamen non potest. </seg>
-               <seg type="context" n="2" xml:id="d4617e14325"> Res vestrae tantae mihi curae sunt, quantae mihimet meae, nec ullis laboribus etiam gravissimis ab ope tibi tuisque ferenda absterreor. Id unum impense doleo, non eundem ubique eventum meas preces solicitudinemque vestro nomine susceptam habere. Quae res ut luculentior evadat, non abs re me facturum arbitror, si, quid encyclica tua et admodum reverendi patris Ruinarti in his locis effecerit, quid acceptum porrove sperandum sit, diffusiore nonnihil oratione explicuero. </seg>
-               <seg type="context" n="3" xml:id="d4617e14327"> Ab Austria initium esto. Haec gemina est, Superior, quae Bavariam contingit, et Inferior, Hungariae proxima. Superior quinque ordinis Benedictini monasteria maxima sui parte splendida et non minus egregia morum disciplina quam opibus clara. Primum et <seg type="lemma" corresp="#d4617e14379">princeps caeterorum Cremifanium</seg>, Krembsmünster, alterum monasterium Garstense (Garsten) prope oppidum Styram, tertium Clunicense (Kleinck), inde Lambacum (Lambach) et Lunaelacense seu Monseense (Monsee). Inferior haec nostratia complectitur monasteria: Mellicense (Mölk), Gottwicense (Gottweich), Seittenstadiense (Seittenstäden), Scotense Beatae Mariae Virginis intra muros Viennenses, Mariae-Cellam in Austria (vulgo Klein Mariae Zell), Altenburgense (Altenburg) ad fines Moraviae et postremo Beatae Mariae Virginis Monserratensis in suburbiis Viennae, id quod elapso anno <seg type="lemma" corresp="#d4617e14386">reiecto Hispanorum Monserratensium more vivendi</seg> et foedere communem nobis vitae disciplinaeque rationem amplexum est. Ex his quid in tuam rem acceperim, nunc cognosces. </seg>
-               <seg type="context" n="4" xml:id="d4617e14329"> 
-                  <seg type="lemma" corresp="#d4617e14391">Clunicense breve de fundatione abbatumque suorum serie commentariolum</seg> misit, causatum, quod <seg type="lemma" corresp="#d4617e14398">plerisque in more positum</seg> esse videas, reliqua incendiis et hostium incursionibus periisse. <seg type="lemma" corresp="#d4617e14403">Lambacense praeter catalogum</seg> abbatum dedit etiam <seg type="lemma" corresp="#d4617e14408">libellum, quo Vitae</seg> beati Adalberonis episcopi Herbipolensis fundatoris Lambacensis, beati Altmanni episcopi Pataviensis fundatoris Gottwicensis et beati Gebehardi archiepiscopi Salisburgensis fundatoris monasterii Admontensis Benedictini in Styria ex manuscriptis vetustis codicibus editae neque levis momenti res suggerentes continentur. <seg type="lemma" corresp="#d4617e14413">Lunaelacense submisit egregia praeter abbatum elenchum monumenta, praecipue diplomata</seg>, quae tum fundationem monasterii, tum beati Conradi abbatis Lunaelacensis historiam illustrent. Garstense a me per literas rogatum nondum respondit. Nec id admodum urgendum visum rebus illius aliunde, ut scripsisti, apud te exstantibus. <pb n="1v"/> Cremifanium nullis a me literis conventum propterea, quod illius Chronicon a reverendo patre <seg type="lemma" corresp="#d4617e14418">Rettenbacher</seg> erudito huius loci monacho editum <seg type="lemma" corresp="#d4617e14423">penes vos esse ex Annalium Benedictinorum parente, Joanne inquam Mabilione, abunde intellexerim</seg>. </seg>
-               <seg type="context" n="5" xml:id="d4617e14333"> Mellicium non est, quod te amplius angat, utpote cuius historiam ex reverendi patris <seg type="lemma" corresp="#d4617e14428">Anselmi confratris mei Chronico</seg> affatim haurias. <seg type="lemma" corresp="#d4617e14435">Gottwicum satis instructum domesticarum rerum commentariolum suggessit</seg>, in quo tamen nonnulla graviora diplomata a te praecipue spectata desiderabis. Scripsi ea gratia pridem huius monasterii priori, sed nihil adhuc extorquere potui. Eiusdem rationis <seg type="lemma" corresp="#d4617e14441">commentarium ex Seittenstadio</seg> senis a me epistolis convento accepi, diplomatis alicuius consecutionem frustra diu sperans. Non religiosius Arcana Sibyllina Romani nec draco ille sua poma Hesperia, quam Germaniae quaedam ordinis nostri monasteria sua diplomata, fundationis literas etc. huius generis monumenta, sine quibus tamen nullius non celebrioris eventus factive fides vacillat, custodiunt. Altenburgense nullis literis ad ferendam utrorumque nostrum consiliis opem excitare quivi, <seg type="lemma" corresp="#d4617e14446">tam gravis sopor</seg> celeberrimum hoc alioquin cum a scientia, tum a virtute monasterium invasit. Suspicor, nec id ex vano, politica quadam ratione eius loci abbatem a mittendis suis in Galliam monumentis absterreri, uti et abbatem Beatae Mariae Monserratensis in suburbiis Viennae, quem singularis <seg type="lemma" corresp="#d4617e14451">aulae caesareae favor</seg> δειλαιότερον facit. Itaque ab his nihil aut exiguum quid exspectandum. Beatae Mariae Virginis ad Scotos Viennae abbas docto cuiudam [<hi rend="italic">sic</hi>] ascetae suo pridem in mandatis dedit, ut tibi faceret satis. Verum bonus hic vir, amicus meus, ad sexcenta alia intentus, lentus oppido et tardus in nostro curando negotio est. Nihilominus, cum recentes paucis abhinc diebus easque peracres ad eum literas dederim, spero fore, ut se nobis obsequentem brevi exhibeat. Haec de Austriae meae monasteriis. </seg>
-               <seg type="context" n="6" xml:id="d4617e14338"> Iam Bohemiam quod spectat, supersunt in hoc opulentissimo regno <seg type="lemma" corresp="#d4617e14461">sex hodieque nostri ordinis monasteria</seg>, in Moravia nullum, <seg type="lemma" corresp="#d4617e14468">in Silesia unum unicum sacrarum puellarum</seg>. Bohemicorum monasteriorum princeps est Brzevnoviense seu Branoviense prope Pragam regni caput. Cuius abbas (Othmaro nomen est hodierno) reliquorum omnium generalis et perpetuus visitator est proximeque tum ob amplissimas opes, tum ob singularia quaedam in sacris privilegia <seg type="lemma" corresp="#d4617e14473">ad episcopalem splendorem</seg> accedit. Omnia bona inde tibi speranda doctissimo quodam Brevnoviensi monacho amico itidem meo ad id munus delecto, qui nostra vota omnino expleat. Non alibi lubentiori animo tua <seg type="lemma" corresp="#d4617e14478">encyclica excepta fuit</seg>; adeo hic abbas communis gloriae laudisque studiosus est. Quod si humanitati et labori praedicti mei amici reliquorum monasteriorum, ad quae encyclicam illico dimisit, studium et diligentia responderit, uberrima hinc messis colligetur. </seg>
-               <seg type="context" n="7" xml:id="d4617e14340"> Styriae ducatus duo splendidissima nostri ordinis monasteria, S. Lamberti et Ad Montes seu Admontense continet. Admontense suum tibi studium pridem addixit, sed nondum quidquam misit; nullum tamen dubium, quin in tempore missurum sit. Ad S. Lambertum (St. Lambrecht) in vestra causa nihil adhuc literarum dedi, dabo tamen, ni gravis quaedam ratio stylum continuerit, propediem. Exstat in meo monasterio <seg type="lemma" corresp="#d4617e14483">Θεμελίωσις</seg> sive Compendiosa, exquisita tamen, ut quidem author operis Georgius Ulricus Chemnicensis praefatur, commemoratio fundationis Lambertinae abbatiae etc. edita Salisburgi anno Domini MDCIV. Hoc breve quasi chronicon sitne penes te an secus, vehementer nosse aveo. Quod si eo cares, scribe. Dabo operam apud reverendissimum dominum abbatem meum, ut, ni aliud aliunde exemplar comparari possit, hoc nostrum tibi transmittat. </seg>
-               <seg type="context" n="8" xml:id="d4617e14342"> Carinthiae ducatus tria nostratia asceteria offert, videlicet fanum S. Pauli, regium vere monasterium, vulgo St. Paul, Arnoldsteinium et Ossiacum. Omnia de tuis consiliis certiora feci, quorum posteriora duo nullum hactenus responsum reddidere; primi, St. Paulensis, aio, abbas <pb n="2r"/> vir eruditissimus humanissimusque <seg type="lemma" corresp="#d4617e14490">omnia sua pollicitus</seg> est, id quod eo promptius praestare poterit, quo melius in historia Carinthiaca, cuius egregium <seg type="lemma" corresp="#d4617e14497">Breviarium olim edidit mihique dono dedit</seg>, versatus est. Ossiacense Chronicon, de quo proximo anno ad te, vehementer ab <seg type="lemma" corresp="#d4617e14503">eius loci abbate</seg> flagitavi non meo solum nomine, sed etiam tuo. Utinam contentionem hanc meam viro fuisse gratam felix brevi eventus probet! </seg>
-               <seg type="context" n="9" xml:id="d4617e14346"> Tria Tirolis monasteria, S. Georgii, <seg type="lemma" corresp="#d4617e14508">S. Michaelis</seg> et Beatae Mariae in Valle-Venusta, tuam encyclicam nondum viderunt. Nunc, quoniam eiusdem <seg type="lemma" corresp="#d4617e14515">exemplaribus reverendo patri Anselmo transmissis et Vienna ad me remissis abundo</seg>, nihil obstat, quominus et Alpium Rhaeticarum iuga percurram. </seg>
-               <seg type="context" n="10" xml:id="d4617e14348"> S. Martini monasterium in Hungaria celeberrimum non est, quod nunc cum laeti spe exitus tentem. Quippe rebellionis tempestas, etsi <seg type="lemma" corresp="#d4617e14520">a caesariano milite prope disiecta</seg> sit, nescio tamen quomodo Hungaricum ὁρίζοντα infecerit, ut inde prius omnia quam literarum mearum fructum exspectandum arbitrer. Quamprimum tamen lux et quies aliqua nostris rebus affulserit, officio non deero. </seg>
-               <seg type="context" n="11" xml:id="d4617e14350"> Polonia, quod fame, bello et pestilentia ac fors etiam metu Turcico plena sit, aditum non nisi aegerrimum praebet. Caeterum vulgata Cracoviae anno 1663 fuit <seg type="lemma" corresp="#d4617e14527">Aquila Polono-Benedictina authore reverendo patre Stanislao Sczygielski praeposito Tuchoviensi ordinis sancti Benedicti. In hac Aquila beatorum et illustrium virorum elogia, coenobiorum ac rerum memorabilium synopsis, exordia quoque et progressus ordinis sancti patris Benedicti per Poloniam et eius sceptris subiectas provincias breviter describuntur. Habeo penes me</seg> bina huius operis exemplaria in quarto, uti loqui mos est. Nisi illius copia aliunde tibi suppetat, ex me una cum reliquis habebis. </seg>
-               <seg type="context" n="12" xml:id="d4617e14353"> In Germaniam redeo. Herbipoli ad S. Stephanum celebris ordinis Benedictini abbatia est, cuius abbas Hiacynthus [<hi rend="italic">sic</hi>] incredibile est, quo institutum tuum amore prosequatur. Itaque praeclarissimi huius viri ope id consecutus sum, ut <seg type="lemma" corresp="#d4617e14534">encyclicam reverendi patris Ruinarti</seg> (neque enim tum tuam mittere poteram) ad omnia Franconiae monasteria amitteret. Ipse <seg type="lemma" corresp="#d4617e14541">sui monasterii monumenta</seg> magna fide collecta, interque ea <seg type="lemma" corresp="#d4617e14546">insigne diploma</seg> quoddam, mihi consignavit rogavitque, ut eorum quam proxime te compotem facerem. <seg type="lemma" corresp="#d4617e14551">Adscripsit praeterea reverendissimum abbatem Neostadiensem eiusdem Franconiae originem sui monasterii ad te Parisios perscripsisse</seg>. Imo tantae humanitatis hic abbas est, ut epistolam tuam denique a me eo missam sua ipse manu aliquoties describeret unumque aliquod exemplar <seg type="lemma" corresp="#d4617e14556">Fuldam secretario monasterii</seg>, ut vocant, novo Annalium Fuldensium scriptori commendaret. Tu si me amas, tam benigni et abbatis et patroni beneficiis singulari epistola qua demum cunque ratione respondere ne gravere. Quid caetera Franconiae monasteria sint decretura, me etiamnum latet. </seg>
-               <seg type="context" n="13" xml:id="d4617e14358"> Ex Bavaria pro te <seg type="lemma" corresp="#d4617e14561">Thierhaupto demum consecutus sum illam Chronotaxin</seg> abbatum eiusdem monasterii authore Benedicto Charle [<hi rend="italic">sic</hi>] priore, viro docto et nostrum amantissimo. In eadem Bavaria reverendissimus dominus <seg type="lemma" corresp="#d4617e14569">Quirinus abbas Tegernseensis molitur et, ut spero, iam confecerit monasterii sui chronicon</seg>, quod ut consequaris, curabo, nisi tu ipse laboris huius partem praeocupaveris [<hi rend="italic">sic</hi>]. Et quamvis non sat tutum <seg type="lemma" corresp="#d4617e14574">ob certas rationes</seg> videatur nunc ad reliqua Bavariae monasteria tui causa scribere, faciam tamen, quod potero. </seg>
-               <seg type="context" n="14" xml:id="d4617e14366"> In Suevia encyclicam tuam notam esse ex literis admodum reverendi patris <seg type="lemma" corresp="#d4617e14579">Alberti supprioris Ottoburani amici mei sincerissimi intellexi. Hunc virum, qui de rebus monasterii sui ad sex tomos conscripsit</seg>, ut consulas, suadeo, uti et <seg type="lemma" corresp="#d4617e14586">Joannem Weinkens</seg> priorem Seligenstadiensem, cuius conatus omnes nunc in condendis sui monasterii Annalibus versantur. Notatu praeterea dignum est, quod admodum reverendus dominus <seg type="lemma" corresp="#d4617e14591">Wolfgangus prior Augiae Divitis de Joanne Egon priore quondam Augiensi anno Domini 1643 mortuo ad me perscripsit</seg>, nimirum eum Latine Chronicon Augiense confecisse. Item Tractatum de viris illustribus monasterii Augiensis in tres partes distributum, in quarum prima agit de sanctis ac beatis Augiae; in secunda de doctoribus et scriptoribus; in tertia de monachis ad varias dignitates abbatiales, episcopales et archiepiscopales assumptis. Quae opera eo maiori tibi usui fore puto, <pb n="2v"/> quo maiorem Augia partem in historia Benedictina sibi semper vindicavit. Sed haec omnia magno, si commodum tuum spectem, intervallo post se relinquit <seg type="lemma" corresp="#d4617e14596">Suevia ecclesiastica</seg> a Francisco Petro canonico regulari Wettenhusano anno Domini 1699 Augustae Vindelicorum apud Benchard edita. In ea simul omnia, quae ad singula cuiusque in Suevia ordinis monasteria, casus, hodiernum statum etc. pertinent, barbara quidem oratione, sed vera, et quae multas egregias monasteriorum chartas, quas vocant, referat, descripta reperies. Zwifuldam, ut te sui Chronici a Sulgero eius loci erudito monacho eleganter scripti participem redderet reverendissimus abbas Wolfgangus, dimidio fere abhinc anno literas exaravi. Vellem nosse, quam felix in amico commendando fuerim. </seg>
-               <seg type="context" n="15" xml:id="d4617e14370"> Plura nunc non succurrunt. Spero tamen haec fore eiusmodi, quae meum erga te studium non leviter probent. Certe si perpendas meos, quos in conscribenda Bibliotheca consumo, labores, si varia <seg type="lemma" corresp="#d4617e14601">superiorum meorum mandata</seg>, si omnium, qui a manu sint, hominum absentiam et id genus alia, miraculo prope par esse te puto iudicaturum, quod tot rebus unus sufficiam. Ultra triginta epistolas, quibus tibi patrocinarer, intra breve tempus ad diversos dedi, imo vix est monasterium, cuius monumenta tametsi levia non tribus epistolis constent. Reverendus pater <seg type="lemma" corresp="#d4617e14608">Anselmus, utut otio abundet et voluntate promptissimus sit, ob gravem causam tuis rebus minus adesse potest</seg>. Igitur tota et omnis moles me petit. Nec haec eo velim trahas, quasi ad haec exsequenda invitus sim admodumque graver. Quod enim laboris pro te Annalibusque Benedictinis exhaurio, non durum mihi et grave, sed vehementer dulce iucundumque videtur; sed ideo postrema memoravi, ne me ob productum longius responsum de amore quidquam amisisse suspicaveris, simulque te incitarem, ut in me adiuvando vicissimque operi meo opportuna suggerendo pergeres. </seg>
-               <seg type="context" n="16" xml:id="d4617e14372"> Elogium Elembogii ex Baluzio (cuius viri nomen nunquam sine animi gaudio profero) exscriptum maximopere me delectavit. Erat is mihi probe ex <seg type="lemma" corresp="#d4617e14613">scriptorum Ottoburanorum catalogo</seg> ab admodum reverendo patre Alberto Krez misso cognitus, verum tot <seg type="lemma" corresp="#d4617e14620">epistolarum libros (namque duos</seg> duntaxat pater Albertus memorabat) scripsisse penitus ignorabam. Guilielmi Cave <seg type="lemma" corresp="#d4617e14625">Historiam literariam</seg> anno Domini 1705 Genevae editam Vienna Austriae nuper nactus sum. Egregia quaedam in hoc authore occurrunt, sed non omnino perfecta. Eliae <seg type="lemma" corresp="#d4617e14631">Dupinii De scriptoribus ecclesiasticis opus usque ad saeculum Christi quartum</seg> Latine ibidem prostat venale. Utinam sit, qui reliquas operis partes brevi Latinitate donet! <seg type="lemma" corresp="#d4617e14636">Spicilegii sex priores tomulos Ochsenhusio accepi</seg>, quo in opere animus meus plene acquiescit. Romae admodum reverendus dominus Armelinus in monasterio S. Pauli Bibliothecam scriptorum congregationis Casinensis, ut mihi scripsit, molitur ac edet; cuius labores ut Deus fortunet, enixe opto. De aliis libris, qui mihi usui esse possint, tu me pro mutuo inter nos amore monebis. &lt;</seg>
-               <seg type="context" n="17" xml:id="d4617e14374">&gt; Postremo maximas gratias reverendus pater Anselmus et ego tibi et agimus et habemus pro transmissis <seg type="lemma" corresp="#d4617e14641">munusculis</seg>. Studebo primo vere etiam referre, quo tempore collectas monasteriorum symbolas ad te mittere constitui, modo tutam mihi viam, qua ad te Parisios perferantur, ostenderis. Admodum reverendi patris Mabilionis effigies, quo pluribus ad praeclara et honesta literarum studia stimulo sit et incitamento, publico apud nos loco affigetur. Iam tandem vale, mi suavissime domine Renate, et ultimum saltem locum in tuo mihi animo relinque. Esto mei memor cum apud eruditissimos tuos collegas, quorum nomina mihi, obsecro, perscribe, tum ad aram, ubi pietatis interioris penna sublatus animus gratiam aeterno Numini vere serviendi mihi peccatorum maximo reddat impetratam. Salutant te omnes confratres mei Mellicenses, quibus tuae literae roris et mellis ad instar esse consueverunt.</seg>
-            </p>
-            <p>Mellicii 25. Januarii 1711.</p>
+            <p xml:space="preserve"><pb n="1r"/> Pater Bernardus Pez professus Mellicensis admodum reverendo ac clarissimo domino Renato Massuet Benedictino S.-Germanensi, amicorum suorum optimo ἐυπράξειν.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e16331"> Diu et forte etiam longius, quam amicitia nostra coniunctioque animorum ferat, est, quod nihil ad te literarum dederim. In causa fuit negotiorum, quibus tantum non opprimor, multitudo. Quamvis, ut, quod sentio, aperte eloquar, nulla res perinde mutuis literis suavissimoque alioquin huic commercio nostro adhuc obstitit, quam nata ex tristissimo hoc bello, in quo partium principes animum obfirmasse penitus et indurasse videntur, calamitas quaedam communis et bonorum omnium desperatio. Quae res cum affligat plurimos, eruditos tamen et ad illustrandas literas intentos ferit quam maxime et fere prosternit. Scribimus ad diversa regna et amicos epistolas encyclicas, familiares, petitorias, hortatrices et cuius non generis nominisve? Quibus tamen persaepe non aliud operae referimus pretium, quam sumptuum iuxta ac temporis iacturam. Nec in aliud infortunium hoc profecto magnum et peracerbum reicere soleo, quam in bellicosum hoc et literis infestissimum tempus, quo epistolae ob sexcenta itinerum pericula aut intercipiuntur, aperiuntur, aut alia quavis ratione amicis minime redduntur; praeterquam quod nullius non animus etsi ad honesta alias studia maxime factus et propensissimus langueat, ubi hostilis metus aut nullam aut certe lentam et exiguam spem percipiendi ex susceptis laboribus fructus facit. Neque tamen haec a me admodum ὀδυρτικῶς scripta eo tu, velim, accipias, uti si omnia iam nostra deposita desperataque essent, sed exponenda praemittendaque haec videbantur, quo magis amor erga te tuasque, imo totius sacri ordinis nostri meus elucesceret, utpote qui tot fluminibus obrutus exstingui tamen non potest. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e16333"> Res vestrae tantae mihi curae sunt, quantae mihimet meae, nec ullis laboribus etiam gravissimis ab ope tibi tuisque ferenda absterreor. Id unum impense doleo, non eundem ubique eventum meas preces solicitudinemque vestro nomine susceptam habere. Quae res ut luculentior evadat, non abs re me facturum arbitror, si, quid encyclica tua et admodum reverendi patris Ruinarti in his locis effecerit, quid acceptum porrove sperandum sit, diffusiore nonnihil oratione explicuero. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e16335"> Ab Austria initium esto. Haec gemina est, Superior, quae Bavariam contingit, et Inferior, Hungariae proxima. Superior quinque ordinis Benedictini monasteria maxima sui parte splendida et non minus egregia morum disciplina quam opibus clara. Primum et <seg type="lemma" corresp="#d4618e16405">princeps caeterorum Cremifanium</seg>, Krembsmünster, alterum monasterium Garstense (Garsten) prope oppidum Styram, tertium Clunicense (Kleinck), inde Lambacum (Lambach) et Lunaelacense seu Monseense (Monsee). Inferior haec nostratia complectitur monasteria: Mellicense (Mölk), Gottwicense (Gottweich), Seittenstadiense (Seittenstäden), Scotense Beatae Mariae Virginis intra muros Viennenses, Mariae-Cellam in Austria (vulgo Klein Mariae Zell), Altenburgense (Altenburg) ad fines Moraviae et postremo Beatae Mariae Virginis Monserratensis in suburbiis Viennae, id quod elapso anno <seg type="lemma" corresp="#d4618e16412">reiecto Hispanorum Monserratensium more vivendi</seg> et foedere communem nobis vitae disciplinaeque rationem amplexum est. Ex his quid in tuam rem acceperim, nunc cognosces. </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e16337"> <seg type="lemma" corresp="#d4618e16417">Clunicense breve de fundatione abbatumque suorum serie commentariolum</seg> misit, causatum, quod <seg type="lemma" corresp="#d4618e16424">plerisque in more positum</seg> esse videas, reliqua incendiis et hostium incursionibus periisse. <seg type="lemma" corresp="#d4618e16429">Lambacense praeter catalogum</seg> abbatum dedit etiam <seg type="lemma" corresp="#d4618e16434">libellum, quo Vitae</seg> beati Adalberonis episcopi Herbipolensis fundatoris Lambacensis, beati Altmanni episcopi Pataviensis fundatoris Gottwicensis et beati Gebehardi archiepiscopi Salisburgensis fundatoris<note place="foot" xml:id="d4618e16339">	Korrigiert aus <hi rend="italic">fundatoribus</hi>.</note> monasterii Admontensis Benedictini in Styria ex manuscriptis vetustis codicibus editae neque levis momenti res suggerentes continentur. <seg type="lemma" corresp="#d4618e16439">Lunaelacense submisit egregia praeter abbatum elenchum monumenta, praecipue diplomata</seg>, quae tum fundationem monasterii, tum beati Conradi abbatis Lunaelacensis historiam illustrent. Garstense a me per literas rogatum nondum respondit. Nec id admodum urgendum visum rebus illius aliunde, ut scripsisti, apud te exstantibus. <pb n="1v"/> Cremifanium nullis a me literis conventum propterea, quod illius Chronicon a reverendo patre <seg type="lemma" corresp="#d4618e16444">Rettenbacher</seg> erudito huius loci monacho editum <seg type="lemma" corresp="#d4618e16449">penes vos esse ex Annalium Benedictinorum parente, Joanne inquam Mabilione, abunde intellexerim</seg>. </seg><seg type="context" n="5" xml:space="preserve" xml:id="d4618e16347"> Mellicium non est, quod te amplius angat, utpote cuius historiam ex reverendi patris <seg type="lemma" corresp="#d4618e16454">Anselmi confratris mei Chronico</seg> affatim haurias. <seg type="lemma" corresp="#d4618e16461">Gottwicum satis instructum domesticarum rerum commentariolum suggessit</seg>, in quo tamen nonnulla graviora diplomata a te praecipue spectata desiderabis. Scripsi ea gratia pridem huius monasterii priori, sed nihil adhuc extorquere potui. Eiusdem rationis <seg type="lemma" corresp="#d4618e16467">commentarium ex Seittenstadio</seg> senis a me epistolis convento accepi, diplomatis alicuius consecutionem frustra diu sperans. Non religiosius Arcana Sibyllina Romani nec draco ille sua poma Hesperia, quam Germaniae quaedam ordinis nostri monasteria sua diplomata, fundationis literas etc. huius generis monumenta, sine quibus tamen nullius non celebrioris eventus factive fides vacillat, custodiunt. Altenburgense nullis literis ad ferendam utrorumque nostrum consiliis opem excitare quivi, <seg type="lemma" corresp="#d4618e16472">tam gravis sopor</seg> celeberrimum hoc alioquin cum a scientia, tum a virtute monasterium invasit. Suspicor, nec id ex vano, politica quadam ratione eius loci abbatem a mittendis suis in Galliam monumentis absterreri, uti et abbatem Beatae Mariae Monserratensis in suburbiis Viennae, quem singularis <seg type="lemma" corresp="#d4618e16477">aulae caesareae favor</seg> δειλαιότερον facit. Itaque ab his nihil aut exiguum quid exspectandum. Beatae Mariae Virginis ad Scotos Viennae abbas docto cuiudam [<hi rend="italic">sic</hi>] ascetae suo pridem in mandatis dedit, ut tibi faceret satis. Verum bonus hic vir, amicus meus, ad sexcenta alia intentus, lentus oppido et tardus in nostro curando negotio est. Nihilominus, cum recentes paucis abhinc diebus easque peracres ad eum literas dederim, spero fore, ut se nobis obsequentem brevi exhibeat. Haec de Austriae meae monasteriis. </seg><seg type="context" n="6" xml:space="preserve" xml:id="d4618e16352"> Iam Bohemiam quod spectat, supersunt in hoc opulentissimo regno <seg type="lemma" corresp="#d4618e16487">sex hodieque nostri ordinis monasteria</seg>, in Moravia nullum, <seg type="lemma" corresp="#d4618e16494">in Silesia unum unicum sacrarum puellarum</seg>. Bohemicorum monasteriorum princeps est Brzevnoviense seu Branoviense prope Pragam regni caput. Cuius abbas (Othmaro nomen est hodierno) reliquorum omnium generalis et perpetuus visitator est proximeque tum ob amplissimas opes, tum ob singularia quaedam in sacris privilegia <seg type="lemma" corresp="#d4618e16499">ad episcopalem splendorem</seg> accedit. Omnia bona inde tibi speranda doctissimo quodam Brevnoviensi monacho amico itidem meo ad id munus delecto, qui nostra vota omnino expleat. Non alibi lubentiori animo tua <seg type="lemma" corresp="#d4618e16504">encyclica excepta fuit</seg>; adeo hic abbas communis gloriae laudisque studiosus est. Quod si humanitati et labori praedicti mei amici reliquorum monasteriorum, ad quae encyclicam illico dimisit, studium et diligentia responderit, uberrima hinc messis colligetur. </seg><seg type="context" n="7" xml:space="preserve" xml:id="d4618e16354"> Styriae ducatus duo splendidissima nostri ordinis monasteria, S. Lamberti et Ad Montes seu Admontense continet. Admontense suum tibi studium pridem addixit, sed nondum quidquam misit; nullum tamen dubium, quin in tempore missurum sit. Ad S. Lambertum (St. Lambrecht) in vestra causa nihil adhuc literarum dedi, dabo tamen, ni gravis quaedam ratio stylum continuerit, propediem. Exstat in meo monasterio <seg type="lemma" corresp="#d4618e16509">Θεμελίωσις</seg> sive Compendiosa, exquisita tamen, ut quidem author operis Georgius Ulricus Chemnicensis praefatur, commemoratio fundationis Lambertinae abbatiae etc. edita Salisburgi anno Domini MDCIV. Hoc breve quasi chronicon sitne penes te an secus, vehementer nosse aveo. Quod si eo cares, scribe. Dabo operam apud reverendissimum dominum abbatem meum, ut, ni aliud aliunde exemplar comparari possit, hoc nostrum tibi transmittat. </seg><seg type="context" n="8" xml:space="preserve" xml:id="d4618e16356"> Carinthiae ducatus tria nostratia asceteria offert, videlicet fanum S. Pauli, regium vere monasterium, vulgo St. Paul, Arnoldsteinium et Ossiacum. Omnia de tuis consiliis certiora feci, quorum posteriora duo nullum hactenus responsum reddidere; primi, St. Paulensis, aio, abbas <pb n="2r"/> vir eruditissimus humanissimusque <seg type="lemma" corresp="#d4618e16516">omnia sua pollicitus</seg> est, id quod eo promptius praestare poterit, quo melius in historia Carinthiaca, cuius egregium <seg type="lemma" corresp="#d4618e16523">Breviarium olim edidit mihique dono dedit</seg>, versatus est. Ossiacense Chronicon, de quo proximo anno ad te, vehementer ab <seg type="lemma" corresp="#d4618e16529">eius loci abbate</seg> flagitavi non meo solum nomine, sed etiam tuo. Utinam contentionem hanc meam viro fuisse gratam felix brevi eventus probet! </seg><seg type="context" n="9" xml:space="preserve" xml:id="d4618e16360"> Tria Tirolis monasteria, S. Georgii, <seg type="lemma" corresp="#d4618e16534">S. Michaelis</seg> et Beatae Mariae in Valle-Venusta, tuam encyclicam nondum viderunt. Nunc, quoniam eiusdem <seg type="lemma" corresp="#d4618e16541">exemplaribus reverendo patri Anselmo transmissis et Vienna ad me remissis abundo</seg>, nihil obstat, quominus et Alpium Rhaeticarum iuga percurram. </seg><seg type="context" n="10" xml:space="preserve" xml:id="d4618e16362"> S. Martini monasterium in Hungaria celeberrimum non est, quod nunc cum laeti spe exitus tentem. Quippe rebellionis tempestas, etsi <seg type="lemma" corresp="#d4618e16546">a caesariano milite prope disiecta</seg> sit, nescio tamen quomodo Hungaricum ὁρίζοντα infecerit, ut inde prius omnia quam literarum mearum fructum exspectandum arbitrer. Quamprimum tamen lux et quies aliqua nostris rebus affulserit, officio non deero. </seg><seg type="context" n="11" xml:space="preserve" xml:id="d4618e16364"> Polonia, quod fame, bello et pestilentia ac fors etiam metu Turcico plena sit, aditum non nisi aegerrimum praebet. Caeterum vulgata Cracoviae anno 1663 fuit <seg type="lemma" corresp="#d4618e16553">Aquila Polono-Benedictina authore reverendo patre Stanislao Sczygielski praeposito Tuchoviensi ordinis sancti Benedicti. In hac Aquila beatorum et illustrium virorum elogia, coenobiorum ac rerum memorabilium synopsis, exordia quoque et progressus ordinis sancti patris Benedicti per Poloniam et eius sceptris subiectas provincias breviter describuntur. Habeo penes me</seg> bina huius operis exemplaria in quarto, uti loqui mos est. Nisi illius copia aliunde tibi suppetat, ex me una cum reliquis habebis. </seg><seg type="context" n="12" xml:space="preserve" xml:id="d4618e16367"> In Germaniam redeo. Herbipoli ad S. Stephanum celebris ordinis Benedictini abbatia est, cuius abbas Hiacynthus [<hi rend="italic">sic</hi>] incredibile est, quo institutum tuum amore prosequatur. Itaque praeclarissimi huius viri ope id consecutus sum, ut <seg type="lemma" corresp="#d4618e16560">encyclicam reverendi patris Ruinarti</seg> (neque enim tum tuam mittere poteram) ad omnia Franconiae monasteria amitteret. Ipse <seg type="lemma" corresp="#d4618e16567">sui monasterii monumenta</seg> magna fide collecta, interque ea <seg type="lemma" corresp="#d4618e16572">insigne diploma</seg> quoddam, mihi consignavit rogavitque, ut eorum quam proxime te compotem facerem. <seg type="lemma" corresp="#d4618e16577">Adscripsit praeterea reverendissimum abbatem Neostadiensem eiusdem Franconiae originem sui monasterii ad te Parisios perscripsisse</seg>. Imo tantae humanitatis hic abbas est, ut epistolam tuam denique a me eo missam sua ipse manu aliquoties describeret unumque aliquod exemplar <seg type="lemma" corresp="#d4618e16582">Fuldam secretario monasterii</seg>, ut vocant, novo Annalium Fuldensium scriptori commendaret. Tu si me amas, tam benigni et abbatis et patroni beneficiis singulari epistola qua demum cunque ratione respondere ne gravere. Quid caetera Franconiae monasteria sint decretura, me etiamnum latet. </seg><seg type="context" n="13" xml:space="preserve" xml:id="d4618e16372"> Ex Bavaria pro te <seg type="lemma" corresp="#d4618e16587">Thierhaupto demum consecutus sum illam Chronotaxin</seg> abbatum eiusdem monasterii authore Benedicto Charle [<hi rend="italic">sic</hi>] priore, viro docto et nostrum amantissimo. In eadem Bavaria reverendissimus dominus <seg type="lemma" corresp="#d4618e16595">Quirinus abbas Tegernseensis molitur et, ut spero, iam confecerit monasterii sui chronicon</seg>, quod ut consequaris, curabo, nisi tu ipse laboris huius partem praeocupaveris [<hi rend="italic">sic</hi>]. Et quamvis non sat tutum <seg type="lemma" corresp="#d4618e16600">ob certas rationes</seg> videatur nunc ad reliqua Bavariae monasteria tui causa scribere, faciam tamen, quod potero. </seg><seg type="context" n="14" xml:space="preserve" xml:id="d4618e16380"> In Suevia encyclicam tuam notam esse ex literis admodum reverendi patris <seg type="lemma" corresp="#d4618e16605">Alberti supprioris Ottoburani amici mei sincerissimi intellexi. Hunc virum, qui de rebus monasterii sui ad sex tomos conscripsit</seg>, ut consulas, suadeo, uti et <seg type="lemma" corresp="#d4618e16612">Joannem Weinkens</seg> priorem Seligenstadiensem, cuius conatus omnes nunc in condendis sui monasterii Annalibus versantur. Notatu praeterea dignum est, quod admodum reverendus dominus <seg type="lemma" corresp="#d4618e16617">Wolfgangus prior Augiae Divitis de Joanne Egon priore quondam Augiensi anno Domini 1643 mortuo ad me perscripsit</seg>, nimirum eum Latine Chronicon Augiense confecisse. Item Tractatum de viris illustribus monasterii Augiensis in tres partes distributum, in quarum prima agit de sanctis ac beatis Augiae; in secunda de doctoribus et scriptoribus; in tertia de monachis ad varias dignitates abbatiales, episcopales et archiepiscopales assumptis. Quae opera eo maiori tibi usui fore puto, <pb n="2v"/> quo maiorem Augia partem in historia Benedictina sibi semper vindicavit. Sed haec omnia magno, si commodum tuum spectem, intervallo post se relinquit <seg type="lemma" corresp="#d4618e16622">Suevia ecclesiastica</seg> a Francisco Petro canonico regulari Wettenhusano anno Domini 1699 Augustae Vindelicorum apud Benchard edita. In ea simul omnia, quae ad singula cuiusque in Suevia ordinis monasteria, casus, hodiernum statum etc. pertinent, barbara quidem oratione, sed vera, et quae multas egregias monasteriorum chartas, quas vocant, referat, descripta reperies. Zwifuldam, ut te sui Chronici a Sulgero eius loci erudito monacho eleganter scripti participem redderet reverendissimus abbas Wolfgangus, dimidio fere abhinc anno literas exaravi. Vellem nosse, quam felix in amico commendando fuerim. </seg><seg type="context" n="15" xml:space="preserve" xml:id="d4618e16384"> Plura nunc non succurrunt. Spero tamen haec fore eiusmodi, quae meum erga te studium non leviter probent. Certe si perpendas meos, quos in conscribenda Bibliotheca consumo, labores, si varia <seg type="lemma" corresp="#d4618e16627">superiorum meorum mandata</seg>, si omnium, qui a manu sint, hominum absentiam et id genus alia, miraculo prope par esse te puto iudicaturum, quod tot rebus unus sufficiam. Ultra triginta epistolas, quibus tibi patrocinarer, intra breve tempus ad diversos dedi, imo vix est monasterium, cuius monumenta tametsi levia non tribus<note place="foot" xml:id="d4618e16386">	Danach durchgestrichen <hi rend="italic">lit</hi>.</note> epistolis constent. Reverendus pater <seg type="lemma" corresp="#d4618e16634">Anselmus, utut otio abundet et voluntate promptissimus sit, ob gravem causam tuis rebus minus adesse potest</seg>. Igitur tota et omnis moles me petit. Nec haec eo velim trahas, quasi ad haec exsequenda invitus sim admodumque graver. Quod enim laboris pro te Annalibusque Benedictinis exhaurio, non durum mihi et grave, sed vehementer dulce iucundumque videtur; sed ideo postrema memoravi, ne me ob productum longius responsum de amore quidquam amisisse suspicaveris, simulque te incitarem, ut in me adiuvando vicissimque operi meo opportuna suggerendo pergeres. </seg><seg type="context" n="16" xml:space="preserve" xml:id="d4618e16392"> Elogium Elembogii ex Baluzio (cuius viri nomen nunquam sine animi gaudio profero) exscriptum maximopere me delectavit. Erat is mihi probe ex <seg type="lemma" corresp="#d4618e16639">scriptorum Ottoburanorum catalogo</seg> ab admodum reverendo patre Alberto Krez misso cognitus, verum tot <seg type="lemma" corresp="#d4618e16646">epistolarum libros (namque duos</seg> duntaxat pater Albertus memorabat) scripsisse penitus ignorabam. Guilielmi Cave <seg type="lemma" corresp="#d4618e16651">Historiam literariam</seg> anno Domini<note place="foot" xml:id="d4618e16394">	Danach durchgestrichen <hi rend="italic">16</hi>.</note> 1705 Genevae editam Vienna Austriae nuper nactus sum. Egregia quaedam in hoc authore occurrunt, sed non omnino perfecta. Eliae <seg type="lemma" corresp="#d4618e16657">Dupinii De scriptoribus ecclesiasticis opus usque ad saeculum Christi quartum</seg> Latine ibidem prostat venale. Utinam sit, qui reliquas operis partes brevi Latinitate donet! <seg type="lemma" corresp="#d4618e16662">Spicilegii sex priores tomulos Ochsenhusio accepi</seg>, quo in opere animus meus plene acquiescit. Romae admodum reverendus dominus Armelinus in monasterio S. Pauli Bibliothecam scriptorum congregationis Casinensis, ut mihi scripsit, molitur ac edet; cuius labores ut Deus fortunet, enixe opto. De aliis libris, qui mihi usui esse possint, tu me pro mutuo inter nos amore monebis. &lt;</seg><seg type="context" n="17" xml:space="preserve" xml:id="d4618e16400">&gt; Postremo maximas gratias reverendus pater Anselmus et ego tibi et agimus et habemus pro transmissis <seg type="lemma" corresp="#d4618e16667">munusculis</seg>. Studebo primo vere etiam referre, quo tempore collectas monasteriorum symbolas ad te mittere constitui, modo tutam mihi viam, qua ad te Parisios perferantur, ostenderis. Admodum reverendi patris Mabilionis effigies, quo pluribus ad praeclara et honesta literarum studia stimulo sit et incitamento, publico apud nos loco affigetur. Iam tandem vale, mi suavissime domine Renate, et ultimum saltem locum in tuo mihi animo relinque. Esto mei memor cum apud eruditissimos tuos collegas, quorum nomina mihi, obsecro, perscribe, tum ad aram, ubi pietatis interioris penna sublatus animus gratiam aeterno Numini vere serviendi mihi peccatorum maximo reddat impetratam. Salutant te omnes confratres mei Mellicenses, quibus tuae literae roris et mellis ad instar esse consueverunt.</seg></p>
+            <p xml:space="preserve">Mellicii 25. Januarii 1711.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e14379" target="#d4617e14226 #d4617e14327">
-               <ref target="">3</ref>
+            <note xml:id="d4618e16405">
+               <ref type="context">3</ref>
                <label>princeps caeterorum Cremifanium</label>
                <p>Die Reihenfolge ist jene der Präzedenz im oberösterreichischen Prälatenstand, dessen Primas der jeweilige Abt von Kremsmünster war (Pitschmann, Kremsmünster 173). Auch die niederösterreichischen Klöster zählt BP in analoger Weise nach dem Rang auf.</p>
             </note>
-            <note xml:id="d4617e14386" target="#d4617e14226 #d4617e14327">
-               <ref target="#d4617e14226 #d4617e14327">3</ref>
+            <note xml:id="d4618e16412">
+               <ref type="context">3</ref>
                <label>reiecto Hispanorum Monserratensium more vivendi</label>
                <p>Die anfangs sehr strengen asketischen Vorschriften der Konstitutionen der böhmisch-österreichischen Kongregation „von Montserrat“ (mit Zentrum im Prager Emmauskloster) waren seit dem späten 17. Jh. immer mehr gelockert worden, sodass sich die Observanz letztlich weitestgehend an jene der österreichischen Benediktiner anglich: Albareda, Congregació 166–173, 255–280. Zu einem Übertritt des Wiener Klosters zur Österreichischen Kongregation kam es jedoch nicht.</p>
             </note>
-            <note xml:id="d4617e14391" target="#d4617e14228 #d4617e14329">
-               <ref target="">4</ref>
+            <note xml:id="d4618e16417">
+               <ref type="context">4</ref>
                <label>Clunicense ... commentariolum</label>
                <p>Vgl. 97.</p>
             </note>
-            <note xml:id="d4617e14398" target="#d4617e14228 #d4617e14329">
-               <ref target="#d4617e14228 #d4617e14329">4</ref>
+            <note xml:id="d4618e16424">
+               <ref type="context">4</ref>
                <label>plerisque in more positum</label>
                <p>BPs Eindruck von der Häufigkeit der Entschuldigung mit Überlieferungsverlusten ist leicht nachzuvollziehen; vgl. Einleitung, Abschnitt I.2, sowie etwa 40, 42, 81, 98.</p>
             </note>
-            <note xml:id="d4617e14403" target="#d4617e14228 #d4617e14329">
-               <ref target="#d4617e14228 #d4617e14329">4</ref>
+            <note xml:id="d4618e16429">
+               <ref type="context">4</ref>
                <label>Lambacense ... catalogum</label>
                <p>In Melk nicht feststellbar, auch auf die Art der Übermittlung aus Lambach findet sich kein Hinweis.</p>
             </note>
-            <note xml:id="d4617e14408" target="#d4617e14228 #d4617e14329">
-               <ref target="#d4617e14228 #d4617e14329">4</ref>
+            <note xml:id="d4618e16434">
+               <ref type="context">4</ref>
                <label>libellum ... Vitae</label>
                <p>Bimmels „Vitae et miracula“ ist heute in Melk vorhanden (StiB Melk 6894). Zum Autor: Anzengruber, Lambach 270f., 292; Eilenstein, Lambach 43f.; Krauße, Bimmel.</p>
             </note>
-            <note xml:id="d4617e14413" target="#d4617e14228 #d4617e14329">
-               <ref target="#d4617e14228 #d4617e14329">4</ref>
+            <note xml:id="d4618e16439">
+               <ref type="context">4</ref>
                <label>Lunaelacense ... abbatum elenchum ... diplomata</label>
                <p>Der Äbtekatalog ist höchstwahrscheinlich mit der in 177 &lt;16&gt; genannten „Historia brevis monasterii Monseensis“ identisch. Diese ist in Melk nicht feststellbar, erhalten ist jedoch ein von BP daraus exzerpiertes Elogium auf Maurus Oberascher: StiA Melk, Karton 7 Patres 9, Fasz. 1, Nr. 59; sowie ebd., Karton 7 Patres 9, Abschriftencodex 99v–101v. Nach Vermerken BPs zu beiden dieser Überlieferungen war ihm die „Historia“ 1710 von Koloman Seeau gesendet worden (135). – Bei den hier erwähnten Beilagen könnte ein Zusammenhang mit einem in StiA Melk, Karton 7 Patres 10, Fasz. 3, Nr. 32, erhaltenen Blatt bestehen, auf dem sich eine Abschrift des Epitaphs Abt Konrads II. sowie das Regest einer Mondseer Urkunde finden.</p>
             </note>
-            <note xml:id="d4617e14418" target="#d4617e14228 #d4617e14329">
-               <ref target="#d4617e14228 #d4617e14329">4</ref>
+            <note xml:id="d4618e16444">
+               <ref type="context">4</ref>
                <label>Rettenbacher</label>
                <p>Kellner, Profeßbuch 236–239; Pitschmann, Kremsmünster 175f., 208; Sattler, Collectaneen-Blätter 226–228; vgl. Dünnhaupt, Personalbibliographien 5 3305–3308. Zu seinen „Annales“ von Kremsmünster: Benz, Zwischen Tradition und Kritik 250; Coreth, Geschichtschreibung 95f.</p>
             </note>
-            <note xml:id="d4617e14423" target="#d4617e14228 #d4617e14329">
-               <ref target="#d4617e14228 #d4617e14329">4</ref>
+            <note xml:id="d4618e16449">
+               <ref type="context">4</ref>
                <label>penes vos esse ... intellexerim</label>
                <p>Erwähnungen Kremsmünsters finden sich bei Mabillon, Acta sanctorum OSB 5/2 403; 6 665; Mabillon, Annales OSB 2 242, 437, 518; 4 181f. Ein ausdrücklicher Verweis auf die „Annales monasterii Cremifanensis“ erscheint jedoch erst ebd. 5 555.</p>
             </note>
-            <note xml:id="d4617e14428" target="#d4617e14239 #d4617e14333">
-               <ref target="">5</ref>
+            <note xml:id="d4618e16454">
+               <ref type="context">5</ref>
                <label>Anselmi ... Chronico</label>
                <p>Das Exemplar des „Chronicon Mellicense“, das Schramb bereits im März 1710 nach Paris abgeschickt hatte (vgl. 62 &lt;2&gt;, 68 &lt;6&gt;, 71 &lt;3&gt;, 88 &lt;7&gt;), war dort anscheinend im August endlich eingetroffen, wie aus einem Brief Schrambs an RM vom 25. Oktober 1710 hervorgeht: BN FF 19664, 273r–274v.</p>
             </note>
-            <note xml:id="d4617e14435" target="#d4617e14239 #d4617e14333">
-               <ref target="#d4617e14239 #d4617e14333">5</ref>
+            <note xml:id="d4618e16461">
+               <ref type="context">5</ref>
                <label>Gottwicum ... suggessit</label>
                <p>Vgl. 74.</p>
             </note>
-            <note xml:id="d4617e14441" target="#d4617e14239 #d4617e14333">
-               <ref target="#d4617e14239 #d4617e14333">5</ref>
+            <note xml:id="d4618e16467">
+               <ref type="context">5</ref>
                <label>commentarium ex Seittenstadio</label>
                <p>Der Traktat ist abschriftlich unter dem Titel „Descriptio fundationis Seittenstettensis“ überliefert: StiB Melk, Cod. 396, 40v–46v (Glassner, Handschriften 87). Nach einer Angabe auf dem Deckblatt des Codex reicht er bis 1711; wenn dies zutrifft, dürfte ihn BP erst kurz vor diesem Brief erhalten haben.</p>
             </note>
-            <note xml:id="d4617e14446" target="#d4617e14239 #d4617e14333">
-               <ref target="#d4617e14239 #d4617e14333">5</ref>
+            <note xml:id="d4618e16472">
+               <ref type="context">5</ref>
                <label>tam gravis sopor</label>
                <p>BPs Wahrnehmung über das Desinteresse des barocken Altenburg an historischer Gelehrsamkeit entspricht durchaus den Ergebnissen neuerer Forschung; vgl. Andraschek-Holzer, Wissenschaftsgeschichte 379f. Die bei Endl, Studium und Wissenschaft 463–468, angeführten Aktivitäten beschränken sich auf den Bereich des scholastischen Hausstudienbetriebs. Zu Abt Regondi: Burger, Altenburg 95–100; Egger, Altenburg 232–234, 252.</p>
             </note>
-            <note xml:id="d4617e14451" target="#d4617e14239 #d4617e14333">
-               <ref target="#d4617e14239 #d4617e14333">5</ref>
+            <note xml:id="d4618e16477">
+               <ref type="context">5</ref>
                <label>aulae caesareae favor</label>
                <p>Zu Abt Vogel und seinen Beziehungen zum Hof: Albareda, Congregació 106; Helmling, Emaus 49; Rapf, Schwarzspanierkloster 22, 25–36.</p>
             </note>
-            <note xml:id="d4617e14456" target="#d4617e14239 #d4617e14333">
-               <ref target="#d4617e14239 #d4617e14333">5</ref>
+            <note xml:id="d4618e16482">
+               <ref type="context">5</ref>
                <label>docto ... ascetae</label>
                <p>Sicherlich Ildephons Rucker; vgl. 175. Zu Abt Fetzer: Hauswirth, Abriß 122–137; Rapf–Ferenczy, Schotten 789f.</p>
             </note>
-            <note xml:id="d4617e14461" target="#d4617e14253 #d4617e14338">
-               <ref target="">6</ref>
+            <note xml:id="d4618e16487">
+               <ref type="context">6</ref>
                <label>sex ... monasteria</label>
                <p>Zu den böhmischen Klöstern vgl. 11. BP zählt wohl die fünf Klöster der Böhmischen Kongregation sowie das Prager Emmauskloster.</p>
             </note>
-            <note xml:id="d4617e14468" target="#d4617e14253 #d4617e14338">
-               <ref target="#d4617e14253 #d4617e14338">6</ref>
+            <note xml:id="d4618e16494">
+               <ref type="context">6</ref>
                <label>in Silesia unum ... puellarum</label>
                <p>Vgl. 111 &lt;16&gt;, 130. Unklar bleibt, warum BP nur von einem Kloster spricht, obwohl Rupert Hausdorf an diesen Stellen jeweils von mehreren geschrieben hatte.</p>
             </note>
-            <note xml:id="d4617e14473" target="#d4617e14253 #d4617e14338">
-               <ref target="#d4617e14253 #d4617e14338">6</ref>
+            <note xml:id="d4618e16499">
+               <ref type="context">6</ref>
                <label>ad episcopalem splendorem</label>
                <p>Zwischen Abt Zinke und dem Prager Erzbischof war ein heftiger Rechtsstreit um die Exemption von Břevnov und die Rechtsstellung seines Abtes im Gange, was auch für Zinkes Interesse an der Erforschung der Klosterarchive mit ein Grund war: Menzel, Exemtionsstreit; vgl. Menzel, Böhmische Benediktinerkongregation 593; Menzel, Zinke 121–133. Vgl. auch 11.</p>
             </note>
-            <note xml:id="d4617e14478" target="#d4617e14253 #d4617e14338">
-               <ref target="#d4617e14253 #d4617e14338">6</ref>
+            <note xml:id="d4618e16504">
+               <ref type="context">6</ref>
                <label>encyclica excepta fuit</label>
                <p>Vgl. 113, 130.</p>
             </note>
-            <note xml:id="d4617e14483" target="#d4617e14255 #d4617e14340">
-               <ref target="">7</ref>
+            <note xml:id="d4618e16509">
+               <ref type="context">7</ref>
                <label>Θεμελίωσις</label>
                <p>Vgl. Plank, St. Lambrecht 328; Wonisch, Bibliographie 6. In der StiB Melk ist heute kein Exemplar vorhanden.</p>
             </note>
-            <note xml:id="d4617e14490" target="#d4617e14260 #d4617e14342">
-               <ref target="">8</ref>
+            <note xml:id="d4618e16516">
+               <ref type="context">8</ref>
                <label>omnia sua pollicitus</label>
                <p>Vgl. 65 und 83, wo Reichart auf BPs Kontakt mit den Maurinern Bezug nimmt. Ein explizites Versprechen der Einsendung von Material für RM und die „Annales OSB“ findet sich in den erhaltenen Reichart-Briefen allerdings nicht.</p>
             </note>
-            <note xml:id="d4617e14497" target="#d4617e14260 #d4617e14342">
-               <ref target="#d4617e14260 #d4617e14342">8</ref>
+            <note xml:id="d4618e16523">
+               <ref type="context">8</ref>
                <label>Breviarium ... dono dedit</label>
                <p>Die Schenkung ist aus den Briefen Reicharts nicht explizit zu ersehen; vgl. 50, 83. Ein Exemplar ist in Melk vorhanden (StiB Melk 4934).</p>
             </note>
-            <note xml:id="d4617e14503" target="#d4617e14260 #d4617e14342">
-               <ref target="#d4617e14260 #d4617e14342">8</ref>
+            <note xml:id="d4618e16529">
+               <ref type="context">8</ref>
                <label>eius loci abbate</label>
                <p>Zu Ibelpacher: Hartwagner, Ossiach 20f.; Tropper, Ossiach 48–50.</p>
             </note>
-            <note xml:id="d4617e14508" target="#d4617e14265 #d4617e14346">
-               <ref target="">9</ref>
+            <note xml:id="d4618e16534">
+               <ref type="context">9</ref>
                <label>S. Michaelis</label>
                <p>Ein Benediktinerkloster dieses Patroziniums gab es in Tirol nicht. Wahrscheinlich ist eine Verwechslung mit dem Augustiner-Chorherrenstift St. Michael an der Etsch (S. Michele sull’Adige).</p>
             </note>
-            <note xml:id="d4617e14515" target="#d4617e14265 #d4617e14346">
-               <ref target="#d4617e14265 #d4617e14346">9</ref>
+            <note xml:id="d4618e16541">
+               <ref type="context">9</ref>
                <label>exemplaribus ... abundo</label>
                <p>In einem Schreiben an RM vom 7. Februar 1711 (BN FF 19664, 275r–276v) bestätigt Schramb den Erhalt von mehr als 30 Enzykliken. RM hatte sie am 2. September 1710 nach St. Gallen geschickt (Dantier, Pièces annexées 455f.), wo Innozenz Müller sie weiterleitete (BN FF 19664, 253r–254v).</p>
             </note>
-            <note xml:id="d4617e14520" target="#d4617e14267 #d4617e14348">
-               <ref target="">10</ref>
+            <note xml:id="d4618e16546">
+               <ref type="context">10</ref>
                <label>a caesariano milite ... disiecta</label>
                <p>Mit der Einnahme der Festung Neuhäusel im September 1710 bahnte sich der definitive militärische Sieg der kaiserlichen Truppen über den Rákóczi-Aufstand an. Der Frieden von Szatmár wurde am 29. April 1711 geschlossen: Braubach, Prinz Eugen 2 386–389; Vocelka, Glanz und Untergang 88.</p>
             </note>
-            <note xml:id="d4617e14527" target="#d4617e14269 #d4617e14350">
-               <ref target="">11</ref>
+            <note xml:id="d4618e16553">
+               <ref type="context">11</ref>
                <label>Aquila Polono-Benedictina ... penes me</label>
                <p>Heute befindet sich ein Exemplar in Melk (StiB Melk 33169). Vgl. 451; zum Werk: Krawczyk, Książka.</p>
             </note>
-            <note xml:id="d4617e14534" target="#d4617e14272 #d4617e14353">
-               <ref target="">12</ref>
+            <note xml:id="d4618e16560">
+               <ref type="context">12</ref>
                <label>encyclicam ... Ruinarti</label>
                <p>Vgl. 110, 120 &lt;5&gt;.</p>
             </note>
-            <note xml:id="d4617e14541" target="#d4617e14272 #d4617e14353">
-               <ref target="#d4617e14272 #d4617e14353">12</ref>
+            <note xml:id="d4618e16567">
+               <ref type="context">12</ref>
                <label>sui monasterii monumenta</label>
                <p>Vgl. 120 &lt;1&gt;.</p>
             </note>
-            <note xml:id="d4617e14546" target="#d4617e14272 #d4617e14353">
-               <ref target="#d4617e14272 #d4617e14353">12</ref>
+            <note xml:id="d4618e16572">
+               <ref type="context">12</ref>
                <label>insigne diploma</label>
                <p>Die wichtigste Urkunde von St. Stephan war gewiss die angebliche Gründungsurkunde von 1057, bei der es sich jedoch um eine Fälschung handelt: Bendel–Heidingsfelder–Kaufmann, Urkundenbuch 1 4–7; vgl. Geißler, Gründung 46–49; Ofer, St. Stephan 1–5; Ries, Kloster im Spiegel 130, 133–135; Wendehorst, Bistum Würzburg 1 114.</p>
             </note>
-            <note xml:id="d4617e14551" target="#d4617e14272 #d4617e14353">
-               <ref target="#d4617e14272 #d4617e14353">12</ref>
+            <note xml:id="d4618e16577">
+               <ref type="context">12</ref>
                <label>Adscripsit praeterea ... abbatem Neostadiensem ... perscripsisse</label>
                <p>Diese Informationen finden sich in keinem der erhaltenen Briefe Baumbachs. Es steht zu vermuten, dass sie dem verlorenen Brief 132 entstammen. Die Mitteilung wird bestätigt durch die Angabe RMs in 154 &lt;5&gt;.</p>
             </note>
-            <note xml:id="d4617e14556" target="#d4617e14272 #d4617e14353">
-               <ref target="#d4617e14272 #d4617e14353">12</ref>
+            <note xml:id="d4618e16582">
+               <ref type="context">12</ref>
                <label>Fuldam secretario monasterii</label>
                <p>Für diese Informationen gilt dasselbe wie für jene über Neustadt; vgl. auch 144 &lt;1&gt;. Sigler stand bis 1711 in den Diensten des Fürstabtes von Fulda, bevor er in sächsische, dann würzburgische Dienste trat: 196 &lt;1&gt;, 267 &lt;2&gt;; vgl. Katschthaler, Briefnachlass 16f.</p>
             </note>
-            <note xml:id="d4617e14561" target="#d4617e14283 #d4617e14358">
-               <ref target="">13</ref>
+            <note xml:id="d4618e16587">
+               <ref type="context">13</ref>
                <label>Thierhaupto demum ... Chronotaxin</label>
                <p>Die Formulierung impliziert, dass BP ein Exemplar eigens für RM angefordert hätte, was sich jedoch aus der erhaltenen Korrespondenz mit Cherle nicht erhärten lässt; auch das Fehlen des Buches in der StiB Melk spricht eher dagegen, dass BP über zwei Exemplare verfügt hätte; vgl. 52, 68 &lt;6&gt;.</p>
             </note>
-            <note xml:id="d4617e14569" target="#d4617e14283 #d4617e14358">
-               <ref target="#d4617e14283 #d4617e14358">13</ref>
+            <note xml:id="d4618e16595">
+               <ref type="context">13</ref>
                <label>Quirinus ... molitur ... chronicon</label>
                <p>Zu den hausgeschichtlichen Arbeiten Millons vgl. Gross, Immlein 19; Lindner, Familia S. Quirini Ergh. 60; außerdem 453 &lt;4&gt;.</p>
             </note>
-            <note xml:id="d4617e14574" target="#d4617e14283 #d4617e14358">
-               <ref target="#d4617e14283 #d4617e14358">13</ref>
+            <note xml:id="d4618e16600">
+               <ref type="context">13</ref>
                <label>ob certas rationes</label>
                <p>Die Ereignisse des Spanischen Erbfolgekrieges, in dem sich der bayerische Kurfürst mit Frankreich verbündet hatte und dafür aus seinem Land vertrieben worden war, das zur Stunde dieses Briefs noch von den Österreichern besetzt gehalten wurde, machten es zweifellos heikel, dort als Österreicher für die Interessen eines Franzosen zu werben. Überhaupt waren die Rückmeldungen auf BPs Anfragen aus den Klöstern der Bayerischen Benediktinerkongregation bislang sehr spärlich geflossen: Außer von Cherle (52, 85) hatten ihn nur aus Andechs ein Schriftstellerkatalog (36), aus St. Emmeram ein noch nicht eingelöstes Versprechen (9) erreicht. Auch der Kontakt zu Abt Millon in Tegernsee, der offenbar bereits bestanden hatte (vgl. 28), scheint unterbrochen gewesen zu sein, wie die Worte „ut spero, iam confecerit“ andeuten.</p>
             </note>
-            <note xml:id="d4617e14579" target="#d4617e14288 #d4617e14366">
-               <ref target="">14</ref>
+            <note xml:id="d4618e16605">
+               <ref type="context">14</ref>
                <label>Alberti ... sex tomos conscripsit</label>
                <p>Tatsächlich hinterließ Krez mehr als ein Dutzend Bände mit hausgeschichtlichen Arbeiten: Lindner, Album Ottoburanum 30 137f. In der Beilage zu 12 berichtet Krez, dass er eine „Chronologia universalis“ in neun Bänden geschrieben und dann daraus eine gekürzte Fassung in drei Teilen angefertigt habe.</p>
             </note>
-            <note xml:id="d4617e14586" target="#d4617e14288 #d4617e14366">
-               <ref target="#d4617e14288 #d4617e14366">14</ref>
+            <note xml:id="d4618e16612">
+               <ref type="context">14</ref>
                <label>Joannem Weinkens</label>
                <p>Vgl. 29.</p>
             </note>
-            <note xml:id="d4617e14591" target="#d4617e14288 #d4617e14366">
-               <ref target="#d4617e14288 #d4617e14366">14</ref>
+            <note xml:id="d4618e16617">
+               <ref type="context">14</ref>
                <label>Wolfgangus ... perscripsit</label>
                <p>Vgl. 204 &lt;5&gt;; sowie Stockinger, Fidelis 384.</p>
             </note>
-            <note xml:id="d4617e14596" target="#d4617e14288 #d4617e14366">
-               <ref target="#d4617e14288 #d4617e14366">14</ref>
+            <note xml:id="d4618e16622">
+               <ref type="context">14</ref>
                <label>Suevia ecclesiastica</label>
                <p>Vgl. 125 &lt;4&gt;, wo Albert Krez BP auf dieses Werk als für die Mauriner nützlich hinweist.</p>
             </note>
-            <note xml:id="d4617e14601" target="#d4617e14299 #d4617e14370">
-               <ref target="">15</ref>
+            <note xml:id="d4618e16627">
+               <ref type="context">15</ref>
                <label>superiorum meorum mandata</label>
                <p>Vgl. Einleitung, Abschnitt I.1.</p>
             </note>
-            <note xml:id="d4617e14608" target="#d4617e14299 #d4617e14370">
-               <ref target="#d4617e14299 #d4617e14370">15</ref>
+            <note xml:id="d4618e16634">
+               <ref type="context">15</ref>
                <label>Anselmus ... minus adesse potest</label>
                <p>In einem Brief an RM vom 4. Juli 1711 (BN FF 19664, 277r–278v) berichtet Schramb von einer Erkrankung, welche ihn der Gefahr des Erblindens ausgesetzt habe.</p>
             </note>
-            <note xml:id="d4617e14613" target="#d4617e14301 #d4617e14372">
-               <ref target="">16</ref>
+            <note xml:id="d4618e16639">
+               <ref type="context">16</ref>
                <label>scriptorum ... catalogo</label>
                <p>Vgl. 12.</p>
             </note>
-            <note xml:id="d4617e14620" target="#d4617e14301 #d4617e14372">
-               <ref target="#d4617e14301 #d4617e14372">16</ref>
+            <note xml:id="d4618e16646">
+               <ref type="context">16</ref>
                <label>epistolarum libros ... duos</label>
                <p>In dem Katalog (StiA Melk, Karton 85 Varia 23, Fasz. 1, Nr. 19) berichtet Krez zu Ellenbog: „[...] varios tractatulos, sermones aliaque tum religiosa cum profana conscripsit et complexus est duobus tomulis“. Die zwei Bände sind anhand dieser Nennung nicht zu bestimmen; vgl. Lindner, Album Ottoburanum 115–117. Briefe befanden sich damals keine in Ottobeuren; vgl. Bigelmair–Zoepfl, Ellenbog Briefwechsel XCVIII–CII; sowie 125 &lt;3&gt;.</p>
             </note>
-            <note xml:id="d4617e14625" target="#d4617e14301 #d4617e14372">
-               <ref target="#d4617e14301 #d4617e14372">16</ref>
+            <note xml:id="d4618e16651">
+               <ref type="context">16</ref>
                <label>Historiam literariam</label>
                <p>Das Werk ist in Melk in der genannten Ausgabe vorhanden (StiB Melk 4303, 4304).</p>
             </note>
-            <note xml:id="d4617e14631" target="#d4617e14301 #d4617e14372">
-               <ref target="#d4617e14301 #d4617e14372">16</ref>
+            <note xml:id="d4618e16657">
+               <ref type="context">16</ref>
                <label>Dupinii ... usque ad saeculum ... quartum</label>
                <p>Die drei Bände der Übersetzung (Paris 1692–1693) reichen bis in die Zeit des Hl. Augustinus; weitere waren nicht erschienen. Vgl. 48 &lt;5&gt;, 154 &lt;13&gt;.</p>
             </note>
-            <note xml:id="d4617e14636" target="#d4617e14301 #d4617e14372">
-               <ref target="#d4617e14301 #d4617e14372">16</ref>
+            <note xml:id="d4618e16662">
+               <ref type="context">16</ref>
                <label>Spicilegii ... Ochsenhusio accepi</label>
                <p>Vgl. 88 &lt;3&gt;, 107. Die Versendung muss seit dem letzteren Brief erfolgt sein; wahrscheinlich hatte BP seine Bitte in 112 erneuert.</p>
             </note>
-            <note xml:id="d4617e14641" target="#d4617e14309 #d4617e14374">
-               <ref target="">17</ref>
+            <note xml:id="d4618e16667">
+               <ref type="context">17</ref>
                <label>munusculis</label>
                <p>Nach Angaben Schrambs in seinem Brief vom 7. Februar (vgl. &lt;9&gt;) hatte RM vier Exemplare eines Kupferstichs mit dem Bildnis Mabillons, ein Exemplar von Ruinarts „Abregé“ des Lebens Mabillons sowie einen Prospekt („argumentum“) seiner eigenen Irenäus-Edition geschickt.</p>
             </note>

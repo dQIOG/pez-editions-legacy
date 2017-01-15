@@ -13,46 +13,49 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">390</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>No direct source, inferred letter.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Kaspar Altlechner</persName>
+               <date notBefore="1715-03-21">&lt; 1715-03-21</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="next">
+                  <idno type="pezEd">391</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">391</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">390</id>
-         <deduced xmlns="">true</deduced>
-         <sender xmlns="">Kaspar Altlechner</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">&lt; 1715-03-21</date>
-         <place-of-posting xmlns=""/>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="editorialNote">
-            <p>Bezüge: 391. Erwähnt in 391.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>391</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>391</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: Der Datumsansatz ergibt sich aus der Überlegung, dass das Fest des Hl. Benedikt, von dem in 391 berichtet wird, in den Zeitraum seit der Versendung des dort erwähnten Vorbriefs gefallen sein müsste, dieser also vor dem Datum jenes Festes, dem 21. März, einzureihen ist.</p>
+            <p xml:space="preserve">Bemerkungen: Der Datumsansatz ergibt sich aus der Überlegung, dass das Fest des Hl. Benedikt, von dem in 391 berichtet wird, in den Zeitraum seit der Versendung des dort erwähnten Vorbriefs gefallen sein müsste, dieser also vor dem Datum jenes Festes, dem 21. März, einzureihen ist.</p>
          </div>
       </front>
       <body>
          <ab>
-            <gap reason="letter missing"/>
+            <gap reason="inferred letter"/>
          </ab>
       </body>
       <back/>

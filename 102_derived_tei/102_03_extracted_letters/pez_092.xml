@@ -13,135 +13,104 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">92</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Schönhofer, Pez 19</bibl>
+                  <bibl>Stockinger, Fidelis 354, 358, 386</bibl>
+                  <bibl>Wallnig, Epistolae 10</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">II</biblScope>
+               <biblScope unit="page">96r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Moritz Müller</persName>
+               <date when="1710-07-26">1710-07-26</date>
+               <placeName>St. Gallen</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">199</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">89</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">24</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">92</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Moritz Müller</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1710-07-26</date>
-         <place-of-posting xmlns="">St. Gallen</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e9479">
-                  <persName>
-                     <abbr>MM</abbr>
-                  </persName> antwortet auf BPs Brief vom 10. des Monats <ref type="letter">89</ref>, welchen er erst am 23. desselben erhalten hat.</seg>
-               <seg type="context" n="2" xml:id="d4617e9484">Er dankt für die in Goldmünzen erfolgte Bezahlung für die „Annales Hirsaugienses“ des Trithemius und hofft, dass das Buch inzwischen über Ulm Melk erreicht hat.</seg>
-               <seg type="context" n="3" xml:id="d4617e9486">
-                  <persName>
-                     <abbr>MM</abbr>
-                  </persName> erwidert die Grüße Anselm Schrambs. Das von diesem zugesendete „Chronicon Mellicense“ ist in St. Gallen noch nicht eingetroffen. <persName>
-                     <abbr>MM</abbr>
-                  </persName> ist überzeugt, dass Abt Bürgisser, der historisch sehr interessiert ist, das Geschenk zu schätzen wissen wird, und hofft, dass er das Werk zur Lesung an der Konventsmensa freigeben wird.</seg>
-               <seg type="context" n="4" xml:id="d4617e9488">Aus Frankreich hat <persName>
-                     <abbr>MM</abbr>
-                  </persName> noch keine Antwort erhalten. René Massuet hat in seinem letzten Brief jedoch den Erhalt der Briefe von <persName>
-                     <abbr>MM</abbr>
-                  </persName> und <persName>
-                     <abbr>BP</abbr>
-                  </persName> 
-                  <ref type="letter">24</ref> bestätigt. Über Schrambs „Chronicon“ schweigt Massuet, was vermuten lässt, dass es in Paris noch nicht angekommen ist. <persName>
-                     <abbr>MM</abbr>
-                  </persName> will bald nachfragen und jegliche Nachrichten sofort weiterleiten, zugleich Massuet nochmals BPs Vorhaben ans Herz legen, sodass dieser <persName>
-                     <abbr>BP</abbr>
-                  </persName> aus Liebe zu <persName>
-                     <abbr>MM</abbr>
-                  </persName> bestimmt helfen wird.</seg>
-               <seg type="context" n="5" xml:id="d4617e9493">Die „Animadversiones“ Mabillons sind vergriffen oder aus Missgunst aufgekauft. Das „Abregé“ des Lebens Mabillons (von Ruinart) dagegen ist nur auf Französisch erschienen und ein so dünnes Büchlein, dass es sich eher um ein Elogium als um eine Lebensgeschichte handelt.</seg>
-               <seg type="context" n="6" xml:id="d4617e9495">Was die anderen von <persName>
-                     <abbr>BP</abbr>
-                  </persName> gewünschten Bücher betrifft, so kann <persName>
-                     <abbr>MM</abbr>
-                  </persName> alles problemlos besorgen. Die ersten Bände des „Spicilegium“ von d’Achery sowie der „Acta sanctorum OSB“ von Mabillon sind jedoch schwierig zu bekommen, da sie vor dem Erscheinen der späteren Bände bereits vergriffen waren und so den Preis des Gesamtwerks in die Höhe treiben. <persName>
-                     <abbr>MM</abbr>
-                  </persName> ist sicher, den günstigsten Preis in Deutschland zu bekommen, braucht zuvor jedoch eine explizite Vollmacht zum Ankauf.</seg>
-               <seg type="context" n="7" xml:id="d4617e9497">Über Jodok Metzler will <persName>
-                     <abbr>MM</abbr>
-                  </persName> ein anderes Mal berichten.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e11271"><rs type="person" role="sender">MM</rs> antwortet auf <rs type="person" role="sender">BPs</rs> Brief vom 10. des Monats <ref type="letter">89</ref>, welchen er erst am 23. desselben erhalten hat.</seg><seg type="context" n="2" xml:id="d4618e11276">Er dankt für die in Goldmünzen erfolgte Bezahlung für die „Annales Hirsaugienses“ des Trithemius und hofft, dass das Buch inzwischen über Ulm Melk erreicht hat.</seg><seg type="context" n="3" xml:id="d4618e11278"><rs type="person" role="sender">MM</rs> erwidert die Grüße Anselm Schrambs. Das von diesem zugesendete „Chronicon Mellicense“ ist in St. Gallen noch nicht eingetroffen. <rs type="person" role="sender">MM</rs> ist überzeugt, dass Abt Bürgisser, der historisch sehr interessiert ist, das Geschenk zu schätzen wissen wird, und hofft, dass er das Werk zur Lesung an der Konventsmensa freigeben wird.</seg><seg type="context" n="4" xml:id="d4618e11280">Aus Frankreich hat <rs type="person" role="sender">MM</rs> noch keine Antwort erhalten. René Massuet hat in seinem letzten Brief jedoch den Erhalt der Briefe von <rs type="person" role="sender">MM</rs> und <rs type="person" role="sender">BP</rs> <ref type="letter">24</ref> bestätigt. Über Schrambs „Chronicon“ schweigt Massuet, was vermuten lässt, dass es in Paris noch nicht angekommen ist. <rs type="person" role="sender">MM</rs> will bald nachfragen und jegliche Nachrichten sofort weiterleiten, zugleich Massuet nochmals <rs type="person" role="sender">BPs</rs> Vorhaben ans Herz legen, sodass dieser <rs type="person" role="sender">BP</rs> aus Liebe zu <rs type="person" role="sender">MM</rs> bestimmt helfen wird.</seg><seg type="context" n="5" xml:id="d4618e11285">Die „Animadversiones“ Mabillons sind vergriffen oder aus Missgunst aufgekauft. Das „Abregé“ des Lebens Mabillons (von Ruinart) dagegen ist nur auf Französisch erschienen und ein so dünnes Büchlein, dass es sich eher um ein Elogium als um eine Lebensgeschichte handelt.</seg><seg type="context" n="6" xml:id="d4618e11287">Was die anderen von <rs type="person" role="sender">BP</rs> gewünschten Bücher betrifft, so kann <rs type="person" role="sender">MM</rs> alles problemlos besorgen. Die ersten Bände des „Spicilegium“ von d’Achery sowie der „Acta sanctorum OSB“ von Mabillon sind jedoch schwierig zu bekommen, da sie vor dem Erscheinen der späteren Bände bereits vergriffen waren und so den Preis des Gesamtwerks in die Höhe treiben. <rs type="person" role="sender">MM</rs> ist sicher, den günstigsten Preis in Deutschland zu bekommen, braucht zuvor jedoch eine explizite Vollmacht zum Ankauf.</seg><seg type="context" n="7" xml:id="d4618e11289">Über Jodok Metzler will <rs type="person" role="sender">MM</rs> ein anderes Mal berichten.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: II, 96r–v.</p>
-            <p>Literatur: Schönhofer, Pez 19; Stockinger, Fidelis 354, 358, 386; Wallnig, Epistolae 10.</p>
-            <p>Bezüge: 89. 199. Erwähnt 24, 89.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>89</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>199</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>24</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>89</idno>
-               </ref>
-            </correspContext>
-            <p>Nummerierung: <hi rend="italic">VI</hi>.</p>
+            <p xml:space="preserve">Nummerierung: <hi rend="italic">VI</hi>.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Ex S. Gallo. 1710 26. Julii.</p>
-            <p>Admodum reverende religiosissime ac clarissime domine in Christo pater ac domine amice colendissime.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e9518"> Ultimas admodum reverendae clarissimae dominationis suae ad me sub 10. Julii datas modo 23. currentis accepi, et illas quidem non tam a manu quam <seg type="lemma" corresp="#d4617e9538">humanitate Bernardi mellifluas</seg> et suavitate solita plenas. </seg>
-               <seg type="context" n="2" xml:id="d4617e9520"> Pro moneta porro aurea solutioneque Thrithemii iustissima in chartam acclusa grates reddo maximas, speroque illum interim Ulma Mellicium appulisse. </seg>
-               <seg type="context" n="3" xml:id="d4617e9522"> Salutationem humanissimam ex admodum reverendo domino patre Anselmo mihi allatam millies reciproco eumque de obsequiis meis tametsi minimis securum esse volo. Utinam tamen voluntati et affectui par effectus responderet! De Annalibus vestris Mellicensibus (quos celsissimo principi meo destinatos audivi) hactenus nihil vidimus. Erit certe et munus et imprimis offerentis animus altefato principi meo (qui in historicis vel maxime delectatur) gratissimus, speroque eumdem gratissime concessurum, ut illi ad mensam conventualem legi, sicque et Mellicensium fama et gloria a nobis facilius intelligi possint. </seg>
-               <seg type="context" n="4" xml:id="d4617e9524"> Ex Gallia cum ultima posta responsi nihil accepi, nisi quod reverendus dominus pater <seg type="lemma" corresp="#d4617e9545">Massuet mihi rescripsit</seg> in ultimis meas ac vestras rite fuisse acceptas. De Annalibus vero vestris Parisios transmissis per admodum reverendum dominum patrem Anselmum vestrum altum tenet silentium, ut adeo suspicari lubeat eos haud illuc devenisse. Proxime tamen certiora explorabo; quae mox ac accepero, transcribam. Commendabo porro praefato reverendo patri Massuet rem vestram tanquam meam; quem certus sum amore mei votis vestris, quantum possibile fuerit, satisfacturum. </seg>
-               <seg type="context" n="5" xml:id="d4617e9526"> Apologia Gersenis ex Gallia amplius haberi non potest, exemplaribus sive ob sui raritatem distractis, sive <seg type="lemma" corresp="#d4617e9552">ob invidiam suppressis</seg>. Vita quoque Mabillonii <seg type="lemma" corresp="#d4617e9559">nisi Gallice scripta non fuit</seg>, et opusculo quidem tam exiguo, ut non tam vitae historia quam breve elogium censeri possit. </seg>
-               <seg type="context" n="6" xml:id="d4617e9528"> Reliquos libros (quorum desiderio admodum reverendus clarissimus dominus flagrat) quod attinet: <pb n="1v"/> Eos, si lubet, spero, omnes facile obtinebo: illud tamen certum ac prorsus compertum habeo, priores tomos tum ex D’Acherii Spicilegio, tum ex Saeculis Mabillonii difficilius haberi posse. Primi enim tomi statim e praelo raptim distracti sunt, antequam posteriores ederentur. Inde est, quod etiam ex hoc defectu primorum tomorum toti iam operi maius pretium adcrescat. Utrumque porro hoc opus quam rarum tam charum pretio certe mitiori prae omnibus aliis Germaniae librariis comparaturum me spero, si tamen praevie expressum procurae meae mandatum accepero, quod cum quadam ambitione mea contestandi obsequia exspecto. Sed abrumpere cogor et invitus ponere calamum: hora sonat, posta festinat. Valete et me porro uti hactenus amate et credite, quia sum ex animo eroque semper</seg>
-            </p>
-            <p>Admodum reverendae clarissimae dominationis suae totus vester pater Mauritius manu propria.</p>
-            <p>
-               <seg type="context" n="7" xml:id="d4617e9535"> 
-                  <seg type="lemma" corresp="#d4617e9564">De Mezlero nostro</seg> quid fuerit, proxime plura.</seg>
-            </p>
+            <p xml:space="preserve"><pb n="1r"/> Ex S. Gallo. 1710 26. Julii.</p>
+            <p xml:space="preserve">Admodum reverende religiosissime ac clarissime domine in Christo pater ac domine amice colendissime.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e11310"> Ultimas admodum reverendae clarissimae dominationis suae ad me sub 10. Julii datas modo 23. currentis accepi, et illas quidem non tam a manu quam <seg type="lemma" corresp="#d4618e11330">humanitate Bernardi mellifluas</seg> et suavitate solita plenas. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e11312"> Pro moneta porro aurea solutioneque Thrithemii iustissima in chartam acclusa grates reddo maximas, speroque illum interim Ulma Mellicium appulisse. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e11314"> Salutationem humanissimam ex admodum reverendo domino patre Anselmo mihi allatam millies reciproco eumque de obsequiis meis tametsi minimis securum esse volo. Utinam tamen voluntati et affectui par effectus responderet! De Annalibus vestris Mellicensibus (quos celsissimo principi meo destinatos audivi) hactenus nihil vidimus. Erit certe et munus et imprimis offerentis animus altefato principi meo (qui in historicis vel maxime delectatur) gratissimus, speroque eumdem gratissime concessurum, ut illi ad mensam conventualem legi, sicque et Mellicensium fama et gloria a nobis facilius intelligi possint. </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e11316"> Ex Gallia cum ultima posta responsi nihil accepi, nisi quod reverendus dominus pater <seg type="lemma" corresp="#d4618e11337">Massuet mihi rescripsit</seg> in ultimis meas ac vestras rite fuisse acceptas. De Annalibus vero vestris Parisios transmissis per admodum reverendum dominum patrem Anselmum vestrum altum tenet silentium, ut adeo suspicari lubeat eos haud illuc devenisse. Proxime tamen certiora explorabo; quae mox ac accepero, transcribam. Commendabo porro praefato reverendo patri Massuet rem vestram tanquam meam; quem certus sum amore mei votis vestris, quantum possibile fuerit, satisfacturum. </seg><seg type="context" n="5" xml:space="preserve" xml:id="d4618e11318"> Apologia Gersenis ex Gallia amplius haberi non potest, exemplaribus sive ob sui raritatem distractis, sive <seg type="lemma" corresp="#d4618e11344">ob invidiam suppressis</seg>. Vita quoque Mabillonii <seg type="lemma" corresp="#d4618e11351">nisi Gallice scripta non fuit</seg>, et opusculo quidem tam exiguo, ut non tam vitae historia quam breve elogium censeri possit. </seg><seg type="context" n="6" xml:space="preserve" xml:id="d4618e11320"> Reliquos libros (quorum desiderio admodum reverendus clarissimus dominus flagrat) quod attinet: <pb n="1v"/> Eos, si lubet, spero, omnes facile obtinebo: illud tamen certum ac prorsus compertum habeo, priores tomos tum ex D’Acherii Spicilegio, tum ex Saeculis Mabillonii difficilius haberi posse. Primi enim tomi statim e praelo raptim distracti sunt, antequam posteriores ederentur. Inde est, quod etiam ex hoc defectu primorum tomorum toti iam operi maius pretium adcrescat. Utrumque porro hoc opus quam rarum tam charum pretio certe mitiori prae omnibus aliis Germaniae librariis comparaturum me spero, si tamen praevie expressum procurae meae mandatum accepero, quod cum quadam ambitione mea contestandi obsequia exspecto. Sed abrumpere cogor et invitus ponere calamum: hora sonat, posta festinat. Valete et me porro uti hactenus amate et credite, quia sum ex animo eroque semper</seg></p>
+            <p xml:space="preserve">Admodum reverendae clarissimae dominationis suae totus vester pater Mauritius manu propria.</p>
+            <p xml:space="preserve"><seg type="context" n="7" xml:space="preserve" xml:id="d4618e11327"> <seg type="lemma" corresp="#d4618e11356">De Mezlero nostro</seg> quid fuerit, proxime plura.</seg></p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e9538" target="#d4617e9479 #d4617e9518">
-               <ref target="">1</ref>
+            <note xml:id="d4618e11330">
+               <ref type="context">1</ref>
                <label>humanitate Bernardi mellifluas</label>
                <p>MM vergleicht hier BP mit dem „Doctor mellifluus“ Bernhard von Clairvaux. „Mel“ (Honig) war zugleich ein häufig gebrauchter Topos im Zusammenhang mit dem Stift Melk („Mellicium“). Das Wortspiel begegnet in verschiedenen Varianten auch bei Alphons Hueber (273 &lt;1&gt; und öfter) und Johann Christoph Bartenstein (365 &lt;5&gt;, 371 &lt;7&gt;). Vgl. Einleitung, Abschnitt II.1.2.</p>
             </note>
-            <note xml:id="d4617e9545" target="#d4617e9488 #d4617e9524">
-               <ref target="">4</ref>
+            <note xml:id="d4618e11337">
+               <ref type="context">4</ref>
                <label>Massuet ... rescripsit</label>
                <p>Soweit feststellbar, hatte MM erst einen Brief von Massuet erhalten, nämlich jenen vom 7. März 1710 (vgl. 32 &lt;3&gt;, 62 &lt;1&gt;). Erst am 2. September schrieb ihm Massuet wieder (StiA St. Gallen, Bd. 322, 345–352; gedruckt bei Dantier, Pièces annexées 452–458). Der erwähnte Brief BPs an Massuet wird daher mit 24, nicht mit 68 identifiziert.</p>
             </note>
-            <note xml:id="d4617e9552" target="#d4617e9493 #d4617e9526">
-               <ref target="">5</ref>
+            <note xml:id="d4618e11344">
+               <ref type="context">5</ref>
                <label>ob invidiam suppressis</label>
                <p>MM unterstellt, die Gegenpartei im Streit um die Verfasserschaft des „De imitatione Christi“ (vgl. 71 &lt;6&gt;) hätte Mabillons „Animadversiones“ aufgekauft, um sie zu unterdrücken.</p>
             </note>
-            <note xml:id="d4617e9559" target="#d4617e9493 #d4617e9526">
-               <ref target="#d4617e9493 #d4617e9526">5</ref>
+            <note xml:id="d4618e11351">
+               <ref type="context">5</ref>
                <label>nisi Gallice scripta non fuit</label>
                <p>Vgl. 68 &lt;3&gt;, 154 &lt;14&gt;.</p>
             </note>
-            <note xml:id="d4617e9564" target="#d4617e9497 #d4617e9535">
-               <ref target="">7</ref>
+            <note xml:id="d4618e11356">
+               <ref type="context">7</ref>
                <label>De Mezlero nostro</label>
                <p>MM reagiert offenbar auf eine Anfrage BPs betreffend Jodok Metzler, den ersten bedeutenden neuzeitlichen Geschichtsschreiber St. Gallens. Aus welcher Quelle BP von Metzler wusste, ist unbekannt; die Handschrift von dessen „De viris illustribus S. Galli“ im Wiener Schottenkloster scheint er erst 1712 entdeckt zu haben. Vgl. dazu 204 &lt;4&gt;, 230 &lt;3&gt;, 259 &lt;6&gt;.</p>
             </note>

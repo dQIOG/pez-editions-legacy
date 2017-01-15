@@ -13,128 +13,123 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">369</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Mayer, Bartenstein 17 (nennt den Brief nicht, bezieht sich aber auf Informationen daraus</bibl>
+                  <bibl>vgl. Kommentar)</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">214r–215v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Johann a Sancto Felice</persName>
+               <date when="1714-10-14">1714-10-14</date>
+               <placeName>Wien</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">423</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">368</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">369</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Johann a Sancto Felice</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1714-10-14</date>
-         <place-of-posting xmlns="">Wien</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e40556">JF teilt BPs Ansicht, dass die Pariser Edition der Werke des Johannes Chrysostomus (durch Bernard de Montfaucon) von herausragender Qualität sein wird. Wenn <persName>
-                     <abbr>BP</abbr>
-                  </persName> die Melker Bände einer älteren Edition verkaufen will, so soll er JF mitteilen, welchen Preis er dafür haben will; ein Käufer wird sich gewiss finden, denn die Pariser Edition wird so teuer sein, dass sie nicht jeder ankaufen wollen oder können wird.</seg>
-               <seg type="context" n="2" xml:id="d4617e40558">BPs Ratschlag hinsichtlich der Schriften des Hl. Johannes von Matha, des Gründers der Trinitarier, scheint JF ausgezeichnet, vor allem dann, wenn sich die Hoffnung auf einen dauerhaften Frieden zwischen den christlichen Fürsten einstellt.</seg>
-               <seg type="context" n="3" xml:id="d4617e40560">Von höchst vertrauenswürdigen Personen hat JF erfahren, dass Barcelona nach fünfzehnmonatiger Belagerung entsetzt worden ist; die Gerüchte über den Fall der Stadt sind falsch (recte: siehe Kommentar).</seg>
-               <seg type="context" n="4" xml:id="d4617e40562">Der Straßburger Johann Christoph Bartenstein war JF bislang unbekannt, doch wird er nach BPs glühender Empfehlung von dessen griechischer wie lateinischer Bildung trachten, seine Freundschaft zu gewinnen.</seg>
-               <seg type="context" n="5" xml:id="d4617e40564">
-                  <persName>
-                     <abbr>BP</abbr>
-                  </persName> hat nach einigen Dingen gefragt, die JF kürzlich in der Bibliothek seines Klosters BPs Ordensbrüdern gezeigt hat. Sollte <persName>
-                     <abbr>BP</abbr>
-                  </persName> diese noch nicht haben, wünscht ihm JF, dass er sie bald bekommen möge. Er sendet eine Liste mit.</seg>
-               <seg type="context" n="6" xml:id="d4617e40566">Hinsichtlich dessen, was <persName>
-                     <abbr>BP</abbr>
-                  </persName> über Heinrich von Gent berichtet, hat JF auch selbst mit eigenen Augen gesehen, dass es sich so verhält, wie es ihm die Melker studierenden Fratres berichtet haben: Tatsächlich bemühen sich die Serviten, zu belegen, der „Doctor solemnis“ sei Angehöriger ihres Ordens gewesen, und haben auch dahingehende Thesen in Großfolio veröffentlicht. Wie lächerlich jener im servitischen Ordensgewand dasteht, muss selbst jenen ersichtlich sein, die von Geschichte nur oberflächlich etwas verstehen. Angesichts der erhitzten Gemüter will JF aber lieber die Serviten sich auf Erden als Sieger feiern lassen, als ihnen in dieser Sache entgegenzutreten, sowohl um nicht seine Mühe mit solchen Nichtigkeiten zu verschwenden, als auch um nicht in ein Wespennest zu stechen. Im Übrigen finden sich auch unter den Serviten einige klügere Männer (nonnulli magis emunctae naris), die derartige Obskuritäten geringschätzen und sich nicht damit abgeben wollen. JF schließt mit dem Wunsch, <persName>
-                     <abbr>BP</abbr>
-                  </persName> möge aus seiner gelehrten Betätigung Vergnügen beziehen.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e46194">JF teilt <rs type="person" role="sender">BPs</rs> Ansicht, dass die Pariser Edition der Werke des Johannes Chrysostomus (durch Bernard de Montfaucon) von herausragender Qualität sein wird. Wenn <rs type="person" role="sender">BP</rs> die Melker Bände einer älteren Edition verkaufen will, so soll er JF mitteilen, welchen Preis er dafür haben will; ein Käufer wird sich gewiss finden, denn die Pariser Edition wird so teuer sein, dass sie nicht jeder ankaufen wollen oder können wird.</seg><seg type="context" n="2" xml:id="d4618e46196"><rs type="person" role="sender">BPs</rs> Ratschlag hinsichtlich der Schriften des Hl. Johannes von Matha, des Gründers der Trinitarier, scheint JF ausgezeichnet, vor allem dann, wenn sich die Hoffnung auf einen dauerhaften Frieden zwischen den christlichen Fürsten einstellt.</seg><seg type="context" n="3" xml:id="d4618e46198">Von höchst vertrauenswürdigen Personen hat JF erfahren, dass Barcelona nach fünfzehnmonatiger Belagerung entsetzt worden ist; die Gerüchte über den Fall der Stadt sind falsch (recte: siehe Kommentar).</seg><seg type="context" n="4" xml:id="d4618e46200">Der Straßburger Johann Christoph Bartenstein war JF bislang unbekannt, doch wird er nach <rs type="person" role="sender">BPs</rs> glühender Empfehlung von dessen griechischer wie lateinischer Bildung trachten, seine Freundschaft zu gewinnen.</seg><seg type="context" n="5" xml:id="d4618e46202"><rs type="person" role="sender">BP</rs> hat nach einigen Dingen gefragt, die JF kürzlich in der Bibliothek seines Klosters <rs type="person" role="sender">BPs</rs> Ordensbrüdern gezeigt hat. Sollte <rs type="person" role="sender">BP</rs> diese noch nicht haben, wünscht ihm JF, dass er sie bald bekommen möge. Er sendet eine Liste mit.</seg><seg type="context" n="6" xml:id="d4618e46204">Hinsichtlich dessen, was <rs type="person" role="sender">BP</rs> über Heinrich von Gent berichtet, hat JF auch selbst mit eigenen Augen gesehen, dass es sich so verhält, wie es ihm die Melker studierenden Fratres berichtet haben: Tatsächlich bemühen sich die Serviten, zu belegen, der „Doctor solemnis“ sei Angehöriger ihres Ordens gewesen, und haben auch dahingehende Thesen in Großfolio veröffentlicht. Wie lächerlich jener im servitischen Ordensgewand dasteht, muss selbst jenen ersichtlich sein, die von Geschichte nur oberflächlich etwas verstehen. Angesichts der erhitzten Gemüter will JF aber lieber die Serviten sich auf Erden als Sieger feiern lassen, als ihnen in dieser Sache entgegenzutreten, sowohl um nicht seine Mühe mit solchen Nichtigkeiten zu verschwenden, als auch um nicht in ein Wespennest zu stechen. Im Übrigen finden sich auch unter den Serviten einige klügere Männer (nonnulli magis emunctae naris), die derartige Obskuritäten geringschätzen und sich nicht damit abgeben wollen. JF schließt mit dem Wunsch, <rs type="person" role="sender">BP</rs> möge aus seiner gelehrten Betätigung Vergnügen beziehen.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: I, 214r–215v.</p>
-            <p>Literatur: Mayer, Bartenstein 17 (nennt den Brief nicht, bezieht sich aber auf Informationen daraus; vgl. Kommentar).</p>
-            <p>Bezüge: 368. 423.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>368</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>423</idno>
-               </ref>
-            </correspContext>
-            <p>Adresse: <hi rend="italic">Admodum reverendo religiosissimo ac doctissimo patri Bernardo Pez celeberrimi Mellicensis monasterii ordinis sancti patris Benedicti professo ac ibidem bibliothecario, amico singularissimo. Mellicii.</hi>
-            </p>
-            <p>Bemerkungen: Es handelt sich sichtlich nicht um den Beginn der Kontakte zwischen BP und JF, die einander vielmehr bereits kennen.</p>
+            <div type="address">
+               <cit>
+                  <q>Admodum reverendo religiosissimo ac doctissimo patri Bernardo Pez celeberrimi Mellicensis monasterii ordinis sancti patris Benedicti professo ac ibidem bibliothecario, amico singularissimo. Mellicii.</q>
+               </cit>
+            </div>
+            <p xml:space="preserve">Bemerkungen: Es handelt sich sichtlich nicht um den Beginn der Kontakte zwischen BP und JF, die einander vielmehr bereits kennen.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverendo religiosissimo ac doctissimo viro patri Bernardo Pez amico ornatissimo τηί αντίστροφηι ἀγάπηι.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e40586"> Ea erunt divi <seg type="lemma" corresp="#d4617e40615">Chrysostomi Parisiensis editionis opera</seg>, ut mecum bene sentis, mi doctissime Bernarde, ut celeberrimae bibliothecae his apprime ornari, imo et coronari possint. Quod si tu <seg type="lemma" corresp="#d4617e40622">veteris editionis eiusdem sancti volumina pretio alienare</seg> cupis, quanti ea cedere velis, mihi significa; nullus dubito, quin emptores reperientur. Erit nimirum nova Parisiensis editio eo pretio, ut eam multi sibi nec comparare velint nec valeant, contenti sequioribus. </seg>
-               <seg type="context" n="2" xml:id="d4617e40588"> Consilium, quod abs te coepi [<hi rend="italic">sic</hi>], amice optime et optatissime, circa sancti nostri fundatoris <seg type="lemma" corresp="#d4617e40627">Joannis de Matha opera</seg>, medius Fidius mihi videtur quam consultissimum, praesertim si spes diuturnioris pacis affulgeat principes inter Christianos. </seg>
-               <seg type="context" n="3" xml:id="d4617e40593"> 
-                  <seg type="lemma" corresp="#d4617e40634">Barcinonem 15 mensium arcta obsidione pressam, laudes Deo, nunc audio ex fide dignissimis liberatam</seg>, et vanum omnino fuisse rumorem, qui de capta civitate animos multorum turbaverat. </seg>
-               <seg type="context" n="4" xml:id="d4617e40595"> Nobilis dominus de <seg type="lemma" corresp="#d4617e40641">Bartenstein Argentoratensis</seg> hactenus mihi fuerat penitus ignotus; quem dum mihi tum Graeca cum Latina eruditione eximium commendasti, simul animo meo eum impressisti sic, ut, quam primum mihi sit integrum, amicitiam eiusdem ambiam sancteque colam. </seg>
-               <seg type="context" n="5" xml:id="d4617e40597"> Quaeris, quid sit rei? quod nuper <seg type="lemma" corresp="#d4617e40648">tui ordinis sodalibus</seg> inter caetera nostra in bibliotheca exhibui; quod si eisdem cares, profecto ea tibi quam cupidissime opto atque desidero. Eorundem <pb n="1v"/> 
-                  <seg type="lemma" corresp="#d4617e40655">catalogum</seg> his inclusis [<hi rend="italic">sic</hi>] habes. </seg>
-               <seg type="context" n="6" xml:id="d4617e40604"> Caeterum, quae narras de <seg type="lemma" corresp="#d4617e40660">Henrico Gandavensi</seg>, revera non aliter esse hisce egomet oculis vidi, ac tui fratres theologi retulere; contra omnium eruditorum opinionem illi nimirum statuminare contendunt solemnem doctorem sui ordinis fuisse hominem, publice propositis etiam in amplissimo folio <seg type="lemma" corresp="#d4617e40667">thesibus</seg>. Ah precor! in veste Servitarum quam ridicule solemnis doctor risui exponitur etiam iis, qui vel primis labris historiam attigerunt; res tamen ita est in fermento, ut illi citra pulverem sibi (si Superis placet) victoriam canant, ego sane mihi penitus a bile abstinendum iudicavi, tum ne mihi res frivola facesseret negocium [<hi rend="italic">sic</hi>], tum ne crabrones (quod aiunt) irritarem. Insuper sunt nonnulli inter ipsosmet magis emunctae naris, qui huiusmodi ἀφάνειας nec pili faciant aversenturque. Verum de his satis. Vale, mi suavissime Bernarde, et ex studiis tuis voluptatem cape.</seg>
-            </p>
-            <p>Vindebonae [<hi rend="italic">sic</hi>] pridie Idus Octobris MDCCXIV.</p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverendo religiosissimo ac doctissimo viro patri Bernardo Pez amico ornatissimo τηί αντίστροφηι ἀγάπηι.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e46224"> Ea erunt divi <seg type="lemma" corresp="#d4618e46259">Chrysostomi Parisiensis editionis opera</seg>, ut mecum bene sentis, mi doctissime Bernarde, ut celeberrimae bibliothecae his apprime ornari, imo et coronari possint. Quod si tu <seg type="lemma" corresp="#d4618e46266">veteris editionis eiusdem sancti volumina pretio alienare</seg> cupis, quanti ea cedere velis, mihi significa; nullus dubito, quin emptores reperientur. Erit nimirum nova Parisiensis editio eo pretio, ut eam multi sibi nec comparare velint nec valeant, contenti sequioribus. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e46226"> Consilium, quod abs te coepi [<hi rend="italic">sic</hi>], amice optime et optatissime, circa sancti nostri fundatoris <seg type="lemma" corresp="#d4618e46271">Joannis de Matha opera</seg>, medius Fidius mihi videtur quam consultissimum, praesertim si spes diuturnioris pacis affulgeat principes inter Christianos. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e46231"> <seg type="lemma" corresp="#d4618e46278">Barcinonem 15 mensium arcta obsidione pressam, laudes Deo, nunc audio ex fide dignissimis liberatam</seg>, et vanum omnino fuisse rumorem, qui de capta civitate animos multorum turbaverat. </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e46233"> Nobilis dominus de <seg type="lemma" corresp="#d4618e46285">Bartenstein Argentoratensis</seg> hactenus mihi fuerat penitus ignotus; quem dum mihi tum Graeca cum Latina eruditione eximium commendasti, simul animo meo eum impressisti sic, ut, quam primum mihi sit integrum, amicitiam eiusdem ambiam sancteque colam. </seg><seg type="context" n="5" xml:space="preserve" xml:id="d4618e46235"> Quaeris, quid sit rei? quod nuper <seg type="lemma" corresp="#d4618e46292">tui ordinis sodalibus</seg> inter caetera nostra in bibliotheca exhibui; quod si eisdem cares, profecto ea tibi quam cupidissime opto atque desidero. Eorundem <pb n="1v"/> <seg type="lemma" corresp="#d4618e46299">catalogum</seg> his inclusis [<hi rend="italic">sic</hi>]<note place="foot" xml:id="d4618e46242">	Wohl für <hi rend="italic">inclusum</hi>.</note> habes. </seg><seg type="context" n="6" xml:space="preserve" xml:id="d4618e46248"> Caeterum, quae narras de <seg type="lemma" corresp="#d4618e46304">Henrico Gandavensi</seg>, revera non aliter esse hisce egomet oculis vidi, ac tui fratres theologi retulere; contra omnium eruditorum opinionem illi nimirum statuminare contendunt solemnem doctorem sui ordinis fuisse hominem, publice propositis etiam in amplissimo folio <seg type="lemma" corresp="#d4618e46311">thesibus</seg>. Ah precor! in veste Servitarum quam ridicule solemnis doctor risui exponitur etiam iis, qui vel primis labris historiam attigerunt; res tamen ita est in fermento, ut illi citra pulverem sibi (si Superis placet) victoriam canant, ego sane mihi penitus a bile abstinendum iudicavi, tum ne mihi res frivola facesseret negocium [<hi rend="italic">sic</hi>], tum ne crabrones (quod aiunt) irritarem. Insuper sunt nonnulli inter ipsosmet magis emunctae naris, qui huiusmodi ἀφάνειας nec pili faciant aversenturque. Verum de his satis. Vale, mi suavissime Bernarde, et ex studiis tuis voluptatem cape.</seg></p>
+            <p xml:space="preserve">Vindebonae [<hi rend="italic">sic</hi>] pridie Idus Octobris MDCCXIV.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e40615" target="#d4617e40556 #d4617e40586">
-               <ref target="">1</ref>
+            <note xml:id="d4618e46259">
+               <ref type="context">1</ref>
                <label>Chrysostomi Parisiensis editionis opera</label>
                <p>Gemeint ist zweifellos die Edition Montfaucons, mit deren baldigem Erscheinen man rechnete (vgl. 359 &lt;5&gt;, 365 &lt;13&gt;).</p>
             </note>
-            <note xml:id="d4617e40622" target="#d4617e40556 #d4617e40586">
-               <ref target="#d4617e40556 #d4617e40586">1</ref>
+            <note xml:id="d4618e46266">
+               <ref type="context">1</ref>
                <label>veteris editionis ... alienare</label>
                <p>Es existierten verschiedene ältere Editionen. Nicht besessen zu haben scheint Melk jene von Fronton Du Duc, die Kaspar Altlechner bei Esslinger fand (vgl. 391).</p>
             </note>
-            <note xml:id="d4617e40627" target="#d4617e40558 #d4617e40588">
-               <ref target="">2</ref>
+            <note xml:id="d4618e46271">
+               <ref type="context">2</ref>
                <label>Joannis de Matha opera</label>
                <p>Die heutige Forschung kennt außer der Trinitarierregel selbst keine authentischen Werke des Johannes von Matha; in der frühneuzeitlichen Hagiographie waren ihm freilich etliche Texte zugeschrieben worden, jedoch durchwegs ohne ausreichende Begründung; vgl. &lt;5&gt;. Welchen Rat BP diesbezüglich gegeben hatte, ist unbekannt.</p>
             </note>
-            <note xml:id="d4617e40634" target="#d4617e40560 #d4617e40593">
-               <ref target="">3</ref>
+            <note xml:id="d4618e46278">
+               <ref type="context">3</ref>
                <label>Barcinonem ... liberatam</label>
                <p>Nach dem Abzug der kaiserlichen Truppen im Juli 1713 wurde Katalonien unter der Leitung einer pro-habsburgischen Junta weiterhin gegen die Armeen des bourbonischen Königs Philipp V. verteidigt. Diese hatten Barcelona am 31. Juni 1713 eingekreist. Für die Zeit nach dem Abschluss des Friedens von Baden plante Karl VI. in der Tat eine Entsendung von Truppen aus Sizilien zum Entsatz der Stadt, doch kam es dazu nicht, weil sie schon am 11. September 1714 von den bourbonischen Verbänden eingenommen worden war: Machalicky, Feldzug 1713 384–393; vgl. Hochedlinger, Wars of Emergence 186; Kamen, War of Succession 24. Die von JF wiedergegebenen Informationen sind also unrichtig, das Gegenteil war der Fall.</p>
             </note>
-            <note xml:id="d4617e40641" target="#d4617e40562 #d4617e40595">
-               <ref target="">4</ref>
+            <note xml:id="d4618e46285">
+               <ref type="context">4</ref>
                <label>Bartenstein Argentoratensis</label>
                <p>Vermutlich aufgrund dieser Stelle erwähnt Mayer, Bartenstein 17, neben Blasius Bender einen „gelehrten Prior der Brüder von der Erlösung“ als Geistlichen, der Bartenstein von BP empfohlen worden sei. Mit „Erlösung“ meint Mayer jene „von Christensclaven aus den Kerkern und Galeeren der Ungläubigen“, weshalb trotz der ungenauen Bezeichnung an die Trinitarier zu denken ist; die von Mayer hergestellte Verbindung mit Bartensteins Suche nach einem Kopisten für den „Origenes“-Codex der Hofbibliothek (vgl. 353 &lt;3&gt;, 359 &lt;2&gt;) ist allerdings unbegründet und aus zeitlichen Gründen kaum plausibel.</p>
             </note>
-            <note xml:id="d4617e40648" target="#d4617e40564 #d4617e40597">
-               <ref target="">5</ref>
+            <note xml:id="d4618e46292">
+               <ref type="context">5</ref>
                <label>tui ordinis sodalibus</label>
                <p>Diese sind vermutlich identisch mit den in &lt;6&gt; genannten „fratres theologi“. Zu den in Wien studierenden Melker Fratres als Sendboten BPs an seine dortigen Korrespondenten vgl. Einleitung, Abschnitt I.1; sowie 398, 423, 434 und insb. 466, wo von einem vergleichbaren Besuch mehrerer Fratres in der Hofbibliothek die Rede ist.</p>
             </note>
-            <note xml:id="d4617e40655" target="#d4617e40564 #d4617e40597">
-               <ref target="#d4617e40564 #d4617e40597">5</ref>
+            <note xml:id="d4618e46299">
+               <ref type="context">5</ref>
                <label>catalogum</label>
                <p>Möglicherweise zu identifizieren mit einer in I, 219r–223v, erhaltenen Zusammenstellung von Abschriften einiger dem Johannes von Matha zugeschriebenen Texte sowie der Angaben zu seinen (vermeintlichen) Werken aus Baron, Annales ordinis Trinitatis (223r–v). Die Beilage ist sichtlich von JF geschrieben.</p>
             </note>
-            <note xml:id="d4617e40660" target="#d4617e40566 #d4617e40604">
-               <ref target="">6</ref>
+            <note xml:id="d4618e46304">
+               <ref type="context">6</ref>
                <label>Henrico Gandavensi</label>
                <p>Der Servitenorden betrachtete Heinrich von Gent seit dem Beginn des 17. Jh. irrig als sein Mitglied, hatte sogar auf seinem Generalkapitel von 1609 einen entsprechenden Beschluss gefasst, und orientierte sich in der Folge auch theologisch in besonderem Maße an ihm; vgl. Delehaye, Henri de Gand 60 337–352, 61 81–84; Porro, Historiographical Image 373–375. Das Interesse JFs an der Frage mag nicht zuletzt darin begründet gewesen sein, dass auch die Trinitarier im 16. Jh. versucht hatten, Heinrich von Gent als einen der ihren zu reklamieren (Delehaye, Henri de Gand 61 84); JF spricht dies freilich nicht an.</p>
             </note>
-            <note xml:id="d4617e40667" target="#d4617e40566 #d4617e40604">
-               <ref target="#d4617e40566 #d4617e40604">6</ref>
+            <note xml:id="d4618e46311">
+               <ref type="context">6</ref>
                <label>thesibus</label>
                <p>Die hier erwähnten Thesen konnten bislang nicht ausfindig gemacht werden. Unter den bei Foster, Theology 115f., verzeichneten theologischen Schulschriften der Deutschen Observanz der Serviten aus dem fraglichen Zeitraum findet sich nichts Entsprechendes; es mag sich freilich ebenso gut um philosophische Thesen gehandelt haben. Dass sich Thesen aus den servitischen Ordensstudien zumindest im Titel auf Heinrich von Gent beriefen, kam durchaus regelmäßig vor: vgl. Branchesi, Edizioni 58f., 89, 99f., 142, 174, 183, 196–198, 217–219.</p>
             </note>

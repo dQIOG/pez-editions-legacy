@@ -13,94 +13,102 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">292</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">539r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Albert Reichart</persName>
+               <date when="1712-12-26">1712-12-26</date>
+               <placeName>St. Paul im Lavanttal</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">326</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">151</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">292</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Albert Reichart</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1712-12-26</date>
-         <place-of-posting xmlns="">St. Paul im Lavanttal</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e31601">ARe äußert sein Bedauern über das ungebührliche Verhalten des in Melk weilenden St. Pauler Fraters Cölestin Vierengl, besonders gegen <persName>
-                     <abbr>BP</abbr>
-                  </persName> und den Philosophieprofessor (Adrian Pliemel). Da er dem jungen Mann bereits eine ernste briefliche Mahnung erteilt, dieser sich aber nicht gebessert hat, sieht ARe keinen anderen Weg mehr, als ihn nach St. Paul zurückzuholen. In Anlehnung an die Benediktsregel erwägt ARe, dieses kranke Schaf aus der Herde zu entfernen. Er will die Rückholung veranlassen, sobald die Wetterverhältnisse die Reise erlauben.</seg>
-               <seg type="context" n="2" xml:id="d4617e31603">In einem Postskriptum fragt ARe, ob die Statuten der französischen Maurinerkongregation gedruckt erhältlich sind. Er lässt sich dem Professor empfehlen und wünscht ein gutes Neues Jahr.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e36207">ARe äußert sein Bedauern über das ungebührliche Verhalten des in Melk weilenden St. Pauler Fraters Cölestin Vierengl, besonders gegen <rs type="person" role="sender">BP</rs> und den Philosophieprofessor (Adrian Pliemel). Da er dem jungen Mann bereits eine ernste briefliche Mahnung erteilt, dieser sich aber nicht gebessert hat, sieht ARe keinen anderen Weg mehr, als ihn nach St. Paul zurückzuholen. In Anlehnung an die Benediktsregel erwägt ARe, dieses kranke Schaf aus der Herde zu entfernen. Er will die Rückholung veranlassen, sobald die Wetterverhältnisse die Reise erlauben.</seg><seg type="context" n="2" xml:id="d4618e36209">In einem Postskriptum fragt ARe, ob die Statuten der französischen Maurinerkongregation gedruckt erhältlich sind. Er lässt sich dem Professor empfehlen und wünscht ein gutes Neues Jahr.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: I, 539r–v.</p>
-            <p>Bezüge: 151. 326.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>151</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>326</idno>
-               </ref>
-            </correspContext>
-            <p>Adresse: <hi rend="italic">Plurimum reverendo religiosissimo et clarissimo domino patri Bernardo Pez ordinis sancti Benedicti libri ac exempti monasterii Mellicensis Inferioris Austriae professo et directori iuniorum religiosorum, domino patri plurimum colendo. Mellicii.</hi> Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 168r.</p>
+            <div type="address">
+               <cit>
+                  <q>Plurimum reverendo religiosissimo et clarissimo domino patri Bernardo Pez ordinis sancti Benedicti libri ac exempti monasterii Mellicensis Inferioris Austriae professo et directori iuniorum religiosorum, domino patri plurimum colendo. Mellicii. Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 168r.</q>
+               </cit>
+            </div>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Plurimum reverende religiosissime et clarissime domine pater director.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e31620"> Domine plurimum colende. Doleo, quod <seg type="lemma" corresp="#d4617e31640">distortum membrum Sancti Pauli</seg> immeritas, quas accipit a celeberrimi monasterii Mellicensis incolis, gratias ita malis moribus et excessibus rependat, praecipue plurimum reverendae dominationi suae et atque plurimum reverendo domino <seg type="lemma" corresp="#d4617e31645">patri professori</seg>. Scripsi nuper dissoluto iuveni sub comminatione revocationis domum, ibidem commoraturo sine spe suscipiendorum ordinum et studii ulterioris; et alia multa adiunxi. Quibus litteris cum morem gerere nolit, et aliis piis monitis a plurimum reverenda dominatione exhibitis, opus est remedio ultimo abscissionis uti, ne haec morbida oves [<hi rend="italic">sic</hi>] coetum sanctum contaminet. <seg type="lemma" corresp="#d4617e31655">Mittam igitur pro eo reducendo</seg>, quam primum per hoc tempus hyemale licuerit. Quibus me sacris precibus et affectui commendo</seg>
-            </p>
-            <p>Plurimum reverendae et clarissimae dominationis servus obligatissimus Albertus abbas manu propria.</p>
-            <p>
-               <seg type="context" n="2" xml:id="d4617e31628"> P.S. Plurimum reverenda dominatio mihi singularem gratiam exhibebit, si mihi aperuerit, num <seg type="lemma" corresp="#d4617e31660">constitutiones et reformatio sancti Mauri in Gallia typis expressae haberi queant</seg>. Plurimum reverendo domino patri professori me commendo atque ambobus clarissimis dominis felicissimum novi anni auspicium precor.</seg>
-            </p>
-            <p>Sancti Pauli 26. Decembris 1712.</p>
+            <p xml:space="preserve"><pb n="1r"/> Plurimum reverende religiosissime et clarissime domine pater director.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e36226"> Domine plurimum colende. Doleo, quod <seg type="lemma" corresp="#d4618e36252">distortum membrum Sancti Pauli</seg> immeritas, quas accipit a celeberrimi monasterii<note place="foot" xml:id="d4618e36228">	Danach durchgestrichen <hi rend="italic">dominis</hi>.</note> Mellicensis incolis, gratias ita malis moribus et excessibus rependat, praecipue plurimum reverendae dominationi suae et atque plurimum reverendo domino <seg type="lemma" corresp="#d4618e36257">patri professori</seg>. Scripsi nuper dissoluto iuveni sub comminatione revocationis domum, ibidem commoraturo sine spe suscipiendorum ordinum et studii ulterioris; et alia multa adiunxi. Quibus litteris cum morem gerere nolit, et aliis piis monitis a plurimum reverenda dominatione exhibitis, opus est remedio ultimo abscissionis uti, ne haec morbida oves [<hi rend="italic">sic</hi>] coetum sanctum contaminet. <seg type="lemma" corresp="#d4618e36267">Mittam igitur pro eo reducendo</seg>, quam primum per hoc tempus hyemale licuerit. Quibus me sacris precibus et affectui commendo</seg></p>
+            <p xml:space="preserve">Plurimum reverendae et clarissimae dominationis servus obligatissimus Albertus abbas manu propria.</p>
+            <p xml:space="preserve"><seg type="context" n="2" xml:space="preserve" xml:id="d4618e36240"> P.S. Plurimum reverenda dominatio mihi singularem gratiam exhibebit, si mihi aperuerit, num <seg type="lemma" corresp="#d4618e36272">constitutiones et reformatio sancti Mauri in Gallia typis expressae haberi queant</seg>. Plurimum reverendo domino patri professori me commendo atque ambobus clarissimis dominis felicissimum novi anni auspicium precor.</seg></p>
+            <p xml:space="preserve">Sancti Pauli 26. Decembris 1712.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e31633" target="#d4617e31601 #d4617e31620">
-               <ref target="">1</ref>
+            <note xml:id="d4618e36245">
+               <ref type="context">1</ref>
                <label>pater director</label>
                <p>Der Brief richtet sich an BP in seiner Funktion als Novizenmeister; vgl. Einleitung, Abschnitt I.1; sowie 266 &lt;15&gt;.</p>
             </note>
-            <note xml:id="d4617e31640" target="#d4617e31601 #d4617e31620">
-               <ref target="#d4617e31601 #d4617e31620">1</ref>
+            <note xml:id="d4618e36252">
+               <ref type="context">1</ref>
                <label>distortum membrum Sancti Pauli</label>
                <p>Seit 1711 befanden sich zwei Fratres aus St. Paul mit den Ordensnamen Joseph und Cölestin zum Studium der Philosophie in Melk: PE 5 68, 75, 92. Zu Ersterem vgl. 352.</p>
             </note>
-            <note xml:id="d4617e31645" target="#d4617e31601 #d4617e31620">
-               <ref target="#d4617e31601 #d4617e31620">1</ref>
+            <note xml:id="d4618e36257">
+               <ref type="context">1</ref>
                <label>patri professori</label>
                <p>Gemeint ist höchstwahrscheinlich der spätere Prior und Abt Adrian Pliemel, der zu dieser Zeit die Stelle des Philosophieprofessors im Stift Melk innehatte: PE 5 68, 75, 91. Ihm empfiehlt sich ARe in 326 auch namentlich. Zu ihm: Keiblinger, Melk 1 976–998; Kropff, Bibliotheca Mellicensis 659–677.</p>
             </note>
-            <note xml:id="d4617e31650" target="#d4617e31601 #d4617e31620">
-               <ref target="#d4617e31601 #d4617e31620">1</ref>
+            <note xml:id="d4618e36262">
+               <ref type="context">1</ref>
                <label>opus est ... contaminet</label>
                <p>Vgl. RB 28,6.8: „[...] utatur abbas ferro abscissionis [...] ne una ovis morbida omnem gregem contagiet“. Die Rede ist in diesem Kapitel von Mönchen, die trotz mehrmaliger Ermahnung von ihrem Fehlverhalten nicht ablassen wollen („De his, qui saepius correpti emendare noluerint“). Das Motiv der „ovis morbida“ hat Vorbilder u. a. bei Hieronymus (Epistolae 2,1; 16,1; 130,19) und bei Cyprian (Epistola 59,15).</p>
             </note>
-            <note xml:id="d4617e31655" target="#d4617e31601 #d4617e31620">
-               <ref target="#d4617e31601 #d4617e31620">1</ref>
+            <note xml:id="d4618e36267">
+               <ref type="context">1</ref>
                <label>Mittam ... reducendo</label>
                <p>In PE 5 98 heißt es zum 27. März 1713, ungefähr drei Monate nach diesem Brief: „Frater Coelestinus hospes in secundum annum ex S. Paulo Carinthiae philosophiae studiosus, cum per turbulentos mores suos se in congregatione intolerabilem reddidisset, post excessuum priorum obtentam remissionem recidivus, consilio cum quibusdam sacerdotibus communicato comite patre Basilio in Seittenstetten devectus est“. Ob es sich dabei um eine Rückkehr nach St. Paul handelte, ist nicht eindeutig zu entnehmen. Frater Cölestin ist mit dem späteren St. Pauler Pater Cölestin Vierengl zu identifizieren, der nach Schroll, Necrologium 116, 1710 Profess abgelegt hatte, 1716 Primiz feierte und 1740 starb; vgl. Salzburg, StiA St. Peter, Cod. A 577, 214r–v. Er blieb also offenbar Mitglied des St. Pauler Konvents und scheint durch die disziplinarischen Schwierigkeiten auch in seiner Ausbildung nicht entscheidend zurückgeworfen worden zu sein.</p>
             </note>
-            <note xml:id="d4617e31660" target="#d4617e31603 #d4617e31628">
-               <ref target="">2</ref>
+            <note xml:id="d4618e36272">
+               <ref type="context">2</ref>
                <label>constitutiones ... queant</label>
                <p>Zum Interesse ARes an den Statuten der Mauriner vgl. 65. Bereits deutlich vor dem Beginn seiner Kontakte mit BP hatte ARe wiederholt asketische Schriften aus Frankreich über St. Peter zu Salzburg bezogen, wie zahlreiche Briefe an Franz Mezger aus den 1690er Jahren bezeugen: Salzburg, StiA St. Peter, Cod. A 219. Vgl. auch 326, 339.</p>
             </note>

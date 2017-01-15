@@ -13,55 +13,52 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">361</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>No direct source, inferred letter.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Bernhard Pez</persName>
+               <date when="1714-09-20">1714-09-20</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Johann Benedikt Gentilotti</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">363</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">265</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">360</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">361</id>
-         <deduced xmlns="">true</deduced>
-         <sender xmlns="">Bernhard Pez</sender>
-         <recipient xmlns="">Johann Benedikt Gentilotti</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1714-09-20</date>
-         <place-of-posting xmlns=""/>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="editorialNote">
-            <p>Bezüge: 265. 363. Erwähnt in 360, 363, 365.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>265</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>363</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>360</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>363</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>365</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: Das Datum ergibt sich aus der Erwähnung in 360 &lt;5&gt;.</p>
+            <p xml:space="preserve">Bemerkungen: Das Datum ergibt sich aus der Erwähnung in 360 &lt;5&gt;.</p>
          </div>
       </front>
       <body>
          <ab>
-            <gap reason="letter missing"/>
+            <gap reason="inferred letter"/>
          </ab>
       </body>
       <back/>

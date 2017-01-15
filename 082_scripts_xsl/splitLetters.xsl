@@ -6,8 +6,12 @@
     exclude-result-prefixes="#all"
     version="2.0">
     
-   <xsl:output indent="yes"/>
+    
+    <xsl:preserve-space elements="tei:p tei:seg p"/>
+    <xsl:output indent="yes"/>
     <xsl:param name="splitLetters">yes</xsl:param>
+    <xsl:param name="path-to-sigla">file:/C:/Users/Daniel/data/pez-edition/102_derived_tei/102_04_auxiliary_files/sigla.xml</xsl:param>
+    <xsl:variable name="sigla" select="doc($path-to-sigla)" as="document-node()"/>
     
     <xsl:template match="node() | @*" mode="#all">
         <xsl:copy>
@@ -15,7 +19,7 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="tei:TEI" mode="groupSections splitParts cleanup parseRegest collapseAdjacentRends parseCommentary addIDs tagLemmas createLinks tagPersAbbrs parseEditorialNotes">
+    <xsl:template match="tei:TEI" mode="groupSections splitParts cleanup parseRegest collapseAdjacentRends parseCommentary addIDs tagLemmas createLinks tagPersAbbrs parseEditorialNotes xenoData2correspDesc correspDesc2profileDesc prevNext correctDates addNotesStmt">
         <xsl:document>
             <xsl:copy>
                 <xsl:copy-of select="@*"/>
@@ -60,16 +64,31 @@
         <xsl:variable name="persAbbrsTagged" as="document-node()+">
             <xsl:apply-templates select="$partsSplit" mode="tagPersAbbrs"/>
         </xsl:variable>
+        <xsl:variable name="xenoData2correspDesc" as="document-node()+">
+            <xsl:apply-templates select="$persAbbrsTagged" mode="xenoData2correspDesc"/>
+        </xsl:variable>
         <xsl:variable name="editorialNoteParsed" as="document-node()+">
-            <xsl:apply-templates select="$persAbbrsTagged" mode="parseEditorialNotes"/>
+            <xsl:apply-templates select="$xenoData2correspDesc" mode="parseEditorialNotes"/>
+        </xsl:variable>
+        <xsl:variable name="correspDesc2profileDesc" as="document-node()+">
+            <xsl:apply-templates select="$editorialNoteParsed" mode="correspDesc2profileDesc"/>
+        </xsl:variable>
+        <xsl:variable name="prevNext" as="document-node()+">
+            <xsl:apply-templates select="$correspDesc2profileDesc" mode="prevNext"/>
+        </xsl:variable>
+        <xsl:variable name="datesCorrected" as="document-node()+">
+            <xsl:apply-templates select="$prevNext" mode="correctDates"/>
+        </xsl:variable>
+        <xsl:variable name="notesStmtAdded" as="document-node()+">
+            <xsl:apply-templates select="$datesCorrected" mode="addNotesStmt"/>
         </xsl:variable>
         <xsl:choose>
             <xsl:when test="$splitLetters = 'no'">
-                <teiCorpus created="{current-dateTime()}"><xsl:sequence select="$editorialNoteParsed"/></teiCorpus>
+                <teiCorpus created="{current-dateTime()}"><xsl:sequence select="$notesStmtAdded"/></teiCorpus>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:for-each select="$editorialNoteParsed">
-                    <xsl:result-document href="../102_03_extracted_letters/pez_{format-number(.//id,'000')}.xml">
+                <xsl:for-each select="$notesStmtAdded">
+                    <xsl:result-document href="../102_03_extracted_letters/pez_{format-number(.//tei:publicationStmt/tei:idno,'000')}.xml">
                         <xsl:sequence select="."/>
                     </xsl:result-document>
                 </xsl:for-each>
@@ -145,8 +164,12 @@
                             <publicationStmt>
                                 <publisher>Austrian Centre for Digital Humanities</publisher>
                             </publicationStmt>
+                            <notesStmt>
+                                <relatedItem type="publishedIn">
+                                    <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+                                </relatedItem>
+                            </notesStmt>
                             <sourceDesc>
-                                <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl></p>
                             </sourceDesc>
                         </fileDesc>
                         <profileDesc>
@@ -180,17 +203,13 @@
             </xsl:document>
         </xsl:variable>
         <div type="regest">
-            <p>
-                <xsl:for-each-group select="$ms/node()" group-starting-with="tei:milestone">
-                    <seg type="context" n="{current-group()[1]/@n}"><xsl:value-of select="current-group()[position() gt 1]/normalize-space(.)"/></seg>
-                </xsl:for-each-group>
-            </p>
+            <p xml:space="preserve"><xsl:for-each-group select="$ms/node()" group-starting-with="tei:milestone"><seg type="context" n="{current-group()[1]/@n}"><xsl:value-of select="current-group()[position() gt 1]/normalize-space(.)"/></seg></xsl:for-each-group></p>
         </div>
     </xsl:template>
     
     <xsl:template match="tei:p[@rend ='Edition Editorische Notiz']" mode="extractLetters">
         <div type="editorialNote">
-            <p><xsl:apply-templates mode="#current"/></p>
+            <p xml:space="preserve"><xsl:apply-templates mode="#current"/></p>
         </div>
     </xsl:template>
     
@@ -210,18 +229,17 @@
         </xsl:variable>
         <div type="edition">
             <p>
+                <xsl:attribute name="xml:space">preserve</xsl:attribute>
                 <xsl:for-each-group select="$editionTextPrep/node()" group-starting-with="tei:milestone">
                     <xsl:choose>
                         <xsl:when test="current-group()[1]/self::tei:milestone">
-                            <seg type="context" n="{current-group()[1]/@n}"><xsl:apply-templates select="current-group()[not(self::tei:milestone)]" mode="#current"/></seg>
+                            <seg type="context" n="{current-group()[1]/@n}" xml:space="preserve"><xsl:apply-templates select="current-group()[not(self::tei:milestone)]" mode="#current"/></seg>
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:apply-templates select="current-group()[not(self::tei:milestone)]" mode="#current"/>
                         </xsl:otherwise>
                     </xsl:choose>
-                </xsl:for-each-group>    
-            </p>
-        </div>
+                </xsl:for-each-group></p></div>
     </xsl:template>
     
     <xsl:template match="text()[ancestor::tei:div/@type = 'edition'][ends-with(.,'&lt;')][following-sibling::node()[1]/self::tei:hi[@rend = 'italic'][matches(.,'^\d+$')]]" mode="normalizeContextMarker">
@@ -269,11 +287,16 @@
         
     </xsl:template>
     
-    <xsl:template match="tei:note[@place = 'foot']" mode="prepEdText"/>
+    <xsl:template match="tei:note[@place = 'foot']" mode="prepEdText">
+        <note place="foot"><xsl:apply-templates select="tei:p/node()" mode="prepEdText"/></note>
+    </xsl:template>
+    
+    <xsl:template match="tei:note[@place = 'foot']/tei:p/tei:hi[@rend = 'footnote_reference']" mode="prepEdText"/>
+    
     
     <xsl:template match="tei:p[@rend = 'Edition Kommentar']" mode="extractLetters">
         <div type="commentary">
-            <p><xsl:apply-templates mode="#current"/></p>
+            <p xml:space="preserve"><xsl:apply-templates mode="#current"/></p>
         </div>
     </xsl:template>
     
@@ -443,16 +466,16 @@
         <!--<xsl:variable name="target" select="$context//tei:seg[@corresp = concat('#',$id)]" as="element(tei:seg)?"/>-->
         <xsl:copy>
             <xsl:copy-of select="@*"/>
-            <xsl:choose>
-                <xsl:when test="exists($context)">
+            <!--<xsl:choose>
+                <!-\-<xsl:when test="exists($context)">
                     <xsl:attribute name="target" select="$context/concat('#',@xml:id)"/>
-                </xsl:when>
+                </xsl:when>-\->
                 <xsl:otherwise>
                     <xsl:attribute name="lemma-not-found"/>
                 </xsl:otherwise>
-            </xsl:choose>
+            </xsl:choose>-->
             <xsl:if test="not(exists(tei:ref))">
-                <ref target="{string-join($context/concat('#',@xml:id),' ')}"><xsl:value-of select="$ref"/></ref>
+                <ref type="context"><xsl:value-of select="$ref"/></ref>
             </xsl:if>
             <xsl:apply-templates mode="#current">
                 <xsl:with-param name="context-ids" as="xs:string*" tunnel="yes"/>
@@ -463,7 +486,8 @@
     <xsl:template match="tei:note[ancestor::tei:div[@type = 'commentary']]/tei:ref" mode="createLinks">
         <xsl:param name="context-ids" as="xs:string*"/>
         <xsl:copy>
-            <xsl:attribute name="target" select="string-join(for $c in $context-ids return concat('#',$c),' ')"/>
+            <!--<xsl:attribute name="target" select="string-join(for $c in $context-ids return concat('#',$c),' ')"/>-->
+            <xsl:attribute name="type">context</xsl:attribute>
             <xsl:copy-of select="node()"/>
         </xsl:copy>
     </xsl:template>
@@ -471,7 +495,6 @@
     <xsl:template match="tei:div[@type = 'editorialNote']/tei:p" mode="parseEditorialNotes">
             <xsl:choose>
                 <xsl:when test="starts-with(., 'Bezüge')">
-                    <xsl:sequence select="."></xsl:sequence>
                     <correspContext>
                         <xsl:analyze-string select="normalize-space(substring-after(., 'Bezüge:'))" regex="(Erwähnt in\s|Erwähnt\s|Steht in einem Überlieferungszusammenhang mit\s|(Wohl |Möglicherweise )?[vV]ersendet bis .+ mit\s|(Wohl |Möglicherweise )?[vV]ersendet von .+ (bis|nach) .+ mit\s)?(\d+)( oder (\d+))?(\s\(\?\))?[\.,]">
                             <xsl:matching-substring>
@@ -500,7 +523,7 @@
                                                     </xsl:otherwise>
                                                 </xsl:choose>
                                             </xsl:attribute>
-                                            <label><xsl:value-of select="regex-group(1)"/></label>
+                                            <!--<label><xsl:value-of select="regex-group(1)"/></label>-->
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <xsl:attribute name="type">relatedTo</xsl:attribute>
@@ -521,8 +544,60 @@
                         </xsl:analyze-string>
                     </correspContext>
                 </xsl:when>
+                <xsl:when test="starts-with(., 'Überlieferung')">
+                    <xsl:choose>
+                        <xsl:when test="matches(., '^Überlieferung: (I+), (\d+[rv]?([–-]\d*[rv])?)\.$')">
+                            <div type="msDesc">
+                                <xsl:analyze-string select="." regex="^Überlieferung: (I+), (\d+[rv]?([–-]\d*[rv])?)\.$">
+                                    <xsl:matching-substring>
+                                        <msDesc>
+                                            <msIdentifier>
+                                                <institution>Stift Melk</institution>
+                                                <repository>Stiftsbibliothek</repository>
+                                                <idno type="signatory">???</idno>
+                                            </msIdentifier>
+                                        </msDesc>
+                                        <bibl>
+                                            <biblScope unit="volume"><xsl:value-of select="regex-group(1)"/></biblScope>
+                                            <biblScope unit="page"><xsl:value-of select="regex-group(2)"/></biblScope>
+                                        </bibl>
+                                    </xsl:matching-substring>
+                                    <xsl:non-matching-substring>
+                                        <ab><xsl:value-of select="."/></ab>
+                                    </xsl:non-matching-substring>
+                                </xsl:analyze-string>
+                            </div>
+                        </xsl:when>
+                        <!-- other formats of "Überlieferung" to be added here. -->
+                        <xsl:otherwise>
+                            <div type="msDesc">
+                                <p><xsl:value-of select="normalize-space(substring-after(., 'Überlieferung:'))"/></p>
+                            </div>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:when>
+                <xsl:when test="matches(.,'^Literatur:')">
+                    <relatedItem type="secondaryLiterature">
+                        <listBibl>
+                            <head>Literatur</head>
+                            <xsl:for-each select="tokenize(substring-after(.,'Literatur:'), ';')">
+                                <bibl><xsl:value-of select="normalize-space(replace(.,'\.$',''))"/></bibl>
+                            </xsl:for-each>
+                        </listBibl>
+                    </relatedItem>
+                </xsl:when>
+                <xsl:when test="starts-with(., 'Edition:')">
+                    <relatedItem type="otherEdition">
+                        <bibl><xsl:value-of select="substring-after(., 'Edition:')"/></bibl>
+                    </relatedItem>
+                </xsl:when>
+                <xsl:when test="starts-with(., 'Adresse:')">
+                    <div type="address">
+                        <cit><q><xsl:value-of select="substring-after(., 'Adresse: ')"/></q></cit>
+                    </div>
+                </xsl:when>
                 <xsl:otherwise>
-                    <xsl:copy-of select="."></xsl:copy-of>
+                    <xsl:copy-of select="."/>
                 </xsl:otherwise>
             </xsl:choose>
     </xsl:template>
@@ -572,49 +647,73 @@
     </xsl:template>
     
     <xsl:template match="text()[ancestor::tei:div[@type = 'regest']]" mode="tagPersAbbrs">
-        <xsl:variable name="sender" select="ancestor::tei:TEI[1]//sender"/>
-        <xsl:variable name="recipient" select="ancestor::tei:TEI[1]//recipient"/>
-        <xsl:variable name="senderAbbr">
-            <xsl:if test="not(starts-with($sender, 'NN'))">
-                <xsl:value-of select="string-join(for $t in tokenize($sender,'\s') return substring($t,1,1), '')"/>
-            </xsl:if>
-        </xsl:variable>
-        <xsl:variable name="recipientAbbr">
-            <xsl:if test="not(starts-with($recipient, 'NN'))">
-                <xsl:value-of select="string-join(for $t in tokenize($recipient,'\s') return substring($t,1,1), '')"/>
-            </xsl:if>
-        </xsl:variable>
+        <xsl:variable name="this" select="."/>
         <xsl:variable name="regex">
-            <xsl:text>(^|\s)</xsl:text>
-            <xsl:choose>
-                <xsl:when test="count(($senderAbbr, $recipientAbbr)[. != '']) gt 1">
-                    <xsl:text>(</xsl:text>
-                    <xsl:value-of select="string-join(($senderAbbr, $recipientAbbr), '|')"/>
-                    <xsl:text>)</xsl:text>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:text>(</xsl:text>
-                    <xsl:value-of select="($senderAbbr, $recipientAbbr)[.!=''][1]"/>
-                    <xsl:text>)</xsl:text>
-                </xsl:otherwise>
-            </xsl:choose>
-            <xsl:text>(\s|$)</xsl:text>
-        </xsl:variable>
-        <xsl:choose>
-            <xsl:when test="count(($senderAbbr, $recipientAbbr)[. != '']) ge 1">
-                <xsl:analyze-string select="." regex="{$regex}">
-                    <xsl:matching-substring>
-                        <xsl:value-of select="regex-group(1)"/><persName><abbr><xsl:value-of select="regex-group(2)"/></abbr></persName><xsl:value-of select="regex-group(3)"/>
-                    </xsl:matching-substring>
-                    <xsl:non-matching-substring>
+            <xsl:text>(^|\s)(</xsl:text>
+            <xsl:value-of select="string-join(for $s in $sigla//tei:*[@full='abb'] return concat($s, 's?'),'|')"/>
+            <xsl:text>)(\s|$)</xsl:text>
+        </xsl:variable>        
+        <xsl:analyze-string select="." regex="{$regex}">
+            <xsl:matching-substring>
+                <xsl:variable name="this" select="."/>
+                <xsl:variable name="person" select="$sigla//tei:*[@full='abb'][matches(., concat($this,'s?'))]"/>
+                <xsl:value-of select="regex-group(1)"/><rs type="person" key=""><xsl:value-of select="regex-group(2)"/></rs><xsl:value-of select="regex-group(3)"/>
+            </xsl:matching-substring>
+            <xsl:non-matching-substring>
+                <xsl:variable name="sender" select="$this/ancestor::tei:TEI[1]//sender"/>
+                <xsl:variable name="recipient" select="$this/ancestor::tei:TEI[1]//recipient"/>
+                <xsl:variable name="senderAbbr">
+                    <xsl:if test="not(starts-with($sender, 'NN'))">
+                        <xsl:value-of select="string-join(for $t in tokenize($sender,'\s') return substring($t,1,1), '')"/>
+                        <xsl:text>s?</xsl:text>
+                    </xsl:if>
+                </xsl:variable>
+                <xsl:variable name="recipientAbbr">
+                    <xsl:if test="not(starts-with($recipient, 'NN'))">
+                        <xsl:value-of select="string-join(for $t in tokenize($recipient,'\s') return substring($t,1,1), '')"/>
+                        <xsl:text>s?</xsl:text>
+                    </xsl:if>
+                </xsl:variable>
+                <xsl:variable name="regex">
+                    <xsl:text>(^|\s)</xsl:text>
+                    <xsl:choose>
+                        <xsl:when test="count(($senderAbbr, $recipientAbbr)[. != '']) gt 1">
+                            <xsl:text>(</xsl:text>
+                            <xsl:value-of select="string-join(($senderAbbr, $recipientAbbr), '|')"/>
+                            <xsl:text>)</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:text>(</xsl:text>
+                            <xsl:value-of select="($senderAbbr, $recipientAbbr)[.!=''][1]"/>
+                            <xsl:text>)</xsl:text>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                    <xsl:text>(\s|$)</xsl:text>
+                </xsl:variable>
+                <xsl:choose>
+                    <xsl:when test="count(($senderAbbr, $recipientAbbr)[. != '']) ge 1">
+                        <xsl:variable name="role">
+                            <xsl:choose>
+                                <xsl:when test="$senderAbbr != ''">sender</xsl:when>
+                                <xsl:when test="$recipientAbbr != ''">recipient</xsl:when>
+                                <xsl:otherwise>mentioned</xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:variable>
+                        <xsl:analyze-string select="." regex="{$regex}">
+                            <xsl:matching-substring>
+                                <xsl:value-of select="regex-group(1)"/><rs type="person" role="{$role}"><xsl:value-of select="regex-group(2)"/></rs><xsl:value-of select="regex-group(3)"/>
+                            </xsl:matching-substring>
+                            <xsl:non-matching-substring>
+                                <xsl:value-of select="."/>
+                            </xsl:non-matching-substring>
+                        </xsl:analyze-string>
+                    </xsl:when>
+                    <xsl:otherwise>
                         <xsl:value-of select="."/>
-                    </xsl:non-matching-substring>
-                </xsl:analyze-string>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:value-of select="."/>
-            </xsl:otherwise>
-        </xsl:choose>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:non-matching-substring>
+        </xsl:analyze-string>
     </xsl:template>
     
     <xsl:template match="tei:text" mode="splitParts">
@@ -628,7 +727,7 @@
                         <xsl:sequence select="tei:div[@type = 'edition']"/>
                     </xsl:when>
                     <xsl:otherwise>
-                        <ab><gap reason="letter missing"></gap></ab>
+                        <ab><gap reason="inferred letter"></gap></ab>
                     </xsl:otherwise>
                 </xsl:choose>
             </body>
@@ -637,5 +736,135 @@
             </back>
         </xsl:copy>    
     </xsl:template>
+    
+    <xsl:template match="tei:xenoData" mode="xenoData2correspDesc">
+        <correspDesc>
+            <correspAction type="sent">
+                <xsl:apply-templates select="sender|place-of-posting|date" mode="#current"/>
+            </correspAction>
+            <correspAction type="received">
+                <xsl:apply-templates select="recipient|destination" mode="#current"/>
+            </correspAction>
+        </correspDesc>
+    </xsl:template>
+    
+    <xsl:template match="tei:publicationStmt" mode="xenoData2correspDesc">
+        <xsl:copy>
+            <xsl:copy-of select="@*|node()"/>
+            <idno type="pezEd"><xsl:value-of select="root()//tei:xenoData/id"/></idno>
+        </xsl:copy>
+    </xsl:template>
+    
+    <xsl:template match="date" mode="xenoData2correspDesc">
+        <date when="{.}"><xsl:value-of select="."/></date>
+    </xsl:template>
+    
+    <xsl:template match="sender|recipient" mode="xenoData2correspDesc">
+        <xsl:choose>
+            <xsl:when test="matches(., '^NN\s\(')">
+                <xsl:analyze-string select="." regex="^NN\s\((.+)\)">
+                    <xsl:matching-substring>
+                        <orgName type="monastery"><xsl:value-of select="regex-group(1)"/></orgName>
+                    </xsl:matching-substring>
+                </xsl:analyze-string>
+            </xsl:when>
+            <xsl:when test=". != ''">
+                <persName><xsl:value-of select="."/></persName>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template match="destination|place-of-posting" mode="xenoData2correspDesc">
+        <xsl:if test=". != ''">
+            <placeName><xsl:value-of select="."/></placeName>
+        </xsl:if>
+    </xsl:template>
+    
+    <xsl:template match="tei:correspDesc" mode="correspDesc2profileDesc"/>
+    <xsl:template match="tei:correspContext" mode="correspDesc2profileDesc"/>
+        
+    
+    <xsl:template match="tei:profileDesc" mode="correspDesc2profileDesc">
+        <xsl:copy>
+            <xsl:copy-of select="@*|node()"/>
+            <correspDesc>
+                <xsl:copy-of select="root()//tei:correspDesc/*"/>
+                <xsl:copy-of select="root()//tei:correspContext"/>
+            </correspDesc>
+        </xsl:copy>
+    </xsl:template>
+    
+    <xsl:template match="tei:correspContext" mode="prevNext">
+        <xsl:copy>
+            <xsl:copy-of select="@*"/>
+            <xsl:if test="exists(tei:ref[@type = 'relatedTo'][2])">
+                <ref type="prev">
+                    <idno type="pezEd"><xsl:value-of select="tei:ref[@type = 'relatedTo'][2]"/></idno>
+                </ref>
+            </xsl:if>
+            <ref type="next">
+                <idno type="pezEd"><xsl:value-of select="tei:ref[@type = 'relatedTo'][1]"/></idno>
+            </ref>
+            <xsl:apply-templates select="tei:ref[not(@type = 'relatedTo')]" mode="#current"/>     
+        </xsl:copy>
+    </xsl:template>
+    
+    <xsl:template match="/tei:ref[@type = 'relatedTo']/tei:label" mode="prevNext"/>
+    
+    <xsl:template match="tei:idno[not(@type)]" mode="prevNext">
+        <xsl:copy>
+            <xsl:copy-of select="@* except @type"/>
+            <xsl:attribute name="type">pezEd</xsl:attribute>
+            <xsl:apply-templates mode="#current"/>
+        </xsl:copy>
+    </xsl:template>
+    
+    <xsl:template match="@when[matches(., '&lt;\s\d{4,4}-\d{2,2}-\d{2,2}')]" mode="correctDates">
+        <xsl:attribute name="notBefore"><xsl:value-of select="substring-after(., '&lt; ')"/></xsl:attribute>
+    </xsl:template>
+    
+    
+    <xsl:template match="tei:notesStmt" mode="addNotesStmt">
+        <xsl:copy>
+            <xsl:copy-of select="@*"/>
+            <xsl:apply-templates mode="#current"/>
+            <xsl:copy-of select="root()//tei:text//tei:relatedItem"/>
+            <xsl:if test="matches(root()/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type = 'main'],'LE\s\d+')">
+                <xsl:analyze-string select="root()/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type = 'main']" regex="LE\s+(\d+)">
+                    <xsl:matching-substring>
+                        <relatedItem type="inferedFrom">
+                            <bibl>
+                                <author>Bernhard Pez</author>
+                                <title>Littera encyclica <xsl:value-of select="regex-group(1)"/></title>
+                            </bibl>
+                        </relatedItem>
+                    </xsl:matching-substring>
+                    <xsl:non-matching-substring/>
+                </xsl:analyze-string>
+            </xsl:if>
+        </xsl:copy>
+    </xsl:template>
+    
+    <xsl:template match="tei:sourceDesc" mode="addNotesStmt">
+        <xsl:copy>
+            <xsl:copy-of select="@*"/>
+            <xsl:choose>
+                <xsl:when test="//tei:div[@type = 'msDesc']/*">
+                    <xsl:sequence select="//tei:div[@type = 'msDesc']/*"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <p>No direct source, inferred letter.</p>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:copy>
+    </xsl:template>
+    
+    <xsl:template match="tei:relatedItem[ancestor::tei:text]" mode="addNotesStmt"/>
+    <xsl:template match="tei:div[@type = 'msDesc']" mode="addNotesStmt"/>
+        
+    
+    
+    
+    
     
 </xsl:stylesheet>

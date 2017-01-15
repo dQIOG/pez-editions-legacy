@@ -13,110 +13,98 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">301</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">II</biblScope>
+               <biblScope unit="page">51r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Placidus Haiden</persName>
+               <date when="1713-03-11">1713-03-11</date>
+               <placeName>Niederaltaich</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="next">
+                  <idno type="pezEd">300</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">300</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">301</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Placidus Haiden</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1713-03-11</date>
-         <place-of-posting xmlns="">Niederaltaich</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e32422">
-                  <persName>
-                     <abbr>PH</abbr>
-                  </persName> fühlt sich geehrt durch BPs Auftrag <ref type="letter">300</ref>, ihm die Textstelle aus Sigismund Meisterlin („Chronicon ecclesiasticum“) über Melchior von Stamheim, Melker Professen und späteren Abt von St. Ulrich und Afra zu Augsburg, zu senden, was er nun bei der ersten Gelegenheit ausführt. <persName>
-                     <abbr>PH</abbr>
-                  </persName> bittet <persName>
-                     <abbr>BP</abbr>
-                  </persName> um Nachsicht für die schlechte Schrift: Die jüngeren Mönche will <persName>
-                     <abbr>PH</abbr>
-                  </persName> während der Fastenzeit nicht von den klösterlichen Pflichten ablenken, und das Weggehen seines Kollegen im Lehramt auf die Pfarre Grafenau hat ihn mit zwei Lehrstühlen belastet; so musste er den Text einem Jüngling (adolescens) zum Abschreiben geben.</seg>
-               <seg type="context" n="2" xml:id="d4617e32427">Nachdem er im vergangenen Jahr Melk zweimal nur aus der Ferne sehen konnte, hofft <persName>
-                     <abbr>PH</abbr>
-                  </persName> auf eine künftige Gelegenheit, <persName>
-                     <abbr>BP</abbr>
-                  </persName> auch persönlich zu begegnen.</seg>
-               <seg type="context" n="3" xml:id="d4617e32429">In einem Postskriptum bemerkt PH, dass die bayerischen Klöster weiter säumig sind. <persName>
-                     <abbr>PH</abbr>
-                  </persName> will sie demnächst neuerlich ermahnen, wenn der Niederaltaicher Rotelbote die Nachricht vom Tod Ildephons Kögls überbringt.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e37097"><rs type="person" key="">PH</rs> fühlt sich geehrt durch <rs type="person" role="sender">BPs</rs> Auftrag <ref type="letter">300</ref>, ihm die Textstelle aus Sigismund Meisterlin („Chronicon ecclesiasticum“) über Melchior von Stamheim, Melker Professen und späteren Abt von St. Ulrich und Afra zu Augsburg, zu senden, was er nun bei der ersten Gelegenheit ausführt. <rs type="person" key="">PH</rs> bittet <rs type="person" role="sender">BP</rs> um Nachsicht für die schlechte Schrift: Die jüngeren Mönche will <rs type="person" key="">PH</rs> während der Fastenzeit nicht von den klösterlichen Pflichten ablenken, und das Weggehen seines Kollegen im Lehramt auf die Pfarre Grafenau hat ihn mit zwei Lehrstühlen belastet; so musste er den Text einem Jüngling (adolescens) zum Abschreiben geben.</seg><seg type="context" n="2" xml:id="d4618e37102">Nachdem er im vergangenen Jahr Melk zweimal nur aus der Ferne sehen konnte, hofft <rs type="person" key="">PH</rs> auf eine künftige Gelegenheit, <rs type="person" role="sender">BP</rs> auch persönlich zu begegnen.</seg><seg type="context" n="3" xml:id="d4618e37104">In einem Postskriptum bemerkt PH, dass die bayerischen Klöster weiter säumig sind. <rs type="person" key="">PH</rs> will sie demnächst neuerlich ermahnen, wenn der Niederaltaicher Rotelbote die Nachricht vom Tod Ildephons Kögls überbringt.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: II, 51r–v.</p>
-            <p>Bezüge: 300. Erwähnt 300.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>300</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>300</idno>
-               </ref>
-            </correspContext>
-            <p>Nummerierung: <hi rend="italic">XI</hi>.</p>
+            <p xml:space="preserve">Nummerierung: <hi rend="italic">XI</hi>.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine, patrone colendissime.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e32446"> Rem oppido gratam mihi praestitit plurimum reverenda sua dominatio, dum novissime iteratum suae erga me confidentiae indicium facere placuit petendo monumenta, quae <seg type="lemma" corresp="#d4617e32461">de Melchiore Stamheim</seg> abbate S. Udalriciano et antehac felicissimi Mellicii professo Sigismundus monachus scriptis suis consignaverat; quae etiam occasione hac, quam habui primam, recipiet clarissima paternitas vestra. Illud unice rogo, ne levidensem scripturam in deterius accipiat; invitus quippe, quod iuniores nostri <seg type="lemma" corresp="#d4617e32468">hoc sacro tempore</seg> de more monasterii amplius essent occupati, adolescenti committere debui, qui capita de Melchiore inscripta describeret; fecissem ipsus [<hi rend="italic">sic</hi>], nisi amodo propter colendissimi <seg type="lemma" corresp="#d4617e32473">mei patris collegae</seg> discessum ad <seg type="lemma" corresp="#d4617e32478">parochiam urbicam in Graffenau</seg> duplex cathedra labores meos multum auxisset. </seg>
-               <seg type="context" n="2" xml:id="d4617e32451"> De caetero confido fore, ut inclytum Mellicium, quod praeterito anno <seg type="lemma" corresp="#d4617e32483">bis venerari</seg> mihi eminus licuit, alia opportunitate invisere et plurimum reverendam suam dominationem coram alloqui, honorare, et negotia nostra amplius recolere fas sit. Interim cum enixissima mei in omnia sacra commendatione perenno</seg>
-            </p>
-            <p>Plurimum reverendae religiosae ac clarissimae dominationis vestrae servus obligatissimus pater Placidus manu propria.</p>
-            <p>Nidernaltaich 11. Martii 1713.</p>
-            <p>
-               <seg type="context" n="3" xml:id="d4617e32458"> P.S. Bavari etiamnum morantur, unde proxime per rottularium nostrum, qui obitum admodum reverendi patris nostri <seg type="lemma" corresp="#d4617e32490">Ildephonsi</seg> nuntiabit, monere non desinam.</seg>
-            </p>
+            <p xml:space="preserve"><pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine, patrone colendissime.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e37121"> Rem oppido gratam mihi praestitit plurimum reverenda sua dominatio, dum novissime iteratum suae erga me confidentiae indicium facere placuit petendo monumenta, quae <seg type="lemma" corresp="#d4618e37136">de Melchiore Stamheim</seg> abbate S. Udalriciano et antehac felicissimi Mellicii professo Sigismundus monachus scriptis suis consignaverat; quae etiam occasione hac, quam habui primam, recipiet clarissima paternitas vestra. Illud unice rogo, ne levidensem scripturam in deterius accipiat; invitus quippe, quod iuniores nostri <seg type="lemma" corresp="#d4618e37143">hoc sacro tempore</seg> de more monasterii amplius essent occupati, adolescenti committere debui, qui capita de Melchiore inscripta describeret; fecissem ipsus [<hi rend="italic">sic</hi>], nisi amodo propter colendissimi <seg type="lemma" corresp="#d4618e37148">mei patris collegae</seg> discessum ad <seg type="lemma" corresp="#d4618e37153">parochiam urbicam in Graffenau</seg> duplex cathedra labores meos multum auxisset. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e37126"> De caetero confido fore, ut inclytum Mellicium, quod praeterito anno <seg type="lemma" corresp="#d4618e37158">bis venerari</seg> mihi eminus licuit, alia opportunitate invisere et plurimum reverendam suam dominationem coram alloqui, honorare, et negotia nostra amplius recolere fas sit. Interim cum enixissima mei in omnia sacra commendatione perenno</seg></p>
+            <p xml:space="preserve">Plurimum reverendae religiosae ac clarissimae dominationis vestrae servus obligatissimus pater Placidus manu propria.</p>
+            <p xml:space="preserve">Nidernaltaich 11. Martii 1713.</p>
+            <p xml:space="preserve"><seg type="context" n="3" xml:space="preserve" xml:id="d4618e37133"> P.S. Bavari etiamnum morantur, unde proxime per rottularium nostrum, qui obitum admodum reverendi patris nostri <seg type="lemma" corresp="#d4618e37165">Ildephonsi</seg> nuntiabit, monere non desinam.</seg></p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e32461" target="#d4617e32422 #d4617e32446">
-               <ref target="">1</ref>
+            <note xml:id="d4618e37136">
+               <ref type="context">1</ref>
                <label>de Melchiore Stamheim</label>
                <p>Im „Chronicon ecclesiasticum“ des Sigismund Meisterlin findet sich eine kurze Abhandlung über Melchior von Stamheim. Der Text war gedruckt verfügbar bei Pistorius, Rerum Germanicarum scriptores sex 589–614 (als „Sigismundi Chronicon“ unter den „Antiquitates Fuldenses“; die Stelle zu Melchior von Stamheim: ebd. 608f.); die Bitte BPs richtete sich wohl auf eine Abschrift aus diesem Druck, dessen Verfügbarkeit in Niederaltaich ihm PH in 182 mitgeteilt hatte. Auch Kropff, Bibliotheca Mellicensis 341, verweist zu Melchior von Stamheim auf die Stelle in dieser Edition. Eine handschriftliche Überlieferung in Niederaltaich ist nicht bekannt; derzeit sind von Meisterlins „Chronicon“ lediglich zwei Handschriften in Augsburg und München nachgewiesen: Colberg, Meisterlin col. 361f. – Zu Melchior von Stamheim: Steichele, Wilhelmi Wittwer Catalogus Abbatum 212–275; vgl. Bellot, St. Ulrich 397f.; Keiblinger, Melk 1 638f.; Kropff, Bibliotheca Mellicensis 340–351; Niederkorn-Bruck, Melker Reform 35, 210f.; Zeller, Melker Reform 178.</p>
             </note>
-            <note xml:id="d4617e32468" target="#d4617e32422 #d4617e32446">
-               <ref target="#d4617e32422 #d4617e32446">1</ref>
+            <note xml:id="d4618e37143">
+               <ref type="context">1</ref>
                <label>hoc sacro tempore</label>
                <p>Der Aschermittwoch war 1713 auf den 1. März gefallen.</p>
             </note>
-            <note xml:id="d4617e32473" target="#d4617e32422 #d4617e32446">
-               <ref target="#d4617e32422 #d4617e32446">1</ref>
+            <note xml:id="d4618e37148">
+               <ref type="context">1</ref>
                <label>mei patris collegae</label>
                <p>Die Identität dieses Niederaltaicher Konventualen konnte aus den verfügbaren Quellen nicht ermittelt werden.</p>
             </note>
-            <note xml:id="d4617e32478" target="#d4617e32422 #d4617e32446">
-               <ref target="#d4617e32422 #d4617e32446">1</ref>
+            <note xml:id="d4618e37153">
+               <ref type="context">1</ref>
                <label>parochiam ... in Graffenau</label>
                <p>Die Stadtpfarre in Grafenau war dem Kloster St. Oswald inkorporiert, welches wiederum seit 1581 als Propstei zu Niederaltaich gehörte: Stadtmüller–Pfister, Niederaltaich 205; Wagner, Grafenau 119–129.</p>
             </note>
-            <note xml:id="d4617e32483" target="#d4617e32427 #d4617e32451">
-               <ref target="">2</ref>
+            <note xml:id="d4618e37158">
+               <ref type="context">2</ref>
                <label>bis venerari</label>
                <p>Vgl. 274, 287.</p>
             </note>
-            <note xml:id="d4617e32490" target="#d4617e32429 #d4617e32458">
-               <ref target="">3</ref>
+            <note xml:id="d4618e37165">
+               <ref type="context">3</ref>
                <label>Ildephonsi</label>
                <p>Ildephons Kögl war am 20. Februar 1713 als Präfekt von Erlahof bei Spitz an der Donau verstorben: Krick, Ehemalige stabile Klöster 154; Lackner, Memoriale 161.</p>
             </note>

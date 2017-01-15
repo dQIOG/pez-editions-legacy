@@ -13,45 +13,49 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">347</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>No direct source, inferred letter.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Bernhard Pez</persName>
+               <date notBefore="1714-07-04">&lt; 1714-07-04</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Augustin Erath</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">348</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">341</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">347</id>
-         <deduced xmlns="">true</deduced>
-         <sender xmlns="">Bernhard Pez</sender>
-         <recipient xmlns="">Augustin Erath</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">&lt; 1714-07-04</date>
-         <place-of-posting xmlns=""/>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="editorialNote">
-            <p>Bezüge: 341. 348.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>341</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>348</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: In 348 &lt;1&gt; wird zwar nicht ausdrücklich ein Brief erwähnt, die Übersendung eines Buches und das Eingehen auf mehrere konkrete Mitteilungen und Fragestellungen rechtfertigen jedoch die Ansetzung.</p>
+            <p xml:space="preserve">Bemerkungen: In 348 &lt;1&gt; wird zwar nicht ausdrücklich ein Brief erwähnt, die Übersendung eines Buches und das Eingehen auf mehrere konkrete Mitteilungen und Fragestellungen rechtfertigen jedoch die Ansetzung.</p>
          </div>
       </front>
       <body>
          <ab>
-            <gap reason="letter missing"/>
+            <gap reason="inferred letter"/>
          </ab>
       </body>
       <back/>

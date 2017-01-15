@@ -13,49 +13,52 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">417</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>No direct source, inferred letter.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Bernhard Pez</persName>
+               <date notBefore="1715-07-15">&lt; 1715-07-15</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Petrus Friderici</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">418</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">299</idno>
+               </ref>
+               <ref type="sentWith">
+                  <idno type="pezEd">416</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">417</id>
-         <deduced xmlns="">true</deduced>
-         <sender xmlns="">Bernhard Pez</sender>
-         <recipient xmlns="">Petrus Friderici</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">&lt; 1715-07-15</date>
-         <place-of-posting xmlns=""/>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="editorialNote">
-            <p>Bezüge: 299. 418. Wohl versendet von Melk bis Erfurt mit 416.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>299</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>418</idno>
-               </ref>
-               <ref type="sentWith">
-                  <label>Wohl versendet von Melk bis Erfurt mit </label>
-                  <idno>416</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: PF erwähnt in 418 zwar keinen vorangegangenen Brief BPs ausdrücklich, geht aber auf etliche Äußerungen und Fragen BPs detailliert ein. Da diese kaum auf anderem Wege übermittelt worden sein können, wird ein Brief angesetzt. – Wahrscheinlich wurde dieser Brief vor der Reise Johann Christoph Bartensteins und Konrad Widows nach Erfurt, somit etwa Anfang 1715, geschrieben, doch gibt es keinen Anhaltspunkt für eine exakte Datierung.</p>
+            <p xml:space="preserve">Bemerkungen: PF erwähnt in 418 zwar keinen vorangegangenen Brief BPs ausdrücklich, geht aber auf etliche Äußerungen und Fragen BPs detailliert ein. Da diese kaum auf anderem Wege übermittelt worden sein können, wird ein Brief angesetzt. – Wahrscheinlich wurde dieser Brief vor der Reise Johann Christoph Bartensteins und Konrad Widows nach Erfurt, somit etwa Anfang 1715, geschrieben, doch gibt es keinen Anhaltspunkt für eine exakte Datierung.</p>
          </div>
       </front>
       <body>
          <ab>
-            <gap reason="letter missing"/>
+            <gap reason="inferred letter"/>
          </ab>
       </body>
       <back/>

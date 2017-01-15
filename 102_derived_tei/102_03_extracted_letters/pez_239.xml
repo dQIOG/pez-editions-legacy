@@ -13,115 +13,97 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">239</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">191r–192v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Hyazinth Baumbach</persName>
+               <date when="1712-04-20">1712-04-20</date>
+               <placeName>Würzburg (St. Stephan)</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">240</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">213</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">211</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">239</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Hyazinth Baumbach</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1712-04-20</date>
-         <place-of-posting xmlns="">Würzburg (St. Stephan)</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e24933">
-                  <persName>
-                     <abbr>HB</abbr>
-                  </persName> hat BPs Enzyklik <ref type="letter">211</ref> an die Äbte Frankens versendet. Da die Antworten noch ausstehen, liefert <persName>
-                     <abbr>HB</abbr>
-                  </persName> eine Synopsis der Werke des St. Stephaner Abtes Benedikt Gerhard. Ob <persName>
-                     <abbr>BP</abbr>
-                  </persName> dies in die „Bibliotheca Benedictina“ aufnehmen will, bleibt diesem überlassen. Die Enzyklik befindet sich derzeit in Theres.</seg>
-               <seg type="context" n="2" xml:id="d4617e24938">
-                  <persName>
-                     <abbr>HB</abbr>
-                  </persName> bemerkt, dass auch der Thereser Heinrich Heinlein in BPs Schriftstellerkatalog fehlt. Heinlein hat neben seiner bekannten „Philosophia“ auch eine „Medulla theologiae moralis“ verfasst, die noch ungedruckt ist und in Nürnberg von Lochner herausgebracht werden soll. Vielleicht wird die Antwort aus Theres mehr zu ihm enthalten, einstweilen möge Gott <persName>
-                     <abbr>BP</abbr>
-                  </persName> vertrösten und sein Werk unterstützen.</seg>
-               <seg type="context" n="3" xml:id="d4617e24940">
-                  <persName>
-                     <abbr>HB</abbr>
-                  </persName> hofft darauf, dass der Wiener Hof nun allen ihm nachgeordneten Höfen im Reich und auch ganz Europa zum Vorbild gereichen wird, und betet um Gottes Schutz für den Kaiser.</seg>
-               <seg type="context" n="4" xml:id="d4617e24942">Zu Gerhard berichtet HB, dass dieser aus Stettheim (recte: Stetten) in Franken stammte, Beichtvater der Benediktinerinnen von St. Afra war und 1661 zum Abt von St. Stephan gewählt wurde. Er veröffentlichte die Werke „Geistliche zucht“ und „Geistliche einöde“ und kompilierte Ordensstatuten, womit er die nach dem Dreißigjährigen Krieg daniederliegende monastische Disziplin wieder beleben wollte. Er konnte sein Vorhaben nur zum Teil verwirklichen, bevor er 1667 starb. Sein Nachfolger Eucharius Weiner hatte sich dem Projekt zwar zu Gerhards Lebzeiten widersetzt, führte es nach dessen Tod jedoch aus.</seg>
-               <seg type="context" n="5" xml:id="d4617e24944">Heinrich Heinlein aus Theres starb 1708 zu Fulda, wo er Professor war, im 70. Lebensjahr, im 42. Jahr seiner Profess und im 45. seiner Priesterweihe.</seg>
-               <seg type="context" n="6" xml:id="d4617e24946">Placidus Urtlauff aus Theres starb 1705 im 47. Lebensjahr, im 23. Jahr seiner Profess und im 20. seiner Priesterweihe.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e28788"><rs type="person" role="sender">HB</rs> hat <rs type="person" role="sender">BPs</rs> Enzyklik <ref type="letter">211</ref> an die Äbte Frankens versendet. Da die Antworten noch ausstehen, liefert <rs type="person" role="sender">HB</rs> eine Synopsis der Werke des St. Stephaner Abtes Benedikt Gerhard. Ob <rs type="person" role="sender">BP</rs> dies in die „Bibliotheca Benedictina“ aufnehmen will, bleibt diesem überlassen. Die Enzyklik befindet sich derzeit in Theres.</seg><seg type="context" n="2" xml:id="d4618e28793"><rs type="person" role="sender">HB</rs> bemerkt, dass auch der Thereser Heinrich Heinlein in <rs type="person" role="sender">BPs</rs> Schriftstellerkatalog fehlt. Heinlein hat neben seiner bekannten „Philosophia“ auch eine „Medulla theologiae moralis“ verfasst, die noch ungedruckt ist und in Nürnberg von Lochner herausgebracht werden soll. Vielleicht wird die Antwort aus Theres mehr zu ihm enthalten, einstweilen möge Gott <rs type="person" role="sender">BP</rs> vertrösten und sein Werk unterstützen.</seg><seg type="context" n="3" xml:id="d4618e28795"><rs type="person" role="sender">HB</rs> hofft darauf, dass der Wiener Hof nun allen ihm nachgeordneten Höfen im Reich und auch ganz Europa zum Vorbild gereichen wird, und betet um Gottes Schutz für den Kaiser.</seg><seg type="context" n="4" xml:id="d4618e28797">Zu Gerhard berichtet HB, dass dieser aus Stettheim (recte: Stetten) in Franken stammte, Beichtvater der Benediktinerinnen von St. Afra war und 1661 zum Abt von St. Stephan gewählt wurde. Er veröffentlichte die Werke „Geistliche zucht“ und „Geistliche einöde“ und kompilierte Ordensstatuten, womit er die nach dem Dreißigjährigen Krieg daniederliegende monastische Disziplin wieder beleben wollte. Er konnte sein Vorhaben nur zum Teil verwirklichen, bevor er 1667 starb. Sein Nachfolger Eucharius Weiner hatte sich dem Projekt zwar zu Gerhards Lebzeiten widersetzt, führte es nach dessen Tod jedoch aus.</seg><seg type="context" n="5" xml:id="d4618e28799">Heinrich Heinlein aus Theres starb 1708 zu Fulda, wo er Professor war, im 70. Lebensjahr, im 42. Jahr seiner Profess und im 45. seiner Priesterweihe.</seg><seg type="context" n="6" xml:id="d4618e28801">Placidus Urtlauff aus Theres starb 1705 im 47. Lebensjahr, im 23. Jahr seiner Profess und im 20. seiner Priesterweihe.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: I, 191r–192v.</p>
-            <p>Bezüge: 213. 240. Erwähnt 211.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>213</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>240</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>211</idno>
-               </ref>
-            </correspContext>
-            <p>Adresse: <hi rend="italic">Admodum reverendo religioso eximio ac doctissimo patri ac domino patri Bernardo Pez celeberrimi et exempti monasterii Mellicensis in Austria ordinis sancti Benedicti professo et bibliothecario, domino colendo. Wienn.</hi> Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 61v.</p>
-            <p>Ordnungsvermerk: <hi rend="italic">64</hi>.</p>
-            <p>Bemerkungen: Unten auf 1r Schreibproben von der Hand BPs. Auf 2v Vermerk von anderer Hand: <hi rend="italic">Herbipoli N. 18</hi>.</p>
+            <div type="address">
+               <cit>
+                  <q>Admodum reverendo religioso eximio ac doctissimo patri ac domino patri Bernardo Pez celeberrimi et exempti monasterii Mellicensis in Austria ordinis sancti Benedicti professo et bibliothecario, domino colendo. Wienn. Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 61v.</q>
+               </cit>
+            </div>
+            <p xml:space="preserve">Ordnungsvermerk: <hi rend="italic">64</hi>.</p>
+            <p xml:space="preserve">Bemerkungen: Unten auf 1r Schreibproben von der Hand BPs. Auf 2v Vermerk von anderer Hand: <hi rend="italic">Herbipoli N. 18</hi>.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiose eximie ac doctissime in Christo pater, colende domine.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e24973"> 
-                  <seg type="lemma" corresp="#d4617e24997">Catalogum transmissum communicavi</seg> reverendissimis dominis abbatibus Franconiae nostrae. Eo interim necdum recepto ab eis, mitto ex altera parte scriptam synopsin parvulorum <seg type="lemma" corresp="#d4617e25004">opusculorum Benedicti reverendissimi quondam abbatis nostri</seg> monasterii S. Stephani. Utrum tanto operi inserenda videbuntur, iudicio admodum reverendae paternitatis vestrae relinquo. Si quid ultra occurrerit communicandum ex et iuxta catalogum, qui modo in monasterio Therensi est, proxime sequetur. </seg>
-               <seg type="context" n="2" xml:id="d4617e24975"> Id unicum nunc monendum venit, patrem Heinricum Heinlein Therensem in catalogo omissum. Praeter enim notam eius Philosophiam scripsit Theologiam moralem in folio recentioribus casibus excultam, necdum quidem typis editam, edendam tamen, ut audio, a bibliopola Norinbergensi Lochner. <pb n="1v"/> Forte in annotationibus Therensium plus de eo veniet. Deus optimus interim confortet admodum reverendam paternitatem vestram, fortunet et secundet opus, quod prae manibus est, sat grande. </seg>
-               <seg type="context" n="3" xml:id="d4617e24979"> 
-                  <seg type="lemma" corresp="#d4617e25009">Aula nunc piissima</seg> Viennensis, spero, exemplar erit omni aulae in imperio subordinatae et toti Europae. Deus conservet tantum imperatorem omni populo. Cuius protectioni divinae et nos devotissime commendo ac maneo</seg>
-            </p>
-            <p>Admodum reverendae paternitatis vestrae addictissimus Hyacinth abbas manu propria.</p>
-            <p>Herbipoli ex monasterio S. Stephani 20. Aprilis 1712.</p>
-            <p>
-               <pb n="2r"/> 
-               <seg type="context" n="4" xml:id="d4617e24988"> 
-                  <seg type="lemma" corresp="#d4617e25016">Benedictus Gerard</seg> Stettheimensis Franco, anno 1661 ex monacho ordinis sancti Benedicti ad S. Stephanum Herbipoli electus in abbatem, cum antea esset confessarius Herbipoli ad S. Afram sancti-monialium eiusdem ordinis, scripsit et typis edidit sequentia opuscula in parvo octavo, duodecimo, Germanico idiomate: Primo. Geistliche zucht, daß ist, Tägliche geistliche aus der Regul deß heiligen Benedicti löblicher approbirter congregation undt ceremonien gezogene übungen für die novitien ordinis sancti Benedicti. Secundo. Geistliche einöde, daß ist, Zehentägige übungen geistlicher betrachtungen, durch welche der gantze mensch inbrünsttiglich gesucht undt durch die gnadt Gotteß gefunden nach völligen standt aller undt ieder der heiligen Regul undt statuten deß heiligen Benedicti gelübten undt capitul seine sinn, kräfften undt anmuthungen vollkommen eifrigst undt ernstlich reformirt undt erneüeret werden. Fuit hic vir zelosus, studuit collapsam tempore et bello Suecico disciplinam monasticam nec satis adhuc restauratam integre restabilire. Ideo collegit ex aliis congregationibus <pb n="2v"/> statuta sacri ordinis nostri eaque servanda proposuit et introduxit. Verum quia multis infirmitatibus pressus verbo magis quam exemplo docere potuit, pia eius intentio non omnem efficaciam habuit: nihilominus eo praemature mortuo, anno scilicet 1667 23. Maii, successor eius Eucharius, quamvis et hic vivo ipsi eiusque intentioni contrarius videretur, opere perfecit, quod Benedictus pie coeperat. </seg>
-               <seg type="context" n="5" xml:id="d4617e24992"> Nota. Pater Heinricus Heinlein Therensis professus obiit Fuldae professor ibidem 1708 3. Decembris, aetatis 70, professionis 42, sacerdotii 45. </seg>
-               <seg type="context" n="6" xml:id="d4617e24994"> Pater Placidus Urtlauff professus Therensis obiit 1705 10. Julii, aetatis 47, professionis 23, sacerdotii 20.</seg>
-            </p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiose eximie ac doctissime in Christo pater, colende domine.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e28828"> <seg type="lemma" corresp="#d4618e28870">Catalogum transmissum communicavi</seg> reverendissimis dominis abbatibus Franconiae nostrae. Eo interim necdum recepto ab eis, mitto ex altera parte scriptam synopsin parvulorum <seg type="lemma" corresp="#d4618e28877">opusculorum Benedicti reverendissimi quondam abbatis nostri</seg> monasterii S. Stephani. Utrum tanto operi inserenda videbuntur, iudicio admodum reverendae paternitatis vestrae relinquo. Si quid ultra occurrerit communicandum ex et iuxta catalogum, qui modo in monasterio Therensi est, proxime sequetur. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e28830"> Id unicum nunc monendum venit, patrem Heinricum Heinlein Therensem in catalogo omissum. Praeter enim notam eius Philosophiam scripsit Theologiam moralem in folio recentioribus casibus excultam, necdum quidem typis editam, edendam tamen, ut audio, a bibliopola Norinbergensi Lochner. <pb n="1v"/> Forte in annotationibus Therensium plus de eo veniet. Deus optimus interim confortet admodum reverendam paternitatem vestram, fortunet et secundet opus, quod prae manibus est, sat grande. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e28834"> <seg type="lemma" corresp="#d4618e28882">Aula nunc piissima</seg> Viennensis, spero, exemplar erit omni<note place="foot" xml:id="d4618e28836">	Korrigiert aus <hi rend="italic">omnis</hi>.</note> aulae in imperio subordinatae et toti<note place="foot" xml:id="d4618e28842">	Korrigiert aus <hi rend="italic">totius</hi>.</note> Europae. Deus conservet tantum imperatorem omni populo. Cuius protectioni divinae et nos devotissime commendo ac maneo</seg></p>
+            <p xml:space="preserve">Admodum reverendae paternitatis vestrae addictissimus Hyacinth abbas manu propria.</p>
+            <p xml:space="preserve">Herbipoli ex monasterio S. Stephani 20. Aprilis 1712.</p>
+            <p xml:space="preserve"><pb n="2r"/> <seg type="context" n="4" xml:space="preserve" xml:id="d4618e28855"> <seg type="lemma" corresp="#d4618e28889">Benedictus Gerard</seg> Stettheimensis Franco, anno 1661 ex monacho ordinis sancti Benedicti ad S. Stephanum Herbipoli electus in abbatem, cum antea esset confessarius Herbipoli ad S. Afram sancti-monialium eiusdem ordinis, scripsit et typis edidit sequentia opuscula in parvo octavo, duodecimo, Germanico idiomate: Primo. Geistliche zucht, daß ist, Tägliche geistliche aus der Regul deß heiligen Benedicti löblicher approbirter congregation undt ceremonien gezogene übungen für die novitien ordinis sancti Benedicti. Secundo. Geistliche einöde, daß ist, Zehentägige übungen geistlicher betrachtungen, durch welche der gantze mensch inbrünsttiglich gesucht undt durch die gnadt Gotteß gefunden nach völligen standt aller undt ieder der heiligen Regul undt statuten deß heiligen Benedicti gelübten undt capitul seine sinn, kräfften undt anmuthungen vollkommen eifrigst undt ernstlich reformirt undt erneüeret werden. Fuit hic vir zelosus, studuit collapsam tempore et bello Suecico disciplinam monasticam nec satis adhuc restauratam integre restabilire. Ideo collegit ex aliis congregationibus <pb n="2v"/> statuta sacri ordinis nostri eaque servanda proposuit et introduxit. Verum quia multis infirmitatibus pressus verbo magis quam exemplo docere potuit, pia eius intentio non omnem efficaciam habuit: nihilominus eo praemature mortuo, anno scilicet 1667 23. Maii, successor eius Eucharius, quamvis et hic vivo<note place="foot" xml:id="d4618e28859">	Danach durchgestrichen <hi rend="italic">contrarius e</hi>.</note> ipsi eiusque intentioni contrarius videretur, opere perfecit, quod Benedictus pie coeperat. </seg><seg type="context" n="5" xml:space="preserve" xml:id="d4618e28865"> Nota. Pater Heinricus Heinlein Therensis professus obiit Fuldae professor ibidem 1708 3. Decembris, aetatis 70, professionis 42, sacerdotii 45. </seg><seg type="context" n="6" xml:space="preserve" xml:id="d4618e28867"> Pater Placidus Urtlauff professus Therensis obiit 1705 10. Julii, aetatis 47, professionis 23, sacerdotii 20.</seg></p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e24997" target="#d4617e24933 #d4617e24973">
-               <ref target="">1</ref>
+            <note xml:id="d4618e28870">
+               <ref type="context">1</ref>
                <label>Catalogum ... communicavi</label>
                <p>Vgl. 213 &lt;1&gt;.</p>
             </note>
-            <note xml:id="d4617e25004" target="#d4617e24933 #d4617e24973">
-               <ref target="#d4617e24933 #d4617e24973">1</ref>
+            <note xml:id="d4618e28877">
+               <ref type="context">1</ref>
                <label>opusculorum ... abbatis nostri</label>
                <p>Vgl. 213 &lt;3&gt;.</p>
             </note>
-            <note xml:id="d4617e25009" target="#d4617e24940 #d4617e24979">
-               <ref target="">3</ref>
+            <note xml:id="d4618e28882">
+               <ref type="context">3</ref>
                <label>Aula nunc piissima</label>
                <p>Vgl. 209 &lt;8&gt;.</p>
             </note>
-            <note xml:id="d4617e25016" target="#d4617e24942 #d4617e24988">
-               <ref target="">4</ref>
+            <note xml:id="d4618e28889">
+               <ref type="context">4</ref>
                <label>Benedictus Gerard</label>
                <p>Die Angaben zu Gerhard entsprechen, wie auch jene zu Heinlein und Urtlauff in &lt;5&gt; und &lt;6&gt;, im Wesentlichen denen in 76 bzw. 99. Nur die Titel der Werke Gerhards sind hier vollständiger angeführt.</p>
             </note>

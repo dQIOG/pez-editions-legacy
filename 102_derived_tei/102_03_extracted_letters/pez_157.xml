@@ -13,80 +13,74 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">157</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">308r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Bernardo Cretoni</persName>
+               <date when="1711-03-30">1711-03-30</date>
+               <placeName>Ravenna (S. Vitale)</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="next">
+                  <idno type="pezEd">148</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">157</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Bernardo Cretoni</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1711-03-30</date>
-         <place-of-posting xmlns="">Ravenna (S. Vitale)</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e16565">
-                  <persName>
-                     <abbr>BC</abbr>
-                  </persName> hat vor einiger Zeit von Bonaventura Finardi, dem Lektor der Kanonistik in S. Giorgio Maggiore zu Venedig, erfahren, dass dieser dem Buchhändler Paolo Baglioni bereits Girolamo Fabbris „Sagre memorie“ weitergegeben hat, damit dieser das Buch einem Wiener Buchhändler zustellen kann.</seg>
-               <seg type="context" n="2" xml:id="d4617e16567">Vor drei Tagen hat Pietro Canneti, der Abt des Klosters Classe, im Gespräch bekräftigt, dass ihm sehr daran liegt, dass auch die Gelehrten seines Klosters in BPs Werk („Bibliotheca Benedictina“) Aufnahme finden. <persName>
-                     <abbr>BC</abbr>
-                  </persName> fordert <persName>
-                     <abbr>BP</abbr>
-                  </persName> auf, an Canneti zu schreiben.</seg>
-               <seg type="context" n="3" xml:id="d4617e16569">Weiters lässt Canneti anfragen, ob <persName>
-                     <abbr>BP</abbr>
-                  </persName> in Wien folgende zwei Bücher für ihn erwerben und über Venedig zusenden könnte: Nebridius Müller von Mündelheims „Antiquarium monasticum“, gedruckt 1650 zu Wien bei Cosmerovius im Kölnerhof, sowie die „Vita divi Benedicti“ von Arsenius Sulger aus Zwiefalten, gedruckt 1691 zu St. Gallen. <persName>
-                     <abbr>BC</abbr>
-                  </persName> schließt mit Entschuldigungen für diese Unannehmlichkeiten und mit Segenswünschen.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e19728"><rs type="person" role="sender">BC</rs> hat vor einiger Zeit von Bonaventura Finardi, dem Lektor der Kanonistik in S. Giorgio Maggiore zu Venedig, erfahren, dass dieser dem Buchhändler Paolo Baglioni bereits Girolamo Fabbris „Sagre memorie“ weitergegeben hat, damit dieser das Buch einem Wiener Buchhändler zustellen kann.</seg><seg type="context" n="2" xml:id="d4618e19730">Vor drei Tagen hat Pietro Canneti, der Abt des Klosters Classe, im Gespräch bekräftigt, dass ihm sehr daran liegt, dass auch die Gelehrten seines Klosters in <rs type="person" role="sender">BPs</rs> Werk („Bibliotheca Benedictina“) Aufnahme finden. <rs type="person" role="sender">BC</rs> fordert <rs type="person" role="sender">BP</rs> auf, an Canneti zu schreiben.</seg><seg type="context" n="3" xml:id="d4618e19732">Weiters lässt Canneti anfragen, ob <rs type="person" role="sender">BP</rs> in Wien folgende zwei Bücher für ihn erwerben und über Venedig zusenden könnte: Nebridius Müller von Mündelheims „Antiquarium monasticum“, gedruckt 1650 zu Wien bei Cosmerovius im Kölnerhof, sowie die „Vita divi Benedicti“ von Arsenius Sulger aus Zwiefalten, gedruckt 1691 zu St. Gallen. <rs type="person" role="sender">BC</rs> schließt mit Entschuldigungen für diese Unannehmlichkeiten und mit Segenswünschen.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: I, 308r–v.</p>
-            <p>Bezüge: 148.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>148</idno>
-               </ref>
-            </correspContext>
-            <p>Nummerierung: <hi rend="italic">IV</hi>.</p>
+            <p xml:space="preserve">Nummerierung: <hi rend="italic">IV</hi>.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Reverende admodum pater ac domine, domine clarissime.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e16586"> Ut proprio muneri satisfaciam, operae pretium duxi hanc epistolam ad te mittere, ut scias iam multis abhinc diebus significatum mihi fuisse a reverendo patre domno Bonaventura Finardi, lectore sacrorum canonum in monasterio S. Georgii Venetiarum, pervenisse ad manus domni Pauli Balleonii <seg type="lemma" corresp="#d4617e16600">librum Historiarum Ravennae</seg>, et cum fieri poterit, ad alterum bibliopolam Viennensem dirigetur. </seg>
-               <seg type="context" n="2" xml:id="d4617e16588"> Nudiustertius habenti sermonem de tuo egregio opere cum reverendissimo patre domno Petro Canneti, abbati [<hi rend="italic">sic</hi>] vigilantissimo insignis monasterii Classensis, fuit ab eodem significatum sibi valde cordi esse, ut etiam insererentur tuae celebri Bibliothecae illustres viri laudati monasterii Classensis: rogo ergo humanitatem tuam, ut eidem benignas litteras dirigere non dedigneris, eruditum namque ac innumeris refertum dotibus virum agnosces. </seg>
-               <seg type="context" n="3" xml:id="d4617e16593"> Imposuit interim, ut tibi salutem plurimam dicerem et a paternitate vestra admodum reverenda expostularem duos libros, quorum primus est Antiquarium monasticum seu Antiquitatum monasticarum epistolae. Viennae Austriae. In <seg type="lemma" corresp="#d4617e16607">officina typographica Matthaei Cosmerovii sacrae caesareae maiestatis typographi, in aula Coloniensi</seg> anno 1650; alius Vita sancti Benedicti colore didactico renovata a reverendo patre Arsenio Sulger professo ordinis sancti Benedicti, presbytero Zwifaltensi, typis monasterii S. Galli 1691. Si tales libri adinvenientur in ista civitate, poterunt mitti Venetias, commonefaciendo dictum praesulem Canneti. Enixe tandem precor tuam benignitatem, ut me excusatum habeas de tot incommodis tuisque nutibus exerceas, dum e coelis omne gaudium cupiendo sacras manus deosculor.</seg>
-            </p>
-            <p>Paternitatis tuae admodum reverendae humillimus ac addictissimus servus domnus Bernardus Cretonius lector sacrae theologiae.</p>
-            <p>Ravennae in almo coenobio S. Vitalis die 30. Martii 1711.</p>
+            <p xml:space="preserve"><pb n="1r"/> Reverende admodum pater ac domine, domine clarissime.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e19749"> Ut proprio muneri satisfaciam, operae pretium duxi hanc epistolam ad te mittere, ut scias iam multis abhinc diebus significatum mihi fuisse a reverendo patre domno Bonaventura Finardi, lectore sacrorum canonum in monasterio S. Georgii Venetiarum, pervenisse ad manus domni Pauli Balleonii <seg type="lemma" corresp="#d4618e19763">librum Historiarum Ravennae</seg>, et cum fieri poterit, ad alterum bibliopolam Viennensem dirigetur. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e19751"> Nudiustertius habenti sermonem de tuo egregio opere cum reverendissimo patre domno Petro Canneti, abbati [<hi rend="italic">sic</hi>] vigilantissimo insignis monasterii Classensis, fuit ab eodem significatum sibi valde cordi esse, ut etiam insererentur tuae celebri Bibliothecae illustres viri laudati monasterii Classensis: rogo ergo humanitatem tuam, ut eidem benignas litteras dirigere non dedigneris, eruditum namque ac innumeris refertum dotibus virum agnosces. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e19756"> Imposuit interim, ut tibi salutem plurimam dicerem et a paternitate vestra admodum reverenda expostularem duos libros, quorum primus est Antiquarium monasticum seu Antiquitatum monasticarum epistolae. Viennae Austriae. In <seg type="lemma" corresp="#d4618e19770">officina typographica Matthaei Cosmerovii sacrae caesareae maiestatis typographi, in aula Coloniensi</seg> anno 1650; alius Vita sancti Benedicti colore didactico renovata a reverendo patre Arsenio Sulger professo ordinis sancti Benedicti, presbytero Zwifaltensi, typis monasterii S. Galli 1691. Si tales libri adinvenientur in ista civitate, poterunt mitti Venetias, commonefaciendo dictum praesulem Canneti. Enixe tandem precor tuam benignitatem, ut me excusatum habeas de tot incommodis tuisque nutibus exerceas, dum e coelis omne gaudium cupiendo sacras manus deosculor.</seg></p>
+            <p xml:space="preserve">Paternitatis tuae admodum reverendae humillimus ac addictissimus servus domnus Bernardus Cretonius lector sacrae theologiae.</p>
+            <p xml:space="preserve">Ravennae in almo coenobio S. Vitalis die 30. Martii 1711.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e16600" target="#d4617e16565 #d4617e16586">
-               <ref target="">1</ref>
+            <note xml:id="d4618e19763">
+               <ref type="context">1</ref>
                <label>librum Historiarum Ravennae</label>
                <p>Vgl. 116 &lt;3&gt;.</p>
             </note>
-            <note xml:id="d4617e16607" target="#d4617e16569 #d4617e16593">
-               <ref target="">3</ref>
+            <note xml:id="d4618e19770">
+               <ref type="context">3</ref>
                <label>officina ... in aula Coloniensi</label>
                <p>Die Druckerei des Cosmerovius, zu ihrer Zeit die bedeutendste in Wien, befand sich bis 1655 im Kölnerhof, danach in der Bäckergasse (heute Sonnenfelsgasse): Mayer, Buchdrucker-Geschichte 1 232f.</p>
             </note>

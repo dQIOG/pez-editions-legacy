@@ -13,97 +13,96 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">284</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">194r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Hyazinth Baumbach</persName>
+               <date when="1712-11-09">1712-11-09</date>
+               <placeName>Würzburg (St. Stephan)</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">303</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">267</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">284</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Hyazinth Baumbach</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1712-11-09</date>
-         <place-of-posting xmlns="">Würzburg (St. Stephan)</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e30576">Der Bruder (Johann Andreas Unrath?) des St. Stephaner Priors (Philipp Unrath) reist nach Wien zu dem weiteren Bruder Johann Adam Unrath, der dort als Agent des Reichshofrats tätig ist. Diese Gelegenheit nützt HB, um <persName>
-                     <abbr>BP</abbr>
-                  </persName> Materialien zu den Klöstern Frankens und deren Gebetsverbrüderungen zu übersenden.</seg>
-               <seg type="context" n="2" xml:id="d4617e30578">
-                  <persName>
-                     <abbr>HB</abbr>
-                  </persName> würde gerne bereits eine Abbildung von St. Stephan senden, doch muss er warten, bis sein Architekt (Joseph Greissing?) Zeit hat.</seg>
-               <seg type="context" n="3" xml:id="d4617e30580">
-                  <persName>
-                     <abbr>HB</abbr>
-                  </persName> berichtet von der Ankunft Konrad Siglers in Würzburg. Dieser muss sich jedoch erst um sein neues Amt kümmern, ehe <persName>
-                     <abbr>HB</abbr>
-                  </persName> ihn an seine Versprechen erinnern kann.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e35099">Der Bruder (Johann Andreas Unrath?) des St. Stephaner Priors (Philipp Unrath) reist nach Wien zu dem weiteren Bruder Johann Adam Unrath, der dort als Agent des Reichshofrats tätig ist. Diese Gelegenheit nützt HB, um <rs type="person" role="sender">BP</rs> Materialien zu den Klöstern Frankens und deren Gebetsverbrüderungen zu übersenden.</seg><seg type="context" n="2" xml:id="d4618e35101"><rs type="person" role="sender">HB</rs> würde gerne bereits eine Abbildung von St. Stephan senden, doch muss er warten, bis sein Architekt (Joseph Greissing?) Zeit hat.</seg><seg type="context" n="3" xml:id="d4618e35103"><rs type="person" role="sender">HB</rs> berichtet von der Ankunft Konrad Siglers in Würzburg. Dieser muss sich jedoch erst um sein neues Amt kümmern, ehe <rs type="person" role="sender">HB</rs> ihn an seine Versprechen erinnern kann.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: I, 194r–v.</p>
-            <p>Bezüge: 267. 303.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>267</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>303</idno>
-               </ref>
-            </correspContext>
-            <p>Adresse: <hi rend="italic">Reverendo admodum religioso eximio ac doctissimo in Christo patri ac domino patri Bernardo Pez ordinis sancti Benedicti celeberrimi et exempti monasterii Mellicensis in Austria professo et bibliothecario, domino colendo. Viennae.</hi> Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 79v.</p>
+            <div type="address">
+               <cit>
+                  <q>Reverendo admodum religioso eximio ac doctissimo in Christo patri ac domino patri Bernardo Pez ordinis sancti Benedicti celeberrimi et exempti monasterii Mellicensis in Austria professo et bibliothecario, domino colendo. Viennae. Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 79v.</q>
+               </cit>
+            </div>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiose eximie ac doctissime pater, domine colende.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e30597"> Occasione hac, redeunte nimirum fratre germano patris prioris nostri monasterii Viennam ad pariter germanum, <seg type="lemma" corresp="#d4617e30611">doctorem Unrath imperialis consilii agentem</seg>, mitto unum <seg type="lemma" corresp="#d4617e30618">pactum religiosum</seg>, ex quo licebit videre omnes abbatias Franconiae nostrae cum aliis quibusdam adiacentibus ac confoederationem in solatium defunctorum. </seg>
-               <seg type="context" n="2" xml:id="d4617e30599"> Utinam et simul delineationem monasterii nostri mittere potuissem. Ast cum alium non habeam rei expertem [<hi rend="italic">sic</hi>] nisi <seg type="lemma" corresp="#d4617e30623">architectum</seg> nostrum hic, ipso occupato debeo habere patientiam. </seg>
-               <seg type="context" n="3" xml:id="d4617e30604"> Advenit etiam proximis abhinc diebus dominus Siegler. Quia vero de ratione et informatione <seg type="lemma" corresp="#d4617e30630">officii sui</seg> primitus sollicitus erit, pariter patientia habenda est usque ad tempus congruum, ubi <seg type="lemma" corresp="#d4617e30637">promissa</seg> sollicitabo, ac praeterea sub protectione Altissimi semper ero</seg>
-            </p>
-            <p>Admodum reverendae et eximie paternitatis vestrae addictissimus Hyacinth abbas manu propria.</p>
-            <p>Herbipoli ex monasterio S. Stephani 9. Novembris 1712.</p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiose eximie ac doctissime pater, domine colende.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e35120"> Occasione hac, redeunte nimirum fratre germano patris prioris nostri monasterii Viennam ad pariter germanum, <seg type="lemma" corresp="#d4618e35140">doctorem Unrath imperialis consilii agentem</seg>, mitto unum <seg type="lemma" corresp="#d4618e35147">pactum religiosum</seg>, ex quo licebit videre omnes abbatias Franconiae nostrae cum aliis quibusdam adiacentibus ac confoederationem in solatium defunctorum. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e35122"> Utinam et simul delineationem monasterii nostri mittere potuissem. Ast cum alium non habeam rei expertem [<hi rend="italic">sic</hi>]<note place="foot" xml:id="d4618e35127">	Wohl für <hi rend="italic">expertum</hi>.</note> nisi <seg type="lemma" corresp="#d4618e35152">architectum</seg> nostrum hic, ipso occupato debeo habere patientiam. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e35133"> Advenit etiam proximis abhinc diebus dominus Siegler. Quia vero de ratione et informatione <seg type="lemma" corresp="#d4618e35159">officii sui</seg> primitus sollicitus erit, pariter patientia habenda est usque ad tempus congruum, ubi <seg type="lemma" corresp="#d4618e35166">promissa</seg> sollicitabo, ac praeterea sub protectione Altissimi semper ero</seg></p>
+            <p xml:space="preserve">Admodum reverendae et eximie paternitatis vestrae addictissimus Hyacinth abbas manu propria.</p>
+            <p xml:space="preserve">Herbipoli ex monasterio S. Stephani 9. Novembris 1712.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e30611" target="#d4617e30576 #d4617e30597">
-               <ref target="">1</ref>
+            <note xml:id="d4618e35140">
+               <ref type="context">1</ref>
                <label>doctorem Unrath imperialis consilii agentem</label>
                <p>Johann Adam Unrath wurde 1700 als Agent des Reichshofrats (d. h. akkreditierter Parteienanwalt) vereidigt und ist noch 1713 in dieser Funktion bezeugt: HHStA Wien, Reichshofrat Verfassungsakten, RHR 50, Konvolut 2. Er starb 1724. Der erwähnte dritte Bruder ist vermutlich jener Johann Andreas Unrath, der 1721 als Reichshofrats-Türstehersadjunkt verstarb. Bereits 1701 hatte er in Wien als Zeuge auf dem Heiratskontrakt seines Bruders Johann Adam unterschrieben: HHStA Wien, Reichshofrat Testamente, Fasz. 176. Für den Hinweis auf diese Archivalien danken die Autoren Eva Ortlieb (Wien). – Zu Prior Philipp Unrath: Schwinger, St. Stephans-Kloster 40 178f.</p>
             </note>
-            <note xml:id="d4617e30618" target="#d4617e30576 #d4617e30597">
-               <ref target="#d4617e30576 #d4617e30597">1</ref>
+            <note xml:id="d4618e35147">
+               <ref type="context">1</ref>
                <label>pactum religiosum</label>
                <p>Die Beilage scheint in Melk nicht erhalten zu sein.</p>
             </note>
-            <note xml:id="d4617e30623" target="#d4617e30578 #d4617e30599">
-               <ref target="">2</ref>
+            <note xml:id="d4618e35152">
+               <ref type="context">2</ref>
                <label>architectum</label>
                <p>Vgl. 250.</p>
             </note>
-            <note xml:id="d4617e30630" target="#d4617e30580 #d4617e30604">
-               <ref target="">3</ref>
+            <note xml:id="d4618e35159">
+               <ref type="context">3</ref>
                <label>officii sui</label>
                <p>Vgl. 267, 308.</p>
             </note>
-            <note xml:id="d4617e30637" target="#d4617e30580 #d4617e30604">
-               <ref target="#d4617e30580 #d4617e30604">3</ref>
+            <note xml:id="d4618e35166">
+               <ref type="context">3</ref>
                <label>promissa</label>
                <p>Vgl. 145, 161, 171, 178, 196.</p>
             </note>

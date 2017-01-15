@@ -13,139 +13,130 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">320</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Heer, Pez 424, 426</bibl>
+                  <bibl>Müller, Disentis 1696–1742 657f</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">659r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Adalbert Defuns</persName>
+               <date when="1713-07-19">1713-07-19</date>
+               <placeName>Disentis</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">402</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">295</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">291</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">403</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">320</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Adalbert Defuns</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1713-07-19</date>
-         <place-of-posting xmlns="">Disentis</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e34688">ADe hat BPs Brief vom 26. Januar 1713 <ref type="letter">295</ref> spät, aber doch erhalten. <persName>
-                     <abbr>BP</abbr>
-                  </persName> lobt darin über Gebühr die wenigen Disentiner Schriftsteller, die ihm ADe übermittelt hat <ref type="letter">291</ref>, damit aus der „Bibliotheca Benedictina“ wenigstens zu ersehen ist, dass das uralte Kloster Disentis in Graubünden am Gipfel Europas (in Europae vertice) noch besteht.</seg>
-               <seg type="context" n="2" xml:id="d4617e34696">BPs Hoffnung, die Disentiner Bibliothek besitze viele Werke deutscher Benediktiner, ist unbegründet. Der päpstliche Nuntius Alessandro Scappi fand 1623 in Disentis nach der Plünderung durch die Calvinisten kaum mehr ein Buch vor. Lediglich einen weiteren Disentiner Schriftsteller (Joseph Desax) hat Basil Bischoff dem zuvor gesendeten Katalog noch hinzuzufügen, wie <persName>
-                     <abbr>BP</abbr>
-                  </persName> der Beilage entnehmen kann.</seg>
-               <seg type="context" n="3" xml:id="d4617e34698">ADe dankt BP, dass er Augustin Stöcklin, den Mabillon („Iter Germanicum“) fälschlich Disentis abgesprochen hat, nun wieder ins rechte Licht rücken will.</seg>
-               <seg type="context" n="4" xml:id="d4617e34700">ADe fragt nach dem Wahrheitsgehalt eines unerfreulichen Gerüchtes, nach welchem die Studenten von der Benediktineruniversität Salzburg ausgezogen und nach Wien zu den Jesuiten abgewandert sind.</seg>
-               <seg type="context" n="5" xml:id="d4617e34702">Abschließend ermuntert er <persName>
-                     <abbr>BP</abbr>
-                  </persName> zur zügigen Fortführung seines Vorhabens, verspricht sein Gebet und das seines Konvents für dasselbe und bittet selbst um Gebete für sich, da er bald sterben wird.</seg>
-               <seg type="context" n="6" xml:id="d4617e34704">Freiherr von Greuth, der kaiserliche Gesandte in Graubünden, residiert in Rhäzüns, eine Meile stromaufwärts von Chur, unweit des Zusammenflusses von Vorder- und Hinterrhein.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e39647">ADe hat <rs type="person" role="sender">BPs</rs> Brief vom 26. Januar 1713 <ref type="letter">295</ref> spät, aber doch erhalten. <rs type="person" role="sender">BP</rs> lobt darin über Gebühr die wenigen Disentiner Schriftsteller, die ihm ADe übermittelt hat <ref type="letter">291</ref>, damit aus der „Bibliotheca Benedictina“ wenigstens zu ersehen ist, dass das uralte Kloster Disentis in Graubünden am Gipfel Europas (in Europae vertice) noch besteht.</seg><seg type="context" n="2" xml:id="d4618e39655"><rs type="person" role="sender">BPs</rs> Hoffnung, die Disentiner Bibliothek besitze viele Werke deutscher Benediktiner, ist unbegründet. Der päpstliche Nuntius Alessandro Scappi fand 1623 in Disentis nach der Plünderung durch die Calvinisten kaum mehr ein Buch vor. Lediglich einen weiteren Disentiner Schriftsteller (Joseph Desax) hat Basil Bischoff dem zuvor gesendeten Katalog noch hinzuzufügen, wie <rs type="person" role="sender">BP</rs> der Beilage entnehmen kann.</seg><seg type="context" n="3" xml:id="d4618e39657">ADe dankt BP, dass er Augustin Stöcklin, den Mabillon („Iter Germanicum“) fälschlich Disentis abgesprochen hat, nun wieder ins rechte Licht rücken will.</seg><seg type="context" n="4" xml:id="d4618e39659">ADe fragt nach dem Wahrheitsgehalt eines unerfreulichen Gerüchtes, nach welchem die Studenten von der Benediktineruniversität Salzburg ausgezogen und nach Wien zu den Jesuiten abgewandert sind.</seg><seg type="context" n="5" xml:id="d4618e39661">Abschließend ermuntert er <rs type="person" role="sender">BP</rs> zur zügigen Fortführung seines Vorhabens, verspricht sein Gebet und das seines Konvents für dasselbe und bittet selbst um Gebete für sich, da er bald sterben wird.</seg><seg type="context" n="6" xml:id="d4618e39663">Freiherr von Greuth, der kaiserliche Gesandte in Graubünden, residiert in Rhäzüns, eine Meile stromaufwärts von Chur, unweit des Zusammenflusses von Vorder- und Hinterrhein.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: I, 659r–v.</p>
-            <p>Literatur: Heer, Pez 424, 426; Müller, Disentis 1696–1742 657f.</p>
-            <p>Bezüge: 295. 402. Erwähnt 291, 295. Erwähnt in 403, 467, 476.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>295</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>402</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>291</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>295</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>403</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>467</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>476</idno>
-               </ref>
-            </correspContext>
-            <p>Adresse: <hi rend="italic">Viro clarissimo admodum reverendo doctissimoque domino domino Bernardo Pez celeberrimi monasterii Mellicensis bibliothecario, domino observandissimo. Wienn.</hi> Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 154v.</p>
+            <div type="address">
+               <cit>
+                  <q>Viro clarissimo admodum reverendo doctissimoque domino domino Bernardo Pez celeberrimi monasterii Mellicensis bibliothecario, domino observandissimo. Wienn. Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 154v.</q>
+               </cit>
+            </div>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende clarissime domine.</p>
-            <p>&lt;<seg type="context" n="1" xml:id="d4617e34724">&gt; Tuas die 26. Januarii elapsi ad me directas tardius quidem, tandem tamen laetus accepi, in quibus profecto nimius es, vir clarissime, in commendanda Disertina eiusve scriptoribus, qui ut pauculi sunt et obscuri, eos tamen qualescunque tandem a te sollicitatus tibi submittere praesumpsi, eo solum fine, ut in praeclaro, quod nunc prae manibus habes, opere tuo de scriptoribus Benedictinis simplicem alicubi, si tibi videretur, Disertinae quoque nostrae faceres mentionem, quo lectoribus constaret Disertinam seu monasterium nostrum, certe <seg type="lemma" corresp="#d4617e34744">ex antiquissimis</seg> unum, etiamnum in Rhaetia, hoc est in Europae vertice superare. </seg>
-               <seg type="context" n="2" xml:id="d4617e34726"> Fallitur autem persuasio tua (ac utinam non falleretur!), qua credis bibliothecam nostram opulentissimam <seg type="lemma" corresp="#d4617e34751">Benedictinis Germaniae scriptoribus</seg> abundare. Vix enim pauculos habet post <seg type="lemma" corresp="#d4617e34758">direptionem</seg> a Calvinistis factam, quae tanta tamque barbara fuit, ut Alexander <seg type="lemma" corresp="#d4617e34763">Scappius nuntius apostolicus anno 1623</seg> vix ullum librum etiam ex communissimis et maxime necessariis in monasterio nostro residuum ab ea clade invenerit. Hinc est, quod <seg type="lemma" corresp="#d4617e34768">frater Basilius</seg> votis tuis piissimis, etsi maxime vellet, <pb n="1v"/> satisfacere nequeat. Unum tamen e nostris Disertinatibus adiciendum reliquis pauculis putavit, ut in <seg type="lemma" corresp="#d4617e34773">schedula hisce inclusa</seg> videbis, si tanti. </seg>
-               <seg type="context" n="3" xml:id="d4617e34730"> Maximas autem ago gratias, quod Augustinum Stocklinum (qui forte unus inter nostros scriptoris nomine insigniri potest), quem <seg type="lemma" corresp="#d4617e34778">Mabillonius per errorem nobis abstulerat</seg>, te nobis restituturum polliceris. </seg>
-               <seg type="context" n="4" xml:id="d4617e34732"> 
-                  <seg type="lemma" corresp="#d4617e34785">Rumor mihi ingratus</seg> nuper apud nos sparsus fuit, nimirum alumnos seu studiosos prope omnes ex universitate Benedictina Salisburgensi cum indignatione digressos Viennam Austriae ad patres Societatis se contulisse, ab iisque cum summo plausu susceptos. Num haec vera? Vix crediderim. </seg>
-               <seg type="context" n="5" xml:id="d4617e34734"> At tu, eruditissime domine, perge alacriter in continuationem praestantissimi operis, quod moliris, ad quod persequendum ut Deus ter optimus maximus tibi vires animumque largiatur, etiam nos calentissimis ad aram precibus supplicabimus. Vale <seg type="lemma" corresp="#d4617e34792">mei brevi morituri</seg> memor in precibus et sacris sacrificiis.</seg>
-            </p>
-            <p>Tuae admodum reverendae dominationis amantissimus confrater Adalbertus abbas manu propria.</p>
-            <p>Disertinae 19. Julii 1713.</p>
-            <p>
-               <seg type="context" n="6" xml:id="d4617e34741"> Baro de Greuth ad Rhaetos orator caesareus residet in Castro Rhaetiensi (vulgo Ratzüns) milliario supra Curiam prope confluentiam Anterioris et Posterioris Rheni.</seg>
-            </p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende clarissime domine.</p>
+            <p xml:space="preserve">&lt;<seg type="context" n="1" xml:space="preserve" xml:id="d4618e39683">&gt; Tuas die 26. Januarii elapsi ad me directas tardius quidem, tandem tamen laetus accepi, in quibus profecto nimius es, vir clarissime, in commendanda Disertina eiusve scriptoribus, qui ut pauculi sunt et obscuri, eos tamen qualescunque tandem a te sollicitatus tibi submittere praesumpsi, eo solum fine, ut in praeclaro, quod nunc prae manibus habes, opere tuo de scriptoribus Benedictinis simplicem alicubi, si tibi videretur, Disertinae quoque nostrae faceres mentionem, quo lectoribus constaret Disertinam seu monasterium nostrum, certe <seg type="lemma" corresp="#d4618e39706">ex antiquissimis</seg> unum, etiamnum in Rhaetia, hoc est in Europae vertice superare. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e39685"> Fallitur autem persuasio tua (ac utinam non falleretur!), qua credis bibliothecam nostram opulentissimam <seg type="lemma" corresp="#d4618e39713">Benedictinis Germaniae scriptoribus</seg> abundare. Vix enim pauculos habet post <seg type="lemma" corresp="#d4618e39720">direptionem</seg> a Calvinistis factam, quae tanta tamque barbara fuit, ut Alexander <seg type="lemma" corresp="#d4618e39725">Scappius nuntius apostolicus anno 1623</seg> vix ullum librum etiam ex communissimis et maxime necessariis in monasterio nostro residuum ab ea clade invenerit. Hinc est, quod <seg type="lemma" corresp="#d4618e39730">frater Basilius</seg> votis tuis<note place="foot" xml:id="d4618e39687">	Über der Zeile eingefügt.</note> piissimis, etsi maxime vellet, <pb n="1v"/> satisfacere nequeat. Unum tamen e nostris Disertinatibus adiciendum reliquis pauculis putavit, ut in <seg type="lemma" corresp="#d4618e39735">schedula hisce inclusa</seg> videbis, si tanti. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e39692"> Maximas autem ago gratias, quod Augustinum Stocklinum (qui forte unus inter nostros scriptoris nomine insigniri potest), quem <seg type="lemma" corresp="#d4618e39740">Mabillonius per errorem nobis abstulerat</seg>, te nobis restituturum polliceris. </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e39694"> <seg type="lemma" corresp="#d4618e39747">Rumor mihi ingratus</seg> nuper apud nos sparsus fuit, nimirum alumnos seu studiosos prope omnes ex universitate Benedictina Salisburgensi cum indignatione digressos Viennam Austriae ad patres Societatis se contulisse, ab iisque cum summo plausu susceptos. Num haec vera? Vix crediderim. </seg><seg type="context" n="5" xml:space="preserve" xml:id="d4618e39696"> At tu, eruditissime domine, perge alacriter in continuationem praestantissimi operis, quod moliris, ad quod persequendum ut Deus ter optimus maximus tibi vires animumque largiatur, etiam nos calentissimis ad aram precibus supplicabimus. Vale <seg type="lemma" corresp="#d4618e39754">mei brevi morituri</seg> memor in precibus et sacris sacrificiis.</seg></p>
+            <p xml:space="preserve">Tuae admodum reverendae dominationis amantissimus confrater Adalbertus abbas manu propria.</p>
+            <p xml:space="preserve">Disertinae 19. Julii 1713.</p>
+            <p xml:space="preserve"><seg type="context" n="6" xml:space="preserve" xml:id="d4618e39703"> Baro de Greuth ad Rhaetos orator caesareus residet in Castro Rhaetiensi (vulgo Ratzüns) milliario supra Curiam prope confluentiam Anterioris et Posterioris Rheni.</seg></p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e34744" target="#d4617e34688 #d4617e34724">
-               <ref target="">1</ref>
+            <note xml:id="d4618e39706">
+               <ref type="context">1</ref>
                <label>ex antiquissimis</label>
                <p>Die Gründung von Disentis fiel in die 1. H. 8. Jh., ist jedoch nicht exakt zu datieren; zeitnahe Quellen fehlen. Vgl. Gilomen-Schenkel–Müller, Disentis 474f.</p>
             </note>
-            <note xml:id="d4617e34751" target="#d4617e34696 #d4617e34726">
-               <ref target="">2</ref>
+            <note xml:id="d4618e39713">
+               <ref type="context">2</ref>
                <label>Benedictinis Germaniae scriptoribus</label>
                <p>Vgl. 273 &lt;5&gt;.</p>
             </note>
-            <note xml:id="d4617e34758" target="#d4617e34696 #d4617e34726">
-               <ref target="#d4617e34696 #d4617e34726">2</ref>
+            <note xml:id="d4618e39720">
+               <ref type="context">2</ref>
                <label>direptionem</label>
                <p>Vgl. 291 &lt;3&gt;.</p>
             </note>
-            <note xml:id="d4617e34763" target="#d4617e34696 #d4617e34726">
-               <ref target="#d4617e34696 #d4617e34726">2</ref>
+            <note xml:id="d4618e39725">
+               <ref type="context">2</ref>
                <label>Scappius ... 1623</label>
                <p>Zur Visitation durch den Nuntius Scappi vgl. Müller, Reform 1600–1623 44–65. Sie war Teil der Bemühungen um eine Reform von Disentis im Sinne des Konzils von Trient und der Helvetischen Kongregation, die sich schließlich erst 1631/34 mit der Einsetzung Augustin Stöcklins und der Delogierung der meisten bisherigen Konventualen durchsetzen konnte.</p>
             </note>
-            <note xml:id="d4617e34768" target="#d4617e34696 #d4617e34726">
-               <ref target="#d4617e34696 #d4617e34726">2</ref>
+            <note xml:id="d4618e39730">
+               <ref type="context">2</ref>
                <label>frater Basilius</label>
                <p>Henggeler, Profeßbuch Disentis 72; Müller, Disentis 1696–1742 603f.</p>
             </note>
-            <note xml:id="d4617e34773" target="#d4617e34696 #d4617e34726">
-               <ref target="#d4617e34696 #d4617e34726">2</ref>
+            <note xml:id="d4618e39735">
+               <ref type="context">2</ref>
                <label>schedula hisce inclusa</label>
                <p>Diese Beilage ist im Original erhalten in I, 661r–v. Es handelt sich um eine biographische Notiz zu Abt Joseph Desax in ähnlichem Format wie die Notizen in dem mit 291 übermittelten Schriftstellerkatalog. Bei der Bindung des Briefcodex, vielleicht auch schon früher, wurde sie diesem Katalog eingefügt, freilich an chronologisch falscher Stelle. Müller, Disentis 1696–1742 657f., 662, bemerkt zwar die Störung der Reihenfolge, identifiziert jedoch das Blatt nicht mit der in diesem Brief angekündigten Beilage und ediert es als Teil des Schriftstellerkataloges (ebd. 665f.); als solches ist es auch bei Glassner, Verzeichnis 202, behandelt. Die Zugehörigkeit zu diesem Brief wird jedoch dadurch bestätigt, dass in StiA Melk, Karton 7 Patres 9, Abschriftencodex 155v–156r, die Notiz zu Desax allein auf den Text des Briefs folgt. Zu Desax: Gilomen-Schenkel–Müller, Disentis 502f.; Henggeler, Profeßbuch Disentis 40f.; Müller, Disentis 1634–1655 5–19.</p>
             </note>
-            <note xml:id="d4617e34778" target="#d4617e34698 #d4617e34730">
-               <ref target="">3</ref>
+            <note xml:id="d4618e39740">
+               <ref type="context">3</ref>
                <label>Mabillonius ... abstulerat</label>
                <p>Vgl. 291 &lt;2&gt;.</p>
             </note>
-            <note xml:id="d4617e34785" target="#d4617e34700 #d4617e34732">
-               <ref target="">4</ref>
+            <note xml:id="d4618e39747">
+               <ref type="context">4</ref>
                <label>Rumor mihi ingratus</label>
                <p>Im Frühjahr 1711 war es in Salzburg zu heftigen Studentenunruhen gekommen, in deren Verlauf ein Teil der Studentenschaft mit dem Abgang gedroht hatte: Wagner, Studenten 81–83. Unter den Protestierenden waren etliche Rhäter. Das von ADe wiedergegebene Gerücht könnte eine verspätete und stark übertriebene Nachricht über diese Ereignisse sein. Auf das Jahr 1713 bezogen, hat es keinen Wahrheitsgehalt; vgl. Müller, Disentis 1696–1742 658.</p>
             </note>
-            <note xml:id="d4617e34792" target="#d4617e34702 #d4617e34734">
-               <ref target="">5</ref>
+            <note xml:id="d4618e39754">
+               <ref type="context">5</ref>
                <label>mei brevi morituri</label>
                <p>ADe war zum Zeitpunkt dieses Briefs etwa 67 Jahre alt und bereits seit längerem bei schlechter Gesundheit. Er starb 1716. Formulierungen ähnlich dieser in seinen erhaltenen Briefen aus den letzten Lebensjahren veranlassten Iso Müller zu der Vermutung, ADe habe an Depressionen gelitten: Müller, Disentis 1696–1742 129.</p>
             </note>

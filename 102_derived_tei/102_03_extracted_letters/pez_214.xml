@@ -13,102 +13,80 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">214</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>II, 47 r–v.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Placidus Haiden</persName>
+               <date when="1712-02-27">1712-02-27</date>
+               <placeName>Niederaltaich</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">251</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">212</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">212</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">214</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Placidus Haiden</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1712-02-27</date>
-         <place-of-posting xmlns="">Niederaltaich</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e22148">
-                  <persName>
-                     <abbr>PH</abbr>
-                  </persName> hat nach seiner Rückkehr aus München die Enzyklik BPs <ref type="letter">212</ref> samt dem Schriftstellerkatalog vorgefunden. Er hofft, dass die bisher säumigen deutschen Klöster einen gebührlichen Beitrag leisten werden, und bittet <persName>
-                     <abbr>BP</abbr>
-                  </persName> um weitere Exemplare, damit <persName>
-                     <abbr>PH</abbr>
-                  </persName> sie an alle jene Klöster in Ober- und Niederbayern (utraque Bavaria) bis Augsburg verteilen kann, die bisher nichts geliefert haben. Das Eingesendete will <persName>
-                     <abbr>PH</abbr>
-                  </persName> dann für <persName>
-                     <abbr>BP</abbr>
-                  </persName> auf eigene Kosten nach Melk weiterleiten.</seg>
-               <seg type="context" n="2" xml:id="d4617e22153">
-                  <persName>
-                     <abbr>PH</abbr>
-                  </persName> möchte gerne mehr erfahren über die schriftstellerische Tätigkeit des Arnold von Niederaltaich, der in BPs Katalog zum 10. Jahrhundert aufscheint, sowie des Erzbischofs Thiemo von Salzburg, der Professe von Niederaltaich war.</seg>
-               <seg type="context" n="3" xml:id="d4617e22155">Das Werk über die französischen Schriftsteller (Duchesne, „Historiae Francorum scriptores“?) findet sich weder in Regensburg, wie <persName>
-                     <abbr>PH</abbr>
-                  </persName> unlängst brieflich erfahren hat, noch in München, wo er selbst nachforschen konnte.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e25768"><rs type="person" key="">PH</rs> hat nach seiner Rückkehr aus München die Enzyklik <rs type="person" role="sender">BPs</rs> <ref type="letter">212</ref> samt dem Schriftstellerkatalog vorgefunden. Er hofft, dass die bisher säumigen deutschen Klöster einen gebührlichen Beitrag leisten werden, und bittet <rs type="person" role="sender">BP</rs> um weitere Exemplare, damit <rs type="person" key="">PH</rs> sie an alle jene Klöster in Ober- und Niederbayern (utraque Bavaria) bis Augsburg verteilen kann, die bisher nichts geliefert haben. Das Eingesendete will <rs type="person" key="">PH</rs> dann für <rs type="person" role="sender">BP</rs> auf eigene Kosten nach Melk weiterleiten.</seg><seg type="context" n="2" xml:id="d4618e25773"><rs type="person" key="">PH</rs> möchte gerne mehr erfahren über die schriftstellerische Tätigkeit des Arnold von Niederaltaich, der in <rs type="person" role="sender">BPs</rs> Katalog zum 10. Jahrhundert aufscheint, sowie des Erzbischofs Thiemo von Salzburg, der Professe von Niederaltaich war.</seg><seg type="context" n="3" xml:id="d4618e25775">Das Werk über die französischen Schriftsteller (Duchesne, „Historiae Francorum scriptores“?) findet sich weder in Regensburg, wie <rs type="person" key="">PH</rs> unlängst brieflich erfahren hat, noch in München, wo er selbst nachforschen konnte.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: II, 47 r–v.</p>
-            <p>Bezüge: 212. 251. Erwähnt 212.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>212</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>251</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>212</idno>
-               </ref>
-            </correspContext>
-            <p>Nummerierung: <hi rend="italic">VII</hi>.</p>
+            <p xml:space="preserve">Nummerierung: <hi rend="italic">VII</hi>.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine, patrone colendissime.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e22172"> Monachio redux plurimum reverendae dominationis suae literas reperi <seg type="lemma" corresp="#d4617e22188">cum accluso catalogo</seg>. Deus optimus maximus fortunet consilia et Germanos nostros plus aequo negotium morantes tandem conspirare faciat ad ferendas in communi causa suppetias! Ego sane obtestor iterum clarissimam dominationem, ut nae [<hi rend="italic">sic</hi>] mihi parcat, sed iussa et voluntatem suam in promovendo opere confidenter semper aperiat; quem in finem optarem plura exemplaria epistolae encyclicae cum elencho scriptorum sacri ordinis nostri, quae una cum monitoriis per utramque Bavariam Augustam usque Vindelicorum ad illos saltem destinare proposui, qui nullam hactenus iuxta informationem mihi desuper faciendam pro egregio argumento contulerunt operam: quorum deinde monumenta hic recipere et absque cuiusvis impensis aut apprehensa forte molestia plurimum reverendae suae dominationi transmittere vellem. </seg>
-               <seg type="context" n="2" xml:id="d4617e22177"> Interea curiosius exspecto, quonam scribendi genere <seg type="lemma" corresp="#d4617e22195">Arnoldus</seg> Nideraltahensis, quem catalogus decimo Christi saeculo floruisse perhibet, occupatus fuerit, sicuti et beatus <seg type="lemma" corresp="#d4617e22202">Thiemo archiepiscopus</seg> Salisburgensis huius <pb n="1v"/> loci professus. </seg>
-               <seg type="context" n="3" xml:id="d4617e22181"> Tomi desiderati <seg type="lemma" corresp="#d4617e22207">scriptorum Francicorum</seg> nec Ratisbonae, ut novissimae ferunt literae, nec Monachii, ut ipsemet fui expertus, reperti fuere. Commendo me et properanti calamo veniam quam humillime precor.</seg>
-            </p>
-            <p>Plurimum reverendae religiosae ac clarissimae dominationis obligatissimus pater Placidus manu propria.</p>
-            <p>Nideraltahae die 27. Februarii anno 1712.</p>
+            <p xml:space="preserve"><pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine, patrone colendissime.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e25792"> Monachio redux plurimum reverendae dominationis suae literas reperi <seg type="lemma" corresp="#d4618e25808">cum accluso catalogo</seg>. Deus optimus maximus fortunet consilia et Germanos nostros plus aequo negotium morantes tandem conspirare faciat ad ferendas in communi causa suppetias! Ego sane obtestor iterum clarissimam dominationem, ut nae [<hi rend="italic">sic</hi>] mihi parcat, sed iussa et voluntatem suam in promovendo opere confidenter semper aperiat; quem in finem optarem plura exemplaria epistolae encyclicae cum elencho scriptorum sacri ordinis nostri, quae una cum monitoriis per utramque Bavariam Augustam usque Vindelicorum ad illos saltem destinare proposui, qui nullam hactenus iuxta informationem mihi desuper faciendam pro egregio argumento contulerunt operam: quorum deinde monumenta hic recipere et absque cuiusvis impensis aut apprehensa forte molestia plurimum reverendae suae dominationi transmittere vellem. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e25797"> Interea curiosius exspecto, quonam scribendi genere <seg type="lemma" corresp="#d4618e25815">Arnoldus</seg> Nideraltahensis, quem catalogus decimo Christi saeculo floruisse perhibet, occupatus fuerit, sicuti et beatus <seg type="lemma" corresp="#d4618e25822">Thiemo archiepiscopus</seg> Salisburgensis huius <pb n="1v"/> loci professus. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e25801"> Tomi desiderati <seg type="lemma" corresp="#d4618e25827">scriptorum Francicorum</seg> nec Ratisbonae, ut novissimae ferunt literae, nec Monachii, ut ipsemet fui expertus, reperti fuere. Commendo me et properanti calamo veniam quam humillime precor.</seg></p>
+            <p xml:space="preserve">Plurimum reverendae religiosae ac clarissimae dominationis obligatissimus pater Placidus manu propria.</p>
+            <p xml:space="preserve">Nideraltahae die 27. Februarii anno 1712.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e22188" target="#d4617e22148 #d4617e22172">
-               <ref target="">1</ref>
+            <note xml:id="d4618e25808">
+               <ref type="context">1</ref>
                <label>cum accluso catalogo</label>
                <p>Aller Wahrscheinlichkeit nach ein Exemplar der gedruckten Fassung der LE 2, ähnlich 238. Vgl. 213.</p>
             </note>
-            <note xml:id="d4617e22195" target="#d4617e22153 #d4617e22177">
-               <ref target="">2</ref>
+            <note xml:id="d4618e25815">
+               <ref type="context">2</ref>
                <label>Arnoldus</label>
                <p>BP nennt im Schriftstellerkatalog zu 238 einen „Arnoldus Nideraltahensis“ zum Floruit-Jahr 994 (Abb. 5.2). Ein schriftstellerisch tätiger Mönch dieses Namens ist sonst unbekannt. Das Verzeichnis der Niederaltaicher Konventualen unter Abt Gotthard (996–1022) führt einen „Arnoldus“ an, von dem man jedoch weiter nichts weiß (vgl. Krick, Ehemalige stabile Klöster 120; Lackner, Memoriale 137); im Nekrologium von Niederaltaich aus dem späten 12. Jh. scheint der Name mehrmals auf (vgl. Krick, Ehemalige stabile Klöster 107–111). Anlass der Angabe BPs könnte eventuell der Bericht bei Mabillon, Annales OSB 4 445, über den gleichfalls unter Abt Gotthard tätigen Mönch Gunther und dessen Schüler sein; Mabillon zitiert als Quelle Arnolds von St. Emmeram „De memoria beati Emmerami“, c. 61–68. Möglicherweise hat BP diese Nennung nicht auf Arnold von St. Emmeram bezogen (den er in seinem Katalog unter „Arnolfus“ zum Jahr 1041 führt: Abb. 5.2), sondern irrig an einen Niederaltaicher Mönch Arnold gedacht.</p>
             </note>
-            <note xml:id="d4617e22202" target="#d4617e22153 #d4617e22177">
-               <ref target="#d4617e22153 #d4617e22177">2</ref>
+            <note xml:id="d4618e25822">
+               <ref type="context">2</ref>
                <label>Thiemo archiepiscopus</label>
                <p>Die von PH monierte Zugehörigkeit Thiemos zu Niederaltaich ist gesichert. Von ihm sind keine eigenen Schriften bekannt, wohl aber mehrere Passionen (Darstellungen seines Martyriums auf dem 1. Kreuzzug), die vielleicht den Anlass zu seiner Nennung in BPs Schriftstellerkatalog (Abb. 5.2) boten.</p>
             </note>
-            <note xml:id="d4617e22207" target="#d4617e22155 #d4617e22181">
-               <ref target="">3</ref>
+            <note xml:id="d4618e25827">
+               <ref type="context">3</ref>
                <label>scriptorum Francicorum</label>
                <p>Zur Bestimmung vgl. 195.</p>
             </note>

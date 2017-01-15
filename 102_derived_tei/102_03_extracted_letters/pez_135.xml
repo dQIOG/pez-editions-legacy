@@ -13,49 +13,52 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">135</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>No direct source, inferred letter.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Koloman Seeau</persName>
+               <date notBefore="1711-01-01">&lt; 1711-01-01</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">177</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">282</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">143</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">135</id>
-         <deduced xmlns="">true</deduced>
-         <sender xmlns="">Koloman Seeau</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">&lt; 1711-01-01</date>
-         <place-of-posting xmlns=""/>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="editorialNote">
-            <p>Bezüge: 282. Erwähnt in 143, 177.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>282</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>143</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>177</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: Die Datierung ergibt sich aus der Bemerkung BPs auf einem in StiA Melk, Karton 7 Patres 9, Fasz. 1, Nr. 59, erhaltenen Elogium auf Maurus Oberascher, wonach er dieses <hi rend="italic">ex Historia monasterii Monseensis ad me anno 1710 ab admodum reverendo domino patre Colomanno priore missa</hi> exzerpiert hatte. Diese „Historia“ ist mit dem in 143 &lt;4&gt; und 177 &lt;16&gt; angeführten und mit letzterem Brief nach Paris gesendeten Mondseer Material zu identifizieren.</p>
+            <p xml:space="preserve">Bemerkungen: Die Datierung ergibt sich aus der Bemerkung BPs auf einem in StiA Melk, Karton 7 Patres 9, Fasz. 1, Nr. 59, erhaltenen Elogium auf Maurus Oberascher, wonach er dieses <hi rend="italic">ex Historia monasterii Monseensis ad me anno 1710 ab admodum reverendo domino patre Colomanno priore missa</hi> exzerpiert hatte. Diese „Historia“ ist mit dem in 143 &lt;4&gt; und 177 &lt;16&gt; angeführten und mit letzterem Brief nach Paris gesendeten Mondseer Material zu identifizieren.</p>
          </div>
       </front>
       <body>
          <ab>
-            <gap reason="letter missing"/>
+            <gap reason="inferred letter"/>
          </ab>
       </body>
       <back/>

@@ -13,94 +13,93 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">253</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">252r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Augustin Brunner</persName>
+               <date when="1712-07-01">1712-07-01</date>
+               <placeName>Gurtweil</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">263</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">194</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">26</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">266</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">253</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Augustin Brunner</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1712-07-01</date>
-         <place-of-posting xmlns="">Gurtweil</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e26568">Drei Jahre nach der Aufforderung BPs <ref type="letter">26</ref> hat St. Blasien im Schwarzwald noch immer keine Angaben zu seinen Schriftstellern gesendet, was auf die andauernden Kriegshandlungen (im Spanischen Erbfolgekrieg) zurückzuführen ist. Vor einigen Monaten hat <persName>
-                     <abbr>AB</abbr>
-                  </persName> den Auftrag erhalten, BPs Wunsch endlich zu entsprechen. St. Blasien hat kaum Schriftsteller vorzuweisen; sollten aber noch weitere gefunden werden, so werden sie <persName>
-                     <abbr>BP</abbr>
-                  </persName> mitgeteilt.</seg>
-               <seg type="context" n="2" xml:id="d4617e26573">Beigelegt findet <persName>
-                     <abbr>BP</abbr>
-                  </persName> einen Schriftstellerkatalog zu St. Blasien, wo man unter dem in der Schweiz ausgebrochenen Krieg viel zu leiden hat und sehnlichst auf Frieden wartet.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e30664">Drei Jahre nach der Aufforderung <rs type="person" role="sender">BPs</rs> <ref type="letter">26</ref> hat St. Blasien im Schwarzwald noch immer keine Angaben zu seinen Schriftstellern gesendet, was auf die andauernden Kriegshandlungen (im Spanischen Erbfolgekrieg) zurückzuführen ist. Vor einigen Monaten hat <rs type="person" role="sender">AB</rs> den Auftrag erhalten, <rs type="person" role="sender">BPs</rs> Wunsch endlich zu entsprechen. St. Blasien hat kaum Schriftsteller vorzuweisen; sollten aber noch weitere gefunden werden, so werden sie <rs type="person" role="sender">BP</rs> mitgeteilt.</seg><seg type="context" n="2" xml:id="d4618e30669">Beigelegt findet <rs type="person" role="sender">BP</rs> einen Schriftstellerkatalog zu St. Blasien, wo man unter dem in der Schweiz ausgebrochenen Krieg viel zu leiden hat und sehnlichst auf Frieden wartet.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: I, 252r–v.</p>
-            <p>Bezüge: 194. 263. Erwähnt 26. Erwähnt in 266, 278.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>194</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>263</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>26</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>266</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>278</idno>
-               </ref>
-            </correspContext>
-            <p>Adresse: <hi rend="italic" xml:space="preserve">Admodum reverendo religiosissimo ac clarissimo domino patri Bernardo Pez celeberrimi et exempti monasterii Mellicensis vulgo Mölkh ordinis sancti patris Benedicti Austriae Inferioris professo et ibidem bibliothecario dignissimo, domino ac patrono meo colendissimo. </hi>Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 42r.</p>
-            <p>Ordnungsvermerk: <hi rend="italic">73</hi>.</p>
+            <div type="address">
+               <cit>
+                  <q>Admodum reverendo religiosissimo ac clarissimo domino patri Bernardo Pez celeberrimi et exempti monasterii Mellicensis vulgo Mölkh ordinis sancti patris Benedicti Austriae Inferioris professo et ibidem bibliothecario dignissimo, domino ac patrono meo colendissimo. Überliefert in StiA Melk, Karton 7 Patres 9, Abschriftencodex 42r.</q>
+               </cit>
+            </div>
+            <p xml:space="preserve">Ordnungsvermerk: <hi rend="italic">73</hi>.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiosissime in Christo ac clarissime domine pater.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e26595"> Trienium effluxit, nec votis circa petitum authorum seu manuscriptorum seu impressorum e monasterio nostro S. Blasii in Hercynia affluebat. Non mirum, quia continuis bellis et inopia scribendi tardamur. <seg type="lemma" corresp="#d4617e26604">Mensibus abhinc aliquibus opus mihi commissum</seg>; pro possibili requisitum designare adlaboravi, utinam tale, quod optimo vestro affectui, eximio labori ac magnae Benedictinae gloriae responderet. Scriptores nostri pauci, imo vero vix ulli sunt; ne tamen et nos calamo degenerasse videremur, animum saltem implumem et veridicum monstramus. Si qui autem, uti sperare licet, plures nobis authores e nostris sint apparituri, communicationem non denegabimus. </seg>
-               <seg type="context" n="2" xml:id="d4617e26597"> 
-                  <seg type="lemma" corresp="#d4617e26611">Adiectum fasciculum</seg> ubi copia perlegendi fuerit, pro praesenti omnem nostram copiam (legi et scribi si dignam) coram videbit. Interim <seg type="lemma" corresp="#d4617e26618">bellis Helveticis</seg> modo graviter flagellati unicum folium oliferae pacis suspiramus. Ego vero paternitati vestrae clarissimae omnia precor optabilia.</seg>
-            </p>
-            <p>Servus in Christo pater Augustinus Brunner ordinis sancti Benedicti monasterii S. Blasii in Sylva Hercynia conventualis et pro tempore vicarius in Gurtweil.</p>
-            <p>Gurtweil 1712 die 1. Julii.</p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiosissime in Christo ac clarissime domine pater.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e30691"> Trienium effluxit, nec votis circa petitum authorum seu manuscriptorum seu impressorum e monasterio nostro S. Blasii in Hercynia affluebat. Non mirum, quia continuis bellis et inopia scribendi tardamur. <seg type="lemma" corresp="#d4618e30712">Mensibus abhinc aliquibus opus mihi commissum</seg>; pro possibili requisitum designare adlaboravi<note place="foot" xml:id="d4618e30693">	Korrigiert aus <hi rend="italic">adlabori</hi>.</note>, utinam tale, quod optimo vestro affectui, eximio labori ac magnae Benedictinae gloriae responderet. Scriptores nostri pauci, imo vero vix ulli sunt; ne tamen et nos calamo degenerasse videremur, animum saltem implumem et veridicum monstramus. Si qui autem, uti sperare licet, plures nobis authores<note place="foot" xml:id="d4618e30699">	Danach durchgestrichen <hi rend="italic">et</hi>.</note> e nostris sint apparituri, communicationem non denegabimus. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e30705"> <seg type="lemma" corresp="#d4618e30719">Adiectum fasciculum</seg> ubi copia perlegendi fuerit, pro praesenti omnem nostram copiam (legi et scribi si dignam) coram videbit. Interim <seg type="lemma" corresp="#d4618e30726">bellis Helveticis</seg> modo graviter flagellati unicum folium oliferae pacis suspiramus. Ego vero paternitati vestrae clarissimae omnia precor optabilia.</seg></p>
+            <p xml:space="preserve">Servus in Christo pater Augustinus Brunner ordinis sancti Benedicti monasterii S. Blasii in Sylva Hercynia conventualis et pro tempore vicarius in Gurtweil.</p>
+            <p xml:space="preserve">Gurtweil 1712 die 1. Julii.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e26604" target="#d4617e26568 #d4617e26595">
-               <ref target="">1</ref>
+            <note xml:id="d4618e30712">
+               <ref type="context">1</ref>
                <label>Mensibus ... mihi commissum</label>
                <p>Vgl. 194 &lt;2&gt;.</p>
             </note>
-            <note xml:id="d4617e26611" target="#d4617e26573 #d4617e26597">
-               <ref target="">2</ref>
+            <note xml:id="d4618e30719">
+               <ref type="context">2</ref>
                <label>Adiectum fasciculum</label>
                <p>Der Schriftstellerkatalog ist im Original erhalten in StiA Melk, Karton 85 Varia 23, Fasz. 1, Nr. 33; abschriftlich ebd., Karton 7 Patres 9, Abschriftencodex 42v–50v. Er trägt den Titel „Ordinata authorum series partim typis impressorum partim manuscriptorum e monasterio S. Blasii in Sylva Hercynia“. Genannt werden nach einer kurzen Geschichte der Bibliothek: Arnefrid, Bischof von Konstanz; Abt Werner I.; Abt Uto I.; Abt Rustenus; Abt Werner II.; Abt Frowin von Engelberg; Otto von St. Blasien; Otto „der Jüngere“ von St. Blasien; der „Liber constructionum“; Abt Kaspar Molitor; Adam Waffenschmid; Beringer Koffer; Othmar Homburger; Abt Placidus Rauber von Schwarzach; Heinrich Nöth; Sebastian Ziegler; Benedikt Gebel; Johann Baptist Eiselin; Meinrad Steigentesch; Johann Chrysostomus Wex. Die biographischen Angaben im Register zu den neuzeitlichen Konventualen nach StiB Einsiedeln, Cod. 577 (Wülberz, Incrementa); StiB Einsiedeln, Cod. 583 (Kettenacker, Gesta abbatum); StiB Einsiedeln, Cod. 590 (Braunegger–Kettenacker, Catalogus patrum). Die Daten sämtlicher Äbte nach Schäfer, St. Blasien; zu Arnefrid: Bischof et al., Bischöfe 243f. Zu Molitor und Eiselin vgl. Bader, Sanct Blasien 141f., 161; Mone, Quellensammlung 1 [73]–[76], [77]–[79]; zu Ziegler und Wex vgl. Fischer, Klingnau 797f. Zu Rauber als Abt von Schwarzach: Schwarzmaier, Schwarzach 579. Zu den beiden Äbten Werner I. und II. sowie zu den beiden Nennungen „Otto von St. Blasien“ vgl. 278 &lt;3&gt;, &lt;5&gt;.</p>
             </note>
-            <note xml:id="d4617e26618" target="#d4617e26573 #d4617e26597">
-               <ref target="#d4617e26573 #d4617e26597">2</ref>
+            <note xml:id="d4618e30726">
+               <ref type="context">2</ref>
                <label>bellis Helveticis</label>
                <p>Vgl. 15, 230, 249, 259, 271. Zwar war St. Blasien nicht unmittelbar gefährdet, wohl aber seine Besitzungen in der Schweiz.</p>
             </note>

@@ -13,106 +13,96 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">283</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">613r–614v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Koloman Seeau</persName>
+               <date when="1712-11-08">1712-11-08</date>
+               <placeName>Mondsee</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Hieronymus Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="next">
+                  <idno type="pezEd">282</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">282</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">283</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Koloman Seeau</sender>
-         <recipient xmlns="">Hieronymus Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1712-11-08</date>
-         <place-of-posting xmlns="">Mondsee</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e30426">Kaum hat KSe HPs Brief <ref type="letter">282</ref> gelesen, ist er schon vom Wert von dessen Vorhaben („Acta sancti Colomanni“) so überzeugt, dass er gerne alles ihm Mögliche dazu beitragen will. Er fürchtet aber, HPs Wünsche nicht befriedigen zu können, wenn dieser ausführliche Nachrichten über den Hl. Koloman erwartet. Er will die von <persName>
-                     <abbr>HP</abbr>
-                  </persName> gestellten Fragen einzeln beantworten.</seg>
-               <seg type="context" n="2" xml:id="d4617e30431">In dem Gebiet des Stifts Mondsee gibt es eine kleine hölzerne Kapelle des Hl. Koloman, die sich etwa drei Stunden vom Kloster entfernt in dicht bewaldetem und wenig zugänglichem Gebiet (auf dem Kolomaniberg) befindet. Sie erinnert eher an eine Hirtenhütte als an eine Kapelle und ist stets geöffnet. Ein kleiner Altar ist vorhanden, doch bringt man, wenn dort Messen gelesen werden, einen Tragaltar und das sonstige Gerät aus dem Kloster mit.</seg>
-               <seg type="context" n="3" xml:id="d4617e30433">Angesichts der ärmlichen Bauweise ist über die Zeit der Erbauung nichts Sicheres bekannt. Die Tradition behauptet, ein Bauer habe ein Bildnis des Hl. Koloman in einem Baum gefunden und in diese Hütte oder Kapelle gebracht. Diese sei später eingestürzt und von Abt Simon Rebiser wieder aufgebaut worden, der auch vom Bischof von Passau (Erzherzog Leopold Wilhelm) die Erlaubnis zur Feier von Messen dort erwirkte.</seg>
-               <seg type="context" n="4" xml:id="d4617e30435">Dass der Hl. Koloman an dieser Stelle gerastet habe, glaubt KSe nicht, denn der Ort ist gebirgig, dicht bewaldet, schwer zugänglich und nach allen Richtungen weit von den Straßen entfernt.</seg>
-               <seg type="context" n="5" xml:id="d4617e30437">Vom Kloster aus wird zweimal jährlich zu dieser Kapelle gepilgert, einmal am Freitag in der Pfingstquatember und einmal am Kolomanstag, dem 13. Oktober. Es wird dann dort Predigt und Choraloffizium gehalten. Der Kolomanstag wird auch in Mondsee selbst seit unvordenklichen Zeiten als Festtag gehalten. Überdies besuchen die Bewohner der Umgebung die Kapelle das ganze Jahr über häufig.</seg>
-               <seg type="context" n="6" xml:id="d4617e30439">Über bestimmte dem Hl. Koloman zugeschriebene Wohltaten kann KSe nichts berichten. Allerdings gibt es in der Nähe der Kapelle eine Quelle, deren Wasser zur Behandlung von Augenleiden, Aussatz und vor allem Fußleiden und Hinken verwendet wird.</seg>
-               <seg type="context" n="7" xml:id="d4617e30441">Ein sicheres und bestätigtes Wunder des Hl. Koloman ist KSe nicht bekannt. Er bedauert, dass er aus Mangel an Quellen nicht mehr mitteilen kann.</seg>
-               <seg type="context" n="8" xml:id="d4617e30443">In einem Postskriptum lässt sich KSe an BP empfehlen.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e34937">Kaum hat KSe <rs type="person" role="sender">HPs</rs> Brief <ref type="letter">282</ref> gelesen, ist er schon vom Wert von dessen Vorhaben („Acta sancti Colomanni“) so überzeugt, dass er gerne alles ihm Mögliche dazu beitragen will. Er fürchtet aber, <rs type="person" role="sender">HPs</rs> Wünsche nicht befriedigen zu können, wenn dieser ausführliche Nachrichten über den Hl. Koloman erwartet. Er will die von <rs type="person" role="sender">HP</rs> gestellten Fragen einzeln beantworten.</seg><seg type="context" n="2" xml:id="d4618e34942">In dem Gebiet des Stifts Mondsee gibt es eine kleine hölzerne Kapelle des Hl. Koloman, die sich etwa drei Stunden vom Kloster entfernt in dicht bewaldetem und wenig zugänglichem Gebiet (auf dem Kolomaniberg) befindet. Sie erinnert eher an eine Hirtenhütte als an eine Kapelle und ist stets geöffnet. Ein kleiner Altar ist vorhanden, doch bringt man, wenn dort Messen gelesen werden, einen Tragaltar und das sonstige Gerät aus dem Kloster mit.</seg><seg type="context" n="3" xml:id="d4618e34944">Angesichts der ärmlichen Bauweise ist über die Zeit der Erbauung nichts Sicheres bekannt. Die Tradition behauptet, ein Bauer habe ein Bildnis des Hl. Koloman in einem Baum gefunden und in diese Hütte oder Kapelle gebracht. Diese sei später eingestürzt und von Abt Simon Rebiser wieder aufgebaut worden, der auch vom Bischof von Passau (Erzherzog Leopold Wilhelm) die Erlaubnis zur Feier von Messen dort erwirkte.</seg><seg type="context" n="4" xml:id="d4618e34946">Dass der Hl. Koloman an dieser Stelle gerastet habe, glaubt KSe nicht, denn der Ort ist gebirgig, dicht bewaldet, schwer zugänglich und nach allen Richtungen weit von den Straßen entfernt.</seg><seg type="context" n="5" xml:id="d4618e34948">Vom Kloster aus wird zweimal jährlich zu dieser Kapelle gepilgert, einmal am Freitag in der Pfingstquatember und einmal am Kolomanstag, dem 13. Oktober. Es wird dann dort Predigt und Choraloffizium gehalten. Der Kolomanstag wird auch in Mondsee selbst seit unvordenklichen Zeiten als Festtag gehalten. Überdies besuchen die Bewohner der Umgebung die Kapelle das ganze Jahr über häufig.</seg><seg type="context" n="6" xml:id="d4618e34950">Über bestimmte dem Hl. Koloman zugeschriebene Wohltaten kann KSe nichts berichten. Allerdings gibt es in der Nähe der Kapelle eine Quelle, deren Wasser zur Behandlung von Augenleiden, Aussatz und vor allem Fußleiden und Hinken verwendet wird.</seg><seg type="context" n="7" xml:id="d4618e34952">Ein sicheres und bestätigtes Wunder des Hl. Koloman ist KSe nicht bekannt. Er bedauert, dass er aus Mangel an Quellen nicht mehr mitteilen kann.</seg><seg type="context" n="8" xml:id="d4618e34954">In einem Postskriptum lässt sich KSe an BP empfehlen.</seg></p>
          </div>
-         <div type="editorialNote">
-            <p>Überlieferung: I, 613r–614v.</p>
-            <p>Bezüge: 282. Erwähnt 282.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>282</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>282</idno>
-               </ref>
-            </correspContext>
-         </div>
+         <div type="editorialNote"/>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiosissime ac clarissime domine pater Hieronyme.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e30455"> Literas admodum reverendae paternitatis vestrae vix legi, <seg type="lemma" corresp="#d4617e30489">piissimum negotium</seg>, quod assumere cogitat, tam iustum labore duxi, ut, quantum in me est, ad illud implendum omne obsequium libenter impendam. Veritati laboro, sed desiderio admodum reverendae paternitatis vestrae vix satisfacere potero, quae de sancto Colomanno amplam forte notitiam a me exspectat. Ad singula puncta singillatim respondeo. </seg>
-               <seg type="context" n="2" xml:id="d4617e30457"> Primo. Exstat in nostro territorio <seg type="lemma" corresp="#d4617e30496">sacellum sancti Colomanni ligneum</seg> et plane exiguum per tres horas a monasterio distans, in sylva densissima et cum difficultate accessibili. <pb n="1v"/> Sacellum hoc potius habet <seg type="lemma" corresp="#d4617e30503">formam casulae alicuius pastorum</seg> quam capellae, est semper apertum, habet aliquod exiguum altariolum, et quando leguntur missae, portatile atque alia competentia ex monasterio afferuntur. </seg>
-               <seg type="context" n="3" xml:id="d4617e30461"> Secundo. Cum sit in tanta paupertate exstructum, et meliorem situs loci forte non patitur, annus exstructionis clare non innotescit, nisi quod ex traditione habeam quendam privatum rusticum effigiem sancti Colomanni in arbore quadem [<hi rend="italic">sic</hi>] reperisse et eandem in talem casulam vel sacellum detulisse, quod deinde collapsum reverendissimus piae memoriae <seg type="lemma" corresp="#d4617e30508">Simon Rebiser</seg> reaedificavit ac, ut ibi <seg type="lemma" corresp="#d4617e30515">missae celebrari</seg> possint, a nostro celsissimo ordinario obtinuit. </seg>
-               <seg type="context" n="4" xml:id="d4617e30466"> Tertio. Quod sanctus Colomannus <pb n="2r"/> ibidem quietis causa consederit, nec audio nec credo, cum sit locus montosus, sylvestris et difficulter accessibilis et omnino distans a via ordinaria. </seg>
-               <seg type="context" n="5" xml:id="d4617e30470"> Quarto. Quotannis ad eundem locum binae fiunt peregrinationes, semel feria sexta quatuor temporum Pentecostes, et semel in eiusdem festo 13. Octobris, et tunc semper habetur ibidem concio ac officium cantatum chorale. Dies autem nominata 13. Octobris a tempore immemoriali apud Monseeenses est dies festus in choro et foro, alioquin per annum non tam a nostris quam a vicinis ad praefatum locum frequens est accessus et devotio. </seg>
-               <seg type="context" n="6" xml:id="d4617e30472"> Quinto. Quorum beneficiorum singularis sit patronus, nihil, quod fixum est, referre <pb n="2v"/> possum, sed ex continua traditione iterum inservio adesse eidem loco quendam fontem contiguum, cuius aqua in magna copia a plurimis domum portatur, quam bona fide applicant pro dolore occulorum [<hi rend="italic">sic</hi>], morbo leproso et praesertim dolore et claudicatione pedum. </seg>
-               <seg type="context" n="7" xml:id="d4617e30479"> Sexto. Miraculum certum et authenticum non novi. Doleo, quod alia monumenta et documenta non exstent, inservio itaque quantum possum, et me humanissime in omnem affectum commendo</seg>
-            </p>
-            <p>Admodum reverendae paternitati vestrae addictissimus servus pater Colomanus prior ibidem.</p>
-            <p>Monsee die 8. Novembris 1712.</p>
-            <p>
-               <seg type="context" n="8" xml:id="d4617e30486"> P.S. Admodum reverendo domino patri Bernardo rursus humanissime commendari cupio.</seg>
-            </p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiosissime ac clarissime domine pater Hieronyme.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e34966"> Literas admodum reverendae paternitatis vestrae vix legi, <seg type="lemma" corresp="#d4618e35012">piissimum negotium</seg>, quod assumere cogitat, tam iustum labore duxi, ut, quantum in me est, ad illud implendum omne obsequium libenter impendam. Veritati laboro, sed desiderio admodum reverendae paternitatis vestrae vix satisfacere potero, quae de sancto Colomanno amplam forte notitiam a me exspectat. Ad singula puncta singillatim respondeo. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e34968"> Primo. Exstat in nostro territorio <seg type="lemma" corresp="#d4618e35019">sacellum sancti Colomanni ligneum</seg> et plane exiguum per tres horas a monasterio distans, in sylva densissima et cum difficultate accessibili. <pb n="1v"/> Sacellum hoc potius habet <seg type="lemma" corresp="#d4618e35026">formam casulae alicuius pastorum</seg> quam capellae, est semper apertum, habet aliquod exiguum altariolum, et quando leguntur missae, portatile atque alia competentia ex monasterio afferuntur. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e34972"> Secundo. Cum sit in tanta paupertate exstructum, et meliorem situs loci<note place="foot" xml:id="d4618e34974">	Korrigiert aus <hi rend="italic">locu</hi>.</note> forte non patitur, annus exstructionis clare non innotescit, nisi quod ex traditione habeam quendam privatum rusticum effigiem sancti Colomanni in arbore quadem [<hi rend="italic">sic</hi>] reperisse et eandem in talem casulam vel sacellum detulisse, quod deinde collapsum reverendissimus piae memoriae <seg type="lemma" corresp="#d4618e35031">Simon Rebiser</seg> reaedificavit ac, ut ibi <seg type="lemma" corresp="#d4618e35038">missae celebrari</seg> possint, a nostro celsissimo ordinario obtinuit. </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e34983"> Tertio. Quod sanctus Colomannus <pb n="2r"/> ibidem quietis causa consederit, nec audio nec credo, cum sit locus montosus, sylvestris et difficulter accessibilis et omnino distans a via ordinaria. </seg><seg type="context" n="5" xml:space="preserve" xml:id="d4618e34987"> Quarto. Quotannis ad eundem locum binae fiunt peregrinationes, semel feria sexta quatuor temporum Pentecostes, et semel in eiusdem festo 13. Octobris, et tunc semper habetur ibidem concio ac officium cantatum chorale. Dies autem nominata 13. Octobris a tempore immemoriali apud Monseeenses est dies festus in choro et foro, alioquin per annum non tam a nostris quam a vicinis ad praefatum locum frequens est accessus et devotio. </seg><seg type="context" n="6" xml:space="preserve" xml:id="d4618e34989"> Quinto. Quorum beneficiorum singularis sit patronus, nihil, quod fixum est, referre <pb n="2v"/> possum, sed ex continua traditione iterum inservio adesse eidem loco quendam fontem contiguum, cuius aqua in magna copia a plurimis<note place="foot" xml:id="d4618e34993">	Danach durchgestrichen <hi rend="italic">asp</hi>.</note> domum portatur, quam bona fide applicant pro dolore occulorum [<hi rend="italic">sic</hi>], morbo leproso et praesertim dolore et claudicatione pedum. </seg><seg type="context" n="7" xml:space="preserve" xml:id="d4618e35002"> Sexto. Miraculum certum et authenticum non novi. Doleo, quod alia monumenta et documenta non exstent, inservio itaque quantum possum, et me humanissime in omnem affectum commendo</seg></p>
+            <p xml:space="preserve">Admodum reverendae paternitati vestrae addictissimus servus pater Colomanus prior ibidem.</p>
+            <p xml:space="preserve">Monsee die 8. Novembris 1712.</p>
+            <p xml:space="preserve"><seg type="context" n="8" xml:space="preserve" xml:id="d4618e35009"> P.S. Admodum reverendo domino patri Bernardo rursus humanissime commendari cupio.</seg></p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e30489" target="#d4617e30426 #d4617e30455">
-               <ref target="">1</ref>
+            <note xml:id="d4618e35012">
+               <ref type="context">1</ref>
                <label>piissimum negotium</label>
                <p>Zu HPs „Acta sancti Colomanni“ vgl. Einleitung, Abschnitt I.5.</p>
             </note>
-            <note xml:id="d4617e30496" target="#d4617e30431 #d4617e30457">
-               <ref target="">2</ref>
+            <note xml:id="d4618e35019">
+               <ref type="context">2</ref>
                <label>sacellum sancti Colomanni ligneum</label>
                <p>Zur Kapelle auf dem Kolomaniberg: Gugitz, Gnadenstätten 5 55f.; Gugitz, Wallfahrten 35; Kunze, Volkskultur 250; Niederkorn-Bruck, Koloman 62; Wodka, Koloman 228.</p>
             </note>
-            <note xml:id="d4617e30503" target="#d4617e30431 #d4617e30457">
-               <ref target="#d4617e30431 #d4617e30457">2</ref>
+            <note xml:id="d4618e35026">
+               <ref type="context">2</ref>
                <label>formam casulae ... pastorum</label>
                <p>Ein ähnliches Zeugnis über die Bauweise dieser Kapelle („gleich[t], von Holz erbaut, mehr einem Stadel denn einem kirchlichen Gebäude“) findet sich bei Awecker, Mondsee 69.</p>
             </note>
-            <note xml:id="d4617e30508" target="#d4617e30433 #d4617e30461">
-               <ref target="">3</ref>
+            <note xml:id="d4618e35031">
+               <ref type="context">3</ref>
                <label>Simon Rebiser</label>
                <p>Lindner, Profeßbuch Mondsee 139, 141f.; Schmid, Beiträge 4/1 328f.; vgl. Kolb, Präsidium 142, 150f.; Sattler, Collectaneen-Blätter 177.</p>
             </note>
-            <note xml:id="d4617e30515" target="#d4617e30433 #d4617e30461">
-               <ref target="#d4617e30433 #d4617e30461">3</ref>
+            <note xml:id="d4618e35038">
+               <ref type="context">3</ref>
                <label>missae celebrari</label>
                <p>Die erste Messfeier in der Kapelle fand 1658 statt: Gugitz, Gnadenstätten 5 55.</p>
             </note>
-            <note xml:id="d4617e30520" target="#d4617e30435 #d4617e30466">
-               <ref target="">4</ref>
+            <note xml:id="d4618e35043">
+               <ref type="context">4</ref>
                <label>Colomannus ... quietis causa consederit</label>
                <p>Rastlegenden gehörten zur Folklore vieler Wallfahrtsorte; vgl. Gugitz, Wallfahrten 62f.</p>
             </note>

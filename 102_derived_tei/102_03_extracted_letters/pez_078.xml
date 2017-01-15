@@ -13,81 +13,87 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">78</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Katschthaler, Briefnachlass 15</bibl>
+                  <bibl>Mayer, Nachlaß 18 499</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">526r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Wolfgang Schmidt</persName>
+               <date when="1710-06-14">1710-06-14</date>
+               <placeName>Zwiefalten</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="next">
+                  <idno type="pezEd">77</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">77</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">354</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">78</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Wolfgang Schmidt</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1710-06-14</date>
-         <place-of-posting xmlns="">Zwiefalten</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e8050">
-                  <persName>
-                     <abbr>WS</abbr>
-                  </persName> hat aus BPs letztem Brief <ref type="letter">77</ref> entnommen, dass dieser an der Übermittlung eines Exemplars von Arsenius Sulgers „Annales imperialis monasterii Zwifaltensis“ Freude hätte, und schließt deshalb ein solches bei. Er hält dieses Werk zwar nicht für würdig, <persName>
-                     <abbr>BP</abbr>
-                  </persName> (und den Maurinern?) vorgelegt zu werden, weil es einerseits zahlreiche Druckfehler enthält, andererseits als posthume Veröffentlichung nicht den letzten Schliff durch den Verfasser erfahren hat, doch schickt er es dennoch, um dem Wunsch BPs zu entsprechen. <persName>
-                     <abbr>WS</abbr>
-                  </persName> erklärt sich zu weiteren Diensten bereit und empfiehlt sich dem Schutz Gottes und der Jungfrau Maria.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e9137"><rs type="person" key="">WS</rs> hat aus <rs type="person" role="sender">BPs</rs> letztem Brief <ref type="letter">77</ref> entnommen, dass dieser an der Übermittlung eines Exemplars von Arsenius Sulgers „Annales imperialis monasterii Zwifaltensis“ Freude hätte, und schließt deshalb ein solches bei. Er hält dieses Werk zwar nicht für würdig, <rs type="person" role="sender">BP</rs> (und den Maurinern?) vorgelegt zu werden, weil es einerseits zahlreiche Druckfehler enthält, andererseits als posthume Veröffentlichung nicht den letzten Schliff durch den Verfasser erfahren hat, doch schickt er es dennoch, um dem Wunsch <rs type="person" role="sender">BPs</rs> zu entsprechen. <rs type="person" key="">WS</rs> erklärt sich zu weiteren Diensten bereit und empfiehlt sich dem Schutz Gottes und der Jungfrau Maria.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: I, 526r–v.</p>
-            <p>Literatur: Katschthaler, Briefnachlass 15; Mayer, Nachlaß 18 499.</p>
-            <p>Bezüge: 77. Erwähnt 77. Erwähnt in 354.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>77</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>77</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>354</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: Die Zustellung scheint lange gedauert zu haben, zumal BP im Januar 1711 noch nicht wusste, ob WS seiner Bitte entsprochen hatte (143 &lt;14&gt;).</p>
+            <p xml:space="preserve">Bemerkungen: Die Zustellung scheint lange gedauert zu haben, zumal BP im Januar 1711 noch nicht wusste, ob WS seiner Bitte entsprochen hatte (143 &lt;14&gt;).</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiosissime et clarissime domine.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e8069"> Cum ex ultimis intellexerim <seg type="lemma" corresp="#d4617e8076">Annales Zwifaltenses</seg> non ingratos fore, si mitterentur, volui eos hisce accludere, non quod mereantur <seg type="lemma" corresp="#d4617e8083">tantorum lectorum</seg> oculos ac manus (partim quia scatent multis erroribus typographicis, partim quia opus posthumum est nec primi verique authoris opera et studio in lucem prodiit), sed solummodo, ut satisfaciam desiderio dominationis vestrae admodum reverendae. Exspectaturus interea, quod porro fieri a nobis velit, cuius sub tutela Dei deiparaeque Virginis esse persevero</seg>
-            </p>
-            <p>Studiosissimus Wolfgangus abbas manu propria.</p>
-            <p>Zwifuldae 14. Junii 1710.</p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiosissime et clarissime domine.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e9156"> Cum ex ultimis intellexerim <seg type="lemma" corresp="#d4618e9163">Annales Zwifaltenses</seg> non ingratos fore, si mitterentur, volui eos hisce accludere, non quod mereantur <seg type="lemma" corresp="#d4618e9170">tantorum lectorum</seg> oculos ac manus (partim quia scatent multis erroribus typographicis, partim quia opus posthumum est nec primi verique authoris opera et studio in lucem prodiit), sed solummodo, ut satisfaciam desiderio dominationis vestrae admodum reverendae. Exspectaturus interea, quod porro fieri a nobis velit, cuius sub tutela Dei deiparaeque Virginis esse persevero</seg></p>
+            <p xml:space="preserve">Studiosissimus Wolfgangus abbas manu propria.</p>
+            <p xml:space="preserve">Zwifuldae 14. Junii 1710.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e8076" target="#d4617e8050 #d4617e8069">
-               <ref target="">1</ref>
+            <note xml:id="d4618e9163">
+               <ref type="context">1</ref>
                <label>Annales Zwifaltenses</label>
                <p>BP hatte das Werk bereits in 68 &lt;6&gt; gegenüber René Massuet zur Sprache gebracht. Zur Weiterversendung nach Paris vgl. 266 &lt;6&gt;, 354 &lt;2&gt;, 365 &lt;8&gt;. Zum Verfasser vgl. Lindner, Professbuch Zwiefalten 50f.; Nägele, Zwiefalter Benediktiner 245–267.</p>
             </note>
-            <note xml:id="d4617e8083" target="#d4617e8050 #d4617e8069">
-               <ref target="#d4617e8050 #d4617e8069">1</ref>
+            <note xml:id="d4618e9170">
+               <ref type="context">1</ref>
                <label>tantorum lectorum</label>
                <p>Der Plural meint wohl die Mauriner, für die BP das Werk angefordert hatte.</p>
             </note>

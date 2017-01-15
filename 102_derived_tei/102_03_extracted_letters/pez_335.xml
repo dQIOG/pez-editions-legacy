@@ -13,111 +13,86 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">335</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Stockinger, Fidelis 358, 375, 387, 408</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>Konzept: II, 751r–v.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Bernhard Pez</persName>
+               <date notBefore="1714-04-07">&lt; 1714-04-07</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Moritz Müller</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">337</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">327</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">327</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">337</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">335</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Bernhard Pez</sender>
-         <recipient xmlns="">Moritz Müller</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">&lt; 1714-04-07</date>
-         <place-of-posting xmlns=""/>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e36475">
-                  <persName>
-                     <abbr>BP</abbr>
-                  </persName> übersendet ein Antwortschreiben Blasius Benders, das Anselm Schramb, wie im letzten Brief von <persName>
-                     <abbr>MM</abbr>
-                  </persName> gewünscht <ref type="letter">327</ref>, aus Wien weitergeleitet hat.</seg>
-               <seg type="context" n="2" xml:id="d4617e36480">
-                  <persName>
-                     <abbr>BP</abbr>
-                  </persName> vermutet, dass Bender darin von einer bald bevorstehenden Friedensregelung schreibt, von der in Österreich bereits das frohe Gerücht geht. Seiner Meinung nach wird die Rückkehr des Konvents nach St. Gallen bald möglich sein.</seg>
-               <seg type="context" n="3" xml:id="d4617e36482">Die Abhandlung „De viris illustribus Augiae Divitis“ (von Johann Egon) soll <persName>
-                     <abbr>MM</abbr>
-                  </persName> auf Kosten BPs abschreiben und ihm durch Felician Müller in Wiblingen zukommen lassen, da das Werk von großer Wichtigkeit für ihn sein wird. Statt des Postweges soll der Transport nach Melk jedoch durch den Melker Rotelboten geschehen, der etwa einmal jährlich nach Wiblingen kommt. Eine Drucklegung der Schrift wäre wünschenswert.</seg>
-               <seg type="context" n="4" xml:id="d4617e36484">Über die Handschrift von Jodok Metzlers „De viris illustribus monasterii S. Galli“, die er in der Bibliothek des Wiener Schottenklosters gefunden hat, wagt <persName>
-                     <abbr>BP</abbr>
-                  </persName> nichts mit Bestimmtheit zu behaupten. Um den Schreiber zu bestimmen, müsste man den Codex an <persName>
-                     <abbr>MM</abbr>
-                  </persName> schicken, der die Autographen Metzlers kennt; <persName>
-                     <abbr>BP</abbr>
-                  </persName> weiß jedoch nicht, wie der Schottenabt Karl Fetzer dazu steht. <persName>
-                     <abbr>BP</abbr>
-                  </persName> kann auch bei günstiger Gelegenheit seine Abschrift schicken. Vorerst gibt <persName>
-                     <abbr>BP</abbr>
-                  </persName> den Titel und das Incipit der Vorrede wieder und referiert, dass Metzler am Ende derselben klagt, ungenannte Gelehrte (Heinrich Canisius; Markus Welser?) hätten den Traktat an sich gebracht und ohne sein Wissen auszugsweise in Ingolstadt in den Druck gebracht.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e41584"><rs type="person" role="sender">BP</rs> übersendet ein Antwortschreiben Blasius Benders, das Anselm Schramb, wie im letzten Brief von <rs type="person" role="sender">MM</rs> gewünscht <ref type="letter">327</ref>, aus Wien weitergeleitet hat.</seg><seg type="context" n="2" xml:id="d4618e41589"><rs type="person" role="sender">BP</rs> vermutet, dass Bender darin von einer bald bevorstehenden Friedensregelung schreibt, von der in Österreich bereits das frohe Gerücht geht. Seiner Meinung nach wird die Rückkehr des Konvents nach St. Gallen bald möglich sein.</seg><seg type="context" n="3" xml:id="d4618e41591">Die Abhandlung „De viris illustribus Augiae Divitis“ (von Johann Egon) soll <rs type="person" role="sender">MM</rs> auf Kosten <rs type="person" role="sender">BPs</rs> abschreiben und ihm durch Felician Müller in Wiblingen zukommen lassen, da das Werk von großer Wichtigkeit für ihn sein wird. Statt des Postweges soll der Transport nach Melk jedoch durch den Melker Rotelboten geschehen, der etwa einmal jährlich nach Wiblingen kommt. Eine Drucklegung der Schrift wäre wünschenswert.</seg><seg type="context" n="4" xml:id="d4618e41593">Über die Handschrift von Jodok Metzlers „De viris illustribus monasterii S. Galli“, die er in der Bibliothek des Wiener Schottenklosters gefunden hat, wagt <rs type="person" role="sender">BP</rs> nichts mit Bestimmtheit zu behaupten. Um den Schreiber zu bestimmen, müsste man den Codex an <rs type="person" role="sender">MM</rs> schicken, der die Autographen Metzlers kennt; <rs type="person" role="sender">BP</rs> weiß jedoch nicht, wie der Schottenabt Karl Fetzer dazu steht. <rs type="person" role="sender">BP</rs> kann auch bei günstiger Gelegenheit seine Abschrift schicken. Vorerst gibt <rs type="person" role="sender">BP</rs> den Titel und das Incipit der Vorrede wieder und referiert, dass Metzler am Ende derselben klagt, ungenannte Gelehrte (Heinrich Canisius; Markus Welser?) hätten den Traktat an sich gebracht und ohne sein Wissen auszugsweise in Ingolstadt in den Druck gebracht.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: Konzept: II, 751r–v.</p>
-            <p>Literatur: Stockinger, Fidelis 358, 375, 387, 408.</p>
-            <p>Bezüge: 327. 337. Erwähnt 327. Erwähnt in 337.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>327</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>337</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>327</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>337</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: Der Brieftext bricht unvermittelt ab, was auf ein nicht abgeschicktes Konzept hindeutet. Auf der verbleibenden Seite (751v) hat BP bibliographische Notizen vermerkt. Die Inhalte des vorliegenden Konzepts decken sich mit jenen, die aus MMs Aussagen in 337 für den von MM erhaltenen Brief BPs erschlossen werden können, mit Ausnahme dessen, dass BP mit jenem nicht eine Abschrift, sondern originale Blätter aus der Wiener Metzler-Handschrift sendete, das Schreiben Benders aber schon vorher separat übermittelte.</p>
+            <p xml:space="preserve">Bemerkungen: Der Brieftext bricht unvermittelt ab, was auf ein nicht abgeschicktes Konzept hindeutet. Auf der verbleibenden Seite (751v) hat BP bibliographische Notizen vermerkt. Die Inhalte des vorliegenden Konzepts decken sich mit jenen, die aus MMs Aussagen in 337 für den von MM erhaltenen Brief BPs erschlossen werden können, mit Ausnahme dessen, dass BP mit jenem nicht eine Abschrift, sondern originale Blätter aus der Wiener Metzler-Handschrift sendete, das Schreiben Benders aber schon vorher separat übermittelte.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine, amice optime.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e36500"> Accipe his, mi Mauriti, plurimum aeternumque mihi colende, responsum admodum reverendi domini Blasii Bender patri Anselmo Viennae commendatum, mihique demum, quod in ultima epistola tua volebas, transmissum. Hoc ut animo tuo ex asse satisfaciat, precor. </seg>
-               <seg type="context" n="2" xml:id="d4617e36502"> Haud dubie scripserit ille etiam de suavissimae pacis reditu, cuius fama incredibili gaudio Austriam complevit. In his concipe et tu, amice unice, novos laetitiae sensus. Aut enim me fallunt omnia, aut <seg type="lemma" corresp="#d4617e36514">redemptio vestra appropinquat</seg>. </seg>
-               <seg type="context" n="3" xml:id="d4617e36504"> Commentarium illum <seg type="lemma" corresp="#d4617e36521">De rebus Augiensibus</seg>, nisi spissius opus sit, quaeso meis sumptibus exscribendum cura mihique per dominum Felicianum mitte, hoc cauto, ut non per postam, sed per nostrum rotularium nuntium, qui fere quotannis Wiblingam venit, res transigatur. Hoc opere vix, ut praevideo, carere possum. Utinam typis prodiret! Caeterum, si quidem meis votis morem gesseris, ita re et opere praeter expensas accuratissime praestandas me gratum exhibebo, ut te nec momenti mihi impensi paenitebit. </seg>
-               <seg type="context" n="4" xml:id="d4617e36506"> De manuscripto Mezleri vestri, quod in Scotensi bibliotheca reperi, nihil ausim pro certo affirmare, quin tibi ἀυτόγραφα omnia possidenti unice assentiar. Et utinam hoc exemplar liceret mittere! vel ex ipso charactere certum iudicium formari posset. Sed illud mei iuris non est, sed abbatis Scotensis Wiennae [<hi rend="italic">sic</hi>], cuius hac super re exploratam sententiam adhuc non habeo. <seg type="lemma" corresp="#d4617e36528">Ἐκγραφον tamen meum, si velle perges, mittam</seg>, mox ubi se tuta via obtulerit. Interim vide totius operis veluti oeconomiam. Titulus: De viris illustribus monasterii S. Galli libri tres. Anno Domini 1606. Praemittitur praefatio ad lectorem hoc initio: Monasterium S. Galli ut antiquitate caetera Germaniae monasteria pene omnia antecedit, ita virorum sanctorum, eruditorum etc. <pb n="1v"/> In hac praefatione ad calcem fere graviter Mezlerus conqueritur, quod quidam <seg type="lemma" corresp="#d4617e36535">viri docti opusculum hoc (quod se adversa valetudine detentum tumultuarie confecisse praemiserat) perviderint, extorserint, imo rapuerint, et se inscio Ingolstadianis typis</seg> libellum tertium totum, multa ex primo, et ex secundo de [...].</seg>
-            </p>
+            <p xml:space="preserve"><pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine, amice optime.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e41609"> Accipe his, mi Mauriti, plurimum aeternumque mihi colende, responsum admodum reverendi domini Blasii Bender patri Anselmo Viennae commendatum, mihique demum, quod in ultima epistola tua volebas, transmissum. Hoc ut animo tuo ex asse satisfaciat, precor. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e41611"> Haud dubie scripserit ille etiam de suavissimae pacis reditu, cuius fama incredibili gaudio Austriam complevit. In his concipe et tu, amice unice, novos laetitiae sensus. Aut enim me fallunt omnia, aut <seg type="lemma" corresp="#d4618e41629">redemptio vestra appropinquat</seg>. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e41613"> Commentarium illum <seg type="lemma" corresp="#d4618e41636">De rebus Augiensibus</seg>, nisi spissius opus sit, quaeso meis sumptibus exscribendum cura mihique per dominum Felicianum mitte, hoc cauto, ut non per postam, sed per nostrum rotularium nuntium, qui fere quotannis Wiblingam venit, res transigatur. Hoc opere vix, ut praevideo, carere possum. Utinam typis prodiret! Caeterum, si quidem meis votis morem gesseris, ita re et opere praeter expensas accuratissime praestandas me gratum exhibebo, ut te nec momenti mihi impensi paenitebit. </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e41615"> De manuscripto Mezleri vestri, quod in Scotensi bibliotheca reperi, nihil ausim pro certo affirmare, quin tibi ἀυτόγραφα omnia possidenti unice assentiar. Et utinam hoc<note place="foot" xml:id="d4618e41617">	Davor durchgestrichen <hi rend="italic">meum</hi>.</note> exemplar liceret mittere! vel ex ipso charactere certum iudicium formari posset. Sed illud mei iuris non est, sed abbatis Scotensis Wiennae [<hi rend="italic">sic</hi>], cuius hac super re exploratam sententiam adhuc non habeo. <seg type="lemma" corresp="#d4618e41643">Ἐκγραφον tamen meum, si velle perges, mittam</seg>, mox ubi se tuta via obtulerit. Interim vide totius operis veluti oeconomiam. Titulus: De viris illustribus monasterii S. Galli libri tres. Anno Domini 1606. Praemittitur praefatio ad lectorem hoc initio: Monasterium S. Galli ut antiquitate caetera Germaniae monasteria pene omnia antecedit, ita virorum sanctorum, eruditorum etc. <pb n="1v"/> In hac praefatione ad calcem fere graviter Mezlerus conqueritur, quod quidam <seg type="lemma" corresp="#d4618e41650">viri docti opusculum hoc (quod se adversa valetudine detentum tumultuarie confecisse praemiserat) perviderint, extorserint, imo rapuerint, et se inscio Ingolstadianis typis</seg> libellum tertium totum, multa ex primo, et ex secundo de [...].</seg></p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e36514" target="#d4617e36480 #d4617e36502">
-               <ref target="">2</ref>
+            <note xml:id="d4618e41629">
+               <ref type="context">2</ref>
                <label>redemptio vestra appropinquat</label>
                <p>Zur Besetzung St. Gallens vgl. 259, 272. Zwischen der Fürstabtei St. Gallen und den evangelischen Schweizer Kantonen handelte der St. Galler Landeshofmeister Baron Fidel von Thurn am 24. März 1714 zu Rorschach einen Friedensvertrag aus, dem Fürstabt Bürgisser jedoch in der Folge seine Zustimmung verweigerte: Henggeler, Profeßbuch St. Gallen 154; Thürer, St. Galler Geschichte 1 528. BP bezieht sich hier entweder auf diesen Vertrag oder auf die Aussicht, auf dem Friedenskongress von Baden (vgl. 345) auch eine Regelung für St. Gallen zu erreichen.</p>
             </note>
-            <note xml:id="d4617e36521" target="#d4617e36482 #d4617e36504">
-               <ref target="">3</ref>
+            <note xml:id="d4618e41636">
+               <ref type="context">3</ref>
                <label>De rebus Augiensibus</label>
                <p>Vgl. 204 &lt;5&gt;, 230 &lt;3&gt;, 327 &lt;4&gt;.</p>
             </note>
-            <note xml:id="d4617e36528" target="#d4617e36484 #d4617e36506">
-               <ref target="">4</ref>
+            <note xml:id="d4618e41643">
+               <ref type="context">4</ref>
                <label>Ἐκγραφον ... mittam</label>
                <p>Aus 337 geht eindeutig hervor, dass BP mehrere Blätter aus der Handschrift selbst schickte, vermutlich nachdem er die Erlaubnis von Abt Fetzer erhalten hatte, von deren Einholung er hier spricht. Die erwähnte Abschrift könnte jene sein, die BP 1713 von Nikolaus Schoder hatte anfertigen lassen (vgl. 325).</p>
             </note>
-            <note xml:id="d4617e36535" target="#d4617e36484 #d4617e36506">
-               <ref target="#d4617e36484 #d4617e36506">4</ref>
+            <note xml:id="d4618e41650">
+               <ref type="context">4</ref>
                <label>viri docti ... Ingolstadianis typis</label>
                <p>Heinrich Canisius, zu dem Metzler häufige Kontakte hatte, publizierte den dritten Teil des „De viris illustribus S. Galli“, welcher hauptsächlich mittelalterliche Dichtungen und liturgische Texte aus St. Gallen enthält, im Jahr 1604 unter Nennung Metzlers als Verfasser: Canisius, Antiquae lectiones 5 725–792. Markus Welser, dessen lobendes Urteil über die Gedichte Canisius in seiner Vorbemerkung zitiert (ebd. 726), könnte an der Drucklegung beteiligt gewesen sein, was die Erwähnung von „viri docti“ im Plural erklären würde. BP scheint die Identität dieser Gelehrten zum Zeitpunkt dieses Briefs noch nicht gekannt zu haben; hingegen führt er in der „Dissertatio isagogica“ zum ersten Band seines „Thesaurus anecdotorum“, in dem er das Werk Metzlers druckte (vgl. 259 &lt;6&gt;), die Stelle bei Canisius an: Pez, Thesaurus 1 lxxxix.</p>
             </note>

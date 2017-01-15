@@ -13,49 +13,52 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">136</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>No direct source, inferred letter.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Bernhard Pez</persName>
+               <date notBefore="1711-01-25">&lt; 1711-01-25</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Benedikt Abelzhauser</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">177</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">5</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">143</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">136</id>
-         <deduced xmlns="">true</deduced>
-         <sender xmlns="">Bernhard Pez</sender>
-         <recipient xmlns="">Benedikt Abelzhauser</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">&lt; 1711-01-25</date>
-         <place-of-posting xmlns=""/>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="editorialNote">
-            <p>Bezüge: 5. Erwähnt in 143, 177.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>5</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>143</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>177</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: Zwar spricht BP in 143 &lt;5&gt; von sechs Briefen (<hi rend="italic">senis a me epistolis</hi>), doch mag dies hyperbolisch sein. Freilich scheint BP nach 177 mehr als einmal die Übersendung von Urkunden urgiert zu haben, vielleicht auch ergänzende Informationen zu den eher spärlichen bibliographischen Angaben in 5; dennoch werden diese nicht sicher zu beziffernden Briefe unter einer Ansetzung subsumiert.</p>
+            <p xml:space="preserve">Bemerkungen: Zwar spricht BP in 143 &lt;5&gt; von sechs Briefen (<hi rend="italic">senis a me epistolis</hi>), doch mag dies hyperbolisch sein. Freilich scheint BP nach 177 mehr als einmal die Übersendung von Urkunden urgiert zu haben, vielleicht auch ergänzende Informationen zu den eher spärlichen bibliographischen Angaben in 5; dennoch werden diese nicht sicher zu beziffernden Briefe unter einer Ansetzung subsumiert.</p>
          </div>
       </front>
       <body>
          <ab>
-            <gap reason="letter missing"/>
+            <gap reason="inferred letter"/>
          </ab>
       </body>
       <back/>

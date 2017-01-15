@@ -13,103 +13,94 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">201</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">193r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Hyazinth Baumbach</persName>
+               <date when="1712-01-10">1712-01-10</date>
+               <placeName>Würzburg (St. Stephan)</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">211</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">200</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">200</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">201</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Hyazinth Baumbach</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1712-01-10</date>
-         <place-of-posting xmlns="">Würzburg (St. Stephan)</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e20784">
-                  <persName>
-                     <abbr>HB</abbr>
-                  </persName> kann auf BPs letzten Brief <ref type="letter">200</ref> nicht reagieren – hätte er ihn aus anderen Schreiben nicht als lauteren Mann kennengelernt, so würde er den Brief für politisch halten.</seg>
-               <seg type="context" n="2" xml:id="d4617e20789">Dennoch will <persName>
-                     <abbr>HB</abbr>
-                  </persName> einige Details, die in Österreich vielleicht nicht bekannt sind, über die bevorstehende Durchreise Karls VI. in Würzburg berichten. Der Kaiser wird am kommenden Mittwoch, dem 13. Januar, in Würzburg eintreffen, nachdem er bei den Augustiner-Chorherren in Triefenstein, dem ersten Ort in Franken, übernachtet hat. Auf dem fünfstündigen Weg nach Würzburg wird er an Streckenposten insgesamt 7000 Mann fränkische Soldaten und 3000 Mann Landesaufgebot (landtvolck oder ausschuss) passieren, in Würzburg werden 160 Geschütze aus dem Zeughaus sein Eintreffen anzeigen. Fürstbischof Johann Philipp von Greiffenclau wird in seiner Funktion als fränkischer Herzog dem Kaiser entgegenreisen, daher wird sein Weihbischof Johann Bernhard Mayer als Bischof fungieren. Assistieren werden ihm die elf infulierten Äbte Frankens – das Schottenkloster zu Würzburg hat derzeit keinen Abt.</seg>
-               <seg type="context" n="3" xml:id="d4617e20791">Am Folgetag wird der Kaiser in Kitzingen zu Mittag essen, dann bis Markt Bibart, dem letzten Ort in Franken, weiterreisen und dort übernachten. Am nächsten Tag setzt er die Reise nach Nürnberg fort. <persName>
-                     <abbr>HB</abbr>
-                  </persName> bittet Gott um Schutz und Nachkommenschaft für den Kaiser zum Frommen der Römischen Kirche und des Römischen Reiches. Er bekundet damit seine Devotion für das Haus Österreich.</seg>
-               <seg type="context" n="4" xml:id="d4617e20793">In einem Postskriptum dankt <persName>
-                     <abbr>HB</abbr>
-                  </persName> für die Grüße Abt Dietmayrs zu Neujahr und erwidert diese; im Interesse des Ordens und des Stifts Melk wünscht er Dietmayr Glück und langes Leben.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e24120"><rs type="person" role="sender">HB</rs> kann auf <rs type="person" role="sender">BPs</rs> letzten Brief <ref type="letter">200</ref> nicht reagieren – hätte er ihn aus anderen Schreiben nicht als lauteren Mann kennengelernt, so würde er den Brief für politisch halten.</seg><seg type="context" n="2" xml:id="d4618e24125">Dennoch will <rs type="person" role="sender">HB</rs> einige Details, die in Österreich vielleicht nicht bekannt sind, über die bevorstehende Durchreise Karls VI. in Würzburg berichten. Der Kaiser wird am kommenden Mittwoch, dem 13. Januar, in Würzburg eintreffen, nachdem er bei den Augustiner-Chorherren in Triefenstein, dem ersten Ort in Franken, übernachtet hat. Auf dem fünfstündigen Weg nach Würzburg wird er an Streckenposten insgesamt 7000 Mann fränkische Soldaten und 3000 Mann Landesaufgebot (landtvolck oder ausschuss) passieren, in Würzburg werden 160 Geschütze aus dem Zeughaus sein Eintreffen anzeigen. Fürstbischof Johann Philipp von Greiffenclau wird in seiner Funktion als fränkischer Herzog dem Kaiser entgegenreisen, daher wird sein Weihbischof Johann Bernhard Mayer als Bischof fungieren. Assistieren werden ihm die elf infulierten Äbte Frankens – das Schottenkloster zu Würzburg hat derzeit keinen Abt.</seg><seg type="context" n="3" xml:id="d4618e24127">Am Folgetag wird der Kaiser in Kitzingen zu Mittag essen, dann bis Markt Bibart, dem letzten Ort in Franken, weiterreisen und dort übernachten. Am nächsten Tag setzt er die Reise nach Nürnberg fort. <rs type="person" role="sender">HB</rs> bittet Gott um Schutz und Nachkommenschaft für den Kaiser zum Frommen der Römischen Kirche und des Römischen Reiches. Er bekundet damit seine Devotion für das Haus Österreich.</seg><seg type="context" n="4" xml:id="d4618e24129">In einem Postskriptum dankt <rs type="person" role="sender">HB</rs> für die Grüße Abt Dietmayrs zu Neujahr und erwidert diese; im Interesse des Ordens und des Stifts Melk wünscht er Dietmayr Glück und langes Leben.</seg></p>
          </div>
-         <div type="editorialNote">
-            <p>Überlieferung: I, 193r–v.</p>
-            <p>Bezüge: 200. 211. Erwähnt 200.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>200</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>211</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>200</idno>
-               </ref>
-            </correspContext>
-         </div>
+         <div type="editorialNote"/>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiose eximie ac doctissime in Christo pater, colende domine.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e20805"> Ad ultimas quidem non est, quod respondeam: eas enim vel legere rubor confusionis mihi est, et ni cordis et animi candorem admodum reverendae paternitatis vestrae ex crebrioribus litteris nossem, eas <seg type="lemma" corresp="#d4617e20821">plus quam politicas</seg> iudicarem. </seg>
-               <seg type="context" n="2" xml:id="d4617e20807"> Sequentia tamen, quamvis in Austria iam nota, forte tamen non omnia particularia, hisce communicari volui: augustissimum <seg type="lemma" corresp="#d4617e20828">imperatorem nimirum 13. huius, proxima die Mercurii, venturum Herbipolim</seg>, pro cuius digna exceptione cuncta possibilia fiunt praeparatoria. Pridie vesperi venturus in praeposituram infulatam canonicorum regularium sancti Augustini ad Petram Stillantem dictam, vulgo Trieffenstein, primum dioecesis Herbipolensis et Franconiae locum, ibidem pernoctabit. Mane iter erit quinque horarum Herbipolim versus, in qua via diversis stationibus stabit miles Franconiae regularis 7000 cum 3000 patrii militis, landtvolck oder ausschuss. Ex arsenali educta sunt in propugnacula arcis et civitatis 160 tormenta bellica, quibus boantibus ingressus suae maiestatis longe lateque divulgabitur. Celsissimus princeps noster, quantum scio, ut <seg type="lemma" corresp="#d4617e20835">dux Franconiae</seg> obviam ibit; episcopi vero vices aget eius suffraganeus reverendissimus cum undecim praelatis infulatis Franconiae. Duodecima enim abbatia Scotorum Herbipoli <seg type="lemma" corresp="#d4617e20840">modo vacat</seg>. <pb n="1v"/> Et hac die manebit augustissimus imperator Herbipoli. </seg>
-               <seg type="context" n="3" xml:id="d4617e20811"> Altera vero, 14. scilicet, prandium sumet Kitzingae et adhuc ibit usque Marchbibra, ultimum dioecesis Herbipolensis locum, ubi pernoctabit, et exinde uno itinere Norinbergam. Deus prosperum faciat iter eius et servet augustissimum caput, donetque posteritatem pro tranquillitate et pace suae sanctae ecclesiae Romanae ac totius Romani imperii conservatione. Nostram hisce transscribo devotionem in augustissimam domum Austriacam. Et nos pariter divinae protectioni commendans permaneo</seg>
-            </p>
-            <p>Admodum reverendae paternitatis vestrae addictissimus Hyacinth abbas manu propria.</p>
-            <p>Herbipoli ex monasterio S. Stephani 10. Januarii 1712.</p>
-            <p>
-               <seg type="context" n="4" xml:id="d4617e20818"> P.S. Reverendissimo et illustrissimo domino <seg type="lemma" corresp="#d4617e20845">abbati primati</seg> etc. precor pro opportunitate humillimam meam recommendationem et gratias pro memoria mei ad novi anni auspicium, cui pro decore sacri ordinis nostri ac incremento celeberrimae abbatiae Mellicensis omnem prosperitatem huius et multorum futurorum annorum ex corde apprecor.</seg>
-            </p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiose eximie ac doctissime in Christo pater, colende domine.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e24141"> Ad ultimas quidem non est, quod respondeam: eas enim vel legere rubor confusionis mihi est, et ni cordis et animi candorem admodum reverendae paternitatis vestrae ex crebrioribus litteris nossem, eas <seg type="lemma" corresp="#d4618e24175">plus quam politicas</seg> iudicarem. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e24143"> Sequentia tamen, quamvis in Austria iam nota, forte tamen non omnia particularia, hisce communicari volui: augustissimum <seg type="lemma" corresp="#d4618e24182">imperatorem nimirum 13. huius, proxima die Mercurii, venturum Herbipolim</seg>, pro cuius digna exceptione cuncta possibilia fiunt praeparatoria. Pridie vesperi venturus in praeposituram infulatam canonicorum regularium sancti Augustini ad Petram Stillantem dictam, vulgo Trieffenstein, primum dioecesis Herbipolensis et Franconiae locum, ibidem pernoctabit. Mane iter erit quinque horarum Herbipolim versus, in qua via diversis stationibus stabit miles Franconiae regularis 7000 cum 3000 patrii militis, landtvolck oder ausschuss. Ex arsenali educta sunt in propugnacula<note place="foot" xml:id="d4618e24145">	Korrigiert aus <hi rend="italic">propugnal</hi>.</note> arcis et civitatis 160 tormenta bellica, quibus boantibus ingressus suae maiestatis longe lateque divulgabitur. Celsissimus princeps noster, quantum scio, ut <seg type="lemma" corresp="#d4618e24189">dux Franconiae</seg> obviam ibit; episcopi vero vices aget eius suffraganeus reverendissimus cum undecim praelatis infulatis Franconiae. Duodecima enim abbatia Scotorum Herbipoli <seg type="lemma" corresp="#d4618e24194">modo vacat</seg>. <pb n="1v"/> Et hac die manebit augustissimus imperator Herbipoli. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e24153"> Altera vero, 14. scilicet, prandium sumet Kitzingae et adhuc ibit usque Marchbibra, ultimum dioecesis Herbipolensis locum, ubi pernoctabit, et exinde uno itinere Norinbergam. Deus prosperum faciat iter eius et servet augustissimum caput, donetque posteritatem pro tranquillitate<note place="foot" xml:id="d4618e24155">	Korrigiert aus <hi rend="italic">tranqul</hi>.</note> et pace suae sanctae ecclesiae Romanae ac totius Romani imperii conservatione. Nostram hisce transscribo<note place="foot" xml:id="d4618e24161">	Korrigiert aus <hi rend="italic">transp</hi>.</note> devotionem in augustissimam domum Austriacam. Et nos pariter divinae protectioni commendans permaneo</seg></p>
+            <p xml:space="preserve">Admodum reverendae paternitatis vestrae addictissimus Hyacinth abbas manu propria.</p>
+            <p xml:space="preserve">Herbipoli ex monasterio S. Stephani 10. Januarii 1712.</p>
+            <p xml:space="preserve"><seg type="context" n="4" xml:space="preserve" xml:id="d4618e24172"> P.S. Reverendissimo et illustrissimo domino <seg type="lemma" corresp="#d4618e24199">abbati primati</seg> etc. precor pro opportunitate humillimam meam recommendationem et gratias pro memoria mei ad novi anni auspicium, cui pro decore sacri ordinis nostri ac incremento celeberrimae abbatiae Mellicensis omnem prosperitatem huius et multorum futurorum annorum ex corde apprecor.</seg></p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e20821" target="#d4617e20784 #d4617e20805">
-               <ref target="">1</ref>
+            <note xml:id="d4618e24175">
+               <ref type="context">1</ref>
                <label>plus quam politicas</label>
                <p>Vermutlich hatte sich BP emphatisch über Karl VI., die Kriegslage und Friedensverhandlungen oder alle diese Themen geäußert. Vgl. den Ton seiner Ausführungen in 209 &lt;8&gt;.</p>
             </note>
-            <note xml:id="d4617e20828" target="#d4617e20789 #d4617e20807">
-               <ref target="">2</ref>
+            <note xml:id="d4618e24182">
+               <ref type="context">2</ref>
                <label>imperatorem ... venturum Herbipolim</label>
                <p>Über den Empfang Karls VI. in Würzburg berichtet eingehend Gropp, Collectio 2 623f., 655–662.</p>
             </note>
-            <note xml:id="d4617e20835" target="#d4617e20789 #d4617e20807">
-               <ref target="#d4617e20789 #d4617e20807">2</ref>
+            <note xml:id="d4618e24189">
+               <ref type="context">2</ref>
                <label>dux Franconiae</label>
                <p>Vgl. 317 &lt;6&gt;.</p>
             </note>
-            <note xml:id="d4617e20840" target="#d4617e20789 #d4617e20807">
-               <ref target="#d4617e20789 #d4617e20807">2</ref>
+            <note xml:id="d4618e24194">
+               <ref type="context">2</ref>
                <label>modo vacat</label>
                <p>Vgl. 110.</p>
             </note>
-            <note xml:id="d4617e20845" target="#d4617e20793 #d4617e20818">
-               <ref target="">4</ref>
+            <note xml:id="d4618e24199">
+               <ref type="context">4</ref>
                <label>abbati primati</label>
                <p>Gemeint ist die Stellung Dietmayrs als Primas des niederösterreichischen Prälatenstandes; vgl. Einleitung, Abschnitt I.5.</p>
             </note>

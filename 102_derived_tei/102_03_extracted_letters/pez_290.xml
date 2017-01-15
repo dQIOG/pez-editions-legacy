@@ -13,49 +13,52 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">290</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>No direct source, inferred letter.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Adalbert Defuns</persName>
+               <date notBefore="1712-12-18">&lt; 1712-12-18</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">291</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">233</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">291</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">290</id>
-         <deduced xmlns="">true</deduced>
-         <sender xmlns="">Adalbert Defuns</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">&lt; 1712-12-18</date>
-         <place-of-posting xmlns=""/>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="editorialNote">
-            <p>Bezüge: 233. 291. Erwähnt in 291.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>233</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>291</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>291</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: Nach der Aussage ADes in 291, dass er auf die im März empfangene Enzyklik 233 „statim“ geantwortet hatte, wurde dieser Brief im Frühjahr 1712 verschickt; eine genaue Datumsansetzung ist jedoch nicht möglich.</p>
+            <p xml:space="preserve">Bemerkungen: Nach der Aussage ADes in 291, dass er auf die im März empfangene Enzyklik 233 „statim“ geantwortet hatte, wurde dieser Brief im Frühjahr 1712 verschickt; eine genaue Datumsansetzung ist jedoch nicht möglich.</p>
          </div>
       </front>
       <body>
          <ab>
-            <gap reason="letter missing"/>
+            <gap reason="inferred letter"/>
          </ab>
       </body>
       <back/>

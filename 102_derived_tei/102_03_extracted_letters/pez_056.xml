@@ -13,93 +13,108 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">56</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Katschthaler, Briefnachlass 18</bibl>
+                  <bibl>Mayer, Nachlaß 18 499</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">302r–303v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Stefano Omodeo</persName>
+               <date when="1710-03-31">1710-03-31</date>
+               <placeName>Mailand (S. Simpliciano)</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">66</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">55</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">55</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">56</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Stefano Omodeo</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1710-03-31</date>
-         <place-of-posting xmlns="">Mailand (S. Simpliciano)</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e5647">SOm würdigt BPs Brief <ref type="letter">55</ref>, dessen Vorhaben einer „Bibliotheca Benedictina“ und insbesondere den Wunsch, die Schriftsteller der Cassinenser Kongregation zu erfassen. Für das Kloster S. Simpliciano, dem er als Abt vorsteht, sagt SOm die Einsendung eines Schriftstellerkatalogs zu.</seg>
-               <seg type="context" n="2" xml:id="d4617e5652">Was den Wunsch betrifft, durch das Generalkapitel der Kongregation in den einzelnen Klöstern Konventualen mit der Sammlung beauftragen zu lassen, so rät SOm BP, mit dem Kongregationspräses Severino de Ò in S. Spirito zu Pavia oder mit dem Generalprokurator Giovanni Battista de Miro in S. Calisto zu Rom Kontakt aufzunehmen. Sie können mittels Rundschreiben die einzelnen Prälaten zur Mitarbeit auffordern.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e6565"><rs type="person" key="">SOm</rs> würdigt <rs type="person" role="sender">BPs</rs> Brief <ref type="letter">55</ref>, dessen Vorhaben einer „Bibliotheca Benedictina“ und insbesondere den Wunsch, die Schriftsteller der Cassinenser Kongregation zu erfassen. Für das Kloster S. Simpliciano, dem er als Abt vorsteht, sagt <rs type="person" key="">SOm</rs> die Einsendung eines Schriftstellerkatalogs zu.</seg><seg type="context" n="2" xml:id="d4618e6570">Was den Wunsch betrifft, durch das Generalkapitel der Kongregation in den einzelnen Klöstern Konventualen mit der Sammlung beauftragen zu lassen, so rät <rs type="person" key="">SOm</rs> BP, mit dem Kongregationspräses Severino de Ò in S. Spirito zu Pavia oder mit dem Generalprokurator Giovanni Battista de Miro in S. Calisto zu Rom Kontakt aufzunehmen. Sie können mittels Rundschreiben die einzelnen Prälaten zur Mitarbeit auffordern.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: I, 302r–303v.</p>
-            <p>Literatur: Katschthaler, Briefnachlass 18; Mayer, Nachlaß 18 499.</p>
-            <p>Bezüge: 55. 66. Erwähnt 55.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>55</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>66</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>55</idno>
-               </ref>
-            </correspContext>
-            <p>Adresse: <hi rend="italic">Admodum reverendo patri bibliothecario Bernardo Pez in monasterio Mellicensi vulgo Moet [</hi>sic<hi rend="italic">] ordinis sancti Benedicti. Vienna. Molkerhoff</hi>. Siegel.</p>
-            <p>Nummerierung: <hi rend="italic">I.</hi>
-            </p>
-            <p>Ordnungsvermerk: <hi rend="italic">13</hi>.</p>
+            <div type="address">
+               <cit>
+                  <q>Admodum reverendo patri bibliothecario Bernardo Pez in monasterio Mellicensi vulgo Moet [sic] ordinis sancti Benedicti. Vienna. Molkerhoff. Siegel.</q>
+               </cit>
+            </div>
+            <p xml:space="preserve">Nummerierung: <hi rend="italic">I.</hi></p>
+            <p xml:space="preserve">Ordnungsvermerk: <hi rend="italic">13</hi>.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverendae [<hi rend="italic">sic</hi>] pater.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e5686"> Accepi umanissimam [<hi rend="italic">sic</hi>] revereniae [<hi rend="italic">sic</hi>] tuae epistolam, in qua exprimitur laudabile tuum desiderium Benedictinae gloriae promovende [<hi rend="italic">sic</hi>], dum Bibliotecham [<hi rend="italic">sic</hi>] Benedictinam scribere aggressus cupis scriptores omnes ex ordine divi patris nostri Benedicti, qui in nostra congregatione Cassinensi <seg type="lemma" corresp="#d4617e5715">aliqua scribendi laude floruerunt</seg>, conplecti. Ego, quantum in me est, tibi opem ferre non gravabor, quoad nomina, patrias, studia scriptorum ad Sanctum Simplicianum, cuius monasterio ad praesens praesum ut abbas, professorum; et quanto citius potero, talem notitiam tibi transmittere curabo. </seg>
-               <seg type="context" n="2" xml:id="d4617e5700"> Caeterum quoad id, quod instas, ut deligatur aliquis a nostro <seg type="lemma" corresp="#d4617e5722">capitulo generali</seg>, qui colligat nomina, patriam etc., ut supra, professorum spectantium ad alia monasteria, opus est, ut paternitas tua dignetur de hoc scribere vel reverendissimo patri domno <seg type="lemma" corresp="#d4617e5729">Severino a Papia</seg> nostrae congregationis praesidenti, Papiam in Sancto Spiritu, vel reverendissimo patri domno Joanni Baptiste [<hi rend="italic">sic</hi>] a Neapoli procuratori generali Cassinensi, <seg type="lemma" corresp="#d4617e5739">Romam in Sancto Calisto</seg>, qui poterunt desiderio tuo tam iusto et proficuo omnimode satisfacere per circularem litteram caeteris praelatis directam, qua illos ad opem ferrendam [<hi rend="italic">sic</hi>] conatui suo <pb n="1v"/> dignissimo et superiori mandato adhortentur. Interea vero rei publicae Benedictinae bono incolumem te servet Deus.</seg>
-            </p>
-            <p>Mediolani ex nostro monasterio S. Simpliciani die 31. mensis Martii 1710.</p>
-            <p>Paternitatis tuae admodum reverendae addictissimus in Christo servus domnus Stephanus Omodeus abbas.</p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverendae [<hi rend="italic">sic</hi>] pater.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e6604"> Accepi umanissimam [<hi rend="italic">sic</hi>] revereniae [<hi rend="italic">sic</hi>] tuae epistolam, in qua exprimitur laudabile tuum desiderium Benedictinae gloriae promovende [<hi rend="italic">sic</hi>], dum Bibliotecham [<hi rend="italic">sic</hi>] Benedictinam scribere aggressus cupis scriptores omnes ex ordine divi patris nostri Benedicti, qui in nostra congregatione Cassinensi <seg type="lemma" corresp="#d4618e6633">aliqua scribendi laude floruerunt</seg>, conplecti. Ego, quantum in me est, tibi opem ferre non gravabor, quoad nomina, patrias, studia scriptorum ad Sanctum Simplicianum, cuius monasterio ad praesens praesum ut abbas, professorum; et quanto citius potero, talem notitiam tibi transmittere curabo. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e6618"> Caeterum quoad id, quod instas, ut deligatur aliquis a nostro <seg type="lemma" corresp="#d4618e6640">capitulo generali</seg>, qui colligat nomina, patriam etc., ut supra, professorum spectantium ad alia monasteria, opus est, ut paternitas tua dignetur de hoc scribere vel reverendissimo patri domno <seg type="lemma" corresp="#d4618e6647">Severino a Papia</seg> nostrae congregationis praesidenti, Papiam in Sancto Spiritu, vel reverendissimo patri domno Joanni Baptiste [<hi rend="italic">sic</hi>] a Neapoli procuratori generali Cassinensi, <seg type="lemma" corresp="#d4618e6657">Romam in Sancto Calisto</seg>, qui poterunt desiderio tuo tam iusto et proficuo omnimode satisfacere per circularem litteram caeteris praelatis directam, qua illos ad opem ferrendam [<hi rend="italic">sic</hi>] conatui suo <pb n="1v"/> dignissimo et superiori mandato adhortentur. Interea vero rei publicae Benedictinae bono incolumem te servet Deus.</seg></p>
+            <p xml:space="preserve">Mediolani ex nostro monasterio S. Simpliciani die 31. mensis Martii 1710.</p>
+            <p xml:space="preserve">Paternitatis tuae admodum reverendae addictissimus in Christo servus domnus Stephanus Omodeus abbas.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e5715" target="#d4617e5647 #d4617e5686">
-               <ref target="">1</ref>
+            <note xml:id="d4618e6633">
+               <ref type="context">1</ref>
                <label>aliqua scribendi laude floruerunt</label>
                <p>Die Formulierung ist sichtlich an jene angelehnt, die BP in den LE 1 variierte; vgl. etwa 7 &lt;1&gt;, 19 &lt;1&gt; und &lt;2&gt;.</p>
             </note>
-            <note xml:id="d4617e5722" target="#d4617e5652 #d4617e5700">
-               <ref target="">2</ref>
+            <note xml:id="d4618e6640">
+               <ref type="context">2</ref>
                <label>capitulo generali</label>
                <p>Vgl. 19 &lt;2&gt;.</p>
             </note>
-            <note xml:id="d4617e5729" target="#d4617e5652 #d4617e5700">
-               <ref target="#d4617e5652 #d4617e5700">2</ref>
+            <note xml:id="d4618e6647">
+               <ref type="context">2</ref>
                <label>Severino a Papia</label>
                <p>Diesen Kontakt konnte BP zwar herstellen (81), ohne allerdings dadurch zu den erhofften Resultaten zu gelangen.</p>
             </note>
-            <note xml:id="d4617e5734" target="#d4617e5652 #d4617e5700">
-               <ref target="#d4617e5652 #d4617e5700">2</ref>
+            <note xml:id="d4618e6652">
+               <ref type="context">2</ref>
                <label>Joanni Baptiste a Neapoli</label>
                <p>Auf eine Korrespondenz BPs mit Giovanni Battista de Miro konnte bislang kein Hinweis gefunden werden. Zu ihm: Bignami Odier, Bibliothèque Vaticane 146, 158, 333, 351; Bossi, Matricula 1 297f.; Ceresa, De Miro.</p>
             </note>
-            <note xml:id="d4617e5739" target="#d4617e5652 #d4617e5700">
-               <ref target="#d4617e5652 #d4617e5700">2</ref>
+            <note xml:id="d4618e6657">
+               <ref type="context">2</ref>
                <label>Romam in Sancto Calisto</label>
                <p>Das Kloster S. Calisto an der Piazza S. Maria in Trastevere war seit 1608 Dependenz der Abtei S. Paolo fuori le Mura, welche der Cassinenser Kongregation angehörte (Margarini, Bullarium Casinense 2 529–533 Nr. 470; vgl. Bossi, Matricula 1 162), und diente als Residenz der Prokuratoren, welche die Kongregation an der Kurie repräsentierten: Baiocchi, Archivio 349.</p>
             </note>

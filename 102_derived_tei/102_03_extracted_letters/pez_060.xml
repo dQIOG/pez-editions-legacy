@@ -13,144 +13,140 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">60</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Katschthaler, Briefnachlass 18</bibl>
+                  <bibl>Mayer, Nachlaß 18 499</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">364r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Leonardo Lana</persName>
+               <date when="1710-04-10">1710-04-10</date>
+               <placeName>Brescia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">70</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">59</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">59</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">70</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">60</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Leonardo Lana</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1710-04-10</date>
-         <place-of-posting xmlns="">Brescia</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e6151">
-                  <persName>
-                     <abbr>LL</abbr>
-                  </persName> dankt für BPs Brief <ref type="letter">59</ref> und will gerne etwas aus seinem Kloster S. Faustino zur „Bibliotheca Benedictina“ beitragen. So führt er einige von dessen Gelehrten an:</seg>
-               <seg type="context" n="2" xml:id="d4617e6156">den Brescianer Adeligen Giovanni Battista Stella, gestorben 1595 (recte: 1597) als Abt von S. Paolo fuori le Mura zu Rom, der als Gesandter Papst Klemens’ VIII. am Hof des Großherzogs Ferdinand I. von Toskana fungierte; seine zahlreichen Schriften blieben wegen ihrer politischen Brisanz ungedruckt und werden in fürstlichen Archiven, besonders dem toskanischen, streng verwahrt.</seg>
-               <seg type="context" n="3" xml:id="d4617e6158">Weiters nennt <persName>
-                     <abbr>LL</abbr>
-                  </persName> Benedetto Castelli, einen Brescianer Adeligen, welcher 1628 (recte: 1615) eine Erwiderung („Risposta alle opposizioni“) auf Ludovico Delle Colombes und Vincenzo Di Grazias Einwände gegen Galileis „Discorso intorno alle cose che stanno in sù l’acqua“ zu Rom (recte: Florenz) in der großherzoglichen Druckerei herausgebracht hat. Auch schrieb Galilei Castelli laut Cozzandos „Libraria bresciana“ die Erfindung einer Methode zur Beobachtung der Sonnenflecken mit dem Fernrohr zu. Castelli starb 1630 (recte: 1643) zu Rom im Rang eines Abtes.</seg>
-               <seg type="context" n="4" xml:id="d4617e6160">Orazio Barbisoni, gestorben 1652 (recte: 1653), Brescianer Patrizier, Abt von S. Faustino und Präses der Cassinenser Kongregation, vermittelte – wie eine Inschrift zu Füßen seines Bildnisses besagt – im Jahre 1638 im Konflikt zwischen Papst Urban VIII. (Apes Romulides) und Venedig (Hadriacus Leo).</seg>
-               <seg type="context" n="5" xml:id="d4617e6162">Lattanzio Stella, gestorben 1639, Adeliger und Abt, trat als Schriftsteller von Vers und Prosa hervor und wirkte als Promotor der „Accademia degli Erranti“ zu Brescia.</seg>
-               <seg type="context" n="6" xml:id="d4617e6164">Costanzo Salvi, gestorben 1634, Mönch aus Brescia, war ein strenger Gegner der aristotelischen und Verfechter der platonischen Philosophie.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e7099"><rs type="person" role="sender">LL</rs> dankt für <rs type="person" role="sender">BPs</rs> Brief <ref type="letter">59</ref> und will gerne etwas aus seinem Kloster S. Faustino zur „Bibliotheca Benedictina“ beitragen. So führt er einige von dessen Gelehrten an:</seg><seg type="context" n="2" xml:id="d4618e7104">den Brescianer Adeligen Giovanni Battista Stella, gestorben 1595 (recte: 1597) als Abt von S. Paolo fuori le Mura zu Rom, der als Gesandter Papst Klemens’ VIII. am Hof des Großherzogs Ferdinand I. von Toskana fungierte; seine zahlreichen Schriften blieben wegen ihrer politischen Brisanz ungedruckt und werden in fürstlichen Archiven, besonders dem toskanischen, streng verwahrt.</seg><seg type="context" n="3" xml:id="d4618e7106">Weiters nennt <rs type="person" role="sender">LL</rs> Benedetto Castelli, einen Brescianer Adeligen, welcher 1628 (recte: 1615) eine Erwiderung („Risposta alle opposizioni“) auf Ludovico Delle Colombes und Vincenzo Di Grazias Einwände gegen Galileis „Discorso intorno alle cose che stanno in sù l’acqua“ zu Rom (recte: Florenz) in der großherzoglichen Druckerei herausgebracht hat. Auch schrieb Galilei Castelli laut Cozzandos „Libraria bresciana“ die Erfindung einer Methode zur Beobachtung der Sonnenflecken mit dem Fernrohr zu. Castelli starb 1630 (recte: 1643) zu Rom im Rang eines Abtes.</seg><seg type="context" n="4" xml:id="d4618e7108">Orazio Barbisoni, gestorben 1652 (recte: 1653), Brescianer Patrizier, Abt von S. Faustino und Präses der Cassinenser Kongregation, vermittelte – wie eine Inschrift zu Füßen seines Bildnisses besagt – im Jahre 1638 im Konflikt zwischen Papst Urban VIII. (Apes Romulides) und Venedig (Hadriacus Leo).</seg><seg type="context" n="5" xml:id="d4618e7110">Lattanzio Stella, gestorben 1639, Adeliger und Abt, trat als Schriftsteller von Vers und Prosa hervor und wirkte als Promotor der „Accademia degli Erranti“ zu Brescia.</seg><seg type="context" n="6" xml:id="d4618e7112">Costanzo Salvi, gestorben 1634, Mönch aus Brescia, war ein strenger Gegner der aristotelischen und Verfechter der platonischen Philosophie.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: I, 364r–v.</p>
-            <p>Literatur: Katschthaler, Briefnachlass 18; Mayer, Nachlaß 18 499.</p>
-            <p>Bezüge: 59. 70. Erwähnt 59. Erwähnt in 70.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>59</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>70</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>59</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>70</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: Am oberen Blattrand Vermerke von der Hand BPs zu den Brescianer Gelehrten Alessio Ugone (vgl. Armellini, Bibliotheca 1 5–9; Bossi, Matricula 1 361) und Arcangelo Bucci da Lunato (Armellini, Bibliotheca 1 54; Bossi, Matricula 1 364, 367).</p>
+            <p xml:space="preserve">Bemerkungen: Am oberen Blattrand Vermerke von der Hand BPs zu den Brescianer Gelehrten Alessio Ugone (vgl. Armellini, Bibliotheca 1 5–9; Bossi, Matricula 1 361) und Arcangelo Bucci da Lunato (Armellini, Bibliotheca 1 54; Bossi, Matricula 1 364, 367).</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Brixiae die X. Aprilis 1710.</p>
-            <p>Admodum reverende pater osservandissime [<hi rend="italic">sic</hi>].</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e6185"> Non molestiam aut inquietudinem mihi attulerunt umanissime [<hi rend="italic">sic</hi>] paternitatis vestrae admodum reverende [<hi rend="italic">sic</hi>] litterae, sed onorem [<hi rend="italic">sic</hi>] atque favorem magnos, quaerendo a me et a monasterio meo nomina virorum illustrium huius monasterii, illorum silicet [<hi rend="italic">sic</hi>], qui aliqua notatu digna scripsere, ut eruditissimae suae Bibliothecae agreget [<hi rend="italic">sic</hi>]. Hinc est, quod libenter ac gratias referens debitas pauca infrascripta nomina ex multis mitto, videlicet: </seg>
-               <seg type="context" n="2" xml:id="d4617e6202"> domni <seg type="lemma" corresp="#d4617e6239">Joannis Baptistae de Stellis</seg> nobilis Brixiensis, qui <seg type="lemma" corresp="#d4617e6246">varia luculenter scripsit, sed eius scripta, cum sint magni momenti, volunt soli principes apud semetipsos in propriis archiviis custodire</seg>, et maxime magnus dux Etruriae, apud quem fuit orator a sanctissimo domno nostro Clemente 8. missus. Obiit, cum esset S. Pauli de Urbe abbas, anno salutis nostrae circumcirciter 1595. </seg>
-               <seg type="context" n="3" xml:id="d4617e6204"> Item domnus <seg type="lemma" corresp="#d4617e6251">Benedictus Castellus nobilis pariter Brixiensis, mathematicus insignis, floruit de anno 1628, in quo typis Romae mandavit apud impressores ducales Responsionem</seg> oppositionibus Ludovici de Columbis et Vincentii de Garzia [<hi rend="italic">sic</hi>] contra transumptum Gallilei de Gallileis de iis, quae feruntur super aquas et moventur in ipsis; et <seg type="lemma" corresp="#d4617e6258">Gallileus eidem attribuit inventionem videndi maculas solis cum tubo optico in eundem solem converso, uti habetur in Biblioteca Brixiensi</seg> Leonardi Cassandi parte prima, folio 61. Obiit abbas de anno 1630. </seg>
-               <seg type="context" n="4" xml:id="d4617e6209"> Similiter domnus <seg type="lemma" corresp="#d4617e6263">Oratius Barbisonus</seg> Brixiae patritius, abbas S. Faustini et praeses generalis congregationis Cassinensis, vir fuit illustris, precipue [<hi rend="italic">sic</hi>] in componendis dissidiis inter principes; cuius elogium adhuc extat ad pedes illius immaginis [<hi rend="italic">sic</hi>] pictae dicens: Conspicuo huic viro <seg type="lemma" corresp="#d4617e6270">Apes Romulides</seg> 
-                  <seg type="lemma" corresp="#d4617e6275">Hadriacusque Leo</seg> 
-                  <seg type="lemma" corresp="#d4617e6280">dissidiorum suorum concordiam acceptam referunt anno 1638</seg>; et de anno 1652 mortuus est. </seg>
-               <seg type="context" n="5" xml:id="d4617e6217"> Item domnus <seg type="lemma" corresp="#d4617e6285">Lactantius Stella</seg>, nobilis abbas Brixiensis et virtute nobilior, maximus enim fuit orator atque poeta, et multa in utrque [<hi rend="italic">sic</hi>] scientia scripsit eruditissime. Caeleberimae [<hi rend="italic">sic</hi>] <seg type="lemma" corresp="#d4617e6292">accademiae in hac civitate promotor fuit, Errantium</seg> nuncupatae, <seg type="lemma" corresp="#d4617e6297">sed ipse non erravit</seg>, aeternando sibi memoriam doctissimi viri. Obiit de anno 1639. </seg>
-               <seg type="context" n="6" xml:id="d4617e6225"> Pariter domnus <seg type="lemma" corresp="#d4617e6303">Constantius de Salviis</seg> a Brixia monachus, subtilissimus fuit philosophator, Aristotelis philosophiae vatis strenuus impugnator atque Platonicae mordicus deffensor [<hi rend="italic">sic</hi>], sibique nomen caeleberimi [<hi rend="italic">sic</hi>] philosophi adeptus est. Obiit anno salutis 1634. Et haec sunt, quae pauca mitto, doctissime vir, ut tuis obtemperem mandatis, cui caelum adsit secundum, sicut et ego me profiteor esse</seg>
-            </p>
-            <p>Paternitatis vestrae admodum reverendae aditissimus [<hi rend="italic">sic</hi>] obligatissimus servus domnus Leonardus Lana abbas monasterii S. Faustini.</p>
+            <p xml:space="preserve"><pb n="1r"/> Brixiae die X. Aprilis 1710.</p>
+            <p xml:space="preserve">Admodum reverende pater osservandissime [<hi rend="italic">sic</hi>].</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e7133"> Non molestiam aut inquietudinem mihi attulerunt umanissime [<hi rend="italic">sic</hi>] paternitatis vestrae admodum reverende [<hi rend="italic">sic</hi>] litterae, sed onorem [<hi rend="italic">sic</hi>] atque favorem magnos, quaerendo a me et a monasterio meo nomina virorum illustrium huius monasterii, illorum silicet [<hi rend="italic">sic</hi>], qui aliqua notatu digna scripsere, ut eruditissimae suae Bibliothecae agreget [<hi rend="italic">sic</hi>]. Hinc est, quod libenter ac gratias referens debitas pauca infrascripta nomina ex multis mitto, videlicet: </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e7150"> domni <seg type="lemma" corresp="#d4618e7187">Joannis Baptistae de Stellis</seg> nobilis Brixiensis, qui <seg type="lemma" corresp="#d4618e7194">varia luculenter scripsit, sed eius scripta, cum sint magni momenti, volunt soli principes apud semetipsos in propriis archiviis custodire</seg>, et maxime magnus dux Etruriae, apud quem fuit orator a sanctissimo domno nostro Clemente 8. missus. Obiit, cum esset S. Pauli de Urbe abbas, anno salutis nostrae circumcirciter 1595. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e7152"> Item domnus <seg type="lemma" corresp="#d4618e7199">Benedictus Castellus nobilis pariter Brixiensis, mathematicus insignis, floruit de anno 1628, in quo typis Romae mandavit apud impressores ducales Responsionem</seg> oppositionibus Ludovici de Columbis et Vincentii de Garzia [<hi rend="italic">sic</hi>] contra transumptum Gallilei de Gallileis de iis, quae feruntur super aquas et moventur in ipsis; et <seg type="lemma" corresp="#d4618e7206">Gallileus eidem attribuit inventionem videndi maculas solis cum tubo optico in eundem solem converso, uti habetur in Biblioteca Brixiensi</seg> Leonardi Cassandi parte prima, folio 61. Obiit abbas de anno 1630. </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e7157"> Similiter domnus <seg type="lemma" corresp="#d4618e7211">Oratius Barbisonus</seg> Brixiae patritius, abbas S. Faustini et praeses generalis congregationis Cassinensis, vir fuit illustris, precipue [<hi rend="italic">sic</hi>] in componendis dissidiis inter principes; cuius elogium adhuc extat ad pedes illius immaginis [<hi rend="italic">sic</hi>] pictae dicens: Conspicuo huic viro <seg type="lemma" corresp="#d4618e7218">Apes Romulides</seg> <seg type="lemma" corresp="#d4618e7223">Hadriacusque Leo</seg> <seg type="lemma" corresp="#d4618e7228">dissidiorum suorum concordiam acceptam referunt anno 1638</seg>; et de anno 1652 mortuus est. </seg><seg type="context" n="5" xml:space="preserve" xml:id="d4618e7165"> Item domnus <seg type="lemma" corresp="#d4618e7233">Lactantius Stella</seg>, nobilis abbas Brixiensis et virtute nobilior, maximus enim fuit orator atque poeta, et multa in utrque [<hi rend="italic">sic</hi>] scientia scripsit eruditissime. Caeleberimae [<hi rend="italic">sic</hi>] <seg type="lemma" corresp="#d4618e7240">accademiae in hac civitate promotor fuit, Errantium</seg> nuncupatae, <seg type="lemma" corresp="#d4618e7245">sed ipse non erravit</seg>, aeternando sibi memoriam doctissimi viri. Obiit de anno 1639. </seg><seg type="context" n="6" xml:space="preserve" xml:id="d4618e7173"> Pariter domnus <seg type="lemma" corresp="#d4618e7251">Constantius de Salviis</seg> a Brixia monachus, subtilissimus fuit philosophator, Aristotelis philosophiae vatis strenuus impugnator atque Platonicae mordicus deffensor [<hi rend="italic">sic</hi>], sibique nomen caeleberimi [<hi rend="italic">sic</hi>] philosophi adeptus est. Obiit anno salutis 1634. Et haec sunt, quae pauca mitto, doctissime vir, ut tuis obtemperem mandatis, cui caelum adsit secundum, sicut et ego me profiteor esse</seg></p>
+            <p xml:space="preserve">Paternitatis vestrae admodum reverendae aditissimus [<hi rend="italic">sic</hi>] obligatissimus servus domnus Leonardus Lana abbas monasterii S. Faustini.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e6239" target="#d4617e6156 #d4617e6202">
-               <ref target="">2</ref>
+            <note xml:id="d4618e7187">
+               <ref type="context">2</ref>
                <label>Joannis Baptistae de Stellis</label>
                <p>Vgl. Armellini, Bibliotheca 2 31f.; Bossi, Matricula 1 25, 31, 451; Peroni, Biblioteca bresciana 3 238f.</p>
             </note>
-            <note xml:id="d4617e6246" target="#d4617e6156 #d4617e6202">
-               <ref target="#d4617e6156 #d4617e6202">2</ref>
+            <note xml:id="d4618e7194">
+               <ref type="context">2</ref>
                <label>varia luculenter scripsit ... custodire</label>
                <p>Eine auffallend ähnliche Formulierung findet sich bei Peroni, Biblioteca bresciana 3 239: „Scrisse moltissime cose, ma si conservano mss. negli archivi de’ Principi“. Es erscheint denkbar, dass Peroni (der seine Sammlung im späten 18. Jh. begann) dieselbe handschriftliche Quelle aus S. Faustino benutzte, die auch LL als Vorlage gedient hatte. Vgl. 70.</p>
             </note>
-            <note xml:id="d4617e6251" target="#d4617e6158 #d4617e6204">
-               <ref target="">3</ref>
+            <note xml:id="d4618e7199">
+               <ref type="context">3</ref>
                <label>Benedictus Castellus ... 1628 ... Responsionem</label>
                <p>Hier scheint LL oder seiner Quelle eine Verwechslung zwischen zwei Werken Castellis unterlaufen zu sein: Die „Risposta alle opposizioni“ erschien 1615 zu Florenz; 1628 wurde zu Rom Castellis Hauptwerk „Della misura dell’acque correnti“ veröffentlicht. Zu Castelli vgl. Armellini, Bibliotheca 1 92–97; Bossi, Matricula 1 453f.; De Ferrari, Castelli.</p>
             </note>
-            <note xml:id="d4617e6258" target="#d4617e6158 #d4617e6204">
-               <ref target="#d4617e6158 #d4617e6204">3</ref>
+            <note xml:id="d4618e7206">
+               <ref type="context">3</ref>
                <label>Gallileus ... in Biblioteca Brixiensi</label>
                <p>Cozzando, Libraria bresciana 1 61: „Il Galiei [sic] a lui pure ascrive l’inventione del modo di vedere nella carta le macchie del Sole col cannocchiale rivolto verso di quello“.</p>
             </note>
-            <note xml:id="d4617e6263" target="#d4617e6160 #d4617e6209">
-               <ref target="">4</ref>
+            <note xml:id="d4618e7211">
+               <ref type="context">4</ref>
                <label>Oratius Barbisonus</label>
                <p>Präses von 1639 bis 1640; vgl. Bossi, Matricula 1 27, 453; Guerrini, S. Faustino 99, 112; Mazzuchelli, Scrittori 2/1 316; Peroni, Biblioteca bresciana 1 90f.</p>
             </note>
-            <note xml:id="d4617e6270" target="#d4617e6160 #d4617e6209">
-               <ref target="#d4617e6160 #d4617e6209">4</ref>
+            <note xml:id="d4618e7218">
+               <ref type="context">4</ref>
                <label>Apes Romulides</label>
                <p>Anspielung auf das Wappen Papst Urbans VIII. (Barberini), welches drei Bienen zeigt.</p>
             </note>
-            <note xml:id="d4617e6275" target="#d4617e6160 #d4617e6209">
-               <ref target="#d4617e6160 #d4617e6209">4</ref>
+            <note xml:id="d4618e7223">
+               <ref type="context">4</ref>
                <label>Hadriacusque Leo</label>
                <p>Der Markuslöwe, Symbol der Republik Venedig.</p>
             </note>
-            <note xml:id="d4617e6280" target="#d4617e6160 #d4617e6209">
-               <ref target="#d4617e6160 #d4617e6209">4</ref>
+            <note xml:id="d4618e7228">
+               <ref type="context">4</ref>
                <label>dissidiorum ... 1638</label>
                <p>Die diplomatische Krise von 1636–1640 zwischen Urban VIII. und Venedig hatte ihren Anlass in der Übertünchung einer Inschrift in der Sala Regia des Vatikans, welche die Rolle Venedigs bei dem Friedensschluss von 1177 zwischen Papst Alexander III. und Kaiser Friedrich I. betraf: Beltrani, Contelori 3 1–16; Pastor, Geschichte der Päpste 13/2 718f. Zu einer Vermittlung durch Barbisoni konnte nichts ermittelt werden.</p>
             </note>
-            <note xml:id="d4617e6285" target="#d4617e6162 #d4617e6217">
-               <ref target="">5</ref>
+            <note xml:id="d4618e7233">
+               <ref type="context">5</ref>
                <label>Lactantius Stella</label>
                <p>Armellini, Bibliotheca 2 64–66; Bossi, Matricula 1 452; Peroni, Biblioteca bresciana 3 239–241.</p>
             </note>
-            <note xml:id="d4617e6292" target="#d4617e6162 #d4617e6217">
-               <ref target="#d4617e6162 #d4617e6217">5</ref>
+            <note xml:id="d4618e7240">
+               <ref type="context">5</ref>
                <label>accademiae ... Errantium</label>
                <p>Die „Accademia degli Erranti“ zu Brescia entstand um das Jahr 1620: Maylender, Storia delle Accademie 2 305–308.</p>
             </note>
-            <note xml:id="d4617e6297" target="#d4617e6162 #d4617e6217">
-               <ref target="#d4617e6162 #d4617e6217">5</ref>
+            <note xml:id="d4618e7245">
+               <ref type="context">5</ref>
                <label>sed ipse non erravit</label>
                <p>Möglicherweise Anspielung auf den selbstgewählten Namen Lattanzio Stellas in der Akademie: „Fisso Promotore degli Erranti“ (Peroni, Biblioteca bresciana 3 239).</p>
             </note>
-            <note xml:id="d4617e6303" target="#d4617e6164 #d4617e6225">
-               <ref target="">6</ref>
+            <note xml:id="d4618e7251">
+               <ref type="context">6</ref>
                <label>Constantius de Salviis</label>
                <p>Armellini, Bibliotheca 1 138; Bossi, Matricula 1 454; Peroni, Biblioteca bresciana 3 187.</p>
             </note>

@@ -13,115 +13,109 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">429</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Arneth, Bartenstein 13f</bibl>
+                  <bibl>Braubach, Bartenstein 125–127, 133–136</bibl>
+                  <bibl>Mayer, Bartenstein 25f</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">II</biblScope>
+               <biblScope unit="page">325r–326v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Johann Christoph Bartenstein</persName>
+               <date when="1715-08-07">1715-08-07</date>
+               <placeName>Hamburg</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">431</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">408</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">408</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">429</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Johann Christoph Bartenstein</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1715-08-07</date>
-         <place-of-posting xmlns="">Hamburg</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e46659">CB dankt für BPs Brief vom 26. Juni <ref type="letter">408</ref>, in welchem dieser gemeinsam mit HP die Ergebnisse seiner Forschungen in den österreichischen Klöstern mitgeteilt hat. CB und Konrad Widow stehen zu ähnlichen Diensten für <persName>
-                     <abbr>BP</abbr>
-                  </persName> bereit.</seg>
-               <seg type="context" n="2" xml:id="d4617e46664">Nach Wien zu kommen, wie <persName>
-                     <abbr>BP</abbr>
-                  </persName> wünscht, ist für CB nun nicht mehr möglich, da sein Ansinnen, als Lutheraner in kaiserliche Dienste zu treten, entgegen anfänglichen Zusagen nun – nach drei Monaten Verzögerung – vom Kaiser verworfen worden ist. Er selbst würde lieber dem Rhein die Donau vorziehen und hält sich selbst nicht für einen verbissenen Lutheraner. CB ist frustriert, dass er als Deutscher unter Deutschen nicht reüssieren kann, will aber auch nicht sofort nach Frankreich, sondern nach Straßburg gehen, um sich dort um eigene Angelegenheiten und jene von Freunden zu kümmern. Bitter ist für ihn die Aussicht, dass ihm ein Wiedersehen mit <persName>
-                     <abbr>BP</abbr>
-                  </persName> wie auch mit Johann Benedikt Gentilotti oder Johann David Palm verwehrt bleibt. Obwohl am Wiener Hof viele Leute steile Karrieren machen, ist ihm selbst der Eingang in diese von <persName>
-                     <abbr>BP</abbr>
-                  </persName> so gelobte Arena verwehrt; dabei war er bereits entschlossen gewesen, andere attraktivere Angebote zugunsten Wiens auszuschlagen.</seg>
-               <seg type="context" n="3" xml:id="d4617e46666">Die einzig positive Wirkung dieser Verzögerung war, dass CB noch länger in Gesellschaft Widows verweilen konnte, welcher nun jedoch am Folgetag nach Dänemark abreist, während CB sich bald über Sachsen nach Straßburg begeben wird. So bittet er BP, künftige Post über den Wechsler Bartels in Frankfurt am Main laufen zu lassen.</seg>
-               <seg type="context" n="4" xml:id="d4617e46668">Sein Vater Johann Philipp Bartenstein hat CB mitgeteilt, dass er eine Büchersendung von René Massuet erhalten und an <persName>
-                     <abbr>BP</abbr>
-                  </persName> nach Melk weitergesendet hat. Darin befindet sich ein Exemplar von Montfaucons „Bibliotheca Coisliniana“, das für Gentilotti bestimmt ist. CB fragt, ob die Sendung bereits angekommen ist.</seg>
-               <seg type="context" n="5" xml:id="d4617e46670">Unter den von <persName>
-                     <abbr>BP</abbr>
-                  </persName> erwähnten Handschriften erscheint CB jene besonders interessant, in der die Privilegien und Stiftungen der Wiener Stephanskirche gesammelt sind. Hinsichtlich des Autors einer „Historia Friderici I.“ will CB versuchen, etwas Sicheres in Erfahrung zu bringen. CB schließt mit Grüßen von Widow an <persName>
-                     <abbr>BP</abbr>
-                  </persName> und von sich selbst an HP.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e52814">CB dankt für <rs type="person" role="sender">BPs</rs> Brief vom 26. Juni <ref type="letter">408</ref>, in welchem dieser gemeinsam mit HP die Ergebnisse seiner Forschungen in den österreichischen Klöstern mitgeteilt hat. CB und Konrad Widow stehen zu ähnlichen Diensten für <rs type="person" role="sender">BP</rs> bereit.</seg><seg type="context" n="2" xml:id="d4618e52819">Nach Wien zu kommen, wie <rs type="person" role="sender">BP</rs> wünscht, ist für CB nun nicht mehr möglich, da sein Ansinnen, als Lutheraner in kaiserliche Dienste zu treten, entgegen anfänglichen Zusagen nun – nach drei Monaten Verzögerung – vom Kaiser verworfen worden ist. Er selbst würde lieber dem Rhein die Donau vorziehen und hält sich selbst nicht für einen verbissenen Lutheraner. CB ist frustriert, dass er als Deutscher unter Deutschen nicht reüssieren kann, will aber auch nicht sofort nach Frankreich, sondern nach Straßburg gehen, um sich dort um eigene Angelegenheiten und jene von Freunden zu kümmern. Bitter ist für ihn die Aussicht, dass ihm ein Wiedersehen mit <rs type="person" role="sender">BP</rs> wie auch mit Johann Benedikt Gentilotti oder Johann David Palm verwehrt bleibt. Obwohl am Wiener Hof viele Leute steile Karrieren machen, ist ihm selbst der Eingang in diese von <rs type="person" role="sender">BP</rs> so gelobte Arena verwehrt; dabei war er bereits entschlossen gewesen, andere attraktivere Angebote zugunsten Wiens auszuschlagen.</seg><seg type="context" n="3" xml:id="d4618e52821">Die einzig positive Wirkung dieser Verzögerung war, dass CB noch länger in Gesellschaft Widows verweilen konnte, welcher nun jedoch am Folgetag nach Dänemark abreist, während CB sich bald über Sachsen nach Straßburg begeben wird. So bittet er BP, künftige Post über den Wechsler Bartels in Frankfurt am Main laufen zu lassen.</seg><seg type="context" n="4" xml:id="d4618e52823">Sein Vater Johann Philipp Bartenstein hat CB mitgeteilt, dass er eine Büchersendung von René Massuet erhalten und an <rs type="person" role="sender">BP</rs> nach Melk weitergesendet hat. Darin befindet sich ein Exemplar von Montfaucons „Bibliotheca Coisliniana“, das für Gentilotti bestimmt ist. CB fragt, ob die Sendung bereits angekommen ist.</seg><seg type="context" n="5" xml:id="d4618e52825">Unter den von <rs type="person" role="sender">BP</rs> erwähnten Handschriften erscheint CB jene besonders interessant, in der die Privilegien und Stiftungen der Wiener Stephanskirche gesammelt sind. Hinsichtlich des Autors einer „Historia Friderici I.“ will CB versuchen, etwas Sicheres in Erfahrung zu bringen. CB schließt mit Grüßen von Widow an <rs type="person" role="sender">BP</rs> und von sich selbst an HP.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: II, 325r–326v.</p>
-            <p>Literatur: Arneth, Bartenstein 13f.; Braubach, Bartenstein 125–127, 133–136; Mayer, Bartenstein 25f.</p>
-            <p>Bezüge: 408. 431. Erwähnt 408.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>408</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>431</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>408</idno>
-               </ref>
-            </correspContext>
-            <p>Nummerierung: <hi rend="italic">IX</hi>.</p>
-            <p>Ordnungsvermerk: <hi rend="italic">112</hi>.</p>
-            <p>Bemerkungen: Am linken unteren Blattrand von 1r der Vermerk <hi rend="italic">Pour le reverend pere Petz</hi>.</p>
+            <p xml:space="preserve">Nummerierung: <hi rend="italic">IX</hi>.</p>
+            <p xml:space="preserve">Ordnungsvermerk: <hi rend="italic">112</hi>.</p>
+            <p xml:space="preserve">Bemerkungen: Am linken unteren Blattrand von 1r der Vermerk <hi rend="italic">Pour le reverend pere Petz</hi>.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverendo in Christo patri domino Bernhardo Petzio Benedictino Mellicensi salutem plurimam dicit Johannes Christophorus Bartensteinius.</p>
-            <p>&lt;<seg type="context" n="1" xml:id="d4617e46700">&gt; Literae tuae 26. Junii die exaratae ante octiduum demum redditae mihi fuerunt. Pergratas illas mihi fuisse ubi dixero, nihil dixero, de quo non antea debeas et possis esse quam persuasissimus. Itaque iam non hoc tantum mihi dicendum est, sed illud potius, tantam ex illis relucere tuam clarissimique fratris tui humanitatem, ut, licet vos humanissimos semper aestimaverim, videamini tamen hac vice vos ipsos, id est ipsam humanitatem, supergressi. Nec hoc tantum in literis tuis exosculari licuit: non minus enim me aeque ac Widowium cepit impiger labor, quem <seg type="lemma" corresp="#d4617e46725">conquirendis vetustis monasteriorum vestrorum membranis</seg> impenditis labor [<hi rend="italic">sic</hi>], atque illud gratissimum vestri erga nos affectus τεκμήριον, quod fructus vigiliarum vestrarum nobiscum communicare haud dedignemini. Pergite, quo coepisti, in nos animo; ac de nobis hoc vicissim vobis persuadeatis, nos utut officiorum sive pondere sive numero, non tamen inserviendi cupiditate aut tenerrimi amoris sinceritate ulli cessuros. Haec ad te aeque ac clarissimum fratrem tuum scripsi; nunc ad te unice <pb n="1v"/> se convertit scriptio mea. </seg>
-               <seg type="context" n="2" xml:id="d4617e46707"> Mones me, ut <seg type="lemma" corresp="#d4617e46732">Vindobonam protinus redeam</seg>, sed vide, an non hoc ipso in amicum sis iniurius. Nam si in caesaream aulam iis conditionibus invitarer, quibus par erat, et quibus aliunde vocor, certe vel meus in te amor efficeret, ut Danubii ripas Rheni oris praeferrem. Sed nunc res secus accidit. Postquam enim constitit non eum me esse, qui diu nimis vana spe se deludi patitur, et velle me quovis modo nosse, quid demum a vestra aula expectandum mihi sit, tum vero oblatae antea conditiones in dubium revocabantur et difficultates, de quibus antea iam conventum erat, denuo proponebantur in medium. De religione ea scripseram, quae aequa et solida summis caesaris ministris videbantur. <seg type="lemma" corresp="#d4617e46739">Lutheranis partibus arctius me addictum</seg> non putabit, qui me novit. Sed arduum est, quod in re tam ardua suscipitur, negotium. Itaque nihil temere agendum, et quod caput rei est, nihil iuxta humanos affectus. Itaque me ea ab initio ratione caesari inserviturum spoponderam, quo [<hi rend="italic">sic</hi>] alii Lutherani solent; placuit conditio, ast postquam tres menses elapsi sunt, antequam ad caesarem causa deferretur summo eius comprobanda iudicio, nunc demum refertur caesari eandem non placere. Num tu iam author mihi in posterum <pb n="2r"/> eris eiciendi ex animo Gallicas spes? Ipse iudica, quid agendum mihi sit, et num Germano esse liceat, qui tam dure aut, ut verius dicam, tam viliter a Germanis habetur. Ubi ii, qui rerum apud vos potiuntur, eo in me animo erunt aut ea de me sentient, quae Galli sentiunt, tum me ad vos evocare integrum vobis erit; interim ego Argentinam redibo privatis meis amicorumque rebus totum me impensurus, et hoc tanto adhuc meo in Germanos affectui daturus, ut in Gallorum partes non statim concedam. Durum equidem mihi omnem Vindobonam redeundi spem deponere, quod incredibili tenebar desiderio tui videndi amplectendique; sed et Gentilotti, Palmii aliorumque amicorum consortium tam suave olim mihi fuit, ut eiusdem rursus fruendi non possim non magno flagrare ardore. Sed quoniam aliam fata monstravere viam, illa ineunda est. Novi multos apud vos ab infimis fortunae gradibus ad summum honoris culmen pervenisse; sed quae emergendi spes illi apparet, cui ne introitus quidem in arenam, quam tam gloriosam mihi depingis, conceditur? Constitueram iam mecum lautioribus conditionibus, quibus alio invitabar, spretis ad vos redire; sed iam mihi significatur nec ea amplius sperare licere, quae tenuiter satis promissa fuerunt. <pb n="2v"/> Et cum ea praecipue de causa Vindobonam Galliae et patriae praetulissem, quod crederem Germano proclivius esse inter Germanos emergere, iam totum negotium isti scopulo adiret, quod ambigere se dicunt vestrates, num emergendi me teneat cupiditas? Id est, num non sim recusaturus aliquando ampliora, quae destinabuntur, munera? Hactenus de Vindobonensi negotio, quod tu, uti spero, nulli mortalium communicabis. </seg>
-               <seg type="context" n="3" xml:id="d4617e46716"> Unicum fructum cepi ex illorum, qui Vindobonae res meas curabant, procrastinatione, ut suavissimo Widowii consortio amplexibusque diutius fruerer, a quo me nunc divelli sane quam iniquissime fero. Proficiscetur is cras in Danorum castra, et ego ante ipsius reditum adhuc Saxoniam secunda vice salutabo, Argentinam mox profecturus. Quamobrem rogandus es, vir amicissime, ut literas, quas mihi in posterum destinabis, inscribas domino Bartels mercatori cambiali, qui Francofurti ad Moenum degit. </seg>
-               <seg type="context" n="4" xml:id="d4617e46718"> Parens nuper mihi significavit accepisse se <seg type="lemma" corresp="#d4617e46744">fasciculum librorum</seg>, quem iubente Massueto ad te Mellicium miserit; illi inesse exemplar catalogi Bibliothecae Coislinianae dono destinatum perillustri Gentilotto a summo viro auctore eiusdem. Num traditus iam tibi fasciculus iste? cupio mox a te edoceri. </seg>
-               <seg type="context" n="5" xml:id="d4617e46720"> Inter codices manuscriptos, quos ultimo loco memorasti, prae caeteris insignis et magnae utilitatis mihi videtur esse ille, qui <seg type="lemma" corresp="#d4617e46751">privilegia et donationes ab imperatoribus ecclesiae S. Stephani</seg> Vindobonensi factas continet. De authore <seg type="lemma" corresp="#d4617e46758">Historiae Friderici I.</seg> curabo, ut certi quid ad te perscribere liceat, quantum scilicet natura rei certitudinem patitur. Widowius plurimam tibi et ego officiosissimam fratri tuo salutem adscribo. Vale, amicissimum caput, et me amare perge.</seg>
-            </p>
-            <p>Scribebam perquam festinanter Hamburgi VII. Idus Augusti MDCCXV.</p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverendo in Christo patri domino Bernhardo Petzio Benedictino Mellicensi salutem plurimam dicit Johannes Christophorus Bartensteinius.</p>
+            <p xml:space="preserve">&lt;<seg type="context" n="1" xml:space="preserve" xml:id="d4618e52855">&gt; Literae tuae 26. Junii die exaratae ante octiduum demum redditae mihi fuerunt. Pergratas illas mihi fuisse ubi dixero, nihil dixero, de quo non antea debeas et possis esse quam persuasissimus. Itaque iam non hoc tantum mihi dicendum est, sed illud potius, tantam ex illis relucere tuam clarissimique fratris tui humanitatem, ut, licet vos humanissimos semper aestimaverim, videamini tamen hac vice vos ipsos, id est ipsam humanitatem, supergressi. Nec hoc tantum in literis tuis exosculari licuit: non minus enim me aeque ac Widowium cepit impiger labor, quem <seg type="lemma" corresp="#d4618e52902">conquirendis vetustis monasteriorum vestrorum membranis</seg> impenditis labor [<hi rend="italic">sic</hi>], atque illud gratissimum vestri erga nos affectus τεκμήριον, quod fructus vigiliarum vestrarum nobiscum communicare haud dedignemini. Pergite, quo coepisti, in nos animo; ac de nobis hoc vicissim vobis persuadeatis, nos utut officiorum sive pondere sive numero, non tamen inserviendi cupiditate aut tenerrimi amoris sinceritate ulli cessuros. Haec ad te aeque ac clarissimum fratrem tuum scripsi; nunc ad te unice <pb n="1v"/> se convertit scriptio mea. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e52862"> Mones me, ut <seg type="lemma" corresp="#d4618e52909">Vindobonam protinus redeam</seg>, sed vide, an non hoc ipso in amicum sis iniurius. Nam si in caesaream aulam iis conditionibus invitarer, quibus par erat, et quibus aliunde vocor, certe vel meus in te amor efficeret, ut Danubii ripas Rheni oris praeferrem. Sed nunc res secus accidit. Postquam enim constitit non eum me esse, qui diu nimis vana spe se deludi patitur, et velle me quovis modo nosse, quid demum a vestra aula expectandum mihi sit, tum vero oblatae antea conditiones in dubium revocabantur<note place="foot" xml:id="d4618e52864">	Korrigiert aus <hi rend="italic">revocantur</hi>.</note> et difficultates, de quibus antea iam conventum erat, denuo proponebantur<note place="foot" xml:id="d4618e52870">	Korrigiert aus <hi rend="italic">proponuntur</hi>.</note> in medium. De religione ea scripseram, quae aequa et solida summis caesaris ministris videbantur. <seg type="lemma" corresp="#d4618e52916">Lutheranis partibus arctius me addictum</seg> non putabit, qui me novit. Sed arduum est, quod in re tam ardua suscipitur, negotium. Itaque nihil temere agendum, et quod caput rei est, nihil iuxta humanos affectus. Itaque me ea ab initio ratione caesari inserviturum spoponderam, quo [<hi rend="italic">sic</hi>] alii Lutherani solent; placuit conditio, ast postquam tres menses elapsi sunt, antequam ad caesarem causa deferretur summo eius comprobanda iudicio, nunc demum refertur caesari eandem non placere. Num tu iam author mihi in posterum <pb n="2r"/> eris eiciendi ex animo Gallicas spes? Ipse iudica, quid agendum mihi sit, et num Germano esse liceat, qui tam dure aut, ut verius dicam, tam viliter a Germanis habetur. Ubi ii, qui rerum apud vos potiuntur, eo in me animo erunt aut ea de me sentient, quae Galli sentiunt, tum me ad vos evocare integrum vobis erit; interim ego Argentinam redibo privatis meis amicorumque rebus totum me impensurus, et hoc tanto adhuc meo in Germanos affectui daturus, ut in Gallorum partes non statim concedam. Durum equidem mihi omnem Vindobonam redeundi spem deponere, quod incredibili tenebar desiderio tui videndi amplectendique; sed et Gentilotti, Palmii aliorumque amicorum consortium tam suave olim mihi fuit, ut eiusdem rursus fruendi non possim non magno flagrare ardore. Sed quoniam aliam fata monstravere viam, illa ineunda est. Novi multos apud vos ab infimis fortunae gradibus ad summum honoris culmen pervenisse; sed quae emergendi spes illi apparet, cui ne introitus quidem in arenam, quam tam gloriosam mihi depingis, conceditur? Constitueram iam mecum lautioribus conditionibus, quibus alio invitabar, spretis ad vos redire; sed iam mihi significatur nec ea amplius sperare licere<note place="foot" xml:id="d4618e52881">	Korrigiert aus <hi rend="italic">licet</hi>.</note>, quae tenuiter satis promissa fuerunt. <pb n="2v"/> Et cum ea praecipue de causa Vindobonam Galliae et patriae praetulissem, quod crederem Germano proclivius esse inter Germanos emergere, iam totum negotium isti scopulo adiret, quod ambigere se dicunt vestrates<note place="foot" xml:id="d4618e52890">	Über der Zeile eingefügt.</note>, num emergendi me teneat cupiditas? Id est, num non sim recusaturus aliquando ampliora, quae destinabuntur, munera? Hactenus de Vindobonensi negotio, quod tu, uti spero, nulli mortalium communicabis. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e52893"> Unicum fructum cepi ex illorum, qui Vindobonae res meas curabant, procrastinatione, ut suavissimo Widowii consortio amplexibusque diutius fruerer, a quo me nunc divelli sane quam iniquissime fero. Proficiscetur is cras in Danorum castra, et ego ante ipsius reditum adhuc Saxoniam secunda vice salutabo, Argentinam mox profecturus. Quamobrem rogandus es, vir amicissime, ut literas, quas mihi in posterum destinabis, inscribas domino Bartels mercatori cambiali, qui Francofurti ad Moenum degit. </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e52895"> Parens nuper mihi significavit accepisse se <seg type="lemma" corresp="#d4618e52921">fasciculum librorum</seg>, quem iubente Massueto ad te Mellicium miserit; illi inesse exemplar catalogi Bibliothecae Coislinianae dono destinatum perillustri Gentilotto a summo viro auctore eiusdem. Num traditus iam tibi fasciculus iste? cupio mox a te edoceri. </seg><seg type="context" n="5" xml:space="preserve" xml:id="d4618e52897"> Inter codices manuscriptos, quos ultimo loco memorasti, prae caeteris insignis et magnae utilitatis mihi videtur esse ille, qui <seg type="lemma" corresp="#d4618e52928">privilegia et donationes ab imperatoribus ecclesiae S. Stephani</seg> Vindobonensi factas continet. De authore <seg type="lemma" corresp="#d4618e52935">Historiae Friderici I.</seg> curabo, ut certi quid ad te perscribere liceat, quantum scilicet natura rei certitudinem patitur. Widowius plurimam tibi et ego officiosissimam fratri tuo salutem adscribo. Vale, amicissimum caput, et me amare perge.</seg></p>
+            <p xml:space="preserve">Scribebam perquam festinanter Hamburgi VII. Idus Augusti MDCCXV.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e46725" target="#d4617e46659 #d4617e46700">
-               <ref target="">1</ref>
+            <note xml:id="d4618e52902">
+               <ref type="context">1</ref>
                <label>conquirendis ... membranis</label>
                <p>Gemeint sind sicherlich Resultate der Bibliotheksreise BPs und HPs im Mai 1715; vgl. 406.</p>
             </note>
-            <note xml:id="d4617e46732" target="#d4617e46664 #d4617e46707">
-               <ref target="">2</ref>
+            <note xml:id="d4618e52909">
+               <ref type="context">2</ref>
                <label>Vindobonam ... redeam</label>
                <p>Vgl. 365 &lt;3&gt;, 393 &lt;3&gt;, 396 &lt;4&gt;, 406 &lt;4&gt;.</p>
             </note>
-            <note xml:id="d4617e46739" target="#d4617e46664 #d4617e46707">
-               <ref target="#d4617e46664 #d4617e46707">2</ref>
+            <note xml:id="d4618e52916">
+               <ref type="context">2</ref>
                <label>Lutheranis partibus arctius me addictum</label>
                <p>Massuet hielt eine Konversion CBs bereits um diese Zeit für möglich, vgl. 384 &lt;1&gt;. Auch in der Korrespondenz CBs mit Montfaucon wird etwa die Frage von Ähnlichkeiten jansenistischer mit evangelischen Positionen thematisiert; vgl. Einleitung, Abschnitt I.4, Anm. 54.</p>
             </note>
-            <note xml:id="d4617e46744" target="#d4617e46668 #d4617e46718">
-               <ref target="">4</ref>
+            <note xml:id="d4618e52921">
+               <ref type="context">4</ref>
                <label>fasciculum librorum</label>
                <p>Vgl. 413, 434.</p>
             </note>
-            <note xml:id="d4617e46751" target="#d4617e46670 #d4617e46720">
-               <ref target="">5</ref>
+            <note xml:id="d4618e52928">
+               <ref type="context">5</ref>
                <label>privilegia ... S. Stephani</label>
                <p>Zweifellos handelte es sich um eine der Handschriften, die BP auf seiner bereits eingangs erwähnten Bibliotheksreise entdeckt und von denen er CB berichtet hatte; anhand der Angabe CBs ist sie jedoch nicht zu identifizieren. In den von BP bald darauf veröffentlichten Handschriftenlisten wird eine Sammlung der Privilegien der Stadt Wien in der Bibliothek des Stiftes Dürnstein (Pez, Nachricht 178) erwähnt, weiters eine für die Wiener Universität in der Bibliothek des Wiener Schottenklosters (ebd. 202), doch wird man beide schwerlich mit der Nennung hier identifizieren können.</p>
             </note>
-            <note xml:id="d4617e46758" target="#d4617e46670 #d4617e46720">
-               <ref target="#d4617e46670 #d4617e46720">5</ref>
+            <note xml:id="d4618e52935">
+               <ref type="context">5</ref>
                <label>Historiae Friderici I.</label>
                <p>Bei Pez, Nachricht, ist nichts Derartiges erwähnt. Eine sichere Identifizierung erscheint ohne weitere Anhaltspunkte unmöglich.</p>
             </note>

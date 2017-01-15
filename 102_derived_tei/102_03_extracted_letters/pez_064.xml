@@ -13,49 +13,52 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">64</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>No direct source, inferred letter.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Bernhard Pez</persName>
+               <date notBefore="1710-04-21">&lt; 1710-04-21</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Albert Reichart</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">65</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">50</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">143</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">64</id>
-         <deduced xmlns="">true</deduced>
-         <sender xmlns="">Bernhard Pez</sender>
-         <recipient xmlns="">Albert Reichart</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">&lt; 1710-04-21</date>
-         <place-of-posting xmlns=""/>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="editorialNote">
-            <p>Bezüge: 50. 65. Erwähnt in 143.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>50</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>65</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>143</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: BP erwähnt in 143 (25. Januar 1711), dass er ARe geschrieben und ihn von Massuets Vorhaben in Kenntnis gesetzt habe. Eine direkte Erwähnung Massuets oder der Sammlung von Material für die „Annales OSB“ findet sich in keinem Brief ARes; doch äußert er sich bereits in 65 zu BPs Kontakt nach Frankreich. Es wird deshalb der in 143 erwähnte Kontakt mit jenem Brief identifiziert, auf den ARe mit 65 antwortet.</p>
+            <p xml:space="preserve">Bemerkungen: BP erwähnt in 143 (25. Januar 1711), dass er ARe geschrieben und ihn von Massuets Vorhaben in Kenntnis gesetzt habe. Eine direkte Erwähnung Massuets oder der Sammlung von Material für die „Annales OSB“ findet sich in keinem Brief ARes; doch äußert er sich bereits in 65 zu BPs Kontakt nach Frankreich. Es wird deshalb der in 143 erwähnte Kontakt mit jenem Brief identifiziert, auf den ARe mit 65 antwortet.</p>
          </div>
       </front>
       <body>
          <ab>
-            <gap reason="letter missing"/>
+            <gap reason="inferred letter"/>
          </ab>
       </body>
       <back/>

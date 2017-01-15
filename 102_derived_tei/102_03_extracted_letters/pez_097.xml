@@ -13,69 +13,75 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">97</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">37r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Andreas Reuter</persName>
+               <date when="1710-08-09">1710-08-09</date>
+               <placeName>Gleink</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="next">
+                  <idno type="pezEd"/>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">143</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">97</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Andreas Reuter</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1710-08-09</date>
-         <place-of-posting xmlns="">Gleink</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e9880">AReu bedauert, BPs Ansinnen nicht besser erfüllen zu können als durch Zusendung eines schlichten Katalogs der Äbte von Gleink mit einigen Notizen über die Gründung, welcher auf der Grundlage der Originaldokumente zusammengestellt worden ist. Die meisten Geschichtsquellen von Gleink sind durch Unglücksfälle und Kriege verloren gegangen.</seg>
-               <seg type="context" n="2" xml:id="d4617e9882">Hinsichtlich der „Annales OSB“ der Mauriner wird AReu beizeiten <persName>
-                     <abbr>BP</abbr>
-                  </persName> bitten, ihm einen günstigen Weg zu deren Anschaffung zu nennen.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e11672">AReu bedauert, <rs type="person" role="sender">BPs</rs> Ansinnen nicht besser erfüllen zu können als durch Zusendung eines schlichten Katalogs der Äbte von Gleink mit einigen Notizen über die Gründung, welcher auf der Grundlage der Originaldokumente zusammengestellt worden ist. Die meisten Geschichtsquellen von Gleink sind durch Unglücksfälle und Kriege verloren gegangen.</seg><seg type="context" n="2" xml:id="d4618e11674">Hinsichtlich der „Annales OSB“ der Mauriner wird AReu beizeiten <rs type="person" role="sender">BP</rs> bitten, ihm einen günstigen Weg zu deren Anschaffung zu nennen.</seg></p>
          </div>
-         <div type="editorialNote">
-            <p>Überlieferung: I, 37r–v.</p>
-            <p>Bezüge: Erwähnt in 143.</p>
-            <correspContext>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>143</idno>
-               </ref>
-            </correspContext>
-         </div>
+         <div type="editorialNote"/>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine pater Bernarde.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e9894"> Domine colendissime, doleo, quod plurimum reverendae paternitatis vestrae intentioni satisfacere [<hi rend="italic">sic</hi>], et tantum <seg type="lemma" corresp="#d4617e9908">catalogum</seg> rudissimo calamo nostrorum reverendissimorum dominorum abbatum cum quibusdam annexis de fundationibus nostris ex originalibus descriptum transmittere queam, nam ob <seg type="lemma" corresp="#d4617e9915">iniurias temporum</seg> bellorumque plurima sunt deperdita. </seg>
-               <seg type="context" n="2" xml:id="d4617e9899"> Quod attinet ad Annales Benedictinos a Gallis adornatos, cum tale sint opus, <pb n="1v"/> ut illis nulla bibliotheca carere debeat, quapropter dato tempore eosdem comparandi viam nobis ostendere enixe rogabo. Perseverans</seg>
-            </p>
-            <p>Plurimum reverendae religiosissimae ac clarissimae paternitatis vestrae devinctissimus pater Andreas prior manu propria.</p>
-            <p>Glunici 9. Augusti 1710.</p>
+            <p xml:space="preserve"><pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine pater Bernarde.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e11686"> Domine colendissime, doleo, quod plurimum reverendae paternitatis vestrae intentioni satisfacere [<hi rend="italic">sic</hi>]<note place="foot" xml:id="d4618e11691">	Es fehlt ein verneintes Prädikat, etwa <hi rend="italic">non valeam</hi> o. Ä.</note>, et tantum <seg type="lemma" corresp="#d4618e11706">catalogum</seg> rudissimo calamo nostrorum reverendissimorum dominorum abbatum cum quibusdam annexis de fundationibus nostris ex originalibus descriptum transmittere queam, nam ob <seg type="lemma" corresp="#d4618e11713">iniurias temporum</seg> bellorumque plurima sunt deperdita. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e11697"> Quod attinet ad Annales Benedictinos a Gallis adornatos, cum tale sint opus, <pb n="1v"/> ut illis nulla bibliotheca carere debeat, quapropter dato tempore eosdem comparandi viam nobis ostendere enixe rogabo. Perseverans</seg></p>
+            <p xml:space="preserve">Plurimum reverendae religiosissimae ac clarissimae paternitatis vestrae devinctissimus pater Andreas prior manu propria.</p>
+            <p xml:space="preserve">Glunici 9. Augusti 1710.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e9908" target="#d4617e9880 #d4617e9894">
-               <ref target="">1</ref>
+            <note xml:id="d4618e11706">
+               <ref type="context">1</ref>
                <label>catalogum</label>
                <p>Die Hausgeschichte von Gleink (ohne Titel) ist in Abschrift überliefert: StiB Melk, Cod. 396, 98r–101v (Glassner, Handschriften 88). Vgl. 143 &lt;4&gt;, 177 &lt;8&gt;.</p>
             </note>
-            <note xml:id="d4617e9915" target="#d4617e9880 #d4617e9894">
-               <ref target="#d4617e9880 #d4617e9894">1</ref>
+            <note xml:id="d4618e11713">
+               <ref type="context">1</ref>
                <label>iniurias temporum</label>
                <p>In Gleink hatte es 1423 einen größeren Brand gegeben, schwere Schäden aus Plünderungen waren durch türkische Reiterei 1532 sowie im oberösterreichischen Bauernkrieg 1626 eingetreten: Maier, Gleink 664f., 668.</p>
             </note>

@@ -13,128 +13,115 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">267</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">190r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Hyazinth Baumbach</persName>
+               <date when="1712-08-23">1712-08-23</date>
+               <placeName>Würzburg (St. Stephan)</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">284</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">250</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">267</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Hyazinth Baumbach</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1712-08-23</date>
-         <place-of-posting xmlns="">Würzburg (St. Stephan)</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e28287">
-                  <persName>
-                     <abbr>HB</abbr>
-                  </persName> bedauert, dass die Gegend Deutschlands und des Reiches, wo er lebt, so wenig zu BPs Bemühungen beiträgt.</seg>
-               <seg type="context" n="2" xml:id="d4617e28289">Konrad Sigler ist auf den Posten des Sekretärs des Würzburger Geistlichen Rates berufen worden. Wann er nach der Entlassung durch den sächsischen Kurprinzen (Friedrich August II.) die Stelle antreten wird, ist nicht bekannt. Wenn von Sigler Material zu bekommen ist, will <persName>
-                     <abbr>HB</abbr>
-                  </persName> dieses weitersenden.</seg>
-               <seg type="context" n="3" xml:id="d4617e28291">Über Heinrich Heinlein ist nur zu sagen, dass er bei jeder Gelegenheit und zum Unwillen der Kaisertreuen für den französischen König Ludwig XIV. Partei ergriff, da er diesen für den einzig wahren Verteidiger der katholischen Kirche hielt: als ob die Kirche auf königlicher Majestät, nicht auf dem Felsen (der päpstlichen Autorität?) errichtet wäre.</seg>
-               <seg type="context" n="4" xml:id="d4617e28293">Pater Felician (Felix Egger?) wird sich hinsichtlich der Abbildung von St. Stephan noch gedulden müssen, weil HBs Architekt (Joseph Greissing?) beschäftigt ist und sein Zeichner nicht das gewünschte Resultat erzielt. Aus demselben Grund hat auch der Abt von Banz Kilian Düring die ihm zugesendete Enzyklik noch behalten, um sie seinem Architekten (Johann Dientzenhofer) zu zeigen, wenn dieser aus Fulda kommt. Düring hat auf Bitten HBs das Anliegen auch an das Kloster Michelsberg bei Bamberg weitergeleitet, von wo ebenfalls ein Beitrag versprochen wurde.</seg>
-               <seg type="context" n="5" xml:id="d4617e28295">
-                  <persName>
-                     <abbr>HB</abbr>
-                  </persName> hofft, dass die Lage in Belgien sich durch das Wirken des Prinzen Eugen bald bessern wird. Die fränkischen Truppen haben bei der jüngsten Niederlage (bei Denain) empfindliche Verluste erlitten. In den „Nachrichten“ war neulich zu lesen, dass die Franzosen bessere Friedenskonditionen anbieten, was <persName>
-                     <abbr>HB</abbr>
-                  </persName> gutheißt, damit Gott den seit langem ersehnten Frieden geben kann; an Geld mangelt es. <persName>
-                     <abbr>HB</abbr>
-                  </persName> fürchtet indessen, dass das besetzte Douai wieder verloren gehen könnte.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e32534"><rs type="person" role="sender">HB</rs> bedauert, dass die Gegend Deutschlands und des Reiches, wo er lebt, so wenig zu <rs type="person" role="sender">BPs</rs> Bemühungen beiträgt.</seg><seg type="context" n="2" xml:id="d4618e32536">Konrad Sigler ist auf den Posten des Sekretärs des Würzburger Geistlichen Rates berufen worden. Wann er nach der Entlassung durch den sächsischen Kurprinzen (Friedrich August II.) die Stelle antreten wird, ist nicht bekannt. Wenn von Sigler Material zu bekommen ist, will <rs type="person" role="sender">HB</rs> dieses weitersenden.</seg><seg type="context" n="3" xml:id="d4618e32538">Über Heinrich Heinlein ist nur zu sagen, dass er bei jeder Gelegenheit und zum Unwillen der Kaisertreuen für den französischen König Ludwig XIV. Partei ergriff, da er diesen für den einzig wahren Verteidiger der katholischen Kirche hielt: als ob die Kirche auf königlicher Majestät, nicht auf dem Felsen (der päpstlichen Autorität?) errichtet wäre.</seg><seg type="context" n="4" xml:id="d4618e32540">Pater Felician (Felix Egger?) wird sich hinsichtlich der Abbildung von St. Stephan noch gedulden müssen, weil <rs type="person" role="sender">HBs</rs> Architekt (Joseph Greissing?) beschäftigt ist und sein Zeichner nicht das gewünschte Resultat erzielt. Aus demselben Grund hat auch der Abt von Banz Kilian Düring die ihm zugesendete Enzyklik noch behalten, um sie seinem Architekten (Johann Dientzenhofer) zu zeigen, wenn dieser aus Fulda kommt. Düring hat auf Bitten <rs type="person" role="sender">HBs</rs> das Anliegen auch an das Kloster Michelsberg bei Bamberg weitergeleitet, von wo ebenfalls ein Beitrag versprochen wurde.</seg><seg type="context" n="5" xml:id="d4618e32542"><rs type="person" role="sender">HB</rs> hofft, dass die Lage in Belgien sich durch das Wirken des Prinzen Eugen bald bessern wird. Die fränkischen Truppen haben bei der jüngsten Niederlage (bei Denain) empfindliche Verluste erlitten. In den „Nachrichten“ war neulich zu lesen, dass die Franzosen bessere Friedenskonditionen anbieten, was <rs type="person" role="sender">HB</rs> gutheißt, damit Gott den seit langem ersehnten Frieden geben kann; an Geld mangelt es. <rs type="person" role="sender">HB</rs> fürchtet indessen, dass das besetzte Douai wieder verloren gehen könnte.</seg></p>
          </div>
-         <div type="editorialNote">
-            <p>Überlieferung: I, 190r–v.</p>
-            <p>Bezüge: 250. 284.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>250</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>284</idno>
-               </ref>
-            </correspContext>
-         </div>
+         <div type="editorialNote"/>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiose eximie ac doctissime in Christo pater, domine colende.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e28307"> Doleo plane provincias huius partis nostrae Germaniae et imperii tam steriles, ut fructum nullum afferant, laborem et sudorem admodum reverendae paternitatis vestrae eo iucundaturae. </seg>
-               <seg type="context" n="2" xml:id="d4617e28309"> Domino Siegler collatum et reservatum est officium secretarii <seg type="lemma" corresp="#d4617e28330">in consilio ecclesiastico</seg> hic Herbipoli; quando autem post obtentas <seg type="lemma" corresp="#d4617e28337">dimissoriales a principe</seg> electorali Saxonico adventurus sit, adhuc incognitum est. Post cuius adventum, si quid haberi poterit, mittetur. </seg>
-               <seg type="context" n="3" xml:id="d4617e28311"> De patre <seg type="lemma" corresp="#d4617e28342">Heinrico Heinlein</seg> vix habebitur aliud, quam quod in qualib<seg type="lemma" corresp="#d4617e28349">et occasione tenaciter pro rege Galliae locutus fuerit, cum indignatione multorum diminutionem, ne dicam despectum, caesareae maiestatis inde arguentium. Motivum eius unicum erat, quod crederet hunc solum sufficientem ecclesiae catholicae defensorem: quasi vero vera ecclesia catholica super regiam maiestatem fundata esset, et non potius supra petram</seg>. <pb n="1v"/> 
-               </seg>
-               <seg type="context" n="4" xml:id="d4617e28315"> Optimus reverendus pater et <seg type="lemma" corresp="#d4617e28354">dominus Felicianus</seg> maiorem patientiam habere debebit. <seg type="lemma" corresp="#d4617e28361">Architectus meus dicit, etiamsi nescio quid ei darem, modo tamen sero posse delineare propter negotia plurima. Pictor</seg> vero, ut scripsi, non tangit, ne dicam adaequat. Ex eodem motivo schema transmissum retinuit usque modo reverendissimus dominus abbas Banthensis suo <seg type="lemma" corresp="#d4617e28366">architecto Fulda adventuro</seg> ostendendum, sicut oretenus mihi locutus est. Bambergensibus ad meam petitionem communicavit, qui et ipsi remiserunt parem promissionem facientes. </seg>
-               <seg type="context" n="5" xml:id="d4617e28317"> Nova hactenus ex Belgio adversa speramus per serenissimum et invictissimum principem Eugenium quotidie emendata aut adhuc emendanda. An Deus optimus dabit, tempus docebit. Interim <seg type="lemma" corresp="#d4617e28371">miles noster Franconicus in ea, quae accidit, clade</seg> notabiliter passus est. Proxime in <seg type="lemma" corresp="#d4617e28378">novellis</seg> scribebantur proximiores [<hi rend="italic">sic</hi>] et favorabiliores pacis conditiones a Gallis afferri. Si ita continuaverint, bene erit, et Deus dabit nobis suam pacem dudum optatam, quia pecuniae deficiunt. Timeo autem, ne <seg type="lemma" corresp="#d4617e28383">Dovay occupatum diripiant</seg>. Quidquid fiat, Altissimi protectioni nos utrobique demisissime [<hi rend="italic">sic</hi>] commendo et maneo</seg>
-            </p>
-            <p>Admodum reverendae paternitatis vestrae addictissimus Hyacinth abbas manu propria.</p>
-            <p>Herbipoli ex monasterio S. Stephani 23. Augusti 1712.</p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiose eximie ac doctissime in Christo pater, domine colende.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e32554"> Doleo plane provincias huius partis nostrae Germaniae et imperii tam steriles, ut fructum nullum afferant, laborem et sudorem admodum reverendae paternitatis vestrae eo iucundaturae. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e32556"> Domino Siegler collatum et reservatum est officium secretarii <seg type="lemma" corresp="#d4618e32577">in consilio ecclesiastico</seg> hic Herbipoli; quando autem post obtentas <seg type="lemma" corresp="#d4618e32584">dimissoriales a principe</seg> electorali Saxonico adventurus sit, adhuc incognitum est. Post cuius adventum, si quid haberi poterit, mittetur. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e32558"> De patre <seg type="lemma" corresp="#d4618e32589">Heinrico Heinlein</seg> vix habebitur aliud, quam quod in qualib<seg type="lemma" corresp="#d4618e32596">et occasione tenaciter pro rege Galliae locutus fuerit, cum indignatione multorum diminutionem, ne dicam despectum, caesareae maiestatis inde arguentium. Motivum eius unicum erat, quod crederet hunc solum sufficientem ecclesiae catholicae defensorem: quasi vero vera ecclesia catholica super regiam maiestatem fundata esset, et non potius supra petram</seg>. <pb n="1v"/> </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e32562"> Optimus reverendus pater et <seg type="lemma" corresp="#d4618e32601">dominus Felicianus</seg> maiorem patientiam habere debebit. <seg type="lemma" corresp="#d4618e32608">Architectus meus dicit, etiamsi nescio quid ei darem, modo tamen sero posse delineare propter negotia plurima. Pictor</seg> vero, ut scripsi, non tangit, ne dicam adaequat. Ex eodem motivo schema transmissum retinuit usque modo reverendissimus dominus abbas Banthensis suo <seg type="lemma" corresp="#d4618e32613">architecto Fulda adventuro</seg> ostendendum, sicut oretenus mihi locutus est. Bambergensibus ad meam petitionem communicavit, qui et ipsi remiserunt parem promissionem facientes. </seg><seg type="context" n="5" xml:space="preserve" xml:id="d4618e32564"> Nova hactenus ex Belgio adversa speramus per serenissimum et invictissimum principem Eugenium quotidie emendata aut adhuc emendanda. An Deus optimus dabit, tempus docebit. Interim <seg type="lemma" corresp="#d4618e32618">miles noster Franconicus in ea, quae accidit, clade</seg> notabiliter passus est. Proxime in <seg type="lemma" corresp="#d4618e32625">novellis</seg> scribebantur proximiores [<hi rend="italic">sic</hi>] et favorabiliores pacis conditiones a Gallis afferri. Si ita continuaverint, bene erit, et Deus dabit nobis suam pacem dudum optatam, quia pecuniae deficiunt. Timeo autem, ne <seg type="lemma" corresp="#d4618e32630">Dovay occupatum diripiant</seg>. Quidquid fiat, Altissimi protectioni nos utrobique demisissime [<hi rend="italic">sic</hi>] commendo et maneo</seg></p>
+            <p xml:space="preserve">Admodum reverendae paternitatis vestrae addictissimus Hyacinth abbas manu propria.</p>
+            <p xml:space="preserve">Herbipoli ex monasterio S. Stephani 23. Augusti 1712.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e28330" target="#d4617e28289 #d4617e28309">
-               <ref target="">2</ref>
+            <note xml:id="d4618e32577">
+               <ref type="context">2</ref>
                <label>in consilio ecclesiastico</label>
                <p>Der Geistliche Rat, ein Gremium von etwa fünfzehn hochrangigen Klerikern unter dem Vorsitz eines Domkapitulars, war im Hochstift Würzburg für die geistliche und kirchliche Verwaltung einschließlich des kirchlichen Bauwesens zuständig. Der Sekretär war der oberste unter den Kanzleibeamten, die dem Geistlichen Rat beigegeben waren: Willoweit, Staatsorganisation 72.</p>
             </note>
-            <note xml:id="d4617e28337" target="#d4617e28289 #d4617e28309">
-               <ref target="#d4617e28289 #d4617e28309">2</ref>
+            <note xml:id="d4618e32584">
+               <ref type="context">2</ref>
                <label>dimissoriales a principe</label>
                <p>Vgl. 308 &lt;2&gt;.</p>
             </note>
-            <note xml:id="d4617e28342" target="#d4617e28291 #d4617e28311">
-               <ref target="">3</ref>
+            <note xml:id="d4618e32589">
+               <ref type="context">3</ref>
                <label>Heinrico Heinlein</label>
                <p>Vgl. 99, 239.</p>
             </note>
-            <note xml:id="d4617e28349" target="#d4617e28291 #d4617e28311">
-               <ref target="#d4617e28291 #d4617e28311">3</ref>
+            <note xml:id="d4618e32596">
+               <ref type="context">3</ref>
                <label>et non ... supra petram</label>
                <p>HB spielt an auf Mt 16,16. Da sich die Stelle auf Petrus bezieht und von katholischer Seite häufig als biblisches Argument für das Papsttum angeführt wurde, liegt nahe, dass er hier die päpstliche Autorität und die weltlicher Fürsten gegenüberstellt.</p>
             </note>
-            <note xml:id="d4617e28354" target="#d4617e28293 #d4617e28315">
-               <ref target="">4</ref>
+            <note xml:id="d4618e32601">
+               <ref type="context">4</ref>
                <label>dominus Felicianus</label>
                <p>Es dürfte Felix Egger gemeint sein. Dafür sprechen seine explizite Erwähnung in 303 ebenso wie die Tatsache, dass er für seine „Idea ordinis hierarchico-Benedictini“ Abbildungen von Klöstern anfertigen ließ (vgl. 249 &lt;8&gt;). Zudem gebrauchte Egger selbst für sich gelegentlich die Namensform „Felician“ (457).</p>
             </note>
-            <note xml:id="d4617e28361" target="#d4617e28293 #d4617e28315">
-               <ref target="#d4617e28293 #d4617e28315">4</ref>
+            <note xml:id="d4618e32608">
+               <ref type="context">4</ref>
                <label>Architectus ... Pictor</label>
                <p>Vgl. 250.</p>
             </note>
-            <note xml:id="d4617e28366" target="#d4617e28293 #d4617e28315">
-               <ref target="#d4617e28293 #d4617e28315">4</ref>
+            <note xml:id="d4618e32613">
+               <ref type="context">4</ref>
                <label>architecto Fulda adventuro</label>
                <p>Johann Dientzenhofer, der Hofbaumeister des Bischofs von Bamberg, leitete auch den Kirchenneubau in Banz. Zudem betreute er weiter den Bau der Fuldaer Stiftskirche, den er als dortiger Hofbaumeister begonnen hatte, bevor er seinem 1707 verstorbenen Bruder Johann Leonhard in Bamberg nachgefolgt war. Am 15. August 1712, wenige Tage vor diesem Brief, wurde die Stiftskirche eingeweiht: Vilímková–Brucker, Dientzenhofer 46–56; vgl. Hotz, Banz 73.</p>
             </note>
-            <note xml:id="d4617e28371" target="#d4617e28295 #d4617e28317">
-               <ref target="">5</ref>
+            <note xml:id="d4618e32618">
+               <ref type="context">5</ref>
                <label>miles noster Franconicus in ... clade</label>
                <p>Gemeint ist wohl die Niederlage bei Denain am 24. Juli 1712, bei der die Alliierten, darunter Würzburger Truppen, hohe Verluste erlitten und sich unter den zahlreichen Gefangenen auch der würzburgische Generalfeldwachtmeister Franz Anton von Dalberg befand: Siegler von Eberswald, Feldzug 1712 189.</p>
             </note>
-            <note xml:id="d4617e28378" target="#d4617e28295 #d4617e28317">
-               <ref target="#d4617e28295 #d4617e28317">5</ref>
+            <note xml:id="d4618e32625">
+               <ref type="context">5</ref>
                <label>novellis</label>
                <p>Vgl. 196 &lt;4&gt;.</p>
             </note>
-            <note xml:id="d4617e28383" target="#d4617e28295 #d4617e28317">
-               <ref target="#d4617e28295 #d4617e28317">5</ref>
+            <note xml:id="d4618e32630">
+               <ref type="context">5</ref>
                <label>Dovay occupatum diripiant</label>
                <p>Die Festungsstadt Douai war 1710 von den Alliierten eingenommen worden; die große Bedeutung, die dem Ereignis beigemessen wurde, zeigt sich etwa an der Eintragung in die Melker Prioratsephemeriden (PE 5 44), die sonst kaum über militärisches Geschehen berichten. Anfang August 1712 wurde Douai von den Franzosen eingeschlossen; am 8. September musste es, wie HB zu Recht befürchtete, kapitulieren: Siegler von Eberswald, Feldzug 1712 198–217.</p>
             </note>

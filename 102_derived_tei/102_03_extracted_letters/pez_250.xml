@@ -13,131 +13,114 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">250</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">195r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Hyazinth Baumbach</persName>
+               <date when="1712-06-11">1712-06-11</date>
+               <placeName>Würzburg (St. Stephan)</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">267</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">240</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">240</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">250</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Hyazinth Baumbach</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1712-06-11</date>
-         <place-of-posting xmlns="">Würzburg (St. Stephan)</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e26193">
-                  <persName>
-                     <abbr>HB</abbr>
-                  </persName> hat BPs Brief <ref type="letter">240</ref> vom 21. April erhalten, die Antwort jedoch aufgeschoben, um BPs Wunsch wenigstens zum Teil nachkommen zu können. Dies ist aber weiterhin nicht möglich, da HBs Zeichner zwar zwei Ansichten von St. Stephan angefertigt hat, jedoch keine der beiden den Erwartungen entsprach, und es deshalb notwendig ist, den Architekten (Joseph Greissing?) zu bitten, was jedoch einige Zeit in Anspruch nehmen wird.</seg>
-               <seg type="context" n="2" xml:id="d4617e26198">
-                  <persName>
-                     <abbr>HB</abbr>
-                  </persName> hat BPs Ansinnen dem Abt von Banz, Kilian Düring, mitgeteilt. Dieser soll auch das Kloster Michelsberg bei Bamberg benachrichtigen; er hat seine Mitarbeit zugesagt. Banz wird gerade von Grund auf erneuert, in diesem Jahr soll die Kirche unter Dach kommen. Michelsberg wird zum Teil erneuert.</seg>
-               <seg type="context" n="3" xml:id="d4617e26200">
-                  <persName>
-                     <abbr>HB</abbr>
-                  </persName> will den erhaltenen Brief auch nach Münsterschwarzach weitersenden, das ebenfalls vom früheren Abt Augustin Voit erneuert wurde; in Theres dagegen ist man noch am Planen.</seg>
-               <seg type="context" n="4" xml:id="d4617e26202">
-                  <persName>
-                     <abbr>HB</abbr>
-                  </persName> bedauert, nicht schneller Material zur „Bibliotheca Benedictina“ beitragen zu können.</seg>
-               <seg type="context" n="5" xml:id="d4617e26204">In einem Postskriptum bezweifelt HB, ob der anstehende Friedensschluss momentan günstig für Karl VI., das Reich und das Haus Österreich ist. Die Verbündeten verfolgen nur ihre eigenen Interessen.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e30268"><rs type="person" role="sender">HB</rs> hat <rs type="person" role="sender">BPs</rs> Brief <ref type="letter">240</ref> vom 21. April erhalten, die Antwort jedoch aufgeschoben, um <rs type="person" role="sender">BPs</rs> Wunsch wenigstens zum Teil nachkommen zu können. Dies ist aber weiterhin nicht möglich, da <rs type="person" role="sender">HBs</rs> Zeichner zwar zwei Ansichten von St. Stephan angefertigt hat, jedoch keine der beiden den Erwartungen entsprach, und es deshalb notwendig ist, den Architekten (Joseph Greissing?) zu bitten, was jedoch einige Zeit in Anspruch nehmen wird.</seg><seg type="context" n="2" xml:id="d4618e30273"><rs type="person" role="sender">HB</rs> hat <rs type="person" role="sender">BPs</rs> Ansinnen dem Abt von Banz, Kilian Düring, mitgeteilt. Dieser soll auch das Kloster Michelsberg bei Bamberg benachrichtigen; er hat seine Mitarbeit zugesagt. Banz wird gerade von Grund auf erneuert, in diesem Jahr soll die Kirche unter Dach kommen. Michelsberg wird zum Teil erneuert.</seg><seg type="context" n="3" xml:id="d4618e30275"><rs type="person" role="sender">HB</rs> will den erhaltenen Brief auch nach Münsterschwarzach weitersenden, das ebenfalls vom früheren Abt Augustin Voit erneuert wurde; in Theres dagegen ist man noch am Planen.</seg><seg type="context" n="4" xml:id="d4618e30277"><rs type="person" role="sender">HB</rs> bedauert, nicht schneller Material zur „Bibliotheca Benedictina“ beitragen zu können.</seg><seg type="context" n="5" xml:id="d4618e30279">In einem Postskriptum bezweifelt HB, ob der anstehende Friedensschluss momentan günstig für Karl VI., das Reich und das Haus Österreich ist. Die Verbündeten verfolgen nur ihre eigenen Interessen.</seg></p>
          </div>
-         <div type="editorialNote">
-            <p>Überlieferung: I, 195r–v.</p>
-            <p>Bezüge: 240. 267. Erwähnt 240.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>240</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>267</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>240</idno>
-               </ref>
-            </correspContext>
-         </div>
+         <div type="editorialNote"/>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiose eximie ac doctissime pater, domine colende.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e26216"> Ultimas admodum reverendae paternitatis vestrae sub 21. Aprilis datas rite accepi. Responsorias vero de die in diem, de mense ad mensem differebam in eum finem, ut simul intentioni saltem ex parte satisfacerem, quod tamen neque modo fieri potuit: bis enim iam <seg type="lemma" corresp="#d4617e26237">per pictorem</seg> 
-                  <seg type="lemma" corresp="#d4617e26244">delineari feci monasterium</seg> nostrum, et neutra vice adaequavit, ita ut nunc <seg type="lemma" corresp="#d4617e26249">per fabricatorem</seg> aut architectum fieri necesse sit, cum quo tamen propter negotia patientia habenda erit. Quod igitur hisce, ne taedioso silentio longior aut gravis essem, insinuare volui. </seg>
-               <seg type="context" n="2" xml:id="d4617e26218"> Communicavi interim zelosa sacri ordinis nostri desideria reverendissimo domino abbati Banthensi a nobis prae caeteris remotiori cum petitione, ut monasterio S. Michaelis Bambergae communicaret, qui duplici petito se satisfacturum rescibens [<hi rend="italic">sic</hi>] promisit. Hoc monasterium ex integro <seg type="lemma" corresp="#d4617e26254">novum exstruitur</seg>, Banthense scilicet, aut ferme iam exstructum est una cum ecclesia, quae hoc anno ad tectum usque excrescet. <seg type="lemma" corresp="#d4617e26261">Bambergense ex parte novum</seg>. <pb n="1v"/> 
-               </seg>
-               <seg type="context" n="3" xml:id="d4617e26225"> 
-                  <seg type="lemma" corresp="#d4617e26266">Epistolas receptas</seg> Schwartzacensi monasterio communicabo, quod et ipsum <seg type="lemma" corresp="#d4617e26273">ex multa parte ab antecessore abbate novum</seg> est. <seg type="lemma" corresp="#d4617e26278">Therense</seg> vero adhuc hinc conceptibus gravidum. </seg>
-               <seg type="context" n="4" xml:id="d4617e26227"> Interim doleo me ad vota citius servire non posse; ne tamen tardioribus in respondendo, maxime circa laboriosam sacri ordinis nostri Bibliothecam, annumerarer, hasce praemittere volui, quibus me devotioni vestrae commendo ac constanter maneo</seg>
-            </p>
-            <p>Admodum reverendae paternitatis vestrae addictissimus Hyacinth abbas manu propria.</p>
-            <p>Herbipoli ex monasterio S. Stephani 11. Junii 1712.</p>
-            <p>
-               <seg type="context" n="5" xml:id="d4617e26234"> P.S. Videtur futura <seg type="lemma" corresp="#d4617e26283">pax contra intentionem augustissimi imperatoris</seg>, dum miles in campo ad tam favorabilem auram non agit. An bona pro augustissima domo Austriaca et imperio, a multis dubitatur. Confoederati quaerunt solum, quae sua sunt.</seg>
-            </p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiose eximie ac doctissime pater, domine colende.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e30291"> Ultimas admodum reverendae paternitatis vestrae sub 21. Aprilis<note place="foot" xml:id="d4618e30293">	Korrigiert aus <hi rend="italic">13. Martii</hi>.</note> datas rite accepi. Responsorias vero de die in diem, de mense ad mensem differebam in eum finem, ut simul intentioni saltem ex parte satisfacerem, quod tamen neque modo fieri potuit: bis enim iam <seg type="lemma" corresp="#d4618e30318">per pictorem</seg> <seg type="lemma" corresp="#d4618e30325">delineari feci monasterium</seg> nostrum, et neutra vice adaequavit, ita ut nunc <seg type="lemma" corresp="#d4618e30330">per fabricatorem</seg> aut architectum fieri necesse sit, cum quo tamen propter negotia patientia habenda erit. Quod igitur hisce, ne taedioso silentio longior aut gravis essem, insinuare volui. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e30299"> Communicavi interim zelosa sacri ordinis nostri desideria reverendissimo domino abbati Banthensi a nobis prae caeteris remotiori cum petitione, ut monasterio S. Michaelis Bambergae communicaret, qui duplici petito se satisfacturum rescibens [<hi rend="italic">sic</hi>] promisit. Hoc monasterium ex integro <seg type="lemma" corresp="#d4618e30335">novum exstruitur</seg>, Banthense scilicet, aut ferme iam exstructum est una cum ecclesia, quae hoc anno ad tectum usque excrescet. <seg type="lemma" corresp="#d4618e30342">Bambergense ex parte novum</seg>. <pb n="1v"/> </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e30306"> <seg type="lemma" corresp="#d4618e30347">Epistolas receptas</seg> Schwartzacensi monasterio communicabo, quod et ipsum <seg type="lemma" corresp="#d4618e30354">ex multa parte ab antecessore abbate novum</seg> est. <seg type="lemma" corresp="#d4618e30359">Therense</seg> vero adhuc hinc conceptibus gravidum. </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e30308"> Interim doleo me ad vota citius servire non posse; ne tamen tardioribus in respondendo, maxime circa laboriosam sacri ordinis nostri Bibliothecam, annumerarer, hasce praemittere volui, quibus me devotioni vestrae commendo ac constanter maneo</seg></p>
+            <p xml:space="preserve">Admodum reverendae paternitatis vestrae addictissimus Hyacinth abbas manu propria.</p>
+            <p xml:space="preserve">Herbipoli ex monasterio S. Stephani 11. Junii 1712.</p>
+            <p xml:space="preserve"><seg type="context" n="5" xml:space="preserve" xml:id="d4618e30315"> P.S. Videtur futura <seg type="lemma" corresp="#d4618e30364">pax contra intentionem augustissimi imperatoris</seg>, dum miles in campo ad tam favorabilem auram non agit. An bona pro augustissima domo Austriaca et imperio, a multis dubitatur. Confoederati quaerunt solum, quae sua sunt.</seg></p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e26237" target="#d4617e26193 #d4617e26216">
-               <ref target="">1</ref>
+            <note xml:id="d4618e30318">
+               <ref type="context">1</ref>
                <label>per pictorem</label>
                <p>Die Identität dieser Person konnte nicht ermittelt werden.</p>
             </note>
-            <note xml:id="d4617e26244" target="#d4617e26193 #d4617e26216">
-               <ref target="#d4617e26193 #d4617e26216">1</ref>
+            <note xml:id="d4618e30325">
+               <ref type="context">1</ref>
                <label>delineari feci monasterium</label>
                <p>BPs Ersuchen um bildliche Darstellungen von Klöstern erfolgte sicherlich im Interesse von Felix Egger, der diese für seine „Idea ordinis hierarchico-Benedictini“ sammelte; vgl. 249, 267, 281, 303. Freilich hatte BP auch schon an René Massuet unter dem Material für die „Annales OSB“ Ansichten geschickt (vgl. 177 &lt;17&gt;).</p>
             </note>
-            <note xml:id="d4617e26249" target="#d4617e26193 #d4617e26216">
-               <ref target="#d4617e26193 #d4617e26216">1</ref>
+            <note xml:id="d4618e30330">
+               <ref type="context">1</ref>
                <label>per fabricatorem</label>
                <p>Unter HB fanden Baumaßnahmen an Prälatur und Konventbau statt. Als Leiter wird Greissing vermutet: Kengel, Greising 590f.; Mack, Greissing 144; Mader, Stadt Würzburg 357f.; Schwinger, St. Stephans-Kloster 40 151; 43 54.</p>
             </note>
-            <note xml:id="d4617e26254" target="#d4617e26198 #d4617e26218">
-               <ref target="">2</ref>
+            <note xml:id="d4618e30335">
+               <ref type="context">2</ref>
                <label>novum exstruitur</label>
                <p>Zum Neubau in Banz vgl. Hotz, Banz, insb. 73–84.</p>
             </note>
-            <note xml:id="d4617e26261" target="#d4617e26198 #d4617e26218">
-               <ref target="#d4617e26198 #d4617e26218">2</ref>
+            <note xml:id="d4618e30342">
+               <ref type="context">2</ref>
                <label>Bambergense ex parte novum</label>
                <p>Zu den Umbauten im Kloster Michelsberg vgl. Dengler-Schreiber, Michelsberg 66f.; Engelberg, Renovatio 514–518; Lahner, Michelsberg 322–324; Messerer, Historismus 493–498.</p>
             </note>
-            <note xml:id="d4617e26266" target="#d4617e26200 #d4617e26225">
-               <ref target="">3</ref>
+            <note xml:id="d4618e30347">
+               <ref type="context">3</ref>
                <label>Epistolas receptas</label>
                <p>Was hier gemeint ist, bleibt unklar. Es könnte sich um den letzten Brief BPs (240) oder vielleicht um einen diesem beigelegten Brief Felix Eggers handeln (was eventuell die Korrektur beim angegebenen Datum des Vorbriefs erklären könnte); oder es ist BPs eigene Enzyklik (LE 2) gemeint, von welcher HB entweder mit 240 ein neues Exemplar erhalten hätte oder die Rücksendung des ersten von ihm in Umlauf gebrachten (211; vgl. 239) erwartete. Dass nach der Erwähnung weiter von Klosterbauten die Rede ist, lässt allerdings eher an Ersteres denken.</p>
             </note>
-            <note xml:id="d4617e26273" target="#d4617e26200 #d4617e26225">
-               <ref target="#d4617e26200 #d4617e26225">3</ref>
+            <note xml:id="d4618e30354">
+               <ref type="context">3</ref>
                <label>ex multa parte ... novum</label>
                <p>Zur Bautätigkeit in Münsterschwarzach unter Augustin Voit vgl. Brodhun, Klosterneubau; Muth, Burkard Bausch 123–125.</p>
             </note>
-            <note xml:id="d4617e26278" target="#d4617e26200 #d4617e26225">
-               <ref target="#d4617e26200 #d4617e26225">3</ref>
+            <note xml:id="d4618e30359">
+               <ref type="context">3</ref>
                <label>Therense</label>
                <p>In Theres wurde der Neubau von Abt Gregor Fuchs 1716 eingeleitet: Vogt, Theres 116–132; Zimmermann, Diarium, insb. 300.</p>
             </note>
-            <note xml:id="d4617e26283" target="#d4617e26204 #d4617e26234">
-               <ref target="">5</ref>
+            <note xml:id="d4618e30364">
+               <ref type="context">5</ref>
                <label>pax contra intentionem ... imperatoris</label>
                <p>Das Hochstift Würzburg verfolgte im Spanischen Erbfolgekrieg eine dezidiert kaiserliche Politik und stellte im Verhältnis zu seiner Größe bedeutende Truppenkontingente: Schott, Kräftespiel 38–41; vgl. Gropp, Collectio 2 161, 620.</p>
             </note>

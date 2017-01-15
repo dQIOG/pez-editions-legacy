@@ -13,49 +13,52 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">441</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>No direct source, inferred letter.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Hieronymus Pez</persName>
+               <date notBefore="1715-09-19">&lt; 1715-09-19</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Joachim Edlinger</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">442</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">440</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">442</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">441</id>
-         <deduced xmlns="">true</deduced>
-         <sender xmlns="">Hieronymus Pez</sender>
-         <recipient xmlns="">Joachim Edlinger</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">&lt; 1715-09-19</date>
-         <place-of-posting xmlns=""/>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="editorialNote">
-            <p>Bezüge: 440. 442. Erwähnt in 442.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>440</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>442</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>442</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: Vgl. Bemerkungen zu 440.</p>
+            <p xml:space="preserve">Bemerkungen: Vgl. Bemerkungen zu 440.</p>
          </div>
       </front>
       <body>
          <ab>
-            <gap reason="letter missing"/>
+            <gap reason="inferred letter"/>
          </ab>
       </body>
       <back/>

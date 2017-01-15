@@ -13,89 +13,91 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">11</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Mayer, Nachlaß 18 499</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">425r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Othmar Zinke</persName>
+               <date when="1709-09-29">1709-09-29</date>
+               <placeName>Prag</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">113</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">7</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">7</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">11</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Othmar Zinke</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1709-09-29</date>
-         <place-of-posting xmlns="">Prag</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e838">In Reaktion auf BPs Brief vom 22. September <ref type="letter">7</ref>, den <persName>
-                     <abbr>OZ</abbr>
-                  </persName> am 28. im Kloster Břevnov bei Prag erhalten hat, lobt er BPs Vorhaben einer „Bibliotheca Benedictina“.</seg>
-               <seg type="context" n="2" xml:id="d4617e843">Dazu soll <persName>
-                     <abbr>BP</abbr>
-                  </persName> Unterstützung erhalten, weshalb <persName>
-                     <abbr>OZ</abbr>
-                  </persName> in Břevnov-Braunau und dessen Filialklöstern, aber auch in den anderen von ihm visitierten Klöstern (der Böhmischen Kongregation) dafür sorgen will, dass die Prälaten ausgewählte Konventualen mit der Durchsicht und Einsendung einschlägiger Quellen beauftragen. <persName>
-                     <abbr>OZ</abbr>
-                  </persName> schließt mit Segenswünschen für BP.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e862">In Reaktion auf <rs type="person" role="sender">BPs</rs> Brief vom 22. September <ref type="letter">7</ref>, den <rs type="person" key="">OZ</rs> am 28. im Kloster Břevnov bei Prag erhalten hat, lobt er <rs type="person" role="sender">BPs</rs> Vorhaben einer „Bibliotheca Benedictina“.</seg><seg type="context" n="2" xml:id="d4618e867">Dazu soll <rs type="person" role="sender">BP</rs> Unterstützung erhalten, weshalb <rs type="person" key="">OZ</rs> in Břevnov-Braunau und dessen Filialklöstern, aber auch in den anderen von ihm visitierten Klöstern (der Böhmischen Kongregation) dafür sorgen will, dass die Prälaten ausgewählte Konventualen mit der Durchsicht und Einsendung einschlägiger Quellen beauftragen. <rs type="person" key="">OZ</rs> schließt mit Segenswünschen für BP.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: I, 425r–v.</p>
-            <p>Literatur: Mayer, Nachlaß 18 499.</p>
-            <p>Bezüge: 7. 113. Erwähnt 7.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>7</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>113</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>7</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: Der Brief ist von einem Sekretär geschrieben, nur die Unterschrift ab <hi rend="italic">paratissimus</hi> von OZ.</p>
+            <p xml:space="preserve">Bemerkungen: Der Brief ist von einem Sekretär geschrieben, nur die Unterschrift ab <hi rend="italic">paratissimus</hi> von OZ.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverende religiose ac eximie pater plurimum venerande.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e862"> Literas admodum reverendae ac eximiae paternitatis vestrae de dato 22. ad me perhumaniter directas 28. Septembris in monasterio Brzevnoviensi prope Pragam evolvens, non possum non commendare pium ac religiosum pro gloria sacri ordinis promovenda zelum, vi cuius magnum sane opus in se recipit colligere in unius corporis systema scriptores sacri ordinis tot saeculis, aetatibus et orbis Benedictini regnis ac congregationibus dispersos et sub unius Bibliothecae conspectum ponere. </seg>
-               <seg type="context" n="2" xml:id="d4617e864"> Quo in opere eximia paternitas vestra digna est, ut fraternis plurium auxiliis succolletur. Hanc in finem non tantum in meo monasterio et eius <seg type="lemma" corresp="#d4617e871">filiationibus, sed etiam in monasteriis ad visitaturam pertinentibus</seg> 
-                  <seg type="lemma" corresp="#d4617e878">provisionem faciam</seg>, ut domini praelati certis suis professis hoc munus committant monumenta sua excutiendi et, si quid communicari dignum reperiant, ad vestram eximiam paternitatem transmittendi. Divina bonitas, exopto, largiatur eidem felices successus et durabiles vires, ut operi tanto ad finem deducendo praeesse ac etiam superesse valeat, dum ego maneo</seg>
-            </p>
-            <p>Admodum reverendae religiosae ac eximiae paternitatis vestrae paratissimus Othmarus abbas Brzevnoviensis visitator generalis ac perpetuus manu propria.</p>
-            <p>Pragae in aedibus nostris 29. Septembris 1709.</p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiose ac eximie pater plurimum venerande.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e886"> Literas admodum reverendae ac eximiae paternitatis vestrae de dato 22. ad me perhumaniter directas 28. Septembris in monasterio Brzevnoviensi prope Pragam evolvens, non possum non commendare pium ac religiosum pro gloria sacri ordinis promovenda zelum, vi cuius magnum<note place="foot" xml:id="d4618e888">	Am linken Blattrand eingefügt.</note> sane opus in se recipit colligere in unius corporis systema scriptores sacri ordinis tot saeculis, aetatibus et orbis Benedictini regnis ac congregationibus dispersos et sub unius Bibliothecae conspectum ponere. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e891"> Quo in opere eximia paternitas vestra digna est, ut fraternis plurium auxiliis succolletur. Hanc in finem non tantum in meo monasterio et eius <seg type="lemma" corresp="#d4618e898">filiationibus, sed etiam in monasteriis ad visitaturam pertinentibus</seg> <seg type="lemma" corresp="#d4618e905">provisionem faciam</seg>, ut domini praelati certis suis professis hoc munus committant monumenta sua excutiendi et, si quid communicari dignum reperiant, ad vestram eximiam paternitatem transmittendi. Divina bonitas, exopto, largiatur eidem felices successus et durabiles vires, ut operi tanto ad finem deducendo praeesse ac etiam superesse valeat, dum ego maneo</seg></p>
+            <p xml:space="preserve">Admodum reverendae religiosae ac eximiae paternitatis vestrae paratissimus Othmarus abbas Brzevnoviensis visitator generalis ac perpetuus manu propria.</p>
+            <p xml:space="preserve">Pragae in aedibus nostris 29. Septembris 1709.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e871" target="#d4617e843 #d4617e864">
-               <ref target="">2</ref>
+            <note xml:id="d4618e898">
+               <ref type="context">2</ref>
                <label>filiationibus ... monasteriis ad visitaturam pertinentibus</label>
                <p>Zur Böhmischen Benediktinerkongregation gehörten außer Břevnov-Braunau noch die Abteien St. Prokop an der Sázava, Kladrau, St. Nikolaus zu Prag und St. Johann unter dem Felsen. Politz in Böhmen, Raigern in Mähren sowie Wahlstatt in Schlesien waren Břevnov-Braunau als Propsteien unterstellt: Menzel, Böhmische Benediktinerkongregation 591; vgl. 143 &lt;6&gt;.</p>
             </note>
-            <note xml:id="d4617e878" target="#d4617e843 #d4617e864">
-               <ref target="#d4617e843 #d4617e864">2</ref>
+            <note xml:id="d4618e905">
+               <ref type="context">2</ref>
                <label>provisionem faciam</label>
                <p>OZs Auslegung seines Amts als Generalvisitator der Böhmischen Benediktinerkongregation führte mehrmals und über längere Zeiträume zu erbitterten Auseinandersetzungen mit einzelnen Klosteroberen und mit dem Prager Erzbistum: Menzel, Exemtionsstreit; Menzel, Zinke 67–89, 108–132 und passim; vgl. Hofmeister, Verfassung 30f.; Krásl–Ježek, Sv. Vojtěch 476–480, 501–505; Vilímková–Preiss, Ve znamení 133f., 155–158. Insbesondere war 1709 der Streit mit Abt Wenzel Koschin von St. Prokop eben zum offenen Ausbruch gekommen: Menzel, Exemtionsstreit 79, 83. Mit diesen Vorgängen mag zusammenhängen, dass OZs Bemühungen zur Sammlung von Beiträgen für BP offenbar auf wenig Resonanz stießen; vgl. 130.</p>
             </note>
-            <note xml:id="d4617e883" target="#d4617e843 #d4617e864">
-               <ref target="#d4617e843 #d4617e864">2</ref>
+            <note xml:id="d4618e910">
+               <ref type="context">2</ref>
                <label>Pragae in aedibus nostris</label>
                <p>OZs Aufenthalt in Prag hing mit dem von ihm dorthin einberufenen Kongregationskapitel zusammen; vgl. 33 &lt;1&gt;.</p>
             </note>

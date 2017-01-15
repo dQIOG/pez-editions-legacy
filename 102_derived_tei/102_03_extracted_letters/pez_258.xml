@@ -13,49 +13,53 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">258</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>No direct source, inferred letter.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Moritz Müller</persName>
+               <date notBefore="1712-07-16">1712-06-06 &lt; 1712-07-16</date>
+               <placeName>Zwiefalten</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">259</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">257</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">259</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">258</id>
-         <deduced xmlns="">true</deduced>
-         <sender xmlns="">Moritz Müller</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1712-06-06 &lt; 1712-07-16</date>
-         <place-of-posting xmlns="">Zwiefalten</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="editorialNote">
-            <p>Bezüge: 257. 259. Erwähnt in 259.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>257</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>259</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>259</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkung: Der Terminus post quem ergibt sich aus der Ankunft MMs in Zwiefalten Anfang Juni, welche durch einen Brief an Abt Bürgisser vom 6. Juni belegt ist (vgl. 259 &lt;2&gt;).</p>
+            <p xml:space="preserve">Bemerkung: Der Terminus post quem ergibt sich aus der Ankunft MMs in Zwiefalten Anfang Juni, welche durch einen Brief an Abt Bürgisser vom 6. Juni belegt ist (vgl. 259 &lt;2&gt;).</p>
          </div>
       </front>
       <body>
          <ab>
-            <gap reason="letter missing"/>
+            <gap reason="inferred letter"/>
          </ab>
       </body>
       <back/>

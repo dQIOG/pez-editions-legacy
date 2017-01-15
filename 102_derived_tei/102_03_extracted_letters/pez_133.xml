@@ -13,49 +13,58 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">133</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="inferedFrom">
+               <bibl>
+                  <author>Bernhard Pez</author>
+                  <title>Littera encyclica 1</title>
+               </bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>No direct source, inferred letter.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Bernhard Pez</persName>
+               <date notBefore="1710-12-17">&lt; 1710-12-17</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="monastery">Corvey</orgName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">134</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">127</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">134</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">133</id>
-         <deduced xmlns="">true</deduced>
-         <sender xmlns="">Bernhard Pez</sender>
-         <recipient xmlns="">NN (Corvey). LE 1</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">&lt; 1710-12-17</date>
-         <place-of-posting xmlns=""/>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="editorialNote">
-            <p>Bezüge: 127. 134. Erwähnt in 134.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>127</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>134</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>134</idno>
-               </ref>
-            </correspContext>
-            <p>Bemerkungen: Der von BP in 134 &lt;2&gt; erwähnte Brief nach Corvey lässt sich nicht mit 23 oder 44 identifizieren, aus deren Text jeweils eindeutig hervorgeht, dass sie nach St. Pantaleon zu Köln respektive nach Abdinghof gerichtet waren. Hingegen ist der von Ansgar Grass in 127 als <hi rend="italic">ad hasce partes</hi> gerichtet bezeichnete Brief weit eher der nachweislich nach Corvey gelangte und mit 134 und 149 überlieferte 23 (aufgrund des genannten Datums nicht 44); ob 133 überhaupt in Corvey ankam, ist als fraglich anzusehen.</p>
+            <p xml:space="preserve">Bemerkungen: Der von BP in 134 &lt;2&gt; erwähnte Brief nach Corvey lässt sich nicht mit 23 oder 44 identifizieren, aus deren Text jeweils eindeutig hervorgeht, dass sie nach St. Pantaleon zu Köln respektive nach Abdinghof gerichtet waren. Hingegen ist der von Ansgar Grass in 127 als <hi rend="italic">ad hasce partes</hi> gerichtet bezeichnete Brief weit eher der nachweislich nach Corvey gelangte und mit 134 und 149 überlieferte 23 (aufgrund des genannten Datums nicht 44); ob 133 überhaupt in Corvey ankam, ist als fraglich anzusehen.</p>
          </div>
       </front>
       <body>
          <ab>
-            <gap reason="letter missing"/>
+            <gap reason="inferred letter"/>
          </ab>
       </body>
       <back/>

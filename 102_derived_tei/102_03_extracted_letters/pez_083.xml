@@ -13,88 +13,86 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">83</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">541r–v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Albert Reichart</persName>
+               <date when="1710-07-05">1710-07-05</date>
+               <placeName>St. Paul im Lavanttal</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">151</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">82</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">50</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">143</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">83</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Albert Reichart</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1710-07-05</date>
-         <place-of-posting xmlns="">St. Paul im Lavanttal</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e8466">ARe empfindet das ihm von <persName>
-                     <abbr>BP</abbr>
-                  </persName> erwiesene Wohlwollen als unverdient und übertrieben. Wenn <persName>
-                     <abbr>BP</abbr>
-                  </persName> irgendeine unter den jüngst <ref type="letter">50</ref> genannten Schriften von St. Paulern wünscht, soll er Exemplare erhalten, doch sind diese kein Grund zu unverdientem Lob.</seg>
-               <seg type="context" n="2" xml:id="d4617e8471">ARe ist sehr erfreut über BPs Kontakt mit den französischen Benediktinern, durch den man aus dieser Weltgegend wenigstens in Form von Druckwerken etwas Nützliches erhalten kann.</seg>
-               <seg type="context" n="3" xml:id="d4617e8473">ARe bittet um einen Hinweis, bei welcher Gelegenheit sein Brief an den päpstlichen Nuntius beim Kaiser (Giulio Piazza) übergeben werden kann, sowie um dessen Titulatur.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e9562">ARe empfindet das ihm von <rs type="person" role="sender">BP</rs> erwiesene Wohlwollen als unverdient und übertrieben. Wenn <rs type="person" role="sender">BP</rs> irgendeine unter den jüngst <ref type="letter">50</ref> genannten Schriften von St. Paulern wünscht, soll er Exemplare erhalten, doch sind diese kein Grund zu unverdientem Lob.</seg><seg type="context" n="2" xml:id="d4618e9567">ARe ist sehr erfreut über <rs type="person" role="sender">BPs</rs> Kontakt mit den französischen Benediktinern, durch den man aus dieser Weltgegend wenigstens in Form von Druckwerken etwas Nützliches erhalten kann.</seg><seg type="context" n="3" xml:id="d4618e9569">ARe bittet um einen Hinweis, bei welcher Gelegenheit sein Brief an den päpstlichen Nuntius beim Kaiser (Giulio Piazza) übergeben werden kann, sowie um dessen Titulatur.</seg></p>
          </div>
-         <div type="editorialNote">
-            <p>Überlieferung: I, 541r–v.</p>
-            <p>Bezüge: 82. 151. Erwähnt 50. Erwähnt in 143.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>82</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>151</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>50</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>143</idno>
-               </ref>
-            </correspContext>
-         </div>
+         <div type="editorialNote"/>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Plurimum reverende religiosissime et clarissime domine.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e8485"> Domine plurimum colende. Magno nimium et quidem non merito in me fertur affectu, igitur pro interim intra gratiarum actionem sistitur mea gratitudo. Et si quae ex nominatis nuper opellis <seg type="lemma" corresp="#d4617e8496">exemplaria desideraverit plurimum reverenda dominatio, eadem transmissa accipiet</seg>, sed non materiam laudum, quam nemo San-Paulensium meretur. </seg>
-               <seg type="context" n="2" xml:id="d4617e8487"> Caeterum efflictim gaudeo plurimum reverendam dominationem cum Gallis Benedictinis habere commercium litterarum, unde ex illa <seg type="lemma" corresp="#d4617e8503">orbis plaga</seg> saltem quid boni ex libris editis audiemus et hauriemus. </seg>
-               <seg type="context" n="3" xml:id="d4617e8489"> Plurimum reverenda dominatio me instruat, qua occasione meae litterae ad caesareum nuntium apostolicum sint deferendae, pro cuius <seg type="lemma" corresp="#d4617e8510">titulo</seg> etiam rogo. Et me sacris sacrificiis atque affectui commendo</seg>
-            </p>
-            <p>Plurimum reverendae et clarissimae dominationis servus obligatus Albertus abbas manu propria.</p>
-            <p>Sancti Pauli 5. Julio 1710.</p>
+            <p xml:space="preserve"><pb n="1r"/> Plurimum reverende religiosissime et clarissime domine.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e9581"> Domine plurimum colende. Magno nimium et quidem non merito in me<note place="foot" xml:id="d4618e9583">	Danach durchgestrichen <hi rend="italic">affectu</hi>.</note> fertur affectu, igitur pro interim intra gratiarum actionem sistitur mea gratitudo. Et si quae ex nominatis nuper opellis <seg type="lemma" corresp="#d4618e9598">exemplaria desideraverit plurimum reverenda dominatio, eadem transmissa accipiet</seg>, sed non materiam laudum, quam nemo San-Paulensium meretur. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e9589"> Caeterum efflictim gaudeo plurimum reverendam dominationem cum Gallis Benedictinis habere commercium litterarum, unde ex illa <seg type="lemma" corresp="#d4618e9605">orbis plaga</seg> saltem quid boni ex libris editis audiemus et hauriemus. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e9591"> Plurimum reverenda dominatio me instruat, qua occasione meae litterae ad caesareum nuntium apostolicum sint deferendae, pro cuius <seg type="lemma" corresp="#d4618e9612">titulo</seg> etiam rogo. Et me sacris sacrificiis atque affectui commendo</seg></p>
+            <p xml:space="preserve">Plurimum reverendae et clarissimae dominationis servus obligatus Albertus abbas manu propria.</p>
+            <p xml:space="preserve">Sancti Pauli 5. Julio 1710.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e8496" target="#d4617e8466 #d4617e8485">
-               <ref target="">1</ref>
+            <note xml:id="d4618e9598">
+               <ref type="context">1</ref>
                <label>exemplaria ... accipiet</label>
                <p>Dieses Angebot könnte die Grundlage für die Übermittlung eines Exemplars von ARes „Breviarium historiae Carinthiacae“ gewesen sein; vgl. 50 &lt;2&gt;, 143 &lt;8&gt;.</p>
             </note>
-            <note xml:id="d4617e8503" target="#d4617e8471 #d4617e8487">
-               <ref target="">2</ref>
+            <note xml:id="d4618e9605">
+               <ref type="context">2</ref>
                <label>orbis plaga</label>
                <p>Möglicherweise als Wortspiel mit antifranzösischer Stoßrichtung zu verstehen („plaga“ in den Bedeutungen „Gegend“ und „Wunde“).</p>
             </note>
-            <note xml:id="d4617e8510" target="#d4617e8473 #d4617e8489">
-               <ref target="">3</ref>
+            <note xml:id="d4618e9612">
+               <ref type="context">3</ref>
                <label>titulo</label>
                <p>Nuntius Piazza, der von 1709 bis 1713 am kaiserlichen Hof wirkte (Bittner–Groß, Repertorium 1 381), war seit 1706 Titularerzbischof von Nazareth gewesen; im Juli 1710 (annähernd zeitgleich mit diesem Brief) wurde er zum Bischof von Faenza ernannt: Ritzler–Sefrin, Hierarchia catholica 5 199, 282.</p>
             </note>

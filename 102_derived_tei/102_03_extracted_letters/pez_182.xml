@@ -13,124 +13,108 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">182</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">II</biblScope>
+               <biblScope unit="page">42r–43v</biblScope>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Placidus Haiden</persName>
+               <date when="1711-07-18">1711-07-18</date>
+               <placeName>Niederaltaich</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">183</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">181</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">181</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">187</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">182</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Placidus Haiden</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1711-07-18</date>
-         <place-of-posting xmlns="">Niederaltaich</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e19146">
-                  <persName>
-                     <abbr>PH</abbr>
-                  </persName> hat bei seiner Heimkehr BPs Brief <ref type="letter">181</ref> vorgefunden und daraufhin wieder an seine Bekannten geschrieben, deren Antworten er nun erwartet.</seg>
-               <seg type="context" n="2" xml:id="d4617e19151">Inzwischen sendet <persName>
-                     <abbr>PH</abbr>
-                  </persName> aus der Bibliothek seines Klosters eine Liste von historischen Schriften. <persName>
-                     <abbr>BP</abbr>
-                  </persName> soll frei über diese verfügen.</seg>
-               <seg type="context" n="3" xml:id="d4617e19153">Es handelt sich um: Bucelin, „Annales Benedictini“, „Germania topo-chrono-stemmatographica“, „Benedictus redivivus“, „Nucleus historiae universalis“ und noch weitere Werke; Yepes, „Chronicon generale“; Meglinger, „Annus Cisterciensis“; Aimoin, „Historia Francorum“; Rambeck, „Calendarium“; Cherubini, „Magnum bullarium Romanum“; Rettenbacher, „Annales Cremifanenses“; Grosse, „Elenchus seu Index generalis“; Dubravius, „Rerum Bohemicarum scriptores“; Pistorius, „Rerum Germanicarum veteres scriptores sex“; Freher, „Germanicarum rerum scriptores“; Gesner, „Elenchus“; Trithemius, „Annales Hirsaugienses“; Spitzel, „Sacra bibliothecarum arcana“; Welser, „Opera historica“ (?) und „Rerum Boicarum libri quinque“; Stengel, „Imagines“; Brusch, „Monasteriorum Germaniae centuria prima“ sowie „Supplementum Bruschianum“; Mezger, „Historia Salisburgensis“; Mabillon, „Acta Sanctorum OSB“ und „De re diplomatica“; Adlzreiter (recte: Vervaux), „Boicae gentis annales“; Aventin, „Annales Boiorum“; Aichler, „Chronicon Andecense“; Baronio, „Annales ecclesiastici“; Alexandre, „Historia ecclesiastica“; Cabassut, „Notitia ecclesiastica“; sämtliche Werke von Hund; Brouwer, „Sidera“.</seg>
-               <seg type="context" n="4" xml:id="d4617e19155">In einem Postskriptum berichtet <persName>
-                     <abbr>PH</abbr>
-                  </persName> von einem Gespräch mit dem Propst von Rinchnach (Cölestin Reichenberger?), welcher berichtete, ein „Chronicon Cassinense“ gesehen zu haben, dessen Autor und Druckort <persName>
-                     <abbr>PH</abbr>
-                  </persName> jedoch unbekannt sind. <persName>
-                     <abbr>PH</abbr>
-                  </persName> bittet um eine Stellungnahme BPs dazu.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e22444"><rs type="person" key="">PH</rs> hat bei seiner Heimkehr <rs type="person" role="sender">BPs</rs> Brief <ref type="letter">181</ref> vorgefunden und daraufhin wieder an seine Bekannten geschrieben, deren Antworten er nun erwartet.</seg><seg type="context" n="2" xml:id="d4618e22449">Inzwischen sendet <rs type="person" key="">PH</rs> aus der Bibliothek seines Klosters eine Liste von historischen Schriften. <rs type="person" role="sender">BP</rs> soll frei über diese verfügen.</seg><seg type="context" n="3" xml:id="d4618e22451">Es handelt sich um: Bucelin, „Annales Benedictini“, „Germania topo-chrono-stemmatographica“, „Benedictus redivivus“, „Nucleus historiae universalis“ und noch weitere Werke; Yepes, „Chronicon generale“; Meglinger, „Annus Cisterciensis“; Aimoin, „Historia Francorum“; Rambeck, „Calendarium“; Cherubini, „Magnum bullarium Romanum“; Rettenbacher, „Annales Cremifanenses“; Grosse, „Elenchus seu Index generalis“; Dubravius, „Rerum Bohemicarum scriptores“; Pistorius, „Rerum Germanicarum veteres scriptores sex“; Freher, „Germanicarum rerum scriptores“; Gesner, „Elenchus“; Trithemius, „Annales Hirsaugienses“; Spitzel, „Sacra bibliothecarum arcana“; Welser, „Opera historica“ (?) und „Rerum Boicarum libri quinque“; Stengel, „Imagines“; Brusch, „Monasteriorum Germaniae centuria prima“ sowie „Supplementum Bruschianum“; Mezger, „Historia Salisburgensis“; Mabillon, „Acta Sanctorum OSB“ und „De re diplomatica“; Adlzreiter (recte: Vervaux), „Boicae gentis annales“; Aventin, „Annales Boiorum“; Aichler, „Chronicon Andecense“; Baronio, „Annales ecclesiastici“; Alexandre, „Historia ecclesiastica“; Cabassut, „Notitia ecclesiastica“; sämtliche Werke von Hund; Brouwer, „Sidera“.</seg><seg type="context" n="4" xml:id="d4618e22453">In einem Postskriptum berichtet <rs type="person" key="">PH</rs> von einem Gespräch mit dem Propst von Rinchnach (Cölestin Reichenberger?), welcher berichtete, ein „Chronicon Cassinense“ gesehen zu haben, dessen Autor und Druckort <rs type="person" key="">PH</rs> jedoch unbekannt sind. <rs type="person" key="">PH</rs> bittet um eine Stellungnahme <rs type="person" role="sender">BPs</rs> dazu.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: II, 42r–43v.</p>
-            <p>Bezüge: 181. 183. Erwähnt 181. Erwähnt in 187.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>181</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>183</idno>
-               </ref>
-               <ref type="mentions">
-                  <label>Erwähnt </label>
-                  <idno>181</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>187</idno>
-               </ref>
-            </correspContext>
-            <p>Nummerierung: <hi rend="italic">III</hi>.</p>
-            <p>Ordnungsvermerk: <hi rend="italic">47</hi> (daneben durchgestrichen <hi rend="italic">32</hi>).</p>
-            <p>Bemerkungen: Aufgrund des Postskriptums nach der Bücherliste wird diese als Teil des Briefs, nicht als Beilage aufgefasst und behandelt.</p>
+            <p xml:space="preserve">Nummerierung: <hi rend="italic">III</hi>.</p>
+            <p xml:space="preserve">Ordnungsvermerk: <hi rend="italic">47</hi> (daneben durchgestrichen <hi rend="italic">32</hi>).</p>
+            <p xml:space="preserve">Bemerkungen: Aufgrund des Postskriptums nach der Bücherliste wird diese als Teil des Briefs, nicht als Beilage aufgefasst und behandelt.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine pater, patrone colendissime.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e19182"> Primo domi meae adventu reperi amantissimas literas, quibus clarissima sua paternitas me ultro dignari et consilia sua mihi iterato communicare placuit [<hi rend="italic">sic</hi>]. Scripsi illico ad viros mihi notos, quorum responsorias in momenta exspecto; sine quibus, utut vellem perlibenter! praeter solam spem pro clarissimae suae paternitatis solatio pauca significare valeo. </seg>
-               <seg type="context" n="2" xml:id="d4617e19187"> Interim ex bibliotheca nostra syllabum historicorum, quos veluti argumento forte propiores selegi, hic mitto identidem rogans, ut plurimum reverenda sua paternitas confidenter mecum iubeat: experietur cum eo sibi rem intercedere, qui re et nomine esse cupiat</seg>
-            </p>
-            <p>Plurimum reverendae religiosae ac clarissimae suae paternitatis servus ex asse pater Placidus manu propria.</p>
-            <p>Datum Nidernaltaichii die 18. Julii anno 1711.</p>
-            <p>Vertatur.</p>
-            <p>
-               <pb n="2r"/> 
-               <seg type="context" n="3" xml:id="d4617e19198"> Selectus ex classe historicorum bibliothecae Altahae Inferioris. Buccelini Annales. Germania sacra. Benedictus redivivus. Nucleus historiae universalis et caetera opera. Yepesii Generale chronicon ordinis sancti patris Benedicti. Annus Cisterciensis. <seg type="lemma" corresp="#d4617e19212">Aimoini monachi Historiae Francorum</seg> liber [<hi rend="italic">sic</hi>] quinque. Calendarium Benedictinum patris Aegidii Ranbeck. <seg type="lemma" corresp="#d4617e19219">Bullarium Romanum magnum</seg>. Annales Cremiphanenses patris Simonis Rettenpacher. Elenchus seu Index generalis, in quo continentur omnes libri, qui ultimo saeculi 1500 lustro post annum 1593 usque ad annum 1600 in sacro Romano imperio et vicinis regionibus novi auctive prodierunt. Rerum Bohemicarum antiqui scriptores aliquot insignes. Rerum Germanicarum veteres scriptores sex. Germanicarum rerum scriptores aliquot insignes ex bibliotheca Marquardi Freheri. Elenchus scriptorum omnium, veterum scilicet ac recentiorum, extantium et non extantium, domini Conradi Gneseri [<hi rend="italic">sic</hi>]. Trithemii Annales Hiersaugiensis monasterii. <seg type="lemma" corresp="#d4617e19224">Spizellii Designatio</seg> summorum Europae theologorum. <seg type="lemma" corresp="#d4617e19229">Velserus De viris nobilibus</seg> et illustribus. Item De rebus Boicis. Stengelii Imagines ordinis sancti Benedicti. Bruschii Monasteriorum Germaniae centuria prima. Et eius Supplementum. Mezger Historia Salisburgensis. Mabillonii Acta sanctorum ordinis sancti Benedicti et De re diplomatica. Adlzreutter Annales Boiorum tres tomi. <pb n="2v"/> Joannis Aventini Annales Boiorum. Andecense monasterium ordinis sancti Benedicti. Baronii Annales. Alexandri Natalis Historia ecclesiastica. Cabasutii Notitia ecclesiastica. Hundii opera omnia. Browerus De sanctis Germaniae.</seg>
-            </p>
-            <p>
-               <seg type="context" n="4" xml:id="d4617e19209"> P.S. Dum has claudere festino, memini nuperrimi discursus, quo <seg type="lemma" corresp="#d4617e19234">praepositus noster in Rinchna</seg> 
-                  <seg type="lemma" corresp="#d4617e19241">Chronicon se vidisse asseruit Cassinense</seg>, cuius author et locus editionis mihi plane est incognitus; cuperem proinde a plurimum reverenda sua paternitate desuper paucis instrui.</seg>
-            </p>
+            <p xml:space="preserve"><pb n="1r"/> Plurimum reverende religiosissime ac clarissime domine pater, patrone colendissime.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e22480"> Primo domi meae adventu reperi amantissimas literas, quibus clarissima sua paternitas me ultro dignari et consilia sua mihi iterato communicare placuit [<hi rend="italic">sic</hi>]. Scripsi illico ad viros mihi notos, quorum responsorias in momenta exspecto; sine quibus, utut vellem perlibenter! praeter solam spem pro clarissimae suae paternitatis solatio pauca significare valeo. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e22485"> Interim ex bibliotheca nostra syllabum historicorum, quos veluti argumento forte propiores selegi, hic mitto identidem rogans, ut plurimum reverenda sua paternitas confidenter mecum iubeat: experietur cum eo sibi rem intercedere, qui re et nomine esse cupiat</seg></p>
+            <p xml:space="preserve">Plurimum reverendae religiosae ac clarissimae suae paternitatis servus ex asse pater Placidus manu propria.</p>
+            <p xml:space="preserve">Datum Nidernaltaichii die 18. Julii anno 1711.</p>
+            <p xml:space="preserve">Vertatur.</p>
+            <p xml:space="preserve"><pb n="2r"/> <seg type="context" n="3" xml:space="preserve" xml:id="d4618e22496"> Selectus ex classe historicorum bibliothecae Altahae Inferioris. Buccelini Annales. Germania sacra. Benedictus redivivus. Nucleus historiae universalis et caetera opera. Yepesii Generale chronicon ordinis sancti patris Benedicti. Annus Cisterciensis. <seg type="lemma" corresp="#d4618e22510">Aimoini monachi Historiae Francorum</seg> liber [<hi rend="italic">sic</hi>] quinque. Calendarium Benedictinum patris Aegidii Ranbeck. <seg type="lemma" corresp="#d4618e22517">Bullarium Romanum magnum</seg>. Annales Cremiphanenses patris Simonis Rettenpacher. Elenchus seu Index generalis, in quo continentur omnes libri, qui ultimo saeculi 1500 lustro post annum 1593 usque ad annum 1600 in sacro Romano imperio et vicinis regionibus novi auctive prodierunt. Rerum Bohemicarum antiqui scriptores aliquot insignes. Rerum Germanicarum veteres scriptores sex. Germanicarum rerum scriptores aliquot insignes ex bibliotheca Marquardi Freheri. Elenchus scriptorum omnium, veterum scilicet ac recentiorum, extantium et non extantium, domini Conradi Gneseri [<hi rend="italic">sic</hi>]. Trithemii Annales Hiersaugiensis monasterii. <seg type="lemma" corresp="#d4618e22522">Spizellii Designatio</seg> summorum Europae theologorum. <seg type="lemma" corresp="#d4618e22527">Velserus De viris nobilibus</seg> et illustribus. Item De rebus Boicis. Stengelii Imagines ordinis sancti Benedicti. Bruschii Monasteriorum Germaniae centuria prima. Et eius Supplementum. Mezger Historia Salisburgensis. Mabillonii Acta sanctorum ordinis sancti Benedicti et De re diplomatica. Adlzreutter Annales Boiorum tres tomi. <pb n="2v"/> Joannis Aventini Annales Boiorum. Andecense monasterium ordinis sancti Benedicti. Baronii Annales. Alexandri Natalis Historia ecclesiastica. Cabasutii Notitia ecclesiastica. Hundii opera omnia. Browerus De sanctis Germaniae.</seg></p>
+            <p xml:space="preserve"><seg type="context" n="4" xml:space="preserve" xml:id="d4618e22507"> P.S. Dum has claudere festino, memini nuperrimi discursus, quo <seg type="lemma" corresp="#d4618e22532">praepositus noster in Rinchna</seg> <seg type="lemma" corresp="#d4618e22539">Chronicon se vidisse asseruit Cassinense</seg>, cuius author et locus editionis mihi plane est incognitus; cuperem proinde a plurimum reverenda sua paternitate desuper paucis instrui.</seg></p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e19212" target="#d4617e19153 #d4617e19198">
-               <ref target="">3</ref>
+            <note xml:id="d4618e22510">
+               <ref type="context">3</ref>
                <label>Aimoini ... Historiae Francorum</label>
                <p>Aufgrund des angegebenen Titels ist die Nennung wohl mit der Ausgabe von Jean Nicot (Paris 1567) zu identifizieren; in anderen Editionen wurde das Werk meist „De gestis Francorum“ genannt. Vgl. 251.</p>
             </note>
-            <note xml:id="d4617e19219" target="#d4617e19153 #d4617e19198">
-               <ref target="#d4617e19153 #d4617e19198">3</ref>
+            <note xml:id="d4618e22517">
+               <ref type="context">3</ref>
                <label>Bullarium ... magnum</label>
                <p>Die Bezeichnung „magnum“ scheint erstmals bei der dritten Ausgabe (Paris 1655–1673) auf.</p>
             </note>
-            <note xml:id="d4617e19224" target="#d4617e19153 #d4617e19198">
-               <ref target="#d4617e19153 #d4617e19198">3</ref>
+            <note xml:id="d4618e22522">
+               <ref type="context">3</ref>
                <label>Spizellii Designatio</label>
                <p>Vgl. 203 &lt;3&gt;.</p>
             </note>
-            <note xml:id="d4617e19229" target="#d4617e19153 #d4617e19198">
-               <ref target="#d4617e19153 #d4617e19198">3</ref>
+            <note xml:id="d4618e22527">
+               <ref type="context">3</ref>
                <label>Velserus De viris nobilibus</label>
                <p>Unter diesem Titel nicht nachweisbar. Es sind jedoch vielleicht die „Epistolae ad viros illustres“ in den „Opera historica et philologica“ gemeint.</p>
             </note>
-            <note xml:id="d4617e19234" target="#d4617e19155 #d4617e19209">
-               <ref target="">4</ref>
+            <note xml:id="d4618e22532">
+               <ref type="context">4</ref>
                <label>praepositus ... in Rinchna</label>
                <p>Nach Krick, Ehemalige stabile Klöster 100, ist in dieser Stellung für 1708 Moritz Rauscher belegt, für 1715 Cölestin Reichenberger. Der Erstere dürfte von PH eher nicht gemeint sein, da er 1703–1714 auch Prior war (ebd. 105) und von PH wohl als solcher bezeichnet worden wäre. Zu Reichenberger: ebd. 156.</p>
             </note>
-            <note xml:id="d4617e19241" target="#d4617e19155 #d4617e19209">
-               <ref target="#d4617e19155 #d4617e19209">4</ref>
+            <note xml:id="d4618e22539">
+               <ref type="context">4</ref>
                <label>Chronicon ... Cassinense</label>
                <p>Vgl. die Erläuterungen PHs in 187, woraus sich jedoch auch keine sichere Identifikation ergibt.</p>
             </note>

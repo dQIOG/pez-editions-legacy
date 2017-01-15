@@ -13,118 +13,107 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">353</idno>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Braubach, Bartenstein 121</bibl>
+                  <bibl>Mayer, Bartenstein 17</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Based on the publication <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </p>
+            <p>ÖNB 36/66-1.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <classCode scheme="pez">letter</classCode>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Johann Christoph Bartenstein</persName>
+               <date when="1714-09-05">1714-09-05</date>
+               <placeName>Wien</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">379</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">355</idno>
+               </ref>
+               <ref type="mentionedIn">
+                  <idno type="pezEd">356</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
-      <xenoData>
-         <id xmlns="">353</id>
-         <deduced xmlns="">false</deduced>
-         <sender xmlns="">Johann Christoph Bartenstein</sender>
-         <recipient xmlns="">Bernhard Pez</recipient>
-         <destination xmlns=""/>
-         <date xmlns="">1714-09-05</date>
-         <place-of-posting xmlns="">Wien</place-of-posting>
-      </xenoData>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>
-               <seg type="context" n="1" xml:id="d4617e38595">Ermutigt durch Berichte über BPs Umgänglichkeit (humanitas) wendet sich CB an <persName>
-                     <abbr>BP</abbr>
-                  </persName> und berichtet, dass er während seines Aufenthalts in Frankreich Austausch mit Montfaucon und anderen Maurinern gepflegt hat, die allesamt BPs Verdienste um die Gelehrtenrepublik sowie seine Großzügigkeit gegenüber Gelehrten hervorgehoben haben.</seg>
-               <seg type="context" n="2" xml:id="d4617e38597">René Massuet verspricht sich bei der Fortsetzung der von Mabillon begonnenen „Annales OSB“ viel von BPs Hilfe. Er hat CB gebeten, <persName>
-                     <abbr>BP</abbr>
-                  </persName> Grüße zu bestellen, doch hat CB bislang vergeblich auf eine Gelegenheit gewartet, <persName>
-                     <abbr>BP</abbr>
-                  </persName> kennenzulernen.</seg>
-               <seg type="context" n="3" xml:id="d4617e38599">Von Montfaucons Mitbruder Charles de la Rue ist CB gebeten worden, ihm eine Abschrift der in der Hofbibliothek befindlichen Handschrift der „Selecta in Psalmos“ des Origenes (recte: Hesychios, „Commentarius brevis in Psalmos“) zu besorgen. CB hat bei Johann Benedikt Gentilotti, dem Hofbibliothekspräfekten, dafür bereits die Erlaubnis erwirkt, doch wird er durch seine Geschäfte von der Durchführung abgehalten. Einen fähigen Ersatz hat er bislang nicht gefunden, und auch Gentilotti meint, er werde kaum einen vertrauenswürdigen Mann aufspüren können.</seg>
-               <seg type="context" n="4" xml:id="d4617e38601">Doch fühlt CB sich den Maurinern so verpflichtet, dass er unbedingt dafür sorgen will, dass den Benediktinern der Ruhm der Origenes-Edition zukomme. So hofft er auf den Rat BPs, den freundschaftliche Bande einst mit Mabillon (recte: siehe Kommentar) und nun mit Montfaucon, Le Nourry und Massuet verbinden.</seg>
-               <seg type="context" n="5" xml:id="d4617e38603">CB bietet an, <persName>
-                     <abbr>BP</abbr>
-                  </persName> allfällige Briefe der Mauriner zu zeigen. Er hofft auf Verständnis für sein Herantreten; die Gelehrten in Wien können für ihn bürgen.</seg>
-               <seg type="context" n="6" xml:id="d4617e38605">In einem Nachsatz nennt CB als Adresse das Haus des Bankiers Daniel Kessel.</seg>
-            </p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d4618e43858">Ermutigt durch Berichte über <rs type="person" role="sender">BPs</rs> Umgänglichkeit (humanitas) wendet sich CB an <rs type="person" role="sender">BP</rs> und berichtet, dass er während seines Aufenthalts in Frankreich Austausch mit Montfaucon und anderen Maurinern gepflegt hat, die allesamt <rs type="person" role="sender">BPs</rs> Verdienste um die Gelehrtenrepublik sowie seine Großzügigkeit gegenüber Gelehrten hervorgehoben haben.</seg><seg type="context" n="2" xml:id="d4618e43860">René Massuet verspricht sich bei der Fortsetzung der von Mabillon begonnenen „Annales OSB“ viel von <rs type="person" role="sender">BPs</rs> Hilfe. Er hat CB gebeten, <rs type="person" role="sender">BP</rs> Grüße zu bestellen, doch hat CB bislang vergeblich auf eine Gelegenheit gewartet, <rs type="person" role="sender">BP</rs> kennenzulernen.</seg><seg type="context" n="3" xml:id="d4618e43862">Von Montfaucons Mitbruder Charles de la Rue ist CB gebeten worden, ihm eine Abschrift der in der Hofbibliothek befindlichen Handschrift der „Selecta in Psalmos“ des Origenes (recte: Hesychios, „Commentarius brevis in Psalmos“) zu besorgen. CB hat bei Johann Benedikt Gentilotti, dem Hofbibliothekspräfekten, dafür bereits die Erlaubnis erwirkt, doch wird er durch seine Geschäfte von der Durchführung abgehalten. Einen fähigen Ersatz hat er bislang nicht gefunden, und auch Gentilotti meint, er werde kaum einen vertrauenswürdigen Mann aufspüren können.</seg><seg type="context" n="4" xml:id="d4618e43864">Doch fühlt CB sich den Maurinern so verpflichtet, dass er unbedingt dafür sorgen will, dass den Benediktinern der Ruhm der Origenes-Edition zukomme. So hofft er auf den Rat BPs, den freundschaftliche Bande einst mit Mabillon (recte: siehe Kommentar) und nun mit Montfaucon, Le Nourry und Massuet verbinden.</seg><seg type="context" n="5" xml:id="d4618e43866">CB bietet an, <rs type="person" role="sender">BP</rs> allfällige Briefe der Mauriner zu zeigen. Er hofft auf Verständnis für sein Herantreten; die Gelehrten in Wien können für ihn bürgen.</seg><seg type="context" n="6" xml:id="d4618e43868">In einem Nachsatz nennt CB als Adresse das Haus des Bankiers Daniel Kessel.</seg></p>
          </div>
          <div type="editorialNote">
-            <p>Überlieferung: ÖNB 36/66-1.</p>
-            <p>Literatur: Braubach, Bartenstein 121; Mayer, Bartenstein 17.</p>
-            <p>Bezüge: 355. Erwähnt in 356, 379.</p>
-            <correspContext>
-               <ref type="relatedTo">
-                  <idno>355</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <label>Erwähnt in </label>
-                  <idno>356</idno>
-               </ref>
-               <ref type="relatedTo">
-                  <idno>379</idno>
-               </ref>
-            </correspContext>
-            <p>Adresse: <hi rend="italic">Au tres reverend le reverend pere dom Petz de l’ordre de saint Benoit et maitre des novices à Melck</hi>. Siegel.</p>
-            <p>Nummerierung: <hi rend="italic">I</hi>.</p>
+            <div type="address">
+               <cit>
+                  <q>Au tres reverend le reverend pere dom Petz de l’ordre de saint Benoit et maitre des novices à Melck. Siegel.</q>
+               </cit>
+            </div>
+            <p xml:space="preserve">Nummerierung: <hi rend="italic">I</hi>.</p>
          </div>
       </front>
       <body>
          <div type="edition">
-            <p>
-               <pb n="1r"/> Admodum reverendo in Christo patri domino N. N. Petz magistro novitiorum salutem plurimam dicit Johannes Christophorus Bartenstein.</p>
-            <p>
-               <seg type="context" n="1" xml:id="d4617e38629"> Literis te compellare, vir clarissime, non auderem, nisi depraedicata mihi toties apud exteros etiam humanitas tua fiduciam adderet animumque. Cum <seg type="lemma" corresp="#d4617e38649">in Gallia commorarer</seg>, subinde mihi subnata occasio est sermones tenendi tum cum eruditissimo Montefalconio vestro, tum cum aliis congregationis sancti Mauri sodalibus. Uno eodemque ore praedicavere illi omnes non zelum modo pro literariae reipublicae incrementis tuum, sed et favorem, quem iis impertiris, qui se Musarum alumnos profitentur. </seg>
-               <seg type="context" n="2" xml:id="d4617e38631"> Massuetius inprimis Benedictini ordinis Annales a Mabillonio inchoatos continuaturus non exigua a te promittere sibi mihi visus est. Itaque cum huc me directurum iter nosset, ut ipsius pariter aliorumque nomine amicissimam tibi dicerem salutem, enixe me rogavit; et ego tanti viri notitiam perquam exoptans nihil magis in votis habui unquam, quam ut innotescendi tibi sese offerret occasio. Sed hactenus conanti fortuna defuit. </seg>
-               <seg type="context" n="3" xml:id="d4617e38633"> Interim, dum a doctissimo Montefalconii vestri sodali reverendo patre De la Rue nuper rogarer, ut manuscripti caesareae bibliothecae codicis, quo <seg type="lemma" corresp="#d4617e38656">Origeniana in Ψalmos ἐξήγησis</seg> continetur, copiam ipsi aequo pretio pararem, eo rem apud bibliothecae huius praefectum perduxi, <pb n="1v"/> ut ille veniam eius rei benignus concederet. Sed <seg type="lemma" corresp="#d4617e38663">tot hic curis</seg> negotiisque distringor, ut, si spartam eius rei in me suscepero, merito verendum mihi sit, ne tempore excludar. Cui hanc demandare possem provinciam, amicus quaesitus hactenus a me diligenter est, sed frustraneo labore; ipseque bibliothecae praefectus clarissimus Gentillotius nuper mihi retulit me in conquirendo fido diligentique homine <seg type="lemma" corresp="#d4617e38668">operam perditurum oleumque</seg>. </seg>
-               <seg type="context" n="4" xml:id="d4617e38637"> Non abieci tamen ob id omnem prorsus spem, ratus tanta esse eorum, quos memoravi, virorum vestri ordinis in me merita, ut praecipuum itineris mei fructum aestimare debeam id egisse, ut restitutorum Origenis operum gloria vestro ordini vindicetur. Itaque te, vir clarissime, pro eo, quo pro bono publico flagras studio, pro amicitia, qua tibi <seg type="lemma" corresp="#d4617e38673">Mabillonius olim</seg> et nunc <seg type="lemma" corresp="#d4617e38680">Montefalconius, Nourrius, Massuetius</seg> aliaque Benedictini ordinis ornamenta devincti sunt, pro sollicitudine, quam literis et sacrosanctis inprimis antiquissimae ecclesiae monumentis impendis, oro atque obtestor, ut, si quae tibi suppetit ratio, si quae nota via est, qua precibus tot amicorum virorum possit fieri satis, eam vel ignoto mihi indicare non dedigneris. Aeternum, vir eruditissime, me ita reddes devinctum, poterisque esse quam persuasissimus nihil mihi unquam futurum gratius, quam tam eximii in me collati beneficii vices rependere. Sed is est tuus erga literas literarumque fautores amor, ut piaculum credam precibus a te contendere, <pb n="2r"/> quod polliceri offerreque humanitas tua videtur. Ipse ad te excurrerem, si negotiorum, quibus obruor, moles id permitteret. </seg>
-               <seg type="context" n="5" xml:id="d4617e38641"> Responsum avide expecto lubens communicaturus, quotquot, dum hic commorabor, ex Gallia ab ordinis tui sodalibus literae mihi reddentur. Fidem habere dictis ignoti ne, quaeso, gravare. Ex eruditis, qui hic commorantur, viris facile omnia cognosces. Vale, vir doctissime, meque ignotum licet absentemque favore tuo indignum iudicare noli.</seg>
-            </p>
-            <p>Scribebam raptim Vindobonae die 5. Septembris 1714.</p>
-            <p>
-               <seg type="context" n="6" xml:id="d4617e38646"> Mein addresse ist: den herrn etc. Bartenstein bei herrn <seg type="lemma" corresp="#d4617e38685">Daniel Kesel banquier</seg>.</seg>
-            </p>
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverendo in Christo patri domino N. N. Petz magistro novitiorum salutem plurimam dicit Johannes Christophorus Bartenstein.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e43892"> Literis te compellare, vir clarissime, non auderem, nisi depraedicata mihi toties apud exteros etiam humanitas tua fiduciam adderet animumque. Cum <seg type="lemma" corresp="#d4618e43930">in Gallia commorarer</seg>, subinde mihi subnata occasio est sermones tenendi tum cum eruditissimo Montefalconio vestro, tum cum aliis congregationis sancti Mauri sodalibus. Uno eodemque ore praedicavere illi omnes non zelum modo pro literariae reipublicae incrementis tuum, sed et favorem, quem iis impertiris, qui se Musarum alumnos profitentur. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e43894"> Massuetius inprimis Benedictini ordinis Annales a Mabillonio inchoatos continuaturus non exigua a te promittere sibi mihi visus est. Itaque cum huc me directurum iter nosset, ut ipsius pariter aliorumque nomine amicissimam tibi dicerem salutem, enixe me rogavit; et ego tanti viri notitiam perquam exoptans nihil magis in votis habui unquam, quam ut innotescendi tibi sese offerret occasio. Sed hactenus conanti fortuna defuit. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e43896"> Interim, dum a doctissimo Montefalconii vestri sodali reverendo patre De la Rue nuper rogarer, ut manuscripti caesareae bibliothecae codicis, quo <seg type="lemma" corresp="#d4618e43937">Origeniana in Ψalmos ἐξήγησis</seg> continetur, copiam ipsi aequo pretio pararem, eo rem apud bibliothecae huius praefectum perduxi, <pb n="1v"/> ut ille veniam eius rei benignus concederet. Sed <seg type="lemma" corresp="#d4618e43944">tot hic curis</seg> negotiisque distringor, ut, si spartam eius rei in me suscepero, merito verendum mihi sit, ne tempore excludar. Cui hanc demandare possem provinciam, amicus quaesitus hactenus a me diligenter est, sed frustraneo labore; ipseque bibliothecae praefectus clarissimus Gentillotius nuper mihi retulit me in conquirendo fido diligentique homine <seg type="lemma" corresp="#d4618e43949">operam perditurum oleumque</seg>. </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e43900"> Non abieci tamen ob id omnem prorsus spem, ratus tanta esse eorum, quos memoravi, virorum vestri ordinis in me merita, ut praecipuum itineris mei fructum aestimare debeam id egisse, ut restitutorum Origenis operum gloria vestro ordini vindicetur. Itaque te, vir clarissime, pro eo, quo pro bono publico flagras studio, pro amicitia, qua tibi <seg type="lemma" corresp="#d4618e43954">Mabillonius olim</seg> et nunc <seg type="lemma" corresp="#d4618e43961">Montefalconius, Nourrius, Massuetius</seg> aliaque Benedictini ordinis ornamenta devincti sunt, pro sollicitudine, quam literis et sacrosanctis inprimis antiquissimae ecclesiae monumentis impendis, oro atque obtestor, ut, si quae tibi suppetit ratio, si quae nota via est, qua precibus tot amicorum virorum possit fieri<note place="foot" xml:id="d4618e43902">	Korrigiert aus <hi rend="italic">viroru</hi>.</note> satis, eam vel ignoto mihi indicare non dedigneris. Aeternum, vir eruditissime, me ita reddes devinctum, poterisque esse quam persuasissimus nihil mihi unquam futurum gratius, quam tam eximii in me collati beneficii vices rependere. Sed is est tuus erga literas literarumque fautores amor, ut piaculum credam precibus a te contendere, <pb n="2r"/> quod polliceri offerreque humanitas tua videtur. Ipse ad te excurrerem, si negotiorum, quibus obruor, moles id permitteret. </seg><seg type="context" n="5" xml:space="preserve" xml:id="d4618e43910"> Responsum avide expecto lubens communicaturus, quotquot, dum hic commorabor, ex Gallia ab ordinis tui sodalibus literae mihi reddentur<note place="foot" xml:id="d4618e43912">	<hi rend="italic">mihi reddentur</hi> korrigiert aus unleserlicher Streichung im Ausmaß von ca. 6–8 Buchstaben.</note>. Fidem habere dictis ignoti ne, quaeso, gravare. Ex eruditis, qui hic commorantur, viris facile omnia cognosces. Vale, vir doctissime, meque ignotum licet absentemque favore tuo indignum iudicare noli.</seg></p>
+            <p xml:space="preserve">Scribebam raptim<note place="foot" xml:id="d4618e43920">	Über der Zeile eingefügt.</note> Vindobonae die 5. Septembris 1714.</p>
+            <p xml:space="preserve"><seg type="context" n="6" xml:space="preserve" xml:id="d4618e43924"> Mein addresse ist: den herrn etc. Bartenstein bei herrn <seg type="lemma" corresp="#d4618e43966">Daniel Kesel banquier</seg><note place="foot" xml:id="d4618e43926">	Danach Textverlust im Ausmaß von ca. 5–6 Buchstaben durch Einriss.</note>.</seg></p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <note xml:id="d4617e38649" target="#d4617e38595 #d4617e38629">
-               <ref target="">1</ref>
+            <note xml:id="d4618e43930">
+               <ref type="context">1</ref>
                <label>in Gallia commorarer</label>
                <p>Zum Paris-Aufenthalt CBs und Konrad Widows 1712/13 vgl. Braubach, Bartenstein 117–120.</p>
             </note>
-            <note xml:id="d4617e38656" target="#d4617e38599 #d4617e38633">
-               <ref target="">3</ref>
+            <note xml:id="d4618e43937">
+               <ref type="context">3</ref>
                <label>Origeniana in Ψalmos ἐξήγησis</label>
                <p>Tatsächlich handelt es sich um ÖNB, Cod. theol. gr. 311; vgl. Hunger–Lackner–Hannick, Griechische Handschriften 3/3 400–402. Die Identifikation stützt sich auf Lambeck–Kollár, Commentarii 3 68–71, wo ausführlich von CBs Mitwirkung an der Edition des Textes die Rede ist. Die irrige Zuweisung an Origenes stammt von Sebastian Tengnagel und ist in der Literatur häufig übernommen worden. Die Mauriner waren durch die Erwähnungen in den Katalogen Lambecks und Nessels auf den Codex aufmerksam geworden: Lambeck, Commentarii 3 28; Nessel, Catalogus 1 424. – Zum Editor De la Rue vgl. Chaussy, Matricula 98; Tassin, Histoire littéraire 571–574; Vanel, Nécrologe 196–198; Wilhelm et al., Nouveau supplément 1 330f.</p>
             </note>
-            <note xml:id="d4617e38663" target="#d4617e38599 #d4617e38633">
-               <ref target="#d4617e38599 #d4617e38633">3</ref>
+            <note xml:id="d4618e43944">
+               <ref type="context">3</ref>
                <label>tot hic curis</label>
                <p>Zu den Aktivitäten CBs in Wien vgl. Einleitung, Abschnitt I.3.</p>
             </note>
-            <note xml:id="d4617e38668" target="#d4617e38599 #d4617e38633">
-               <ref target="#d4617e38599 #d4617e38633">3</ref>
+            <note xml:id="d4618e43949">
+               <ref type="context">3</ref>
                <label>operam perditurum oleumque</label>
                <p>Nach Plautus, Poenulus 332: „oleum et operam perdidi“; vgl. Walther, Proverbia 3 574 Nr. 19768; 8 915 Nr. 39183b.</p>
             </note>
-            <note xml:id="d4617e38673" target="#d4617e38601 #d4617e38637">
-               <ref target="">4</ref>
+            <note xml:id="d4618e43954">
+               <ref type="context">4</ref>
                <label>Mabillonius olim</label>
                <p>Mabillon († 1707) war nie in Kontakt mit BP gewesen, soweit feststellbar auch nicht mit Melk überhaupt.</p>
             </note>
-            <note xml:id="d4617e38680" target="#d4617e38601 #d4617e38637">
-               <ref target="#d4617e38601 #d4617e38637">4</ref>
+            <note xml:id="d4618e43961">
+               <ref type="context">4</ref>
                <label>Montefalconius, Nourrius, Massuetius</label>
                <p>Nur René Massuet hatte bis zum Zeitpunkt dieses Briefs tatsächlich mit BP korrespondiert.</p>
             </note>
-            <note xml:id="d4617e38685" target="#d4617e38605 #d4617e38646">
-               <ref target="">6</ref>
+            <note xml:id="d4618e43966">
+               <ref type="context">6</ref>
                <label>Daniel Kesel banquier</label>
                <p>Zu ihm vgl. Braubach, Geschichte und Abenteuer 115; Tautscher, Ernst Ludwig Carl 14.</p>
             </note>
