@@ -19,7 +19,7 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="tei:TEI" mode="groupSections splitParts cleanup parseRegest collapseAdjacentRends parseCommentary addIDs tagLemmas createLinks tagPersAbbrs parseEditorialNotes xenoData2correspDesc correspDesc2profileDesc correctDates addNotesStmt">
+    <xsl:template match="tei:TEI" mode="groupSections splitParts cleanup parseRegest collapseAdjacentRends parseCommentary addIDs tagLemmas createLinks tagPersAbbrs parseEditorialNotes xenoData2correspDesc correspDesc2profileDesc correctDates addNotesStmt trimLeadingSpaceInContexts">
         <xsl:document>
             <xsl:copy>
                 <xsl:copy-of select="@*"/>
@@ -79,12 +79,15 @@
         <xsl:variable name="notesStmtAdded" as="document-node()+">
             <xsl:apply-templates select="$datesCorrected" mode="addNotesStmt"/>
         </xsl:variable>
+        <xsl:variable name="leadingSpacesInContextsTrimmed" as="document-node()+">
+            <xsl:apply-templates select="$notesStmtAdded" mode="trimLeadingSpaceInContexts"/>
+        </xsl:variable>
         <xsl:choose>
             <xsl:when test="$splitLetters = 'no'">
-                <teiCorpus created="{current-dateTime()}"><xsl:sequence select="$notesStmtAdded"/></teiCorpus>
+                <teiCorpus created="{current-dateTime()}"><xsl:sequence select="$leadingSpacesInContextsTrimmed"/></teiCorpus>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:for-each select="$notesStmtAdded">
+                <xsl:for-each select="$leadingSpacesInContextsTrimmed">
                     <xsl:result-document href="../102_03_extracted_letters/pez_{format-number(.//tei:publicationStmt/tei:idno,'000')}.xml">
                         <xsl:sequence select="."/>
                     </xsl:result-document>
@@ -535,50 +538,50 @@
                                 </xsl:otherwise>
                             </xsl:choose>
                             <!--<xsl:analyze-string select="." regex="(Erwähnt in\s|Erwähnt\s|Steht in einem Überlieferungszusammenhang mit\s|(Wohl |Möglicherweise )?[vV]ersendet bis .+ mit\s|(Wohl |Möglicherweise )?[vV]ersendet von .+ (bis|nach) .+ mit\s)?(\d+)( oder (\d+))?(\s\(\?\))?[\.,]">
-                                <xsl:matching-substring>
-                                    <ref>
-                                        <xsl:if test="regex-group(9) = ' (?)'">
-                                            <xsl:attribute name="cert">low</xsl:attribute>
-                                        </xsl:if>
-                                        <xsl:choose>
-                                            <xsl:when test="regex-group(1) != ''">
-                                                <xsl:attribute name="type">
-                                                    <xsl:choose>
-                                                        <xsl:when test="regex-group(1) = 'Erwähnt in '">
-                                                            <xsl:text>mentionedIn</xsl:text>
-                                                        </xsl:when>
-                                                        <xsl:when test="regex-group(1) = 'Erwähnt '">
-                                                            <xsl:text>mentions</xsl:text>
-                                                        </xsl:when>
-                                                        <xsl:when test="regex-group(1) = 'Steht in einem Überlieferungszusammenhang mit '">
-                                                            <xsl:text>relatedToTraditionOf</xsl:text>
-                                                        </xsl:when>
-                                                        <xsl:when test="contains(lower-case(regex-group(1)), 'versendet')">
-                                                            <xsl:text>sentWith</xsl:text>
-                                                        </xsl:when>
-                                                        <xsl:otherwise>
-                                                            <xsl:text>UNKNOWN</xsl:text>
-                                                        </xsl:otherwise>
-                                                    </xsl:choose>
-                                                </xsl:attribute>
-                                                <!-\-<label><xsl:value-of select="regex-group(1)"/></label>-\->
-                                            </xsl:when>
-                                            <xsl:otherwise>
-                                                <xsl:attribute name="type">relatedTo</xsl:attribute>
-                                            </xsl:otherwise>
-                                        </xsl:choose>
-                                        <idno><xsl:value-of select="regex-group(5)"/></idno>
-                                        <xsl:if test="regex-group(6) != ''">
-                                            <xsl:text> oder </xsl:text> 
-                                            <idno><xsl:value-of select="regex-group(7)"/></idno>
-                                        </xsl:if>
-                                    </ref>
-                                </xsl:matching-substring>
-                                <xsl:non-matching-substring>
-                                    <xsl:if test="normalize-space(.) != ''">
-                                        <xsl:message select="." terminate="yes"></xsl:message>
+                            <xsl:matching-substring>
+                                <ref>
+                                    <xsl:if test="regex-group(9) = ' (?)'">
+                                        <xsl:attribute name="cert">low</xsl:attribute>
                                     </xsl:if>
-                                </xsl:non-matching-substring>
+                                    <xsl:choose>
+                                        <xsl:when test="regex-group(1) != ''">
+                                            <xsl:attribute name="type">
+                                                <xsl:choose>
+                                                    <xsl:when test="regex-group(1) = 'Erwähnt in '">
+                                                        <xsl:text>mentionedIn</xsl:text>
+                                                    </xsl:when>
+                                                    <xsl:when test="regex-group(1) = 'Erwähnt '">
+                                                        <xsl:text>mentions</xsl:text>
+                                                    </xsl:when>
+                                                    <xsl:when test="regex-group(1) = 'Steht in einem Überlieferungszusammenhang mit '">
+                                                        <xsl:text>relatedToTraditionOf</xsl:text>
+                                                    </xsl:when>
+                                                    <xsl:when test="contains(lower-case(regex-group(1)), 'versendet')">
+                                                        <xsl:text>sentWith</xsl:text>
+                                                    </xsl:when>
+                                                    <xsl:otherwise>
+                                                        <xsl:text>UNKNOWN</xsl:text>
+                                                    </xsl:otherwise>
+                                                </xsl:choose>
+                                            </xsl:attribute>
+                                                <!-\-<label><xsl:value-of select="regex-group(1)"/></label>-\->
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:attribute name="type">relatedTo</xsl:attribute>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                    <idno><xsl:value-of select="regex-group(5)"/></idno>
+                                    <xsl:if test="regex-group(6) != ''">
+                                        <xsl:text> oder </xsl:text> 
+                                        <idno><xsl:value-of select="regex-group(7)"/></idno>
+                                    </xsl:if>
+                                </ref>
+                            </xsl:matching-substring>
+                            <xsl:non-matching-substring>
+                                <xsl:if test="normalize-space(.) != ''">
+                                    <xsl:message select="." terminate="yes"></xsl:message>
+                                </xsl:if>
+                            </xsl:non-matching-substring>
                             </xsl:analyze-string>-->
                         </xsl:for-each>
                     </correspContext>
@@ -627,12 +630,26 @@
                 </xsl:when>
                 <xsl:when test="starts-with(., 'Edition:')">
                     <relatedItem type="otherEdition">
-                        <bibl><xsl:value-of select="substring-after(., 'Edition:')"/></bibl>
+                        <bibl>
+                            <xsl:value-of select="substring-after(node()[1]/self::text(), 'Edition: ')"/>
+                            <xsl:apply-templates mode="#current" select="node()[position() gt 1]"/>
+                        </bibl>
                     </relatedItem>
                 </xsl:when>
                 <xsl:when test="starts-with(., 'Adresse:')">
                     <div type="address">
-                        <cit><q><xsl:value-of select="substring-after(., 'Adresse: ')"/></q></cit>
+                        <ab>
+                            <xsl:value-of select="substring-after(node()[1]/self::text(), 'Adresse: ')"/>
+                            <xsl:apply-templates mode="#current" select="node()[position() gt 1]"/>
+                        </ab>
+                    </div>
+                </xsl:when>
+                <xsl:when test="starts-with(., 'Bemerkungen:')">
+                    <div type="remarks">
+                        <p>
+                            <xsl:value-of select="substring-after(node()[1]/self::text(), 'Bemerkungen: ')"/>
+                            <xsl:apply-templates mode="#current" select="node()[position() gt 1]"/>
+                        </p>
                     </div>
                 </xsl:when>
                 <xsl:otherwise>
@@ -874,11 +891,12 @@
     </xsl:template>
     
     <xsl:template match="tei:relatedItem[ancestor::tei:text]" mode="addNotesStmt"/>
+    
     <xsl:template match="tei:div[@type = 'msDesc']" mode="addNotesStmt"/>
         
     
-    
-    
-    
+    <xsl:template match="tei:seg[@type = 'context']/node()[1][self::text()/starts-with(., ' ')]" mode="trimLeadingSpaceInContexts">
+        <xsl:value-of select="substring-after(.,' ')"/>
+    </xsl:template>
     
 </xsl:stylesheet>
