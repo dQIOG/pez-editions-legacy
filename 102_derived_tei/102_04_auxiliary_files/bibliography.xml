@@ -1,71 +1,6395 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">[1] Bernhard Pez an NN (Wiblingen). LE 1. 1709-09-08.</title>
-            <title type="sub">Digital Edition</title>
-            <principal>Thomas Wallnig</principal>
-            <respStmt>
-               <resp>Conversion to TEI</resp>
-               <persName>Daniel Schopper</persName>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <publisher>Austrian Centre for Digital Humanities</publisher>
-            <idno type="pezEd">1</idno>
-         </publicationStmt>
-         <notesStmt>
-            <relatedItem type="publishedIn">
-               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
-            </relatedItem>
-            <relatedItem type="instanceOf">
-               <bibl>
-                  <author>Bernhard Pez</author>
-                  <title>Litterae encyclicae 1</title>
-               </bibl>
-            </relatedItem>
-         </notesStmt>
-         <sourceDesc>
-            <p>No direct source, inferred letter.</p>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <textClass>
-            <classCode scheme="pez">letter</classCode>
-         </textClass>
-         <correspDesc>
-            <correspAction type="sent">
-               <persName>Bernhard Pez</persName>
-               <date when="1709-09-08">1709-09-08</date>
-            </correspAction>
-            <correspAction type="received">
-               <orgName type="monastery">Wiblingen</orgName>
-            </correspAction>
-            <correspContext>
-               <ref type="next">
-                  <idno type="pezEd">10</idno>
-               </ref>
-               <ref type="mentionedIn">
-                  <idno type="pezEd">10</idno>
-               </ref>
-            </correspContext>
-         </correspDesc>
-      </profileDesc>
-      <revisionDesc>
-         <listChange>
-            <change type="creation" who="#ds" when="2017-02-27T09:44:16.455+01:00">Automatically upconverted from DOCX document.</change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <front>
-         <div type="editorialNote"/>
-      </front>
-      <body>
-         <ab>
-            <gap reason="inferred letter"/>
-         </ab>
-      </body>
-      <back/>
-   </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?>
+<listBibl>
+   <bibl>
+      <idno>14676</idno>
+      <title>ANDRADE, Vidas</title>
+   </bibl>
+   <bibl>
+      <idno>14678</idno>
+      <title>AVENTIN, Annales Boiorum</title>
+   </bibl>
+   <bibl>
+      <idno>14680</idno>
+      <title>BALE, Illustrium Britanniae scriptorum summarium</title>
+   </bibl>
+   <bibl>
+      <idno>14682</idno>
+      <title>BAUDELOT DE DAIRVAL, Description des bas-reliefs</title>
+   </bibl>
+   <bibl>
+      <idno>14684</idno>
+      <title>Bibliotheca mundi</title>
+   </bibl>
+   <bibl>
+      <idno>14686</idno>
+      <title>Brunner, Annales</title>
+   </bibl>
+   <bibl>
+      <idno>14688</idno>
+      <title>BRUSCH, Monasteriorum centuria prima</title>
+   </bibl>
+   <bibl>
+      <idno>14690</idno>
+      <title>CALMET, Bibliothèque lorraine</title>
+   </bibl>
+   <bibl>
+      <idno>14692</idno>
+      <title>Catalogus bibliothecae Mastricht</title>
+   </bibl>
+   <bibl>
+      <idno>14694</idno>
+      <title>ECKHART, Commentarii</title>
+   </bibl>
+   <bibl>
+      <idno>14696</idno>
+      <title>ECKHART, Corpus historicum</title>
+   </bibl>
+   <bibl>
+      <idno>14700</idno>
+      <title>ECKHART, Gründliche nachricht</title>
+   </bibl>
+   <bibl>
+      <idno>14702</idno>
+      <title>ECKHART, Historia genealogica</title>
+   </bibl>
+   <bibl>
+      <idno>14704</idno>
+      <title>ECKHART, Origines</title>
+   </bibl>
+   <bibl>
+      <idno>14706</idno>
+      <title>ECKHART, Veterum monumentorum quaternio</title>
+   </bibl>
+   <bibl>
+      <idno>14708</idno>
+      <title>FABRICIUS, Bibliotheca ecclesiastica</title>
+   </bibl>
+   <bibl>
+      <idno>14710</idno>
+      <title>GARNEFELD, Vita Albergati</title>
+   </bibl>
+   <bibl>
+      <idno>14712</idno>
+      <title>GERBERT, Codex epistolaris</title>
+   </bibl>
+   <bibl>
+      <idno>14714</idno>
+      <title>Grosses vollständiges universal-lexicon</title>
+   </bibl>
+   <bibl>
+      <idno>14718</idno>
+      <title>Hermanni Zoestii Tria opuscula</title>
+   </bibl>
+   <bibl>
+      <idno>14720</idno>
+      <title>HERRGOTT–GERBERT, Taphographia</title>
+   </bibl>
+   <bibl>
+      <idno>14722</idno>
+      <title>HUND, Bayrisch stammen-buch</title>
+   </bibl>
+   <bibl>
+      <idno>14724</idno>
+      <title>KOBOLT, Gelehrten-lexikon</title>
+   </bibl>
+   <bibl>
+      <idno>14726</idno>
+      <title>Kortholt, Epistolae ad diversos</title>
+   </bibl>
+   <bibl>
+      <idno>14728</idno>
+      <title>KRAUS, Catalogus</title>
+   </bibl>
+   <bibl>
+      <idno>14730</idno>
+      <title>KREMER, Akademische beiträge</title>
+   </bibl>
+   <bibl>
+      <idno>14732</idno>
+      <title>KROPFF, Bibliotheca Mellicensis</title>
+   </bibl>
+   <bibl>
+      <idno>14734</idno>
+      <title>Labbe–Cossart, Concilia</title>
+   </bibl>
+   <bibl>
+      <idno>14738</idno>
+      <title>LEIBNIZ et al., Origines Guelficae</title>
+   </bibl>
+   <bibl>
+      <idno>14740</idno>
+      <title>LE MASSON, Annales 1</title>
+   </bibl>
+   <bibl>
+      <idno>14742</idno>
+      <title>MARKEL, Speculum virtutis</title>
+   </bibl>
+   <bibl>
+      <idno>14744</idno>
+      <title>MAZZUCHELLI, Scrittori</title>
+   </bibl>
+   <bibl>
+      <idno>14746</idno>
+      <title>Meichelbeck, Chronicon Benedictoburanum</title>
+   </bibl>
+   <bibl>
+      <idno>14748</idno>
+      <title>MEICHELBECK, Historia Frisingensis</title>
+   </bibl>
+   <bibl>
+      <idno>14750</idno>
+      <title>MENCKE, Scriptores</title>
+   </bibl>
+   <bibl>
+      <idno>14752</idno>
+      <title>NEWEN, Pandectae</title>
+   </bibl>
+   <bibl>
+      <idno>14754</idno>
+      <title>NIVELLE–LE FÈVRE D’EAUBONNE, Constitution deferée</title>
+   </bibl>
+   <bibl>
+      <idno>14756</idno>
+      <title>Opuscula et epistolae Hincmari</title>
+   </bibl>
+   <bibl>
+      <idno>14758</idno>
+      <title>PEZ, Bibliotheca ascetica</title>
+   </bibl>
+   <bibl>
+      <idno>14760</idno>
+      <title>PFAFF, Beantwortung</title>
+   </bibl>
+   <bibl>
+      <idno>14762</idno>
+      <title>REHTMEYER, Antiquitates</title>
+   </bibl>
+   <bibl>
+      <idno>14764</idno>
+      <title>Rinaldi, Annales</title>
+   </bibl>
+   <bibl>
+      <idno>14766</idno>
+      <title>SCHMINCKE, Monimenta Hassiaca</title>
+   </bibl>
+   <bibl>
+      <idno>14768</idno>
+      <title>STRUVE, Introductio</title>
+   </bibl>
+   <bibl>
+      <idno>14770</idno>
+      <title>SUTOR, Himmel auff erden</title>
+   </bibl>
+   <bibl>
+      <idno>14772</idno>
+      <title>TASSIN, Histoire littéraire</title>
+   </bibl>
+   <bibl>
+      <idno>14774</idno>
+      <title>VECCHIETTI–MORO, Biblioteca picena</title>
+   </bibl>
+   <bibl>
+      <idno>14776</idno>
+      <title>WELSER, Rerum boicarum</title>
+   </bibl>
+   <bibl>
+      <idno>14778</idno>
+      <title>ZIEGELBAUER–LEGIPONT, Historia rei literariae</title>
+   </bibl>
+   <bibl>
+      <idno>14782</idno>
+      <title>Annales Fuldenses</title>
+   </bibl>
+   <bibl>
+      <idno>14784</idno>
+      <title>Arnpeck Sämtliche Chroniken</title>
+   </bibl>
+   <bibl>
+      <idno>14786</idno>
+      <title>Christianus Stabulensis Expositio</title>
+   </bibl>
+   <bibl>
+      <idno>14788</idno>
+      <title>LAPORTE, Introduction</title>
+   </bibl>
+   <bibl>
+      <idno>14790</idno>
+      <title>Dionysii Opera omnia</title>
+   </bibl>
+   <bibl>
+      <idno>14792</idno>
+      <title>Ebendorfer Chronica Austriae</title>
+   </bibl>
+   <bibl>
+      <idno>14794</idno>
+      <title>Eugippe Vie de Saint Séverin</title>
+   </bibl>
+   <bibl>
+      <idno>14804</idno>
+      <title>Iohannis Victoriensis Liber certarum historiarum</title>
+   </bibl>
+   <bibl>
+      <idno>14806</idno>
+      <title>Johannes de Thurocz Chronica</title>
+   </bibl>
+   <bibl>
+      <idno>14808</idno>
+      <title>LEIBNIZ, Annales imperii</title>
+   </bibl>
+   <bibl>
+      <idno>14812</idno>
+      <title>MGH DD.H.II</title>
+   </bibl>
+   <bibl>
+      <idno>14814</idno>
+      <title>MGH DD.H.III</title>
+   </bibl>
+   <bibl>
+      <idno>14816</idno>
+      <title>MGH DD.Kar.1</title>
+   </bibl>
+   <bibl>
+      <idno>14818</idno>
+      <title>MGH DD.Karl</title>
+   </bibl>
+   <bibl>
+      <idno>14820</idno>
+      <title>MGH DD.LD</title>
+   </bibl>
+   <bibl>
+      <idno>14824</idno>
+      <title>Necrologia Germaniae 5</title>
+   </bibl>
+   <bibl>
+      <idno>14826</idno>
+      <title>Optatus Contra Parmenianum</title>
+   </bibl>
+   <bibl>
+      <idno>14828</idno>
+      <title>Paulus Diaconus Geschichte der Langobarden</title>
+   </bibl>
+   <bibl>
+      <idno>14830</idno>
+      <title>Petri Blesensis Opera 1</title>
+   </bibl>
+   <bibl>
+      <idno>14832</idno>
+      <title>Piccolomini Historia Austrialis</title>
+   </bibl>
+   <bibl>
+      <idno>14834</idno>
+      <title>Piccolomini Historia Bohemica</title>
+   </bibl>
+   <bibl>
+      <idno>14836</idno>
+      <title>Vita Jesu Christi</title>
+   </bibl>
+   <bibl>
+      <idno>14838</idno>
+      <title>ACHT, Traditionen</title>
+   </bibl>
+   <bibl>
+      <idno>14840</idno>
+      <title>Acht, Pfarreien</title>
+   </bibl>
+   <bibl>
+      <idno>14846</idno>
+      <title>AHRENS, Lehrkräfte</title>
+   </bibl>
+   <bibl>
+      <idno>14848</idno>
+      <title>AIGNER, Chronik von Andechs</title>
+   </bibl>
+   <bibl>
+      <idno>14854</idno>
+      <title>AIGNER, Mariazell</title>
+   </bibl>
+   <bibl>
+      <idno>14856</idno>
+      <title>AIGNER, Mauerbach</title>
+   </bibl>
+   <bibl>
+      <idno>14864</idno>
+      <title>ALBERTAN, Bénédictins</title>
+   </bibl>
+   <bibl>
+      <idno>14866</idno>
+      <title>ALLANSON, Biography</title>
+   </bibl>
+   <bibl>
+      <idno>14868</idno>
+      <title>ALLISON, Printers</title>
+   </bibl>
+   <bibl>
+      <idno>14870</idno>
+      <title>ALLSOP, Corelli</title>
+   </bibl>
+   <bibl>
+      <idno>14880</idno>
+      <title>ALTMANN, Regesta Imperii 11</title>
+   </bibl>
+   <bibl>
+      <idno>14884</idno>
+      <title>AMANN, Verwaltungsakt</title>
+   </bibl>
+   <bibl>
+      <idno>14892</idno>
+      <title>ANDERSSON-SCHMITT–HALLBERG–HEDLUND, Mittelalterliche Handschriften 5</title>
+   </bibl>
+   <bibl>
+      <idno>14894</idno>
+      <title>ANDRIAN-WERBURG, Wessobrunn</title>
+   </bibl>
+   <bibl>
+      <idno>14898</idno>
+      <title>ANDRITSCH, Matrikeln Graz 3</title>
+   </bibl>
+   <bibl>
+      <idno>14900</idno>
+      <title>ANGENENDT, Kaiserherrschaft</title>
+   </bibl>
+   <bibl>
+      <idno>14904</idno>
+      <title>ANGER, Dépendances</title>
+   </bibl>
+   <bibl>
+      <idno>14908</idno>
+      <title>ANGERER, Bräuche</title>
+   </bibl>
+   <bibl>
+      <idno>14910</idno>
+      <title>ANGERER, Caeremoniae</title>
+   </bibl>
+   <bibl>
+      <idno>14916</idno>
+      <title>ANRICH, Hagios Nikolaos</title>
+   </bibl>
+   <bibl>
+      <idno>14918</idno>
+      <title>ANTONINUS AB ASSUMPTIONE, Arbor</title>
+   </bibl>
+   <bibl>
+      <idno>14920</idno>
+      <title>ANTONINUS AB ASSUMPTIONE, Diccionario</title>
+   </bibl>
+   <bibl>
+      <idno>14922</idno>
+      <title>ANTONINUS AB ASSUMPTIONE, Monumenta</title>
+   </bibl>
+   <bibl>
+      <idno>14928</idno>
+      <title>APPEL, Reichersberg</title>
+   </bibl>
+   <bibl>
+      <idno>14934</idno>
+      <title>ARDOUIN-WEISS, Imprimeurs</title>
+   </bibl>
+   <bibl>
+      <idno>14936</idno>
+      <title>ARDURA, Abbayes</title>
+   </bibl>
+   <bibl>
+      <idno>14940</idno>
+      <title>ARNDT, Herrschaftskontrolle</title>
+   </bibl>
+   <bibl>
+      <idno>14950</idno>
+      <title>ARNOLD, Trithemius</title>
+   </bibl>
+   <bibl>
+      <idno>14952</idno>
+      <title>ARNOLD, Fürstenbibliothek</title>
+   </bibl>
+   <bibl>
+      <idno>14954</idno>
+      <title>ASCHBACH, Universität</title>
+   </bibl>
+   <bibl>
+      <idno>14956</idno>
+      <title>ASCHBACH, Universität und ihre Gelehrten</title>
+   </bibl>
+   <bibl>
+      <idno>14966</idno>
+      <title>AUDENAERT, Prosopographia</title>
+   </bibl>
+   <bibl>
+      <idno>14976</idno>
+      <title>BAADER, Das gelehrte Baiern</title>
+   </bibl>
+   <bibl>
+      <idno>14978</idno>
+      <title>BAADER, Lexikon</title>
+   </bibl>
+   <bibl>
+      <idno>14980</idno>
+      <title>BABEL, Zwischen Habsburg und Bourbon</title>
+   </bibl>
+   <bibl>
+      <idno>14982</idno>
+      <title>BABIN–FINSTER–VAN DEN HEUVEL, Leibniz Allgemeiner Briefwechsel 16</title>
+   </bibl>
+   <bibl>
+      <idno>14984</idno>
+      <title>BABIN–VAN DEN HEUVEL, Leibniz Schriften und Briefe</title>
+   </bibl>
+   <bibl>
+      <idno>14986</idno>
+      <title>BABIN–VAN DEN HEUVEL–STUBER, Leibniz Allgemeiner Briefwechsel 23</title>
+   </bibl>
+   <bibl>
+      <idno>14988</idno>
+      <title>BABIN–VAN DEN HEUVEL–WIDMAIER, Leibniz Allgemeiner Briefwechsel 20</title>
+   </bibl>
+   <bibl>
+      <idno>14990</idno>
+      <title>BABIN–WEBER–WIDMAIER, Leibniz Allgemeiner Briefwechsel 18</title>
+   </bibl>
+   <bibl>
+      <idno>14994</idno>
+      <title>BACHLEITNER–EYBL–FISCHER, Buchhandel</title>
+   </bibl>
+   <bibl>
+      <idno>14996</idno>
+      <title>BACKMUND, Chorherrenorden</title>
+   </bibl>
+   <bibl>
+      <idno>14998</idno>
+      <title>BACKMUND, Monasticon Praemonstratense</title>
+   </bibl>
+   <bibl>
+      <idno>15000</idno>
+      <title>BACKUS, Historical Method</title>
+   </bibl>
+   <bibl>
+      <idno>15002</idno>
+      <title>BADEA–BUSEMANN–DINKELS, Repertorium</title>
+   </bibl>
+   <bibl>
+      <idno>15006</idno>
+      <title>BADER, Lexikon</title>
+   </bibl>
+   <bibl>
+      <idno>15014</idno>
+      <title>BAHLCKE, Ungarischer Episkopat</title>
+   </bibl>
+   <bibl>
+      <idno>15020</idno>
+      <title>BAKHUIZEN VAN DEN BRINK, Ratramnus</title>
+   </bibl>
+   <bibl>
+      <idno>15022</idno>
+      <title>BAKOS, Images</title>
+   </bibl>
+   <bibl>
+      <idno>15026</idno>
+      <title>BALDELLI, Tino di Camaino</title>
+   </bibl>
+   <bibl>
+      <idno>15038</idno>
+      <title>BARLOW, Martini Bracarensis Opera</title>
+   </bibl>
+   <bibl>
+      <idno>15048</idno>
+      <title>BAUCKNER, Mabillons Reise</title>
+   </bibl>
+   <bibl>
+      <idno>15056</idno>
+      <title>BAUDRILLART, Quirini vita</title>
+   </bibl>
+   <bibl>
+      <idno>15058</idno>
+      <title>BAUER, Thomistische Metaphysik</title>
+   </bibl>
+   <bibl>
+      <idno>15064</idno>
+      <title>BAUER, Repertorium</title>
+   </bibl>
+   <bibl>
+      <idno>15066</idno>
+      <title>BAUER, Wurzel</title>
+   </bibl>
+   <bibl>
+      <idno>15068</idno>
+      <title>BAUER, Diarium</title>
+   </bibl>
+   <bibl>
+      <idno>15074</idno>
+      <title>BAUM, Grafen von Görz</title>
+   </bibl>
+   <bibl>
+      <idno>15078</idno>
+      <title>BAUMANN, Meichelbeck</title>
+   </bibl>
+   <bibl>
+      <idno>15084</idno>
+      <title>BAUMGARTEN, Freiburg</title>
+   </bibl>
+   <bibl>
+      <idno>15086</idno>
+      <title>BAUMGARTNER, Untersuchungen</title>
+   </bibl>
+   <bibl>
+      <idno>15088</idno>
+      <title>BEAUPRÉ, Recherches</title>
+   </bibl>
+   <bibl>
+      <idno>15090</idno>
+      <title>BECHER–HARTMANN–PLASSMANN, Quellen</title>
+   </bibl>
+   <bibl>
+      <idno>15094</idno>
+      <title>BECK, Gotter</title>
+   </bibl>
+   <bibl>
+      <idno>15096</idno>
+      <title>BECKER, Deutsche Studenten</title>
+   </bibl>
+   <bibl>
+      <idno>15102</idno>
+      <title>BECKER, Reformprogramm</title>
+   </bibl>
+   <bibl>
+      <idno>15104</idno>
+      <title>BECKER, St. Eucharius</title>
+   </bibl>
+   <bibl>
+      <idno>15112</idno>
+      <title>BEHRENS–BEHRENS, Kloster Wendhusen 1</title>
+   </bibl>
+   <bibl>
+      <idno>15114</idno>
+      <title>BEHSE, Juristische Fakultät</title>
+   </bibl>
+   <bibl>
+      <idno>15120</idno>
+      <title>BEISSEL, Bernward</title>
+   </bibl>
+   <bibl>
+      <idno>15122</idno>
+      <title>BEKH, Wittelsbacher in Italien</title>
+   </bibl>
+   <bibl>
+      <idno>15128</idno>
+      <title>BENEDIKT, Neapel</title>
+   </bibl>
+   <bibl>
+      <idno>15130</idno>
+      <title>BENEDIKT, Sporck</title>
+   </bibl>
+   <bibl>
+      <idno>15152</idno>
+      <title>BENZ, Zwischen Tradition und Kritik</title>
+   </bibl>
+   <bibl>
+      <idno>15154</idno>
+      <title>BENZIGER, Geschichte des Buchgewerbes</title>
+   </bibl>
+   <bibl>
+      <idno>15160</idno>
+      <title>BÉRENGER, Turenne</title>
+   </bibl>
+   <bibl>
+      <idno>15162</idno>
+      <title>BERGER-LEVRAULT, Annales</title>
+   </bibl>
+   <bibl>
+      <idno>15166</idno>
+      <title>BERGES–RIECKENBERG, Inschriften</title>
+   </bibl>
+   <bibl>
+      <idno>15174</idno>
+      <title>BERGMANN, Medaillen</title>
+   </bibl>
+   <bibl>
+      <idno>15180</idno>
+      <title>BERGMANN et al., Glossenhandschriften</title>
+   </bibl>
+   <bibl>
+      <idno>15182</idno>
+      <title>BERKVENS-STEVELINCK, Prosper Marchand</title>
+   </bibl>
+   <bibl>
+      <idno>15208</idno>
+      <title>BERNHARD, Clavis Gerberti 1</title>
+   </bibl>
+   <bibl>
+      <idno>15210</idno>
+      <title>BERSCHIN, Biographie und Epochenstil</title>
+   </bibl>
+   <bibl>
+      <idno>15218</idno>
+      <title>BESTERMAN, Beginnings</title>
+   </bibl>
+   <bibl>
+      <idno>15222</idno>
+      <title>BETTS, Early Deism</title>
+   </bibl>
+   <bibl>
+      <idno>15228</idno>
+      <title>BEZOLD, König Sigmund</title>
+   </bibl>
+   <bibl>
+      <idno>15234</idno>
+      <title>BIGNAMI ODIER, Bibliothèque Vaticane</title>
+   </bibl>
+   <bibl>
+      <idno>15248</idno>
+      <title>BISCHOFF, Schreibschulen 1</title>
+   </bibl>
+   <bibl>
+      <idno>15250</idno>
+      <title>BISCHOFF, Schreibschulen 2</title>
+   </bibl>
+   <bibl>
+      <idno>15256</idno>
+      <title>BITTNER–GROß, Repertorium 1</title>
+   </bibl>
+   <bibl>
+      <idno>15258</idno>
+      <title>BIZER, Studien</title>
+   </bibl>
+   <bibl>
+      <idno>15260</idno>
+      <title>BLACKBURN–LOWINSKY–MILLER, Correspondence</title>
+   </bibl>
+   <bibl>
+      <idno>15270</idno>
+      <title>BLANC-ROUQUETTE, Presse</title>
+   </bibl>
+   <bibl>
+      <idno>15272</idno>
+      <title>BLAŽEVIĆ, Ilirizam</title>
+   </bibl>
+   <bibl>
+      <idno>15276</idno>
+      <title>BLET, Clergé</title>
+   </bibl>
+   <bibl>
+      <idno>15286</idno>
+      <title>BLUME, Thesauri Hymnologici Prosarium</title>
+   </bibl>
+   <bibl>
+      <idno>15288</idno>
+      <title>BOBERSKI, Theater</title>
+   </bibl>
+   <bibl>
+      <idno>15294</idno>
+      <title>BODEMANN, Briefwechsel</title>
+   </bibl>
+   <bibl>
+      <idno>15296</idno>
+      <title>BODEMANN, Handschriften</title>
+   </bibl>
+   <bibl>
+      <idno>15300</idno>
+      <title>BODENSTEDT, Vita Christi</title>
+   </bibl>
+   <bibl>
+      <idno>15308</idno>
+      <title>BÖHM, Handschriften</title>
+   </bibl>
+   <bibl>
+      <idno>15318</idno>
+      <title>BOOCKMANN, Verlorene Teile</title>
+   </bibl>
+   <bibl>
+      <idno>15320</idno>
+      <title>BOOT, Cassiodorus’ Historia</title>
+   </bibl>
+   <bibl>
+      <idno>15324</idno>
+      <title>BORGHERO, Certezza</title>
+   </bibl>
+   <bibl>
+      <idno>15330</idno>
+      <title>BORMANN, Ursprung</title>
+   </bibl>
+   <bibl>
+      <idno>15336</idno>
+      <title>BOROVÝ, Brus</title>
+   </bibl>
+   <bibl>
+      <idno>15340</idno>
+      <title>BORSA, Clavis</title>
+   </bibl>
+   <bibl>
+      <idno>15342</idno>
+      <title>BORVITZ, Übersetzungstechnik</title>
+   </bibl>
+   <bibl>
+      <idno>15352</idno>
+      <title>BOSSI, Matricula 1</title>
+   </bibl>
+   <bibl>
+      <idno>15356</idno>
+      <title>BOTS–WAQUET, République des Lettres</title>
+   </bibl>
+   <bibl>
+      <idno>15364</idno>
+      <title>BOUHOT, Ratramne</title>
+   </bibl>
+   <bibl>
+      <idno>15370</idno>
+      <title>BOURASSÉ, Cartulaire</title>
+   </bibl>
+   <bibl>
+      <idno>15372</idno>
+      <title>BOUTIER, Stephanus Baluzius</title>
+   </bibl>
+   <bibl>
+      <idno>15378</idno>
+      <title>BRACKMANN, Germania pontificia 1</title>
+   </bibl>
+   <bibl>
+      <idno>15380</idno>
+      <title>BRACKMANN, Germania pontificia 2/1</title>
+   </bibl>
+   <bibl>
+      <idno>15382</idno>
+      <title>BRACKMANN, Kurie</title>
+   </bibl>
+   <bibl>
+      <idno>15386</idno>
+      <title>BRANDI, Chronik</title>
+   </bibl>
+   <bibl>
+      <idno>15388</idno>
+      <title>BRANDMÜLLER, Konzil von Konstanz</title>
+   </bibl>
+   <bibl>
+      <idno>15392</idno>
+      <title>BRANDT–HENGST, Weihbischöfe</title>
+   </bibl>
+   <bibl>
+      <idno>15402</idno>
+      <title>BRAUBACH, Geschichte und Abenteuer</title>
+   </bibl>
+   <bibl>
+      <idno>15406</idno>
+      <title>BRAUBACH, Prinz Eugen</title>
+   </bibl>
+   <bibl>
+      <idno>15408</idno>
+      <title>BRAUBACH, Versailles und Wien</title>
+   </bibl>
+   <bibl>
+      <idno>15412</idno>
+      <title>BRAUN, Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>15418</idno>
+      <title>BREDERO, Bernardus</title>
+   </bibl>
+   <bibl>
+      <idno>15420</idno>
+      <title>BREMOND, Histoire littéraire 6</title>
+   </bibl>
+   <bibl>
+      <idno>15430</idno>
+      <title>BRETSCHER-GISIGER–SIEBER, Acta Murensia</title>
+   </bibl>
+   <bibl>
+      <idno>15432</idno>
+      <title>BREWER, Enlightenment Past</title>
+   </bibl>
+   <bibl>
+      <idno>15434</idno>
+      <title>BRIGUÉ, Alger de Liége</title>
+   </bibl>
+   <bibl>
+      <idno>15440</idno>
+      <title>BROCKMANN, Medaillen 2</title>
+   </bibl>
+   <bibl>
+      <idno>15442</idno>
+      <title>BROGLIE, Mabillon</title>
+   </bibl>
+   <bibl>
+      <idno>15444</idno>
+      <title>BROGLIE, Montfaucon</title>
+   </bibl>
+   <bibl>
+      <idno>15446</idno>
+      <title>BROSCH, Familie Bessel</title>
+   </bibl>
+   <bibl>
+      <idno>15456</idno>
+      <title>BRÜHL, Capitulare</title>
+   </bibl>
+   <bibl>
+      <idno>15458</idno>
+      <title>BRUNHÖLZL, Literatur</title>
+   </bibl>
+   <bibl>
+      <idno>15462</idno>
+      <title>BRUNNER, Herzogtümer</title>
+   </bibl>
+   <bibl>
+      <idno>15464</idno>
+      <title>BRUUN, Rostgaard</title>
+   </bibl>
+   <bibl>
+      <idno>15466</idno>
+      <title>BUBNOV, Gerberti Opera Mathematica</title>
+   </bibl>
+   <bibl>
+      <idno>15472</idno>
+      <title>BUCHOWIECKI, Barockbau</title>
+   </bibl>
+   <bibl>
+      <idno>15476</idno>
+      <title>BUEK, Oberalten</title>
+   </bibl>
+   <bibl>
+      <idno>15478</idno>
+      <title>BUGNER, Cadre architectural</title>
+   </bibl>
+   <bibl>
+      <idno>15482</idno>
+      <title>BUIJNSTERS, Justus van Effen</title>
+   </bibl>
+   <bibl>
+      <idno>15484</idno>
+      <title>BULST, Untersuchungen</title>
+   </bibl>
+   <bibl>
+      <idno>15490</idno>
+      <title>BURGER, Aedificatio</title>
+   </bibl>
+   <bibl>
+      <idno>15496</idno>
+      <title>BURMEISTER, Geschichte Vorarlbergs</title>
+   </bibl>
+   <bibl>
+      <idno>15498</idno>
+      <title>BURNETT, Christian Hebraism</title>
+   </bibl>
+   <bibl>
+      <idno>15500</idno>
+      <title>BURSIAN, Philologie</title>
+   </bibl>
+   <bibl>
+      <idno>15504</idno>
+      <title>BUSCH, Karolinger</title>
+   </bibl>
+   <bibl>
+      <idno>15506</idno>
+      <title>BUSCH, Liber de Honore Ecclesiae</title>
+   </bibl>
+   <bibl>
+      <idno>15508</idno>
+      <title>BUSHKOVITCH, Peter the Great</title>
+   </bibl>
+   <bibl>
+      <idno>15510</idno>
+      <title>BUTTLAR, Belagerung</title>
+   </bibl>
+   <bibl>
+      <idno>15512</idno>
+      <title>BÜTTNER, Burgen 5</title>
+   </bibl>
+   <bibl>
+      <idno>15514</idno>
+      <title>BUTZMANN, Weissenburger Handschriften</title>
+   </bibl>
+   <bibl>
+      <idno>15516</idno>
+      <title>CAHN, Romanesque Manuscripts</title>
+   </bibl>
+   <bibl>
+      <idno>15528</idno>
+      <title>CANTONI ALZATI, Biblioteca</title>
+   </bibl>
+   <bibl>
+      <idno>15530</idno>
+      <title>CAPITAINE, Correspondance</title>
+   </bibl>
+   <bibl>
+      <idno>15532</idno>
+      <title>CAPPELLO, Curia</title>
+   </bibl>
+   <bibl>
+      <idno>15534</idno>
+      <title>CARAYOL, Saint-Hyacinthe</title>
+   </bibl>
+   <bibl>
+      <idno>15536</idno>
+      <title>CARAYON, Documents 22</title>
+   </bibl>
+   <bibl>
+      <idno>15538</idno>
+      <title>Carli, Tino di Camaino</title>
+   </bibl>
+   <bibl>
+      <idno>15544</idno>
+      <title>CARRARO, Monachesimo</title>
+   </bibl>
+   <bibl>
+      <idno>15546</idno>
+      <title>CARREYRE, Jansénisme</title>
+   </bibl>
+   <bibl>
+      <idno>15558</idno>
+      <title>Caspar, Petrus Diaconus</title>
+   </bibl>
+   <bibl>
+      <idno>15562</idno>
+      <title>CASTAGNOLI, Alberoni 1</title>
+   </bibl>
+   <bibl>
+      <idno>15566</idno>
+      <title>CASTELLANE, Catalogue</title>
+   </bibl>
+   <bibl>
+      <idno>15568</idno>
+      <title>CATALANO, Vicende</title>
+   </bibl>
+   <bibl>
+      <idno>15570</idno>
+      <title>CATHEY, Hêliand</title>
+   </bibl>
+   <bibl>
+      <idno>15576</idno>
+      <title>ČERNÍK, Wissenschaft</title>
+   </bibl>
+   <bibl>
+      <idno>15586</idno>
+      <title>CHAIX, Réforme</title>
+   </bibl>
+   <bibl>
+      <idno>15588</idno>
+      <title>CHAPELLIER–GLEY, Documents 5</title>
+   </bibl>
+   <bibl>
+      <idno>15602</idno>
+      <title>CHAUSSY, Bénédictins</title>
+   </bibl>
+   <bibl>
+      <idno>15604</idno>
+      <title>CHAUSSY, Matricula</title>
+   </bibl>
+   <bibl>
+      <idno>15606</idno>
+      <title>CHAZELLE, Crucified God</title>
+   </bibl>
+   <bibl>
+      <idno>15616</idno>
+      <title>CHÉREST, Matricula</title>
+   </bibl>
+   <bibl>
+      <idno>15622</idno>
+      <title>CHEVALIER, Repertorium</title>
+   </bibl>
+   <bibl>
+      <idno>15628</idno>
+      <title>CITTON, Envers de la liberté</title>
+   </bibl>
+   <bibl>
+      <idno>15630</idno>
+      <title>CLARK, Chartae 1504–1515</title>
+   </bibl>
+   <bibl>
+      <idno>15632</idno>
+      <title>CLARK, Chartae Supplement</title>
+   </bibl>
+   <bibl>
+      <idno>15634</idno>
+      <title>CLARK, Ms. Parkminster B 62</title>
+   </bibl>
+   <bibl>
+      <idno>15636</idno>
+      <title>CLARK, Transumptum ex chartis</title>
+   </bibl>
+   <bibl>
+      <idno>15638</idno>
+      <title>CLARK, Urbanist Chartae</title>
+   </bibl>
+   <bibl>
+      <idno>15640</idno>
+      <title>CLARK, Villeneuve Necrology</title>
+   </bibl>
+   <bibl>
+      <idno>15642</idno>
+      <title>CLARK, Book of Birds</title>
+   </bibl>
+   <bibl>
+      <idno>15644</idno>
+      <title>CLASSEN, Gerhoch</title>
+   </bibl>
+   <bibl>
+      <idno>15650</idno>
+      <title>CLEMEN, Kunstdenkmäler Neuss</title>
+   </bibl>
+   <bibl>
+      <idno>15662</idno>
+      <title>COLLETT, Benedictine Scholars</title>
+   </bibl>
+   <bibl>
+      <idno>15664</idno>
+      <title>COLLINS, Herbals</title>
+   </bibl>
+   <bibl>
+      <idno>15666</idno>
+      <title>CONLON, Siècle des Lumières 1</title>
+   </bibl>
+   <bibl>
+      <idno>15668</idno>
+      <title>CONNOLLY, Gerson</title>
+   </bibl>
+   <bibl>
+      <idno>15670</idno>
+      <title>CONRAD, Lexikonpolitik</title>
+   </bibl>
+   <bibl>
+      <idno>15674</idno>
+      <title>CONZEMIUS, Katholizismus</title>
+   </bibl>
+   <bibl>
+      <idno>15682</idno>
+      <title>CORETH, Geschichtschreibung</title>
+   </bibl>
+   <bibl>
+      <idno>15684</idno>
+      <title>CORETH, Pietas Austriaca</title>
+   </bibl>
+   <bibl>
+      <idno>15690</idno>
+      <title>COTTINEAU, Répertoire</title>
+   </bibl>
+   <bibl>
+      <idno>15692</idno>
+      <title>COUÉ, Hagiographie</title>
+   </bibl>
+   <bibl>
+      <idno>15694</idno>
+      <title>COULON–PAPILLON, Scriptores 3</title>
+   </bibl>
+   <bibl>
+      <idno>15700</idno>
+      <title>COUROUAU, Moun lengatge</title>
+   </bibl>
+   <bibl>
+      <idno>15706</idno>
+      <title>COYECQUE, Catalogue Amiens</title>
+   </bibl>
+   <bibl>
+      <idno>15730</idno>
+      <title>CZEIKE, Wien Innere Stadt</title>
+   </bibl>
+   <bibl>
+      <idno>15732</idno>
+      <title>CZERNY, Handschriften</title>
+   </bibl>
+   <bibl>
+      <idno>15734</idno>
+      <title>CZOK, August der Starke</title>
+   </bibl>
+   <bibl>
+      <idno>15738</idno>
+      <title>D’ACUNTI, S. Lorenzo Maggiore</title>
+   </bibl>
+   <bibl>
+      <idno>15740</idno>
+      <title>DAHLKE, Günther</title>
+   </bibl>
+   <bibl>
+      <idno>15742</idno>
+      <title>DAMERINI, Isola</title>
+   </bibl>
+   <bibl>
+      <idno>15744</idno>
+      <title>DANIEL, Handschriften 4</title>
+   </bibl>
+   <bibl>
+      <idno>15746</idno>
+      <title>DANIEL–SCHOTT–ZAHN, Handschriften 3/2</title>
+   </bibl>
+   <bibl>
+      <idno>15752</idno>
+      <title>DAOUST, Martène</title>
+   </bibl>
+   <bibl>
+      <idno>15764</idno>
+      <title>DAVILLÉ, Leibniz historien</title>
+   </bibl>
+   <bibl>
+      <idno>15766</idno>
+      <title>DE BACKER et al., Bibliotheca hagiographica Latina</title>
+   </bibl>
+   <bibl>
+      <idno>15770</idno>
+      <title>DEBLER, Thierhaupten</title>
+   </bibl>
+   <bibl>
+      <idno>15772</idno>
+      <title>DEBRIS, Tu felix Austria</title>
+   </bibl>
+   <bibl>
+      <idno>15780</idno>
+      <title>DE CLERCQ, Législation 2</title>
+   </bibl>
+   <bibl>
+      <idno>15786</idno>
+      <title>DE FRANCESCHI, Entre saint Augustin</title>
+   </bibl>
+   <bibl>
+      <idno>15788</idno>
+      <title>DE GRAUWE, Capitula generalia</title>
+   </bibl>
+   <bibl>
+      <idno>15790</idno>
+      <title>DE GRAUWE, Chartae 1655–1682</title>
+   </bibl>
+   <bibl>
+      <idno>15792</idno>
+      <title>DEINHARDT, Jansenismus</title>
+   </bibl>
+   <bibl>
+      <idno>15794</idno>
+      <title>DE LA MARE, Catalogue</title>
+   </bibl>
+   <bibl>
+      <idno>15796</idno>
+      <title>Delehaye, Œuvre</title>
+   </bibl>
+   <bibl>
+      <idno>15806</idno>
+      <title>DELISLE, Cabinet des manuscrits</title>
+   </bibl>
+   <bibl>
+      <idno>15814</idno>
+      <title>DELORME, Croisade</title>
+   </bibl>
+   <bibl>
+      <idno>15820</idno>
+      <title>DENGLER-SCHREIBER, Handschriften</title>
+   </bibl>
+   <bibl>
+      <idno>15830</idno>
+      <title>DENIS, Richelieu</title>
+   </bibl>
+   <bibl>
+      <idno>15834</idno>
+      <title>DENIS–CHAUSSY, Matricula</title>
+   </bibl>
+   <bibl>
+      <idno>15836</idno>
+      <title>DENK et al., Matrikel Wien 7</title>
+   </bibl>
+   <bibl>
+      <idno>15838</idno>
+      <title>DENZEL, Bozner Messen</title>
+   </bibl>
+   <bibl>
+      <idno>15840</idno>
+      <title>DENZLER, Propagandakongregation</title>
+   </bibl>
+   <bibl>
+      <idno>15842</idno>
+      <title>DEPHOFF, Urkunden- und Kanzleiwesen</title>
+   </bibl>
+   <bibl>
+      <idno>15852</idno>
+      <title>DESAUTELS, Mémoires de Trévoux</title>
+   </bibl>
+   <bibl>
+      <idno>15858</idno>
+      <title>DEVISSE, Hincmar</title>
+   </bibl>
+   <bibl>
+      <idno>15860</idno>
+      <title>DE WINTER, Sacral Treasure</title>
+   </bibl>
+   <bibl>
+      <idno>15868</idno>
+      <title>DICKER, Landesbewusstsein</title>
+   </bibl>
+   <bibl>
+      <idno>15874</idno>
+      <title>DIENST, Babenberger-Studien</title>
+   </bibl>
+   <bibl>
+      <idno>15880</idno>
+      <title>DIENST, Regionalgeschichte</title>
+   </bibl>
+   <bibl>
+      <idno>15884</idno>
+      <title>DIEPGEN, Geschichte der Medizin</title>
+   </bibl>
+   <bibl>
+      <idno>15898</idno>
+      <title>DISCHNER, Humbert</title>
+   </bibl>
+   <bibl>
+      <idno>15912</idno>
+      <title>DOLFF-BONEKÄMPER, Entdeckung</title>
+   </bibl>
+   <bibl>
+      <idno>15916</idno>
+      <title>DÖLL, Kollegiatstifte</title>
+   </bibl>
+   <bibl>
+      <idno>15918</idno>
+      <title>DOLL, Seeon</title>
+   </bibl>
+   <bibl>
+      <idno>15920</idno>
+      <title>DOLLINGER, Évolution</title>
+   </bibl>
+   <bibl>
+      <idno>15932</idno>
+      <title>DONOVAN, Pelagius</title>
+   </bibl>
+   <bibl>
+      <idno>15940</idno>
+      <title>DÖRING, Frühaufklärung</title>
+   </bibl>
+   <bibl>
+      <idno>15948</idno>
+      <title>Dorrer, Angelus Rumpler</title>
+   </bibl>
+   <bibl>
+      <idno>15952</idno>
+      <title>DOUCETTE, Emery Bigot</title>
+   </bibl>
+   <bibl>
+      <idno>15954</idno>
+      <title>DOYLE, Jansenism</title>
+   </bibl>
+   <bibl>
+      <idno>15960</idno>
+      <title>DREVES, Conradus Gemnicensis</title>
+   </bibl>
+   <bibl>
+      <idno>15962</idno>
+      <title>DREVES, Hymnographi</title>
+   </bibl>
+   <bibl>
+      <idno>15964</idno>
+      <title>DREVES, Psalteria rhythmica</title>
+   </bibl>
+   <bibl>
+      <idno>15966</idno>
+      <title>DREVES, Stunden- und Glossen-Lieder</title>
+   </bibl>
+   <bibl>
+      <idno>15968</idno>
+      <title>DREVES–BLUME, Hymnendichtung</title>
+   </bibl>
+   <bibl>
+      <idno>15972</idno>
+      <title>DUBAR, Recherches</title>
+   </bibl>
+   <bibl>
+      <idno>15978</idno>
+      <title>DUBOUL, Académie</title>
+   </bibl>
+   <bibl>
+      <idno>15982</idno>
+      <title>DUCHÊNE, Précieuses</title>
+   </bibl>
+   <bibl>
+      <idno>15984</idno>
+      <title>DUCHESNE, Fastes</title>
+   </bibl>
+   <bibl>
+      <idno>15990</idno>
+      <title>DUCLOS, Eerste eeuw</title>
+   </bibl>
+   <bibl>
+      <idno>15992</idno>
+      <title>DUCZMAL, Jagiellonowie</title>
+   </bibl>
+   <bibl>
+      <idno>15996</idno>
+      <title>DUFOUR, Évêques d’Albi</title>
+   </bibl>
+   <bibl>
+      <idno>16000</idno>
+      <title>DUHR, Jesuiten</title>
+   </bibl>
+   <bibl>
+      <idno>16008</idno>
+      <title>DÜMMLER, Formelbuch</title>
+   </bibl>
+   <bibl>
+      <idno>16012</idno>
+      <title>DURAND, Jansénisme</title>
+   </bibl>
+   <bibl>
+      <idno>16014</idno>
+      <title>DU RIEU et al., Album studiosorum</title>
+   </bibl>
+   <bibl>
+      <idno>16016</idno>
+      <title>DÜRRWÄCHTER, Gewold</title>
+   </bibl>
+   <bibl>
+      <idno>16022</idno>
+      <title>EBERHART, Hl. Barbara</title>
+   </bibl>
+   <bibl>
+      <idno>16024</idno>
+      <title>ECKERT, Scriptores</title>
+   </bibl>
+   <bibl>
+      <idno>16028</idno>
+      <title>EDELSTEIN, Enlightenment</title>
+   </bibl>
+   <bibl>
+      <idno>16030</idno>
+      <title>EDER, Land ob der Enns</title>
+   </bibl>
+   <bibl>
+      <idno>16032</idno>
+      <title>EDER, Raupach</title>
+   </bibl>
+   <bibl>
+      <idno>16036</idno>
+      <title>EFFENBERGER, Post</title>
+   </bibl>
+   <bibl>
+      <idno>16044</idno>
+      <title>EHLERS, Heinrich der Löwe</title>
+   </bibl>
+   <bibl>
+      <idno>16046</idno>
+      <title>EHRENSBERGER, Libri liturgici</title>
+   </bibl>
+   <bibl>
+      <idno>16048</idno>
+      <title>EHRENZELLER, Stadt St. Gallen</title>
+   </bibl>
+   <bibl>
+      <idno>16054</idno>
+      <title>EIGNER, Mariazell</title>
+   </bibl>
+   <bibl>
+      <idno>16056</idno>
+      <title>EILENSTEIN, Lambach</title>
+   </bibl>
+   <bibl>
+      <idno>16060</idno>
+      <title>EISENBACH, Mineralwasser</title>
+   </bibl>
+   <bibl>
+      <idno>16066</idno>
+      <title>ELBERN–REUTHER, Domschatz</title>
+   </bibl>
+   <bibl>
+      <idno>16068</idno>
+      <title>EL KHOLI, Lektüre</title>
+   </bibl>
+   <bibl>
+      <idno>16074</idno>
+      <title>EMBACH, Literaturgeschichte</title>
+   </bibl>
+   <bibl>
+      <idno>16076</idno>
+      <title>EMERY, Bibliotheca manuscripta</title>
+   </bibl>
+   <bibl>
+      <idno>16080</idno>
+      <title>ENDERS, Zeitfolge</title>
+   </bibl>
+   <bibl>
+      <idno>16082</idno>
+      <title>ENDRES, Korrespondenz</title>
+   </bibl>
+   <bibl>
+      <idno>16084</idno>
+      <title>ENGEL, Realm of St Stephen</title>
+   </bibl>
+   <bibl>
+      <idno>16092</idno>
+      <title>ENGELS, Schutzgedanke</title>
+   </bibl>
+   <bibl>
+      <idno>16098</idno>
+      <title>ENGELSING, Bürger als Leser</title>
+   </bibl>
+   <bibl>
+      <idno>16104</idno>
+      <title>ENGLMANN, Sphärenharmonie</title>
+   </bibl>
+   <bibl>
+      <idno>16118</idno>
+      <title>ERLER, Jüngere Matrikel Leipzig</title>
+   </bibl>
+   <bibl>
+      <idno>16120</idno>
+      <title>ERNST, Carmen figuratum</title>
+   </bibl>
+   <bibl>
+      <idno>16124</idno>
+      <title>ETTELT, Füssen</title>
+   </bibl>
+   <bibl>
+      <idno>16126</idno>
+      <title>ETTLINGER, Anonymus Mellicensis</title>
+   </bibl>
+   <bibl>
+      <idno>16128</idno>
+      <title>EUBEL, Hierarchia catholica 2</title>
+   </bibl>
+   <bibl>
+      <idno>16130</idno>
+      <title>EWERSZUMRODE, Mysterium</title>
+   </bibl>
+   <bibl>
+      <idno>16136</idno>
+      <title>FABBRI–GIANAROLI, Carteggio 1</title>
+   </bibl>
+   <bibl>
+      <idno>16138</idno>
+      <title>FABRICIUS, Karte von 1789</title>
+   </bibl>
+   <bibl>
+      <idno>16140</idno>
+      <title>FALK, Rekonstruktion</title>
+   </bibl>
+   <bibl>
+      <idno>16142</idno>
+      <title>FALKENSTEIN, Beschreibung</title>
+   </bibl>
+   <bibl>
+      <idno>16146</idno>
+      <title>FANTAPPIÈ, Bel Prato 1</title>
+   </bibl>
+   <bibl>
+      <idno>16154</idno>
+      <title>FASSBINDER, Catalogus</title>
+   </bibl>
+   <bibl>
+      <idno>16160</idno>
+      <title>FEDERER, Mystische Erfahrung</title>
+   </bibl>
+   <bibl>
+      <idno>16162</idno>
+      <title>FEDERICI, Biblioteca</title>
+   </bibl>
+   <bibl>
+      <idno>16170</idno>
+      <title>FEJÉR, Defuncti primi saeculi</title>
+   </bibl>
+   <bibl>
+      <idno>16172</idno>
+      <title>FELDMANN, Welf VI.</title>
+   </bibl>
+   <bibl>
+      <idno>16176</idno>
+      <title>FELLNER–KRETSCHMAYR, Zentralverwaltung 1</title>
+   </bibl>
+   <bibl>
+      <idno>16178</idno>
+      <title>FERCHL, Behörden</title>
+   </bibl>
+   <bibl>
+      <idno>16182</idno>
+      <title>FÉRET, Faculté</title>
+   </bibl>
+   <bibl>
+      <idno>16184</idno>
+      <title>FEYEL, Gazette</title>
+   </bibl>
+   <bibl>
+      <idno>16190</idno>
+      <title>FIALA, Münzen 7/2</title>
+   </bibl>
+   <bibl>
+      <idno>16194</idno>
+      <title>FICHTENAU, Ketzer und Professoren</title>
+   </bibl>
+   <bibl>
+      <idno>16198</idno>
+      <title>FICHTENAU–DIENST, Urkundenbuch Babenberger 4/1</title>
+   </bibl>
+   <bibl>
+      <idno>16200</idno>
+      <title>FICHTENAU–ZÖLLNER, Urkundenbuch Babenberger 1</title>
+   </bibl>
+   <bibl>
+      <idno>16202</idno>
+      <title>FICHTENAU–ZÖLLNER, Urkundenbuch Babenberger 2</title>
+   </bibl>
+   <bibl>
+      <idno>16204</idno>
+      <title>FICKER, Friedrich II.</title>
+   </bibl>
+   <bibl>
+      <idno>16206</idno>
+      <title>FILL, Handschriften Kremsmünster 2</title>
+   </bibl>
+   <bibl>
+      <idno>16212</idno>
+      <title>FINE, When Ethnicity Did Not Matter</title>
+   </bibl>
+   <bibl>
+      <idno>16214</idno>
+      <title>FINK, Beiträge</title>
+   </bibl>
+   <bibl>
+      <idno>16222</idno>
+      <title>FINK, Metten</title>
+   </bibl>
+   <bibl>
+      <idno>16232</idno>
+      <title>FISCHER, Bibliotheksprogramm</title>
+   </bibl>
+   <bibl>
+      <idno>16234</idno>
+      <title>FISCHER, Rat und Konferenz</title>
+   </bibl>
+   <bibl>
+      <idno>16246</idno>
+      <title>FLACHENECKER, Schottenklöster</title>
+   </bibl>
+   <bibl>
+      <idno>16258</idno>
+      <title>FLETCHER, Study</title>
+   </bibl>
+   <bibl>
+      <idno>16268</idno>
+      <title>FOLTZ, Salzburger Bibliotheken</title>
+   </bibl>
+   <bibl>
+      <idno>16278</idno>
+      <title>FÖßEL, Königin</title>
+   </bibl>
+   <bibl>
+      <idno>16284</idno>
+      <title>FOUCHIER, Abbaye</title>
+   </bibl>
+   <bibl>
+      <idno>16286</idno>
+      <title>FOUÉRÉ-MACÉ, Saint-Magloire de Lehon</title>
+   </bibl>
+   <bibl>
+      <idno>16290</idno>
+      <title>Fournier, Johann von Viktring</title>
+   </bibl>
+   <bibl>
+      <idno>16292</idno>
+      <title>FOWLER, Intellectual Interests</title>
+   </bibl>
+   <bibl>
+      <idno>16298</idno>
+      <title>FRANGEŠ, Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>16302</idno>
+      <title>FRANKLIN, Anciennes bibliothèques</title>
+   </bibl>
+   <bibl>
+      <idno>16304</idno>
+      <title>FRANZ, Tageslauf</title>
+   </bibl>
+   <bibl>
+      <idno>16306</idno>
+      <title>FRANZ, Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>16308</idno>
+      <title>FRANZL, Rudolf I.</title>
+   </bibl>
+   <bibl>
+      <idno>16310</idno>
+      <title>FRÄSS-EHRFELD, Geschichte Kärntens 1</title>
+   </bibl>
+   <bibl>
+      <idno>16312</idno>
+      <title>FREEMAN, Practice of Music</title>
+   </bibl>
+   <bibl>
+      <idno>16324</idno>
+      <title>FRIEDLÄNDER–LIEBE–THEUNER, Universitäts-Matrikeln Frankfurt 2</title>
+   </bibl>
+   <bibl>
+      <idno>16330</idno>
+      <title>FRIEDRICH, Geburt</title>
+   </bibl>
+   <bibl>
+      <idno>16332</idno>
+      <title>FRIES, Mariologische Schriften</title>
+   </bibl>
+   <bibl>
+      <idno>16340</idno>
+      <title>FRIMMEL, Literarisches Leben</title>
+   </bibl>
+   <bibl>
+      <idno>16342</idno>
+      <title>FRIND, Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>16348</idno>
+      <title>FROS, Novum supplementum</title>
+   </bibl>
+   <bibl>
+      <idno>16358</idno>
+      <title>FUCHS, Sindelburg</title>
+   </bibl>
+   <bibl>
+      <idno>16360</idno>
+      <title>FUCHS, Palatinatus illustratus</title>
+   </bibl>
+   <bibl>
+      <idno>16364</idno>
+      <title>FUCHS, Traditionsstiftung</title>
+   </bibl>
+   <bibl>
+      <idno>16368</idno>
+      <title>FUETER, Historiographie</title>
+   </bibl>
+   <bibl>
+      <idno>16370</idno>
+      <title>Fügedi, Magyar arisztokrácia mobilitása</title>
+   </bibl>
+   <bibl>
+      <idno>16376</idno>
+      <title>FULAINE, Charles IV de Lorraine</title>
+   </bibl>
+   <bibl>
+      <idno>16388</idno>
+      <title>FURGER, Briefsteller</title>
+   </bibl>
+   <bibl>
+      <idno>16390</idno>
+      <title>FÜRNROHR, Kurbaierns Gesandte</title>
+   </bibl>
+   <bibl>
+      <idno>16392</idno>
+      <title>FÜSSEL, Gelehrtenkultur</title>
+   </bibl>
+   <bibl>
+      <idno>16396</idno>
+      <title>GACKI, Benedyktyński klasztor</title>
+   </bibl>
+   <bibl>
+      <idno>16398</idno>
+      <title>GÄDEKE–SELLSCHOPP–STUBER, Leibniz Allgemeiner Briefwechsel 19</title>
+   </bibl>
+   <bibl>
+      <idno>16400</idno>
+      <title>GÄDEKE et al., Leibniz Allgemeiner Briefwechsel 22</title>
+   </bibl>
+   <bibl>
+      <idno>16402</idno>
+      <title>GÄDEKE et al., Leibniz Allgemeiner Briefwechsel 17</title>
+   </bibl>
+   <bibl>
+      <idno>16404</idno>
+      <title>GAHBAUER, Ettaler Benediktiner</title>
+   </bibl>
+   <bibl>
+      <idno>16416</idno>
+      <title>GAMBER–DOLD–BISCHOFF, Sakramentartypen</title>
+   </bibl>
+   <bibl>
+      <idno>16420</idno>
+      <title>GANZ, Corbie</title>
+   </bibl>
+   <bibl>
+      <idno>16438</idno>
+      <title>GARSTENAUER, Beiträge 2</title>
+   </bibl>
+   <bibl>
+      <idno>16440</idno>
+      <title>GARTNER, Weistrach</title>
+   </bibl>
+   <bibl>
+      <idno>16458</idno>
+      <title>GAUCHAT, Hierarchia catholica 4</title>
+   </bibl>
+   <bibl>
+      <idno>16462</idno>
+      <title>GAUTHIER–FRANÇOIS, Émaux 1</title>
+   </bibl>
+   <bibl>
+      <idno>16464</idno>
+      <title>GAZEAU, Normannia monastica</title>
+   </bibl>
+   <bibl>
+      <idno>16466</idno>
+      <title>GAZIER, Mouvement janséniste</title>
+   </bibl>
+   <bibl>
+      <idno>16468</idno>
+      <title>GEIER, Russische Kulturgeschichte</title>
+   </bibl>
+   <bibl>
+      <idno>16470</idno>
+      <title>GELDNER, Bucheinbände</title>
+   </bibl>
+   <bibl>
+      <idno>16476</idno>
+      <title>GENTY, Comtes de Toulouse</title>
+   </bibl>
+   <bibl>
+      <idno>16478</idno>
+      <title>GÉRARD, Dom Augustin Calmet</title>
+   </bibl>
+   <bibl>
+      <idno>16482</idno>
+      <title>GERL, Catalogus</title>
+   </bibl>
+   <bibl>
+      <idno>16488</idno>
+      <title>GIERL, Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>16490</idno>
+      <title>GIERL, Pietismus und Aufklärung</title>
+   </bibl>
+   <bibl>
+      <idno>16504</idno>
+      <title>GIRY–PROU–TESSIER, Recueil</title>
+   </bibl>
+   <bibl>
+      <idno>16506</idno>
+      <title>GIULIANI, Formazione</title>
+   </bibl>
+   <bibl>
+      <idno>16512</idno>
+      <title>GLASSNER, Handschriften</title>
+   </bibl>
+   <bibl>
+      <idno>16526</idno>
+      <title>GLASSNER–HAIDINGER, Inventar Melk 1</title>
+   </bibl>
+   <bibl>
+      <idno>16532</idno>
+      <title>GLAUCHE, Catalogus 3/1</title>
+   </bibl>
+   <bibl>
+      <idno>16538</idno>
+      <title>GLORIEUX, Faculté</title>
+   </bibl>
+   <bibl>
+      <idno>16540</idno>
+      <title>GLORIEUX, Introduction générale</title>
+   </bibl>
+   <bibl>
+      <idno>16550</idno>
+      <title>GODEFROY, Bibliothèque</title>
+   </bibl>
+   <bibl>
+      <idno>16554</idno>
+      <title>GODWIN, Theatre</title>
+   </bibl>
+   <bibl>
+      <idno>16556</idno>
+      <title>GOERGE, Nova Cella</title>
+   </bibl>
+   <bibl>
+      <idno>16558</idno>
+      <title>GOERLITZ, Forschungsmethode</title>
+   </bibl>
+   <bibl>
+      <idno>16560</idno>
+      <title>GOETTING, Bischöfe</title>
+   </bibl>
+   <bibl>
+      <idno>16562</idno>
+      <title>GOETZE, Frühzeit</title>
+   </bibl>
+   <bibl>
+      <idno>16564</idno>
+      <title>GOLDBACHER, Augustini Epistulae 5</title>
+   </bibl>
+   <bibl>
+      <idno>16566</idno>
+      <title>GOLDGAR, Impolite Learning</title>
+   </bibl>
+   <bibl>
+      <idno>16574</idno>
+      <title>GÖLLNER, Turcica</title>
+   </bibl>
+   <bibl>
+      <idno>16576</idno>
+      <title>GOLOUBEVA, Emperor Leopold I</title>
+   </bibl>
+   <bibl>
+      <idno>16578</idno>
+      <title>GOOVAERTS, Écrivains</title>
+   </bibl>
+   <bibl>
+      <idno>16580</idno>
+      <title>GORISSEN, Stundenbuch</title>
+   </bibl>
+   <bibl>
+      <idno>16584</idno>
+      <title>GÖSSMANN, Mulier Papa</title>
+   </bibl>
+   <bibl>
+      <idno>16586</idno>
+      <title>GOTTLIEB, Bibliothekskataloge 1</title>
+   </bibl>
+   <bibl>
+      <idno>16588</idno>
+      <title>GOTTWALD, Album Engelbergense</title>
+   </bibl>
+   <bibl>
+      <idno>16590</idno>
+      <title>GOTTWALD, Catalogus</title>
+   </bibl>
+   <bibl>
+      <idno>16592</idno>
+      <title>GOTTWALD, Ghiselin</title>
+   </bibl>
+   <bibl>
+      <idno>16594</idno>
+      <title>GOTTWALD, Musikhandschriften</title>
+   </bibl>
+   <bibl>
+      <idno>16598</idno>
+      <title>GÖTZ, Kunst in Freising</title>
+   </bibl>
+   <bibl>
+      <idno>16606</idno>
+      <title>GOY, Hugo von St. Viktor</title>
+   </bibl>
+   <bibl>
+      <idno>16608</idno>
+      <title>GOY, Richard von St. Viktor</title>
+   </bibl>
+   <bibl>
+      <idno>16616</idno>
+      <title>GRAFTON, Forgers</title>
+   </bibl>
+   <bibl>
+      <idno>16622</idno>
+      <title>GRAFTON, Scaliger</title>
+   </bibl>
+   <bibl>
+      <idno>16630</idno>
+      <title>Greipl, Abt und Fürst</title>
+   </bibl>
+   <bibl>
+      <idno>16646</idno>
+      <title>GRES-GAYER, D’un jansénisme à l’autre</title>
+   </bibl>
+   <bibl>
+      <idno>16652</idno>
+      <title>GRES-GAYER, Théologie et pouvoir</title>
+   </bibl>
+   <bibl>
+      <idno>16660</idno>
+      <title>GREVE, Abdinghof</title>
+   </bibl>
+   <bibl>
+      <idno>16662</idno>
+      <title>GRIEB–SPORHAN-KREMPEL–WOHNHAAS, Nürnberger Buchgewerbe</title>
+   </bibl>
+   <bibl>
+      <idno>16666</idno>
+      <title>GRIMSCHITZ, Barockpaläste</title>
+   </bibl>
+   <bibl>
+      <idno>16668</idno>
+      <title>GROLL, Landgraf Ludwigs Kreuzfahrt</title>
+   </bibl>
+   <bibl>
+      <idno>16670</idno>
+      <title>GROß, Regesta Habsburgica 3</title>
+   </bibl>
+   <bibl>
+      <idno>16682</idno>
+      <title>GRUYS, Cartusiana</title>
+   </bibl>
+   <bibl>
+      <idno>16684</idno>
+      <title>GRUYS–DE WOLF, Thesaurus</title>
+   </bibl>
+   <bibl>
+      <idno>16690</idno>
+      <title>GSCHLIEßER, Reichshofrat</title>
+   </bibl>
+   <bibl>
+      <idno>16700</idno>
+      <title>GUNDLACH, Catalogus</title>
+   </bibl>
+   <bibl>
+      <idno>16704</idno>
+      <title>GÜNTER, Restitutionsedikt</title>
+   </bibl>
+   <bibl>
+      <idno>16710</idno>
+      <title>HAAKE, August der Starke</title>
+   </bibl>
+   <bibl>
+      <idno>16716</idno>
+      <title>HAAß, Geistige Haltung</title>
+   </bibl>
+   <bibl>
+      <idno>16718</idno>
+      <title>HABEL, Gelehrte Journale</title>
+   </bibl>
+   <bibl>
+      <idno>16720</idno>
+      <title>HABICHT–DIEHL, Suchbuch</title>
+   </bibl>
+   <bibl>
+      <idno>16722</idno>
+      <title>HACK, Codex Carolinus</title>
+   </bibl>
+   <bibl>
+      <idno>16724</idno>
+      <title>HACK, Empfangszeremoniell</title>
+   </bibl>
+   <bibl>
+      <idno>16748</idno>
+      <title>HAIDINGER, Katalog 2</title>
+   </bibl>
+   <bibl>
+      <idno>16750</idno>
+      <title>HALECKI, Jadwiga of Anjou</title>
+   </bibl>
+   <bibl>
+      <idno>16756</idno>
+      <title>HALLER, Sammlung Nordkirchen</title>
+   </bibl>
+   <bibl>
+      <idno>16760</idno>
+      <title>HALLER–FABIAN, Bayerische Staatsbibliothek</title>
+   </bibl>
+   <bibl>
+      <idno>16762</idno>
+      <title>HALLINGER, Gorze – Kluny</title>
+   </bibl>
+   <bibl>
+      <idno>16764</idno>
+      <title>HALM, Reiseberichte</title>
+   </bibl>
+   <bibl>
+      <idno>16766</idno>
+      <title>HALM et al., Catalogus 2/2</title>
+   </bibl>
+   <bibl>
+      <idno>16768</idno>
+      <title>HALM et al., Catalogus 2/3</title>
+   </bibl>
+   <bibl>
+      <idno>16770</idno>
+      <title>HALM–MEYER, Catalogus 2/4</title>
+   </bibl>
+   <bibl>
+      <idno>16778</idno>
+      <title>HAMMARLUND, Famam servare</title>
+   </bibl>
+   <bibl>
+      <idno>16798</idno>
+      <title>HAMMERMAYER, Polling</title>
+   </bibl>
+   <bibl>
+      <idno>16800</idno>
+      <title>HAMMERSTEIN, Jus und Historie</title>
+   </bibl>
+   <bibl>
+      <idno>16808</idno>
+      <title>HANAUER, Kurfürsten</title>
+   </bibl>
+   <bibl>
+      <idno>16814</idno>
+      <title>HANDWERKER, Universitäts-Bibliothek</title>
+   </bibl>
+   <bibl>
+      <idno>16816</idno>
+      <title>HANNA, Ministerialität</title>
+   </bibl>
+   <bibl>
+      <idno>16818</idno>
+      <title>HANSEN, Litteraturhistorie</title>
+   </bibl>
+   <bibl>
+      <idno>16826</idno>
+      <title>HANTSCHK, Mauerbach</title>
+   </bibl>
+   <bibl>
+      <idno>16830</idno>
+      <title>HÄRTEL–EKOWSKI, Handschriften 2</title>
+   </bibl>
+   <bibl>
+      <idno>16832</idno>
+      <title>HÄRTEL–EKOWSKI–IMMEL, Handschriften 1</title>
+   </bibl>
+   <bibl>
+      <idno>16834</idno>
+      <title>HARTIG, Tegernsee</title>
+   </bibl>
+   <bibl>
+      <idno>16836</idno>
+      <title>HARTKOPF, Akademie</title>
+   </bibl>
+   <bibl>
+      <idno>16838</idno>
+      <title>HARTMANN, Humanismus</title>
+   </bibl>
+   <bibl>
+      <idno>16842</idno>
+      <title>HARTMANN, Karl Albrecht</title>
+   </bibl>
+   <bibl>
+      <idno>16844</idno>
+      <title>Hartmann, Konzilien</title>
+   </bibl>
+   <bibl>
+      <idno>16846</idno>
+      <title>HARTMANN, Synoden</title>
+   </bibl>
+   <bibl>
+      <idno>16848</idno>
+      <title>HARTOG, Régimes d’historicité</title>
+   </bibl>
+   <bibl>
+      <idno>16852</idno>
+      <title>HASKELL, History</title>
+   </bibl>
+   <bibl>
+      <idno>16858</idno>
+      <title>HATTON, Charles XII</title>
+   </bibl>
+   <bibl>
+      <idno>16860</idno>
+      <title>HATTON, George I</title>
+   </bibl>
+   <bibl>
+      <idno>16862</idno>
+      <title>HAUBRICHS, Anfänge</title>
+   </bibl>
+   <bibl>
+      <idno>16866</idno>
+      <title>HAUCK, Kirchengeschichte</title>
+   </bibl>
+   <bibl>
+      <idno>16868</idno>
+      <title>HAUGH, Photius</title>
+   </bibl>
+   <bibl>
+      <idno>16872</idno>
+      <title>HAURÉAU, Œuvres</title>
+   </bibl>
+   <bibl>
+      <idno>16878</idno>
+      <title>HAUSMANN–KOTASEK–GROß, Repertorium 2</title>
+   </bibl>
+   <bibl>
+      <idno>16880</idno>
+      <title>Hauswirth, Abriß</title>
+   </bibl>
+   <bibl>
+      <idno>16882</idno>
+      <title>HAUTHALER–MARTIN, Salzburger Urkundenbuch 2</title>
+   </bibl>
+   <bibl>
+      <idno>16886</idno>
+      <title>HAYE, Oratio</title>
+   </bibl>
+   <bibl>
+      <idno>16888</idno>
+      <title>HAYER et al., Handschriften</title>
+   </bibl>
+   <bibl>
+      <idno>16890</idno>
+      <title>HECK, Kaiserswerth</title>
+   </bibl>
+   <bibl>
+      <idno>16892</idno>
+      <title>HECKENSTALLER, Dissertatio</title>
+   </bibl>
+   <bibl>
+      <idno>16894</idno>
+      <title>HEER, Engelberg</title>
+   </bibl>
+   <bibl>
+      <idno>16896</idno>
+      <title>HEER, Mabillon</title>
+   </bibl>
+   <bibl>
+      <idno>16904</idno>
+      <title>HEER, Missions-Katechismus</title>
+   </bibl>
+   <bibl>
+      <idno>16906</idno>
+      <title>HEIDRICH, Ravenna</title>
+   </bibl>
+   <bibl>
+      <idno>16910</idno>
+      <title>HEIGEL, Schlehdorf</title>
+   </bibl>
+   <bibl>
+      <idno>16922</idno>
+      <title>HEINEMANN, Bibliothek</title>
+   </bibl>
+   <bibl>
+      <idno>16924</idno>
+      <title>HEINEMANN, Handschriften 1/1</title>
+   </bibl>
+   <bibl>
+      <idno>16926</idno>
+      <title>HEINEMANN, Handschriften 1/3</title>
+   </bibl>
+   <bibl>
+      <idno>16928</idno>
+      <title>HEINEMANN, Handschriften 2/2</title>
+   </bibl>
+   <bibl>
+      <idno>16930</idno>
+      <title>HEINEMANN, Handschriften 2/4</title>
+   </bibl>
+   <bibl>
+      <idno>16932</idno>
+      <title>HEINEMANN, Handschriften 2/5</title>
+   </bibl>
+   <bibl>
+      <idno>16934</idno>
+      <title>HEINIG, Kaiser Friedrich III.</title>
+   </bibl>
+   <bibl>
+      <idno>16948</idno>
+      <title>HELBIG, Postvermerke</title>
+   </bibl>
+   <bibl>
+      <idno>16950</idno>
+      <title>HÉLIOT, Corbie</title>
+   </bibl>
+   <bibl>
+      <idno>16956</idno>
+      <title>HELMER, Traditionen</title>
+   </bibl>
+   <bibl>
+      <idno>16958</idno>
+      <title>HELMER–HAUKE–WUNDERLE, Catalogus 4/2/3</title>
+   </bibl>
+   <bibl>
+      <idno>16960</idno>
+      <title>HELMRATH, Basler Konzil</title>
+   </bibl>
+   <bibl>
+      <idno>16964</idno>
+      <title>HELSSIG, Katalog</title>
+   </bibl>
+   <bibl>
+      <idno>16970</idno>
+      <title>HEMMERLE, Benediktbeuern</title>
+   </bibl>
+   <bibl>
+      <idno>16972</idno>
+      <title>HEMMERLE, Benediktinerklöster</title>
+   </bibl>
+   <bibl>
+      <idno>16978</idno>
+      <title>HENCH, Monsee Fragments</title>
+   </bibl>
+   <bibl>
+      <idno>16982</idno>
+      <title>HENGGELER, Profeßbuch Disentis</title>
+   </bibl>
+   <bibl>
+      <idno>16984</idno>
+      <title>HENGGELER, Profeßbuch Einsiedeln</title>
+   </bibl>
+   <bibl>
+      <idno>16986</idno>
+      <title>HENGGELER, Profeßbuch Pfäfers Rheinau Fischingen</title>
+   </bibl>
+   <bibl>
+      <idno>16988</idno>
+      <title>HENGGELER, Profeßbuch St. Gallen</title>
+   </bibl>
+   <bibl>
+      <idno>16992</idno>
+      <title>HENGST, Jesuiten</title>
+   </bibl>
+   <bibl>
+      <idno>17004</idno>
+      <title>HERBERS, Geschichte Spaniens</title>
+   </bibl>
+   <bibl>
+      <idno>17006</idno>
+      <title>HERBST, Verzeichnis</title>
+   </bibl>
+   <bibl>
+      <idno>17008</idno>
+      <title>HERKLOTZ, Cassiano Dal Pozzo</title>
+   </bibl>
+   <bibl>
+      <idno>17012</idno>
+      <title>HERMANN, Verzeichnis 2/2</title>
+   </bibl>
+   <bibl>
+      <idno>17020</idno>
+      <title>HERMES, Mencke</title>
+   </bibl>
+   <bibl>
+      <idno>17022</idno>
+      <title>HERNAD, Graphiksammlung</title>
+   </bibl>
+   <bibl>
+      <idno>17024</idno>
+      <title>HERRE, Reichstagsakten Sigmund 4</title>
+   </bibl>
+   <bibl>
+      <idno>17028</idno>
+      <title>HERSCHE, Domkapitel</title>
+   </bibl>
+   <bibl>
+      <idno>17044</idno>
+      <title>HEUSSI, Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>17046</idno>
+      <title>HEUSSI, Mosheim</title>
+   </bibl>
+   <bibl>
+      <idno>17052</idno>
+      <title>HEYMANN, George of Bohemia</title>
+   </bibl>
+   <bibl>
+      <idno>17056</idno>
+      <title>HILLER, Geschichtswissenschaft</title>
+   </bibl>
+   <bibl>
+      <idno>17058</idno>
+      <title>HILLIGER, Urbare</title>
+   </bibl>
+   <bibl>
+      <idno>17060</idno>
+      <title>HILPISCH, Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>17070</idno>
+      <title>HIRSCHMANN, Verdun</title>
+   </bibl>
+   <bibl>
+      <idno>17074</idno>
+      <title>Hirzel, Heriger</title>
+   </bibl>
+   <bibl>
+      <idno>17078</idno>
+      <title>HLEDÍKOVÁ, Arnošt z Pardubic</title>
+   </bibl>
+   <bibl>
+      <idno>17082</idno>
+      <title>HOCHEDLINGER, Archivgeschichte</title>
+   </bibl>
+   <bibl>
+      <idno>17084</idno>
+      <title>HOCHEDLINGER, Wars of Emergence</title>
+   </bibl>
+   <bibl>
+      <idno>17088</idno>
+      <title>HÖDL, Habsburg und Österreich</title>
+   </bibl>
+   <bibl>
+      <idno>17090</idno>
+      <title>HOENSCH, Sigismund</title>
+   </bibl>
+   <bibl>
+      <idno>17094</idno>
+      <title>HOFFMANN, Aufhebung</title>
+   </bibl>
+   <bibl>
+      <idno>17100</idno>
+      <title>HOFFMANN, Buchkunst und Königtum</title>
+   </bibl>
+   <bibl>
+      <idno>17102</idno>
+      <title>HOFFMEISTER, Medizinalwesen</title>
+   </bibl>
+   <bibl>
+      <idno>17104</idno>
+      <title>HÖFLECHNER, Fach Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>17124</idno>
+      <title>HOGG, Ms. Grande Chartreuse 1. Cart. 15</title>
+   </bibl>
+   <bibl>
+      <idno>17128</idno>
+      <title>HOGG, The Cross Stands</title>
+   </bibl>
+   <bibl>
+      <idno>17130</idno>
+      <title>HOGG–SARGENT, Cava Ms. 61</title>
+   </bibl>
+   <bibl>
+      <idno>17132</idno>
+      <title>HOGG–SARGENT, Lambeth Palace 1</title>
+   </bibl>
+   <bibl>
+      <idno>17138</idno>
+      <title>HOLBÖCK, Allerheiligstes</title>
+   </bibl>
+   <bibl>
+      <idno>17148</idno>
+      <title>HOLENSTEIN, Eidgenössische Politik</title>
+   </bibl>
+   <bibl>
+      <idno>17160</idno>
+      <title>HOLZFURTNER, Gloriosus dux</title>
+   </bibl>
+   <bibl>
+      <idno>17162</idno>
+      <title>HOLZFURTNER, Grafschaft</title>
+   </bibl>
+   <bibl>
+      <idno>17164</idno>
+      <title>HOLZHERR, Zwiefalten</title>
+   </bibl>
+   <bibl>
+      <idno>17174</idno>
+      <title>HOOGEWEG, Schriften</title>
+   </bibl>
+   <bibl>
+      <idno>17180</idno>
+      <title>HÖPPL, Traditionen</title>
+   </bibl>
+   <bibl>
+      <idno>17186</idno>
+      <title>HÖRBERG, Libri sanctae Afrae</title>
+   </bibl>
+   <bibl>
+      <idno>17192</idno>
+      <title>HÖRNER, Joannis</title>
+   </bibl>
+   <bibl>
+      <idno>17202</idno>
+      <title>HRANITZKY et al., Mitteleuropäische Schulen V</title>
+   </bibl>
+   <bibl>
+      <idno>17206</idno>
+      <title>HUBENSTEINER, Geistliche Stadt</title>
+   </bibl>
+   <bibl>
+      <idno>17212</idno>
+      <title>HUNGER–KRESTEN, Griechische Handschriften 3/1</title>
+   </bibl>
+   <bibl>
+      <idno>17220</idno>
+      <title>HUREL, Mabillon</title>
+   </bibl>
+   <bibl>
+      <idno>17226</idno>
+      <title>HUREL–RICHE, Cluny</title>
+   </bibl>
+   <bibl>
+      <idno>17232</idno>
+      <title>HUTER, Matrikel Innsbruck 1/1</title>
+   </bibl>
+   <bibl>
+      <idno>17236</idno>
+      <title>HÜTTL, Max Emanuel</title>
+   </bibl>
+   <bibl>
+      <idno>17248</idno>
+      <title>HUYGENS, Peregrinationes</title>
+   </bibl>
+   <bibl>
+      <idno>17258</idno>
+      <title>IBACH, Konrad von Megenberg</title>
+   </bibl>
+   <bibl>
+      <idno>17260</idno>
+      <title>INEICHEN-EDER, Bibliothekskataloge 4/1</title>
+   </bibl>
+   <bibl>
+      <idno>17268</idno>
+      <title>INFELISE, Editoria</title>
+   </bibl>
+   <bibl>
+      <idno>17272</idno>
+      <title>JACKS, Antiquarian</title>
+   </bibl>
+   <bibl>
+      <idno>17274</idno>
+      <title>JACOBS, Werdener Annalen</title>
+   </bibl>
+   <bibl>
+      <idno>17276</idno>
+      <title>JACOBSEN, Quirinalien</title>
+   </bibl>
+   <bibl>
+      <idno>17278</idno>
+      <title>JACQUART, Crise rurale</title>
+   </bibl>
+   <bibl>
+      <idno>17288</idno>
+      <title>JAFFÉ, Monumenta Bambergensia</title>
+   </bibl>
+   <bibl>
+      <idno>17290</idno>
+      <title>JAFFÉ, Monumenta Carolina</title>
+   </bibl>
+   <bibl>
+      <idno>17298</idno>
+      <title>JAITNER, Schoppe</title>
+   </bibl>
+   <bibl>
+      <idno>17300</idno>
+      <title>JAKSCH–FISCHER–KROLLER, Bibliotheksbau 1</title>
+   </bibl>
+   <bibl>
+      <idno>17312</idno>
+      <title>JARNUT, Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>17314</idno>
+      <title>JAUERNIG–STEIGER, Matrikel Jena 2</title>
+   </bibl>
+   <bibl>
+      <idno>17318</idno>
+      <title>JAUMANN, Critica</title>
+   </bibl>
+   <bibl>
+      <idno>17324</idno>
+      <title>JEANNEZ, Notes historiques</title>
+   </bibl>
+   <bibl>
+      <idno>17326</idno>
+      <title>JEANROY, Poésie occitane</title>
+   </bibl>
+   <bibl>
+      <idno>17328</idno>
+      <title>JEHASSE, Renaissance</title>
+   </bibl>
+   <bibl>
+      <idno>17334</idno>
+      <title>JOASSART, Aspects</title>
+   </bibl>
+   <bibl>
+      <idno>17346</idno>
+      <title>JOASSART, Érudition</title>
+   </bibl>
+   <bibl>
+      <idno>17364</idno>
+      <title>JONSSON, Historia</title>
+   </bibl>
+   <bibl>
+      <idno>17370</idno>
+      <title>JOSTES, Kaiser- und Königs-Urkunden</title>
+   </bibl>
+   <bibl>
+      <idno>17374</idno>
+      <title>JULLIEN et al., Clavis des auteurs 1</title>
+   </bibl>
+   <bibl>
+      <idno>17376</idno>
+      <title>JUNKELMANN, Kurfürst Max Emanuel</title>
+   </bibl>
+   <bibl>
+      <idno>17378</idno>
+      <title>JUNTKE, Album 2</title>
+   </bibl>
+   <bibl>
+      <idno>17380</idno>
+      <title>JUNTKE–ZIMMERMANN, Matrikel Halle-Wittenberg 1</title>
+   </bibl>
+   <bibl>
+      <idno>17382</idno>
+      <title>JURGENS–FLEURY, Documents</title>
+   </bibl>
+   <bibl>
+      <idno>17390</idno>
+      <title>JUROT–GAMPER, Katalog</title>
+   </bibl>
+   <bibl>
+      <idno>17392</idno>
+      <title>KAEPPELI, Scriptores</title>
+   </bibl>
+   <bibl>
+      <idno>17394</idno>
+      <title>KAINZ, Ritterakademie</title>
+   </bibl>
+   <bibl>
+      <idno>17402</idno>
+      <title>KAMEN, Philip V</title>
+   </bibl>
+   <bibl>
+      <idno>17406</idno>
+      <title>KANIOR, Polska kongregacja</title>
+   </bibl>
+   <bibl>
+      <idno>17414</idno>
+      <title>KAPSNER, Bibliography</title>
+   </bibl>
+   <bibl>
+      <idno>17416</idno>
+      <title>Kapsner, First Supplement</title>
+   </bibl>
+   <bibl>
+      <idno>17418</idno>
+      <title>KARNEIN, De Amore</title>
+   </bibl>
+   <bibl>
+      <idno>17420</idno>
+      <title>KARNEIN, De Amore deutsch</title>
+   </bibl>
+   <bibl>
+      <idno>17422</idno>
+      <title>KARRER, Historisch-positive Methode</title>
+   </bibl>
+   <bibl>
+      <idno>17424</idno>
+      <title>KASTEN, Adalhard</title>
+   </bibl>
+   <bibl>
+      <idno>17428</idno>
+      <title>KASTNER, Historiae fundationum</title>
+   </bibl>
+   <bibl>
+      <idno>17436</idno>
+      <title>KATZENELLENBOGEN, Allegories</title>
+   </bibl>
+   <bibl>
+      <idno>17438</idno>
+      <title>KAUFFMANN, Es ist nur ein Wien</title>
+   </bibl>
+   <bibl>
+      <idno>17454</idno>
+      <title>KEHREIN, Sequenzen</title>
+   </bibl>
+   <bibl>
+      <idno>17456</idno>
+      <title>KEIBLINGER, Melk</title>
+   </bibl>
+   <bibl>
+      <idno>17460</idno>
+      <title>KELLNER, Profeßbuch</title>
+   </bibl>
+   <bibl>
+      <idno>17462</idno>
+      <title>KELLNER, Ungarneinfälle</title>
+   </bibl>
+   <bibl>
+      <idno>17466</idno>
+      <title>KELLNER–SPETHMANN, Historische Kataloge</title>
+   </bibl>
+   <bibl>
+      <idno>17470</idno>
+      <title>KERNER–HERBERS, Päpstin Johanna</title>
+   </bibl>
+   <bibl>
+      <idno>17472</idno>
+      <title>KÉRY, Errichtung</title>
+   </bibl>
+   <bibl>
+      <idno>17476</idno>
+      <title>KESSEMEIER–LUCKHARDT, Dom und Domschatz</title>
+   </bibl>
+   <bibl>
+      <idno>17484</idno>
+      <title>KIEM, Muri</title>
+   </bibl>
+   <bibl>
+      <idno>17486</idno>
+      <title>KILIAN, S. Giustina</title>
+   </bibl>
+   <bibl>
+      <idno>17488</idno>
+      <title>KINK, Universität</title>
+   </bibl>
+   <bibl>
+      <idno>17490</idno>
+      <title>KINNAST, Album Admontense</title>
+   </bibl>
+   <bibl>
+      <idno>17492</idno>
+      <title>KIRCHNER, Bibliographie 1</title>
+   </bibl>
+   <bibl>
+      <idno>17494</idno>
+      <title>KIRCHNER, Zeitschriftenwesen 1</title>
+   </bibl>
+   <bibl>
+      <idno>17496</idno>
+      <title>KIRNBAUER VON ERZSTÄTT, Wappenbuch Niederoesterreichischer Adel 1</title>
+   </bibl>
+   <bibl>
+      <idno>17502</idno>
+      <title>KISTENICH, Bettelmönche</title>
+   </bibl>
+   <bibl>
+      <idno>17504</idno>
+      <title>KLAPPER, Schriften Johanns von Neumarkt 4</title>
+   </bibl>
+   <bibl>
+      <idno>17506</idno>
+      <title>KLAUSNITZER, Poesie und Konspiration</title>
+   </bibl>
+   <bibl>
+      <idno>17510</idno>
+      <title>KLEIN, Handschriften Karlsruhe</title>
+   </bibl>
+   <bibl>
+      <idno>17514</idno>
+      <title>KLEMM, Ottonische Handschriften</title>
+   </bibl>
+   <bibl>
+      <idno>17516</idno>
+      <title>KLEMM, Romanische Handschriften 2</title>
+   </bibl>
+   <bibl>
+      <idno>17522</idno>
+      <title>KLEWITZ–EBEL, Matrikel Gießen</title>
+   </bibl>
+   <bibl>
+      <idno>17536</idno>
+      <title>KLOOS, Lambertus de Legia</title>
+   </bibl>
+   <bibl>
+      <idno>17546</idno>
+      <title>KLUNZINGER, Maulbronn</title>
+   </bibl>
+   <bibl>
+      <idno>17552</idno>
+      <title>KNAPP, Maulbronn</title>
+   </bibl>
+   <bibl>
+      <idno>17556</idno>
+      <title>KNESCHKE, Adels-Lexicon</title>
+   </bibl>
+   <bibl>
+      <idno>17560</idno>
+      <title>KNOD, Deutsche Studenten</title>
+   </bibl>
+   <bibl>
+      <idno>17562</idno>
+      <title>KNOD, Matrikeln Straßburg</title>
+   </bibl>
+   <bibl>
+      <idno>17566</idno>
+      <title>KOBOLT, Ergänzungen</title>
+   </bibl>
+   <bibl>
+      <idno>17572</idno>
+      <title>KOETSCHAU, Luise Dorothee</title>
+   </bibl>
+   <bibl>
+      <idno>17576</idno>
+      <title>KOHL, Padua</title>
+   </bibl>
+   <bibl>
+      <idno>17578</idno>
+      <title>KOHL, Marienfeld</title>
+   </bibl>
+   <bibl>
+      <idno>17580</idno>
+      <title>KÖHLER–MILCHSACK, Handschriften</title>
+   </bibl>
+   <bibl>
+      <idno>17592</idno>
+      <title>KOLDEWEY, Philologie</title>
+   </bibl>
+   <bibl>
+      <idno>17598</idno>
+      <title>König, Welfen als Klostergründer</title>
+   </bibl>
+   <bibl>
+      <idno>17600</idno>
+      <title>KÖNIG, Mappae</title>
+   </bibl>
+   <bibl>
+      <idno>17602</idno>
+      <title>KÖNIGS, Vitus</title>
+   </bibl>
+   <bibl>
+      <idno>17608</idno>
+      <title>KÖRBL, Hofkammer</title>
+   </bibl>
+   <bibl>
+      <idno>17612</idno>
+      <title>KORS, Atheism</title>
+   </bibl>
+   <bibl>
+      <idno>17614</idno>
+      <title>KÖRSGEN, Bild der Reformation</title>
+   </bibl>
+   <bibl>
+      <idno>17616</idno>
+      <title>KOS, Burg und Stadt</title>
+   </bibl>
+   <bibl>
+      <idno>17622</idno>
+      <title>KÖSSINGER, Evangelienbuch</title>
+   </bibl>
+   <bibl>
+      <idno>17630</idno>
+      <title>KOTTJE–ZIEGLER, Verzeichnis</title>
+   </bibl>
+   <bibl>
+      <idno>17642</idno>
+      <title>KRAFFT, Papsturkunde</title>
+   </bibl>
+   <bibl>
+      <idno>17644</idno>
+      <title>KRAFT, Andechser Studien</title>
+   </bibl>
+   <bibl>
+      <idno>17646</idno>
+      <title>KRALIK, Trinitarierorden</title>
+   </bibl>
+   <bibl>
+      <idno>17652</idno>
+      <title>KRÄMER, Handschriftenerbe</title>
+   </bibl>
+   <bibl>
+      <idno>17654</idno>
+      <title>KRÄMER, Augustinus</title>
+   </bibl>
+   <bibl>
+      <idno>17658</idno>
+      <title>KRÁSL, Sv. Prokop</title>
+   </bibl>
+   <bibl>
+      <idno>17662</idno>
+      <title>KRAß, Stabat mater</title>
+   </bibl>
+   <bibl>
+      <idno>17682</idno>
+      <title>KRAUSEN, Dietramszell</title>
+   </bibl>
+   <bibl>
+      <idno>17688</idno>
+      <title>KREUZER, Heinrich von Langenstein</title>
+   </bibl>
+   <bibl>
+      <idno>17692</idno>
+      <title>KRIEGER, Habsburger</title>
+   </bibl>
+   <bibl>
+      <idno>17694</idno>
+      <title>KRIEGER, Rudolf von Habsburg</title>
+   </bibl>
+   <bibl>
+      <idno>17696</idno>
+      <title>KRIEGER, Patriotismus</title>
+   </bibl>
+   <bibl>
+      <idno>17698</idno>
+      <title>KRISTELLER, Iter Italicum</title>
+   </bibl>
+   <bibl>
+      <idno>17706</idno>
+      <title>KRÖNERT, Exaltation de Trèves</title>
+   </bibl>
+   <bibl>
+      <idno>17708</idno>
+      <title>KRONES, Freie von Saneck</title>
+   </bibl>
+   <bibl>
+      <idno>17716</idno>
+      <title>KRÜGER, Gotter</title>
+   </bibl>
+   <bibl>
+      <idno>17718</idno>
+      <title>KRÜGER, Supellex</title>
+   </bibl>
+   <bibl>
+      <idno>17724</idno>
+      <title>KUBISKA-SCHARL–PÖLZL, Karrieren</title>
+   </bibl>
+   <bibl>
+      <idno>17728</idno>
+      <title>KUCKHOFF, Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>17730</idno>
+      <title>KÜHLMANN, Gelehrtenrepublik</title>
+   </bibl>
+   <bibl>
+      <idno>17742</idno>
+      <title>KÜHN, Wissen</title>
+   </bibl>
+   <bibl>
+      <idno>17746</idno>
+      <title>KUHN-FORTE, Handbuch 4</title>
+   </bibl>
+   <bibl>
+      <idno>17750</idno>
+      <title>KULHÁNEK, Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>17762</idno>
+      <title>KÜNZLE–PLANZER, Horologium</title>
+   </bibl>
+   <bibl>
+      <idno>17764</idno>
+      <title>KUPFER, Krongut</title>
+   </bibl>
+   <bibl>
+      <idno>17766</idno>
+      <title>KURATLI HÜEBLIN, Archiv und Fälscherwerkstatt</title>
+   </bibl>
+   <bibl>
+      <idno>17770</idno>
+      <title>KURRUS, Jesuiten</title>
+   </bibl>
+   <bibl>
+      <idno>17774</idno>
+      <title>KURZ–JOBST–ROTH, Überlieferung 5/2</title>
+   </bibl>
+   <bibl>
+      <idno>17778</idno>
+      <title>KUYS, Repertorium</title>
+   </bibl>
+   <bibl>
+      <idno>17780</idno>
+      <title>LABROUSSE, Inventaire</title>
+   </bibl>
+   <bibl>
+      <idno>17786</idno>
+      <title>LACKNER, Datierte Handschriften 8</title>
+   </bibl>
+   <bibl>
+      <idno>17788</idno>
+      <title>LAEVEN, Acta Eruditorum</title>
+   </bibl>
+   <bibl>
+      <idno>17814</idno>
+      <title>LANG, Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>17826</idno>
+      <title>LASAGNI, Dizionario</title>
+   </bibl>
+   <bibl>
+      <idno>17830</idno>
+      <title>LASHOFER, Profeßbuch Göttweig</title>
+   </bibl>
+   <bibl>
+      <idno>17834</idno>
+      <title>LAU, Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>17836</idno>
+      <title>LAU, Stiefbrüder</title>
+   </bibl>
+   <bibl>
+      <idno>17846</idno>
+      <title>LAURENT, Jean Soanen</title>
+   </bibl>
+   <bibl>
+      <idno>17848</idno>
+      <title>LAUSBERG, Hymnus</title>
+   </bibl>
+   <bibl>
+      <idno>17852</idno>
+      <title>LAVANDIER, Livre</title>
+   </bibl>
+   <bibl>
+      <idno>17866</idno>
+      <title>LECHNER–GRÜNWALD, Bessel</title>
+   </bibl>
+   <bibl>
+      <idno>17872</idno>
+      <title>LECHNER, Babenberger</title>
+   </bibl>
+   <bibl>
+      <idno>17880</idno>
+      <title>LECLERCQ, Mabillon 1–2</title>
+   </bibl>
+   <bibl>
+      <idno>17894</idno>
+      <title>LECOY DE LA MARCHE, Ripaille</title>
+   </bibl>
+   <bibl>
+      <idno>17896</idno>
+      <title>LEFRANC, Collège de France</title>
+   </bibl>
+   <bibl>
+      <idno>17900</idno>
+      <title>LEHMANN, Bibliotheksräume</title>
+   </bibl>
+   <bibl>
+      <idno>17906</idno>
+      <title>LEHMANN, Modius</title>
+   </bibl>
+   <bibl>
+      <idno>17908</idno>
+      <title>LEHNER, Enlightened Monks</title>
+   </bibl>
+   <bibl>
+      <idno>17920</idno>
+      <title>LEIDINGER, Schriften</title>
+   </bibl>
+   <bibl>
+      <idno>17926</idno>
+      <title>LEINSLE, Studium im Kloster</title>
+   </bibl>
+   <bibl>
+      <idno>17934</idno>
+      <title>LEITSCHUH, Matrikeln</title>
+   </bibl>
+   <bibl>
+      <idno>17942</idno>
+      <title>LEMAIRE, Cartésianisme</title>
+   </bibl>
+   <bibl>
+      <idno>17944</idno>
+      <title>LEMAÎTRE, Répertoire</title>
+   </bibl>
+   <bibl>
+      <idno>17948</idno>
+      <title>LEMAÎTRE–DUFOUR, Documents nécrologiques</title>
+   </bibl>
+   <bibl>
+      <idno>17956</idno>
+      <title>LEPREUX, Gallia typographica Champagne</title>
+   </bibl>
+   <bibl>
+      <idno>17958</idno>
+      <title>LEPREUX, Gallia typographica Normandie 1</title>
+   </bibl>
+   <bibl>
+      <idno>17960</idno>
+      <title>LEPREUX, Gallia typographica Paris 1</title>
+   </bibl>
+   <bibl>
+      <idno>17962</idno>
+      <title>LEROQUAIS, Sacramentaires</title>
+   </bibl>
+   <bibl>
+      <idno>17972</idno>
+      <title>LESKIEN, Eckhart</title>
+   </bibl>
+   <bibl>
+      <idno>17976</idno>
+      <title>LEVILLAIN, Correspondance</title>
+   </bibl>
+   <bibl>
+      <idno>17978</idno>
+      <title>LEVILLAIN, Examen critique</title>
+   </bibl>
+   <bibl>
+      <idno>17982</idno>
+      <title>LEWIS, Development</title>
+   </bibl>
+   <bibl>
+      <idno>17988</idno>
+      <title>LHOTSKY, Historiographie</title>
+   </bibl>
+   <bibl>
+      <idno>17990</idno>
+      <title>LHOTSKY, Quellenkunde</title>
+   </bibl>
+   <bibl>
+      <idno>18000</idno>
+      <title>LIEBERTZ-GRÜN, Mittelalter</title>
+   </bibl>
+   <bibl>
+      <idno>18002</idno>
+      <title>LIEBHART, Nonnenkonvent</title>
+   </bibl>
+   <bibl>
+      <idno>18004</idno>
+      <title>LIEBHART, Verfassung</title>
+   </bibl>
+   <bibl>
+      <idno>18006</idno>
+      <title>LIEFTINCK–GUMBERT, Manuscrits datés 2</title>
+   </bibl>
+   <bibl>
+      <idno>18008</idno>
+      <title>LIMON, Notaires</title>
+   </bibl>
+   <bibl>
+      <idno>18030</idno>
+      <title>LINDNER, Professbuch Benediktbeuern</title>
+   </bibl>
+   <bibl>
+      <idno>18034</idno>
+      <title>LINDNER, Professbuch Petershausen</title>
+   </bibl>
+   <bibl>
+      <idno>18038</idno>
+      <title>LINDNER, Professbuch Weingarten</title>
+   </bibl>
+   <bibl>
+      <idno>18040</idno>
+      <title>LINDNER, Professbuch Wessobrunn</title>
+   </bibl>
+   <bibl>
+      <idno>18044</idno>
+      <title>LINDNER, Schriftsteller Bayern</title>
+   </bibl>
+   <bibl>
+      <idno>18050</idno>
+      <title>LIPSIUS, Apostelgeschichten</title>
+   </bibl>
+   <bibl>
+      <idno>18052</idno>
+      <title>LIST–POWITZ, Handschriften Mainz 1</title>
+   </bibl>
+   <bibl>
+      <idno>18054</idno>
+      <title>LIST, Admont</title>
+   </bibl>
+   <bibl>
+      <idno>18058</idno>
+      <title>LOH, Verzeichnis</title>
+   </bibl>
+   <bibl>
+      <idno>18066</idno>
+      <title>LOHSE, Handschriften 5</title>
+   </bibl>
+   <bibl>
+      <idno>18068</idno>
+      <title>LONGÈRE, Introduction</title>
+   </bibl>
+   <bibl>
+      <idno>18070</idno>
+      <title>LONGUEMARE, Famille d’auteurs</title>
+   </bibl>
+   <bibl>
+      <idno>18074</idno>
+      <title>LOTTER–BRATOŽ–CASTRITIUS, Völkerverschiebungen</title>
+   </bibl>
+   <bibl>
+      <idno>18078</idno>
+      <title>LOW, Baker</title>
+   </bibl>
+   <bibl>
+      <idno>18082</idno>
+      <title>LUDWIG, Klosterneuburg</title>
+   </bibl>
+   <bibl>
+      <idno>18084</idno>
+      <title>LUKÁCS, Catalogus</title>
+   </bibl>
+   <bibl>
+      <idno>18086</idno>
+      <title>LUNN, English Benedictines</title>
+   </bibl>
+   <bibl>
+      <idno>18088</idno>
+      <title>LUSCOMBE, School of Abelard</title>
+   </bibl>
+   <bibl>
+      <idno>18096</idno>
+      <title>MACKINNEY, Medical Illustrations</title>
+   </bibl>
+   <bibl>
+      <idno>18100</idno>
+      <title>MAGNO, Einbürgerung</title>
+   </bibl>
+   <bibl>
+      <idno>18102</idno>
+      <title>MAIER, Kelten</title>
+   </bibl>
+   <bibl>
+      <idno>18112</idno>
+      <title>MAILLARD et al., Hellénistes I</title>
+   </bibl>
+   <bibl>
+      <idno>18114</idno>
+      <title>MAIRE, Cause de Dieu</title>
+   </bibl>
+   <bibl>
+      <idno>18116</idno>
+      <title>MAÎTRE, Précieuses</title>
+   </bibl>
+   <bibl>
+      <idno>18120</idno>
+      <title>MAJOROS–RILL, Bayern</title>
+   </bibl>
+   <bibl>
+      <idno>18126</idno>
+      <title>MALEWICZ et al., Modlitwy Gertrudy</title>
+   </bibl>
+   <bibl>
+      <idno>18128</idno>
+      <title>MÁLYUSZ–KRISTÓ, Commentarii 2</title>
+   </bibl>
+   <bibl>
+      <idno>18130</idno>
+      <title>MANITIUS, Literatur</title>
+   </bibl>
+   <bibl>
+      <idno>18136</idno>
+      <title>MARBACH, Augustiner-Chorherren</title>
+   </bibl>
+   <bibl>
+      <idno>18140</idno>
+      <title>MARCHEGAY–MABILLE, Chroniques</title>
+   </bibl>
+   <bibl>
+      <idno>18144</idno>
+      <title>MARRI–LIEBER–GIANAROLI, Corrispondenza</title>
+   </bibl>
+   <bibl>
+      <idno>18146</idno>
+      <title>MARRI–LIEBER–WEYERS, Muratori und Deutschland</title>
+   </bibl>
+   <bibl>
+      <idno>18152</idno>
+      <title>MARTENS, Patriot 4</title>
+   </bibl>
+   <bibl>
+      <idno>18156</idno>
+      <title>MARTIMORT, Documentation</title>
+   </bibl>
+   <bibl>
+      <idno>18160</idno>
+      <title>MARTIN, Carthusian Reform</title>
+   </bibl>
+   <bibl>
+      <idno>18170</idno>
+      <title>MARTIN, Congrégations</title>
+   </bibl>
+   <bibl>
+      <idno>18172</idno>
+      <title>MARTÍNEZ DE BUJANDA–RICHTER, Index 11</title>
+   </bibl>
+   <bibl>
+      <idno>18182</idno>
+      <title>MASCHIETTO, Benedettini professori</title>
+   </bibl>
+   <bibl>
+      <idno>18184</idno>
+      <title>MASCHIETTO, Biblioteca</title>
+   </bibl>
+   <bibl>
+      <idno>18188</idno>
+      <title>MAŠEK, Šlechtické rody</title>
+   </bibl>
+   <bibl>
+      <idno>18190</idno>
+      <title>MAß, Bistum Freising</title>
+   </bibl>
+   <bibl>
+      <idno>18194</idno>
+      <title>MATHÄSER, Andechser Chronik</title>
+   </bibl>
+   <bibl>
+      <idno>18196</idno>
+      <title>MATHIEU, Histoire</title>
+   </bibl>
+   <bibl>
+      <idno>18200</idno>
+      <title>MATSCHE, Kunst</title>
+   </bibl>
+   <bibl>
+      <idno>18202</idno>
+      <title>MATUSCHKA, Feldzug 1716</title>
+   </bibl>
+   <bibl>
+      <idno>18204</idno>
+      <title>MATUSCHKA, Feldzug 1717/18</title>
+   </bibl>
+   <bibl>
+      <idno>18208</idno>
+      <title>MAURER, Dichtungen</title>
+   </bibl>
+   <bibl>
+      <idno>18210</idno>
+      <title>MAURER, Bistum Konstanz 2</title>
+   </bibl>
+   <bibl>
+      <idno>18212</idno>
+      <title>MAY, Regesten</title>
+   </bibl>
+   <bibl>
+      <idno>18214</idno>
+      <title>MAYER, Geschichte der geistigen Cultur</title>
+   </bibl>
+   <bibl>
+      <idno>18218</idno>
+      <title>MAYER, Kartause Seitz</title>
+   </bibl>
+   <bibl>
+      <idno>18222</idno>
+      <title>MAYER, Kreuzzüge</title>
+   </bibl>
+   <bibl>
+      <idno>18224</idno>
+      <title>MAYER, Burggrafen</title>
+   </bibl>
+   <bibl>
+      <idno>18230</idno>
+      <title>MAYER, Reise</title>
+   </bibl>
+   <bibl>
+      <idno>18244</idno>
+      <title>MAZAKARINI, Barockpaläste</title>
+   </bibl>
+   <bibl>
+      <idno>18246</idno>
+      <title>MAZAL, Abendländische Handschriften 4</title>
+   </bibl>
+   <bibl>
+      <idno>18250</idno>
+      <title>MAZZATINTI, Obituario</title>
+   </bibl>
+   <bibl>
+      <idno>18252</idno>
+      <title>MAZZETTI, Repertorio</title>
+   </bibl>
+   <bibl>
+      <idno>18254</idno>
+      <title>MAZZON, Manoscritti</title>
+   </bibl>
+   <bibl>
+      <idno>18256</idno>
+      <title>MCCORMICK, Index Scriptorum 3/2</title>
+   </bibl>
+   <bibl>
+      <idno>18258</idno>
+      <title>MCCORMICK–FRANSEN, Index Scriptorum 3/1</title>
+   </bibl>
+   <bibl>
+      <idno>18264</idno>
+      <title>MCKITTERICK, Carolingians</title>
+   </bibl>
+   <bibl>
+      <idno>18266</idno>
+      <title>MCMANNERS, Church and Society</title>
+   </bibl>
+   <bibl>
+      <idno>18268</idno>
+      <title>MECENSEFFY, Spanische Bündnispolitik</title>
+   </bibl>
+   <bibl>
+      <idno>18272</idno>
+      <title>MEGOW, Kameen</title>
+   </bibl>
+   <bibl>
+      <idno>18274</idno>
+      <title>MEIER, Catalogus</title>
+   </bibl>
+   <bibl>
+      <idno>18276</idno>
+      <title>MEIER, Werke</title>
+   </bibl>
+   <bibl>
+      <idno>18280</idno>
+      <title>MEINDL, Catalogus</title>
+   </bibl>
+   <bibl>
+      <idno>18284</idno>
+      <title>MEISEN, Nikolauskult</title>
+   </bibl>
+   <bibl>
+      <idno>18288</idno>
+      <title>MEISTER, Akademie</title>
+   </bibl>
+   <bibl>
+      <idno>18290</idno>
+      <title>MELLOT, Édition rouennaise</title>
+   </bibl>
+   <bibl>
+      <idno>18294</idno>
+      <title>MELLOT–QUEVAL–MONAQUE, Répertoire</title>
+   </bibl>
+   <bibl>
+      <idno>18304</idno>
+      <title>MENHARDT, Verzeichnis</title>
+   </bibl>
+   <bibl>
+      <idno>18306</idno>
+      <title>MENK-BERTRAND, Image</title>
+   </bibl>
+   <bibl>
+      <idno>18308</idno>
+      <title>MENSI-KLARBACH, Finanzen</title>
+   </bibl>
+   <bibl>
+      <idno>18322</idno>
+      <title>MERAVIGLIA-CRIVELLI, Wappenbuch Böhmischer Adel</title>
+   </bibl>
+   <bibl>
+      <idno>18332</idno>
+      <title>MERTENS, Iacobus Carthusiensis</title>
+   </bibl>
+   <bibl>
+      <idno>18338</idno>
+      <title>METZENTHIN, Obrecht</title>
+   </bibl>
+   <bibl>
+      <idno>18348</idno>
+      <title>MEYER, Mensura monochordi</title>
+   </bibl>
+   <bibl>
+      <idno>18362</idno>
+      <title>MIERAU–SANDER-BERKE–STUDT, Flores temporum</title>
+   </bibl>
+   <bibl>
+      <idno>18366</idno>
+      <title>MILLER, Peiresc’s Europe</title>
+   </bibl>
+   <bibl>
+      <idno>18378</idno>
+      <title>MINGES, Franziskaner in Bayern</title>
+   </bibl>
+   <bibl>
+      <idno>18386</idno>
+      <title>MITCHELL, Laurels</title>
+   </bibl>
+   <bibl>
+      <idno>18388</idno>
+      <title>MITIS, Studien</title>
+   </bibl>
+   <bibl>
+      <idno>18390</idno>
+      <title>MITIS et al., Urkundenbuch Babenberger 4/2</title>
+   </bibl>
+   <bibl>
+      <idno>18402</idno>
+      <title>MLINARIČ, Kartuzija Pleterje</title>
+   </bibl>
+   <bibl>
+      <idno>18406</idno>
+      <title>MOEGLIN, Ancêtres du prince</title>
+   </bibl>
+   <bibl>
+      <idno>18410</idno>
+      <title>MOIS, Rottenbuch</title>
+   </bibl>
+   <bibl>
+      <idno>18416</idno>
+      <title>MOLINIER, Obituaires</title>
+   </bibl>
+   <bibl>
+      <idno>18418</idno>
+      <title>MOLITOR, Rechtsgeschichte</title>
+   </bibl>
+   <bibl>
+      <idno>18424</idno>
+      <title>MONE, Hymnen</title>
+   </bibl>
+   <bibl>
+      <idno>18428</idno>
+      <title>MONTCLOS, Lanfranc et Bérenger</title>
+   </bibl>
+   <bibl>
+      <idno>18430</idno>
+      <title>MORDEK, Bibliotheca capitularium</title>
+   </bibl>
+   <bibl>
+      <idno>18436</idno>
+      <title>MORIS, Lérins</title>
+   </bibl>
+   <bibl>
+      <idno>18438</idno>
+      <title>MORISANI, Tino di Camaino</title>
+   </bibl>
+   <bibl>
+      <idno>18442</idno>
+      <title>MOSSMAN, Marquard von Lindau</title>
+   </bibl>
+   <bibl>
+      <idno>18446</idno>
+      <title>MÜCKE, Aufklärung</title>
+   </bibl>
+   <bibl>
+      <idno>18448</idno>
+      <title>MUHLACK, Geschichtswissenschaft</title>
+   </bibl>
+   <bibl>
+      <idno>18450</idno>
+      <title>MÜHLBERGER, Universität Wien</title>
+   </bibl>
+   <bibl>
+      <idno>18452</idno>
+      <title>MÜHLBERGER–MAISEL, Rundgang</title>
+   </bibl>
+   <bibl>
+      <idno>18454</idno>
+      <title>MÜHLBERGER–SCHUSTER, Matrikel Wien 6</title>
+   </bibl>
+   <bibl>
+      <idno>18466</idno>
+      <title>MULLER, Siècle des Rohan</title>
+   </bibl>
+   <bibl>
+      <idno>18468</idno>
+      <title>MÜLLER, Oberhof</title>
+   </bibl>
+   <bibl>
+      <idno>18478</idno>
+      <title>MÜLLER, Disentis 1634–1655</title>
+   </bibl>
+   <bibl>
+      <idno>18480</idno>
+      <title>MÜLLER, Disentis 1655–1696</title>
+   </bibl>
+   <bibl>
+      <idno>18482</idno>
+      <title>MÜLLER, Disentis 1696–1742</title>
+   </bibl>
+   <bibl>
+      <idno>18488</idno>
+      <title>MÜLLER–KRÖNERT, Leibniz</title>
+   </bibl>
+   <bibl>
+      <idno>18490</idno>
+      <title>MÜLLER–SCHEEL, Leibniz Allgemeiner Briefwechsel 6</title>
+   </bibl>
+   <bibl>
+      <idno>18492</idno>
+      <title>MÜLLER–SCHEEL–UTERMÖHLEN, Leibniz Allgemeiner Briefwechsel 9</title>
+   </bibl>
+   <bibl>
+      <idno>18494</idno>
+      <title>MÜLLER, Am Schnittpunkt</title>
+   </bibl>
+   <bibl>
+      <idno>18496</idno>
+      <title>MÜLLER, Bistumsgeschichtsschreibung</title>
+   </bibl>
+   <bibl>
+      <idno>18502</idno>
+      <title>MULSOW, Drei Ringe</title>
+   </bibl>
+   <bibl>
+      <idno>18506</idno>
+      <title>MUNDHENKE, Matrikel Helmstedt 3</title>
+   </bibl>
+   <bibl>
+      <idno>18508</idno>
+      <title>MUNDT, Verzeichnis 2</title>
+   </bibl>
+   <bibl>
+      <idno>18516</idno>
+      <title>MYNORS, Catalogue</title>
+   </bibl>
+   <bibl>
+      <idno>18518</idno>
+      <title>NADER, Viertel unter dem Wienerwald</title>
+   </bibl>
+   <bibl>
+      <idno>18520</idno>
+      <title>NAEGLE, Stadt</title>
+   </bibl>
+   <bibl>
+      <idno>18532</idno>
+      <title>NASCIMENTO–BRANCO–ROSA, Leonor de Portugal</title>
+   </bibl>
+   <bibl>
+      <idno>18538</idno>
+      <title>NEBBIAI, Bibliothèque</title>
+   </bibl>
+   <bibl>
+      <idno>18540</idno>
+      <title>NEESEN, Bucelin</title>
+   </bibl>
+   <bibl>
+      <idno>18544</idno>
+      <title>NELSON, Charles the Bald</title>
+   </bibl>
+   <bibl>
+      <idno>18546</idno>
+      <title>NESKE, Catalogus 4/2/2</title>
+   </bibl>
+   <bibl>
+      <idno>18550</idno>
+      <title>NEUBAUER, Reichsstadt Regensburg</title>
+   </bibl>
+   <bibl>
+      <idno>18552</idno>
+      <title>NEUEDER, Oberaltaich</title>
+   </bibl>
+   <bibl>
+      <idno>18570</idno>
+      <title>NIEDERKORN-BRUCK, Koloman</title>
+   </bibl>
+   <bibl>
+      <idno>18572</idno>
+      <title>NIEDERKORN-BRUCK, Melker Reform</title>
+   </bibl>
+   <bibl>
+      <idno>18576</idno>
+      <title>NIEDERKORN-BRUCK, Tradition und Wandel</title>
+   </bibl>
+   <bibl>
+      <idno>18580</idno>
+      <title>NIEDERSTÄTTER, Herrschaft Österreich</title>
+   </bibl>
+   <bibl>
+      <idno>18586</idno>
+      <title>NISING, Jesuitenkollegien</title>
+   </bibl>
+   <bibl>
+      <idno>18588</idno>
+      <title>NOACK, Deutschtum</title>
+   </bibl>
+   <bibl>
+      <idno>18590</idno>
+      <title>NOHEJLOVÁ, Příběhy kláštera Opatovického</title>
+   </bibl>
+   <bibl>
+      <idno>18594</idno>
+      <title>NOREL, Saint-Cyran</title>
+   </bibl>
+   <bibl>
+      <idno>18598</idno>
+      <title>NORTHEAST, Parisian Jesuits</title>
+   </bibl>
+   <bibl>
+      <idno>18600</idno>
+      <title>NORTON, Italian Printers</title>
+   </bibl>
+   <bibl>
+      <idno>18606</idno>
+      <title>NOVATI, Epistolario</title>
+   </bibl>
+   <bibl>
+      <idno>18614</idno>
+      <title>NYASSI–WILKES–KEUSSEN, Matrikel Köln 5</title>
+   </bibl>
+   <bibl>
+      <idno>18616</idno>
+      <title>OAKLEY, Political Thought</title>
+   </bibl>
+   <bibl>
+      <idno>18624</idno>
+      <title>OEFELE, Grafen von Andechs</title>
+   </bibl>
+   <bibl>
+      <idno>18630</idno>
+      <title>OESCH, Guido von Arezzo</title>
+   </bibl>
+   <bibl>
+      <idno>18634</idno>
+      <title>OHLBAUM, Johann Rode</title>
+   </bibl>
+   <bibl>
+      <idno>18636</idno>
+      <title>OHNSORGE, Bibliothek</title>
+   </bibl>
+   <bibl>
+      <idno>18638</idno>
+      <title>OLDENBURG, Kartause</title>
+   </bibl>
+   <bibl>
+      <idno>18642</idno>
+      <title>OLLERIS, Œuvres</title>
+   </bibl>
+   <bibl>
+      <idno>18644</idno>
+      <title>OMONT, Nouvelles acquisitions françaises 2</title>
+   </bibl>
+   <bibl>
+      <idno>18648</idno>
+      <title>OPLADEN, Groß St. Martin</title>
+   </bibl>
+   <bibl>
+      <idno>18650</idno>
+      <title>OPLL, Nachrichten</title>
+   </bibl>
+   <bibl>
+      <idno>18658</idno>
+      <title>ORCHARD, Sacramentary</title>
+   </bibl>
+   <bibl>
+      <idno>18662</idno>
+      <title>ORLANDIS ROVIRA–RAMOS LISSÓN, Synoden</title>
+   </bibl>
+   <bibl>
+      <idno>18664</idno>
+      <title>OROŽEN, Zgodovina Celja</title>
+   </bibl>
+   <bibl>
+      <idno>18666</idno>
+      <title>ORTLIEB–SCHNETTGER, Bibliographie</title>
+   </bibl>
+   <bibl>
+      <idno>18668</idno>
+      <title>ORTMAYR–DECKER, Seitenstetten</title>
+   </bibl>
+   <bibl>
+      <idno>18674</idno>
+      <title>OTHMER, Berlin</title>
+   </bibl>
+   <bibl>
+      <idno>18678</idno>
+      <title>OTT, Untersuchungen</title>
+   </bibl>
+   <bibl>
+      <idno>18684</idno>
+      <title>OURY, Claude Martin</title>
+   </bibl>
+   <bibl>
+      <idno>18690</idno>
+      <title>OVERESCH–GÜNTHER, Himmlisches Jerusalem</title>
+   </bibl>
+   <bibl>
+      <idno>18692</idno>
+      <title>PABST, Prosimetrum</title>
+   </bibl>
+   <bibl>
+      <idno>18696</idno>
+      <title>PAINTNER–WIESNETH–SCHWEDT, Römische Bücherverbote</title>
+   </bibl>
+   <bibl>
+      <idno>18698</idno>
+      <title>PAISEY, Buchdrucker</title>
+   </bibl>
+   <bibl>
+      <idno>18702</idno>
+      <title>PALMER, Peter III.</title>
+   </bibl>
+   <bibl>
+      <idno>18710</idno>
+      <title>PANNENBERG, Wissenschaftstheorie</title>
+   </bibl>
+   <bibl>
+      <idno>18716</idno>
+      <title>PASTORELLO, Tipografi</title>
+   </bibl>
+   <bibl>
+      <idno>18720</idno>
+      <title>PAULHART, Bibliothekskataloge 5</title>
+   </bibl>
+   <bibl>
+      <idno>18722</idno>
+      <title>PAULHART, Kartause Gaming</title>
+   </bibl>
+   <bibl>
+      <idno>18740</idno>
+      <title>PECHE, Bibliotheca lexicorum</title>
+   </bibl>
+   <bibl>
+      <idno>18742</idno>
+      <title>PECK, Fool of God</title>
+   </bibl>
+   <bibl>
+      <idno>18746</idno>
+      <title>PEETERS, Œuvre</title>
+   </bibl>
+   <bibl>
+      <idno>18768</idno>
+      <title>PEPER, Konversionen</title>
+   </bibl>
+   <bibl>
+      <idno>18778</idno>
+      <title>PERELS, Hincmari Epistolae</title>
+   </bibl>
+   <bibl>
+      <idno>18780</idno>
+      <title>PERELS, Nikolaus I.</title>
+   </bibl>
+   <bibl>
+      <idno>18782</idno>
+      <title>PÉREZ DE URBEL, Varones insignes</title>
+   </bibl>
+   <bibl>
+      <idno>18784</idno>
+      <title>PÉREZ SAMPER, Isabel de Farnesio</title>
+   </bibl>
+   <bibl>
+      <idno>18788</idno>
+      <title>PERGER–BRAUNEIS, Kirchen und Klöster</title>
+   </bibl>
+   <bibl>
+      <idno>18792</idno>
+      <title>PESENDORFER, Großmacht im Mittelmeer</title>
+   </bibl>
+   <bibl>
+      <idno>18794</idno>
+      <title>Petersen, Intellectum liberare</title>
+   </bibl>
+   <bibl>
+      <idno>18808</idno>
+      <title>Petzet, Catalogus 5/1</title>
+   </bibl>
+   <bibl>
+      <idno>18814</idno>
+      <title>PEZZANA, Memorie</title>
+   </bibl>
+   <bibl>
+      <idno>18816</idno>
+      <title>PFEIFFER–ČERNÍK, Catalogus</title>
+   </bibl>
+   <bibl>
+      <idno>18822</idno>
+      <title>PFIFFIG, Obitorium</title>
+   </bibl>
+   <bibl>
+      <idno>18826</idno>
+      <title>PHILLIPS, Church and Culture</title>
+   </bibl>
+   <bibl>
+      <idno>18836</idno>
+      <title>PICKL, Neuberg</title>
+   </bibl>
+   <bibl>
+      <idno>18844</idno>
+      <title>PIEPER, Propaganda-Congregation</title>
+   </bibl>
+   <bibl>
+      <idno>18860</idno>
+      <title>PIZZORNI, Marcantonio Bonduri</title>
+   </bibl>
+   <bibl>
+      <idno>18862</idno>
+      <title>PLANTE, Catalogue</title>
+   </bibl>
+   <bibl>
+      <idno>18872</idno>
+      <title>PLECHL–BERGMANN, Tegernseer Briefsammlung</title>
+   </bibl>
+   <bibl>
+      <idno>18878</idno>
+      <title>PLETICHA, Adel und Buch</title>
+   </bibl>
+   <bibl>
+      <idno>18880</idno>
+      <title>PLEYEL, Österreich</title>
+   </bibl>
+   <bibl>
+      <idno>18884</idno>
+      <title>PÖHLEIN, Wolfgang Seidel</title>
+   </bibl>
+   <bibl>
+      <idno>18888</idno>
+      <title>PÖLNITZ, Matrikel Ingolstadt 1/2/2</title>
+   </bibl>
+   <bibl>
+      <idno>18894</idno>
+      <title>PONSICH–ORDEIG I MATA, Comtats</title>
+   </bibl>
+   <bibl>
+      <idno>18896</idno>
+      <title>PONTAL, Conciles</title>
+   </bibl>
+   <bibl>
+      <idno>18898</idno>
+      <title>PONTESEGGER et al., Allhartsberg</title>
+   </bibl>
+   <bibl>
+      <idno>18900</idno>
+      <title>PÖRNBACHER, Krinner</title>
+   </bibl>
+   <bibl>
+      <idno>18904</idno>
+      <title>PORRES ALONSO, Libertad</title>
+   </bibl>
+   <bibl>
+      <idno>18914</idno>
+      <title>POUSSIN, Monographie</title>
+   </bibl>
+   <bibl>
+      <idno>18916</idno>
+      <title>POUTET, XVIIe siècle</title>
+   </bibl>
+   <bibl>
+      <idno>18922</idno>
+      <title>PRECHT-NUßBAUM, Zwischen Augsburg und Rom</title>
+   </bibl>
+   <bibl>
+      <idno>18930</idno>
+      <title>PRIESTER, Langobarden</title>
+   </bibl>
+   <bibl>
+      <idno>18932</idno>
+      <title>PRIEUR, Acta Andreae</title>
+   </bibl>
+   <bibl>
+      <idno>18938</idno>
+      <title>PRITZ, Garsten und Gleink</title>
+   </bibl>
+   <bibl>
+      <idno>18948</idno>
+      <title>PURCHART, Hohenwart</title>
+   </bibl>
+   <bibl>
+      <idno>18950</idno>
+      <title>PUSCH, Rats- und Stadtgeschlechter</title>
+   </bibl>
+   <bibl>
+      <idno>18960</idno>
+      <title>QUANTIN, Catholicisme classique</title>
+   </bibl>
+   <bibl>
+      <idno>18962</idno>
+      <title>QUANTIN, Church of England</title>
+   </bibl>
+   <bibl>
+      <idno>18974</idno>
+      <title>QUÉNIART, Imprimerie</title>
+   </bibl>
+   <bibl>
+      <idno>18976</idno>
+      <title>QUENTIN, Mansi</title>
+   </bibl>
+   <bibl>
+      <idno>18978</idno>
+      <title>QUENTIN, Martyrologes</title>
+   </bibl>
+   <bibl>
+      <idno>18984</idno>
+      <title>RAAB, Clemens Wenzeslaus</title>
+   </bibl>
+   <bibl>
+      <idno>18986</idno>
+      <title>RAAB, Urkundenbuch</title>
+   </bibl>
+   <bibl>
+      <idno>18996</idno>
+      <title>RABORY, Marmoutier</title>
+   </bibl>
+   <bibl>
+      <idno>18998</idno>
+      <title>Raby, Christian-Latin Poetry</title>
+   </bibl>
+   <bibl>
+      <idno>19000</idno>
+      <title>RADDING–NEWTON, Theology</title>
+   </bibl>
+   <bibl>
+      <idno>19004</idno>
+      <title>RÄDLINGER-PRÖMPER, Sankt Emmeram</title>
+   </bibl>
+   <bibl>
+      <idno>19010</idno>
+      <title>RÄß, Convertiten</title>
+   </bibl>
+   <bibl>
+      <idno>19012</idno>
+      <title>RATHSACK, Fuldaer Fälschungen</title>
+   </bibl>
+   <bibl>
+      <idno>19014</idno>
+      <title>RAUNER, Tripartitus</title>
+   </bibl>
+   <bibl>
+      <idno>19016</idno>
+      <title>RAVAISSON-MOLLIEN, Archives de la Bastille</title>
+   </bibl>
+   <bibl>
+      <idno>19018</idno>
+      <title>RAVEGNANI, Biblioteche</title>
+   </bibl>
+   <bibl>
+      <idno>19020</idno>
+      <title>RAVIER, Bibliographie</title>
+   </bibl>
+   <bibl>
+      <idno>19024</idno>
+      <title>REDLICH, Rudolf von Habsburg</title>
+   </bibl>
+   <bibl>
+      <idno>19026</idno>
+      <title>REDLICH–BÖHMER, Regesta Imperii 6/1</title>
+   </bibl>
+   <bibl>
+      <idno>19030</idno>
+      <title>REDLICH, Johann Rode</title>
+   </bibl>
+   <bibl>
+      <idno>19032</idno>
+      <title>REDLICH, Matrikel Salzburg</title>
+   </bibl>
+   <bibl>
+      <idno>19036</idno>
+      <title>REDLICH, Tegernsee</title>
+   </bibl>
+   <bibl>
+      <idno>19042</idno>
+      <title>REESE, Historie</title>
+   </bibl>
+   <bibl>
+      <idno>19052</idno>
+      <title>REICHHOLD, Chronik Scheyern</title>
+   </bibl>
+   <bibl>
+      <idno>19062</idno>
+      <title>REINHARDT–SANTIAGO-OTERO, Biblioteca bíblica</title>
+   </bibl>
+   <bibl>
+      <idno>19070</idno>
+      <title>REMAK-HONNEF–HAUKE, Catalogus 4/1</title>
+   </bibl>
+   <bibl>
+      <idno>19074</idno>
+      <title>RENOUARD, Imprimeurs</title>
+   </bibl>
+   <bibl>
+      <idno>19076</idno>
+      <title>RENOUARD, Répertoire</title>
+   </bibl>
+   <bibl>
+      <idno>19078</idno>
+      <title>RESKE, Buchdrucker</title>
+   </bibl>
+   <bibl>
+      <idno>19080</idno>
+      <title>REUSCH, Index</title>
+   </bibl>
+   <bibl>
+      <idno>19104</idno>
+      <title>RIEMANN, Briefwechsel</title>
+   </bibl>
+   <bibl>
+      <idno>19122</idno>
+      <title>RITZLER–SEFRIN, Hierarchia catholica 5</title>
+   </bibl>
+   <bibl>
+      <idno>19126</idno>
+      <title>ROBERT, Supplément</title>
+   </bibl>
+   <bibl>
+      <idno>19130</idno>
+      <title>ROCKINGER, Briefsteller</title>
+   </bibl>
+   <bibl>
+      <idno>19132</idno>
+      <title>ROCKINGER, Pflege der Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>19136</idno>
+      <title>ROECK, Reichssystem</title>
+   </bibl>
+   <bibl>
+      <idno>19140</idno>
+      <title>ROGIER–BRACHIN, Catholicisme</title>
+   </bibl>
+   <bibl>
+      <idno>19146</idno>
+      <title>RÖHRIG, Babenberger-Stammbaum</title>
+   </bibl>
+   <bibl>
+      <idno>19152</idno>
+      <title>ROHTERT, Johannes Rode</title>
+   </bibl>
+   <bibl>
+      <idno>19160</idno>
+      <title>RÖMER, Überlieferung 3</title>
+   </bibl>
+   <bibl>
+      <idno>19164</idno>
+      <title>ROPERTZ, Quellen</title>
+   </bibl>
+   <bibl>
+      <idno>19168</idno>
+      <title>ROSE, Verzeichniss 2/2</title>
+   </bibl>
+   <bibl>
+      <idno>19172</idno>
+      <title>ROßMANN, Aggsbach</title>
+   </bibl>
+   <bibl>
+      <idno>19180</idno>
+      <title>ROTERMUND, Lexikon</title>
+   </bibl>
+   <bibl>
+      <idno>19182</idno>
+      <title>ROTH, Literatur</title>
+   </bibl>
+   <bibl>
+      <idno>19188</idno>
+      <title>ROTTLEUTHNER–ROTTLEUTHNER, Gewichte</title>
+   </bibl>
+   <bibl>
+      <idno>19192</idno>
+      <title>ROUET, Cartulaire</title>
+   </bibl>
+   <bibl>
+      <idno>19194</idno>
+      <title>ROUSSEAU, Promoteur</title>
+   </bibl>
+   <bibl>
+      <idno>19200</idno>
+      <title>RUDOLF, Ars moriendi</title>
+   </bibl>
+   <bibl>
+      <idno>19202</idno>
+      <title>RUF, Profeßbuch</title>
+   </bibl>
+   <bibl>
+      <idno>19204</idno>
+      <title>RUF, Bibliothekskataloge 3/1</title>
+   </bibl>
+   <bibl>
+      <idno>19214</idno>
+      <title>RUPIN, Moissac</title>
+   </bibl>
+   <bibl>
+      <idno>19218</idno>
+      <title>RÜTHING, Heinrich Egher</title>
+   </bibl>
+   <bibl>
+      <idno>19226</idno>
+      <title>RYAN, Kingdom of Stargazers</title>
+   </bibl>
+   <bibl>
+      <idno>19234</idno>
+      <title>SACHS, Mensura fistularum</title>
+   </bibl>
+   <bibl>
+      <idno>19240</idno>
+      <title>SALMON, Analecta liturgica</title>
+   </bibl>
+   <bibl>
+      <idno>19246</idno>
+      <title>SANARICA, Cardinale</title>
+   </bibl>
+   <bibl>
+      <idno>19248</idno>
+      <title>SANDGRUBER, Ökonomie und Politik</title>
+   </bibl>
+   <bibl>
+      <idno>19256</idno>
+      <title>SANTORO, Geschichte des Buchhandels</title>
+   </bibl>
+   <bibl>
+      <idno>19260</idno>
+      <title>SARGENT–HOGG, Ms. Latin 10887</title>
+   </bibl>
+   <bibl>
+      <idno>19262</idno>
+      <title>SARMANT–STOLL, Guerre</title>
+   </bibl>
+   <bibl>
+      <idno>19264</idno>
+      <title>SARTORI, Dizionario</title>
+   </bibl>
+   <bibl>
+      <idno>19268</idno>
+      <title>SATTLER, Andechs</title>
+   </bibl>
+   <bibl>
+      <idno>19270</idno>
+      <title>SATTLER, Collectaneen-Blätter</title>
+   </bibl>
+   <bibl>
+      <idno>19272</idno>
+      <title>SAUER, Musen</title>
+   </bibl>
+   <bibl>
+      <idno>19274</idno>
+      <title>SAWILLA, Antiquarianismus</title>
+   </bibl>
+   <bibl>
+      <idno>19282</idno>
+      <title>SCHAAB, Kurpfalz</title>
+   </bibl>
+   <bibl>
+      <idno>19288</idno>
+      <title>SCHALLER–KÖNSGEN–TAGLIABUE, Initia carminum</title>
+   </bibl>
+   <bibl>
+      <idno>19292</idno>
+      <title>SCHANTZ, Werdener Geschichtsquellen 3</title>
+   </bibl>
+   <bibl>
+      <idno>19298</idno>
+      <title>SCHÄUFELE, Pfaff</title>
+   </bibl>
+   <bibl>
+      <idno>19308</idno>
+      <title>SCHEELE, Wissen und Glaube</title>
+   </bibl>
+   <bibl>
+      <idno>19310</idno>
+      <title>SCHEIBE, Patriot</title>
+   </bibl>
+   <bibl>
+      <idno>19314</idno>
+      <title>SCHEIBELREITER, Babenberger</title>
+   </bibl>
+   <bibl>
+      <idno>19324</idno>
+      <title>SCHERBAUM, Bernried</title>
+   </bibl>
+   <bibl>
+      <idno>19328</idno>
+      <title>SCHERER, Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>19336</idno>
+      <title>SCHIEFFER, Streitschriften</title>
+   </bibl>
+   <bibl>
+      <idno>19338</idno>
+      <title>SCHIERER, Barone Hegenmüller</title>
+   </bibl>
+   <bibl>
+      <idno>19340</idno>
+      <title>SCHIFFMAN, Birth of the Past</title>
+   </bibl>
+   <bibl>
+      <idno>19346</idno>
+      <title>SCHILL, Constitution Unigenitus</title>
+   </bibl>
+   <bibl>
+      <idno>19348</idno>
+      <title>SCHILLING, Guido von Vienne</title>
+   </bibl>
+   <bibl>
+      <idno>19350</idno>
+      <title>SCHINAGL, Attel</title>
+   </bibl>
+   <bibl>
+      <idno>19382</idno>
+      <title>Schmeidler, Ellinger</title>
+   </bibl>
+   <bibl>
+      <idno>19384</idno>
+      <title>SCHMEIDLER, Studien</title>
+   </bibl>
+   <bibl>
+      <idno>19386</idno>
+      <title>SCHMEISKY, Lyrik-Handschriften</title>
+   </bibl>
+   <bibl>
+      <idno>19388</idno>
+      <title>SCHMELLER, Bayerisches Wörterbuch</title>
+   </bibl>
+   <bibl>
+      <idno>19396</idno>
+      <title>SCHMID, Bild des Bayernherzogs</title>
+   </bibl>
+   <bibl>
+      <idno>19418</idno>
+      <title>SCHMID, Musica et scolica enchiriadis</title>
+   </bibl>
+   <bibl>
+      <idno>19420</idno>
+      <title>SCHMID, Hirsau</title>
+   </bibl>
+   <bibl>
+      <idno>19424</idno>
+      <title>SCHMID et al., Kommentiertes Parallelregister</title>
+   </bibl>
+   <bibl>
+      <idno>19430</idno>
+      <title>SCHMID HEER, America</title>
+   </bibl>
+   <bibl>
+      <idno>19432</idno>
+      <title>SCHMIDT, Virtuelle Büchersäle</title>
+   </bibl>
+   <bibl>
+      <idno>19434</idno>
+      <title>SCHMIDT, Monographie</title>
+   </bibl>
+   <bibl>
+      <idno>19436</idno>
+      <title>SCHMIDT, Karl Philipp</title>
+   </bibl>
+   <bibl>
+      <idno>19442</idno>
+      <title>SCHMIDT, Collegium Germanicum</title>
+   </bibl>
+   <bibl>
+      <idno>19450</idno>
+      <title>SCHMITZ, Prüfening</title>
+   </bibl>
+   <bibl>
+      <idno>19454</idno>
+      <title>SCHMITZ, Histoire</title>
+   </bibl>
+   <bibl>
+      <idno>19456</idno>
+      <title>SCHNAPP, Conquête du passé</title>
+   </bibl>
+   <bibl>
+      <idno>19458</idno>
+      <title>SCHNATH, Geschichte Hannovers</title>
+   </bibl>
+   <bibl>
+      <idno>19464</idno>
+      <title>SCHNEIDER, Catalogus 5/3</title>
+   </bibl>
+   <bibl>
+      <idno>19466</idno>
+      <title>SCHNEIDER, Catalogus 5/4</title>
+   </bibl>
+   <bibl>
+      <idno>19468</idno>
+      <title>SCHNEIDER, Catalogus 5/5</title>
+   </bibl>
+   <bibl>
+      <idno>19474</idno>
+      <title>SCHNEIDMÜLLER, Welfen</title>
+   </bibl>
+   <bibl>
+      <idno>19478</idno>
+      <title>SCHNEYER, Wegweiser</title>
+   </bibl>
+   <bibl>
+      <idno>19480</idno>
+      <title>SCHNITZER, Berengar von Tours</title>
+   </bibl>
+   <bibl>
+      <idno>19482</idno>
+      <title>SCHÖLKOPF, Grafen</title>
+   </bibl>
+   <bibl>
+      <idno>19484</idno>
+      <title>SCHOTTENLOHER, Bücher</title>
+   </bibl>
+   <bibl>
+      <idno>19488</idno>
+      <title>SCHRADER, Isabella von Aragonien</title>
+   </bibl>
+   <bibl>
+      <idno>19498</idno>
+      <title>SCHRÖDER–KLOSE, Lexikon 5</title>
+   </bibl>
+   <bibl>
+      <idno>19500</idno>
+      <title>SCHRÖDER, Synoden</title>
+   </bibl>
+   <bibl>
+      <idno>19502</idno>
+      <title>SCHRÖRS, Hinkmar</title>
+   </bibl>
+   <bibl>
+      <idno>19506</idno>
+      <title>SCHROTT, Leichenpredigten</title>
+   </bibl>
+   <bibl>
+      <idno>19514</idno>
+      <title>SCHULTE, Quellen</title>
+   </bibl>
+   <bibl>
+      <idno>19522</idno>
+      <title>SCHUMANN, Die andere Sonne</title>
+   </bibl>
+   <bibl>
+      <idno>19526</idno>
+      <title>SCHUNCKEN, Werden</title>
+   </bibl>
+   <bibl>
+      <idno>19528</idno>
+      <title>SCHUSTER, Etymologie</title>
+   </bibl>
+   <bibl>
+      <idno>19536</idno>
+      <title>SCHÜTZEICHEL, Codex Pal. lat. 52</title>
+   </bibl>
+   <bibl>
+      <idno>19540</idno>
+      <title>SCHWARZ, Traditionen</title>
+   </bibl>
+   <bibl>
+      <idno>19544</idno>
+      <title>SCHWEERS, Albrecht von Bonstetten</title>
+   </bibl>
+   <bibl>
+      <idno>19546</idno>
+      <title>SCOTT, Gothic Rage Undone</title>
+   </bibl>
+   <bibl>
+      <idno>19552</idno>
+      <title>SEHLKE, Boizenburg</title>
+   </bibl>
+   <bibl>
+      <idno>19554</idno>
+      <title>SEIFERT, Niedergang</title>
+   </bibl>
+   <bibl>
+      <idno>19564</idno>
+      <title>SEPP, Vita</title>
+   </bibl>
+   <bibl>
+      <idno>19566</idno>
+      <title>SEPP, Weyarn</title>
+   </bibl>
+   <bibl>
+      <idno>19568</idno>
+      <title>SETTIPANI, Noblesse</title>
+   </bibl>
+   <bibl>
+      <idno>19588</idno>
+      <title>SIGISMONDI, Gerberto</title>
+   </bibl>
+   <bibl>
+      <idno>19590</idno>
+      <title>SIMEONI, Storia 2</title>
+   </bibl>
+   <bibl>
+      <idno>19598</idno>
+      <title>SIMMERT, Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>19602</idno>
+      <title>SITZMANN, Dictionnaire</title>
+   </bibl>
+   <bibl>
+      <idno>19608</idno>
+      <title>SMITS VAN WAESBERGHE, De Guidone Aretino</title>
+   </bibl>
+   <bibl>
+      <idno>19624</idno>
+      <title>SOMMERVOGEL, Bibliothèque</title>
+   </bibl>
+   <bibl>
+      <idno>19636</idno>
+      <title>SPÄTLING–DINTER, Consuetudines</title>
+   </bibl>
+   <bibl>
+      <idno>19638</idno>
+      <title>SPECHT, Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>19640</idno>
+      <title>SPECHT, Matrikel Dillingen</title>
+   </bibl>
+   <bibl>
+      <idno>19644</idno>
+      <title>SPEHR, Aufklärung</title>
+   </bibl>
+   <bibl>
+      <idno>19646</idno>
+      <title>SPIELMAN, Leopold I</title>
+   </bibl>
+   <bibl>
+      <idno>19652</idno>
+      <title>SPLETT, Rüdiger</title>
+   </bibl>
+   <bibl>
+      <idno>19662</idno>
+      <title>STAHLEDER, Chronik 3</title>
+   </bibl>
+   <bibl>
+      <idno>19664</idno>
+      <title>STAINIER, Index Scriptorum 1</title>
+   </bibl>
+   <bibl>
+      <idno>19666</idno>
+      <title>STALLEY, Architecture</title>
+   </bibl>
+   <bibl>
+      <idno>19674</idno>
+      <title>STARZER, Statthalterei</title>
+   </bibl>
+   <bibl>
+      <idno>19680</idno>
+      <title>STAUFER, Catalogus 1</title>
+   </bibl>
+   <bibl>
+      <idno>19688</idno>
+      <title>STEGMÜLLER–REINHARDT, Repertorium 8</title>
+   </bibl>
+   <bibl>
+      <idno>19696</idno>
+      <title>STEIN, Rat und Ratsgeschlechter</title>
+   </bibl>
+   <bibl>
+      <idno>19702</idno>
+      <title>STEINER, Ordnung der Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>19710</idno>
+      <title>STEINHERZ, Briefe</title>
+   </bibl>
+   <bibl>
+      <idno>19714</idno>
+      <title>STEINHUBER, Collegium Germanicum</title>
+   </bibl>
+   <bibl>
+      <idno>19718</idno>
+      <title>STEINMEYER–SIEVERS, Glossen</title>
+   </bibl>
+   <bibl>
+      <idno>19752</idno>
+      <title>STENSTRÖM, Karlsteen</title>
+   </bibl>
+   <bibl>
+      <idno>19754</idno>
+      <title>STERN, Römerräder</title>
+   </bibl>
+   <bibl>
+      <idno>19760</idno>
+      <title>STIENNON, Chartrier</title>
+   </bibl>
+   <bibl>
+      <idno>19766</idno>
+      <title>STING, Ludwigsburg 1</title>
+   </bibl>
+   <bibl>
+      <idno>19800</idno>
+      <title>STÖGER, Scriptores</title>
+   </bibl>
+   <bibl>
+      <idno>19802</idno>
+      <title>STOLLEIS, Geschichte 1</title>
+   </bibl>
+   <bibl>
+      <idno>19810</idno>
+      <title>STRAßBERGER, Gottsched</title>
+   </bibl>
+   <bibl>
+      <idno>19820</idno>
+      <title>STROBL, Melker Marienlied</title>
+   </bibl>
+   <bibl>
+      <idno>19824</idno>
+      <title>STRZEWITZEK, Sippenbeziehungen</title>
+   </bibl>
+   <bibl>
+      <idno>19828</idno>
+      <title>STUDT, Martin V.</title>
+   </bibl>
+   <bibl>
+      <idno>19834</idno>
+      <title>STUIBER, Zwischen Rom und dem Erdkreis</title>
+   </bibl>
+   <bibl>
+      <idno>19838</idno>
+      <title>STUMPF, Vita sancti Heinrici</title>
+   </bibl>
+   <bibl>
+      <idno>19844</idno>
+      <title>STURM, Eger</title>
+   </bibl>
+   <bibl>
+      <idno>19850</idno>
+      <title>STÜWER, Reichsabtei Werden</title>
+   </bibl>
+   <bibl>
+      <idno>19856</idno>
+      <title>SUDENDORF, Berengarius</title>
+   </bibl>
+   <bibl>
+      <idno>19858</idno>
+      <title>SULLIVAN, Benedictine Monks</title>
+   </bibl>
+   <bibl>
+      <idno>19860</idno>
+      <title>SÜSS, Beiträge</title>
+   </bibl>
+   <bibl>
+      <idno>19868</idno>
+      <title>SZELESTEI NAGY–GRÜLL, Bél Mátyás levelezése</title>
+   </bibl>
+   <bibl>
+      <idno>19872</idno>
+      <title>SZÖVÉRFFY, Annalen</title>
+   </bibl>
+   <bibl>
+      <idno>19878</idno>
+      <title>TAEGER, Heliand</title>
+   </bibl>
+   <bibl>
+      <idno>19886</idno>
+      <title>TASSI, Barbo</title>
+   </bibl>
+   <bibl>
+      <idno>19890</idno>
+      <title>TAVENEAUX, Jansénisme</title>
+   </bibl>
+   <bibl>
+      <idno>19904</idno>
+      <title>TERSCH, Selbstzeugnisse</title>
+   </bibl>
+   <bibl>
+      <idno>19906</idno>
+      <title>THEINER, Zurückkehr</title>
+   </bibl>
+   <bibl>
+      <idno>19908</idno>
+      <title>THIEL, Brakteatenfälschungen</title>
+   </bibl>
+   <bibl>
+      <idno>19910</idno>
+      <title>THOLEN, Donatisten</title>
+   </bibl>
+   <bibl>
+      <idno>19916</idno>
+      <title>THUILLIER, Première école</title>
+   </bibl>
+   <bibl>
+      <idno>19918</idno>
+      <title>THÜRER, St. Galler Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>19920</idno>
+      <title>THURN, Handschriften 2/1</title>
+   </bibl>
+   <bibl>
+      <idno>19922</idno>
+      <title>THURN, Handschriften 3/1</title>
+   </bibl>
+   <bibl>
+      <idno>19924</idno>
+      <title>THURN, Handschriften 5</title>
+   </bibl>
+   <bibl>
+      <idno>19932</idno>
+      <title>TIETZE et al., Denkmale Melk</title>
+   </bibl>
+   <bibl>
+      <idno>19936</idno>
+      <title>TIMPANARO, Genesi</title>
+   </bibl>
+   <bibl>
+      <idno>19938</idno>
+      <title>TOMEK, Kirchengeschichte</title>
+   </bibl>
+   <bibl>
+      <idno>19956</idno>
+      <title>TREITSCHKE, Mencke</title>
+   </bibl>
+   <bibl>
+      <idno>19958</idno>
+      <title>TRELENBERG, Prinzip Einheit</title>
+   </bibl>
+   <bibl>
+      <idno>19962</idno>
+      <title>TREUSCH, Bernhard von Waging</title>
+   </bibl>
+   <bibl>
+      <idno>19994</idno>
+      <title>TROPPER, Urkundenlehre</title>
+   </bibl>
+   <bibl>
+      <idno>20002</idno>
+      <title>TWERDY, Beiträge</title>
+   </bibl>
+   <bibl>
+      <idno>20004</idno>
+      <title>TYROLLER, Genealogie</title>
+   </bibl>
+   <bibl>
+      <idno>20006</idno>
+      <title>ÜBERLACKER, Biberbach</title>
+   </bibl>
+   <bibl>
+      <idno>20010</idno>
+      <title>ÜBERLACKER, Zeichenstein</title>
+   </bibl>
+   <bibl>
+      <idno>20012</idno>
+      <title>UBL, Engelbert</title>
+   </bibl>
+   <bibl>
+      <idno>20014</idno>
+      <title>UHL, Urkunden</title>
+   </bibl>
+   <bibl>
+      <idno>20016</idno>
+      <title>UIBLEIN, Acta Facultatis Artium</title>
+   </bibl>
+   <bibl>
+      <idno>20018</idno>
+      <title>UIBLEIN, Akten der Theologischen Fakultät</title>
+   </bibl>
+   <bibl>
+      <idno>20030</idno>
+      <title>ULTEE, Abbey</title>
+   </bibl>
+   <bibl>
+      <idno>20034</idno>
+      <title>UNTERKIRCHER, Codex epistolaris</title>
+   </bibl>
+   <bibl>
+      <idno>20036</idno>
+      <title>UNTERKIRCHER, Datierte Handschriften 3</title>
+   </bibl>
+   <bibl>
+      <idno>20042</idno>
+      <title>UTERMÖHLEN–SCHEEL–MÜLLER, Leibniz Allgemeiner Briefwechsel 10</title>
+   </bibl>
+   <bibl>
+      <idno>20046</idno>
+      <title>VALENTINER, Tino di Camaino</title>
+   </bibl>
+   <bibl>
+      <idno>20048</idno>
+      <title>VANCSA, Geschichte Nieder- und Oberösterreichs</title>
+   </bibl>
+   <bibl>
+      <idno>20050</idno>
+      <title>VAN DEN EYNDE, Œuvre littéraire</title>
+   </bibl>
+   <bibl>
+      <idno>20062</idno>
+      <title>VAN DÜLMEN, Töpsl</title>
+   </bibl>
+   <bibl>
+      <idno>20064</idno>
+      <title>VANEK, Ars corrigendi</title>
+   </bibl>
+   <bibl>
+      <idno>20066</idno>
+      <title>VANEL, Nécrologe</title>
+   </bibl>
+   <bibl>
+      <idno>20068</idno>
+      <title>VANEL, Savants lyonnais</title>
+   </bibl>
+   <bibl>
+      <idno>20070</idno>
+      <title>VAN KLEY, Jansenists</title>
+   </bibl>
+   <bibl>
+      <idno>20074</idno>
+      <title>VANSTEENBERGHE, Docte ignorance</title>
+   </bibl>
+   <bibl>
+      <idno>20080</idno>
+      <title>VAŠIČEK, Bessel</title>
+   </bibl>
+   <bibl>
+      <idno>20084</idno>
+      <title>VELDTRUP, Eherecht</title>
+   </bibl>
+   <bibl>
+      <idno>20086</idno>
+      <title>VENNEBUSCH, Homiletische Handschriften 1</title>
+   </bibl>
+   <bibl>
+      <idno>20088</idno>
+      <title>VENNEBUSCH, Homiletische Handschriften 2</title>
+   </bibl>
+   <bibl>
+      <idno>20092</idno>
+      <title>Verbist, Aube des Pays-Bas</title>
+   </bibl>
+   <bibl>
+      <idno>20094</idno>
+      <title>VERDON, Chronique de Saint-Maixent</title>
+   </bibl>
+   <bibl>
+      <idno>20096</idno>
+      <title>VERNIÈRE, Journal de voyage</title>
+   </bibl>
+   <bibl>
+      <idno>20098</idno>
+      <title>VICENS VIVES, Juan II</title>
+   </bibl>
+   <bibl>
+      <idno>20102</idno>
+      <title>VIDIER, Historiographie</title>
+   </bibl>
+   <bibl>
+      <idno>20104</idno>
+      <title>VILÍMKOVÁ–PREISS, Ve znamení</title>
+   </bibl>
+   <bibl>
+      <idno>20108</idno>
+      <title>VINET, Royal Monastère</title>
+   </bibl>
+   <bibl>
+      <idno>20110</idno>
+      <title>VIVES–MARÍN MARTÍNEZ–MARTÍNEZ DÍEZ, Concilios</title>
+   </bibl>
+   <bibl>
+      <idno>20112</idno>
+      <title>VOCELKA, Glanz und Untergang</title>
+   </bibl>
+   <bibl>
+      <idno>20116</idno>
+      <title>VOGEL, Manuscripta historica</title>
+   </bibl>
+   <bibl>
+      <idno>20120</idno>
+      <title>VOIGT, Enea Silvio</title>
+   </bibl>
+   <bibl>
+      <idno>20124</idno>
+      <title>VOLK, Generalkapitels-Rezesse</title>
+   </bibl>
+   <bibl>
+      <idno>20126</idno>
+      <title>VÖLKEL, Geschichtsschreibung</title>
+   </bibl>
+   <bibl>
+      <idno>20130</idno>
+      <title>VÖLKEL, Pyrrhonismus</title>
+   </bibl>
+   <bibl>
+      <idno>20138</idno>
+      <title>VOLKMAR, Heiligenerhebung</title>
+   </bibl>
+   <bibl>
+      <idno>20148</idno>
+      <title>VON DEN STEINEN, Notker</title>
+   </bibl>
+   <bibl>
+      <idno>20150</idno>
+      <title>VONES, Urban V.</title>
+   </bibl>
+   <bibl>
+      <idno>20154</idno>
+      <title>VYSKOČIL, Arnošt z Pardubic</title>
+   </bibl>
+   <bibl>
+      <idno>20158</idno>
+      <title>WACHTER, General-Personal-Schematismus</title>
+   </bibl>
+   <bibl>
+      <idno>20178</idno>
+      <title>WAITZBAUER, Haus am Minoritenplatz</title>
+   </bibl>
+   <bibl>
+      <idno>20180</idno>
+      <title>WALLMANN, Spener</title>
+   </bibl>
+   <bibl>
+      <idno>20188</idno>
+      <title>WALLNIG, Gasthaus und Gelehrsamkeit</title>
+   </bibl>
+   <bibl>
+      <idno>20210</idno>
+      <title>WALLNIG–STOCKINGER, Korrespondenz 1</title>
+   </bibl>
+   <bibl>
+      <idno>20222</idno>
+      <title>WALTHER, Initia</title>
+   </bibl>
+   <bibl>
+      <idno>20224</idno>
+      <title>WALTHER, Proverbia</title>
+   </bibl>
+   <bibl>
+      <idno>20226</idno>
+      <title>WALTHER, Streitgedicht</title>
+   </bibl>
+   <bibl>
+      <idno>20228</idno>
+      <title>WALTHER–SCHMIDT, Proverbia</title>
+   </bibl>
+   <bibl>
+      <idno>20232</idno>
+      <title>WAQUET, Modèle</title>
+   </bibl>
+   <bibl>
+      <idno>20234</idno>
+      <title>WAQUET, Parler comme un livre</title>
+   </bibl>
+   <bibl>
+      <idno>20240</idno>
+      <title>WATTECK, Einsiedler</title>
+   </bibl>
+   <bibl>
+      <idno>20244</idno>
+      <title>WATZL, Cistercienser</title>
+   </bibl>
+   <bibl>
+      <idno>20246</idno>
+      <title>WEBER, Formierung</title>
+   </bibl>
+   <bibl>
+      <idno>20252</idno>
+      <title>WEBER, Quadrupel-Allianz</title>
+   </bibl>
+   <bibl>
+      <idno>20256</idno>
+      <title>WEGELE, Historiographie</title>
+   </bibl>
+   <bibl>
+      <idno>20258</idno>
+      <title>WEIDMANN, Bibliothek</title>
+   </bibl>
+   <bibl>
+      <idno>20260</idno>
+      <title>WEIGL, Materialien</title>
+   </bibl>
+   <bibl>
+      <idno>20264</idno>
+      <title>WEIJERS, Travail intellectuel</title>
+   </bibl>
+   <bibl>
+      <idno>20268</idno>
+      <title>WEINFURTER, Heinrich II</title>
+   </bibl>
+   <bibl>
+      <idno>20272</idno>
+      <title>WEINRICH, Quellen</title>
+   </bibl>
+   <bibl>
+      <idno>20274</idno>
+      <title>WEIß, Aeneas Sylvius</title>
+   </bibl>
+   <bibl>
+      <idno>20276</idno>
+      <title>WEIß, Reichersberg</title>
+   </bibl>
+   <bibl>
+      <idno>20278</idno>
+      <title>WEIßENSTEINER, Tegernsee</title>
+   </bibl>
+   <bibl>
+      <idno>20280</idno>
+      <title>WEIß VON STARKENFELS–KIRNBAUER VON ERZSTÄTT, Wappenbuch Oberoesterreichischer Adel</title>
+   </bibl>
+   <bibl>
+      <idno>20282</idno>
+      <title>WEITLAUFF, Reichskirchenpolitik</title>
+   </bibl>
+   <bibl>
+      <idno>20296</idno>
+      <title>WENDEHORST, Bistum Eichstätt 1</title>
+   </bibl>
+   <bibl>
+      <idno>20302</idno>
+      <title>WENGEN, Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>20304</idno>
+      <title>WENSKUS, Stammesadel</title>
+   </bibl>
+   <bibl>
+      <idno>20306</idno>
+      <title>WERLE, Copia</title>
+   </bibl>
+   <bibl>
+      <idno>20308</idno>
+      <title>WERNER, Stadt Haag</title>
+   </bibl>
+   <bibl>
+      <idno>20310</idno>
+      <title>WERNER–HINTERMAYR, Stadt Haag</title>
+   </bibl>
+   <bibl>
+      <idno>20312</idno>
+      <title>WERNER, Theologie</title>
+   </bibl>
+   <bibl>
+      <idno>20318</idno>
+      <title>WESS et al., Prinz Eugen</title>
+   </bibl>
+   <bibl>
+      <idno>20324</idno>
+      <title>WEST, Carmina</title>
+   </bibl>
+   <bibl>
+      <idno>20326</idno>
+      <title>WETZSTEIN, Heilige vor Gericht</title>
+   </bibl>
+   <bibl>
+      <idno>20328</idno>
+      <title>WICHNER, Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>20330</idno>
+      <title>WICHNER, Kloster Admont</title>
+   </bibl>
+   <bibl>
+      <idno>20332</idno>
+      <title>WIDEMANN, Traditionen</title>
+   </bibl>
+   <bibl>
+      <idno>20340</idno>
+      <title>WIEDEMANN, Reformation</title>
+   </bibl>
+   <bibl>
+      <idno>20346</idno>
+      <title>WIESFLECKER, Meinhard der Zweite</title>
+   </bibl>
+   <bibl>
+      <idno>20348</idno>
+      <title>WIESFLECKER–RAINER, Regesten</title>
+   </bibl>
+   <bibl>
+      <idno>20350</idno>
+      <title>WIETLISBACH, Album Rottenbuchense</title>
+   </bibl>
+   <bibl>
+      <idno>20352</idno>
+      <title>WILHELM, Denkmäler</title>
+   </bibl>
+   <bibl>
+      <idno>20354</idno>
+      <title>WILHELM et al., Nouveau supplément 1</title>
+   </bibl>
+   <bibl>
+      <idno>20356</idno>
+      <title>WILHELM et al., Nouveau supplément 2</title>
+   </bibl>
+   <bibl>
+      <idno>20358</idno>
+      <title>WILHELM et al., Nouveau supplément 3</title>
+   </bibl>
+   <bibl>
+      <idno>20370</idno>
+      <title>WILMART, Jubilus</title>
+   </bibl>
+   <bibl>
+      <idno>20378</idno>
+      <title>WINHARD, Wessobrunn</title>
+   </bibl>
+   <bibl>
+      <idno>20380</idno>
+      <title>WINHELLER, Lebensbeschreibungen</title>
+   </bibl>
+   <bibl>
+      <idno>20382</idno>
+      <title>WINKELBAUER, Fürst und Fürstendiener</title>
+   </bibl>
+   <bibl>
+      <idno>20384</idno>
+      <title>WINKELBAUER, Ständefreiheit</title>
+   </bibl>
+   <bibl>
+      <idno>20394</idno>
+      <title>WINTERLING, Hof</title>
+   </bibl>
+   <bibl>
+      <idno>20400</idno>
+      <title>WISPLINGHOFF, Benediktinerabtei</title>
+   </bibl>
+   <bibl>
+      <idno>20404</idno>
+      <title>WISPLINGHOFF, Geschichte 4</title>
+   </bibl>
+   <bibl>
+      <idno>20414</idno>
+      <title>WITTING, Wappenbuch Niederoesterreichischer Adel 2</title>
+   </bibl>
+   <bibl>
+      <idno>20416</idno>
+      <title>WITTRAM, Peter I.</title>
+   </bibl>
+   <bibl>
+      <idno>20420</idno>
+      <title>WOLFRAM, Goten</title>
+   </bibl>
+   <bibl>
+      <idno>20424</idno>
+      <title>WOLFRAM, Reich und Germanen</title>
+   </bibl>
+   <bibl>
+      <idno>20426</idno>
+      <title>WOLFRAM, Salzburg</title>
+   </bibl>
+   <bibl>
+      <idno>20428</idno>
+      <title>WONISCH, Kunstentwicklung</title>
+   </bibl>
+   <bibl>
+      <idno>20462</idno>
+      <title>WORSTBROCK–KLAES–LÜTTEN, Repertorium 1</title>
+   </bibl>
+   <bibl>
+      <idno>20470</idno>
+      <title>WUNDERLE, Catalogus 4/2/1</title>
+   </bibl>
+   <bibl>
+      <idno>20472</idno>
+      <title>WÜNSCH, Evangelienharmonien</title>
+   </bibl>
+   <bibl>
+      <idno>20478</idno>
+      <title>WURZBACH, Biographisches Lexikon</title>
+   </bibl>
+   <bibl>
+      <idno>20482</idno>
+      <title>ZACCONE SINA, Corrispondenza Lamy</title>
+   </bibl>
+   <bibl>
+      <idno>20490</idno>
+      <title>ZAGGIA, Tra Mantova e Sicilia</title>
+   </bibl>
+   <bibl>
+      <idno>20494</idno>
+      <title>ŽÁK, Frauenkloster Himmelpforte</title>
+   </bibl>
+   <bibl>
+      <idno>20498</idno>
+      <title>ŽÁK, Klosterbuch</title>
+   </bibl>
+   <bibl>
+      <idno>20502</idno>
+      <title>Zaragoza Pascual, Generales 5</title>
+   </bibl>
+   <bibl>
+      <idno>20508</idno>
+      <title>ZEDELMAIER, Bibliotheca universalis</title>
+   </bibl>
+   <bibl>
+      <idno>20510</idno>
+      <title>ZEDINGER, Franz Stephan</title>
+   </bibl>
+   <bibl>
+      <idno>20516</idno>
+      <title>ZEHETMAYER, Kloster und Gericht</title>
+   </bibl>
+   <bibl>
+      <idno>20518</idno>
+      <title>ZEHETNER, Leibniz</title>
+   </bibl>
+   <bibl>
+      <idno>20520</idno>
+      <title>ZEHNDER, Représentant</title>
+   </bibl>
+   <bibl>
+      <idno>20532</idno>
+      <title>ZIBERMAYR, Cusanus</title>
+   </bibl>
+   <bibl>
+      <idno>20536</idno>
+      <title>ZIBERMAYR, St. Wolfgang</title>
+   </bibl>
+   <bibl>
+      <idno>20538</idno>
+      <title>ZIEGLER–RÖSSL, Katalog</title>
+   </bibl>
+   <bibl>
+      <idno>20544</idno>
+      <title>ZIEGLER, St. Emmeram</title>
+   </bibl>
+   <bibl>
+      <idno>20546</idno>
+      <title>Ziervogl, Strengberg</title>
+   </bibl>
+   <bibl>
+      <idno>20552</idno>
+      <title>ZINKL–ORTNER, Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>20554</idno>
+      <title>ZISCHKA, Index lexicorum</title>
+   </bibl>
+   <bibl>
+      <idno>20556</idno>
+      <title>ZLABINGER, Muratori</title>
+   </bibl>
+   <bibl>
+      <idno>20558</idno>
+      <title>ZOHNER, Bartholomäus Steinle</title>
+   </bibl>
+   <bibl>
+      <idno>20560</idno>
+      <title>ZÖLLNER, Österreichbegriff</title>
+   </bibl>
+   <bibl>
+      <idno>20566</idno>
+      <title>ZSCHOKKE, Metropolitan-Capitel</title>
+   </bibl>
+   <bibl>
+      <idno>20568</idno>
+      <title>ŽVANUT, Pečati</title>
+   </bibl>
+   <bibl>
+      <idno>20570</idno>
+      <title>SPEVAK, Edlinger</title>
+   </bibl>
+   <bibl>
+      <idno>20572</idno>
+      <title>TAUBE, Wolf Dietrich von Beichling</title>
+   </bibl>
+   <bibl>
+      <idno>35722</idno>
+      <title>Anselmi Opera omnia</title>
+   </bibl>
+   <bibl>
+      <idno>35724</idno>
+      <title>Briefe des Heiligen Bonifatius</title>
+   </bibl>
+   <bibl>
+      <idno>35726</idno>
+      <title>Catalogus universalis 1714</title>
+   </bibl>
+   <bibl>
+      <idno>35728</idno>
+      <title>Chronicon Ecclesiasticum Nicolai de Siegen</title>
+   </bibl>
+   <bibl>
+      <idno>35734</idno>
+      <title>Fries Chronik</title>
+   </bibl>
+   <bibl>
+      <idno>35738</idno>
+      <title>Hieronymi Chronicon</title>
+   </bibl>
+   <bibl>
+      <idno>35742</idno>
+      <title>MGH DD.Merov.</title>
+   </bibl>
+   <bibl>
+      <idno>35744</idno>
+      <title>MGH DD.O.III</title>
+   </bibl>
+   <bibl>
+      <idno>35746</idno>
+      <title>Monumenta Erphesfurtensia</title>
+   </bibl>
+   <bibl>
+      <idno>35750</idno>
+      <title>Österreichische Chronik</title>
+   </bibl>
+   <bibl>
+      <idno>35754</idno>
+      <title>Stobaei Anthologium</title>
+   </bibl>
+   <bibl>
+      <idno>35756</idno>
+      <title>Tschudi Chronicon 3</title>
+   </bibl>
+   <bibl>
+      <idno>35760</idno>
+      <title>Vollständiges diarium</title>
+   </bibl>
+   <bibl>
+      <idno>35762</idno>
+      <title>ZEDLERS Universal-Lexicon</title>
+   </bibl>
+   <bibl>
+      <idno>35764</idno>
+      <title>Commercium litterarium</title>
+   </bibl>
+   <bibl>
+      <idno>35766</idno>
+      <title>Correspondance et sociabilité</title>
+   </bibl>
+   <bibl>
+      <idno>35768</idno>
+      <title>Die Praktiken der Gelehrsamkeit</title>
+   </bibl>
+   <bibl>
+      <idno>35770</idno>
+      <title>Europäische Gelehrtenrepublik</title>
+   </bibl>
+   <bibl>
+      <idno>35772</idno>
+      <title>Historia literaria</title>
+   </bibl>
+   <bibl>
+      <idno>35774</idno>
+      <title>Kultur der Kommunikation</title>
+   </bibl>
+   <bibl>
+      <idno>35776</idno>
+      <title>Les grands intermédiaires culturels</title>
+   </bibl>
+   <bibl>
+      <idno>35778</idno>
+      <title>Mapping the World of Learning</title>
+   </bibl>
+   <bibl>
+      <idno>35780</idno>
+      <title>Orbis doctus</title>
+   </bibl>
+   <bibl>
+      <idno>35782</idno>
+      <title>Ordre de Saint-Benoît et Port-Royal</title>
+   </bibl>
+   <bibl>
+      <idno>35784</idno>
+      <title>Plume et toile</title>
+   </bibl>
+   <bibl>
+      <idno>35786</idno>
+      <title>Res Publica Litteraria</title>
+   </bibl>
+   <bibl>
+      <idno>35792</idno>
+      <title>ABELIN, Theatrum Europaeum 20</title>
+   </bibl>
+   <bibl>
+      <idno>35794</idno>
+      <title>ADOLPH, Chronicum literarium</title>
+   </bibl>
+   <bibl>
+      <idno>35796</idno>
+      <title>AFFÒ, Memorie</title>
+   </bibl>
+   <bibl>
+      <idno>35798</idno>
+      <title>AGRICOLA, Saeculi XVIII. bibliotheca</title>
+   </bibl>
+   <bibl>
+      <idno>35802</idno>
+      <title>AMANDRY et al., Dictionnaire de numismatique</title>
+   </bibl>
+   <bibl>
+      <idno>35816</idno>
+      <title>Antoninus ab Assumptione, Arbor chronologica</title>
+   </bibl>
+   <bibl>
+      <idno>35818</idno>
+      <title>ANTONINUS AB ASSUMPTIONE, Diccionario  de escritores</title>
+   </bibl>
+   <bibl>
+      <idno>35826</idno>
+      <title>ARNETH, Prinz Eugen</title>
+   </bibl>
+   <bibl>
+      <idno>35832</idno>
+      <title>AWECKER, Mondsee</title>
+   </bibl>
+   <bibl>
+      <idno>35840</idno>
+      <title>BADSTÜBNER-KIZIK, Gründungs- und Frühgeschichte</title>
+   </bibl>
+   <bibl>
+      <idno>35842</idno>
+      <title>BAHLCKE, Regionalismus</title>
+   </bibl>
+   <bibl>
+      <idno>35848</idno>
+      <title>BARON, Annales ordinis Trinitatis</title>
+   </bibl>
+   <bibl>
+      <idno>35854</idno>
+      <title>BAUER, Paternoster-Auslegung</title>
+   </bibl>
+   <bibl>
+      <idno>35864</idno>
+      <title>BECKER et al., Erfurt</title>
+   </bibl>
+   <bibl>
+      <idno>35868</idno>
+      <title>BELLONI, Professori</title>
+   </bibl>
+   <bibl>
+      <idno>35870</idno>
+      <title>BELLORI, Selecti nummi</title>
+   </bibl>
+   <bibl>
+      <idno>35876</idno>
+      <title>Bendel–Heidingsfelder–Kaufmann, Urkundenbuch 1</title>
+   </bibl>
+   <bibl>
+      <idno>35878</idno>
+      <title>BENTHIEN, Barockes Schweigen</title>
+   </bibl>
+   <bibl>
+      <idno>35884</idno>
+      <title>BERGER, Archive</title>
+   </bibl>
+   <bibl>
+      <idno>35890</idno>
+      <title>Bergmann–Stricker, Glossenhandschriften</title>
+   </bibl>
+   <bibl>
+      <idno>35892</idno>
+      <title>BERLIÈRE, Monasticon belge 1</title>
+   </bibl>
+   <bibl>
+      <idno>35894</idno>
+      <title>BERMANN, Alt- und Neu-Wien</title>
+   </bibl>
+   <bibl>
+      <idno>35896</idno>
+      <title>BERNARD, Imprimerie</title>
+   </bibl>
+   <bibl>
+      <idno>35904</idno>
+      <title>BIELSKY, Catalogus</title>
+   </bibl>
+   <bibl>
+      <idno>35906</idno>
+      <title>BIGELMAIR–ZOEPFL, Ellenbog Briefwechsel</title>
+   </bibl>
+   <bibl>
+      <idno>35910</idno>
+      <title>BLASTENBREI, Wagenseil</title>
+   </bibl>
+   <bibl>
+      <idno>35912</idno>
+      <title>BLÉCHET, Ventes publiques</title>
+   </bibl>
+   <bibl>
+      <idno>35914</idno>
+      <title>BLUCHE, Magistrats</title>
+   </bibl>
+   <bibl>
+      <idno>35916</idno>
+      <title>BLUCHE, Origine des magistrats</title>
+   </bibl>
+   <bibl>
+      <idno>35918</idno>
+      <title>BLUM, Philosophenphilosophie</title>
+   </bibl>
+   <bibl>
+      <idno>35924</idno>
+      <title>BOGEL–BLÜHM, Zeitungen</title>
+   </bibl>
+   <bibl>
+      <idno>35930</idno>
+      <title>BORST, Kalenderreform</title>
+   </bibl>
+   <bibl>
+      <idno>35932</idno>
+      <title>BOSSY, Community</title>
+   </bibl>
+   <bibl>
+      <idno>35934</idno>
+      <title>BRAIG, Wiblingen</title>
+   </bibl>
+   <bibl>
+      <idno>35938</idno>
+      <title>BRAUBACH, Kurköln</title>
+   </bibl>
+   <bibl>
+      <idno>35940</idno>
+      <title>BRAUBACH, Politik des Kurfürsten</title>
+   </bibl>
+   <bibl>
+      <idno>35942</idno>
+      <title>BRAUN, Schelhorn’s Briefwechsel</title>
+   </bibl>
+   <bibl>
+      <idno>35960</idno>
+      <title>BUEK, Bürgermeister</title>
+   </bibl>
+   <bibl>
+      <idno>35966</idno>
+      <title>BURGER, Altenburg</title>
+   </bibl>
+   <bibl>
+      <idno>35970</idno>
+      <title>BURLINI CALAPAJ, Carteggio 6</title>
+   </bibl>
+   <bibl>
+      <idno>35972</idno>
+      <title>BÜTTNER, Burgen 13</title>
+   </bibl>
+   <bibl>
+      <idno>35974</idno>
+      <title>CAMPORI, Corrispondenza</title>
+   </bibl>
+   <bibl>
+      <idno>35976</idno>
+      <title>CARINI, Arcadia</title>
+   </bibl>
+   <bibl>
+      <idno>35982</idno>
+      <title>CATALANO, Boemia</title>
+   </bibl>
+   <bibl>
+      <idno>35988</idno>
+      <title>ČERNÍK, Schriftsteller</title>
+   </bibl>
+   <bibl>
+      <idno>35994</idno>
+      <title>CHRIST, Bibliothek Fulda</title>
+   </bibl>
+   <bibl>
+      <idno>36000</idno>
+      <title>CLARK, Elisabeth</title>
+   </bibl>
+   <bibl>
+      <idno>36008</idno>
+      <title>CZERNY, Bibliothek</title>
+   </bibl>
+   <bibl>
+      <idno>36012</idno>
+      <title>DAMMERTZ, Verfassungsrecht</title>
+   </bibl>
+   <bibl>
+      <idno>36020</idno>
+      <title>DEICHMANN, Ravenna</title>
+   </bibl>
+   <bibl>
+      <idno>36024</idno>
+      <title>DENGLER-SCHREIBER, Michelsberg</title>
+   </bibl>
+   <bibl>
+      <idno>36028</idno>
+      <title>DE SCHRYVER, Max II. Emanuel</title>
+   </bibl>
+   <bibl>
+      <idno>36040</idno>
+      <title>DILWORTH, Scots in Franconia</title>
+   </bibl>
+   <bibl>
+      <idno>36056</idno>
+      <title>DÖLLINGER–REUSCH, Moralstreitigkeiten</title>
+   </bibl>
+   <bibl>
+      <idno>36068</idno>
+      <title>DUELLI, Miscellanea</title>
+   </bibl>
+   <bibl>
+      <idno>36072</idno>
+      <title>DÜNNHAUPT, Personalbibliographien</title>
+   </bibl>
+   <bibl>
+      <idno>36076</idno>
+      <title>ECKHART, Historia</title>
+   </bibl>
+   <bibl>
+      <idno>36084</idno>
+      <title>EISLER, Handschriften</title>
+   </bibl>
+   <bibl>
+      <idno>36086</idno>
+      <title>EITNER, Quellen-Lexikon</title>
+   </bibl>
+   <bibl>
+      <idno>36088</idno>
+      <title>EKERT, Posvátná místa</title>
+   </bibl>
+   <bibl>
+      <idno>36094</idno>
+      <title>ELSAS, Preise und Löhne</title>
+   </bibl>
+   <bibl>
+      <idno>36100</idno>
+      <title>ENGELBERG, Renovatio</title>
+   </bibl>
+   <bibl>
+      <idno>36108</idno>
+      <title>FABRICIUS, Gloria Fuldae</title>
+   </bibl>
+   <bibl>
+      <idno>36114</idno>
+      <title>FAVIER, Mémoire de l’État</title>
+   </bibl>
+   <bibl>
+      <idno>36118</idno>
+      <title>FELLNER–CORRADINI, Geschichtswissenschaft</title>
+   </bibl>
+   <bibl>
+      <idno>36120</idno>
+      <title>FEYERABEND, Jahrbücher</title>
+   </bibl>
+   <bibl>
+      <idno>36122</idno>
+      <title>FIDLER, Klerisey</title>
+   </bibl>
+   <bibl>
+      <idno>36126</idno>
+      <title>FILL, Handschriften Kremsmünster 1</title>
+   </bibl>
+   <bibl>
+      <idno>36128</idno>
+      <title>FILZ, Michaelbeuern</title>
+   </bibl>
+   <bibl>
+      <idno>36144</idno>
+      <title>FRANÇOIS, Bibliothèque générale</title>
+   </bibl>
+   <bibl>
+      <idno>36146</idno>
+      <title>FRANK, Peterskloster</title>
+   </bibl>
+   <bibl>
+      <idno>36148</idno>
+      <title>FRANKLIN, Jean Bodin</title>
+   </bibl>
+   <bibl>
+      <idno>36150</idno>
+      <title/>
+   </bibl>
+   <bibl>
+      <idno>36154</idno>
+      <title>FRIEDRICH, Codex diplomaticus 1</title>
+   </bibl>
+   <bibl>
+      <idno>36156</idno>
+      <title>FRIEDRICH, Drehscheibe Regensburg</title>
+   </bibl>
+   <bibl>
+      <idno>36164</idno>
+      <title>GALL–SZAIVERT, Matrikel Wien 5</title>
+   </bibl>
+   <bibl>
+      <idno>36166</idno>
+      <title>GALLNER, Regula emblematica</title>
+   </bibl>
+   <bibl>
+      <idno>36168</idno>
+      <title>GAMS, Series episcoporum</title>
+   </bibl>
+   <bibl>
+      <idno>36178</idno>
+      <title>GATTER, Denkwürdigkeiten</title>
+   </bibl>
+   <bibl>
+      <idno>36182</idno>
+      <title>GEFFCKEN, Winckler</title>
+   </bibl>
+   <bibl>
+      <idno>36192</idno>
+      <title>GERWING, Malogranatum</title>
+   </bibl>
+   <bibl>
+      <idno>36194</idno>
+      <title>GIGAS, Lettres</title>
+   </bibl>
+   <bibl>
+      <idno>36196</idno>
+      <title>GINANNI, Memorie</title>
+   </bibl>
+   <bibl>
+      <idno>36204</idno>
+      <title>GLASSON, Parlement</title>
+   </bibl>
+   <bibl>
+      <idno>36214</idno>
+      <title>GOLTZ, Nachrichten</title>
+   </bibl>
+   <bibl>
+      <idno>36216</idno>
+      <title>GÖTZE, Bibliotheca</title>
+   </bibl>
+   <bibl>
+      <idno>36220</idno>
+      <title>GRANIER, Reichstag</title>
+   </bibl>
+   <bibl>
+      <idno>36224</idno>
+      <title>GREGOROVIUS, Wanderjahre</title>
+   </bibl>
+   <bibl>
+      <idno>36228</idno>
+      <title>GROPP, Collectio</title>
+   </bibl>
+   <bibl>
+      <idno>36230</idno>
+      <title>GROPP, Wirtzburgische chronick</title>
+   </bibl>
+   <bibl>
+      <idno>36234</idno>
+      <title>GROTEFEND, Handbuch</title>
+   </bibl>
+   <bibl>
+      <idno>36238</idno>
+      <title>GUGEL, Handschriften</title>
+   </bibl>
+   <bibl>
+      <idno>36240</idno>
+      <title>GUGITZ, Gnadenstätten</title>
+   </bibl>
+   <bibl>
+      <idno>36244</idno>
+      <title>GUGITZ, Wallfahrten</title>
+   </bibl>
+   <bibl>
+      <idno>36252</idno>
+      <title>GÜTERBOCK, Engelbergs Gründung</title>
+   </bibl>
+   <bibl>
+      <idno>36276</idno>
+      <title>HANTSCH, Schönborn</title>
+   </bibl>
+   <bibl>
+      <idno>36284</idno>
+      <title>HARTWAGNER, Ossiach</title>
+   </bibl>
+   <bibl>
+      <idno>36286</idno>
+      <title>HÄSSIG, Anfänge</title>
+   </bibl>
+   <bibl>
+      <idno>36288</idno>
+      <title>HAUSMANN, Handschriften</title>
+   </bibl>
+   <bibl>
+      <idno>36296</idno>
+      <title>HEILER, Bischofschronik</title>
+   </bibl>
+   <bibl>
+      <idno>36302</idno>
+      <title>HELMLING, Emaus</title>
+   </bibl>
+   <bibl>
+      <idno>36308</idno>
+      <title>HERBST, Klus</title>
+   </bibl>
+   <bibl>
+      <idno>36312</idno>
+      <title>HERTENSTEIN, Joachim von Watt</title>
+   </bibl>
+   <bibl>
+      <idno>36316</idno>
+      <title>HEß, Marianus Rot</title>
+   </bibl>
+   <bibl>
+      <idno>36318</idno>
+      <title>HEß, Matrikel Bamberg</title>
+   </bibl>
+   <bibl>
+      <idno>36322</idno>
+      <title>HOCHEDLINGER, Aktenkunde</title>
+   </bibl>
+   <bibl>
+      <idno>36330</idno>
+      <title>HOLDER, Reichenauer Handschriften 1</title>
+   </bibl>
+   <bibl>
+      <idno>36332</idno>
+      <title>HOLDER–PREISENDANZ, Reichenauer Handschriften 3</title>
+   </bibl>
+   <bibl>
+      <idno>36338</idno>
+      <title>HÖNN, Betrugs-lexicon</title>
+   </bibl>
+   <bibl>
+      <idno>36340</idno>
+      <title>HÖNN, Fortgesetztes betrugs-lexicon</title>
+   </bibl>
+   <bibl>
+      <idno>36342</idno>
+      <title>HONSELMANN, Mönchslisten</title>
+   </bibl>
+   <bibl>
+      <idno>36344</idno>
+      <title>HÖR–MORENZ, Urkunden</title>
+   </bibl>
+   <bibl>
+      <idno>36346</idno>
+      <title>HÖRNER, Dorothea von Montau</title>
+   </bibl>
+   <bibl>
+      <idno>36348</idno>
+      <title>HÖRSCH–BANNWART, Lexikon</title>
+   </bibl>
+   <bibl>
+      <idno>36350</idno>
+      <title>HOTZ, Banz</title>
+   </bibl>
+   <bibl>
+      <idno>36352</idno>
+      <title>HRNČÍŘ, Nymburk</title>
+   </bibl>
+   <bibl>
+      <idno>36354</idno>
+      <title>HÜBL, Catalogus</title>
+   </bibl>
+   <bibl>
+      <idno>36356</idno>
+      <title>HÜBL, Geschichte des Unterrichtes</title>
+   </bibl>
+   <bibl>
+      <idno>36362</idno>
+      <title>Hund, Metropolis Salisburgensis</title>
+   </bibl>
+   <bibl>
+      <idno>36364</idno>
+      <title>HUNGER, Griechische Handschriften 1</title>
+   </bibl>
+   <bibl>
+      <idno>36366</idno>
+      <title>HUNGER–LACKNER–HANNICK, Griechische Handschriften 3/3</title>
+   </bibl>
+   <bibl>
+      <idno>36372</idno>
+      <title>HURTER, Nomenclator</title>
+   </bibl>
+   <bibl>
+      <idno>36374</idno>
+      <title>ICHAK, Perpetuum mobile</title>
+   </bibl>
+   <bibl>
+      <idno>36382</idno>
+      <title>JAKOBS, Hirsauer</title>
+   </bibl>
+   <bibl>
+      <idno>36384</idno>
+      <title>JANNUCCELLI, Memorie</title>
+   </bibl>
+   <bibl>
+      <idno>36394</idno>
+      <title>JOURDAN et al., Recueil général</title>
+   </bibl>
+   <bibl>
+      <idno>36398</idno>
+      <title>KAMEN, War of Succession</title>
+   </bibl>
+   <bibl>
+      <idno>36406</idno>
+      <title>KEHR, Hermann</title>
+   </bibl>
+   <bibl>
+      <idno>36416</idno>
+      <title>KINDERMANN, Kunstdenkmäler</title>
+   </bibl>
+   <bibl>
+      <idno>36422</idno>
+      <title>KJÄER, Staudigl</title>
+   </bibl>
+   <bibl>
+      <idno>36428</idno>
+      <title>KLEINEIDAM, Universitas 4</title>
+   </bibl>
+   <bibl>
+      <idno>36438</idno>
+      <title>KOLLER, Gründungsurkunden</title>
+   </bibl>
+   <bibl>
+      <idno>36442</idno>
+      <title>KÖLZER, Merowingerstudien</title>
+   </bibl>
+   <bibl>
+      <idno>36444</idno>
+      <title>KOMP, Zweite Schule</title>
+   </bibl>
+   <bibl>
+      <idno>36446</idno>
+      <title>KORNEXL, Studien</title>
+   </bibl>
+   <bibl>
+      <idno>36456</idno>
+      <title>KOZLER, Memoria Subrupensis</title>
+   </bibl>
+   <bibl>
+      <idno>36458</idno>
+      <title>KRAMER, St. Georgenberg</title>
+   </bibl>
+   <bibl>
+      <idno>36460</idno>
+      <title>KRANTZ, Saxonia</title>
+   </bibl>
+   <bibl>
+      <idno>36462</idno>
+      <title>KRÁSL, Harrach</title>
+   </bibl>
+   <bibl>
+      <idno>36464</idno>
+      <title>KRÁSL–JEŽEK, Sv. Vojtěch</title>
+   </bibl>
+   <bibl>
+      <idno>36472</idno>
+      <title>KRAUS, Neustadt</title>
+   </bibl>
+   <bibl>
+      <idno>36476</idno>
+      <title>KRAUSE, Stiftsarchiv</title>
+   </bibl>
+   <bibl>
+      <idno>36486</idno>
+      <title>KRICK, Ehemalige stabile Klöster</title>
+   </bibl>
+   <bibl>
+      <idno>36494</idno>
+      <title>KRONES, Universität Graz</title>
+   </bibl>
+   <bibl>
+      <idno>36498</idno>
+      <title>KUDORFER, Catalogus 4/9</title>
+   </bibl>
+   <bibl>
+      <idno>36500</idno>
+      <title>KÜHLMANN–HARTMANN–EL KHOLI, Humanisten 1/1/1</title>
+   </bibl>
+   <bibl>
+      <idno>36502</idno>
+      <title>KULHÁNEK, Klášter Sv. Mikuláše</title>
+   </bibl>
+   <bibl>
+      <idno>36510</idno>
+      <title>LACKNER, Jesuitenprofessoren</title>
+   </bibl>
+   <bibl>
+      <idno>36512</idno>
+      <title>LACKNER, Memoriale</title>
+   </bibl>
+   <bibl>
+      <idno>36516</idno>
+      <title>LAMBECK, Commentarii</title>
+   </bibl>
+   <bibl>
+      <idno>36518</idno>
+      <title>LAMBECK–KOLLÁR, Commentarii</title>
+   </bibl>
+   <bibl>
+      <idno>36520</idno>
+      <title>Lami, Memorabilia Italorum</title>
+   </bibl>
+   <bibl>
+      <idno>36538</idno>
+      <title>LECCISOTTI, Ordinationes</title>
+   </bibl>
+   <bibl>
+      <idno>36540</idno>
+      <title>LECHNER–GRÜNWALD, Göttweiger Ansichten</title>
+   </bibl>
+   <bibl>
+      <idno>36542</idno>
+      <title>LEESCH, Archivare</title>
+   </bibl>
+   <bibl>
+      <idno>36544</idno>
+      <title>LEINWEBER, Fuldaer Äbte</title>
+   </bibl>
+   <bibl>
+      <idno>36552</idno>
+      <title>LE ROY, France et Rome</title>
+   </bibl>
+   <bibl>
+      <idno>36554</idno>
+      <title>LETZNER, Corbeische chronica</title>
+   </bibl>
+   <bibl>
+      <idno>36564</idno>
+      <title>LINDNER, Monasticon</title>
+   </bibl>
+   <bibl>
+      <idno>36566</idno>
+      <title>LINDNER, Professbuch Zwiefalten</title>
+   </bibl>
+   <bibl>
+      <idno>36570</idno>
+      <title>LINK, Klosterbuch</title>
+   </bibl>
+   <bibl>
+      <idno>36574</idno>
+      <title>LÖFFLER, Klosterbibliotheken</title>
+   </bibl>
+   <bibl>
+      <idno>36578</idno>
+      <title>LÜTHY, Tätigkeit</title>
+   </bibl>
+   <bibl>
+      <idno>36580</idno>
+      <title>MACHALICKY, Feldzug 1713</title>
+   </bibl>
+   <bibl>
+      <idno>36586</idno>
+      <title>MADER, Stadt Würzburg</title>
+   </bibl>
+   <bibl>
+      <idno>36590</idno>
+      <title>MAHR, Kissingen</title>
+   </bibl>
+   <bibl>
+      <idno>36600</idno>
+      <title>MANTEL, Veranlassung</title>
+   </bibl>
+   <bibl>
+      <idno>36602</idno>
+      <title>MANTINGH, Een monnik</title>
+   </bibl>
+   <bibl>
+      <idno>36604</idno>
+      <title>MARCHAND, Maître de poste</title>
+   </bibl>
+   <bibl>
+      <idno>36608</idno>
+      <title>MARGARINI, Bullarium Casinense</title>
+   </bibl>
+   <bibl>
+      <idno>36610</idno>
+      <title>MASSUET, Lettre d’un ecclesiastique</title>
+   </bibl>
+   <bibl>
+      <idno>36612</idno>
+      <title>MASSUET, Lettre d’un théologien</title>
+   </bibl>
+   <bibl>
+      <idno>36614</idno>
+      <title>MAYER, Buchdrucker-Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>36616</idno>
+      <title>MAYLENDER, Storia delle Accademie</title>
+   </bibl>
+   <bibl>
+      <idno>36618</idno>
+      <title>MEIBOM, Rerum Germanicarum</title>
+   </bibl>
+   <bibl>
+      <idno>36620</idno>
+      <title>MEIER, Hammelburg</title>
+   </bibl>
+   <bibl>
+      <idno>36622</idno>
+      <title>Menhardt, Handschriftenverzeichnis</title>
+   </bibl>
+   <bibl>
+      <idno>36628</idno>
+      <title>MERCATI, Prolegomena</title>
+   </bibl>
+   <bibl>
+      <idno>36630</idno>
+      <title>MERKLE, Matrikel Würzburg</title>
+   </bibl>
+   <bibl>
+      <idno>36634</idno>
+      <title>MEYER–BURCKHARDT, Handschriften</title>
+   </bibl>
+   <bibl>
+      <idno>36640</idno>
+      <title>MIKOLETZKY, Österreich</title>
+   </bibl>
+   <bibl>
+      <idno>36642</idno>
+      <title>MIKULKA, Dějiny Hradce Králové</title>
+   </bibl>
+   <bibl>
+      <idno>36644</idno>
+      <title>MOLLER, Cimbria</title>
+   </bibl>
+   <bibl>
+      <idno>36646</idno>
+      <title>MONE, Quellensammlung</title>
+   </bibl>
+   <bibl>
+      <idno>36656</idno>
+      <title>MOSER-RATH, Predigtmärlein</title>
+   </bibl>
+   <bibl>
+      <idno>36658</idno>
+      <title>MOTSCHMANN, Erfordia literata</title>
+   </bibl>
+   <bibl>
+      <idno>36660</idno>
+      <title>MÜHLBACHER, Leistungen</title>
+   </bibl>
+   <bibl>
+      <idno>36664</idno>
+      <title>MÜLLER, Profeßbuch Lilienfeld</title>
+   </bibl>
+   <bibl>
+      <idno>36666</idno>
+      <title>MÜLLER, Habit und Habitus</title>
+   </bibl>
+   <bibl>
+      <idno>36670</idno>
+      <title>MÜLLER, Annalen</title>
+   </bibl>
+   <bibl>
+      <idno>36674</idno>
+      <title>MUNDING, Waldo</title>
+   </bibl>
+   <bibl>
+      <idno>36682</idno>
+      <title>MUTH, Burkard Bausch</title>
+   </bibl>
+   <bibl>
+      <idno>36686</idno>
+      <title>NÄGELE, Zwiefalter Benediktiner</title>
+   </bibl>
+   <bibl>
+      <idno>36692</idno>
+      <title>NAUMANN, Catalogus</title>
+   </bibl>
+   <bibl>
+      <idno>36696</idno>
+      <title>NESSEL, Catalogus</title>
+   </bibl>
+   <bibl>
+      <idno>36698</idno>
+      <title>NEUGART, Historia</title>
+   </bibl>
+   <bibl>
+      <idno>36702</idno>
+      <title>NEUHAUS, Hersfeld</title>
+   </bibl>
+   <bibl>
+      <idno>36722</idno>
+      <title>OFER, St. Stephan</title>
+   </bibl>
+   <bibl>
+      <idno>36728</idno>
+      <title>ORTNER, Herrgott</title>
+   </bibl>
+   <bibl>
+      <idno>36734</idno>
+      <title>OVERMANN, Urkundenbuch</title>
+   </bibl>
+   <bibl>
+      <idno>36738</idno>
+      <title>PALAZZI, Monarchia occidentalis 2</title>
+   </bibl>
+   <bibl>
+      <idno>36740</idno>
+      <title>PÁNEK, Poslední Rožmberkové</title>
+   </bibl>
+   <bibl>
+      <idno>36742</idno>
+      <title>Pantaleon, Prosopographia heroum</title>
+   </bibl>
+   <bibl>
+      <idno>36746</idno>
+      <title>PAREDI, Storia</title>
+   </bibl>
+   <bibl>
+      <idno>36748</idno>
+      <title>PASTOR, Geschichte der Päpste</title>
+   </bibl>
+   <bibl>
+      <idno>36752</idno>
+      <title>PAULHUBER, Ebersberg</title>
+   </bibl>
+   <bibl>
+      <idno>36756</idno>
+      <title>PAULLINI, Rerum Germanicarum syntagma</title>
+   </bibl>
+   <bibl>
+      <idno>36764</idno>
+      <title>PEKAŘ, Wenzels- und Ludmilalegenden</title>
+   </bibl>
+   <bibl>
+      <idno>36766</idno>
+      <title>PELIKÁN, Balbínovy pomůcky</title>
+   </bibl>
+   <bibl>
+      <idno>36770</idno>
+      <title>PERONI, Biblioteca bresciana</title>
+   </bibl>
+   <bibl>
+      <idno>36782</idno>
+      <title>PEZ, Thesaurus</title>
+   </bibl>
+   <bibl>
+      <idno>36784</idno>
+      <title>PFISTERMEISTER, Wehrhaftes Franken 2</title>
+   </bibl>
+   <bibl>
+      <idno>36794</idno>
+      <title>PITER, Thesaurus absconditus</title>
+   </bibl>
+   <bibl>
+      <idno>36800</idno>
+      <title>PLÖCHL, Griechen</title>
+   </bibl>
+   <bibl>
+      <idno>36802</idno>
+      <title>POHLIG, Gelehrsamkeit</title>
+   </bibl>
+   <bibl>
+      <idno>36804</idno>
+      <title>PÖLNITZ, Matrikel Ingolstadt 1/3/1</title>
+   </bibl>
+   <bibl>
+      <idno>36806</idno>
+      <title>POPOFF, Prosopographie</title>
+   </bibl>
+   <bibl>
+      <idno>36812</idno>
+      <title>PÖRNBACHER, Kloster Irsee</title>
+   </bibl>
+   <bibl>
+      <idno>36818</idno>
+      <title>PÖTZL, Irsee</title>
+   </bibl>
+   <bibl>
+      <idno>36828</idno>
+      <title>PRINZ, Annalen</title>
+   </bibl>
+   <bibl>
+      <idno>36838</idno>
+      <title>QUERINI, Commentarius</title>
+   </bibl>
+   <bibl>
+      <idno>36842</idno>
+      <title>RADER, Bavaria sancta</title>
+   </bibl>
+   <bibl>
+      <idno>36846</idno>
+      <title>RAGETH, Rhäzüns</title>
+   </bibl>
+   <bibl>
+      <idno>36848</idno>
+      <title>RAGGENBASS, Harmonie</title>
+   </bibl>
+   <bibl>
+      <idno>36854</idno>
+      <title>REINHARD, Staatsgewalt</title>
+   </bibl>
+   <bibl>
+      <idno>36860</idno>
+      <title>REINHARDT, Restauration</title>
+   </bibl>
+   <bibl>
+      <idno>36868</idno>
+      <title>REPGEN, Kurie 1/1</title>
+   </bibl>
+   <bibl>
+      <idno>36870</idno>
+      <title>RESMINI, Laach</title>
+   </bibl>
+   <bibl>
+      <idno>36882</idno>
+      <title>RIEß, Weltenburg</title>
+   </bibl>
+   <bibl>
+      <idno>36884</idno>
+      <title>RILL, Karl VI</title>
+   </bibl>
+   <bibl>
+      <idno>36892</idno>
+      <title>ROTH, Gebetbuch</title>
+   </bibl>
+   <bibl>
+      <idno>36894</idno>
+      <title>ROTH, Visionen</title>
+   </bibl>
+   <bibl>
+      <idno>36912</idno>
+      <title>SAINITZER, Vita Wilbirgis</title>
+   </bibl>
+   <bibl>
+      <idno>36920</idno>
+      <title>SCHAFFENRATH, Stephani</title>
+   </bibl>
+   <bibl>
+      <idno>36924</idno>
+      <title>SCHARTAU, Codices</title>
+   </bibl>
+   <bibl>
+      <idno>36926</idno>
+      <title>SCHELHORN, Amoenitates</title>
+   </bibl>
+   <bibl>
+      <idno>36936</idno>
+      <title>SCHINDLER, Zivilisation</title>
+   </bibl>
+   <bibl>
+      <idno>36940</idno>
+      <title>SCHLENZ, Gründung</title>
+   </bibl>
+   <bibl>
+      <idno>36948</idno>
+      <title>SCHMALOR, Stifts- und Klosterbibliotheken</title>
+   </bibl>
+   <bibl>
+      <idno>36970</idno>
+      <title>SCHRAMB, Ethica</title>
+   </bibl>
+   <bibl>
+      <idno>36972</idno>
+      <title>SCHREIBER, Weingeschichte</title>
+   </bibl>
+   <bibl>
+      <idno>36976</idno>
+      <title>SCHRIMPF, Bücherverzeichnisse</title>
+   </bibl>
+   <bibl>
+      <idno>36978</idno>
+      <title>SCHRÖDER–KELLINGHUSEN, Lexikon 8</title>
+   </bibl>
+   <bibl>
+      <idno>36980</idno>
+      <title>SCHROLL, Marchstaller</title>
+   </bibl>
+   <bibl>
+      <idno>36986</idno>
+      <title>SCHUBERT, Landstände</title>
+   </bibl>
+   <bibl>
+      <idno>36988</idno>
+      <title>SCHUPP, Studien</title>
+   </bibl>
+   <bibl>
+      <idno>36990</idno>
+      <title>SCHUSTER, S. Paolo</title>
+   </bibl>
+   <bibl>
+      <idno>36994</idno>
+      <title>SCHWARZENBERG, Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>37002</idno>
+      <title>SCHWINEKÖPER, Gesamtübersicht</title>
+   </bibl>
+   <bibl>
+      <idno>37008</idno>
+      <title>SEEMÜLLER, Handschriften</title>
+   </bibl>
+   <bibl>
+      <idno>37016</idno>
+      <title>SIEGLER VON EBERSWALD, Feldzug 1712</title>
+   </bibl>
+   <bibl>
+      <idno>37024</idno>
+      <title>SOLAŘ, Dějepis Hradce Králové</title>
+   </bibl>
+   <bibl>
+      <idno>37026</idno>
+      <title>SOLI, Chiese</title>
+   </bibl>
+   <bibl>
+      <idno>37036</idno>
+      <title>SPILLING, Handschriften Augsburg 3</title>
+   </bibl>
+   <bibl>
+      <idno>37042</idno>
+      <title>STADTMÜLLER–PFISTER, Niederaltaich</title>
+   </bibl>
+   <bibl>
+      <idno>37044</idno>
+      <title>STASZEWSKI, August III</title>
+   </bibl>
+   <bibl>
+      <idno>37046</idno>
+      <title>STEGEMAN, Patronage</title>
+   </bibl>
+   <bibl>
+      <idno>37052</idno>
+      <title>STEICHELE–SCHRÖDER, Bistum Augsburg 6</title>
+   </bibl>
+   <bibl>
+      <idno>37054</idno>
+      <title>STEINBERGER, Jesuiten</title>
+   </bibl>
+   <bibl>
+      <idno>37058</idno>
+      <title>STEINER, Seligenstadt</title>
+   </bibl>
+   <bibl>
+      <idno>37062</idno>
+      <title>STENGEL, Urkundenbuch</title>
+   </bibl>
+   <bibl>
+      <idno>37070</idno>
+      <title>STRACK, Untersuchungen 3</title>
+   </bibl>
+   <bibl>
+      <idno>37082</idno>
+      <title>STROLL, Abbey of Farfa</title>
+   </bibl>
+   <bibl>
+      <idno>37090</idno>
+      <title>TAUTSCHER, Ernst Ludwig Carl</title>
+   </bibl>
+   <bibl>
+      <idno>37094</idno>
+      <title>THEELE, Handschriften</title>
+   </bibl>
+   <bibl>
+      <idno>37098</idno>
+      <title>THOMAS, St. Mauritius</title>
+   </bibl>
+   <bibl>
+      <idno>37100</idno>
+      <title>THURN, Handschriften 2/2</title>
+   </bibl>
+   <bibl>
+      <idno>37108</idno>
+      <title>TIRABOSCHI, Biblioteca modenese</title>
+   </bibl>
+   <bibl>
+      <idno>37112</idno>
+      <title>TOBNER, Grabsteine</title>
+   </bibl>
+   <bibl>
+      <idno>37114</idno>
+      <title>TOBNER, Lilienfeld</title>
+   </bibl>
+   <bibl>
+      <idno>37122</idno>
+      <title>TORSY, Regularklerus</title>
+   </bibl>
+   <bibl>
+      <idno>37142</idno>
+      <title>TURBA, Seilern</title>
+   </bibl>
+   <bibl>
+      <idno>37150</idno>
+      <title>VALENTIN, Répertoire</title>
+   </bibl>
+   <bibl>
+      <idno>37154</idno>
+      <title>VAŠICA, České literární baroko</title>
+   </bibl>
+   <bibl>
+      <idno>37156</idno>
+      <title>VASOLD, Pest</title>
+   </bibl>
+   <bibl>
+      <idno>37160</idno>
+      <title>VEITH, Bibliotheca Augustana</title>
+   </bibl>
+   <bibl>
+      <idno>37162</idno>
+      <title>VELARDE LOMBRAÑA, Caramuel</title>
+   </bibl>
+   <bibl>
+      <idno>37164</idno>
+      <title>VILÍMKOVÁ–BRUCKER, Dientzenhofer</title>
+   </bibl>
+   <bibl>
+      <idno>37166</idno>
+      <title>VINGTRINIER, Imprimerie</title>
+   </bibl>
+   <bibl>
+      <idno>37174</idno>
+      <title>VOGT, Theres</title>
+   </bibl>
+   <bibl>
+      <idno>37184</idno>
+      <title>WADL, Juden in Kärnten</title>
+   </bibl>
+   <bibl>
+      <idno>37192</idno>
+      <title>WAGNER, Grafenau</title>
+   </bibl>
+   <bibl>
+      <idno>37204</idno>
+      <title>WAPPLER, Facultät</title>
+   </bibl>
+   <bibl>
+      <idno>37206</idno>
+      <title>WATKIN, Roman Catholicism</title>
+   </bibl>
+   <bibl>
+      <idno>37210</idno>
+      <title>Weber, Friede von Utrecht</title>
+   </bibl>
+   <bibl>
+      <idno>37222</idno>
+      <title>WEIßENBERGER, Schottenabtei</title>
+   </bibl>
+   <bibl>
+      <idno>37226</idno>
+      <title>WELZIG et al., Katalog</title>
+   </bibl>
+   <bibl>
+      <idno>37228</idno>
+      <title>WENDEHORST, Bistum Würzburg 1</title>
+   </bibl>
+   <bibl>
+      <idno>37230</idno>
+      <title>WENDEHORST, Bistum Würzburg 3</title>
+   </bibl>
+   <bibl>
+      <idno>37232</idno>
+      <title>WENDEHORST, St. Burkard</title>
+   </bibl>
+   <bibl>
+      <idno>37238</idno>
+      <title>WERNER, Gründungstradition</title>
+   </bibl>
+   <bibl>
+      <idno>37244</idno>
+      <title>WERTHER, Chronik der Stadt Suhl</title>
+   </bibl>
+   <bibl>
+      <idno>37254</idno>
+      <title>WIEST, Kolb</title>
+   </bibl>
+   <bibl>
+      <idno>37256</idno>
+      <title>WIJNGAARDS, Bibliothèque</title>
+   </bibl>
+   <bibl>
+      <idno>37258</idno>
+      <title>WILLI, Album Wettingense</title>
+   </bibl>
+   <bibl>
+      <idno>37278</idno>
+      <title>WONISCH, Bibliographie</title>
+   </bibl>
+   <bibl>
+      <idno>37282</idno>
+      <title>WRANÝ, Geschichte der Chemie</title>
+   </bibl>
+   <bibl>
+      <idno>37284</idno>
+      <title>WRATZFELD, Eusebius</title>
+   </bibl>
+   <bibl>
+      <idno>37286</idno>
+      <title>ZEDELMAIER, Anfang der Geschichte</title>
+   </bibl>
+   <bibl>
+      <idno>37296</idno>
+      <title>ZEN, Baronio</title>
+   </bibl>
+   <bibl>
+      <idno>37304</idno>
+      <title>ZIEGELBAUER, Epitome historica</title>
+   </bibl>
+   <bibl>
+      <idno>37312</idno>
+      <title>ZIMMERMANN, Kloster-Heraldik</title>
+   </bibl>
+   <bibl>
+      <idno>37318</idno>
+      <title>ŽOLGER, Hofstaat</title>
+   </bibl>
+   <bibl>
+      <idno>37320</idno>
+      <title>SCHÖNHOFER, Pez</title>
+   </bibl>
+   <bibl>
+      <idno>37322</idno>
+      <title>WAHL, St. Andrä</title>
+   </bibl>
+   <bibl>
+      <idno>37324</idno>
+      <title>WALLNIG, Eckhart</title>
+   </bibl>
+</listBibl>
