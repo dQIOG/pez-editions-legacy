@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">675 Cölestin Berther an Bernhard Pez. 1716-10-16. Disentis.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">675</idno>
+         </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 2: 1716–1718</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+                  <bibl>Heer, Pez 425, 427</bibl>
+                  <bibl>Müller, Disentis 1696–1742 660, 662</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">639r–v</biblScope>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Cölestin Berther</persName>
+               <date when="1716-10-16">1716-10-16</date>
+               <placeName>Disentis</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="next">
+                  <idno type="pezEd">830</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">477</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change type="creation" who="#ds" when="2017-06-19T11:37:26.074+02:00">Automatically upconverted from DOCX document.</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d3e20017">CBe berichtet vom Tod des Disentiner Abtes und Reichsprälaten Adalbert Defuns, der am Vortag im Alter von 73 (recte: 70) Jahren nach zwanzigjähriger Herrschaft an der Wassersucht verstorben ist.</seg><seg type="context" n="2" xml:id="d3e20019">Zugleich weiß CBe aus <rs type="person" role="sender">BPs</rs> letzter Mitteilung über sein Werk („Bibliotheca Benedictina“) an Defuns <ref type="letter">477</ref>, dass <rs type="person" role="sender">BP</rs> an benediktinischen Schriftstellern interessiert ist. Deshalb zählt CBe folgende Werke des Verstorbenen auf: „Cursus theologicus“, „Cursus philosophicus“, „Idea eloquentiae“, „Annales monasterii Desertinensis“ von der Gründung des Klosters bis ins 17. Jahrhundert sowie „Synopsis“ derselben; weiters rätoromanische Übersetzungen von Johannes Gersens (recte: Thomas’ von Kempen) „Imitatio Christi“ („Cudisch de suondar Christum“), der Benediktsregel sowie des „Martyrologium Romanum“. Hinzu kommen mehrere gedruckte Predigten in Versform. Weitere weniger bedeutende Werke übergeht CBe.</seg></p>
+         </div>
+         <div type="editorialNote"/>
+      </front>
+      <body>
+         <div type="edition">
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverendo atque clarissimo domino domino patri Bernardo Pez salutem.</p>
+            <p xml:space="preserve">&lt;<seg type="context" n="1" xml:space="preserve" xml:id="d3e20037">&gt; Ratio, ob quam tanta praesumptione hasce ad tuam clarissimam paternitatem dirigo, est hesternus exitus sanguineis lacrymis deflendus illustrissimi ac reverendissimi sacri Romani imperii principis et piissimi simul ac doctissimi abbatis nostri <seg type="lemma" corresp="#d3e20054">Adalberti de Funs</seg> huius nominis tertii, quem diutino hydropisis morbo maceratum heri, id est die decimo quinto huius<note place="foot" xml:id="d3e20039">	Über der Zeile eingefügt.</note> circa horam secundam pomeridianam amara mors nemini parcens cum ingenti monasterii nostri detrimento ex hac mortali vita arripuit, annos natum septuaginta tres, postquam summa cum laude, pietate dexteritateque regimen abbatiale viginti et amplius annos tenuisset. &lt;</seg><seg type="context" n="2" xml:space="preserve" xml:id="d3e20042">&gt; Caeterum cum non ignorem ex nuperrima <seg type="lemma" corresp="#d3e20060">communicatione laudabilissimi tui operis</seg> ad eundem praetactum principem directa clarissimam tuam dominationem ordinis nostri scriptores desiderasse, placuit quaedam eiusdem etiam<seg type="lemma" corresp="#d3e20066"> abbatis scripta</seg> hisce annectere; cuius haec sunt: <pb n="1v"/> Nimirum Cursus scholastico-theologicus et philosophicus iuxta irrefragabilem Angelici Doctoris doctrinam novem tomos complectens; Idaea eloquentiae; Annales monasterii nostri et totius Rhaetiae Superioris septem tomis comprehensi, addita etiam eorundem Synopsi, quos ab exordio monasterii nostri ad saeculum decimum septimum usque perduxit; praeterea versio <seg type="lemma" corresp="#d3e20070">libelli Gerseni</seg> et Regulae sanctissimi patris nostri unacum Martyrologio Romano in linguam Rhaeticam; denique addo etiam quamplurimas contiones [<hi rend="italic">sic</hi>] iam prelo datas, quas rythmicis exornavit et composuit versibus, ut plura alia minoris momenti silentio involvam, quae tanto tuo operi vix subsidii minusque inserenda videntur. His itaque adactus tanta ausus sum, queis, ne nimietate verborum debitae in te veritatis defensorem observantiae limites transcendere videar, exoptato prius fortunato in tuis vigiliis successu, calamum suspendo perstiturus ad vota paratissimus</seg></p>
+            <p xml:space="preserve">Servus tuus et indignus confrater pater Coelestinus Berchter bibliothecarius monasterii Disertinensis manu propria.</p>
+            <p xml:space="preserve">Dabantur in monasterio Disertinensi decimo sexto Octobris anni 1716.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d3e20054">
+               <ref type="context">1</ref>
+               <label>Adalberti de Funs</label>Zu ihm vgl. Wallnig–Stockinger, Korrespondenz 1 797. Nach den Angaben der neueren Literatur war er am 21. Januar 1646 geboren und somit erst im 71. Lebensjahr: Gilomen-Schenkel–Müller, Disentis 504; Henggeler, Profeßbuch Disentis 45, 67. </note>
+            <note xml:id="d3e20060">
+               <ref type="context">2</ref>
+               <label>communicatione ... operis</label> In 476 &lt;2&gt; hatte BP gegenüber Defuns die Zusendung der „Epistolae apologeticae“ angekündigt; ob diese erfolgte, ist jedoch nicht ersichtlich. Der Hinweis auf BPs Interesse an Autoren des Benediktinerordens ist wohl auf die gemeinsam mit 476 versendete Enzyklik 477 zu beziehen. In den „Epistolae apologeticae“ selbst findet sich zwar eine Erwähnung von BPs bibliographischer Sammlungstätigkeit, aber kein Aufruf zu Beiträgen: Pez, Epistolae apologeticae 266f.</note>
+            <note xml:id="d3e20066">
+               <ref type="context">2</ref>
+               <label> abbatis scripta</label>Die Ansetzung der Schriften Defuns’ erfolgt nach den Angaben bei Henggeler, Profeßbuch Disentis 45; vgl. Heer, Mabillon 338–340; Müller, Disentis 1696–1742 679–681. Zu den Werken im Einzelnen und ihrer Überlieferung vgl. 676 &lt;3&gt;. </note>
+            <note xml:id="d3e20070">
+               <ref type="context">2</ref>
+               <label>libelli Gerseni</label>Zur strittigen Verfasserschaft von „De imitatione Christi“ vgl. Benz, Zwischen Tradition und Kritik 539–549; Staubach, Unendliche Geschichte; Stockinger, Augustiner-Chorherren; sowie 71 &lt;6&gt;.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

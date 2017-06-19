@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">654 Aemilian Reichardt an Bernhard Pez. 1716-09-15. Ochsenhausen.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">654</idno>
+         </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 2: 1716–1718</bibl>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">107r–v</biblScope>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Aemilian Reichardt</persName>
+               <date when="1716-09-15">1716-09-15</date>
+               <placeName>Ochsenhausen</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">652</idno>
+               </ref>
+               <ref type="mentions">
+                  <idno type="pezEd">652</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change type="creation" who="#ds" when="2017-06-19T11:37:26.074+02:00">Automatically upconverted from DOCX document.</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d3e17475">Um <rs type="person" role="sender">BP</rs> nicht weiter an der geglückten Rücksendung des „Spicilegium“ (von Jean-Luc d’Achery) zweifeln zu lassen, teilt <rs type="person" role="sender">AR</rs> mit, dass er dieses vollständig erhalten hat.</seg><seg type="context" n="2" xml:id="d3e17477">In der Beilage sendet er Ergänzungen zu seinem früheren Katalogauszug.</seg><seg type="context" n="3" xml:id="d3e17479"><rs type="person" role="sender">AR</rs> bedauert, dass das Buch („Regel und lebens-ordnungen“) des Philippe François, zu dessen Person <rs type="person" role="sender">BP</rs> um Auskünfte gebeten hat <ref type="letter">652</ref>, von ihm auch nach intensiver Suche nicht aufgefunden werden konnte; möglicherweise befindet es sich bei einem der außerhalb des Klosters eingesetzten Mönche. Sobald es auftaucht, will <rs type="person" role="sender">AR</rs> das Gewünschte mitteilen.</seg><seg type="context" n="4" xml:id="d3e17484">Das Werk des Andreas Lang von Bamberg („Catalogus sanctorum“), über welches in der Beilage berichtet wird, hat fünf Teile und unterscheidet sich in Anordnung und Stil nicht wenig von Johannes Trithemius’ „De viris illustribus ordinis sancti Benedicti“. Wenn es für <rs type="person" role="sender">BP</rs> von Nutzen sein kann, will <rs type="person" role="sender">AR</rs> es gerne nach Melk schicken.</seg></p>
+         </div>
+         <div type="editorialNote">
+            <p xml:space="preserve">Nummerierung: <hi rend="italic">III</hi>.</p>
+            <p xml:space="preserve">Ordnungsvermerk: <hi rend="italic">192</hi>.</p>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverende religiosissime ac clarissime domine pater Bernarde, patrone colendissime.</p>
+            <p xml:space="preserve">&lt;<seg type="context" n="1" xml:space="preserve" xml:id="d3e17507">&gt; Absit, ut feram ultra admodum reverendam paternitatem vestram ullatenus turbari vel dubitare de recta totius Spicilegii transmissione, quin potius maturo calamo eundem [<hi rend="italic">sic</hi>] integre ad me pervenisse renuntio. &lt;</seg><seg type="context" n="2" xml:space="preserve" xml:id="d3e17512">&gt; Quae nupero <seg type="lemma" corresp="#d3e17530">defuere catalogo, nunc, quantum valeo, annecto</seg>. &lt;</seg><seg type="context" n="3" xml:space="preserve" xml:id="d3e17514">&gt; Doleo autem summopere, quod <seg type="lemma" corresp="#d3e17536">libellus Philippi Francisci</seg> (cuius monasterium, aetatem etc. paternitas vestra desiderat) a me post diligentem quoque indagationem inveniri non potuerit; latet fors apud quemdam expositorum capitularium nostrorum. Quamprimum prodierit, curabo, ut petita resciscat. <pb n="1v"/> &lt;</seg><seg type="context" n="4" xml:space="preserve" xml:id="d3e17518">&gt; Opus Andreae monachi Bambergensis quinquepartitum (de quo plura in adiuncto catalogo) et stylo et ordine<seg type="lemma" corresp="#d3e17548"> non nihil differt</seg> a Trithemio De viris illustribus ordinis sancti Benedicti. Si admodum reverendae paternitati vestrae illud novero adiumento futurum,<seg type="lemma" corresp="#d3e17552"> lubens Mellicium ablegabo</seg>, beatum me existimans, si quo officiorum genere admodum reverendae paternitati vestrae, quam ex corde veneror, gratificari<note place="foot" xml:id="d3e17520">	Korrigiert aus <hi rend="italic">gratificare.</hi></note> queam. Ita spondet</seg></p>
+            <p xml:space="preserve">Admodum reverendae religiosissimae ac clarissimae paternitatis vestrae paratissimus servus pater Aemilianus Reichardt pro tempore prior ibidem.</p>
+            <p xml:space="preserve">Ochsenhusii 15. Septembris 1716.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d3e17530">
+               <ref type="context">2</ref>
+               <label>defuere ... annecto</label>Die Beilage ist erhalten: I, 108r–v. Es handelt sich um Nachträge zur Beilage zu 628 (StiA Melk, Karton 85 Varia 25, Fasz. 1, Nr. 58), die sowohl zusätzliche Angaben zu dort bereits genannten Werken als auch neue Titel anführen. Zu drei Ochsenhausenern, von welchen handschriftliche Werke vorliegen – Isaias Weißhaar, Abt Urban Mayr und Innozenz Ill –, werden Angaben zur Person gemacht; zu ihnen vgl. Lindner, Verzeichnis Ochsenhausen 17 98, 118, 154; Maier, Bildung 302; Maier, Krise 279.</note>
+            <note xml:id="d3e17536">
+               <ref type="context">3</ref>
+               <label>libellus Philippi Francisci</label> Das Werk ist mit Angabe nur des Titels, Autors und Formats angeführt in StiA Melk, Karton 85 Varia 25, Fasz. 1, Nr. 58, 1r. Zu seinem Verfasser vgl. 683 &lt;2&gt;, 743 &lt;8&gt;, 782 &lt;6&gt;.</note>
+            <note xml:id="d3e17542">
+               <ref type="context">4</ref>
+               <label>opus Andreae</label>Den Anlass zu einer anzunehmenden Nachfrage BPs bot offenbar der Eintrag in StiA Melk, Karton 85 Varia 25, Fasz. 1, Nr. 58, 1r: „Andreae monachi S. Michaelis Bambergae, Trithemii coaetanei, Liber de viris illustribus ordinis sancti Benedicti manuscriptus 1615 in folio“. In der Beilage zu diesem Brief geht AR nochmals näher auf die Handschrift ein, die seinen Angaben zufolge 1615 im Kloster Michelsberg für Ochsenhausen abgeschrieben wurde: I, 108v. Diese Abschrift gilt bis in die neuere Literatur häufig als verloren: vgl. Könsgen, Agius col. 79. Tatsächlich ist sie jedoch erhalten: StB Bamberg, HV Msc. 293; vgl. Dengler-Schreiber, Handschriften 66f.; Fassbinder, Catalogus 31; Zimmermann, Lang col. 577. – Einige Kenntnis von Andreas Lang und dessen Werken besaß BP bereits durch ein von Hyazinth Baumbach in Würzburg an ihn weitergeleitetes Schreiben von Candidus Klitsch aus dem Kloster Michelsberg: vgl. 76 &lt;6&gt;; sowie Stockinger–Wallnig, Historische Irrtümer. Da kein unmittelbarer Kontakt mit Bamberg zustande gekommen war, hatte BP freilich keinen Zugang zum dort verwahrten Original von Langs „Catalogus“: heute StB Bamberg, Msc. Hist. 141.</note>
+            <note xml:id="d3e17548">
+               <ref type="context">4</ref>
+               <label> non nihil differt</label> Zum Verhältnis Andreas Langs zu Trithemius vgl. Dippold, Lang 34; Fassbinder, Catalogus 127–134. In inhaltlicher Hinsicht besteht entgegen der Angabe ARs enge Abhängigkeit des Ersteren vom Letzteren.</note>
+            <note xml:id="d3e17552">
+               <ref type="context">4</ref>
+               <label> lubens ... ablegabo</label>Wie hier in Aussicht gestellt, bezog BP die Handschrift in der Folge von AR aus Ochsenhausen: vgl. 961 &lt;9&gt;; sowie Pez, Thesaurus 1 lxxxiv. Da BP zur Art dieser Übermittlung an keiner Stelle nähere Angaben macht, wird kein verlorener Brief angesetzt. BP entdeckte in dem Werk als einen der wenigen nicht von Trithemius abhängigen Textteile die vollständig inserierte „Vita sanctae Hathumodae“ des Agius, die er nach dieser Vorlage herausgab: Pez, Thesaurus 1/3 col. 287–324; vgl. 955 &lt;14&gt;, 1003 &lt;3&gt;, 1020 &lt;4&gt;.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

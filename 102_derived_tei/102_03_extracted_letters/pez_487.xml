@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">487 Johann a Sancto Felice an Bernhard Pez. 1716-01-11. Wien.</title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+            <respStmt>
+               <resp>Conversion to TEI</resp>
+               <persName>Daniel Schopper</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">487</idno>
+         </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 2: 1716–1718</bibl>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="signatory">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <biblScope unit="volume">I</biblScope>
+               <biblScope unit="page">225r–v</biblScope>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Johann a Sancto Felice</persName>
+               <date when="1716-01-11">1716-01-11</date>
+               <placeName>Wien</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Bernhard Pez</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev">
+                  <idno type="pezEd">473</idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd">529</idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change type="creation" who="#ds" when="2017-06-19T11:37:26.074+02:00">Automatically upconverted from DOCX document.</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="d3e754">Der kunstreiche Kupferstich mit dem Bildnis des Mauriners Jean Mabillon, den <rs type="person" role="sender">BP</rs> ihm gesendet hat, hat JF mit großer Freude erfüllt. Er dankt mit Segenswünschen herzlich für dieses kostbare Neujahrsgeschenk und bittet BP, von ihm ohne Rücksicht eine Gegengabe zu fordern. Das Bild schmückt nun die Bibliothek in JFs Kloster, und alle, die von Mabillons Kenntnissen und seinem heiligmäßigen Lebenswandel gelesen haben, können diese Tugenden auch an dem Bild betrachten.</seg><seg type="context" n="2" xml:id="d3e756">JF ist durch diese Anregung auch dazu gekommen, Mabillons „Tractatus de studiis monasticis“ zu lesen, den er sich von <rs type="person" role="sender">BPs</rs> Melker Mitbruder Kaspar Altlechner geliehen hat. JF bewundert die Übereinstimmung zwischen dem, was man aus dem Werk, und dem, was man aus dem Bild über Mabillon ersehen kann. Er beneidet alle, die jenen zu Lebzeiten gekannt haben, noch mehr aber diejenigen, die seine Schüler waren: Niemand irrt, der ihn den Schatzhüter des gesamten kirchlichen Altertums nennt. Die Schüler, die er hinterlassen hat, sind allesamt Erben der entlegensten Wissenschaften: Dies bezeugen eindrucksvoll die regelmäßig aus ihrer Arbeit hervorgehenden Editionen der Werke der Kirchenväter.</seg><seg type="context" n="3" xml:id="d3e758">Mit Entrüstung freilich stellt JF fest, dass manche inmitten von so viel Licht noch immer blind sind und sich selbst (mit der „Cura salutis“ von Gábor Hevenesi) belügen, das monastische Leben sei ein müßiges. Diesen ist <rs type="person" role="sender">BP</rs> mit seinen „Epistolae apologeticae“ in hervorragender Weise entgegen getreten, welche gegen ihre Unwahrheiten als Löschschwamm dienen mögen.</seg></p>
+         </div>
+         <div type="editorialNote"/>
+      </front>
+      <body>
+         <div type="edition">
+            <p xml:space="preserve"><pb n="1r"/> Admodum reverendo religiosissimo eximio ac clarissimo domino patri Bernardo Pez Mellicensi humilis Trinitarius frater Joannes a Sancto Felice salutem plurimam dicit.</p>
+            <p xml:space="preserve">&lt;<seg type="context" n="1" xml:space="preserve" xml:id="d3e771">&gt; <seg type="lemma" corresp="#d3e803">Effigiem domini Mabillonii</seg> congregationis sancti Mauri artificioso exaratam scalpro, quam ad me misisti, incredibili me affecit laetitia [<hi rend="italic">sic</hi>]<note place="foot" xml:id="d3e776">	Anakoluth: Als Subjekt zu <hi rend="italic">affecit</hi> müsste es entweder <hi rend="italic" xml:space="preserve">Effigies ... exarata </hi>heißen, oder <hi rend="italic">quam</hi> wäre durch <hi rend="italic" xml:space="preserve">quod </hi>zu ersetzen.</note>, nae pretiosum munus, gratissima strena; innumeras tibi pro ea rependo grates<note place="foot" xml:id="d3e791">	Über der Zeile eingefügt.</note>. Deus ter optimus maximus te, mi Bernarde, in plurima tempora benedicat. Vide, quid a me hostimenti exigas; quae mea sunt, eadem tibi tua esse cense. Exornat iam tanti viri effigies etiam nostram bibliothecam, ut, qui eius in operibus non vulgarem doctrinam singulari coniunctam vitae sanctimonia legerint, utrumque pariter contemplentur in imagine. &lt;</seg><seg type="context" n="2" xml:space="preserve" xml:id="d3e794">&gt; Mihi certe id ope vestra accidit primo, dum nunc plane eiusdem authoris lego De studiis monasticis librum; hunc mutuo habeo a reverendo domino Casparo tuo Mellicensi. Quam idem, mi Bernarde, in libro legitur, quod in imagine cernitur; frons, oculi mentem indicant. Felices, qui eum in vivis noverant; multo autem feliciores, qui eius meruerunt esse discipuli et docentem audire, in quo tanti ecclesiasticae antiquitatis continebantur thesauri! Sane qui Mabillonium totius sacrae antiquitatis dixerit thesaurarium, neutiquam aberraverit a vero. Quantos etiam tantus vir post se <pb n="1v"/> reliquerit discipulos, tot reconditarum scientiarum haeredes; manifeste testantur tot politissima sanctorum patrum opera, quae indies de eorum prodeunt studio et opera. &lt;</seg><seg type="context" n="3" xml:space="preserve" xml:id="d3e798">&gt; Cum indignatione miror, quod in tanto lumine reperiantur nonnulli, qui adhuc caecutiant et vitam monasticam fingant et sibi, non aliis, <seg type="lemma" corresp="#d3e813">mentiantur otiosam</seg>. Verum satis tu eis abunde fecisti tuis in Apologeticis, quae eis serviunt pro spongia. Vale et me, ut soles, ama.</seg></p>
+            <p xml:space="preserve">Viennae die 11. Januarii 1716.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <note xml:id="d3e803">
+               <ref type="context">1</ref>
+               <label>Effigiem ... Mabillonii</label> Es handelte sich um ein loses Exemplar jenes Kupferstichs, der dem fünften Band der „Annales OSB“ vorangestellt ist: vgl. Leclercq, Mabillon col. 692–694; Menu, Portraits 64f. Nr. I; sowie 413 &lt;4&gt;. Zur Versendung von Bildnissen Mabillons als Geschenken vgl. 143 &lt;17&gt;, 161 &lt;2&gt;, 450 &lt;3&gt;, 467 &lt;3&gt;. Die Gabe war JF von BP bereits angekündigt worden: vgl. 473 &lt;6&gt;. </note>
+            <note xml:id="d3e809">
+               <ref type="context">1</ref>
+               <label>manifeste ... patrum opera</label> Zu den maurinischen Neueditionen der Werke der Kirchenväter vgl. 719 &lt;1&gt;.</note>
+            <note xml:id="d3e813">
+               <ref type="context">3</ref>
+               <label>mentiantur otiosam</label> Zur Auseinandersetzung um die „Cura salutis“, auf die hier angespielt wird, vgl. Wallnig–Stockinger, Korrespondenz 1 14f. Speziell zum Vorwurf des Müßiggangs vgl. 486 &lt;5&gt;.</note>
+         </div>
+      </back>
+   </text>
+</TEI>
