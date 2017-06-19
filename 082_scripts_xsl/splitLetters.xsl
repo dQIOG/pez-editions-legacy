@@ -11,7 +11,9 @@
     <xsl:output indent="yes"/>
     <xsl:param name="splitLetters">yes</xsl:param>
     <xsl:param name="path-to-sigla">file:/C:/Users/Daniel/data/pez-edition/102_derived_tei/102_04_auxiliary_files/sigla.xml</xsl:param>
+    <xsl:param name="debug" select="true()"/>
     <xsl:variable name="sigla" select="doc($path-to-sigla)" as="document-node()"/>
+    <xsl:variable name="publishedInString">Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 2: 1716–1718</xsl:variable>
     
     <xsl:template match="node() | @*" mode="#all">
         <xsl:copy>
@@ -28,60 +30,180 @@
         </xsl:document>
     </xsl:template>
     
+    <xsl:template name="debug">
+        <xsl:param name="data" as="item()+"/>
+        <xsl:param name="filename" as="xs:string"/>
+        <xsl:if test="$debug">
+            <xsl:result-document href="{$filename}.xml">
+                <teiCorpus><xsl:sequence select="$data"/></teiCorpus>
+            </xsl:result-document>
+        </xsl:if>
+    </xsl:template>
     
+    <!--<xsl:template match="/">
+        <xsl:variable name="lettersExtracted" as="document-node()+">
+            <xsl:apply-templates select="tei:TEI/tei:text/tei:body" mode="extractLetters"/>
+        </xsl:variable>
+    </xsl:template>-->
     
+    <!--<xsl:template match="/" mode="ignoreme">--> 
     <xsl:template match="/">
         <xsl:variable name="lettersExtracted" as="document-node()+">
             <xsl:apply-templates select="tei:TEI/tei:text/tei:body" mode="extractLetters"/>
         </xsl:variable>
+        <xsl:call-template name="debug">
+            <xsl:with-param name="filename">sl_01_lettersExtracted</xsl:with-param>
+            <xsl:with-param name="data" select="$lettersExtracted"/>
+        </xsl:call-template>
+        
+        <!-- Group letters into <TEI> stubs  -->
         <xsl:variable name="sectionsGrouped" as="document-node()+">
             <xsl:apply-templates select="$lettersExtracted" mode="groupSections"/>
         </xsl:variable>
+        <xsl:call-template name="debug">
+            <xsl:with-param name="filename">sl_02_sectionsGrouped</xsl:with-param>
+            <xsl:with-param name="data" select="$sectionsGrouped"/>
+        </xsl:call-template>
+        
+        <!-- Some basic cleanup -->
         <xsl:variable name="cleanedup" as="document-node()+">
             <xsl:apply-templates select="$sectionsGrouped" mode="cleanup"/>
         </xsl:variable>
+        <xsl:call-template name="debug">
+            <xsl:with-param name="data" select="$cleanedup"/>
+            <xsl:with-param name="filename">sl_03_cleanedup</xsl:with-param>
+        </xsl:call-template>
+        
+        
+        <!-- parse regest -->
         <xsl:variable name="regestParsed" as="document-node()+">
             <xsl:apply-templates select="$cleanedup" mode="parseRegest"/>
         </xsl:variable>
+        <xsl:call-template name="debug">
+            <xsl:with-param name="filename">l_04_regestParsed</xsl:with-param>
+            <xsl:with-param name="data" select="$regestParsed"/>
+        </xsl:call-template>
+        
+        <!-- collapse adjacent tags with same @rend values -->
         <xsl:variable name="adjacentRendsCollapsed" as="document-node()+">
             <xsl:apply-templates select="$regestParsed" mode="collapseAdjacentRends"/>
         </xsl:variable>
-        <xsl:variable name="commentaryParsed" as="document-node()+">
+        <xsl:call-template name="debug">
+            <xsl:with-param name="filename">sl_05_adjacentRendsCollapsed</xsl:with-param>
+            <xsl:with-param name="data" select="$adjacentRendsCollapsed"/>
+        </xsl:call-template>
+        
+        
+        <!-- parse commentary -->
+        <xsl:variable name="commentaryParsed">
             <xsl:apply-templates select="$adjacentRendsCollapsed" mode="parseCommentary"/>
         </xsl:variable>
+        <xsl:call-template name="debug">
+            <xsl:with-param name="filename">sl_06_commentaryParsed</xsl:with-param>
+            <xsl:with-param name="data" select="$commentaryParsed"/>
+        </xsl:call-template>
+        
+        <!-- Add IDs on contexts -->
         <xsl:variable name="IDsAdded" as="document-node()+">
             <xsl:apply-templates select="$commentaryParsed" mode="addIDs"/>
         </xsl:variable>
+        <xsl:call-template name="debug">
+            <xsl:with-param name="filename">sl_07_IDsAdded</xsl:with-param>
+            <xsl:with-param name="data" select="$IDsAdded"/>
+        </xsl:call-template>
+       
+       
+        <!-- tag lemmas in the main text -->
         <xsl:variable name="lemmasTagged" as="document-node()+">
             <xsl:apply-templates select="$IDsAdded" mode="tagLemmas"/>
         </xsl:variable>
+        <xsl:call-template name="debug">
+            <xsl:with-param name="filename">sl_08_lemmasTagged</xsl:with-param>
+            <xsl:with-param name="data" select="$lemmasTagged"/>
+        </xsl:call-template>
+        
+        <!-- create Links between text, regest and commentary  -->
         <xsl:variable name="linksCreated" as="document-node()+">
             <xsl:apply-templates select="$lemmasTagged" mode="createLinks"/>
         </xsl:variable>
+        <xsl:call-template name="debug">
+            <xsl:with-param name="filename">sl_09_linksCreated</xsl:with-param>
+            <xsl:with-param name="data" select="$linksCreated"/>
+        </xsl:call-template>
+        
+        <!-- ????  -->
         <xsl:variable name="partsSplit" as="document-node()+">
             <xsl:apply-templates select="$linksCreated" mode="splitParts"/>
         </xsl:variable>
+        <xsl:call-template name="debug">
+            <xsl:with-param name="filename">sl_10_partsSplit</xsl:with-param>
+            <xsl:with-param name="data" select="$partsSplit"/>
+        </xsl:call-template>
+       
+        <!-- tag abbreviated person names -->
         <xsl:variable name="persAbbrsTagged" as="document-node()+">
             <xsl:apply-templates select="$partsSplit" mode="tagPersAbbrs"/>
         </xsl:variable>
+        <xsl:call-template name="debug">
+            <xsl:with-param name="data" select="$persAbbrsTagged"/>
+            <xsl:with-param name="filename">sl_11_persAbbrsTagged</xsl:with-param>
+        </xsl:call-template>
+       
+       
+       <!-- populate correspDesc -->
         <xsl:variable name="xenoData2correspDesc" as="document-node()+">
             <xsl:apply-templates select="$persAbbrsTagged" mode="xenoData2correspDesc"/>
         </xsl:variable>
+        <xsl:call-template name="debug">
+            <xsl:with-param name="data" select="$xenoData2correspDesc"/>
+            <xsl:with-param name="filename">sl_12_xenoData2correspDesc</xsl:with-param>
+        </xsl:call-template>
+        
+        
+        <!-- parse editorial note  -->
         <xsl:variable name="editorialNoteParsed" as="document-node()+">
             <xsl:apply-templates select="$xenoData2correspDesc" mode="parseEditorialNotes"/>
         </xsl:variable>
+        <xsl:call-template name="debug">
+            <xsl:with-param name="filename">sl_13_editorialNoteParsed</xsl:with-param>
+            <xsl:with-param name="data" select="$editorialNoteParsed"/>
+        </xsl:call-template>
+        
+        
+        <!-- move relevant parts from correspDesc into profileDesc -->
         <xsl:variable name="correspDesc2profileDesc" as="document-node()+">
             <xsl:apply-templates select="$editorialNoteParsed" mode="correspDesc2profileDesc"/>
         </xsl:variable>
+        
+        <xsl:if test="$debug">
+            <xsl:result-document href="sl_14_correspDesc2profileDesc.xml">
+                <xsl:sequence select="$correspDesc2profileDesc"/>
+            </xsl:result-document>
+        </xsl:if>
         <xsl:variable name="datesCorrected" as="document-node()+">
             <xsl:apply-templates select="$correspDesc2profileDesc" mode="correctDates"/>
         </xsl:variable>
+        <xsl:if test="$debug">
+            <xsl:result-document href="sl_15_datesCorrected.xml">
+                <xsl:sequence select="$datesCorrected"/>
+            </xsl:result-document>
+        </xsl:if>
         <xsl:variable name="notesStmtAdded" as="document-node()+">
             <xsl:apply-templates select="$datesCorrected" mode="addNotesStmt"/>
         </xsl:variable>
+        <xsl:if test="$debug">
+            <xsl:result-document href="sl_16_notesStmtAdded.xml">
+                <xsl:sequence select="$notesStmtAdded"/>
+            </xsl:result-document>
+        </xsl:if>
         <xsl:variable name="leadingSpacesInContextsTrimmed" as="document-node()+">
             <xsl:apply-templates select="$notesStmtAdded" mode="trimLeadingSpaceInContexts"/>
         </xsl:variable>
+        <xsl:if test="$debug">
+            <xsl:result-document href="sl_17_leadingSpacesInContextsTrimmed.xml">
+                <xsl:sequence select="$leadingSpacesInContextsTrimmed"/>
+            </xsl:result-document>
+        </xsl:if>
         <xsl:choose>
             <xsl:when test="$splitLetters = 'no'">
                 <teiCorpus created="{current-dateTime()}"><xsl:sequence select="$leadingSpacesInContextsTrimmed"/></teiCorpus>
@@ -107,6 +229,8 @@
                 <destination xmlns=""><xsl:value-of select="regex-group(5)"/></destination>
             </xsl:matching-substring>
             <xsl:non-matching-substring>
+                <xsl:message select="."></xsl:message>
+                <xsl:message terminate="yes">unparsable heading</xsl:message>
                 <unparsable xmlns="" element="heading"><xsl:value-of select="."/></unparsable>
             </xsl:non-matching-substring>
         </xsl:analyze-string>
@@ -138,9 +262,13 @@
                     <xsl:with-param name="heading" select="current-group()[1]"/>
                 </xsl:call-template>
             </xsl:variable>
+            <xsl:if test="not(exists(subsequence(current-group()[self::tei:p[@rend = 'Edition Briefüberschrift 2']],1,1)))">
+                <xsl:message select="current-group()[1]"/>
+                <xsl:message terminate="yes">No dateline found in this letter.</xsl:message>
+            </xsl:if>
             <xsl:variable name="dateline-parsed">
                 <xsl:call-template name="parse-dateline">
-                    <xsl:with-param name="dateline" select="current-group()/self::tei:p[@rend = 'Edition Briefüberschrift 2'][1]"/>
+                    <xsl:with-param name="dateline" select="subsequence(current-group()[self::tei:p[@rend = 'Edition Briefüberschrift 2']],1,1)"/>
                 </xsl:call-template>
             </xsl:variable>
             
@@ -166,7 +294,7 @@
                             </publicationStmt>
                             <notesStmt>
                                 <relatedItem type="publishedIn">
-                                    <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
+                                    <bibl><xsl:value-of select="$publishedInString"/></bibl>
                                 </relatedItem>
                             </notesStmt>
                             <sourceDesc>
@@ -177,6 +305,11 @@
                                 <classCode scheme="pez">letter</classCode>
                             </textClass>
                         </profileDesc>
+                        <revisionDesc>
+                            <listChange>
+                                <change type="creation" who="#ds" when="{current-dateTime()}">Automatically upconverted from DOCX document.</change>
+                            </listChange>
+                        </revisionDesc>
                         <xenoData>
                             <xsl:sequence select="$heading-parsed"/>
                             <xsl:sequence select="$dateline-parsed"/>
@@ -317,24 +450,31 @@
         </xsl:copy>
     </xsl:template>
     
+    <xsl:template match="tei:anchor" mode="cleanup"/>
+    
     <xsl:template match="tei:div[@type = 'edition'][tei:p][parent::tei:div[@type = 'edition']]" mode="cleanup">
-        <xsl:apply-templates/>
-    </xsl:template>
-    
-    <xsl:template match="tei:div[@type = 'editorialNote'][tei:p][parent::tei:div[@type = 'editorialNote']]" mode="cleanup">
-        <xsl:apply-templates/>
-    </xsl:template>
-    
-    <xsl:template match="tei:hi[starts-with(@rend, 'KommentarGesperrt')]" mode="cleanup">
         <xsl:apply-templates mode="#current"/>
     </xsl:template>
     
-    <xsl:template match="tei:seg[@rend][parent::tei:hi[starts-with(@rend, 'KommentarGesperrt')] or parent::tei:p[parent::tei:div/@type = 'commentary']]" mode="cleanup">
+    <xsl:template match="tei:div[@type = 'editorialNote'][tei:p][parent::tei:div[@type = 'editorialNote']]" mode="cleanup">
+        <xsl:apply-templates mode="#current"/>
+    </xsl:template>
+    
+    <xsl:template match="tei:hi[@rend = ('Kommentar_Zchn', 'Edition_Kommentar', 'Edition_Kommentar_Char') or starts-with(@rend, 'KommentarGesperrt')]" mode="cleanup">
+        <xsl:apply-templates mode="#current"/>
+    </xsl:template>
+    
+    <!--<xsl:template match="tei:hi[starts-with(@rend, 'KommentarGesperrt')][normalize-space(.) = ':'][preceding-sibling::*[1]/self::tei:hi[@rend = 'italic']]" mode="cleanup">
+        <hi rend="italic"><xsl:value-of select="."/></hi>
+    </xsl:template>-->
+    
+    <xsl:template match="tei:seg[@rend = 'italic']" mode="cleanup">
         <hi>
-            <xsl:copy-of select="@rend"/>
-            <xsl:copy-of select="node()"/>
+            <xsl:copy-of select="@*"/>
+            <xsl:apply-templates mode="#current"/>
         </hi>
     </xsl:template>
+    
     
     <xsl:template match="text()[ancestor::tei:div[@type = 'regest']]" mode="parseRegest">
         <xsl:analyze-string select="." regex="\((\d{{1,3}})\)">
@@ -355,11 +495,17 @@
                 <xsl:choose>
                     <xsl:when test="every $c in current-group() satisfies $c/@rend and count(current-group()) gt 1 and count(distinct-values(current-group()/local-name())) eq 1">
                         <xsl:element name="{current-group()[1]/local-name(.)}" namespace="{namespace-uri()}">
-                            <xsl:copy-of select="current-group()[1]/@rend"/>
+                            <xsl:copy-of select="current-group()[@rend][1]/@rend"/>
+                            <xsl:copy-of select="current-group()[@xml:space][1]/@xml:space"/>
                             <xsl:for-each select="distinct-values(current-group()/@*/local-name())">
-                                <xsl:attribute name="{.}">
-                                    <xsl:value-of select="current-group()//attribute::*[local-name() = .][1]"/>
-                                </xsl:attribute>
+                                <xsl:choose>
+                                    <xsl:when test=". eq 'rend' or . eq 'space'"/>
+                                    <xsl:otherwise>
+                                        <xsl:attribute name="{.}">
+                                            <xsl:value-of select="current-group()/@*[local-name() = .][1]"/>
+                                        </xsl:attribute>
+                                    </xsl:otherwise>
+                                </xsl:choose>
                             </xsl:for-each>
                             <xsl:apply-templates select="current-group()/node()" mode="#current"/>
                         </xsl:element>
@@ -395,25 +541,98 @@
     
     
     <xsl:template match="tei:div[@type = 'commentary']/tei:p" mode="parseCommentary">
-        <xsl:if test="not(node()[1]/self::tei:hi/@rend = 'italic' and node()[2] instance of text())">
+        <xsl:if test="not(node()[1]/self::tei:hi[starts-with(@rend, 'KommentarGesperrt')]) and not(node()[1]/self::tei:hi/@rend = 'italic' and node()[2] instance of text() or node()[2]/self::tei:hi[@rend = 'Edition_Kommentar_Char'])">
             <xsl:message terminate="no" select="."/>
             <xsl:message terminate="yes">Unexpected Structure of commentary</xsl:message>
         </xsl:if>
         <xsl:for-each-group select="node()" group-starting-with="tei:hi[@rend = 'italic']">
+            <xsl:variable name="next-group" select="following-sibling::tei:hi[@rend = 'italic' or starts-with(@rend, 'KommentarGesperrt')][1]"/>
             <note>
-                <xsl:apply-templates select="current-group()" mode="#current"/>
+                <xsl:variable name="ref">
+                    <xsl:analyze-string select="current-group()[1]" regex="^\s*&lt;\s*(\d+)\s*&gt;">
+                        <xsl:matching-substring>
+                            <xsl:value-of select="regex-group(1)"/>
+                        </xsl:matching-substring>
+                    </xsl:analyze-string>
+                </xsl:variable>
+                <xsl:variable name="label">
+                    <xsl:analyze-string select="current-group()[1]" regex="^(\s*&lt;\s*(\d+)\s*&gt;\s*)?(.+?):">
+                        <xsl:matching-substring>
+                            <xsl:value-of select="regex-group(3)"/>
+                        </xsl:matching-substring>
+                        <!--<xsl:non-matching-substring>
+                            <xsl:if test="exists($next-group)">
+                                <xsl:analyze-string select="$next-group" regex="^(\s*&lt;\s*(\d+)\s*&gt;\s*)?(.+):">
+                                    <xsl:matching-substring>
+                                        <xsl:value-of select="."/>
+                                    </xsl:matching-substring>
+                                </xsl:analyze-string>
+                            </xsl:if>
+                        </xsl:non-matching-substring>-->
+                    </xsl:analyze-string>
+                </xsl:variable>
+                <xsl:if test="$ref != ''">
+                    <ref><xsl:value-of select="$ref"/></ref>
+                </xsl:if>
+                <xsl:if test="$label = ''">
+                    <xsl:message select="current-group()"/>
+                    <xsl:message select="parent::*"/>
+                    <xsl:message terminate="yes">No Lemma found</xsl:message>
+                </xsl:if>
+                <label><xsl:value-of select="$label"/></label>
+                <xsl:sequence select="current-group()[position() gt 1]"/>
             </note>
         </xsl:for-each-group> 
     </xsl:template>
-    
-    <xsl:template match="tei:hi[@rend = 'italic'][ancestor::tei:div[@type = 'commentary']]" mode="parseCommentary">
+    <xsl:template match="tei:div[@type = 'commentary']/tei:p/*[1][self::tei:hi[starts-with(@rend, 'KommentarGesperrt')]][matches(*[1]/self::tei:hi[@rend = 'italic'],'&lt;\d&gt;.+:')]" mode="parseCommentary" priority="1">
+        <xsl:apply-templates mode="#current"/>
+    </xsl:template>
+    <xsl:template match="tei:div[@type = 'commentary']/tei:p/*[1][self::tei:hi[@rend = 'italic' or starts-with(@rend,'KommentarGesperrt')]]" mode="parseCommentary">
         <xsl:variable name="note" select="parent::tei:p"/>
-        <xsl:analyze-string select="." regex="^\s*(&lt;(\d+)&gt;\s)?(.+):\s*$">
+        <xsl:choose>
+            <!-- entweder spitzklammernangabe und lemma stehen in einem hi/@rend = 'italic',
+                 dann wird das hier aufgesplittet -->
+            <xsl:when test="self::tei:hi[@rend = 'italic']">
+                <xsl:analyze-string select="." regex="^\s*(&lt;(\d+)&gt;\s*)?(.+):\s*$">
+                    <xsl:matching-substring>
+                        <xsl:if test="regex-group(1) != ''">
+                            <ref><xsl:value-of select="regex-group(2)"/></ref>
+                        </xsl:if>
+                        <label><xsl:value-of select="regex-group(3)"/></label>
+                    </xsl:matching-substring>
+                    <xsl:non-matching-substring>
+                        <unparsable xmlns="" element="commentary/hi"><xsl:value-of select="."/></unparsable>
+                        <xsl:message>Note contains unparsable content</xsl:message>
+                        <xsl:message select="."/>
+                        <xsl:message terminate="yes" select="$note"/>
+                    </xsl:non-matching-substring>
+                </xsl:analyze-string>
+            </xsl:when>
+            <!-- oder die spitzklammerangabe steht in hi/@rend = 'KommentarGesperrt...', 
+                 dann steht das Lemma in einem eigenen hi/@rend = 'italic' und wird vom folgenden Template behandelt -->
+            <xsl:otherwise>
+                <xsl:analyze-string select="." regex="^\s*&lt;(\d+)&gt;\s*">
+                    <xsl:matching-substring>
+                        <ref><xsl:value-of select="regex-group(1)"/></ref>
+                    </xsl:matching-substring>
+                    <xsl:non-matching-substring>
+                        <unparsable xmlns="" element="commentary/hi"><xsl:value-of select="."/></unparsable>
+                        <xsl:message>Note contains unparsable content</xsl:message>
+                        <xsl:message select="."/>
+                        <xsl:message terminate="yes" select="$note"/>
+                    </xsl:non-matching-substring>
+                </xsl:analyze-string>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
+    <!-- wenn die SPitzklammerangabe in hi/@rend = 'KommentarGesperrt...' steht, ist das lemma in einem 
+         hi/@rend = 'italic' dahinter -->
+    <xsl:template match="tei:div[@type = 'commentary']/tei:p/*[2][preceding-sibling::*[1]/self::tei:hi[starts-with(@rend,'KommentarGesperrt')]][@rend = 'italic']" mode="parseCommentary">
+        <xsl:variable name="note" select="parent::tei:p"/>
+        <xsl:analyze-string select="." regex="^(.+):\s*$">
             <xsl:matching-substring>
-                <xsl:if test="regex-group(1) != ''">
-                    <ref><xsl:value-of select="regex-group(2)"/></ref>
-                </xsl:if>
-                <label><xsl:value-of select="regex-group(3)"/></label>
+                <label><xsl:value-of select="regex-group(1)"/></label>
             </xsl:matching-substring>
             <xsl:non-matching-substring>
                 <unparsable xmlns="" element="commentary/hi"><xsl:value-of select="."/></unparsable>
@@ -422,6 +641,18 @@
                 <xsl:message terminate="yes" select="$note"/>
             </xsl:non-matching-substring>
         </xsl:analyze-string>
+    </xsl:template>
+    
+    <xsl:template match="tei:hi[@rend = 'italic']" mode="parseCommentary" priority="1">
+        <xsl:param name="lemma" tunnel="yes"/>
+        <xsl:choose>
+            <xsl:when test=". = $lemma">
+                <label><xsl:value-of select="."/></label>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:next-match/>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     
     <xsl:template match="tei:div[@type = 'commentary']/tei:p/text()" mode="parseCommentary">
@@ -513,10 +744,10 @@
                                     <xsl:when test="matches(.,'(Wohl |Möglicherweise )?[vV]ersendet bis .+ mit\s|(Wohl |Möglicherweise )?[vV]ersendet von .+ (bis|nach) .+ mit\s')">
                                         <xsl:text>sentWith</xsl:text>
                                     </xsl:when>
-                                    <xsl:when test="position() le 2 and xs:integer($this) lt $letter-no">
+                                    <xsl:when test="position() le 2 and xs:integer(replace($this,'[a-z]$','')) lt $letter-no">
                                         <xsl:text>prev</xsl:text>
                                     </xsl:when>
-                                    <xsl:when test="position() le 2 and xs:integer($this) gt $letter-no">
+                                    <xsl:when test="position() le 2 and xs:integer(replace($this,'[a-z]$','')) gt $letter-no">
                                         <xsl:text>next</xsl:text>
                                     </xsl:when>
                                     <xsl:otherwise>
@@ -747,6 +978,9 @@
                     <xsl:text>(\s|$)</xsl:text>
                 </xsl:variable>
                 <xsl:choose>
+                    <xsl:when test="not(exists($sender)) and not(exists($recipient))">
+                        <xsl:value-of select="."/>
+                    </xsl:when>
                     <xsl:when test="count(($senderAbbr, $recipientAbbr)[. != '']) ge 1">
                         <xsl:variable name="role">
                             <xsl:choose>
@@ -851,7 +1085,7 @@
     </xsl:template>
     
     <xsl:template match="@when[matches(., '&lt;\s\d{4,4}-\d{2,2}-\d{2,2}')]" mode="correctDates">
-        <xsl:attribute name="notBefore"><xsl:value-of select="substring-after(., '&lt; ')"/></xsl:attribute>
+        <xsl:attribute name="notAfter"><xsl:value-of select="substring-after(., '&lt; ')"/></xsl:attribute>
     </xsl:template>
     
     
@@ -863,10 +1097,10 @@
             <xsl:if test="matches(root()/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type = 'main'],'LE\s\d+')">
                 <xsl:analyze-string select="root()/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type = 'main']" regex="LE\s+(\d+)">
                     <xsl:matching-substring>
-                        <relatedItem type="inferedFrom">
+                        <relatedItem type="instanceOf">
                             <bibl>
                                 <author>Bernhard Pez</author>
-                                <title>Littera encyclica <xsl:value-of select="regex-group(1)"/></title>
+                                <title>Litterae encyclicae <xsl:value-of select="regex-group(1)"/></title>
                             </bibl>
                         </relatedItem>
                     </xsl:matching-substring>
