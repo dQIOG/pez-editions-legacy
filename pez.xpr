@@ -6642,6 +6642,64 @@ return </String>
                                                         <Boolean>false</Boolean>
                                                     </field>
                                                 </action>
+                                                <action>
+                                                    <field name="id">
+                                                        <String>msIndexLink.hinzufügen</String>
+                                                    </field>
+                                                    <field name="name">
+                                                        <String>Link zu Manuskript-Registereintrag hinzufügen</String>
+                                                    </field>
+                                                    <field name="description">
+                                                        <String></String>
+                                                    </field>
+                                                    <field name="largeIconPath">
+                                                        <String></String>
+                                                    </field>
+                                                    <field name="smallIconPath">
+                                                        <String></String>
+                                                    </field>
+                                                    <field name="accessKey">
+                                                        <String></String>
+                                                    </field>
+                                                    <field name="accelerator">
+                                                        <String>ctrl shift M</String>
+                                                    </field>
+                                                    <field name="actionModes">
+                                                        <actionMode-array>
+                                                            <actionMode>
+                                                                <field name="xpathCondition">
+                                                                    <String></String>
+                                                                </field>
+                                                                <field name="argValues">
+                                                                    <serializableOrderedMap>
+                                                                        <entry>
+                                                                            <String>URL</String>
+                                                                            <String>${pdu}/102_derived_tei/102_02_extracted_index_entries/index-ms-vol2-noNS.xml</String>
+                                                                        </entry>
+                                                                        <entry>
+                                                                            <String>element</String>
+                                                                            <String>"&lt;rs xmlns='http://www.tei-c.org/ns/1.0' type='manuscript' key='msIndex:" + @id + "'>&lt;/rs>"</String>
+                                                                        </entry>
+                                                                        <entry>
+                                                                            <String>expression</String>
+                                                                            <String>//settlement+", "+//institution+", "+//idno</String>
+                                                                        </entry>
+                                                                        <entry>
+                                                                            <String>node</String>
+                                                                            <String>//msDesc</String>
+                                                                        </entry>
+                                                                    </serializableOrderedMap>
+                                                                </field>
+                                                                <field name="operationID">
+                                                                    <String>org.bbaw.telota.ediarum.InsertRegisterOperation</String>
+                                                                </field>
+                                                            </actionMode>
+                                                        </actionMode-array>
+                                                    </field>
+                                                    <field name="enabledInReadOnlyContext">
+                                                        <Boolean>false</Boolean>
+                                                    </field>
+                                                </action>
                                             </action-array>
                                         </field>
                                         <field name="menubarDescriptor">
