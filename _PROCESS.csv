@@ -36,3 +36,15 @@ INDEX-VOL2	3	102_01_derived_by_TEI_scripts\07_Register_Endphase_schwarz-TEI-P5.x
 INDEX-MERGE	1	102_02_extracted_index_entries\Pez_Register_Bd1.xml + 102_02_extracted_index_entries\Pez_Register_Bd2.xml	TEI / TEI	082_scripts_xsl\mergeIndexes.xsl	p	102_02_extracted_index_entries\Pez_Register_merged.xml
 PERSONS-ENTITYLINKING	1	001_src\2016-03-21_Institutionen-Personen.xlsx	XLSX / TEI	http://www.tei-c.org/oxgarage/	p	001_src\2016-03-21_Institutionen-Personen.xml
 PERSON-IMAGE-RELATIONS	1	001_src\UNIDAM-Exporte\BildPersonen.xml	XML / XML	083_scripts_xquery\BildPersonen2PersonBilder.xql	p	101_derived\PersonBilder.xml
+# Citation, sayings etc.
+INDEX-CIT1	1	102_01_derived_by_TEI_scripts\Register_20090805-TEI-P5.xml	TEI / TEI	082_scripts_xsl\tei2citIndex.xsl	102_02_extracted_index_entries\index-cits1.xml
+INDEX-CIT2	1	102_01_derived_by_TEI_scripts\07_Register_Endphase_schwarz-TEI-P5.xml	TEI / TEI	082_scripts_xsl\tei2citIndex.xsl	102_02_extracted_index_entries\index-cits2.xml
+
+# Manuscripts Index
+# no index of mentioned manuscripts in vol 1 (?)
+MSINDEX-VOL2	1	102_01_derived_by_TEI_scripts/07_Register_Endphase_schwarz-TEI-P5.xml	TEI / TEI	082_scripts_xsl\tei2msIndex.xsl	p	102_02_extracted_index_entries\index-ms-vol2.xml
+# Appendix: Bibliography of cited Sources
+BIBL-SRCS1	1	102_01_derived_by_TEI_scripts\Bd1_Bibliographie_formatiert_20090731-TEI-P5.xml	TEI / TEI	p	082_scripts_xsl\source-appendix2tei.xsl	102_04_auxiliary_files/bibl_sources1.xml
+BIBL-SRCS2	1	001_src/06a_Quellenverzeichnis_Endphase_schwarz.doc	DOC / DOCX	DOXC export via MS Word	p	001_src/06a_Quellenverzeichnis_Endphase_schwarz.docx
+BIBL-SRCS2	2	001_src/06a_Quellenverzeichnis_Endphase_schwarz.docx	DOCX / TEI	DOCX to TEI via Oxygen 	p	102_01_derived_by_TEI_scripts/06a_Quellenverzeichnis_Endphase_schwarz-TEI-P5.xml
+BIBL-SRCS2	3	102_01_derived_by_TEI_scripts/06a_Quellenverzeichnis_Endphase_schwarz-TEI-P5.xml	TEI / TEI 	p	082_scripts_xsl\source-appendix2tei.xsl	102_04_auxiliary_files/bibl_sources2.xml
