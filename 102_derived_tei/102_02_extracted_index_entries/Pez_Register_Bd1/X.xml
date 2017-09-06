@@ -1,54 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="../index.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main">Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715 - Register</title><title type="sub">X</title><editor>
-               <persName xml:id="tw">
-                  <forename>Thomas</forename>
-                  <surname>Wallnig</surname>
-               </persName>
-            </editor><editor>
-               <persName xml:id="ts">
-                  <forename>Thomas</forename>
-                  <surname>Stockinger</surname>
-               </persName>
-            </editor><editor>
-               <persName xml:id="pf">
-                  <forename>Patrick</forename>
-                  <surname>Fiska</surname>
-               </persName>
-            </editor><respStmt>
-               <resp>Conversion to TEI</resp>
-               <persName xml:id="ds">
-                  <forename>Daniel</forename>
-                  <surname>Schopper</surname>
-               </persName>
-            </respStmt></titleStmt><publicationStmt>
-            <p>Internal intermediate stage in the conversion process, not to be published.</p>
-         </publicationStmt><sourceDesc>
-            <p>Converted from 001_src/Register_20090805.doc by the TEI DocX XSL stylesheets and upconverted with 082_scripts_xsl/register2tei.xsl.</p>
-         </sourceDesc></fileDesc><encodingDesc>
-         <appInfo>
-            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
-               <label>DOCX to TEI</label>
-            </application>
-         </appInfo>
-      </encodingDesc><revisionDesc>
-         <listChange>
-            <change who="#ds" when="2016-02-23">Converstion to basic TEI</change>
-            <change who="#ds" when="2016-03-22">upconversion to structured index</change>
-            <change who="#ds" when="2016-04-13">adding TEI header</change>
-            <change who="#ds" when="2016-12-19">fixing https://redmine.acdh.oeaw.ac.at/issues/7515</change>
-         </listChange>
-      </revisionDesc></teiHeader><text><body><list n="1"><head>X</head><item xml:id="d10854e35023">
-               <term>Xanthopulos, Nikephoros Kallistos</term>
-               <note>† nach 1328, byzantinischer Kirchenschriftsteller</note>
-               <list type="indexEntry" n="2">
-                  <item xml:id="d10854e35029">
-                     <term>Kirchengeschichte</term>
-                     <list type="indexEntry" n="3">
-                        <item xml:id="d10854e35033">
-                           <term>Ms. Wien</term>
-                           <note>heute ÖNB Hist. gr. 8</note>
-                           <ref type="letter">360</ref>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader/>
+    <text>
+        <body>
+            <list n="1">
+                <head>X</head>
+                <item ana="indextypes:person" status="checked" xml:id="d10854e35023">
+                    <term>Xanthopulos, Nikephoros Kallistos</term>
+                    <note>† nach 1328, byzantinischer Kirchenschriftsteller</note>
+                    <list type="indexEntry" n="2">
+                        <item ana="indextypes:work" status="checked" xml:id="d10854e35029">
+                            <term>Kirchengeschichte</term>
+                            <note/>
+                            <list type="indexEntry" n="3">
+                                <item ana="indextypes:manuscript" status="checked" xml:id="d10854e35033">
+                                    <term>Ms. Wien</term>
+                                    <note>heute ÖNB Hist. gr. 8</note>
+                                    <ref type="letter">360</ref>
+                                </item>
+                            </list>
                         </item>
-                     </list>
-                  </item>
-               </list>
-            </item></list></body></text></TEI>
+                    </list>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

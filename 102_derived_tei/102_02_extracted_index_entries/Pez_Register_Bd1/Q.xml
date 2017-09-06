@@ -1,63 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="../index.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main">Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715 - Register</title><title type="sub">Q</title><editor>
-               <persName xml:id="tw">
-                  <forename>Thomas</forename>
-                  <surname>Wallnig</surname>
-               </persName>
-            </editor><editor>
-               <persName xml:id="ts">
-                  <forename>Thomas</forename>
-                  <surname>Stockinger</surname>
-               </persName>
-            </editor><editor>
-               <persName xml:id="pf">
-                  <forename>Patrick</forename>
-                  <surname>Fiska</surname>
-               </persName>
-            </editor><respStmt>
-               <resp>Conversion to TEI</resp>
-               <persName xml:id="ds">
-                  <forename>Daniel</forename>
-                  <surname>Schopper</surname>
-               </persName>
-            </respStmt></titleStmt><publicationStmt>
-            <p>Internal intermediate stage in the conversion process, not to be published.</p>
-         </publicationStmt><sourceDesc>
-            <p>Converted from 001_src/Register_20090805.doc by the TEI DocX XSL stylesheets and upconverted with 082_scripts_xsl/register2tei.xsl.</p>
-         </sourceDesc></fileDesc><encodingDesc>
-         <appInfo>
-            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
-               <label>DOCX to TEI</label>
-            </application>
-         </appInfo>
-      </encodingDesc><revisionDesc>
-         <listChange>
-            <change who="#ds" when="2016-02-23">Converstion to basic TEI</change>
-            <change who="#ds" when="2016-03-22">upconversion to structured index</change>
-            <change who="#ds" when="2016-04-13">adding TEI header</change>
-            <change who="#ds" when="2016-12-19">fixing https://redmine.acdh.oeaw.ac.at/issues/7515</change>
-         </listChange>
-      </revisionDesc></teiHeader><text><body><list n="1"><head>Q</head><item xml:id="d10854e25175">
-               <term>Quedlinburg</term>
-               <note>Stadt im Landkreis Harz, Sachsen-Anhalt</note>
-               <ref type="letter">299</ref>
-            </item><item xml:id="d10854e25182">
-               <term>Querini, Angelo Maria</term>
-               <note>1680–1755, OSB S. Maria zu Florenz, Bischof von Brescia 1723–1755, Kardinal, Gelehrter und Wissenschaftsorganisator</note>
-               <ref type="letter">205</ref>
-            </item><item xml:id="d10854e25189">
-               <term>Quesnel, Pasquier</term>
-               <note>1634–1719, Oratorianer, Theologe, Jansenist</note>
-               <ref type="letter">359</ref>
-               <ref type="letter">391</ref>
-               <ref type="letter">411</ref>
-            </item><item xml:id="d10854e25219">
-               <term>Quirinus von Tegernsee, Hl</term>
-               <note>† 268/270, römischer Märtyrer, der Tegernseer Tradition zufolge Sohn des Kaisers Philippus Arabs</note>
-               <ref type="letter">255</ref>
-               <ref type="letter">453</ref>
-               <list type="indexEntry" n="2">
-                  <item xml:id="d10854e25229">
-                     <term>Vide Millon, Vitae</term>
-                  </item>
-               </list>
-            </item></list></body></text></TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader/>
+    <text>
+        <body>
+            <list n="1">
+                <head>Q</head>
+                <item ana="" status="checked" xml:id="d10854e25182">
+                    <term>Querini, Angelo Maria</term>
+                    <note>1680–1755, OSB S. Maria zu Florenz, Bischof von Brescia 1723–1755, Kardinal, Gelehrter und Wissenschaftsorganisator</note>
+                </item>
+                <item ana="" status="checked" xml:id="d10854e25189">
+                    <term>Quesnel, Pasquier</term>
+                    <note>1634–1719, Oratorianer, Theologe, Jansenist</note>
+                </item>
+                <item ana="" status="checked" xml:id="d10854e25219">
+                    <term>Quirinus von Tegernsee, Hl</term>
+                    <note>† 268/270, römischer Märtyrer, der Tegernseer Tradition zufolge Sohn des Kaisers Philippus Arabs</note>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>
