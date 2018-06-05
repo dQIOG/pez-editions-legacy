@@ -63,7 +63,7 @@
       </profileDesc>
       <revisionDesc>
          <listChange>
-            <change type="creation" who="#{$user}" when="${xpath_eval(current-dateTime())}">Created TEI dokument.</change>
+            <change type="creation" who="#${redmine-user}" when="${xpath_eval(current-dateTime())}">Created TEI dokument.</change>
          </listChange>
       </revisionDesc>
    </teiHeader>
