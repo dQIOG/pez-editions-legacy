@@ -20,6 +20,9 @@
             <xsl:when test="exists($md//*[local-name() = $aspect])">
                 <xsl:value-of select="$md//*[local-name() = $aspect]"/>
             </xsl:when>
+            <xsl:when test="exists($md//relation[relation_type = $aspect])">
+                <xsl:value-of select="$md//relation[relation_type = $aspect]/issue_to_id"/>
+            </xsl:when>
             <xsl:when test="exists($md//custom_field[@name = $aspect])">
                 <xsl:variable name="field" select="$md//custom_field[@name = $aspect]"/>
                 <xsl:sequence select="if ($field/@multiple = 'true') then $field/value/value else $field/value"/>
@@ -102,7 +105,7 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="t:msIdentifier/t:idno[@type = 'signature']">
+    <xsl:template match="t:sourceDesc/t:p">
         <xsl:param name="md" tunnel="yes"/>
         <xsl:variable name="signatur" select="_:get-md($md, 'Signatur')"/>
         <xsl:choose>
@@ -164,6 +167,7 @@
         <xsl:param name="md" tunnel="yes"/>
         <xsl:variable name="nextLetter" select="_:get-md($md,'precedes')"/>
         <xsl:variable name="prevLetter" select="_:get-md($md,'follows')"/>
+        <xsl:message select="$md"></xsl:message>
         <xsl:if test="$nextLetter">
             <ref type="next">
                 <idno type="pezEd"><xsl:value-of select="$nextLetter"/></idno>
