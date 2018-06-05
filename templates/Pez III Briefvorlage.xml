@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a"><!-- Redmine-Field "subject" --></title>
+            <title type="sub">Digital Edition</title>
+            <principal>Thomas Wallnig</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+            <idno type="pezEd">${ask('Brief-ID')}</idno>
+         </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 3: XXXX–XXXX.</bibl>
+            </relatedItem>
+            <relatedItem type="secondaryLiterature">
+               <listBibl>
+                  <head>Literatur</head>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName></placeName>
+                  <repository></repository>
+                  <idno type="signature"><!-- Redmine-Feld "Signatur" --></idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent><!-- Redmine-Feld "size" --></extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <accMat type="attachments"><!-- Redmine-Feld "Attachments" --></accMat>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="pez">letter</classCode>
+         </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName><!-- Redmine-Feld "Sender" --></persName>
+               <date><!-- Redmine-Feld "Date" --></date>
+            </correspAction>
+            <correspAction type="received">
+               <persName><!-- Redmine-Feld "Recipient" --></persName>
+            </correspAction>
+            <correspContext>
+               <ref type="next">
+                  <idno type="pezEd"><!-- Redmine-Relation "follows" --></idno>
+               </ref>
+               <ref type="next">
+                  <idno type="pezEd"><!-- Redmine-Relation "precedes" --></idno>
+               </ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change type="creation" who="#{$user}" when="${xpath_eval(current-dateTime())}">Created TEI dokument.</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="editorialNote">
+            <div type="regest">
+               <p xml:space="preserve">REGEST</p>
+            </div>
+            <div type="remarks">
+               <p>{$remarks}</p>
+            </div>
+            <div type="address">
+               <ab>ADRESSE</ab>
+            </div>
+         </div>
+      </front>
+      <body>
+         <div type="edition">
+            <p xml:space="preserve">Editionstext....</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <!-- Kommentar -->
+         </div>
+      </back>
+   </text>
+</TEI>
