@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c xmlns:_="urn:pez"
+   xmlns="http://ead3.archivists.org/schema/"
+   xmlns:ead="http://ead3.archivists.org/schema/"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:saxon="http://saxon.sf.net/"
+   level="item"
+   id="i816">
+   <did>
+      <repository>
+         <corpname>
+            <part>Benediktinerstift Melk</part>
+            <part>Stiftsbibliothek</part>
+         </corpname>
+      </repository>
+      <unittitle>Cod. Mell. 1850: Bernhard et Hieronymus Pez, Itinerarium Bavaricum et Suevicum</unittitle>
+      <unitdate>1716 bis 1730</unitdate>
+      <didnote localtype="datenote"/>
+      <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/488103.xml"/>
+      <daoset>
+         <dao daotype="derived" coverage="whole" label="Buchdeckel vorne r" href="816/488103.tif"/>
+         <dao daotype="derived" coverage="whole" label="Einlageblatt vorne av" href="816/488110.tif"/>
+         <dao daotype="derived" coverage="whole" label="Einlageblatt vorne br" href="816/488111.tif"/>
+         <dao daotype="derived" coverage="whole" label="Einlageblatt vorne bv" href="816/488112.tif"/>
+         <dao daotype="derived" coverage="whole" label="Einlageblatt vorne r" href="816/488105.tif"/>
+         <dao daotype="derived" coverage="whole" label="Einlageblatt vorne v" href="816/488106.tif"/>
+         <dao daotype="derived" coverage="whole" label="Titelblatt vorne ar" href="816/488115.tif"/>
+         <dao daotype="derived" coverage="whole" label="Titelblatt vorne av" href="816/488116.tif"/>
+         <dao daotype="derived" coverage="whole" label="Titelblatt vorne r" href="816/488113.tif"/>
+         <dao daotype="derived" coverage="whole" label="Titelblatt vorne v" href="816/488114.tif"/>
+         <dao daotype="derived" coverage="whole" label="" href="816/488158.tif"/>
+         <dao daotype="derived" coverage="whole" label="" href="816/488941.tif"/>
+         <dao daotype="derived" coverage="whole" label="" href="816/488925.tif"/>
+         <dao daotype="derived" coverage="whole" label="" href="816/488200.tif"/>
+      </daoset>
+   </did>
+
+
+
+
+
+
+
+
+   <controlaccess>
+      <head>Kategorie</head>
+      <genreform>
+         <part>Handschrift</part>
+      </genreform>
+   </controlaccess>
+
+
+
+   <controlaccess>
+      <head>Personen</head>  
+      <persname relator="Urheber">
+         <part localtype="name">Pez</part>
+         <part localtype="vorname">Bernhard</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name">Pez</part>
+         <part localtype="vorname">Hieronymus</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name">Mayer</part>
+         <part localtype="vorname">Theodor</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name">Gottlieb</part>
+         <part localtype="vorname">Theodor</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Schachinger</part>
+         <part localtype="vorname">Eduard</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name">Böckhn</part>
+         <part localtype="vorname">Placidus</part>
+      </persname>
+   </controlaccess>
+   <controlaccess>
+      <head>Regionen</head>
+      <geogname>
+         <part>Österreich</part>
+      </geogname>
+      <geogname>
+         <part>Deutschland</part>
+      </geogname>
+   </controlaccess>
+
+   <controlaccess>
+      <head>Institutionen</head>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Österreichische Kongregation</part>
+         <part>Melk</part>
+      </corpname>
+      <corpname>
+         <part>weltliche</part>
+         <part>Wien - Hof</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Augustiner-Chorherren</part>
+         <part>Klosterneuburg</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Kartäuser</part>
+         <part>Mauerbach</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Mariazell in Österreich</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Augustiner-Chorherren</part>
+         <part>St. Pölten</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Augustiner-Chorherren</part>
+         <part>Herzogenburg</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Österreichische Kongregation</part>
+         <part>Altenburg</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Kartäuser</part>
+         <part>Aggsbach</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Österreichische Kongregation</part>
+         <part>Seitenstetten</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Säkularklerus</part>
+         <part>Spital am Pyhrn - Kollegiatstift</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Österreichische Kongregation</part>
+         <part>Garsten</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Österreichische Kongregation</part>
+         <part>Gleink</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Augustiner-Chorherren</part>
+         <part>St. Florian</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Österreichische Kongregation</part>
+         <part>Göttweig</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Zisterzienser</part>
+         <part>Baumgartenberg</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Österreichische Kongregation</part>
+         <part>Lambach</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Zisterzienser</part>
+         <part>Lilienfeld</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Zisterzienser</part>
+         <part>Zwettl</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Bayerische Kongregation</part>
+         <part>Tegernsee</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Bayerische Kongregation</part>
+         <part>Weihenstephan</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Säkularklerus</part>
+         <part>Freising - Bistum</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Oberschwäbische Kongregation</part>
+         <part>Ottobeuren</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Füssen - St. Mang</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Bayerische Kongregation</part>
+         <part>Wessobrunn</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Prämonstratenser</part>
+         <part>Windberg</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Zisterzienser</part>
+         <part>Aldersbach</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Bayerische Kongregation</part>
+         <part>Oberaltaich</part>
+      </corpname>
+      <corpname>
+         <part>weltliche</part>
+         <part>München - Kurfürstliche Bibliothek</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Salzburgische Kongregation</part>
+         <part>Salzburg - St. Peter</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Säkularklerus</part>
+         <part>Salzburg - Erzbistum</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Augustiner-Chorherren</part>
+         <part>Beyharting</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Bayerische Kongregation</part>
+         <part>Rott am Inn</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Vornbach</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Bayerische Kongregation</part>
+         <part>Andechs</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Bayerische Kongregation</part>
+         <part>Regensburg - St. Emmeram</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Augsburg - St. Ulrich und Afra</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Säkularklerus</part>
+         <part>Augsburg - Domkapitel</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Augustiner-Chorherren</part>
+         <part>Polling</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Österreichische Kongregation</part>
+         <part>St. Lambrecht</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Bayerische Kongregation</part>
+         <part>Attel</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Salzburgische Kongregation</part>
+         <part>Seeon</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Bayerische Kongregation</part>
+         <part>Benediktbeuern</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Bayerische Kongregation</part>
+         <part>Thierhaupten</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Bayerische Kongregation</part>
+         <part>Scheyern</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Irsee</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Oberschwäbische Kongregation</part>
+         <part>Zwiefalten</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Österreichische Kongregation</part>
+         <part>Mondsee</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Metten</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Österreichische Kongregation</part>
+         <part>Kremsmünster</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Augustiner-Chorherren</part>
+         <part>Pernegg</part>
+      </corpname>
+   </controlaccess>
+
+   <relatedmaterial>
+      <head>Pez-Briefe im direkten Zusammenhang mit dem Stück</head>
+      <list>
+         <head>Böckhn an BP:</head>
+         <item>
+            <ref href="pezEd:637">1716-08-20</ref>; <ref href="pezEd:649 pezEd:650">1716-09-11</ref> (Abschriften)</item>
+      </list>
+   </relatedmaterial>
+   <scopecontent>
+      <head>Beschreibung</head>
+      <p>Cod. 1850 besteht aus zahlreichen Faszikeln unterschiedlicher Größe, Hand BP und HP, vereinzelt auch von anderen Händen (vermutlich Briefbeilagen verschiedener Korrespondenten), meist halbbrüchig geschrieben. Die Zuweisung der Notizen zu den einzelnen besuchten Bibliotheken ist meist auf der ersten Rectoseite der Faszikel eingetragen, meist Hand BP, HP, aber auch von späterer Hand (Mayer ?). Zu einer Übersicht über das "Itinerarium" vgl. Karton 7 Patres 9, Fasz. 2, Nr. 54. Getrennte Foliierungen, gültig ist die durchgehende jüngste Foliierung mit blauem Farbstift. Beilage: Theodor Gottlieb, Brief an Eduard Schachinger (1913-06-30, Wien [Original]) zum "Itinerarium". 1r–493v: BP, HP, "Itinerarium Bavaricum et Suevicum". Die Reiseberichte betreffen zahlreiche Bibliotheken Österreichs und Süddeutschlands, die in der Folge aufgelistet werden, in Klammern folgen die Drucknachweise der Reiseberichte in BP, Thesaurus (vgl. Literaturfeld). Bei Glassner keine Nummerierung.  Es handelt sich bei dem Codex um eine Sammlung von Handschriftennotizen, die die Brüder auf ihren Klosterreisen 1716 und 1717 anlegten. Die eingeführte und hier beibehaltene Bezeichnung "Itinerarium" ist insofern irreführend, als BP 1717/1718 von diesen Handschriftennotizen als "nostra excerpta" spricht, während er mit der zeitgleich verwendeten Bezeichnung "Itinerarium" auf einen künftig zu publizierenden Reisebericht anspielt, der wohl in der "Dissertatio isagogica" zu TAN 1 seine Realisierung gefunden haben dürfte.</p>
+      <list listtype="ordered">
+         <item>(1r–14v) Klosterneuburg, </item>
+         <item>(15r–16v) Mauerbach, </item>
+         <item>(17r–26r) Mariazell in Österreich [Kleinmariazell], </item>
+         <item>(27r–29r) St. Pölten,</item>
+         <item>(30r–31r) Herzogenburg, </item>
+         <item>(32r–35v) Altenburg ("dat. 1716" auf 33r u. 35v), </item>
+         <item>(36r–41v) Aggsbach, </item>
+         <item>(42r–43v) Seitenstetten, </item>
+         <item>(44r–v) Spital am Pyhrn ("mihi commodato dat. 1730" auf 44r, von anderer Hand), </item>
+         <item>(45r–46r) Garsten, </item>
+         <item>(46r–47r) Gleink, </item>
+         <item>(47r–55v) St. Florian, </item>
+         <item>(56r–66v) Göttweig, </item>
+         <item>(67r–v) Seitenstetten, </item>
+         <item>(67v–68r) Garsten, </item>
+         <item>(68v–70ar) Baumgartenberg, </item>
+         <item>(71r–72r) Mauerbach, </item>
+         <item>(73r–74v) Lambach (Pez, TA I, III), </item>
+         <item>(74ar–v) Pernegg, </item>
+         <item>(75r–82r) Lilienfeld, </item>
+         <item>(83r–104ar) Zwettl ("dat. 1716" auf 96r), </item>
+         <item>(105r–156v) Tegernsee ("dat. 1717" auf 105r, u. ö.: 111r, 113r, 115r, 117r, 119r, 121r, 122r, 126r, 145r, 155r) (Pez TA I, XII–XVI), </item>
+         <item>(157r–160v) Aggsbach ("dat. 3.12.1728" auf 158r), </item>
+         <item>(161r–163v) Weihenstephan ("dat. 1717" auf 161r u. 163r), </item>
+         <item>(164r–164ar) Freising ("dat. 1717" auf 164r) (Pez, TA I, XXVI–XXVIII), </item>
+         <item>(165r–172av) Weihenstephan ("dat. 1717" auf 165r) (TA I, XXIV–XXVI), </item>
+         <item>(173r–175v, 184r–v) Ottobeuren, </item>
+         <item>(176r–183r) Füssen, </item>
+         <item>(185r–203v) Wessobrunn ("dat. 17172 auf 185r, 186r und 194r) (Pez, TA I, XIX–XXII), </item>
+         <item>(204r–206v) Windberg (Pez, TA I, XLVII f.), </item>
+         <item>(207r–216r) Aldersbach ("dat. 29. Nov. 1728" auf 215r), </item>
+         <item>(217r–220r) Oberaltaich (Pez, TA I, XLIV–XLVII), </item>
+         <item>(221r–226v) München, Bibliothek des bayrischen Kurfürsten (Pez, TA I, XXII–XXIV), </item>
+         <item>(227r–252r) Salzburg, St. Peter ("dat. 1717" auf 227r, 231r, 233r, 235r, 239r) (Pez, TA I, V–VIII), </item>
+         <item>(253r–287v) Salzburg, Erzbischöfliche Bibliothek (Pez, TA I, VIII), </item>
+         <item>(288r–310r) Salzburg, St. Peter ("dat. 1717" auf 288r, 290r, 296r, 301r) inkl. Katalog der Schriftsteller von St. Peter (302r–310r), </item>
+         <item>(310v–311r) Placidus Böckhn, Brief an BP (1716-08-20, Salzburg, Abschrift), </item>
+         <item>(312r–318r) Katalog der Schriftsteller von St. Peter (Fortsetzung), </item>
+         <item>(318v–319r) Placidus Böckhn, Brief an BP (1716-09-11, Salzburg, Abschrift), </item>
+         <item>(320r–320av) Beiharting OCanReg ("dat. 1717"), </item>
+         <item>(321r–325v) Rott ("dat. 1717" auf 321r) (Pez, TA I, X f.), </item>
+         <item>(326r–330r) Vornbach ("dat. 1717" auf 327v) (Pez, TA I, LIII), </item>
+         <item>(331r–335v) Andechs ("dat. 1717" auf 331r) (Pez, TA I, XXII), </item>
+         <item>(336r–362v) Regensburg, St. Emmeram ("dat. 1717" auf 353r, u. ö.) (Pez, TA I, XXXVIII–XLI, XLIV), </item>
+         <item>(363r–373v) Augsburg, St. Ulrich und Afra ("dat. 1717" auf 363r) (Pez, TA I, XXXI–XXXV), </item>
+         <item>(373ar–376v) Augsburg, Kathedralbibliothek ("dat. 15.8.1717" auf 373ar) (Pez, TA I, XXXV–XXXVII), </item>
+         <item>(377r–379v) Polling (Pez, TA I, XVII f.), </item>
+         <item>(380r–v) St. Lambrecht, </item>
+         <item>(381r–391r) Lambach ("dat. 1717" auf 390r), </item>
+         <item>(392r–394v) St. Lambrecht, Schriftstellerkatalog, </item>
+         <item>(395r–396v) Attel ("dat. 1717" auf 395r) (Pez, TA I, IX f.) (397r–398r), </item>
+         <item>Seeon (Pez, TA I, VIII f.), </item>
+         <item>(399r) München (?), </item>
+         <item>(400r–431v) Benediktbeuren ("dat. 1717" auf 405r, 417r, 426r, u. ö.) (Pez, TA I, XVI f.), </item>
+         <item>(432r–v) Thierhaupten (Pez, TA I, XXXI), </item>
+         <item>(433r–442v) Scheyern ("dat. 1717" auf 433r, u. ö.) (Pez, TA I, XXVIII–XXXI), </item>
+         <item>(443r–448v) Ottobeuren, </item>
+         <item>(449r–454r) Irsee (Ursia), </item>
+         <item>(455r–466v) Zwiefalten (darin Acta S. Trudperti ?), </item>
+         <item>(467r–487v) Mondsee ("dat. 1717" auf 467r, u. ö.) (Pez, TA I, III f.), </item>
+         <item>(488r–v) Metten (TA I, XLVIII f.), </item>
+         <item>(489r–v) Pernegg, </item>
+         <item>(490r–493v) Kremsmünster. </item>
+      </list>
+   </scopecontent>
+   <bibliography>
+      <head>Literatur</head>
+      <p>Zu Cod. 1850: Christine GLASSNER, Neuzeitliche Handschriften aus dem Nachlass der Brüder Bernhard und Hieronymus Pez in der Bibliothek des Benediktinerstiftes Melk (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 372 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe IV 7, Wien 2008); BP, Thesaurus anecdotorum novissimus, 1 (Augsburg 1721). Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu den Briefen: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. </p>
+      <list listtype="ordered">
+         <item>Zu 1): Alois HAIDINGER, Katalog der Handschriften des Augustiner Chorherrenstiftes Klosterneuburg, 1: Cod. 1–100 (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 168 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe II 2/1, Wien 1983); Alois HAIDINGER, Katalog der Handschriften des Augustiner Chorherrenstiftes Klosterneuburg, 2: Cod. 101–200 (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 225 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe II 2/2, Wien 1991); Hermann PFEIFFER–Berthold Otto ČERNÍK, Catalogus codicum manu scriptorum, qui in bibliotheca Canonicorum regularium S. Augustini Claustroneoburgi asservantur (2 Bde., Klosterneuburg 1922–1931).</item>
+         <item>Zu 2), 17): Maria MAIROLD, In Mauerbach geschrieben, in: Mauerbach und die Kartäuser (Analecta Cartusiana 110, Salzburg 1984) 18–32. </item>
+         <item>Zu 3): Peter MAIER, Mariazell, in: Germania Benedictina, 3/2: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2001) 395–448. </item>
+         <item>Zu 3), 20): Conrad SCHIMEK, Verzeichniss der Handschriften des Stiftes Lilienfeld, in: Die Handschriften-Verzeichnisse der Cistercienser-Stifte 1 (Xenia Bernardina II, Wien 1891) 481–561. </item>
+         <item>Zu 4): Gerhard WINNER, Katalog der Handschriften der Diözesanbibliothek Sankt Pölten (St. Pölten 1978). </item>
+         <item>Zu 5): Gerhard WINNER, Katalog der Handschriften der Stiftsbibliothek Herzogenburg (St. Pölten 1978). </item>
+         <item>Zu 6): Hanna EGGER, Altenburg, in: Germania Benedictina, 3/1: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2000) 213–289. </item>
+         <item>Zu 7), 23): Tabulae codicum manu scriptorum praeter graecos et orientales in Bibliotheca Palatina Vindobonensi asservatorum (10 Bde., Wien 1864–1899). </item>
+         <item>Zu 8), 14): Christine GLASSNER, Inventar der mittelalterlichen Handschriften des Benediktinerstiftes Seitenstetten. Nach dem handschriftlichen Katalog (Wien 2005); Benedikt WAGNER, Seitenstetten, in: Germania Benedictina, 3/3: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2002) 522–603.</item>
+         <item>Zu 9): Kurt HOLTER, Die mittelalterliche Bibliothek des Stiftes Spital am Pyhrn, in: Schatzhaus Kärntens. Landesausstellung St. Paul 1991. 900 Jahre Benediktinerstift, 2: Beiträge (Klagenfurt 1991) 617–639. </item>
+         <item>Zu 10), 15): Waldemar HUBER, Garsten, in: Germania Benedictina, 3/1: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2000) 501–560. </item>
+         <item>Zu 11): Peter MAIER, Gleink, in: Germania Benedictina, 3/1: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2000) 650–688. </item>
+         <item>Zu 12): Albin CZERNY, Die Handschriften der Stiftsbibliothek St. Florian. Zur achthundertjährigen Gedächtnissfeier der Übergabe des Klosters St. Florian an die regulirten Chorherrn des heil. Augustin (Linz 1871). </item>
+         <item>Zu 13): Gregor Martin LECHNER, Göttweig, in: Germania Benedictina, 3/1: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2000) 768–843. </item>
+         <item>Zu 16): Kurt HOLTER, Das mittelalterliche Skriptorium und die Bibliothek von Baumgartenberg, in: Buchkunst - Handschriften - Bibliotheken: Beiträge zur mitteleuropäischen Buchkultur vom Frühmittelalter bis zur Renaissance, hg. von Kurt HOLTER–Georg HEILINGSETZER–Winfried STELZER (2 Bde., Schriftenreihe des Oberösterreichischen Musealvereins 15/16, Linz 1996) 1170–1181. </item>
+         <item>Zu 18): Kurt HOLTER, Die Handschriften und Inkunabeln, in: Erwin HAINISCH, Österreichische Kunsttopographie, 34: Die Kunstdenkmäler des Gerichtsbezirks Lambach (Wien 1959) 213–267. </item>
+         <item>Zu 21): Charlotte ZIEGLER–Joachim RÖSSL, Zisterzienserstift Zwettl. Katalog der Handschriften des Mittelalters (Scriptorium Ordinis Cisterciensium Monasterii B. V. M. in Zwettl, 4 Bde., Wien–München 1985–1997). </item>
+         <item>Zu 22): Christine Elisabeth EDER, Die Schule des Klosters Tegernsee im frühen Mittelalter im Spiegel der Tegernseer Handschriften. SMGB 83 (1972) 6–155; Karl HALM–Friedrich KEINZ–Wilhelm MEYER–Georg THOMAS, Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis, 4/3: Catalogus codicum Latinorum Bibliothecae Regiae Monacensis. Secundum Andreae Schmelleri Indices, 2/3: Codices num. 15121–21313 complectens (München 1878); Ignaz HARDT, Catalogus codicum manuscriptorum Graecorum Bibliothecae Regiae Bavaricae, 4: Cod. 348 bis 472 (München 1810). </item>
+         <item>Zu 22), 24), 25), 29), 32), 43), 52), 53), 55)-59), 62): Josef HEMMERLE, Germania Benedictina, 2: Die Benediktinerklöster in Bayern (Augsburg 1970). </item>
+         <item>Zu 24), 26): Karl HALM–Friedrich KEINZ–Wilhelm MEYER–Georg THOMAS, Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis, 4/4: Catalogus codicum Latinorum Bibliothecae Regiae Monacensis. Secundum Andreae Schmelleri Indices, 2/4: Codices num. 21406–27268 complectens (München 1881). Zu 25): Günter GLAUCHE, Bistum Freising, in: Mittelalterliche Bibliothekskataloge Deutschlands und der Schweiz, 4: Bistümer Passau, Regensburg, Freising, Würzburg, Teil 2, hg. von Bernhard BISCHOFF (München 1979) 597–868; Elisabeth KLEMM, Katalog der illuminierten Handschriften der Bayerischen Staatsbibliothek in München, 3: Die romanischen Handschriften, Teil 2: Die Bistümer Freising und Augsburg. Verschiedene deutsche Provenienzen (2 Bde., Wiesbaden 1988). Zu 27): Hermann HAUKE, Die mittelalterlichen Handschriften in der Abtei Ottobeuren – Kurzverzeichnis (Wiesbaden 1974). </item>
+         <item>Zu 28): Günter HÄGELE, Libri sancti Magni. Die Bibliothek des Füssener Benediktinerklosters im Mittelalter. Alt Füssen. Jahrbuch des Historischen Vereins „Alt Füssen“ (1992) 78–83; Christoph ROTH, Literatur und Klosterreform. Die Bibliothek der Benediktiner von St. Mang zu Füssen im 15. Jahrhundert (Studia Augustana. Augsburger Forschungen zur europäischen Kulturgeschichte 10, Tübingen 1999). </item>
+         <item>Zu 29): Irmtraud von ANDRIAN-WERBURG, Das Bistum Augsburg, 2: Die Benediktinerabtei Wessobrunn (Germania Sacra N. F. 39, Die Bistümer der Kirchenprovinz Mainz, Berlin–New York 2001). </item>
+         <item>Zu 30): Karl HALM–Georg LAUBMANN–Wilhelm MEYER, Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis, 4/4: Catalogus codicum Latinorum Bibliothecae Regiae Monacensis. Secundum Andreae Schmelleri Indices, 2/4: Codices num. 21406–27268 complectens (München 1881). </item>
+         <item>Zu 31): Donatella FRIOLI, La grammatica della leggibilità nel manoscritto cisterciense: l'esempio di Aldersbach, in: Liturgie und Buchkunst der Zisterzienser im 12. Jahrhundert. Katalogisierung von Handschriften der Zisterzienserbibliotheken, hg. von Charlotte ZIEGLER (Frankfurt am Main et al. 2000). </item>
+         <item>Zu 32): Karl HALM–Georg LAUBMANN–Wilhelm MEYER, Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis, 4/1: Catalogus codicum Latinorum Bibliothecae Regiae Monacensis. Secundum Andreae Schmelleri Indices, 2/1: Codices num. 8101–10930 complectens (München 1874). </item>
+         <item>Zu 34), 36): Gerold HAYER–Dagmar KRATOCHWILL–Annemarie MÜHLBÖCK–Peter WIND, Die deutschen Handschriften des Mittelalters der Erzabtei St. Peter zu Salzburg (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 154 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe III 1, Wien 1982); Karl Friedrich HERMANN–Adolf HAHNL, Salzburg, St. Peter, in: Germania Benedictina, 3/3: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2002) 263–408. </item>
+         <item>Zu 35): Karl Friedrich HERMANN, Salzburg, Universität, in: Germania Benedictina, 3/3: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2002) 425–477; Beatrix KOLL, Die Handschriften des Mittelalters der Universitätsbibliothek Salzburg: Handschriftenkatalog online (http://www.ubs.sbg.ac.at/sosa/webseite/hsskat.htm). </item>
+         <item>Zu 41): Günter GLAUCHE, Rotter Handschriften im Spiegel eines wiederentdeckten mittelalterlichen Bibliothekskataloges der Abtei, in: Rott am Inn. Beiträge zur Kunst und Geschichte der ehemaligen Benediktinerabtei, hg. von Willi BIRKMAIER (Weissenhorn 1983) 23–51. </item>
+         <item>Zu 42): Stephan KELLNER, 'So vil als einem Closter anständig verhanden' - die Bibliothek von Vornbach, in: Das Kloster Vornbach: 900 Jahre benediktinische Kultur im unteren Inntal, hg. von Josef ECKL–Josef DUSCHL (Neuhaus am Inn 1994) 70–92; Helmut WAGNER, Bücher der Staatlichen Bibliothek Passau aus den ehemaligen Prälatenklöstern im niederbayerischen Teil des heutigen Bistums Passau, in: Ostbairische Grenzmarken 35 (1993) 212–233. </item>
+         <item>Zu 44): Karl HALM et. al., Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis (4 Bde., München 1873–1894); Friedrich HELMER–Hermann HAUKE–Elisabeth WUNDERLE, Catalogus codicum manu scriptorum Bibliothecae Monacensis, 4/Series Nova 2: Die Handschriften aus St. Emmeram in Regensburg, 3: Clm 14261–14400 (Wiesbaden 2011); Ingeborg NESKE, Catalogus codicum manu scriptorum Bibliothecae Monacensis, 4/Series Nova 2: Die Handschriften aus St. Emmeram in Regensburg, 2: Clm 14131–14260 (Wiesbaden 2005); Elisabeth WUNDERLE, Catalogus codicum manu scriptorum Bibliothecae Monacensis, 4/Series Nova 2: Die Handschriften aus St. Emmeram in Regensburg, 1: Clm 14000–14130 (Wiesbaden 1995). </item>
+         <item>Zu 45): Juliane TREDE–Wolf GEHRT, Die Handschriften der Staats- und Stadtbibliothek Augsburg, 8: Cod 1–232 (Wiesbaden 2011). </item>
+         <item>Zu 46): Hermann HAUKE–Anja FRECKMANN, Catalogus codicum manu scriptorum Bibliothecae Monacensis, 3/Series Nova 3: Katalog der lateinischen Handschriften der Bayerischen Staatsbibliothek München. Die Handschriften aus Augsburger Bibliotheken, 2: Dominikanerkloster Clm 3680–3686 und Domstift Clm 3701–3830 (Wiesbaden 2011). </item>
+         <item>Zu 48), 50): Benedikt PLANK, St. Lambrecht, in: Germania Benedictina, 3/2: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2001) 318–380. </item>
+         <item>Zu 49): Roland ANZENGRUBER, Lambach, in: Germania Benedictina, 3/2: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2001) 253–317. </item>
+         <item>Zu 59): Wilfried SETZLER, Zwiefalten, in: Germania Benedictina, 5: Die Benediktinerklöster in Baden-Württemberg, hg. von Franz QUARTHAL–Hansmartin DECKER-HAUFF–Klaus SCHREINER (Augsburg 1975) 680–709. </item>
+         <item>Zu 60): Georg HEILINGSETZER, Mondsee, in: Germania Benedictina, 3/2: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2001) 874–923. </item>
+         <item>Zu 63): Hauke FILL, Katalog der Handschriften des Benediktinerstiftes Kremsmünster (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 166 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe II 3, 2 Bde., Wien 1984); Kurt HOLTER, Die Bibliothek. Handschriften und Inkunabeln, in: Österreichische Kunsttopographie, 43: Die Kunstdenkmäler des Benediktinerstiftes Kremsmünster, Teil 2: Die stiftlichen Sammlungen und die Bibliothek, hg. von Eva FRODL-KRAFT–Inge HÖFER (Wien 1977) 134–220; Benedikt PITSCHMANN, Kremsmünster, in: Germania Benedictina, 3/2: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2001) 163–252.</item>
+      </list>
+   </bibliography>
+
+
+
+
+</c>

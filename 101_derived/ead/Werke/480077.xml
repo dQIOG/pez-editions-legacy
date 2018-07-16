@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c xmlns:_="urn:pez"
+   xmlns="http://ead3.archivists.org/schema/"
+   xmlns:ead="http://ead3.archivists.org/schema/"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:saxon="http://saxon.sf.net/"
+   level="item"
+   id="i799">
+   <did>
+      <repository>
+         <corpname>
+            <part>Benediktinerstift Melk</part>
+            <part>Stiftsbibliothek</part>
+         </corpname>
+      </repository>
+      <unittitle>Cod. Mell. 767: Vitae sanctorum. Fundationes monasteriorum</unittitle>
+      <unitdate>18. Jh.</unitdate>
+      <didnote localtype="datenote">Laut Glassner, Neuzeitliche Handschriften (vgl. Literaturfeld) 1. Drittel 18. Jh.</didnote>
+      <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/480077.xml"/>
+      <daoset>
+         <dao daotype="derived" coverage="whole" label="Buchdeckel vorne r" href="799/480077.tif"/>
+         <dao daotype="derived" coverage="whole" label="100r" href="799/480283.tif"/>
+         <dao daotype="derived" coverage="whole" label="100v" href="799/480284.tif"/>
+         <dao daotype="derived" coverage="whole" label="101r" href="799/480285.tif"/>
+         <dao daotype="derived" coverage="whole" label="101v" href="799/480286.tif"/>
+         <dao daotype="derived" coverage="whole" label="102r" href="799/480287.tif"/>
+         <dao daotype="derived" coverage="whole" label="102v" href="799/480288.tif"/>
+         <dao daotype="derived" coverage="whole" label="103r" href="799/480289.tif"/>
+         <dao daotype="derived" coverage="whole" label="103v" href="799/480290.tif"/>
+         <dao daotype="derived" coverage="whole" label="104r" href="799/480291.tif"/>
+         <dao daotype="derived" coverage="whole" label="104v" href="799/480292.tif"/>
+         <dao daotype="derived" coverage="whole" label="105r" href="799/480293.tif"/>
+         <dao daotype="derived" coverage="whole" label="105v" href="799/480294.tif"/>
+         <dao daotype="derived" coverage="whole" label="106r" href="799/480295.tif"/>
+         <dao daotype="derived" coverage="whole" label="106v" href="799/480296.tif"/>
+         <dao daotype="derived" coverage="whole" label="107r" href="799/480297.tif"/>
+         <dao daotype="derived" coverage="whole" label="107v" href="799/480298.tif"/>
+         <dao daotype="derived" coverage="whole" label="108r" href="799/480299.tif"/>
+         <dao daotype="derived" coverage="whole" label="108v" href="799/480300.tif"/>
+         <dao daotype="derived" coverage="whole" label="109r" href="799/480301.tif"/>
+         <dao daotype="derived" coverage="whole" label="109v" href="799/480302.tif"/>
+         <dao daotype="derived" coverage="whole" label="10r" href="799/480099.tif"/>
+         <dao daotype="derived" coverage="whole" label="10v" href="799/480100.tif"/>
+         <dao daotype="derived" coverage="whole" label="110r" href="799/480303.tif"/>
+         <dao daotype="derived" coverage="whole" label="110v" href="799/480304.tif"/>
+         <dao daotype="derived" coverage="whole" label="111r" href="799/480305.tif"/>
+         <dao daotype="derived" coverage="whole" label="111v" href="799/480306.tif"/>
+         <dao daotype="derived" coverage="whole" label="112r" href="799/480307.tif"/>
+         <dao daotype="derived" coverage="whole" label="112v" href="799/480308.tif"/>
+         <dao daotype="derived" coverage="whole" label="113r" href="799/480309.tif"/>
+         <dao daotype="derived" coverage="whole" label="113v" href="799/480310.tif"/>
+         <dao daotype="derived" coverage="whole" label="114r" href="799/480311.tif"/>
+         <dao daotype="derived" coverage="whole" label="114v" href="799/480312.tif"/>
+         <dao daotype="derived" coverage="whole" label="115r" href="799/480313.tif"/>
+         <dao daotype="derived" coverage="whole" label="115v" href="799/480314.tif"/>
+         <dao daotype="derived" coverage="whole" label="116r" href="799/480315.tif"/>
+         <dao daotype="derived" coverage="whole" label="116v" href="799/480316.tif"/>
+         <dao daotype="derived" coverage="whole" label="117r" href="799/480317.tif"/>
+         <dao daotype="derived" coverage="whole" label="117v" href="799/480318.tif"/>
+         <dao daotype="derived" coverage="whole" label="118r" href="799/480319.tif"/>
+         <dao daotype="derived" coverage="whole" label="118v" href="799/480320.tif"/>
+         <dao daotype="derived" coverage="whole" label="119r" href="799/480321.tif"/>
+         <dao daotype="derived" coverage="whole" label="119v" href="799/480322.tif"/>
+         <dao daotype="derived" coverage="whole" label="11r" href="799/480101.tif"/>
+         <dao daotype="derived" coverage="whole" label="11v" href="799/480102.tif"/>
+         <dao daotype="derived" coverage="whole" label="120r" href="799/480323.tif"/>
+         <dao daotype="derived" coverage="whole" label="120v" href="799/480324.tif"/>
+         <dao daotype="derived" coverage="whole" label="121r" href="799/480325.tif"/>
+         <dao daotype="derived" coverage="whole" label="121v" href="799/480326.tif"/>
+         <dao daotype="derived" coverage="whole" label="122r" href="799/480327.tif"/>
+         <dao daotype="derived" coverage="whole" label="122v" href="799/480328.tif"/>
+         <dao daotype="derived" coverage="whole" label="123r" href="799/480329.tif"/>
+         <dao daotype="derived" coverage="whole" label="123v" href="799/480330.tif"/>
+         <dao daotype="derived" coverage="whole" label="124r" href="799/480331.tif"/>
+         <dao daotype="derived" coverage="whole" label="124v" href="799/480332.tif"/>
+         <dao daotype="derived" coverage="whole" label="125r" href="799/480333.tif"/>
+         <dao daotype="derived" coverage="whole" label="125v" href="799/480334.tif"/>
+         <dao daotype="derived" coverage="whole" label="126r" href="799/480335.tif"/>
+         <dao daotype="derived" coverage="whole" label="126v" href="799/480336.tif"/>
+         <dao daotype="derived" coverage="whole" label="127r" href="799/480337.tif"/>
+         <dao daotype="derived" coverage="whole" label="127v" href="799/480338.tif"/>
+         <dao daotype="derived" coverage="whole" label="128r" href="799/480339.tif"/>
+         <dao daotype="derived" coverage="whole" label="128v" href="799/480340.tif"/>
+         <dao daotype="derived" coverage="whole" label="129r" href="799/480341.tif"/>
+         <dao daotype="derived" coverage="whole" label="129v" href="799/480342.tif"/>
+         <dao daotype="derived" coverage="whole" label="12r" href="799/480103.tif"/>
+         <dao daotype="derived" coverage="whole" label="12v" href="799/480104.tif"/>
+         <dao daotype="derived" coverage="whole" label="130r" href="799/480343.tif"/>
+         <dao daotype="derived" coverage="whole" label="131r" href="799/480345.tif"/>
+         <dao daotype="derived" coverage="whole" label="131v" href="799/480346.tif"/>
+         <dao daotype="derived" coverage="whole" label="131v" href="799/480344.tif"/>
+         <dao daotype="derived" coverage="whole" label="132r" href="799/480347.tif"/>
+         <dao daotype="derived" coverage="whole" label="132v" href="799/480348.tif"/>
+         <dao daotype="derived" coverage="whole" label="133r" href="799/480349.tif"/>
+         <dao daotype="derived" coverage="whole" label="133v" href="799/480350.tif"/>
+         <dao daotype="derived" coverage="whole" label="134r" href="799/480351.tif"/>
+         <dao daotype="derived" coverage="whole" label="134v" href="799/480352.tif"/>
+         <dao daotype="derived" coverage="whole" label="135r" href="799/480353.tif"/>
+         <dao daotype="derived" coverage="whole" label="135v" href="799/480354.tif"/>
+         <dao daotype="derived" coverage="whole" label="136r" href="799/480355.tif"/>
+         <dao daotype="derived" coverage="whole" label="136v" href="799/480356.tif"/>
+         <dao daotype="derived" coverage="whole" label="137r" href="799/480357.tif"/>
+         <dao daotype="derived" coverage="whole" label="137v" href="799/480358.tif"/>
+         <dao daotype="derived" coverage="whole" label="138r" href="799/480359.tif"/>
+         <dao daotype="derived" coverage="whole" label="138v" href="799/480360.tif"/>
+         <dao daotype="derived" coverage="whole" label="139r" href="799/480361.tif"/>
+         <dao daotype="derived" coverage="whole" label="139v" href="799/480362.tif"/>
+         <dao daotype="derived" coverage="whole" label="13r" href="799/480105.tif"/>
+         <dao daotype="derived" coverage="whole" label="13v" href="799/480106.tif"/>
+         <dao daotype="derived" coverage="whole" label="140r" href="799/480363.tif"/>
+         <dao daotype="derived" coverage="whole" label="140v" href="799/480364.tif"/>
+         <dao daotype="derived" coverage="whole" label="141r" href="799/480365.tif"/>
+         <dao daotype="derived" coverage="whole" label="141v" href="799/480366.tif"/>
+         <dao daotype="derived" coverage="whole" label="142r" href="799/480367.tif"/>
+         <dao daotype="derived" coverage="whole" label="142v" href="799/480368.tif"/>
+         <dao daotype="derived" coverage="whole" label="143r" href="799/480369.tif"/>
+         <dao daotype="derived" coverage="whole" label="143v" href="799/480370.tif"/>
+         <dao daotype="derived" coverage="whole" label="144r" href="799/480371.tif"/>
+         <dao daotype="derived" coverage="whole" label="144v" href="799/480372.tif"/>
+         <dao daotype="derived" coverage="whole" label="145r" href="799/480373.tif"/>
+         <dao daotype="derived" coverage="whole" label="145v" href="799/480374.tif"/>
+         <dao daotype="derived" coverage="whole" label="146r" href="799/480375.tif"/>
+         <dao daotype="derived" coverage="whole" label="146v" href="799/480376.tif"/>
+         <dao daotype="derived" coverage="whole" label="147r" href="799/480377.tif"/>
+         <dao daotype="derived" coverage="whole" label="147v" href="799/480378.tif"/>
+         <dao daotype="derived" coverage="whole" label="148r" href="799/480379.tif"/>
+         <dao daotype="derived" coverage="whole" label="148v" href="799/480380.tif"/>
+         <dao daotype="derived" coverage="whole" label="149r" href="799/480381.tif"/>
+         <dao daotype="derived" coverage="whole" label="149v" href="799/480382.tif"/>
+         <dao daotype="derived" coverage="whole" label="14r" href="799/480107.tif"/>
+         <dao daotype="derived" coverage="whole" label="14v" href="799/480108.tif"/>
+         <dao daotype="derived" coverage="whole" label="150r" href="799/480383.tif"/>
+         <dao daotype="derived" coverage="whole" label="150v" href="799/480384.tif"/>
+         <dao daotype="derived" coverage="whole" label="151r" href="799/480385.tif"/>
+         <dao daotype="derived" coverage="whole" label="151v" href="799/480386.tif"/>
+         <dao daotype="derived" coverage="whole" label="152r" href="799/480387.tif"/>
+         <dao daotype="derived" coverage="whole" label="152v" href="799/480388.tif"/>
+         <dao daotype="derived" coverage="whole" label="153r" href="799/480389.tif"/>
+         <dao daotype="derived" coverage="whole" label="153v" href="799/480390.tif"/>
+         <dao daotype="derived" coverage="whole" label="154r" href="799/480391.tif"/>
+         <dao daotype="derived" coverage="whole" label="154v" href="799/480392.tif"/>
+         <dao daotype="derived" coverage="whole" label="155r" href="799/480393.tif"/>
+         <dao daotype="derived" coverage="whole" label="155v" href="799/480394.tif"/>
+         <dao daotype="derived" coverage="whole" label="156r" href="799/480395.tif"/>
+         <dao daotype="derived" coverage="whole" label="156v" href="799/480396.tif"/>
+         <dao daotype="derived" coverage="whole" label="157r" href="799/480397.tif"/>
+         <dao daotype="derived" coverage="whole" label="157v" href="799/480398.tif"/>
+         <dao daotype="derived" coverage="whole" label="158r" href="799/480399.tif"/>
+         <dao daotype="derived" coverage="whole" label="158v" href="799/480400.tif"/>
+         <dao daotype="derived" coverage="whole" label="159r" href="799/480401.tif"/>
+         <dao daotype="derived" coverage="whole" label="159v" href="799/480402.tif"/>
+         <dao daotype="derived" coverage="whole" label="15r" href="799/480109.tif"/>
+         <dao daotype="derived" coverage="whole" label="15v" href="799/480110.tif"/>
+         <dao daotype="derived" coverage="whole" label="160r" href="799/480403.tif"/>
+         <dao daotype="derived" coverage="whole" label="160v" href="799/480404.tif"/>
+         <dao daotype="derived" coverage="whole" label="161r" href="799/480405.tif"/>
+         <dao daotype="derived" coverage="whole" label="161v" href="799/480406.tif"/>
+         <dao daotype="derived" coverage="whole" label="162r" href="799/480407.tif"/>
+         <dao daotype="derived" coverage="whole" label="162v" href="799/480408.tif"/>
+         <dao daotype="derived" coverage="whole" label="163r" href="799/480409.tif"/>
+         <dao daotype="derived" coverage="whole" label="163v" href="799/480410.tif"/>
+         <dao daotype="derived" coverage="whole" label="164r" href="799/480411.tif"/>
+         <dao daotype="derived" coverage="whole" label="164v" href="799/480412.tif"/>
+         <dao daotype="derived" coverage="whole" label="165r" href="799/480413.tif"/>
+         <dao daotype="derived" coverage="whole" label="165v" href="799/480414.tif"/>
+         <dao daotype="derived" coverage="whole" label="166r" href="799/480415.tif"/>
+         <dao daotype="derived" coverage="whole" label="166v" href="799/480416.tif"/>
+         <dao daotype="derived" coverage="whole" label="167r" href="799/480417.tif"/>
+         <dao daotype="derived" coverage="whole" label="167v" href="799/480418.tif"/>
+         <dao daotype="derived" coverage="whole" label="168r" href="799/480419.tif"/>
+         <dao daotype="derived" coverage="whole" label="168v" href="799/480420.tif"/>
+         <dao daotype="derived" coverage="whole" label="169r" href="799/480421.tif"/>
+         <dao daotype="derived" coverage="whole" label="169v" href="799/480422.tif"/>
+         <dao daotype="derived" coverage="whole" label="16r" href="799/480111.tif"/>
+         <dao daotype="derived" coverage="whole" label="16v" href="799/480112.tif"/>
+         <dao daotype="derived" coverage="whole" label="170r" href="799/480423.tif"/>
+         <dao daotype="derived" coverage="whole" label="170v" href="799/480424.tif"/>
+         <dao daotype="derived" coverage="whole" label="171r" href="799/480425.tif"/>
+         <dao daotype="derived" coverage="whole" label="171v" href="799/480426.tif"/>
+         <dao daotype="derived" coverage="whole" label="172r" href="799/480427.tif"/>
+         <dao daotype="derived" coverage="whole" label="172v" href="799/480428.tif"/>
+         <dao daotype="derived" coverage="whole" label="173r" href="799/480429.tif"/>
+         <dao daotype="derived" coverage="whole" label="173v" href="799/480430.tif"/>
+         <dao daotype="derived" coverage="whole" label="174r" href="799/480431.tif"/>
+         <dao daotype="derived" coverage="whole" label="174v" href="799/480432.tif"/>
+         <dao daotype="derived" coverage="whole" label="175r" href="799/480433.tif"/>
+         <dao daotype="derived" coverage="whole" label="175v" href="799/480434.tif"/>
+         <dao daotype="derived" coverage="whole" label="176r" href="799/480435.tif"/>
+         <dao daotype="derived" coverage="whole" label="176v" href="799/480436.tif"/>
+         <dao daotype="derived" coverage="whole" label="177r" href="799/480437.tif"/>
+         <dao daotype="derived" coverage="whole" label="177v" href="799/480438.tif"/>
+         <dao daotype="derived" coverage="whole" label="178r" href="799/480439.tif"/>
+         <dao daotype="derived" coverage="whole" label="178v" href="799/480440.tif"/>
+         <dao daotype="derived" coverage="whole" label="179r" href="799/480441.tif"/>
+         <dao daotype="derived" coverage="whole" label="179v" href="799/480442.tif"/>
+         <dao daotype="derived" coverage="whole" label="17r" href="799/480113.tif"/>
+         <dao daotype="derived" coverage="whole" label="17v" href="799/480114.tif"/>
+         <dao daotype="derived" coverage="whole" label="180r" href="799/480443.tif"/>
+         <dao daotype="derived" coverage="whole" label="180v" href="799/480444.tif"/>
+         <dao daotype="derived" coverage="whole" label="181r" href="799/480445.tif"/>
+         <dao daotype="derived" coverage="whole" label="181v" href="799/480446.tif"/>
+         <dao daotype="derived" coverage="whole" label="182r" href="799/480447.tif"/>
+         <dao daotype="derived" coverage="whole" label="182v" href="799/480448.tif"/>
+         <dao daotype="derived" coverage="whole" label="183r" href="799/480449.tif"/>
+      </daoset>
+   </did>
+
+
+
+
+
+
+
+
+   <controlaccess>
+      <head>Kategorie</head>
+      <genreform>
+         <part>Handschrift</part>
+      </genreform>
+   </controlaccess>
+
+
+
+   <controlaccess>
+      <head>Personen</head>  
+      <persname relator="Urheber">
+         <part localtype="name">Mayer</part>
+         <part localtype="vorname">Theodor</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name">Scherer</part>
+         <part localtype="vorname">Johann Franz</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name">Pez</part>
+         <part localtype="vorname">Bernhard</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name"/>
+         <part localtype="vorname">Wolfger von Prüfening</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name">Ménard</part>
+         <part localtype="vorname">Nicolas Hugues</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name">Wydemann</part>
+         <part localtype="vorname">Leopold</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name"/>
+         <part localtype="vorname">Paul von Veszprém</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name"/>
+         <part localtype="vorname">Sigebert von Gembloux</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name"/>
+         <part localtype="vorname">Otloh von St. Emmeram</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name">Ackermann</part>
+         <part localtype="vorname">Johannes</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name">Knittel</part>
+         <part localtype="vorname">Michael</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name">Schellkopf</part>
+         <part localtype="vorname">Kajetan</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name"/>
+         <part localtype="vorname">Dietrich von Apolda</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name"/>
+         <part localtype="vorname">Frutolf von Michelsberg</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name"/>
+         <part localtype="vorname">Hinkmar von Reims</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name"/>
+         <part localtype="vorname">Stephan von Lüttich</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name">Hoffmann</part>
+         <part localtype="vorname">Johannes (Johann)</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name">Pez</part>
+         <part localtype="vorname">Hieronymus</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name"/>
+         <part localtype="vorname">Stephan von St.-Urbain</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name">Albizzi de Vico</part>
+         <part localtype="vorname">Bartolomeo</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name"/>
+         <part localtype="vorname">Hl. Hermann von Niederaltaich</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name"/>
+         <part localtype="vorname">Jakob V.</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name"/>
+         <part localtype="vorname">Embricho von Würzburg</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Kornperger</part>
+         <part localtype="vorname">Anthelm</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name"/>
+         <part localtype="vorname">Liutold von Mondsee</part>
+      </persname>
+      <persname relator="Urheber">
+         <part localtype="name">Saller</part>
+         <part localtype="vorname">Philipp</part>
+      </persname>
+   </controlaccess>
+   <controlaccess>
+      <head>Regionen</head>
+      <geogname>
+         <part>Österreich</part>
+      </geogname>
+      <geogname>
+         <part>Deutschland</part>
+      </geogname>
+      <geogname>
+         <part>Frankreich</part>
+      </geogname>
+      <geogname>
+         <part>Ungarn</part>
+      </geogname>
+      <geogname>
+         <part>Belgien</part>
+      </geogname>
+      <geogname>
+         <part>Schweiz</part>
+      </geogname>
+      <geogname>
+         <part>Schottland</part>
+      </geogname>
+   </controlaccess>
+
+   <controlaccess>
+      <head>Institutionen</head>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Österreichische Kongregation</part>
+         <part>Melk</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Bayerische Kongregation</part>
+         <part>Prüfening</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Maurinerkongregation</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Kartäuser</part>
+         <part>Gaming</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Säkularklerus</part>
+         <part>Veszprém - Bistum</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Belgische Klöster</part>
+         <part>Gembloux</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Bayerische Kongregation</part>
+         <part>Regensburg - St. Emmeram</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Oberschwäbische Kongregation</part>
+         <part>Blaubeuren</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Oberschwäbische Kongregation</part>
+         <part>Zwiefalten</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Augsburg - St. Ulrich und Afra</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Bayerische Kongregation</part>
+         <part>Tegernsee</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Österreichische Kongregation</part>
+         <part>Göttweig</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Bursfelder Kongregation</part>
+         <part>Würzburg - St. Stephan</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Dominikaner</part>
+         <part>Erfurt</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Bursfelder Kongregation</part>
+         <part>Bamberg - Michelsberg</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Säkularklerus</part>
+         <part>Reims - Erzbistum</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Säkularklerus</part>
+         <part>Lüttich - Bistum</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Säkularklerus</part>
+         <part>Meißen - Bistum</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Zisterzienser</part>
+         <part>St. Urban</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Franziskaner</part>
+         <part>Pisa</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Niederaltaich</part>
+      </corpname>
+      <corpname>
+         <part>weltliche</part>
+         <part>Stirling - Hof</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Säkularklerus</part>
+         <part>Würzburg - Fürstbistum</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Bayerische Kongregation</part>
+         <part>Regensburg - St. Jakob (Schottenkloster)</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Österreichische Kongregation</part>
+         <part>Mondsee</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Bayerische Kongregation</part>
+         <part>Wessobrunn</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Augustiner-Chorherren</part>
+         <part>Polling</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Augustiner-Chorherren</part>
+         <part>Dießen</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Irsee</part>
+      </corpname>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>St. Georgen im Schwarzwald</part>
+      </corpname>
+   </controlaccess>
+
+   <relatedmaterial>
+      <head>Pez-Briefe im direkten Zusammenhang mit dem Stück</head>
+      <list>
+         <head>Wydemann an BP:</head>
+         <item>Undatiert</item>
+         <item>
+            <ref href="">1726-02-23</ref>
+         </item>
+      </list>
+   </relatedmaterial>
+   <scopecontent>
+      <head>Beschreibung</head>
+      <p>Cod. 767 (olim 1115) besteht aus zahlreichen Einzelfaszikeln unterschiedlicher Größe, verschiedene Hände. Moderne Bleistiftfoliierung, zum Teil ältere getrennte Paginierung. [Ir]: Inhaltsverzeichnis, Hand Mayer (?). Bei Glassner keine Nummerierung der Faszikel.</p>
+      <list listtype="ordered">
+         <item>1r: Titelblatt zum ersten Text. 1v–4v: Johannes Franciscus Scherer OSB S. Georgii Hercyniae, "Chronologia vitae et gestorum S. Theogeri abbatis monasterii S. Georgii in Silva Hercynia" (dat. 1651, Abschrift als Praefatio zur Vita). Datierung 1651 von Mayer nachgetragen. Mit Anmerkungen einer Hand des 19. Jh. (Mayer ?). Text unvollständig. Scherer war Abt von St. Georgen-Villingen von 1661–1685. Vorlage: Wiblingen. Aktueller Bibliotheksort und Signatur nicht feststellbar. Bearbeiter und Schreiber BP. 4v–12v: Wolfgerus Pruveningensis (= Wolfger von Prüfening), "Vita S. Theogeri" (Fragmenta). Nach Worstbrock (vgl. Literaturfeld) hier Bl. 1v–6v Bruchstücke aus Buch I (Worstbrock datiert die Hs. in das 16. Jh.). Vorlage: Wiblingen. Aktueller Bibliotheksort und Signatur nicht feststellbar, die Hs. ist möglicherweise verloren. Bearbeiter und Schreiber BP. 12v: Hugues Ménard, "Martyrologium sanctorum ordinis divi Benedicti, Paris 1629: Exc. de S. Theogero". Abschrift durch Mayer. Abschrift aus einem Druck. </item>
+         <item>13r–v: Hugues Ménard, "Martyrologium sanctorum ordinis divi Benedicti, Paris 1629: Exc. de S. Theogero" (dat. S. Pantaleone, 1642-10-10). Es handelt sich um denselben Text wie oben. 14r–16v: Johann Franz Scherer, "Chronologia vitae et gestorum S. Theogeri abbatis monasterii S. Georgii" (dat. 1651, Original). Original des Textes von 1r–4v (17. Jh. ?). </item>
+         <item>17r–22v: Wolfger von Prüfening, "Vita S.Theogeri" (Fragmenta). Originalabschrift des Textes von 4v–12r (17. Jh. ?). Vorlage: Wiblingen. Aktueller Bibliotheksort und Signatur: Nicht feststellbar. 23r: Titelblatt des Textes von Bl. 26r–61v. </item>
+         <item>24r–v: Leopold Wydemann, "Epistola ad Bernardum Pez" (ohne Datum, Original). Es geht u. a. auch um die nachfolgende "Regula de vita solitaria". 25r–v: Leopold Wydemann, "Epistola ad Bernardum Pez" (1726-02-23, Gaming; Original). 26r–61v: Paulus episcopus Vesprinensis (Vesprimiensis = Alba Julia?) (Paul von Veszprém), "Regula de vita solitaria" (Hs.: "Anima regulae de vita solitaria"). Am Titelblatt rechts unten: "Recensui ad prelum". Die Autorschaft wird von Wydemann und BP in den Beilagen diskutiert, der Autorname ist erschlossen, er findet sich nicht in der Hs. Ein Bischof von Veszprém namens Paulus ist 1257 und 1275 nachgewiesen. Vorlage: "Seitz Carth". Aktueller Bibliotheksort und Signatur: Graz UB, Cod. 1595, 21v–59r. Bll. 24–61 Bearbeiter und Schreiber Wydemann. 62r: BP, Notizen zum vorhergehenden Werk und dessen Autor. Auf der Versoseite die (Seiten?)-Zahl "22". </item>
+         <item>63r–69v: "Acta" (korrigiert aus Historia) "de Sanctis Maximiano, Malcho, Martiniano, Dionysio, Johanne, Serphione et Constantino qui vulgo septem dormientes audiunt". Am Rand Notiz über die vermutliche Datierung des Codex von der Schreiberhand: "Codex unde haec acta eruta, sub finem, ut putamus, saeculi IX vel X saec. scriptus est". Vorlage: Mondsee, Cod. in quarto (wohl Quart. 61). Aktueller Bibliotheksort und Signatur: Wien ÖNB, Cod. 1370, 99r–107v (dieser trägt auch die Olim-Signatur Rec. 3324). Schreiber aus Mondsee. </item>
+         <item>70r–73r: Sigebert von Gembloux, "Sermo et relatio passionis S. Luciae martyris". Vollständiger Abdruck nach dem Clm 28565 nur bei Gaietani (vgl. Literaturfeld). Krimm-Beumann (vgl. Literaturfeld) nennt zwei Hss. (beide aus St.-Vincent zu Metz). Die zweite Hs. aus Metz heute in Berlin, Kupferstichkabinett, Hs. 78 A 4 (2. Hälfte 12. Jh.). Vorlage: Metz, S. Vincentius. Aktueller Bibliotheksort und Signatur: München BStB, Clm 28565 (früher Gotha, Herzogl. Bibl., Cod. membr. I 61). 73r–95v: Sigebert von Gembloux, "Passio S. Luciae metrica". Bei Krimm-Beumann (vgl. Literaturfeld) Nennung dieser Hs. Vorlage: Metz, S. Vincentius. Aktueller Bibliotheksort und Signatur: München BStB, Clm 28565 (früher Gotha, Herzogl. Bibl., Cod. membr. I 61). 95v–97r: Sigebert von Gembloux, "Epistola de passione sanctae Luciae excerpta". Siehe oben, Sermo. Vorlage: Metz, S. Vincentius. Aktueller Bibliotheksort und Signatur: München BStB, Clm 28565 (früher Gotha, Herzogl. Bibl., Cod. membr. I 61). Bll. 70–97 französischer Schreiber. </item>
+         <item>98r–v: Otloh von St. Emmeram, "Praefatio ad Vitam S. Magni". Siehe unten, Vita. 99r Einschub: Johannes Ackermann OSB Blauburensis, "Prologus in Directorium legentium" [= Wörterbuch: erstes Lemma wie im Catholicon des Iohannes de Balbis]. Der hier als Autor genannte Iohannes Ackermann ist auch als Schreiber nachgewiesen in Stuttgart, WLB, HB. I. 27, fol. 30v (a. 1476), Hs. aus Blaubeuren, später Weingarten (J. 52): schreibt 2r–30v. </item>
+         <item>100r–112r: Otloh von St. Emmeram, "Vita S. Magni". Die geplante Ausgabe durch BP wäre die Erstausgabe gewesen. Vorlage: Füssen (so im Inhaltsverzeichnis), jedoch kein Füssener Cod. bekannt; ev. liegt eine Verwechslung mit Zwiefalten vor. Aktueller Bibliotheksort und Signatur: Stuttgart WLB, Cod. bibl. 2° 58, 27ra–36rb (?). Diese Hs. überliefert jedoch nicht den hier kopierten Prolog, der aber auch aus einer anderen Hs. stammen könnte, da das Blatt mit dem Prolog nicht zum selben Faszikel wie die Vita gehört. Die Vorlage des Prologs ist nicht ermittelbar. Bearbeiter Knittel (?). </item>
+         <item>113r: Titelblatt "Vita et miracula S. Simperti episcopi Augustensis. Item Historia S. Narcissi […] His accedit legenda S. Apolloniae virginis et martyris", 113v Vermerk über die Vorlagehandschrift 114r–122r (= alt p. 1–18): "Historia S. Narcissi episcopi et martyris iuxta tenorem praescriptarum litterarum nobis ex Gerunda anno 1509 transmissarum". Voraus geht ein Schreiben des Onofrius Palet an Leonardus Lauginger decretorum doctor. Es ist nicht sicher, ob sich der Vermerk über St. Ulrich und Afra auf diesen Text bezieht. Vorlage (113v):  Augsburg, St. Ulrich und Afra (?); der Bezug dieser Vorlagenlokalisierung zum vorliegenden Text ist unsicher. Aktueller Bibliotheksort und Signatur: Nicht feststellbar. </item>
+         <item>123r–130r: "Historia vitae S. Petri apostoli metrice descripta ex Hegesippo de obitu apostolorum Petri et Pauli una cum epigrammatibus super operibus apostoli Petri". Die geplante Ausgabe durch BP wäre die Erstausgabe gewesen. Vorlage: Tegernsee (?). Aktueller Bibliotheksort und Signatur: München BStB, Clm 18628, 4r ff. (aus Tegernsee). Bearbeiter und Schreiber Schellkopf, Tegernsee. </item>
+         <item>131r–146r (mit Paginierung des Schreibers von 1–30): "Passio S. Catharinae", dt.. Wie oben. Hier mit lateinischer Nachschrift aus der Vorlagehandschrift (146r). Vorlage: Göttweig, H 17 (131r rechts oben). Aktueller Bibliotheksort und Signatur: Göttweig, Cod. 155 (rot 206), 98v–103r. </item>
+         <item>147r–153r (= alt p. 1–13[14]; Tintenpaginierung durch den Schreiber): Johannes de Luterbech (Lauterbach), "Tractatus de S. Kiliano et sociis eius" (= Vita S. Kiliani et Burchardi metrice descripta). Die geplante Ausgabe durch BP wäre die Erstausgabe gewesen. Vorlage: Würzburg, St. Stephan (?). Aktueller Bibliotheksort und Signatur: Würzburg UB, M. ch. f. 151, 81r–109r (?) oder M. p. misc. 6, 43r–47r (?). Bearbeiter Gropp (?). </item>
+         <item>154r–155v: Ignaz Gropp, Notizen aus Handschriften überwiegend des Klosters St. Stephan in Würzburg. 154r–v: Theodoricus de Apolda (= Dietrich von Apolda), "Prologus in vitam S. Elisabethae". Dieser Prolog nach dem Katalog Thurns (vgl. Literaturfeld) im Bestand der Handschriften von St. Stephan in Würzburg (heute Würzburg UB) nicht nachweisbar. 154v: Otloh von St. Emmeram, "Prologus in vitam S. Nicolai episcopi Myrensis". Ausg. des Prologs und Epilogs siehe Wattenbach (vgl. Literaturfeld). Die geplante Ausgabe durch BP wäre die Erstausgabe gewesen. Vorlage: Würzburg, St. Stephan. Aktueller Bibliotheksort und Signatur: Würzburg UB, M. ch. f. 210, 13r–27v. 155r: Frutolf von Michelsberg (?), "Liber de ritibus et officiis ecclesiasticis, cap. 1 et 16". In der Hs. anonym. Thurn (vgl. Literaturfeld) schreibt das Werk als Dubium dem Ezzo abbas S. Stephani Herbipolensis zu. Vorlage: Würzburg, St. Stephan. Aktueller Bibliotheksort und Signatur: Würzburg UB, M. p. th. f. 160, 1v–265v. 155r: "Vita S. Pantaleonis". Nur Incipit und Explicit des Textes. Vorlage: Würzburg, St. Stephan. Aktueller Bibliotheksort und Signatur: Würzburg UB, M. p. th. f. 124, 190v–194v. 155r: Hinkmar von Reims, "Vita S. Remigii Remensis". Nur Incipit und Explicit des Textes. Vorlage: Würzburg, St. Stephan. Aktueller Bibliotheksort und Signatur: Würzburg UB, M. p. t h. f. 139, 33r–59r. 155v: "Vita S. Servatii Traiectensis". Wilhelm (vgl. Literaturfeld) ohne diese Würzburger Hs.. Hier nur Incipit und Explicit des Textes. Vorlage: Würzburg, St. Stephan. Aktueller Bibliotheksort und Signatur: Würzburg UB, M. p. t h. f. 125, 68v–106v. 155v: Stephanus episcopus Leodiensis, "Vita S. Lamperti". Hier nur Incipit und Explicit des Textes. Vorlage: Würzburg, St. Stephan. Aktueller Bibliotheksort und Signatur: Würzburg UB, M. p. th. f. 125, 107r–116r. 155v: "Vita S. Oswaldi". Hier nur Incipit und Explicit des Textes. Vorlage: Würzburg, St. Stephan. Aktueller Bibliotheksort und Signatur: Würzburg UB, M. p. th. f. 125, 119v–121r. 155v: "Vita S. Pirmini". Hier nur Incipit und Explicit des Textes. Vorlage: Würzburg, St. Stephan. Aktueller Bibliotheksort und Signatur: Würzburg UB, M. p. th. f. 53, 27r–34v. 155v: "Sermo de dignitate sacerdotum". Bisher kein Drucknachweis. Hier nur das Incipit überliefert. Vorlage: Würzburg, St. Stephan. Aktueller Bibliotheksort und Signatur: Würzburg UB, M. ch. q. 121, 258v–261v. 155v: Johannes Hoffmann episcopus Misenensis, "Tractatus de eucharistia contra Hussitas". Hier nur das Incipit überliefert. Im Katalog Thurns (vgl. Literaturfeld) ist für diese Hs. keine Provenienz angegeben, möglicherweise läßt sich nun aufgrund der Aufzeichnungen Gropps eine Provenienz aus St. Stephan ableiten. Vorlage: Würzburg, St. Stephan. Aktueller Bibliotheksort und Signatur: Würzburg UB, M. ch. f. 77, 2r–105v. 155v: Petrus de Alliaco, "Tractatus de correctione calendarii". Hier nur das Incipit angegeben. Vorlage: Würzburg, St. Stephan. Aktueller Bibliotheksort und Signatur: Würzburg UB, M. ch. f. 220, 366v–371r. Bll. 154–155 Schreiber HP. </item>
+         <item>156r–171v: Stephanus abbas Sancti Urbani, "Epistola apologetica ad dominum Rogerium episcopum Cataulanensem de passione S. Urbani papae et martyris". Am Rand mit Verweiszeichen von "Sancti Urbani": "Est abbatem eius nominis in dioecesis Catalaunensi cong. S. Vitoni, cujus loci abbas videtur fuisse Stephanus". 172r–177v: "Passio S. Reginae". </item>
+         <item>178r–216v: Bartholomaeus Albitius (Albizzi) de Vico, "Vita et miracula Gerardi de Valentia". Nur eine Hs. stammt laut Rotolo (vgl. Literaturfeld) aus dem 14. Jh. (Vat. lat. 7660 [Rotolo 375–377 Nr. 2, Sigle B]), vgl. dort (S. 379) auch die verlorenen Hss. (z. B. eine Pergamenths. im Wiener Franziskanerkonvent mit dem Titel "Sancti Gerardi Siculi Ordinis Minorum Vita"). Die geplante Ausgabe durch BP wäre die Erstausgabe gewesen. Bearbeiter und Schreiber Wydemann.</item>
+         <item>217r–220v: Hermann von Niederaltaich, "De institutione monasterii Altahensis" (Hs.: "De Altaichae inferioris institutione et progressu"). Vorlagehs. derzeit nicht feststellbar. 220v–221v: Iacobus V. Rex Scotiae (= Jakob V.), "Epistolae duae ad senatum urbis Ratisbonensis in causa monasterii Scotorum ibidem existentis" (1525-05-02 und 1529-08-01, Stirling). 221v–222v: Embricho (de Leinigen) episcopus Herbipolensis (= Embricho von Würzburg), "Diploma fundationis monasterii Scotorum Ratisbonensis ex chronicis per Iohannem Trithemium scriptum de anno 1140". Bl. 217–222 wurde von Wydemann an Pez geschickt (vgl. die Begleitnotiz Wydemanns Bl. 222v). Vorlage: Würzburg, S. Iacobus. Bearbeiter Cornperger (Kornperger). 222v: Leopold Wydemann, Begleitnotiz zu Bl. 217–222 für BP.</item>
+         <item>223r–225v: "Fundatio monasterii Walderbach". Die geplante Ausgabe durch BP wäre vermutlich die Erstausgabe gewesen. Vorlage: Regensburg, S. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14053, 22va–23vb. Bearbeiter und Schreiber Wydemann.</item>
+         <item>226r–229v: Liutholdus monachus Monseensis (?), "De constructione vel destructione claustri in Monsee" (Hs.: "Fundatio monasterii Monseensis", metrice). Am Rand: "Authore Liutoldo monacho Monseensi qui  floruit saec. circiter XII ut didici a P. Honorio. Vide scripta nostra Manseensia". Vorlage: "Mondsee, vetus codex". Aktueller Bibliotheksort und Signatur: Wien ÖNB, Cod. 818, 64 f.</item>
+         <item>230r: "De fundatione monasteriorum Wessobrunn et Polling". Vorlage: "Wessobrunn, membrana antiquissima". Bearbeiter und Schreiber Saller. 230v–231v: "De fundatione monasterii Diessen" (Titel nach Duellius: "Chronicon Diessense"), ("communicavit nobiscum ex Codice Pollingano A. R. D Philippus Saller Can. Reg. Pollinganus"). 231v: "Extravit e M. S. Philippus Saller Can: Reg: Lat: Polling p[ro] t[unc] Vicarius ad S. [Crucem] in Forstenriet [Forstenried] prope Monachium 2. Aug. a° 1717 qui te lectoribus humillimi commendat". Vorlage: "Polling, M. S. antiquissimum". Bearbeiter und Schreiber Saller.</item>
+         <item>232r–235r: "Eruditio historica unde nostro imperiali et exempto Ursinensi nomen et fundatio". Vorlage: Ottobeuren, Archiv. Aktueller Bibliotheksort und Signatur: Nicht feststellbar.</item>
+         <item>236r–245r: "Gesta virorum aliquot illustrium monasterii S. Georgii nex non duarum sacrarum virginum quae vixere in monsteriis monialium San-Georgiano incorporatis".</item>
+      </list>
+   </scopecontent>
+   <bibliography>
+      <head>Literatur</head>
+      <p>Zu Cod. 767: Christine GLASSNER, Neuzeitliche Handschriften aus dem Nachlass der Brüder Bernhard und Hieronymus Pez in der Bibliothek des Benediktinerstiftes Melk (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 372 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe IV 7, Wien 2008) [dort angeführte Literatur hier nur auszugsweise übernommen]. Zu Schellkopf: Pirmin LINDNER, Familia S. Quirini in Tegernsee. Die Äbte und Mönche der Benediktiner-Abtei Tegernsee von den ältesten Zeiten bis zu ihrem Aussterben (1861) und ihr literarischer Nachlass. Oberbayerisches Archiv für vaterländische Geschichte 50 (1897) 18–130; 50 Ergh. (1898) 1–318. Zu Knittel: Pirmin LINDNER, Fünf Professbücher süddeutscher Benediktiner-Abteien. Beiträge zu einem Monasticon-benedictinum Germaniae, 3: Professbuch der Benediktiner-Abtei Zwiefalten (Kempten–München 1910). Zu Wydemann: Thomas AIGNER, Gaming, in: Monasticon Cartusiense II, hg. von James HOGG–Alain GIRARD–Daniel LE BLÉVEC (Salzburg 2004) 82–86; Heinrich ZEISSBERG, Zur Geschichte der Kartause Gaming. Archiv für Österreichische Geschichte 60 (1880) 562–596. Zu Saller: Richard VAN DÜLMEN, Propst Franziskus Töpsl (1711–1796) und das Augustiner-Chorherrenstift Polling. Ein Beitrag zur Geschichte der katholischen Aufklärung in Bayern (Kallmünz 1967).</p>
+      <list listtype="ordered">
+         <item>Zu 1): Vita Theogeri abbatis S. Georgii et episcopi Mettensis, hg. von Philipp JAFFÉ, in: MGH SS 12 (Hannover 1856) 449–479.</item>
+         <item>Zu 5): Michael HUBER, Textbeiträge zur Siebenschläferlegende des Mittelalters. Romanische Forschungen 26 (1909) 462–583.</item>
+         <item>Zu 6): Ernst DÜMMLER, Sigebert’s von Gembloux Passio S. Luciae virg. Philosophische und historische Abhandlungen der Preußischen Akademie der Wissenschaften (Berlin 1893) 23–43 (nach Clm 28565); Ottavio GAIETANI, Vitae sanctorum Siculorum, 1 (Palermo 1657); Jutta KRIMM-BEUMANN, Sigebert von Gembloux, in: Die deutsche Literatur des Mittelalters. Verfasserlexikon, 8, hg. von Kurt RUH et al. (Berlin–New York 1992) col. 1214–1231; Jaques-Paul MIGNE, Patrologiae Cursus completus, Series latina (221 Bde., Paris 1844–1855; hier Bd. 160).</item>
+         <item>Zu 8): Maurice COENS, La vie de S. Magne de Füssen par Otloh de Saint-Emmeran. Analecta Bollandiana 81 (1963) 159–227; Gebhard SPAHR, Der heilige Magnus: Leben, Legende, Verehrung (Allgäuer Heimatbücher 75, Kempten/Allgäu 1970).</item>
+         <item>Zu 10): Passio Petri et Pauli, hg. von Karl STRECKER, in: MGH Poetae Latini aevi Carolini 6,1 (1951) 121–133.</item>
+         <item>Zu 12): Franz EMMERICH, Der heilige Kilian. Regionarbischof und Martyrer. Historisch-kritisch dargestellt (Würzburg 1896); Ignaz GROPP, Collectio novissima scriptorum et rerum Wirceburgensium a saeculo XVI, XVII et XVIII hactenus gestarum (2 Bde., Frankfurt 1741–1744).</item>
+         <item>Zu 13): Vita et miracula S. Pirminii, hg. von Oswald HOLDER-EGGER, in: MGH SS 15,1 (1887) 17–35; Vitae Landiberti episcopi Traiectensis, hg. von Bruno KRUSCH, in: MGH Scriptorum rerum Merovingicarum 6 (1913) 299–432; Vita Remigii episcopi Remensis auctore Hincmaro, hg. von Bruno KRUSCH, in: MGH Scriptorum rerum Merovingicarum 3 (1896) 239–341; Giovanni Domenico MANSI, Sacrorum conciliorum nova et amplissima collectio XXVIII. (Venedig 1785; Neudruck Paris 1903); Monika RENER, Die Vita der heiligen Elisabeth des Dietrich von Apolda (Veröffentlichungen der Historischen Kommission für Hessen 53, Marburg 1993); Franz-Josef SCHMALE, Frutolf von Michelsberg, in: Die deutsche Literatur des Mittelalters. Verfasserlexikon, 2, hg. von Kurt RUH et al. (Berlin–New York 1980) col. 994–998; Hans THURN, Die Handschriften der Universitätsbibliothek Würzburg, 2: Handschriften aus benediktinischen Provenienzen, 2. Hälfte: Die Handschriften aus St. Stephan zu Würzburg (Wiesbaden 1986); Wilhelm WATTENBACH, Aus Handschriften. Neues Archiv der Gesellschaft für ältere deutsche Geschichtskunde 10 (1885) 407–411; Friedrich WILHELM, Sanct Servatius (München 1910).</item>
+         <item>Zu 14): Bibliotheca hagiographica Latina antiquae et mediae aetatis (Brüssel 1898–1901; Neudruck 1992); François GRIGNARD, La Vie de ste Reine d’Alise (Dijon 1881).</item>
+         <item>Zu 15): Filippo ROTOLO, La leggenda del B. Gerardo Cagnoli, O.Min. (1267–1342) die Fra Bartolomeo Albizi, O. Min. († 1351). Miscellanea Francescana 57 (1957) 367–446.</item>
+         <item>Zu 16): Hermannus de institutione monasterii Altahensis, hg. von Philipp JAFFÉ, in: MGH SS 17 (1861) 369–373.</item>
+         <item>Zu 17): Theodor MAYER, Fundatio monasterii in Walderbach. Archiv für Kunde österreichischer Geschichts-Quellen 12 (1854) 247–266.</item>
+         <item>Zu 18): Historia monasterii manse metrica, hg. von Oswald HOLDER-EGGER, in: MGH SS 15,2 (1888) 1099–1105.</item>
+         <item>Zu 19): Raimund DUELLIUS, Miscellaneorum quae ex codicibus mss. collegit liber II. (Augsburg–Graz 1724); Coelestin LEUTNER, Historia monasterii Wessofontani (Augsburg 1753).</item>
+      </list>
+   </bibliography>
+
+
+
+
+</c>

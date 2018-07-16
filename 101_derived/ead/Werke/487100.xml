@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c xmlns:_="urn:pez"
+   xmlns="http://ead3.archivists.org/schema/"
+   xmlns:ead="http://ead3.archivists.org/schema/"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:saxon="http://saxon.sf.net/"
+   level="item"
+   id="i814">
+   <did>
+      <repository>
+         <corpname>
+            <part>Benediktinerstift Melk</part>
+            <part>Stiftsbibliothek</part>
+         </corpname>
+      </repository>
+      <unittitle>Cod. Mell. 1808: Bernhard Pez, Catalogus scriptorum ecclesiasticorum</unittitle>
+      <unitdate>18. Jh.</unitdate>
+      <didnote localtype="datenote">Laut Glassner, Neuzeitliche Handschriften (vgl. Literaturfeld) 1. Drittel 18. Jh.</didnote>
+      <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/487100.xml"/>
+      <daoset>
+         <dao daotype="derived" coverage="whole" label="Buchdeckel vorne r" href="814/487100.tif"/>
+         <dao daotype="derived" coverage="whole" label="100r" href="814/487300.tif"/>
+         <dao daotype="derived" coverage="whole" label="100v" href="814/487301.tif"/>
+         <dao daotype="derived" coverage="whole" label="101r" href="814/487302.tif"/>
+         <dao daotype="derived" coverage="whole" label="101v" href="814/487303.tif"/>
+         <dao daotype="derived" coverage="whole" label="102r" href="814/487304.tif"/>
+         <dao daotype="derived" coverage="whole" label="102v" href="814/487305.tif"/>
+         <dao daotype="derived" coverage="whole" label="103r" href="814/487306.tif"/>
+         <dao daotype="derived" coverage="whole" label="103v" href="814/487307.tif"/>
+         <dao daotype="derived" coverage="whole" label="104r" href="814/487308.tif"/>
+         <dao daotype="derived" coverage="whole" label="104v" href="814/487309.tif"/>
+         <dao daotype="derived" coverage="whole" label="105r" href="814/487310.tif"/>
+         <dao daotype="derived" coverage="whole" label="105v" href="814/487311.tif"/>
+         <dao daotype="derived" coverage="whole" label="106r" href="814/487312.tif"/>
+         <dao daotype="derived" coverage="whole" label="106v" href="814/487313.tif"/>
+         <dao daotype="derived" coverage="whole" label="107r" href="814/487314.tif"/>
+         <dao daotype="derived" coverage="whole" label="107v" href="814/487315.tif"/>
+         <dao daotype="derived" coverage="whole" label="108r" href="814/487316.tif"/>
+         <dao daotype="derived" coverage="whole" label="108v" href="814/487317.tif"/>
+         <dao daotype="derived" coverage="whole" label="109r" href="814/487318.tif"/>
+         <dao daotype="derived" coverage="whole" label="109v" href="814/487319.tif"/>
+         <dao daotype="derived" coverage="whole" label="10r" href="814/487120.tif"/>
+         <dao daotype="derived" coverage="whole" label="10v" href="814/487121.tif"/>
+         <dao daotype="derived" coverage="whole" label="110r" href="814/487320.tif"/>
+         <dao daotype="derived" coverage="whole" label="110v" href="814/487321.tif"/>
+         <dao daotype="derived" coverage="whole" label="111r" href="814/487322.tif"/>
+         <dao daotype="derived" coverage="whole" label="111v" href="814/487323.tif"/>
+         <dao daotype="derived" coverage="whole" label="112r" href="814/487324.tif"/>
+         <dao daotype="derived" coverage="whole" label="112v" href="814/487325.tif"/>
+         <dao daotype="derived" coverage="whole" label="113r" href="814/487326.tif"/>
+         <dao daotype="derived" coverage="whole" label="113v" href="814/487327.tif"/>
+         <dao daotype="derived" coverage="whole" label="114r" href="814/487328.tif"/>
+         <dao daotype="derived" coverage="whole" label="114v" href="814/487329.tif"/>
+         <dao daotype="derived" coverage="whole" label="115r" href="814/487330.tif"/>
+         <dao daotype="derived" coverage="whole" label="115v" href="814/487331.tif"/>
+         <dao daotype="derived" coverage="whole" label="116r" href="814/487332.tif"/>
+         <dao daotype="derived" coverage="whole" label="116v" href="814/487333.tif"/>
+         <dao daotype="derived" coverage="whole" label="117r" href="814/487334.tif"/>
+         <dao daotype="derived" coverage="whole" label="117v" href="814/487335.tif"/>
+         <dao daotype="derived" coverage="whole" label="118r" href="814/487336.tif"/>
+         <dao daotype="derived" coverage="whole" label="118v" href="814/487337.tif"/>
+         <dao daotype="derived" coverage="whole" label="119r" href="814/487338.tif"/>
+         <dao daotype="derived" coverage="whole" label="119v" href="814/487339.tif"/>
+         <dao daotype="derived" coverage="whole" label="11r" href="814/487122.tif"/>
+         <dao daotype="derived" coverage="whole" label="11v" href="814/487123.tif"/>
+         <dao daotype="derived" coverage="whole" label="120r" href="814/487340.tif"/>
+         <dao daotype="derived" coverage="whole" label="120v" href="814/487341.tif"/>
+         <dao daotype="derived" coverage="whole" label="121r" href="814/487342.tif"/>
+         <dao daotype="derived" coverage="whole" label="121v" href="814/487343.tif"/>
+         <dao daotype="derived" coverage="whole" label="122r" href="814/487344.tif"/>
+         <dao daotype="derived" coverage="whole" label="122v" href="814/487345.tif"/>
+         <dao daotype="derived" coverage="whole" label="123r" href="814/487346.tif"/>
+         <dao daotype="derived" coverage="whole" label="123v" href="814/487347.tif"/>
+         <dao daotype="derived" coverage="whole" label="124r" href="814/487348.tif"/>
+         <dao daotype="derived" coverage="whole" label="124v" href="814/487349.tif"/>
+         <dao daotype="derived" coverage="whole" label="125r" href="814/487350.tif"/>
+         <dao daotype="derived" coverage="whole" label="125v" href="814/487351.tif"/>
+         <dao daotype="derived" coverage="whole" label="126r" href="814/487352.tif"/>
+         <dao daotype="derived" coverage="whole" label="126v" href="814/487353.tif"/>
+         <dao daotype="derived" coverage="whole" label="127r" href="814/487354.tif"/>
+         <dao daotype="derived" coverage="whole" label="127v" href="814/487355.tif"/>
+         <dao daotype="derived" coverage="whole" label="128r" href="814/487356.tif"/>
+         <dao daotype="derived" coverage="whole" label="128v" href="814/487357.tif"/>
+         <dao daotype="derived" coverage="whole" label="129r" href="814/487358.tif"/>
+         <dao daotype="derived" coverage="whole" label="129v" href="814/487359.tif"/>
+         <dao daotype="derived" coverage="whole" label="12r" href="814/487124.tif"/>
+         <dao daotype="derived" coverage="whole" label="12v" href="814/487125.tif"/>
+         <dao daotype="derived" coverage="whole" label="130r" href="814/487360.tif"/>
+         <dao daotype="derived" coverage="whole" label="130v" href="814/487361.tif"/>
+         <dao daotype="derived" coverage="whole" label="131r" href="814/487362.tif"/>
+         <dao daotype="derived" coverage="whole" label="131v" href="814/487363.tif"/>
+         <dao daotype="derived" coverage="whole" label="132r" href="814/487364.tif"/>
+         <dao daotype="derived" coverage="whole" label="132v" href="814/487365.tif"/>
+         <dao daotype="derived" coverage="whole" label="133r" href="814/487366.tif"/>
+         <dao daotype="derived" coverage="whole" label="133v" href="814/487367.tif"/>
+         <dao daotype="derived" coverage="whole" label="134r" href="814/487368.tif"/>
+         <dao daotype="derived" coverage="whole" label="134v" href="814/487369.tif"/>
+         <dao daotype="derived" coverage="whole" label="135r" href="814/487370.tif"/>
+         <dao daotype="derived" coverage="whole" label="135v" href="814/487371.tif"/>
+         <dao daotype="derived" coverage="whole" label="136r" href="814/487372.tif"/>
+         <dao daotype="derived" coverage="whole" label="136v" href="814/487373.tif"/>
+         <dao daotype="derived" coverage="whole" label="137r" href="814/487374.tif"/>
+         <dao daotype="derived" coverage="whole" label="137v" href="814/487375.tif"/>
+         <dao daotype="derived" coverage="whole" label="138r" href="814/487376.tif"/>
+         <dao daotype="derived" coverage="whole" label="138v" href="814/487377.tif"/>
+         <dao daotype="derived" coverage="whole" label="139r" href="814/487378.tif"/>
+         <dao daotype="derived" coverage="whole" label="139v" href="814/487379.tif"/>
+         <dao daotype="derived" coverage="whole" label="13r" href="814/487126.tif"/>
+         <dao daotype="derived" coverage="whole" label="13v" href="814/487127.tif"/>
+         <dao daotype="derived" coverage="whole" label="140r" href="814/487380.tif"/>
+         <dao daotype="derived" coverage="whole" label="140v" href="814/487381.tif"/>
+         <dao daotype="derived" coverage="whole" label="141r" href="814/487382.tif"/>
+         <dao daotype="derived" coverage="whole" label="141v" href="814/487383.tif"/>
+         <dao daotype="derived" coverage="whole" label="142r" href="814/487384.tif"/>
+         <dao daotype="derived" coverage="whole" label="142v" href="814/487385.tif"/>
+         <dao daotype="derived" coverage="whole" label="143r" href="814/487386.tif"/>
+         <dao daotype="derived" coverage="whole" label="143v" href="814/487387.tif"/>
+         <dao daotype="derived" coverage="whole" label="144r" href="814/487388.tif"/>
+         <dao daotype="derived" coverage="whole" label="144v" href="814/487389.tif"/>
+         <dao daotype="derived" coverage="whole" label="145r" href="814/487390.tif"/>
+         <dao daotype="derived" coverage="whole" label="145v" href="814/487391.tif"/>
+         <dao daotype="derived" coverage="whole" label="146r" href="814/487392.tif"/>
+         <dao daotype="derived" coverage="whole" label="146v" href="814/487393.tif"/>
+         <dao daotype="derived" coverage="whole" label="147r" href="814/487394.tif"/>
+         <dao daotype="derived" coverage="whole" label="147v" href="814/487395.tif"/>
+         <dao daotype="derived" coverage="whole" label="148r" href="814/487396.tif"/>
+         <dao daotype="derived" coverage="whole" label="148v" href="814/487397.tif"/>
+         <dao daotype="derived" coverage="whole" label="149r" href="814/487398.tif"/>
+         <dao daotype="derived" coverage="whole" label="149v" href="814/487399.tif"/>
+         <dao daotype="derived" coverage="whole" label="14r" href="814/487128.tif"/>
+         <dao daotype="derived" coverage="whole" label="14v" href="814/487129.tif"/>
+         <dao daotype="derived" coverage="whole" label="150r" href="814/487400.tif"/>
+         <dao daotype="derived" coverage="whole" label="150v" href="814/487401.tif"/>
+         <dao daotype="derived" coverage="whole" label="151r" href="814/487402.tif"/>
+         <dao daotype="derived" coverage="whole" label="151v" href="814/487403.tif"/>
+         <dao daotype="derived" coverage="whole" label="152r" href="814/487404.tif"/>
+         <dao daotype="derived" coverage="whole" label="152v" href="814/487405.tif"/>
+         <dao daotype="derived" coverage="whole" label="153r" href="814/487406.tif"/>
+         <dao daotype="derived" coverage="whole" label="153v" href="814/487407.tif"/>
+         <dao daotype="derived" coverage="whole" label="154r" href="814/487408.tif"/>
+         <dao daotype="derived" coverage="whole" label="154v" href="814/487409.tif"/>
+         <dao daotype="derived" coverage="whole" label="155r" href="814/487410.tif"/>
+         <dao daotype="derived" coverage="whole" label="155v" href="814/487411.tif"/>
+         <dao daotype="derived" coverage="whole" label="156r" href="814/487412.tif"/>
+         <dao daotype="derived" coverage="whole" label="156v" href="814/487413.tif"/>
+         <dao daotype="derived" coverage="whole" label="157r" href="814/487414.tif"/>
+         <dao daotype="derived" coverage="whole" label="157v" href="814/487415.tif"/>
+         <dao daotype="derived" coverage="whole" label="158r" href="814/487416.tif"/>
+         <dao daotype="derived" coverage="whole" label="158v" href="814/487417.tif"/>
+         <dao daotype="derived" coverage="whole" label="159r" href="814/487418.tif"/>
+         <dao daotype="derived" coverage="whole" label="159v" href="814/487419.tif"/>
+         <dao daotype="derived" coverage="whole" label="15r" href="814/487130.tif"/>
+         <dao daotype="derived" coverage="whole" label="15v" href="814/487131.tif"/>
+         <dao daotype="derived" coverage="whole" label="160r" href="814/487420.tif"/>
+         <dao daotype="derived" coverage="whole" label="160v" href="814/487421.tif"/>
+         <dao daotype="derived" coverage="whole" label="161r" href="814/487422.tif"/>
+         <dao daotype="derived" coverage="whole" label="161v" href="814/487423.tif"/>
+         <dao daotype="derived" coverage="whole" label="162r" href="814/487424.tif"/>
+         <dao daotype="derived" coverage="whole" label="162v" href="814/487425.tif"/>
+         <dao daotype="derived" coverage="whole" label="163r" href="814/487426.tif"/>
+         <dao daotype="derived" coverage="whole" label="163v" href="814/487427.tif"/>
+         <dao daotype="derived" coverage="whole" label="164r" href="814/487428.tif"/>
+         <dao daotype="derived" coverage="whole" label="164v" href="814/487429.tif"/>
+         <dao daotype="derived" coverage="whole" label="165r" href="814/487430.tif"/>
+         <dao daotype="derived" coverage="whole" label="165v" href="814/487431.tif"/>
+         <dao daotype="derived" coverage="whole" label="166r" href="814/487432.tif"/>
+         <dao daotype="derived" coverage="whole" label="166v" href="814/487433.tif"/>
+         <dao daotype="derived" coverage="whole" label="167r" href="814/487434.tif"/>
+         <dao daotype="derived" coverage="whole" label="167v" href="814/487435.tif"/>
+         <dao daotype="derived" coverage="whole" label="168r" href="814/487436.tif"/>
+         <dao daotype="derived" coverage="whole" label="168v" href="814/487437.tif"/>
+         <dao daotype="derived" coverage="whole" label="169r" href="814/487438.tif"/>
+         <dao daotype="derived" coverage="whole" label="169v" href="814/487439.tif"/>
+         <dao daotype="derived" coverage="whole" label="16r" href="814/487132.tif"/>
+         <dao daotype="derived" coverage="whole" label="16v" href="814/487133.tif"/>
+         <dao daotype="derived" coverage="whole" label="170r" href="814/487440.tif"/>
+         <dao daotype="derived" coverage="whole" label="170v" href="814/487441.tif"/>
+         <dao daotype="derived" coverage="whole" label="171r" href="814/487442.tif"/>
+         <dao daotype="derived" coverage="whole" label="171v" href="814/487443.tif"/>
+         <dao daotype="derived" coverage="whole" label="172r" href="814/487444.tif"/>
+         <dao daotype="derived" coverage="whole" label="172v" href="814/487445.tif"/>
+         <dao daotype="derived" coverage="whole" label="173r" href="814/487446.tif"/>
+         <dao daotype="derived" coverage="whole" label="173v" href="814/487447.tif"/>
+         <dao daotype="derived" coverage="whole" label="174r" href="814/487448.tif"/>
+         <dao daotype="derived" coverage="whole" label="174v" href="814/487449.tif"/>
+         <dao daotype="derived" coverage="whole" label="175r" href="814/487450.tif"/>
+         <dao daotype="derived" coverage="whole" label="175v" href="814/487451.tif"/>
+         <dao daotype="derived" coverage="whole" label="176r" href="814/487452.tif"/>
+         <dao daotype="derived" coverage="whole" label="176v" href="814/487453.tif"/>
+         <dao daotype="derived" coverage="whole" label="177r" href="814/487454.tif"/>
+         <dao daotype="derived" coverage="whole" label="177v" href="814/487455.tif"/>
+         <dao daotype="derived" coverage="whole" label="178r" href="814/487456.tif"/>
+         <dao daotype="derived" coverage="whole" label="178v" href="814/487457.tif"/>
+         <dao daotype="derived" coverage="whole" label="179r" href="814/487458.tif"/>
+         <dao daotype="derived" coverage="whole" label="179v" href="814/487459.tif"/>
+         <dao daotype="derived" coverage="whole" label="17r" href="814/487134.tif"/>
+         <dao daotype="derived" coverage="whole" label="17v" href="814/487135.tif"/>
+         <dao daotype="derived" coverage="whole" label="180r" href="814/487460.tif"/>
+         <dao daotype="derived" coverage="whole" label="180v" href="814/487461.tif"/>
+         <dao daotype="derived" coverage="whole" label="181r" href="814/487462.tif"/>
+         <dao daotype="derived" coverage="whole" label="181v" href="814/487463.tif"/>
+         <dao daotype="derived" coverage="whole" label="182r" href="814/487464.tif"/>
+         <dao daotype="derived" coverage="whole" label="182v" href="814/487465.tif"/>
+         <dao daotype="derived" coverage="whole" label="183r" href="814/487466.tif"/>
+         <dao daotype="derived" coverage="whole" label="183v" href="814/487467.tif"/>
+         <dao daotype="derived" coverage="whole" label="184r" href="814/487468.tif"/>
+         <dao daotype="derived" coverage="whole" label="184v" href="814/487469.tif"/>
+         <dao daotype="derived" coverage="whole" label="185r" href="814/487470.tif"/>
+         <dao daotype="derived" coverage="whole" label="185v" href="814/487471.tif"/>
+         <dao daotype="derived" coverage="whole" label="186r" href="814/487472.tif"/>
+         <dao daotype="derived" coverage="whole" label="186v" href="814/487473.tif"/>
+         <dao daotype="derived" coverage="whole" label="187r" href="814/487474.tif"/>
+         <dao daotype="derived" coverage="whole" label="187v" href="814/487475.tif"/>
+         <dao daotype="derived" coverage="whole" label="188r" href="814/487476.tif"/>
+         <dao daotype="derived" coverage="whole" label="188v" href="814/487477.tif"/>
+         <dao daotype="derived" coverage="whole" label="189r" href="814/487478.tif"/>
+         <dao daotype="derived" coverage="whole" label="189v" href="814/487479.tif"/>
+         <dao daotype="derived" coverage="whole" label="18r" href="814/487136.tif"/>
+         <dao daotype="derived" coverage="whole" label="18v" href="814/487137.tif"/>
+         <dao daotype="derived" coverage="whole" label="190r" href="814/487480.tif"/>
+         <dao daotype="derived" coverage="whole" label="190v" href="814/487481.tif"/>
+         <dao daotype="derived" coverage="whole" label="191r" href="814/487482.tif"/>
+         <dao daotype="derived" coverage="whole" label="191v" href="814/487483.tif"/>
+         <dao daotype="derived" coverage="whole" label="192r" href="814/487484.tif"/>
+         <dao daotype="derived" coverage="whole" label="192v" href="814/487485.tif"/>
+         <dao daotype="derived" coverage="whole" label="193r" href="814/487486.tif"/>
+         <dao daotype="derived" coverage="whole" label="193r" href="814/487487.tif"/>
+         <dao daotype="derived" coverage="whole" label="194r" href="814/487488.tif"/>
+         <dao daotype="derived" coverage="whole" label="194v" href="814/487489.tif"/>
+         <dao daotype="derived" coverage="whole" label="195r" href="814/487490.tif"/>
+         <dao daotype="derived" coverage="whole" label="195v" href="814/487491.tif"/>
+         <dao daotype="derived" coverage="whole" label="196r" href="814/487492.tif"/>
+         <dao daotype="derived" coverage="whole" label="196v" href="814/487493.tif"/>
+         <dao daotype="derived" coverage="whole" label="197r" href="814/487494.tif"/>
+         <dao daotype="derived" coverage="whole" label="197v" href="814/487495.tif"/>
+         <dao daotype="derived" coverage="whole" label="198r" href="814/487496.tif"/>
+         <dao daotype="derived" coverage="whole" label="198v" href="814/487497.tif"/>
+         <dao daotype="derived" coverage="whole" label="199r" href="814/487498.tif"/>
+         <dao daotype="derived" coverage="whole" label="199v" href="814/487499.tif"/>
+         <dao daotype="derived" coverage="whole" label="19r" href="814/487138.tif"/>
+         <dao daotype="derived" coverage="whole" label="19v" href="814/487139.tif"/>
+         <dao daotype="derived" coverage="whole" label="1r" href="814/487102.tif"/>
+         <dao daotype="derived" coverage="whole" label="1v" href="814/487103.tif"/>
+         <dao daotype="derived" coverage="whole" label="200r" href="814/487500.tif"/>
+         <dao daotype="derived" coverage="whole" label="200v" href="814/487501.tif"/>
+         <dao daotype="derived" coverage="whole" label="201r" href="814/487502.tif"/>
+         <dao daotype="derived" coverage="whole" label="201v" href="814/487503.tif"/>
+         <dao daotype="derived" coverage="whole" label="202r" href="814/487504.tif"/>
+         <dao daotype="derived" coverage="whole" label="202v" href="814/487505.tif"/>
+         <dao daotype="derived" coverage="whole" label="203r" href="814/487506.tif"/>
+         <dao daotype="derived" coverage="whole" label="203v" href="814/487507.tif"/>
+         <dao daotype="derived" coverage="whole" label="204r" href="814/487508.tif"/>
+         <dao daotype="derived" coverage="whole" label="204v" href="814/487509.tif"/>
+         <dao daotype="derived" coverage="whole" label="205r" href="814/487510.tif"/>
+         <dao daotype="derived" coverage="whole" label="205v" href="814/487511.tif"/>
+         <dao daotype="derived" coverage="whole" label="206r" href="814/487512.tif"/>
+         <dao daotype="derived" coverage="whole" label="206v" href="814/487513.tif"/>
+         <dao daotype="derived" coverage="whole" label="207r" href="814/487514.tif"/>
+         <dao daotype="derived" coverage="whole" label="207v" href="814/487515.tif"/>
+         <dao daotype="derived" coverage="whole" label="208r" href="814/487516.tif"/>
+         <dao daotype="derived" coverage="whole" label="208v" href="814/487517.tif"/>
+         <dao daotype="derived" coverage="whole" label="209r" href="814/487518.tif"/>
+         <dao daotype="derived" coverage="whole" label="209v" href="814/487519.tif"/>
+         <dao daotype="derived" coverage="whole" label="20r" href="814/487140.tif"/>
+         <dao daotype="derived" coverage="whole" label="20v" href="814/487141.tif"/>
+         <dao daotype="derived" coverage="whole" label="210r" href="814/487520.tif"/>
+         <dao daotype="derived" coverage="whole" label="210v" href="814/487521.tif"/>
+         <dao daotype="derived" coverage="whole" label="211r" href="814/487522.tif"/>
+         <dao daotype="derived" coverage="whole" label="211v" href="814/487523.tif"/>
+         <dao daotype="derived" coverage="whole" label="212r" href="814/487524.tif"/>
+         <dao daotype="derived" coverage="whole" label="212v" href="814/487525.tif"/>
+         <dao daotype="derived" coverage="whole" label="213r" href="814/487526.tif"/>
+         <dao daotype="derived" coverage="whole" label="213v" href="814/487527.tif"/>
+         <dao daotype="derived" coverage="whole" label="214r" href="814/487528.tif"/>
+         <dao daotype="derived" coverage="whole" label="214v" href="814/487529.tif"/>
+         <dao daotype="derived" coverage="whole" label="215r" href="814/487530.tif"/>
+         <dao daotype="derived" coverage="whole" label="215v" href="814/487531.tif"/>
+         <dao daotype="derived" coverage="whole" label="216r" href="814/487532.tif"/>
+         <dao daotype="derived" coverage="whole" label="216v" href="814/487533.tif"/>
+         <dao daotype="derived" coverage="whole" label="217r" href="814/487534.tif"/>
+         <dao daotype="derived" coverage="whole" label="217v" href="814/487535.tif"/>
+         <dao daotype="derived" coverage="whole" label="218r" href="814/487536.tif"/>
+         <dao daotype="derived" coverage="whole" label="218v" href="814/487537.tif"/>
+         <dao daotype="derived" coverage="whole" label="219r" href="814/487538.tif"/>
+         <dao daotype="derived" coverage="whole" label="219v" href="814/487539.tif"/>
+         <dao daotype="derived" coverage="whole" label="21r" href="814/487142.tif"/>
+         <dao daotype="derived" coverage="whole" label="21v" href="814/487143.tif"/>
+         <dao daotype="derived" coverage="whole" label="220r" href="814/487540.tif"/>
+         <dao daotype="derived" coverage="whole" label="220v" href="814/487541.tif"/>
+         <dao daotype="derived" coverage="whole" label="221r" href="814/487542.tif"/>
+         <dao daotype="derived" coverage="whole" label="221v" href="814/487543.tif"/>
+         <dao daotype="derived" coverage="whole" label="222r" href="814/487544.tif"/>
+         <dao daotype="derived" coverage="whole" label="222v" href="814/487545.tif"/>
+         <dao daotype="derived" coverage="whole" label="223r" href="814/487546.tif"/>
+         <dao daotype="derived" coverage="whole" label="223v" href="814/487547.tif"/>
+         <dao daotype="derived" coverage="whole" label="224r" href="814/487548.tif"/>
+         <dao daotype="derived" coverage="whole" label="224v" href="814/487549.tif"/>
+         <dao daotype="derived" coverage="whole" label="225r" href="814/487550.tif"/>
+         <dao daotype="derived" coverage="whole" label="225v" href="814/487551.tif"/>
+         <dao daotype="derived" coverage="whole" label="227r" href="814/487552.tif"/>
+         <dao daotype="derived" coverage="whole" label="227v" href="814/487553.tif"/>
+         <dao daotype="derived" coverage="whole" label="228r" href="814/487554.tif"/>
+         <dao daotype="derived" coverage="whole" label="228v" href="814/487555.tif"/>
+         <dao daotype="derived" coverage="whole" label="229r" href="814/487556.tif"/>
+         <dao daotype="derived" coverage="whole" label="229v" href="814/487557.tif"/>
+         <dao daotype="derived" coverage="whole" label="22r" href="814/487144.tif"/>
+         <dao daotype="derived" coverage="whole" label="22v" href="814/487145.tif"/>
+         <dao daotype="derived" coverage="whole" label="230r" href="814/487558.tif"/>
+         <dao daotype="derived" coverage="whole" label="230v" href="814/487559.tif"/>
+         <dao daotype="derived" coverage="whole" label="231r" href="814/487560.tif"/>
+         <dao daotype="derived" coverage="whole" label="231v" href="814/487561.tif"/>
+         <dao daotype="derived" coverage="whole" label="232r" href="814/487562.tif"/>
+         <dao daotype="derived" coverage="whole" label="232v" href="814/487563.tif"/>
+         <dao daotype="derived" coverage="whole" label="233r" href="814/487564.tif"/>
+         <dao daotype="derived" coverage="whole" label="233v" href="814/487565.tif"/>
+         <dao daotype="derived" coverage="whole" label="234r" href="814/487566.tif"/>
+         <dao daotype="derived" coverage="whole" label="234v" href="814/487567.tif"/>
+         <dao daotype="derived" coverage="whole" label="235r" href="814/487568.tif"/>
+         <dao daotype="derived" coverage="whole" label="235v" href="814/487569.tif"/>
+         <dao daotype="derived" coverage="whole" label="236r" href="814/487570.tif"/>
+         <dao daotype="derived" coverage="whole" label="236v" href="814/487571.tif"/>
+         <dao daotype="derived" coverage="whole" label="237r" href="814/487572.tif"/>
+         <dao daotype="derived" coverage="whole" label="237v" href="814/487573.tif"/>
+         <dao daotype="derived" coverage="whole" label="238r" href="814/487574.tif"/>
+         <dao daotype="derived" coverage="whole" label="238v" href="814/487575.tif"/>
+         <dao daotype="derived" coverage="whole" label="239r" href="814/487576.tif"/>
+         <dao daotype="derived" coverage="whole" label="239v" href="814/487577.tif"/>
+         <dao daotype="derived" coverage="whole" label="23r" href="814/487146.tif"/>
+         <dao daotype="derived" coverage="whole" label="23v" href="814/487147.tif"/>
+         <dao daotype="derived" coverage="whole" label="240r" href="814/487578.tif"/>
+         <dao daotype="derived" coverage="whole" label="240v" href="814/487579.tif"/>
+         <dao daotype="derived" coverage="whole" label="241r" href="814/487580.tif"/>
+         <dao daotype="derived" coverage="whole" label="241v" href="814/487581.tif"/>
+         <dao daotype="derived" coverage="whole" label="242r" href="814/487582.tif"/>
+         <dao daotype="derived" coverage="whole" label="242v" href="814/487583.tif"/>
+         <dao daotype="derived" coverage="whole" label="243r" href="814/487584.tif"/>
+         <dao daotype="derived" coverage="whole" label="243v" href="814/487585.tif"/>
+         <dao daotype="derived" coverage="whole" label="244r" href="814/487586.tif"/>
+         <dao daotype="derived" coverage="whole" label="244v" href="814/487587.tif"/>
+         <dao daotype="derived" coverage="whole" label="245r" href="814/487588.tif"/>
+         <dao daotype="derived" coverage="whole" label="245v" href="814/487589.tif"/>
+         <dao daotype="derived" coverage="whole" label="246r" href="814/487590.tif"/>
+         <dao daotype="derived" coverage="whole" label="246v" href="814/487591.tif"/>
+         <dao daotype="derived" coverage="whole" label="247r" href="814/487592.tif"/>
+         <dao daotype="derived" coverage="whole" label="247v" href="814/487593.tif"/>
+         <dao daotype="derived" coverage="whole" label="248r" href="814/487594.tif"/>
+         <dao daotype="derived" coverage="whole" label="248v" href="814/487595.tif"/>
+         <dao daotype="derived" coverage="whole" label="249r" href="814/487596.tif"/>
+         <dao daotype="derived" coverage="whole" label="249v" href="814/487597.tif"/>
+         <dao daotype="derived" coverage="whole" label="24r" href="814/487148.tif"/>
+         <dao daotype="derived" coverage="whole" label="24v" href="814/487149.tif"/>
+         <dao daotype="derived" coverage="whole" label="250r" href="814/487598.tif"/>
+         <dao daotype="derived" coverage="whole" label="250v" href="814/487599.tif"/>
+         <dao daotype="derived" coverage="whole" label="251r" href="814/487600.tif"/>
+         <dao daotype="derived" coverage="whole" label="251v" href="814/487601.tif"/>
+         <dao daotype="derived" coverage="whole" label="252r" href="814/487602.tif"/>
+         <dao daotype="derived" coverage="whole" label="252v" href="814/487603.tif"/>
+         <dao daotype="derived" coverage="whole" label="253r" href="814/487604.tif"/>
+         <dao daotype="derived" coverage="whole" label="253v" href="814/487605.tif"/>
+         <dao daotype="derived" coverage="whole" label="254r" href="814/487606.tif"/>
+         <dao daotype="derived" coverage="whole" label="254v" href="814/487607.tif"/>
+         <dao daotype="derived" coverage="whole" label="255r" href="814/487608.tif"/>
+         <dao daotype="derived" coverage="whole" label="255v" href="814/487609.tif"/>
+         <dao daotype="derived" coverage="whole" label="256r" href="814/487610.tif"/>
+         <dao daotype="derived" coverage="whole" label="256v" href="814/487611.tif"/>
+         <dao daotype="derived" coverage="whole" label="257r" href="814/487612.tif"/>
+         <dao daotype="derived" coverage="whole" label="257v" href="814/487613.tif"/>
+         <dao daotype="derived" coverage="whole" label="258r" href="814/487614.tif"/>
+         <dao daotype="derived" coverage="whole" label="258v" href="814/487615.tif"/>
+         <dao daotype="derived" coverage="whole" label="259r" href="814/487616.tif"/>
+         <dao daotype="derived" coverage="whole" label="259v" href="814/487617.tif"/>
+         <dao daotype="derived" coverage="whole" label="25r" href="814/487150.tif"/>
+         <dao daotype="derived" coverage="whole" label="25v" href="814/487151.tif"/>
+         <dao daotype="derived" coverage="whole" label="260r" href="814/487618.tif"/>
+         <dao daotype="derived" coverage="whole" label="260v" href="814/487619.tif"/>
+         <dao daotype="derived" coverage="whole" label="261r" href="814/487620.tif"/>
+         <dao daotype="derived" coverage="whole" label="261v" href="814/487621.tif"/>
+         <dao daotype="derived" coverage="whole" label="262r" href="814/487622.tif"/>
+         <dao daotype="derived" coverage="whole" label="262v" href="814/487623.tif"/>
+         <dao daotype="derived" coverage="whole" label="263r" href="814/487624.tif"/>
+         <dao daotype="derived" coverage="whole" label="263v" href="814/487625.tif"/>
+         <dao daotype="derived" coverage="whole" label="264r" href="814/487626.tif"/>
+         <dao daotype="derived" coverage="whole" label="264v" href="814/487627.tif"/>
+         <dao daotype="derived" coverage="whole" label="265r" href="814/487628.tif"/>
+         <dao daotype="derived" coverage="whole" label="265v" href="814/487629.tif"/>
+         <dao daotype="derived" coverage="whole" label="266r" href="814/487630.tif"/>
+         <dao daotype="derived" coverage="whole" label="266v" href="814/487631.tif"/>
+         <dao daotype="derived" coverage="whole" label="267r" href="814/487632.tif"/>
+         <dao daotype="derived" coverage="whole" label="267v" href="814/487633.tif"/>
+         <dao daotype="derived" coverage="whole" label="268r" href="814/487634.tif"/>
+         <dao daotype="derived" coverage="whole" label="268v" href="814/487635.tif"/>
+         <dao daotype="derived" coverage="whole" label="269r" href="814/487636.tif"/>
+         <dao daotype="derived" coverage="whole" label="269v" href="814/487637.tif"/>
+         <dao daotype="derived" coverage="whole" label="26r" href="814/487152.tif"/>
+         <dao daotype="derived" coverage="whole" label="26v" href="814/487153.tif"/>
+         <dao daotype="derived" coverage="whole" label="270r" href="814/487638.tif"/>
+         <dao daotype="derived" coverage="whole" label="270v" href="814/487639.tif"/>
+         <dao daotype="derived" coverage="whole" label="271r" href="814/487640.tif"/>
+         <dao daotype="derived" coverage="whole" label="271v" href="814/487641.tif"/>
+         <dao daotype="derived" coverage="whole" label="272r" href="814/487642.tif"/>
+         <dao daotype="derived" coverage="whole" label="272v" href="814/487643.tif"/>
+         <dao daotype="derived" coverage="whole" label="273r" href="814/487644.tif"/>
+         <dao daotype="derived" coverage="whole" label="273v" href="814/487645.tif"/>
+         <dao daotype="derived" coverage="whole" label="274r" href="814/487646.tif"/>
+         <dao daotype="derived" coverage="whole" label="274v" href="814/487647.tif"/>
+         <dao daotype="derived" coverage="whole" label="275r" href="814/487648.tif"/>
+         <dao daotype="derived" coverage="whole" label="275v" href="814/487649.tif"/>
+         <dao daotype="derived" coverage="whole" label="276r" href="814/487650.tif"/>
+         <dao daotype="derived" coverage="whole" label="276v" href="814/487651.tif"/>
+         <dao daotype="derived" coverage="whole" label="277r" href="814/487652.tif"/>
+         <dao daotype="derived" coverage="whole" label="277v" href="814/487653.tif"/>
+         <dao daotype="derived" coverage="whole" label="278r" href="814/487654.tif"/>
+         <dao daotype="derived" coverage="whole" label="278v" href="814/487655.tif"/>
+         <dao daotype="derived" coverage="whole" label="279r" href="814/487656.tif"/>
+         <dao daotype="derived" coverage="whole" label="279v" href="814/487657.tif"/>
+         <dao daotype="derived" coverage="whole" label="27r" href="814/487154.tif"/>
+         <dao daotype="derived" coverage="whole" label="27v" href="814/487155.tif"/>
+         <dao daotype="derived" coverage="whole" label="280r" href="814/487658.tif"/>
+         <dao daotype="derived" coverage="whole" label="280v" href="814/487659.tif"/>
+         <dao daotype="derived" coverage="whole" label="281r" href="814/487660.tif"/>
+         <dao daotype="derived" coverage="whole" label="281v" href="814/487661.tif"/>
+         <dao daotype="derived" coverage="whole" label="282r" href="814/487662.tif"/>
+         <dao daotype="derived" coverage="whole" label="282v" href="814/487663.tif"/>
+         <dao daotype="derived" coverage="whole" label="283r" href="814/487664.tif"/>
+         <dao daotype="derived" coverage="whole" label="283v" href="814/487665.tif"/>
+         <dao daotype="derived" coverage="whole" label="284r" href="814/487666.tif"/>
+         <dao daotype="derived" coverage="whole" label="284v" href="814/487667.tif"/>
+         <dao daotype="derived" coverage="whole" label="285r" href="814/487668.tif"/>
+         <dao daotype="derived" coverage="whole" label="285v" href="814/487669.tif"/>
+         <dao daotype="derived" coverage="whole" label="286r" href="814/487670.tif"/>
+         <dao daotype="derived" coverage="whole" label="286v" href="814/487671.tif"/>
+         <dao daotype="derived" coverage="whole" label="287r" href="814/487672.tif"/>
+         <dao daotype="derived" coverage="whole" label="287v" href="814/487673.tif"/>
+         <dao daotype="derived" coverage="whole" label="288r" href="814/487674.tif"/>
+         <dao daotype="derived" coverage="whole" label="288v" href="814/487675.tif"/>
+         <dao daotype="derived" coverage="whole" label="289r" href="814/487676.tif"/>
+         <dao daotype="derived" coverage="whole" label="289v" href="814/487677.tif"/>
+         <dao daotype="derived" coverage="whole" label="28r" href="814/487156.tif"/>
+         <dao daotype="derived" coverage="whole" label="28v" href="814/487157.tif"/>
+         <dao daotype="derived" coverage="whole" label="290r" href="814/487678.tif"/>
+         <dao daotype="derived" coverage="whole" label="290v" href="814/487679.tif"/>
+         <dao daotype="derived" coverage="whole" label="291r" href="814/487680.tif"/>
+         <dao daotype="derived" coverage="whole" label="291v" href="814/487681.tif"/>
+         <dao daotype="derived" coverage="whole" label="292r" href="814/487682.tif"/>
+         <dao daotype="derived" coverage="whole" label="292v" href="814/487683.tif"/>
+         <dao daotype="derived" coverage="whole" label="293r" href="814/487684.tif"/>
+         <dao daotype="derived" coverage="whole" label="293v" href="814/487685.tif"/>
+         <dao daotype="derived" coverage="whole" label="294r" href="814/487686.tif"/>
+         <dao daotype="derived" coverage="whole" label="294v" href="814/487687.tif"/>
+         <dao daotype="derived" coverage="whole" label="295r" href="814/487688.tif"/>
+         <dao daotype="derived" coverage="whole" label="295v" href="814/487689.tif"/>
+         <dao daotype="derived" coverage="whole" label="296r" href="814/487690.tif"/>
+         <dao daotype="derived" coverage="whole" label="296v" href="814/487691.tif"/>
+         <dao daotype="derived" coverage="whole" label="297r" href="814/487692.tif"/>
+         <dao daotype="derived" coverage="whole" label="297v" href="814/487693.tif"/>
+         <dao daotype="derived" coverage="whole" label="298r" href="814/487694.tif"/>
+         <dao daotype="derived" coverage="whole" label="298v" href="814/487695.tif"/>
+         <dao daotype="derived" coverage="whole" label="299r" href="814/487696.tif"/>
+         <dao daotype="derived" coverage="whole" label="299v" href="814/487697.tif"/>
+         <dao daotype="derived" coverage="whole" label="29r" href="814/487158.tif"/>
+         <dao daotype="derived" coverage="whole" label="29v" href="814/487159.tif"/>
+         <dao daotype="derived" coverage="whole" label="2r" href="814/487104.tif"/>
+         <dao daotype="derived" coverage="whole" label="2v" href="814/487105.tif"/>
+         <dao daotype="derived" coverage="whole" label="300r" href="814/487698.tif"/>
+         <dao daotype="derived" coverage="whole" label="300v" href="814/487699.tif"/>
+         <dao daotype="derived" coverage="whole" label="301r" href="814/487700.tif"/>
+         <dao daotype="derived" coverage="whole" label="301v" href="814/487701.tif"/>
+         <dao daotype="derived" coverage="whole" label="302r" href="814/487702.tif"/>
+         <dao daotype="derived" coverage="whole" label="302v" href="814/487703.tif"/>
+         <dao daotype="derived" coverage="whole" label="303r" href="814/487704.tif"/>
+         <dao daotype="derived" coverage="whole" label="303v" href="814/487705.tif"/>
+         <dao daotype="derived" coverage="whole" label="304r" href="814/487706.tif"/>
+         <dao daotype="derived" coverage="whole" label="304v" href="814/487707.tif"/>
+         <dao daotype="derived" coverage="whole" label="305r" href="814/487708.tif"/>
+         <dao daotype="derived" coverage="whole" label="305v" href="814/487709.tif"/>
+         <dao daotype="derived" coverage="whole" label="306r" href="814/487710.tif"/>
+         <dao daotype="derived" coverage="whole" label="306v" href="814/487711.tif"/>
+         <dao daotype="derived" coverage="whole" label="307r" href="814/487712.tif"/>
+         <dao daotype="derived" coverage="whole" label="307v" href="814/487713.tif"/>
+         <dao daotype="derived" coverage="whole" label="308r" href="814/487714.tif"/>
+         <dao daotype="derived" coverage="whole" label="308v" href="814/487715.tif"/>
+         <dao daotype="derived" coverage="whole" label="309r" href="814/487716.tif"/>
+         <dao daotype="derived" coverage="whole" label="309v" href="814/487717.tif"/>
+         <dao daotype="derived" coverage="whole" label="30r" href="814/487160.tif"/>
+         <dao daotype="derived" coverage="whole" label="30v" href="814/487161.tif"/>
+         <dao daotype="derived" coverage="whole" label="310r" href="814/487718.tif"/>
+         <dao daotype="derived" coverage="whole" label="310v" href="814/487719.tif"/>
+         <dao daotype="derived" coverage="whole" label="311r" href="814/487720.tif"/>
+         <dao daotype="derived" coverage="whole" label="311v" href="814/487721.tif"/>
+         <dao daotype="derived" coverage="whole" label="312r" href="814/487722.tif"/>
+         <dao daotype="derived" coverage="whole" label="312v" href="814/487723.tif"/>
+         <dao daotype="derived" coverage="whole" label="313r" href="814/487724.tif"/>
+         <dao daotype="derived" coverage="whole" label="313v" href="814/487725.tif"/>
+         <dao daotype="derived" coverage="whole" label="314r" href="814/487726.tif"/>
+         <dao daotype="derived" coverage="whole" label="314v" href="814/487727.tif"/>
+         <dao daotype="derived" coverage="whole" label="315r" href="814/487728.tif"/>
+         <dao daotype="derived" coverage="whole" label="315v" href="814/487729.tif"/>
+         <dao daotype="derived" coverage="whole" label="316r" href="814/487730.tif"/>
+         <dao daotype="derived" coverage="whole" label="316v" href="814/487731.tif"/>
+         <dao daotype="derived" coverage="whole" label="317r" href="814/487732.tif"/>
+         <dao daotype="derived" coverage="whole" label="317v" href="814/487733.tif"/>
+         <dao daotype="derived" coverage="whole" label="318r" href="814/487734.tif"/>
+         <dao daotype="derived" coverage="whole" label="318v" href="814/487735.tif"/>
+         <dao daotype="derived" coverage="whole" label="319r" href="814/487736.tif"/>
+         <dao daotype="derived" coverage="whole" label="319v" href="814/487737.tif"/>
+         <dao daotype="derived" coverage="whole" label="31r" href="814/487162.tif"/>
+         <dao daotype="derived" coverage="whole" label="31v" href="814/487163.tif"/>
+         <dao daotype="derived" coverage="whole" label="320r" href="814/487738.tif"/>
+         <dao daotype="derived" coverage="whole" label="320v" href="814/487739.tif"/>
+         <dao daotype="derived" coverage="whole" label="321r" href="814/487740.tif"/>
+         <dao daotype="derived" coverage="whole" label="321v" href="814/487741.tif"/>
+         <dao daotype="derived" coverage="whole" label="322ar" href="814/487744.tif"/>
+         <dao daotype="derived" coverage="whole" label="322av" href="814/487745.tif"/>
+         <dao daotype="derived" coverage="whole" label="322r" href="814/487742.tif"/>
+         <dao daotype="derived" coverage="whole" label="322v" href="814/487743.tif"/>
+         <dao daotype="derived" coverage="whole" label="323r" href="814/487746.tif"/>
+         <dao daotype="derived" coverage="whole" label="323v" href="814/487747.tif"/>
+         <dao daotype="derived" coverage="whole" label="324r" href="814/487748.tif"/>
+         <dao daotype="derived" coverage="whole" label="324v" href="814/487749.tif"/>
+         <dao daotype="derived" coverage="whole" label="325r" href="814/487750.tif"/>
+         <dao daotype="derived" coverage="whole" label="325v" href="814/487751.tif"/>
+         <dao daotype="derived" coverage="whole" label="326r" href="814/487752.tif"/>
+         <dao daotype="derived" coverage="whole" label="326v" href="814/487753.tif"/>
+         <dao daotype="derived" coverage="whole" label="327r" href="814/487754.tif"/>
+         <dao daotype="derived" coverage="whole" label="327v" href="814/487755.tif"/>
+         <dao daotype="derived" coverage="whole" label="328r" href="814/487756.tif"/>
+         <dao daotype="derived" coverage="whole" label="328v" href="814/487757.tif"/>
+         <dao daotype="derived" coverage="whole" label="329r" href="814/487758.tif"/>
+         <dao daotype="derived" coverage="whole" label="329v" href="814/487759.tif"/>
+         <dao daotype="derived" coverage="whole" label="32r" href="814/487164.tif"/>
+         <dao daotype="derived" coverage="whole" label="32v" href="814/487165.tif"/>
+         <dao daotype="derived" coverage="whole" label="330r" href="814/487760.tif"/>
+         <dao daotype="derived" coverage="whole" label="330v" href="814/487761.tif"/>
+         <dao daotype="derived" coverage="whole" label="331r" href="814/487762.tif"/>
+         <dao daotype="derived" coverage="whole" label="331v" href="814/487763.tif"/>
+         <dao daotype="derived" coverage="whole" label="332r" href="814/487764.tif"/>
+         <dao daotype="derived" coverage="whole" label="332v" href="814/487765.tif"/>
+         <dao daotype="derived" coverage="whole" label="333r" href="814/487766.tif"/>
+         <dao daotype="derived" coverage="whole" label="333v" href="814/487767.tif"/>
+         <dao daotype="derived" coverage="whole" label="334r" href="814/487768.tif"/>
+         <dao daotype="derived" coverage="whole" label="334v" href="814/487769.tif"/>
+         <dao daotype="derived" coverage="whole" label="335r" href="814/487770.tif"/>
+         <dao daotype="derived" coverage="whole" label="335v" href="814/487771.tif"/>
+         <dao daotype="derived" coverage="whole" label="336r" href="814/487772.tif"/>
+         <dao daotype="derived" coverage="whole" label="336v" href="814/487773.tif"/>
+         <dao daotype="derived" coverage="whole" label="337r" href="814/487774.tif"/>
+         <dao daotype="derived" coverage="whole" label="337v" href="814/487775.tif"/>
+         <dao daotype="derived" coverage="whole" label="338r" href="814/487776.tif"/>
+         <dao daotype="derived" coverage="whole" label="338v" href="814/487777.tif"/>
+         <dao daotype="derived" coverage="whole" label="339r" href="814/487778.tif"/>
+         <dao daotype="derived" coverage="whole" label="339v" href="814/487779.tif"/>
+         <dao daotype="derived" coverage="whole" label="33r" href="814/487166.tif"/>
+         <dao daotype="derived" coverage="whole" label="33v" href="814/487167.tif"/>
+         <dao daotype="derived" coverage="whole" label="340r" href="814/487780.tif"/>
+         <dao daotype="derived" coverage="whole" label="340v" href="814/487781.tif"/>
+         <dao daotype="derived" coverage="whole" label="341r" href="814/487782.tif"/>
+         <dao daotype="derived" coverage="whole" label="341v" href="814/487783.tif"/>
+         <dao daotype="derived" coverage="whole" label="34r" href="814/487168.tif"/>
+         <dao daotype="derived" coverage="whole" label="34v" href="814/487169.tif"/>
+         <dao daotype="derived" coverage="whole" label="35v" href="814/487171.tif"/>
+         <dao daotype="derived" coverage="whole" label="36r" href="814/487172.tif"/>
+         <dao daotype="derived" coverage="whole" label="36v" href="814/487173.tif"/>
+         <dao daotype="derived" coverage="whole" label="37r" href="814/487174.tif"/>
+         <dao daotype="derived" coverage="whole" label="37v" href="814/487175.tif"/>
+         <dao daotype="derived" coverage="whole" label="38r" href="814/487176.tif"/>
+         <dao daotype="derived" coverage="whole" label="38v" href="814/487177.tif"/>
+         <dao daotype="derived" coverage="whole" label="39r" href="814/487178.tif"/>
+         <dao daotype="derived" coverage="whole" label="39v" href="814/487179.tif"/>
+         <dao daotype="derived" coverage="whole" label="3r" href="814/487106.tif"/>
+         <dao daotype="derived" coverage="whole" label="3v" href="814/487107.tif"/>
+         <dao daotype="derived" coverage="whole" label="40r" href="814/487180.tif"/>
+         <dao daotype="derived" coverage="whole" label="40v" href="814/487181.tif"/>
+         <dao daotype="derived" coverage="whole" label="41r" href="814/487182.tif"/>
+         <dao daotype="derived" coverage="whole" label="41v" href="814/487183.tif"/>
+         <dao daotype="derived" coverage="whole" label="42r" href="814/487184.tif"/>
+         <dao daotype="derived" coverage="whole" label="42v" href="814/487185.tif"/>
+         <dao daotype="derived" coverage="whole" label="43r" href="814/487186.tif"/>
+         <dao daotype="derived" coverage="whole" label="43v" href="814/487187.tif"/>
+         <dao daotype="derived" coverage="whole" label="44r" href="814/487188.tif"/>
+         <dao daotype="derived" coverage="whole" label="44v" href="814/487189.tif"/>
+         <dao daotype="derived" coverage="whole" label="45r" href="814/487190.tif"/>
+         <dao daotype="derived" coverage="whole" label="45v" href="814/487191.tif"/>
+         <dao daotype="derived" coverage="whole" label="46r" href="814/487192.tif"/>
+         <dao daotype="derived" coverage="whole" label="46v" href="814/487193.tif"/>
+         <dao daotype="derived" coverage="whole" label="47r" href="814/487194.tif"/>
+         <dao daotype="derived" coverage="whole" label="47v" href="814/487195.tif"/>
+         <dao daotype="derived" coverage="whole" label="48r" href="814/487196.tif"/>
+         <dao daotype="derived" coverage="whole" label="48v" href="814/487197.tif"/>
+         <dao daotype="derived" coverage="whole" label="49r" href="814/487198.tif"/>
+         <dao daotype="derived" coverage="whole" label="49v" href="814/487199.tif"/>
+         <dao daotype="derived" coverage="whole" label="4r" href="814/487108.tif"/>
+         <dao daotype="derived" coverage="whole" label="4v" href="814/487109.tif"/>
+         <dao daotype="derived" coverage="whole" label="50r" href="814/487200.tif"/>
+         <dao daotype="derived" coverage="whole" label="50v" href="814/487201.tif"/>
+         <dao daotype="derived" coverage="whole" label="51r" href="814/487202.tif"/>
+         <dao daotype="derived" coverage="whole" label="51v" href="814/487203.tif"/>
+         <dao daotype="derived" coverage="whole" label="52r" href="814/487204.tif"/>
+         <dao daotype="derived" coverage="whole" label="52v" href="814/487205.tif"/>
+         <dao daotype="derived" coverage="whole" label="53r" href="814/487206.tif"/>
+         <dao daotype="derived" coverage="whole" label="53v" href="814/487207.tif"/>
+         <dao daotype="derived" coverage="whole" label="54r" href="814/487208.tif"/>
+         <dao daotype="derived" coverage="whole" label="54v" href="814/487209.tif"/>
+         <dao daotype="derived" coverage="whole" label="55r" href="814/487210.tif"/>
+         <dao daotype="derived" coverage="whole" label="55v" href="814/487211.tif"/>
+         <dao daotype="derived" coverage="whole" label="56r" href="814/487212.tif"/>
+         <dao daotype="derived" coverage="whole" label="56v" href="814/487213.tif"/>
+         <dao daotype="derived" coverage="whole" label="57r" href="814/487214.tif"/>
+         <dao daotype="derived" coverage="whole" label="57v" href="814/487215.tif"/>
+         <dao daotype="derived" coverage="whole" label="58r" href="814/487216.tif"/>
+         <dao daotype="derived" coverage="whole" label="58v" href="814/487217.tif"/>
+         <dao daotype="derived" coverage="whole" label="59r" href="814/487218.tif"/>
+         <dao daotype="derived" coverage="whole" label="59v" href="814/487219.tif"/>
+         <dao daotype="derived" coverage="whole" label="5r" href="814/487110.tif"/>
+         <dao daotype="derived" coverage="whole" label="5v" href="814/487111.tif"/>
+         <dao daotype="derived" coverage="whole" label="60r" href="814/487220.tif"/>
+         <dao daotype="derived" coverage="whole" label="60v" href="814/487221.tif"/>
+         <dao daotype="derived" coverage="whole" label="61r" href="814/487222.tif"/>
+         <dao daotype="derived" coverage="whole" label="61v" href="814/487223.tif"/>
+         <dao daotype="derived" coverage="whole" label="62r" href="814/487224.tif"/>
+         <dao daotype="derived" coverage="whole" label="62v" href="814/487225.tif"/>
+         <dao daotype="derived" coverage="whole" label="63r" href="814/487226.tif"/>
+         <dao daotype="derived" coverage="whole" label="63v" href="814/487227.tif"/>
+         <dao daotype="derived" coverage="whole" label="64r" href="814/487228.tif"/>
+         <dao daotype="derived" coverage="whole" label="64v" href="814/487229.tif"/>
+         <dao daotype="derived" coverage="whole" label="65r" href="814/487230.tif"/>
+         <dao daotype="derived" coverage="whole" label="65v" href="814/487231.tif"/>
+         <dao daotype="derived" coverage="whole" label="66r" href="814/487232.tif"/>
+         <dao daotype="derived" coverage="whole" label="66v" href="814/487233.tif"/>
+         <dao daotype="derived" coverage="whole" label="67r" href="814/487234.tif"/>
+         <dao daotype="derived" coverage="whole" label="67v" href="814/487235.tif"/>
+         <dao daotype="derived" coverage="whole" label="68r" href="814/487236.tif"/>
+         <dao daotype="derived" coverage="whole" label="68v" href="814/487237.tif"/>
+         <dao daotype="derived" coverage="whole" label="69r" href="814/487238.tif"/>
+         <dao daotype="derived" coverage="whole" label="69v" href="814/487239.tif"/>
+         <dao daotype="derived" coverage="whole" label="6r" href="814/487112.tif"/>
+         <dao daotype="derived" coverage="whole" label="6v" href="814/487113.tif"/>
+         <dao daotype="derived" coverage="whole" label="70r" href="814/487240.tif"/>
+         <dao daotype="derived" coverage="whole" label="70v" href="814/487241.tif"/>
+         <dao daotype="derived" coverage="whole" label="71r" href="814/487242.tif"/>
+         <dao daotype="derived" coverage="whole" label="71v" href="814/487243.tif"/>
+         <dao daotype="derived" coverage="whole" label="72r" href="814/487244.tif"/>
+         <dao daotype="derived" coverage="whole" label="72v" href="814/487245.tif"/>
+         <dao daotype="derived" coverage="whole" label="73r" href="814/487246.tif"/>
+         <dao daotype="derived" coverage="whole" label="73v" href="814/487247.tif"/>
+         <dao daotype="derived" coverage="whole" label="74r" href="814/487248.tif"/>
+         <dao daotype="derived" coverage="whole" label="74v" href="814/487249.tif"/>
+         <dao daotype="derived" coverage="whole" label="75r" href="814/487250.tif"/>
+         <dao daotype="derived" coverage="whole" label="75v" href="814/487251.tif"/>
+         <dao daotype="derived" coverage="whole" label="76r" href="814/487252.tif"/>
+         <dao daotype="derived" coverage="whole" label="76v" href="814/487253.tif"/>
+         <dao daotype="derived" coverage="whole" label="77r" href="814/487254.tif"/>
+         <dao daotype="derived" coverage="whole" label="77v" href="814/487255.tif"/>
+         <dao daotype="derived" coverage="whole" label="78r" href="814/487256.tif"/>
+         <dao daotype="derived" coverage="whole" label="78v" href="814/487257.tif"/>
+         <dao daotype="derived" coverage="whole" label="79r" href="814/487258.tif"/>
+         <dao daotype="derived" coverage="whole" label="79v" href="814/487259.tif"/>
+         <dao daotype="derived" coverage="whole" label="7r" href="814/487114.tif"/>
+         <dao daotype="derived" coverage="whole" label="7v" href="814/487115.tif"/>
+         <dao daotype="derived" coverage="whole" label="80r" href="814/487260.tif"/>
+         <dao daotype="derived" coverage="whole" label="80v" href="814/487261.tif"/>
+         <dao daotype="derived" coverage="whole" label="81r" href="814/487262.tif"/>
+         <dao daotype="derived" coverage="whole" label="81v" href="814/487263.tif"/>
+         <dao daotype="derived" coverage="whole" label="82r" href="814/487264.tif"/>
+         <dao daotype="derived" coverage="whole" label="82v" href="814/487265.tif"/>
+         <dao daotype="derived" coverage="whole" label="83r" href="814/487266.tif"/>
+         <dao daotype="derived" coverage="whole" label="83v" href="814/487267.tif"/>
+         <dao daotype="derived" coverage="whole" label="84r" href="814/487268.tif"/>
+         <dao daotype="derived" coverage="whole" label="84v" href="814/487269.tif"/>
+         <dao daotype="derived" coverage="whole" label="85r" href="814/487270.tif"/>
+         <dao daotype="derived" coverage="whole" label="85v" href="814/487271.tif"/>
+         <dao daotype="derived" coverage="whole" label="86r" href="814/487272.tif"/>
+         <dao daotype="derived" coverage="whole" label="86v" href="814/487273.tif"/>
+         <dao daotype="derived" coverage="whole" label="87r" href="814/487274.tif"/>
+         <dao daotype="derived" coverage="whole" label="87v" href="814/487275.tif"/>
+         <dao daotype="derived" coverage="whole" label="88r" href="814/487276.tif"/>
+         <dao daotype="derived" coverage="whole" label="88v" href="814/487277.tif"/>
+         <dao daotype="derived" coverage="whole" label="89r" href="814/487278.tif"/>
+         <dao daotype="derived" coverage="whole" label="89v" href="814/487279.tif"/>
+         <dao daotype="derived" coverage="whole" label="8r" href="814/487116.tif"/>
+         <dao daotype="derived" coverage="whole" label="8v" href="814/487117.tif"/>
+         <dao daotype="derived" coverage="whole" label="90r" href="814/487280.tif"/>
+         <dao daotype="derived" coverage="whole" label="90v" href="814/487281.tif"/>
+         <dao daotype="derived" coverage="whole" label="91r" href="814/487282.tif"/>
+         <dao daotype="derived" coverage="whole" label="91v" href="814/487283.tif"/>
+         <dao daotype="derived" coverage="whole" label="92r" href="814/487284.tif"/>
+         <dao daotype="derived" coverage="whole" label="92v" href="814/487285.tif"/>
+         <dao daotype="derived" coverage="whole" label="93r" href="814/487286.tif"/>
+         <dao daotype="derived" coverage="whole" label="93v" href="814/487287.tif"/>
+         <dao daotype="derived" coverage="whole" label="94r" href="814/487288.tif"/>
+         <dao daotype="derived" coverage="whole" label="94v" href="814/487289.tif"/>
+         <dao daotype="derived" coverage="whole" label="95r" href="814/487290.tif"/>
+         <dao daotype="derived" coverage="whole" label="95v" href="814/487291.tif"/>
+         <dao daotype="derived" coverage="whole" label="96r" href="814/487292.tif"/>
+         <dao daotype="derived" coverage="whole" label="96v" href="814/487293.tif"/>
+         <dao daotype="derived" coverage="whole" label="97r" href="814/487294.tif"/>
+         <dao daotype="derived" coverage="whole" label="97v" href="814/487295.tif"/>
+         <dao daotype="derived" coverage="whole" label="98r" href="814/487296.tif"/>
+         <dao daotype="derived" coverage="whole" label="98v" href="814/487297.tif"/>
+         <dao daotype="derived" coverage="whole" label="99r" href="814/487298.tif"/>
+         <dao daotype="derived" coverage="whole" label="99v" href="814/487299.tif"/>
+         <dao daotype="derived" coverage="whole" label="9r" href="814/487118.tif"/>
+         <dao daotype="derived" coverage="whole" label="9v" href="814/487119.tif"/>
+         <dao daotype="derived" coverage="whole" label="Buchdeckel hinten r" href="814/487784.tif"/>
+         <dao daotype="derived" coverage="whole" label="Buchdeckel hinten v" href="814/487785.tif"/>
+         <dao daotype="derived" coverage="whole" label="Buchdeckel vorne v" href="814/487101.tif"/>
+         <dao daotype="derived" coverage="whole" label="" href="814/487170.tif"/>
+      </daoset>
+   </did>
+
+
+
+
+
+
+
+
+   <controlaccess>
+      <head>Kategorie</head>
+      <genreform>
+         <part>Handschrift</part>
+      </genreform>
+      <genreform>
+         <part>Schriftstellerkatalog</part>
+      </genreform>
+   </controlaccess>
+
+
+
+   <controlaccess>
+      <head>Personen</head>  
+      <persname relator="Urheber">
+         <part localtype="name">Pez</part>
+         <part localtype="vorname">Bernhard</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name"/>
+         <part localtype="vorname">Hl. Hieronymus</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name"/>
+         <part localtype="vorname">Gennadius von Marseille</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name"/>
+         <part localtype="vorname">Hl. Isidor von Sevilla</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name"/>
+         <part localtype="vorname">Hl. Ildephons von Toledo</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name"/>
+         <part localtype="vorname">Honorius Augustodunensis</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name"/>
+         <part localtype="vorname">Sigebert von Gembloux</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name"/>
+         <part localtype="vorname">Heinrich von Gent (Gandavensis)</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name"/>
+         <part localtype="vorname">Anonymus (OSB Melk)</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name"/>
+         <part localtype="vorname">Petrus Diaconus</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Le Mire</part>
+         <part localtype="vorname">Aubert</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Fabricius</part>
+         <part localtype="vorname">Albert</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Mabillon</part>
+         <part localtype="vorname">Jean</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">D'Achery</part>
+         <part localtype="vorname">Jean Luc</part>
+      </persname>
+   </controlaccess>
+   <controlaccess>
+      <head>Regionen</head>
+      <geogname>
+         <part>Österreich</part>
+      </geogname>
+   </controlaccess>
+
+   <controlaccess>
+      <head>Institutionen</head>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Österreichische Kongregation</part>
+         <part>Melk</part>
+      </corpname>
+   </controlaccess>
+
+
+   <scopecontent>
+      <head>Beschreibung</head>
+      <p>Cod. 1808 (olim 1036) besteht aus einem Faszikel, Hand BP auf halbbrüchigem, unbeschnittenem Papier, moderne Bleistiftfoliierung. 1r–339v: BP, "Scriptores ecclesiastici secundum ordinem alphabeti cum fontibus citatis" (alphabetisches Kirchenschriftstellerverzeichnis mit bio-bibliographischen Quellennachweisen). Auf Bl. 1 gibt BP die durchgesehenen Quellenwerke und die Zitierweise an: "Authores, quos operis huius conficiendi causa lustravi sunt: Hieronymus, Gennadius, Isidorus, citantur secundum capita. Ildefonsus ex Appendices eidem subnecti solitae. Citantur secundum paginam. Honorius Augustodunensis. Citatur secundum librum et capita. Sigebertus Gemblacensis. Citatur secundum capita. Henricus Gandavensis. Citatur secundum capita. Anonymus Mellicensis. Citatur secundum capita. Petrus Diaconus. Citatur secundum paginam. Aubertus Miraeus. Enumerati hi authores lustrati sunt ex editione Alberti Fabricii. Accedunt Bollandus totus exceptis IIItio Februarii, et IIItio Iunii tomis. Voiage de deux Benedictins. Opera posthuma Joannis Mabillonii. Acta SS. Ordinis S. Benedicti auth. Joanne Mabill. Spicilegia Acherii usque ad tomum VI. exclusive."
+Vgl. auch die weiteren Vorarbeiten BPs zur "Bibliotheca Benedictina" in Karton 85 Varia 24, Fasz. 1 und 2; sowie in Cod. 1191. Hier wurde von einer Ansetzung der einzelnen Autorennamen abgesehen. </p>
+   </scopecontent>
+   <bibliography>
+      <head>Literatur</head>
+      <p>Zu Cod. 1808: Christine GLASSNER, Neuzeitliche Handschriften aus dem Nachlass der Brüder Bernhard und Hieronymus Pez in der Bibliothek des Benediktinerstiftes Melk (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 372 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe IV 7, Wien 2008).</p>
+   </bibliography>
+
+
+
+
+</c>

@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c xmlns:_="urn:pez"
+   xmlns="http://ead3.archivists.org/schema/"
+   xmlns:ead="http://ead3.archivists.org/schema/"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:saxon="http://saxon.sf.net/"
+   level="item"
+   id="i17">
+   <did>
+      <repository>
+         <corpname>
+            <part>Benediktinerstift Melk</part>
+            <part>Stiftsarchiv</part>
+         </corpname>
+      </repository>
+      <unittitle>Schriftstellerkatalog: "Congregationis sancti Mauri scriptores"</unittitle>
+      <unitdate>1717</unitdate>
+      <didnote localtype="datenote"/>
+      <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/406215.xml"/>
+      <daoset>
+         <dao daotype="derived" coverage="whole" label="Ar" href="17/406215.tif"/>
+         <dao daotype="derived" coverage="whole" label="10r" href="17/406241.tif"/>
+         <dao daotype="derived" coverage="whole" label="10v" href="17/406242.tif"/>
+         <dao daotype="derived" coverage="whole" label="11r" href="17/406243.tif"/>
+         <dao daotype="derived" coverage="whole" label="11v" href="17/406244.tif"/>
+         <dao daotype="derived" coverage="whole" label="12r" href="17/406245.tif"/>
+         <dao daotype="derived" coverage="whole" label="12v" href="17/406246.tif"/>
+         <dao daotype="derived" coverage="whole" label="13r" href="17/406247.tif"/>
+         <dao daotype="derived" coverage="whole" label="13v" href="17/406248.tif"/>
+         <dao daotype="derived" coverage="whole" label="14r" href="17/406249.tif"/>
+         <dao daotype="derived" coverage="whole" label="14v" href="17/406250.tif"/>
+         <dao daotype="derived" coverage="whole" label="15r" href="17/406251.tif"/>
+         <dao daotype="derived" coverage="whole" label="15v" href="17/406252.tif"/>
+         <dao daotype="derived" coverage="whole" label="16r" href="17/406253.tif"/>
+         <dao daotype="derived" coverage="whole" label="16v" href="17/406254.tif"/>
+         <dao daotype="derived" coverage="whole" label="17r" href="17/406255.tif"/>
+         <dao daotype="derived" coverage="whole" label="17v" href="17/406256.tif"/>
+         <dao daotype="derived" coverage="whole" label="18r" href="17/406257.tif"/>
+         <dao daotype="derived" coverage="whole" label="18v" href="17/406258.tif"/>
+         <dao daotype="derived" coverage="whole" label="19r" href="17/406259.tif"/>
+         <dao daotype="derived" coverage="whole" label="19v" href="17/406260.tif"/>
+         <dao daotype="derived" coverage="whole" label="1r" href="17/406223.tif"/>
+         <dao daotype="derived" coverage="whole" label="1v" href="17/406224.tif"/>
+         <dao daotype="derived" coverage="whole" label="20r" href="17/406261.tif"/>
+         <dao daotype="derived" coverage="whole" label="20v" href="17/406262.tif"/>
+         <dao daotype="derived" coverage="whole" label="21r" href="17/406263.tif"/>
+         <dao daotype="derived" coverage="whole" label="21v" href="17/406264.tif"/>
+         <dao daotype="derived" coverage="whole" label="22r" href="17/406265.tif"/>
+         <dao daotype="derived" coverage="whole" label="22v" href="17/406266.tif"/>
+         <dao daotype="derived" coverage="whole" label="23r" href="17/406267.tif"/>
+         <dao daotype="derived" coverage="whole" label="23v" href="17/406268.tif"/>
+         <dao daotype="derived" coverage="whole" label="24r" href="17/406269.tif"/>
+         <dao daotype="derived" coverage="whole" label="24v" href="17/406270.tif"/>
+         <dao daotype="derived" coverage="whole" label="25r" href="17/406271.tif"/>
+         <dao daotype="derived" coverage="whole" label="25v" href="17/406272.tif"/>
+         <dao daotype="derived" coverage="whole" label="26r" href="17/406273.tif"/>
+         <dao daotype="derived" coverage="whole" label="26v" href="17/406274.tif"/>
+         <dao daotype="derived" coverage="whole" label="27r" href="17/406275.tif"/>
+         <dao daotype="derived" coverage="whole" label="27v" href="17/406276.tif"/>
+         <dao daotype="derived" coverage="whole" label="28r" href="17/406277.tif"/>
+         <dao daotype="derived" coverage="whole" label="28v" href="17/406278.tif"/>
+         <dao daotype="derived" coverage="whole" label="29r" href="17/406279.tif"/>
+         <dao daotype="derived" coverage="whole" label="29v" href="17/406280.tif"/>
+         <dao daotype="derived" coverage="whole" label="2r" href="17/406225.tif"/>
+         <dao daotype="derived" coverage="whole" label="2v" href="17/406226.tif"/>
+         <dao daotype="derived" coverage="whole" label="30r" href="17/406281.tif"/>
+         <dao daotype="derived" coverage="whole" label="30v" href="17/406282.tif"/>
+         <dao daotype="derived" coverage="whole" label="31r" href="17/406283.tif"/>
+         <dao daotype="derived" coverage="whole" label="31v" href="17/406284.tif"/>
+         <dao daotype="derived" coverage="whole" label="32r" href="17/406285.tif"/>
+         <dao daotype="derived" coverage="whole" label="32v" href="17/406286.tif"/>
+         <dao daotype="derived" coverage="whole" label="33r" href="17/406287.tif"/>
+         <dao daotype="derived" coverage="whole" label="33v" href="17/406288.tif"/>
+         <dao daotype="derived" coverage="whole" label="34r" href="17/406289.tif"/>
+         <dao daotype="derived" coverage="whole" label="34v" href="17/406290.tif"/>
+         <dao daotype="derived" coverage="whole" label="35r" href="17/406291.tif"/>
+         <dao daotype="derived" coverage="whole" label="35v" href="17/406292.tif"/>
+         <dao daotype="derived" coverage="whole" label="36r" href="17/406293.tif"/>
+         <dao daotype="derived" coverage="whole" label="36v" href="17/406294.tif"/>
+         <dao daotype="derived" coverage="whole" label="37r" href="17/406295.tif"/>
+         <dao daotype="derived" coverage="whole" label="37v" href="17/406296.tif"/>
+         <dao daotype="derived" coverage="whole" label="38r" href="17/406297.tif"/>
+         <dao daotype="derived" coverage="whole" label="38v" href="17/406298.tif"/>
+         <dao daotype="derived" coverage="whole" label="39r" href="17/406299.tif"/>
+         <dao daotype="derived" coverage="whole" label="39v" href="17/406300.tif"/>
+         <dao daotype="derived" coverage="whole" label="3r" href="17/406227.tif"/>
+         <dao daotype="derived" coverage="whole" label="3v" href="17/406228.tif"/>
+         <dao daotype="derived" coverage="whole" label="40r" href="17/406301.tif"/>
+         <dao daotype="derived" coverage="whole" label="40v" href="17/406302.tif"/>
+         <dao daotype="derived" coverage="whole" label="41r" href="17/406303.tif"/>
+         <dao daotype="derived" coverage="whole" label="41v" href="17/406304.tif"/>
+         <dao daotype="derived" coverage="whole" label="42r" href="17/406305.tif"/>
+         <dao daotype="derived" coverage="whole" label="42v" href="17/406306.tif"/>
+         <dao daotype="derived" coverage="whole" label="43r" href="17/406307.tif"/>
+         <dao daotype="derived" coverage="whole" label="43v" href="17/406308.tif"/>
+         <dao daotype="derived" coverage="whole" label="44r" href="17/406309.tif"/>
+         <dao daotype="derived" coverage="whole" label="44v" href="17/406310.tif"/>
+         <dao daotype="derived" coverage="whole" label="45r" href="17/406311.tif"/>
+         <dao daotype="derived" coverage="whole" label="45v" href="17/406312.tif"/>
+         <dao daotype="derived" coverage="whole" label="46r" href="17/406313.tif"/>
+         <dao daotype="derived" coverage="whole" label="46v" href="17/406314.tif"/>
+         <dao daotype="derived" coverage="whole" label="4r" href="17/406229.tif"/>
+         <dao daotype="derived" coverage="whole" label="4v" href="17/406230.tif"/>
+         <dao daotype="derived" coverage="whole" label="5r" href="17/406231.tif"/>
+         <dao daotype="derived" coverage="whole" label="5v" href="17/406232.tif"/>
+         <dao daotype="derived" coverage="whole" label="6r" href="17/406233.tif"/>
+         <dao daotype="derived" coverage="whole" label="6v" href="17/406234.tif"/>
+         <dao daotype="derived" coverage="whole" label="7r" href="17/406235.tif"/>
+         <dao daotype="derived" coverage="whole" label="7v" href="17/406236.tif"/>
+         <dao daotype="derived" coverage="whole" label="8r" href="17/406237.tif"/>
+         <dao daotype="derived" coverage="whole" label="8v" href="17/406238.tif"/>
+         <dao daotype="derived" coverage="whole" label="9r" href="17/406239.tif"/>
+         <dao daotype="derived" coverage="whole" label="9v" href="17/406240.tif"/>
+         <dao daotype="derived" coverage="whole" label="Av" href="17/406216.tif"/>
+         <dao daotype="derived" coverage="whole" label="Br" href="17/406217.tif"/>
+         <dao daotype="derived" coverage="whole" label="Bv" href="17/406218.tif"/>
+         <dao daotype="derived" coverage="whole" label="Cr" href="17/406219.tif"/>
+         <dao daotype="derived" coverage="whole" label="Cv" href="17/406220.tif"/>
+         <dao daotype="derived" coverage="whole" label="Dr" href="17/406221.tif"/>
+         <dao daotype="derived" coverage="whole" label="Dv" href="17/406222.tif"/>
+      </daoset>
+   </did>
+
+
+
+
+
+
+
+
+   <controlaccess>
+      <head>Kategorie</head>
+      <genreform>
+         <part>Schriftstellerkatalog</part>
+      </genreform>
+   </controlaccess>
+
+
+
+   <controlaccess>
+      <head>Personen</head>  
+      <persname relator="behandelte Person">
+         <part localtype="name">Le Rouge</part>
+         <part localtype="vorname">Alexandre Aigulphe</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Toutté</part>
+         <part localtype="vorname">Antoine Auguste</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Fillastre</part>
+         <part localtype="vorname">Guillaume</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Morillon</part>
+         <part localtype="vorname">Julien Gatien</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Mabillon</part>
+         <part localtype="vorname">Jean</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Hody</part>
+         <part localtype="vorname">Jacques</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Delfau</part>
+         <part localtype="vorname">Francois</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Gouin</part>
+         <part localtype="vorname">Joseph</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Robert</part>
+         <part localtype="vorname">Pierre</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Louvel</part>
+         <part localtype="vorname">Georges</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Du Laura</part>
+         <part localtype="vorname">Etienne </part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Vidal</part>
+         <part localtype="vorname">Claude</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Wyard</part>
+         <part localtype="vorname">Robert</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Seroux</part>
+         <part localtype="vorname">Louis</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Remy</part>
+         <part localtype="vorname">Jacques</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Tachon</part>
+         <part localtype="vorname">Christophe</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Thuret</part>
+         <part localtype="vorname">Antoine</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Gerberon</part>
+         <part localtype="vorname">Gabriel</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Du Peyrat</part>
+         <part localtype="vorname">Michel</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Lanthenas</part>
+         <part localtype="vorname">Hugues</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Bougis</part>
+         <part localtype="vorname">Simon</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Tiolier</part>
+         <part localtype="vorname">Victor</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Bouret</part>
+         <part localtype="vorname">Jean Joseph</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Hardy</part>
+         <part localtype="vorname">Robert</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Bretagne</part>
+         <part localtype="vorname">Claude</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Du Mas</part>
+         <part localtype="vorname">Amable</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Fouquet</part>
+         <part localtype="vorname">Mathurin Maur</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Gaigneron</part>
+         <part localtype="vorname">Yves</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Garet</part>
+         <part localtype="vorname">Jean</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Beaugendre</part>
+         <part localtype="vorname">Antoine</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Fouqueré</part>
+         <part localtype="vorname">Antoine-Michel</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Blampin</part>
+         <part localtype="vorname">Thomas</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">De Lamy</part>
+         <part localtype="vorname">Francois </part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Guérard</part>
+         <part localtype="vorname">Robert</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Cornet</part>
+         <part localtype="vorname">Jean-Chrysostomus</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Gourdin</part>
+         <part localtype="vorname">Michel</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Cornette</part>
+         <part localtype="vorname">Jean</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Le Gallois</part>
+         <part localtype="vorname">Antoine-Paul </part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Massiot</part>
+         <part localtype="vorname">Léonard </part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Bellaize</part>
+         <part localtype="vorname">Julien</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Du Frische</part>
+         <part localtype="vorname">Jacques </part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">David</part>
+         <part localtype="vorname">Claude</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Germain</part>
+         <part localtype="vorname">Michel</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Le Nourry</part>
+         <part localtype="vorname">Nicolas </part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Loysel</part>
+         <part localtype="vorname">Jean</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Courtin</part>
+         <part localtype="vorname">Toussaint</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Gellé</part>
+         <part localtype="vorname">Jean</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Pisant</part>
+         <part localtype="vorname">Louis</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Du Sault</part>
+         <part localtype="vorname">Jean-Paul </part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Adhenet</part>
+         <part localtype="vorname">Charles</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Roze</part>
+         <part localtype="vorname">André</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Martianay</part>
+         <part localtype="vorname">Jean</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Sainte-Marthe</part>
+         <part localtype="vorname">Denis </part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Badier</part>
+         <part localtype="vorname">Jean Etienne</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Viole</part>
+         <part localtype="vorname">Daniel Georges</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Bergoumihous</part>
+         <part localtype="vorname">Guillaume Josephe</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Guenié</part>
+         <part localtype="vorname">Claude</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Bonnet</part>
+         <part localtype="vorname">Jean</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Hougat</part>
+         <part localtype="vorname">Nicolas</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Cosson</part>
+         <part localtype="vorname">Pierre</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Goizot</part>
+         <part localtype="vorname">Nicolas</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Coustant</part>
+         <part localtype="vorname">Pierre</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Martène</part>
+         <part localtype="vorname">Edmond</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Deschamps</part>
+         <part localtype="vorname">Jean-Baptist</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Morel</part>
+         <part localtype="vorname">Robert</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Bonnet</part>
+         <part localtype="vorname">Simon</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Pommeraye</part>
+         <part localtype="vorname">Jean Francois</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Pellier</part>
+         <part localtype="vorname">Francois Hilaire</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Hebert</part>
+         <part localtype="vorname">Louis Ambroise</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Du Four</part>
+         <part localtype="vorname">Louis Thomas</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Planchette</part>
+         <part localtype="vorname">Jean Bernard</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Vaillant</part>
+         <part localtype="vorname">Guillaume Hugues</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Janvier</part>
+         <part localtype="vorname">René Ambroise</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Couléon</part>
+         <part localtype="vorname">Francois Hugues</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Mathoud</part>
+         <part localtype="vorname">Charles Hugues</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Chantelou</part>
+         <part localtype="vorname">Claude</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Le Clerc</part>
+         <part localtype="vorname">Jacques</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Bonnefons</part>
+         <part localtype="vorname">Jean Jacques Paul</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Martin</part>
+         <part localtype="vorname">Claude</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Mège</part>
+         <part localtype="vorname">Antoine Joseph</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Bastide</part>
+         <part localtype="vorname">Philippe</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Garnier</part>
+         <part localtype="vorname">Julien</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Chevallier</part>
+         <part localtype="vorname">François</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Durand</part>
+         <part localtype="vorname">Ursin</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Jumillac</part>
+         <part localtype="vorname">Pierre Benoît de</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Seguin</part>
+         <part localtype="vorname">Gabriel Joseph</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Jouault</part>
+         <part localtype="vorname">Jean Mathieu</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Ferey</part>
+         <part localtype="vorname">Jourdain Marcellin</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Antheaume</part>
+         <part localtype="vorname">Guillaume Anselme</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Millet</part>
+         <part localtype="vorname">Simon Germain</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Gilleson</part>
+         <part localtype="vorname">Henri Bonaventura</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Seguin</part>
+         <part localtype="vorname">Gatien</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Adam</part>
+         <part localtype="vorname">Jacques Callixte</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Estiennot de la Serre</part>
+         <part localtype="vorname">Claude</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">D'Achery</part>
+         <part localtype="vorname">Jean Luc</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Coquelin</part>
+         <part localtype="vorname">J. Benoît</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Lescuyer</part>
+         <part localtype="vorname">Francois Lucien</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Bessin</part>
+         <part localtype="vorname">Guillaume</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Pouget</part>
+         <part localtype="vorname">Antoine</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Lopin</part>
+         <part localtype="vorname">Jacques</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Faverolles</part>
+         <part localtype="vorname">Francois de</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Porte</part>
+         <part localtype="vorname">Gaspard de la</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Bénard</part>
+         <part localtype="vorname">Laurent</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Rolle</part>
+         <part localtype="vorname">Anselme</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Mongin</part>
+         <part localtype="vorname">Athanase de</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Rainssant</part>
+         <part localtype="vorname">Jean Firmin</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Ménard</part>
+         <part localtype="vorname">Nicolas Hugues</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Oudin</part>
+         <part localtype="vorname">Jean Philibert</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Bulteau</part>
+         <part localtype="vorname">Louis</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Langelé</part>
+         <part localtype="vorname">Jacques</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Feray</part>
+         <part localtype="vorname">Abraham</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Ruinart</part>
+         <part localtype="vorname">Thierry</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Montfaucon</part>
+         <part localtype="vorname">Bernard de</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Boucher</part>
+         <part localtype="vorname">Jacques-Charles le</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Cladière</part>
+         <part localtype="vorname">Jean-Joseph</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Alexandre</part>
+         <part localtype="vorname">Nicolas</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Fornier</part>
+         <part localtype="vorname">Dominique</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Roussel</part>
+         <part localtype="vorname">Guillaume</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Massuet</part>
+         <part localtype="vorname">René</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Felibien</part>
+         <part localtype="vorname">Michel</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Lobineau</part>
+         <part localtype="vorname">Gui Alexis</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Liron</part>
+         <part localtype="vorname">Jean</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Devic</part>
+         <part localtype="vorname">Claude</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Porcheron</part>
+         <part localtype="vorname">Placide David</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Roussel</part>
+         <part localtype="vorname">Nicolas Placide</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Philibert</part>
+         <part localtype="vorname">Nicolas Ignace</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Des Vignes</part>
+         <part localtype="vorname">Philippe</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">La Place</part>
+         <part localtype="vorname">Pierre Romain</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Nalet</part>
+         <part localtype="vorname">Jean-Francois Ange</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Pauthut</part>
+         <part localtype="vorname">Léonard Louis</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Le Febvre</part>
+         <part localtype="vorname">Jean Hilarion</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Tarisse</part>
+         <part localtype="vorname">Jean Grégoire</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">La Motthe</part>
+         <part localtype="vorname">Raymond Odon</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Faye</part>
+         <part localtype="vorname">Pierre André</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Salot</part>
+         <part localtype="vorname">Yves Melaine</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Bastide</part>
+         <part localtype="vorname">Léonard Marc</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Barré</part>
+         <part localtype="vorname">Roland Anastase</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Liesme</part>
+         <part localtype="vorname">Gilbert Martin de</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Anez</part>
+         <part localtype="vorname">Alexis Léandre</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Clemens</part>
+         <part localtype="vorname">Etienne Fursy</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Le Contat</part>
+         <part localtype="vorname">Jérome Joachim </part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Jamet</part>
+         <part localtype="vorname">Noel Philibert</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Corbelin</part>
+         <part localtype="vorname">Charles Vincent</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Valles</part>
+         <part localtype="vorname">Martin Bruno</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Huynes</part>
+         <part localtype="vorname">Martin Jean</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Mars</part>
+         <part localtype="vorname">Jean Noel</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Quatremaire</part>
+         <part localtype="vorname">Jean Robert</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Cotron</part>
+         <part localtype="vorname">Artus Victor</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Bugnot</part>
+         <part localtype="vorname">Louis Gabriel</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Geoffroy</part>
+         <part localtype="vorname">Guillaume Mommole</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Breard</part>
+         <part localtype="vorname">Jean Alexis</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Ferrand</part>
+         <part localtype="vorname">Francois Germain</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Brosse</part>
+         <part localtype="vorname">Louis Gabriel</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Thévart</part>
+         <part localtype="vorname">Francois Anselme</part>
+      </persname>
+      <persname relator="behandelte Person">
+         <part localtype="name">Baurains</part>
+         <part localtype="vorname">Firmin Fursy</part>
+      </persname>
+      <persname relator="Bearbeiter">
+         <part localtype="name">Martène</part>
+         <part localtype="vorname">Edmond</part>
+      </persname>
+   </controlaccess>
+   <controlaccess>
+      <head>Regionen</head>
+      <geogname>
+         <part>Frankreich</part>
+      </geogname>
+   </controlaccess>
+
+   <controlaccess>
+      <head>Institutionen</head>
+      <corpname>
+         <part>geistliche</part>
+         <part>Benediktiner</part>
+         <part>Maurinerkongregation</part>
+      </corpname>
+   </controlaccess>
+
+   <relatedmaterial>
+      <head>Pez-Briefe im direkten Zusammenhang mit dem Stück</head>
+      <list>
+         <head>Martène an BP:</head>
+         <item>
+            <ref href="pezEd:827">1717-09-23</ref>
+         </item>
+      </list>
+   </relatedmaterial>
+   <scopecontent>
+      <head>Beschreibung</head>
+      <p>Schriftstellerkatalog der Maurinerkongregation, in welchem sich bio-bibliographische Daten zu 155 Autoren finden. Am Beginn Notiz: "an P. Pez geschickt anno 1716 durch Martène in Abschrift". Beilage zu Brief Martène an BP (1717-09-23). Vgl. auch Kataloge in Karton 7 Patres 11, Fasz. 3, Nr. 12; Karton 85 Varia 22, Fasz. 1, Nr. 19; Karton 85 Varia 25, Fasz. 1, Nr. 24.</p>
+   </scopecontent>
+   <bibliography>
+      <head>Literatur</head>
+      <p>Ein Großteil der erwähnten Autoren findet sich bei: Bernhard PEZ, Bibliotheca Benedictino-Mauriana (Augsburg 1716); Dom Martène. Histoire de la congrégation de Saint-Maur, hg. von Gaston CHARVIN (Archives de la France monastique 31–35, 42–43, 46–48, 10 Bde., Ligugé–Paris 1928–1954). Die Schreibung der Namen richtet sich nach: Yves CHAUSSY, Matricula Monachorum Professorum Congregationis S. Mauri in Gallia Ordinis Sancti Patris Benedicti (Bibliothèque d’histoire et d’archéologie chrétiennes, Paris 1959).</p>
+   </bibliography>
+
+
+
+
+</c>
