@@ -1,0 +1,21 @@
+graphic {
+    display: none;
+}
+
+surface:before{
+    link:oxy_xpath("graphic/@url");
+    content: attr("n") ;
+}
+
+facsimile:before {
+    content: "Faksimile: "
+}
+facsimile surface {
+    display: list-item;
+    color: blue;
+    list-style: bullet;
+}
+
+foliation:before {
+    content: "Foliierungsverlauf";
+}
