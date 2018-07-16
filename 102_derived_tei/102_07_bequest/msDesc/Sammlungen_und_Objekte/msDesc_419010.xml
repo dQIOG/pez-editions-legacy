@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Abschrift einer Grabinschrift der Johanna von Lamberg in Tittmoning aus Aicher, Theatrum funebre</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">345</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 11 Faszikel 1 Nr. 29 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Abschrift einer Grabinschrift der Johanna von Lamberg aus Otto AICHER, Theatrum funebre (4 Bde., Salzburg 1673–1675). Das Grab befand sich bis Anfang des 20. Jh. in der Kirche St. Laurentius in Tittmoning. Es war jedoch bei einem Brand 1815 stark beschädigt worden, weshalb man es bei der Renovierung 1933/34 aus dem Gotteshaus entfernt hat (für diese Auskunft und für den Literaturhinweis zum Grab danken wir Stiftssakristan und -sekretariatsleiter Rainer Zimmermann, Tittmoning).</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>19. Jh.</date>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Aicher und seinem Theatrum funebre: Thomas NEUKIRCHEN, Inscriptio. Rhetorik und Poetik der Scharfsinningen Inschrift im Zeitalter des Barock (Studien zur deutschen Literatur 152, Tübingen 1999). Zu Johanna von Lamberg: Stefan SIENELL, Die Geheime Konferenz unter Kaiser Leopold I. Personelle Strukturen und Methoden zur politischen Entscheidungsfindung am Wiener Hof (Beiträge zur Neueren Geschichte Österreichs 17, Frankfurt am Main–Berlin–Wien u.a. 2001). Zum Grab der Johanna von Lamberg in Tittmoning: Dieter GEORGE–Franz LUDWIG, Geschichte in Erz und Stein: Tittmoninger Inschriften und Steindenkmale aus fünf Jahrhunderten (Tittmoning 2003).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s419010" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/419010"/>
+      </surface>
+      <surface xml:id="s419011" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/419011"/>
+      </surface>
+   </facsimile>
+</TEI>

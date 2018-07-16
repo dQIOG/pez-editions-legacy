@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Manuskript: Lombard, Vorrede zu "Vetus academia Laurentiana"</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">743</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 30 Faszikel 1 Nr. 04 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Vorrede zu "Vetus academia Laurentiana", Hand Lombard, Fragment. Vgl. weitere Materialien dazu in Karton 7 Patres 10, Fasz. 8, Nr. 41.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>1724</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Lombard: John VAN ENGEN, Rupert von Deutz und das sogenannte Chronicon sancti Laurentii Leodiensis. Zur Geschichte des Investiturstreites in Lüttich. Deutsches Archiv für Erforschung des Mittelalters 35 (1979) 33–81</bibl>
+                     <bibl>Ludwig HAMMERMAYER, Die Forschungszentren der deutschen Benediktiner und ihre Vorhaben, in: Historische Forschung im 18. Jahrhundert: Organisation, Zielsetzung, Ergebnisse. 12. Deutsch-Französisches Historikerkolloquium des Deutschen Historischen Instituts Paris, hg. von Karl HAMMER–Jürgen VOSS (Pariser Historische Studien 13, Bonn 1976) 122–191</bibl>
+                     <bibl>Hubert SILVESTRE, Le Chronicon Sancti Laurentii Leodiensis, dit de Rupert de Deutz: étude critique (Recueil de travaux d’histoire et de philologie 43, Löwen 1952). Zu Korrespondenz mit BP: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243</bibl>
+                     <bibl>Hubert SILVESTRE, Concernant la première édition des oeuvres de Renier de Saint-Laurent: deux lettres de Dom C. Lombard à Dom B. Pez. Revue Bénédictine 60 (1950) 208–214. Zu St.-Laurent: Ursmer BERLIÈRE, Monasticon belge, 2: Province de Liège (Liège 1962).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s447054" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/447054"/>
+      </surface>
+      <surface xml:id="s447055" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/447055"/>
+      </surface>
+      <surface xml:id="s447056" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/447056"/>
+      </surface>
+      <surface xml:id="s447057" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/447057"/>
+      </surface>
+      <surface xml:id="s447058" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/447058"/>
+      </surface>
+      <surface xml:id="s447059" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/447059"/>
+      </surface>
+      <surface xml:id="s447060" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/447060"/>
+      </surface>
+      <surface xml:id="s447061" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/447061"/>
+      </surface>
+   </facsimile>
+</TEI>

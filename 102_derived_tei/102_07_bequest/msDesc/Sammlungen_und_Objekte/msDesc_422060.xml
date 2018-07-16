@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Abschrift des Gedichts "De Roma" von Hildebert von Lavardin und "Sermo rithmicae"</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">443</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 22 Faszikel 1 Nr. 03 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Abschrift des Gedichtes "De Roma" (Kap. 36 und 38) aus den "Carmina minora" des Hildebert von Lavardin (fol. 1r–2r) und "Sermo rithmice factus ad magistros scholares" (fol. 3r–4r, 6r–v). Abgeschrieben 1657 von Lannoy aus einem "Cod. Cisterciensi" (möglicherweise Cod. 887 der Bibliothèque Municipale in Troyes aus dem Zisterzienserkloster Clairvaux = Nr. F bei Scott, vgl. Literaturfeld), wie eine Notiz auf fol. 1r anmerkt. Der Cod. konnte anhand des Handschriftenkatalogs von Cîteaux (vgl. Literaturfeld) diesem Heimatkloster von Lannoy nicht zugeordnet werden. Lannoy stand mit d'Achery in Kontakt, dem er gelegentlich Abschriften zur Veröffentlichung übersandte. Vgl. eine weitere Abschrift Lannoys in Karton 85 Varia 28, Fasz. 2, Nr. 3.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–6v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>1657</date>
+                     <note>Laut Anmerkung auf fol. 1r.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Hildebert und seinen Werken: Peter von MOOS, Hildebert von Lavardin 1056–1133. Humanitas an der Schwelle des höfischen Zeitalters (Pariser Historische Studien 2, Stuttgart 1965). Zur Edition der "Carmina minora": Hildebertus Cenomannensis episcopus. Carmina minora, hg. von Alexander Brian SCOTT (Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana, München–Leipzig 2001). Zur Korrespondenz zwischen d'Achery und De Lannoy: Jean Martial BESSE, Les correspondants cisterciens de Dom Luc d’Achery et de Dom Mabillon. Revue Mabillon 3 (1907/08) 225–238, 341–356</bibl>
+                     <bibl>4 (1908/09) 485–497</bibl>
+                     <bibl>8 (1912/13) 311–325</bibl>
+                     <bibl>9 (1913/14) 19–32, 157–186, 216–241, 360–372</bibl>
+                     <bibl>10 (1914/15) 40–50, 123–150. Zu Handschriften aus Cîteaux: Jean de CIREY, Inventaire des Manuscrits de Cîteaux, in: Catalogue général des manuscrits des bibliothèques, 5 (Paris 1889) 339–452.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s422060" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/422060"/>
+      </surface>
+      <surface xml:id="s422061" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/422061"/>
+      </surface>
+      <surface xml:id="s422062" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/422062"/>
+      </surface>
+      <surface xml:id="s422063" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/422063"/>
+      </surface>
+      <surface xml:id="s422064" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/422064"/>
+      </surface>
+      <surface xml:id="s422065" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/422065"/>
+      </surface>
+      <surface xml:id="s422066" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/422066"/>
+      </surface>
+      <surface xml:id="s422067" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/422067"/>
+      </surface>
+      <surface xml:id="s422068" n="5r">
+         <graphic url="http://unidam.univie.ac.at/id/422068"/>
+      </surface>
+      <surface xml:id="s422069" n="5v">
+         <graphic url="http://unidam.univie.ac.at/id/422069"/>
+      </surface>
+      <surface xml:id="s422070" n="6r">
+         <graphic url="http://unidam.univie.ac.at/id/422070"/>
+      </surface>
+      <surface xml:id="s422071" n="6v">
+         <graphic url="http://unidam.univie.ac.at/id/422071"/>
+      </surface>
+   </facsimile>
+</TEI>

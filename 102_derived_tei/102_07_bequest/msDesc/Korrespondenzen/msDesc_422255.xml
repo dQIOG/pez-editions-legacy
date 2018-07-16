@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief: Piter an HP</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">452</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 22 Faszikel 1 Nr. 12 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Brief Piter an HP (1750-06-29), am Anfang unvollständig. Die ersten vier Seiten des Briefes liegen in StiA Melk, Karton 7 Patres 6 (= Bd. I), fol. 20r–21v. Der Brief enthält eine Aufzählung böhmischer Klöster.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>1750-06-29</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Piter: Vinzenz MAIWALD, Verzeichnisse von Schülern, die vor dem Jahre 1775 in Braunau studierten. Jahres-Bericht des öffentlichen Stifts-Obergymnasiums der Benediktiner zu Braunau in Böhmen 50 (1911) 3–74</bibl>
+                     <bibl>Romuald Joseph SCHRAMM, Fratres ordinis S. P. Benedicti Břevnoveno-Braunenses in domino defuncti, in: Catalogus religiosorum sub Regula S. P. Benedicti in archisterio Břevnoviensi et monasterio Braunaviensi atque extra eadem militantium anno Domini MDCCCLXVII. Cum syllabo confratrum defunctorum (Prag 1867) 19–90. Zu böhmischen Benediktinerklöstern: Beda Franz MENZEL, Die böhmische Benediktinerkongregation, in: Germania Benedictina, 1: Die Reformverbände und Kongregationen der Benediktiner im deutschen Sprachraum, hg. von Ulrich FAUST–Franz QUARTHAL (St. Ottilien 1999) 591–619. Der (undatierte weil unvollständige) Brief kommt vor in: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Korrespondenzen</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s422255" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/422255"/>
+      </surface>
+      <surface xml:id="s422256" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/422256"/>
+      </surface>
+   </facsimile>
+</TEI>

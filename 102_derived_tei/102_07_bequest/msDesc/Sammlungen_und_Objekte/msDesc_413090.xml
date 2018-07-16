@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Abschrift des Epitaphs von Abt Konrad; Regest eines Privilegs Ottokars für Mondsee</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">229</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 10 Faszikel 3 Nr. 32 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Abschrift des Epitaphs von Abt Konrad (gest. 1145) aus einer Mondseer Handschrift des 12. Jh. (möglicherweise handelt es sich hierbei um ÖNB Wien, Cod. 791, worin sich auf fol. 117v das Epitaph des Abtes befindet) und Regest eines Privilegs Ottokars für Mondsee. BP berichtet Massuet in einem Brief von 1711-01-25 von dem Material, das er aus Mondsee erhalten hat, dabei könnte es sich um das Original zu dieser Abschrift handeln. </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>Anfang 19. Jh.</date>
+                     <note>Hand des frühen 19. Jh.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Mondsee: Georg HEILINGSETZER, Mondsee, in: Germania Benedictina, 3/2: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2001) 874–923</bibl>
+                     <bibl>Pirmin LINDNER, Das Profeßbuch der Benediktinerabtei Mondsee. Archiv für die Geschichte der Diözese Linz. Beilage zum Linzer Diözesanblatt 2 (1905) 133–199. Zur Korrespondenz: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). Zum Cod. 791: Tabulae codicum manu scriptorum praeter graecos et orientales in Bibliotheca Palatina Vindobonensi asservatorum, 1: Cod. 1–2000, ed. Academia Caesarea Vindobonensis (Wien 1864). Ergänzungen zu Cod. 791 online von Andreas FINGERNAGEL und Friedrich SIMADER: http://www.onb.ac.at.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s413090" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/413090"/>
+      </surface>
+      <surface xml:id="s413091" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/413091"/>
+      </surface>
+   </facsimile>
+</TEI>

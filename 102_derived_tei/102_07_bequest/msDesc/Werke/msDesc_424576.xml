@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Manuskript BPs zur Bibliotheca Benedictino-Mauriana</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">532</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 23 Faszikel 1 Nr. 31 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Manuskript BPs zur Bibliotheca Benedictino-Mauriana (darin Martin, Marténe, Massuet, Rossel, Montfaucon und Le Gallois), gedruckt 1716 in Augsburg.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–5v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>nach 1702</date>
+                     <note>Jüngster Eintrag von 1702.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Maurinern: Yves CHAUSSY, Matricula Monachorum Professorum Congregationis S. Mauri in Gallia Ordinis Sancti Patris Benedicti (Bibliothèque d’histoire et d’archéologie chrétiennes, Paris 1959).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Werke</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s424576" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/424576"/>
+      </surface>
+      <surface xml:id="s424577" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/424577"/>
+      </surface>
+      <surface xml:id="s424578" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/424578"/>
+      </surface>
+      <surface xml:id="s424579" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/424579"/>
+      </surface>
+      <surface xml:id="s424580" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/424580"/>
+      </surface>
+      <surface xml:id="s424581" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/424581"/>
+      </surface>
+      <surface xml:id="s424582" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/424582"/>
+      </surface>
+      <surface xml:id="s424583" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/424583"/>
+      </surface>
+      <surface xml:id="s424584" n="5r">
+         <graphic url="http://unidam.univie.ac.at/id/424584"/>
+      </surface>
+      <surface xml:id="s424585" n="5v">
+         <graphic url="http://unidam.univie.ac.at/id/424585"/>
+      </surface>
+   </facsimile>
+</TEI>

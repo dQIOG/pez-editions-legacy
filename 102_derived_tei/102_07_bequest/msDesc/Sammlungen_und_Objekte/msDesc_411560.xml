@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Exzerpt: Wydemann, "Extractus quorundam ex tractatu super quinque Alleluia Conradi de Hainburga"</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">175</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres  09 Faszikel 2 Nr. 75 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>"Extractus quorundam ex tractatu super quinque Alleluia Conradi de Hainburga" von Wydemann. Beilage zu Wydemann an BP (1718-06-01).</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>um 1718</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Konrad von Haimburg: Conradus Gemnicensis: Konrads von Haimburg und seiner Nachahmer, hg. von Guido Maria DREVES (Analecta hymnica medii aevi 3, Frankfurt am Main 1961). Zu Gaming: Thomas AIGNER, Gaming, in: Monasticon Cartusiense II, hg. von James HOGG–Alain GIRARD–Daniel LE BLÉVEC (Salzburg 2004) 82–86</bibl>
+                     <bibl>Anton ERDINGER, Beiträge zur Geschichte der Karthause Gaming. Geschichtliche Beilagen zu den Consistorial-Currenden der Diöcese St. Pölten 5 (1895) 1–82</bibl>
+                     <bibl>Josef FEIL, Original-Beiträge zur Geschichte der Aufhebung mehrer [!] Klöster in Niederösterreich. Oesterreichische Blätter für Literatur und Kunst, Geographie, Geschichte, Statistik und Naturkunde 2 (1845) 306–310, 315–318, 449–452, 540–544, 571–573</bibl>
+                     <bibl>Walter HILDEBRAND, Kartause Gaming. Ausstellung anlässlich der Wiederherstellung des Herzogsgrabes. Herzog Albrecht II. und die Kartause Gaming (Gaming 1985)</bibl>
+                     <bibl>Heinrich ZEISSBERG, Zur Geschichte der Kartause Gaming. Archiv für Österreichische Geschichte 60 (1880) 562–596. Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s411560" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/411560"/>
+      </surface>
+      <surface xml:id="s411561" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/411561"/>
+      </surface>
+   </facsimile>
+</TEI>

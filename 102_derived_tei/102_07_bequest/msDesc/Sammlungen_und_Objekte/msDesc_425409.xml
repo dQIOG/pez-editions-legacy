@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">(Kommentierter) Werkskatalog zu Trithemius nach dem "Chronicon Sponheimense"</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">569</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 23 Faszikel 2 Nr. 11 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Werkskatalog zu Trithemius, mit Kommentaren. Zum überwiegenden Teil wurden die Notizen nach folgender Vorlage angelegt: Johannes Trithemius, "Chronicon Sponheimense" (Ms. St. Jakob zu Würzburg, heute UB Würzburg, M.ch.f. 126). Selbe Hand wie Karton 85 Varia 23, Fasz. 2, Nr. 5, 17, 19, 24, 26.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–38v, 38ar–38av, 39r–49v, 49ar–49bv, 50r–58v, 58ar–58av, 59r–78v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Trithemius: Klaus ARNOLD, Johannes Trithemius (1462–1516) (Quellen und Forschungen zur Geschichte des Bistums und Hochstifts Würzburg 23, Würzburg 1991)</bibl>
+                     <bibl>Ivo FISCHER, Der Nachlaß des Abtes Johannes Trithemius von St. Jakob in Würzburg. Archiv des Historischen Vereins von Unterfranken und Aschaffenburg 67 (1928) 41–82.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s425409" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/425409"/>
+      </surface>
+      <surface xml:id="s425424" n="8v">
+         <graphic url="http://unidam.univie.ac.at/id/425424"/>
+      </surface>
+      <surface xml:id="s425425" n="9r">
+         <graphic url="http://unidam.univie.ac.at/id/425425"/>
+      </surface>
+      <surface xml:id="s425426" n="9v">
+         <graphic url="http://unidam.univie.ac.at/id/425426"/>
+      </surface>
+      <surface xml:id="s425463" n="">
+         <graphic url="http://unidam.univie.ac.at/id/425463"/>
+      </surface>
+   </facsimile>
+</TEI>

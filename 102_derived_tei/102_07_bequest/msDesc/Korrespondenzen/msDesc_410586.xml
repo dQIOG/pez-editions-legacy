@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief: Hauer an unbekannten Mitbruder (HP?) </title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">97</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres  09 Faszikel 1 Nr. 79 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Deutscher Brief des späteren Abtes Hauer (1763–1785) aus Wien an unbekannten Mitbruder (HP?). Betrifft Krankheit des Abtes Pauer und finanzielle Dispositionen.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>1762-01-19</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Der Brief scheint nicht auf bei: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. Zu Hauer: Lajos ABAFI, Die Geschichte der Freimaurerei in Österreich-Ungarn 4 (Budapest 1893)</bibl>
+                     <bibl>Ignaz Franz KEIBLINGER, Geschichte des Benedictiner-Stiftes Melk in Niederösterreich, seiner Besitzungen und Umgebungen 1 (Wien 1851).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Korrespondenzen</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s410586" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/410586"/>
+      </surface>
+      <surface xml:id="s410587" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/410587"/>
+      </surface>
+      <surface xml:id="s410588" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/410588"/>
+      </surface>
+      <surface xml:id="s410589" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/410589"/>
+      </surface>
+   </facsimile>
+</TEI>

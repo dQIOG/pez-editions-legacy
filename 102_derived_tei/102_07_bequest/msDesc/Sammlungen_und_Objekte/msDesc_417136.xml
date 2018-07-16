@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Handschriftennotizen zum Schottenkloster St. Jakob zu Würzburg</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">297</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 10 Faszikel 8 Nr. 36 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Handschriftennotiz zum Schottenkloster St. Jakob in Würzburg. Ordnungsvermerk: "ad 157". Beilage zu Brief Sigler an BP.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>um 1717</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu St. Jakob: Mark DILWORTH, Scottish Benedictines at Wurzburg. A Supplement to the Necrology. The Innes Review. Scottish Catholic Historical Studies 15 (1964) 171–181</bibl>
+                     <bibl>Michael WIELAND, Das Schottenkloster zu St. Jakob in Würzburg. Archiv des historischen Vereines von Unterfranken und Aschaffenburg 16/2–3 (1863) 1–182. Zu Handschriften: Hans THURN, Die Handschriften der Universitätsbibliothek Würzburg, 2: Handschriften aus benediktinischen Provenienzen, 1. Hälfte: Amorbach, Kitzingen, Münsterschwarzach, Theres, Würzburg: St. Afra, St. Burkard, Schottenkloster St. Jakob. Anhang: Erfurt, Minden, Mondsee (Wiesbaden 1973).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s417136" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/417136"/>
+      </surface>
+      <surface xml:id="s417137" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/417137"/>
+      </surface>
+      <surface xml:id="s417138" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/417138"/>
+      </surface>
+      <surface xml:id="s417139" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/417139"/>
+      </surface>
+   </facsimile>
+</TEI>

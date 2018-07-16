@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief: Liron an NN </title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">171</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres  09 Faszikel 2 Nr. 71 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Brief Jean Liron an NN (1699-03-07) in dem er widerlegt, dass Viktor von Vita Autor der Vandalengeschichte ist; Ruinart hat ihm in sechs Wochen nicht geantwortet. Original, das BP möglicherweise im Zuge seines Paris-Aufenthaltes 1728 von den Maurinern geschenkt wurde.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>1699-03-07</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Maurinern: Yves CHAUSSY, Matricula Monachorum Professorum Congregationis S. Mauri in Gallia Ordinis Sancti Patris Benedicti (Bibliothèque d’histoire et d’archéologie chrétiennes, Paris 1959).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s411530" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/411530"/>
+      </surface>
+      <surface xml:id="s411531" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/411531"/>
+      </surface>
+      <surface xml:id="s411532" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/411532"/>
+      </surface>
+      <surface xml:id="s411533" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/411533"/>
+      </surface>
+      <surface xml:id="s411534" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/411534"/>
+      </surface>
+      <surface xml:id="s411535" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/411535"/>
+      </surface>
+      <surface xml:id="s411536" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/411536"/>
+      </surface>
+      <surface xml:id="s411537" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/411537"/>
+      </surface>
+   </facsimile>
+</TEI>

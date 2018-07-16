@@ -7,7 +7,6 @@
 #LETTERS-VOL2: Converts the letters in the second volume of the Pez edition from word to TEI (one document per letter) - YET TO BE DONE!						
 #INDEX-VOL1: Converts the index of volume 1 to a TEI list						
 #INDEX-VOL2: Converts the index of volume 2 to a TEI list						
-#INDEX-MERGE: Merges the indexes of volume 1 and 2 into one TEI list. YET TO BE FINISHED!						
 #PERSONS-ENTITYLINKING: Entity linking of a list of persons to GND, VIAF and CERL						
 #PERSON-IMAGE-RELATIONS: Creates a list of persons and their related images in UNIDAM						
 #Conversion-ID	Step	Source	Format IN / OUT	Process/Script/Service	Manually / programmatically	Output
@@ -41,7 +40,7 @@ INDEX-CIT1	1	102_01_derived_by_TEI_scripts\Register_20090805-TEI-P5.xml	TEI / TE
 INDEX-CIT2	1	102_01_derived_by_TEI_scripts\07_Register_Endphase_schwarz-TEI-P5.xml	TEI / TEI	082_scripts_xsl\tei2citIndex.xsl	102_02_extracted_index_entries\index-cits2.xml
 
 # Manuscripts Index
-# no index of mentioned manuscripts in vol 1 (?)
+# NB There is no index of mentioned manuscripts in vol 1
 MSINDEX-VOL2	1	102_01_derived_by_TEI_scripts/07_Register_Endphase_schwarz-TEI-P5.xml	TEI / TEI	082_scripts_xsl\tei2msIndex.xsl	p	102_02_extracted_index_entries\index-ms-vol2.xml
 # Appendix: Bibliography of cited Sources
 BIBL-SRCS1	1	102_01_derived_by_TEI_scripts\Bd1_Bibliographie_formatiert_20090731-TEI-P5.xml	TEI / TEI	p	082_scripts_xsl\source-appendix2tei.xsl	102_04_auxiliary_files/bibl_sources1.xml

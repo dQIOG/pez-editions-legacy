@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Bibliothekskatalog: Verzeichnis von Büchern in Mönchszellen </title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">509</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 23 Faszikel 1 Nr. 08 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Verzeichnis von Büchern in Mönchszellen, ohne Angabe des Klosters. Darunter u.a. Felix EGGER, Idea Ordinis Hierarchico-Benedictini (Konstanz 1715); Thierry RUINART, Vita Ioannis Mabillonii (Passau 1714); Jean MABILLON, Traité des études monastiques (Paris 1692); Johannes TRITHEMIUS, Sermones et exhortationes ad monachos (Straßburg 1516); Cornelius MARGARIN, Bullarium Cassinense (2 Bde., Venedig 1650); Nicolas BOHIER, Commentarius in regulas iuris pontificii (Köln 1578); Johannes de TURRECREMATA, Regula S. Benedicti (Köln 1575); Edmond MARTÈNE, Commentarius in regulam S. P. Benedicti litteralis, moralis, historicus (Paris 1690); Edmond MARTÈNE, De antiquis monachorum ritibus libri V (Lyon 1690); Nicolas Hugues MÉNARD, Concordia regularum (Paris 1638); Karl STENGEL, Laudes S.P.N. Benedicti abbatis monachorum in occidente patriarchae (Augsburg 1647).</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>nach 1715</date>
+                     <note>Das jüngste Buch ist aus 1715.</note>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s424120" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/424120"/>
+      </surface>
+      <surface xml:id="s424121" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/424121"/>
+      </surface>
+   </facsimile>
+</TEI>

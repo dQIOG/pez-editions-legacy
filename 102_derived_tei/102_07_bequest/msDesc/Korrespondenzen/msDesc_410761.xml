@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Briefabschrift: HP an Montfaucon </title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">18</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres  09 Faszikel 2 Nr. 02 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Briefabschrift HP an Montfaucon (1737-07-04). Aus Bibliothèque nationale de France FF 17711, 105r–106v.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–3v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>um 1900</date>
+                     <note>Im Zusammenhang mit der Pez-Forschung um 1900.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Montfaucon: Yves CHAUSSY, Matricula Monachorum Professorum Congregationis S. Mauri in Gallia Ordinis Sancti Patris Benedicti (Bibliothèque d’histoire et d’archéologie chrétiennes, Paris 1959)</bibl>
+                     <bibl>Dom Bernard de Montfaucon. Actes du Colloque de Carcassonne, octobre 1996, hg. von Daniel-Odon HUREL–Raymond ROGÉ (Bibliothèque Bénédictine 4, 2 Bde., Caudebec-en-Caux 1998).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Korrespondenzen</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s410761" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/410761"/>
+      </surface>
+      <surface xml:id="s410762" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/410762"/>
+      </surface>
+      <surface xml:id="s410763" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/410763"/>
+      </surface>
+      <surface xml:id="s410764" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/410764"/>
+      </surface>
+      <surface xml:id="s410765" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/410765"/>
+      </surface>
+      <surface xml:id="s410766" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/410766"/>
+      </surface>
+   </facsimile>
+</TEI>

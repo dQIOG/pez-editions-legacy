@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Briefauszüge: Brunner an BP; Schriftstellerkatalog von St. Blasien</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">387</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 11 Faszikel 1 Nr. 71 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Auszüge aus einem Schriftstellerkatalog von St. Blasien, der als Beilage zu Brief Brunner an BP (1712-07-01) nach Melk gelangt ist; irriger Verweis auf Brief Brunner an BP (1717-10-23), Hand Mayer. Es handelt sich hierbei wohl um eine Bearbeitung des Katalogs, Abweichungen (z.B. fehlt Sedlmayr im Original) sind erkennbar. Vgl. Original des Schriftstellerkatalogs in Karton 85 Varia 23, Fasz. 1, Nr. 33 sowie eine Abschrift in Karton 7 Patres 9, Fasz. 2, Nr. 89 = Abschriftencodex (AC) fol. 42v–50v.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>19. Jh.</date>
+                     <note>Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). Zu St. Blasien: Hugo OTT, St. Blasien, in: Germania Benedictina, 5: Die Benediktinerklöster in Baden-Württemberg, hg. von Franz QUARTHAL–Hansmartin DECKER-HAUFF–Klaus SCHREINER (Augsburg 1975) 146–160.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Korrespondenzen</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s420069" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/420069"/>
+      </surface>
+      <surface xml:id="s420070" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/420070"/>
+      </surface>
+      <surface xml:id="s420071" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/420071"/>
+      </surface>
+      <surface xml:id="s420072" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/420072"/>
+      </surface>
+      <surface xml:id="s420073" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/420073"/>
+      </surface>
+      <surface xml:id="s420074" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/420074"/>
+      </surface>
+      <surface xml:id="s420075" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/420075"/>
+      </surface>
+      <surface xml:id="s420076" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/420076"/>
+      </surface>
+   </facsimile>
+</TEI>

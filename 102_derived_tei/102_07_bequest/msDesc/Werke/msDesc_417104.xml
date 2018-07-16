@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Katalog asketischer Handschriften BPs</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">293</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 10 Faszikel 8 Nr. 32 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Handschriftenkatalog: "Catalogus manuscriptorum asceticorum, quae in thecis ligneis reverendi patris Bernardi adservantur". Verzeichnis der Bücher in sieben Bücherregalen BPs, von zweiter Hand kommentiert.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>nach 1731</date>
+                     <note>"Blanbeckin iam edita".</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu BP u.a.: Eduard Ernst KATSCHTHALER, Über Bernhard Pez und dessen Briefnachlass. Jahresbericht des k.k. Obergymnasiums zu Melk 39 (1889) 3–106</bibl>
+                     <bibl>Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010)</bibl>
+                     <bibl>Thomas WALLNIG, Gasthaus und Gelehrsamkeit. Studien zu Herkunft und Bildungsweg von Bernhard Pez OSB vor 1709 (VIÖG 48, Wien–München 2007).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Werke</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s417104" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/417104"/>
+      </surface>
+      <surface xml:id="s417105" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/417105"/>
+      </surface>
+      <surface xml:id="s417106" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/417106"/>
+      </surface>
+      <surface xml:id="s417107" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/417107"/>
+      </surface>
+      <surface xml:id="s417108" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/417108"/>
+      </surface>
+      <surface xml:id="s417109" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/417109"/>
+      </surface>
+      <surface xml:id="s417110" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/417110"/>
+      </surface>
+      <surface xml:id="s417111" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/417111"/>
+      </surface>
+   </facsimile>
+</TEI>

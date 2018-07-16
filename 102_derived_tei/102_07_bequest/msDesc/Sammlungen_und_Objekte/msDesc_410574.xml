@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Schriftstellerkatalog von S. Nicolò dell' Arena, Catania</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">96</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres  09 Faszikel 1 Nr. 78 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Schriftstellerkatalog "Viri docti ex monasterio S. Nicolai Catanensi in Scicilia [sic]". </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>18. Jh.</date>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zum Kloster S. Nicolò: Arcangelo BOSSI, Matricula monachorum Congregationis Casinensis Ordinis S. Benedicti, 1: 1409–1699, hg. von Leandro NOVELLI–Giovanni SPINELLI (Pubblicazioni del Centro Storico Benedettino Italiano 3, Cesena 1983).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s410574" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/410574"/>
+      </surface>
+      <surface xml:id="s410575" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/410575"/>
+      </surface>
+      <surface xml:id="s410576" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/410576"/>
+      </surface>
+      <surface xml:id="s410577" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/410577"/>
+      </surface>
+   </facsimile>
+</TEI>

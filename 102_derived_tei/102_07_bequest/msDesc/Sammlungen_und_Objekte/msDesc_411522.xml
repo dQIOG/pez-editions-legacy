@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Abschrift eines französischen Textes</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">169</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres  09 Faszikel 2 Nr. 69 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Undatiertes Fragment eines französischen (Brief-?) Textes, möglicherweise besteht ein Zusammenhang mit der undatierten Briefabschrift Schannat an Eckhart in Karton 7 Patres 9, Fasz. 2, Nr. 68 und dem Streit um die Diözese Fulda. </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zum Streit zwischen Schannat und Eckhart: Stefan BENZ, Johann Georg Eckhart, in: Fränkische Lebensbilder, 15, hg. von Alfred WENDEHORST (Neustadt an der Aisch 1993) 135–156. Zu Eckhart: Thomas WALLNIG, Johann Georg Eckhart als Verwerter von Leibniz' Kollektaneen: Geschichtsforscher in höfischen Diensten oder gelehrter Beamter?, in: Leibniz als Sammler und Verwerter historischer Quellen, hg. von Nora GÄDEKE (Wolfenbüttel 2012) 189–210.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s411522" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/411522"/>
+      </surface>
+      <surface xml:id="s411523" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/411523"/>
+      </surface>
+      <surface xml:id="s411524" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/411524"/>
+      </surface>
+      <surface xml:id="s411525" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/411525"/>
+      </surface>
+   </facsimile>
+</TEI>

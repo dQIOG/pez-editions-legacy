@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Cod. Mell. 656/2: Irimbertus Admontensis 2</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">792</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno>Cod. 0656_2 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Cod. 656/2 (olim 1628, 1815) besteht aus 16 durchgezählten Sexternionen, Zählung von 16–31 (Fortsetzung von Cod. 656/1). Zahlreiche Korrekturen Hand BP. Deutsche Anweisungen für den Drucker. Moderne Tintenfoliierung. 1r–188v: Irimbert von Admont, "Expositio in librum II Regum". Dt. Anmerkungen für den Drucker: 1r: "NB Disen Titel setze mit mittler Fractur", 1r oberer Freirand Titel von späterer Hand: "Ven. Irimbertus Abb. Admont. in Lib. II. Regum". Schreiber: Korrekturen Hand BP. Die geplante Ausgabe durch BP wäre die Erstausgabe gewesen. Vorlage nicht genannt. Aktueller Bibliotheksort und Signatur: Admont, Cod. 16 (?).</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>Buchdeckel vorne r–v, Deckblatt vorne r–v, 1r–192v, Buchdeckel hinten.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>18. Jh.</date>
+                     <note>Laut Glassner, Neuzeitliche Handschriften (vgl. Literaturfeld) 1. Drittel 18. Jh.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Cod. 656/2: Johann Wilhelm BRAUN, Irimbert von Admont. Frühmittelalterliche Studien. Jahrbuch des Instituts für Frühmittelalterforschung der Universität Münster 7 (1973) 266–323</bibl>
+                     <bibl>Christine GLASSNER, Neuzeitliche Handschriften aus dem Nachlass der Brüder Bernhard und Hieronymus Pez in der Bibliothek des Benediktinerstiftes Melk (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 372 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe IV 7, Wien 2008) [dort angeführte Literatur hier nur auszugsweise übernommen].</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Werke</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s476094" n="Buchdeckel vorne r">
+         <graphic url="http://unidam.univie.ac.at/id/476094"/>
+      </surface>
+      <surface xml:id="s476095" n="Buchdeckel vorne v">
+         <graphic url="http://unidam.univie.ac.at/id/476095"/>
+      </surface>
+      <surface xml:id="s476096" n="Deckblatt vorne r">
+         <graphic url="http://unidam.univie.ac.at/id/476096"/>
+      </surface>
+      <surface xml:id="s476097" n="Deckblatt vorne v">
+         <graphic url="http://unidam.univie.ac.at/id/476097"/>
+      </surface>
+      <surface xml:id="s476482" n="Buchdeckel hinten r">
+         <graphic url="http://unidam.univie.ac.at/id/476482"/>
+      </surface>
+      <surface xml:id="s476483" n="Buchdeckel hinten v">
+         <graphic url="http://unidam.univie.ac.at/id/476483"/>
+      </surface>
+   </facsimile>
+</TEI>

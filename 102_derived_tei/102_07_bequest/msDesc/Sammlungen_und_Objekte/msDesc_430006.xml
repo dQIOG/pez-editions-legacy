@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Bio-bibliographische Notizen zu Hildegard von Bingen, Elisabeth von Schönau und Hrotsvit von Gandersheim</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">647</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 25 Faszikel 1 Nr. 43 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Bio-bibliographische Notizen zu Hildegard von Bingen, Elisabeth von Schönau und Hrotsvit von Gandersheim. Selbe Hand wie Karton 85 Varia 25, Fasz. 1, Nr. 44.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Hrotsvit von Gandersheim: Fidel RÄDLE, Hrotsvit von Gandersheim, in: Die deutsche Literatur des Mittelalters. Verfasserlexikon, 4, hg. von Kurt RUH et al. (Berlin–New York 21983) col. 196–210. Zu Elisabeth von Schönau und Hildegard von Bingen: Anne L. CLARK, Elisabeth of Schönau. A Twelfth-Century Visionary (Middle Ages Series, Philadelphia 1992)</bibl>
+                     <bibl>Stephan HILPISCH, Elisabeth von Schönau und Hildegard von Bingen, in: Schönauer Elisabeth Jubiläum 1965. Festschrift anläßlich des achthundertjährigen Todestages der heiligen Elisabeth von Schönau (Limburg an der Lahn 1965) 51–58.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s430006" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/430006"/>
+      </surface>
+      <surface xml:id="s430007" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/430007"/>
+      </surface>
+      <surface xml:id="s430008" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/430008"/>
+      </surface>
+      <surface xml:id="s430009" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/430009"/>
+      </surface>
+   </facsimile>
+</TEI>

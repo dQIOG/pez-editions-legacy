@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Bibliographische Notizen zu österreichischen Benediktinerklöstern</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">248</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 10 Faszikel 3 Nr. 51 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Bibliographische Notizen BPs zu österreichischen Benediktinerklöstern (St. Lambrecht, Admont, St. Paul, Nonnberg).</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>vor 1735</date>
+                     <note>Undatiert. Hand BP?</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Admont: Rudolf LIST, Stift Admont 1074–1974. Festschrift zur Neunhundertjahrfeier (Ried im Innkreis 1974)</bibl>
+                     <bibl>Hannes P. NASCHENWENG, Admont, in: Germania Benedictina, 3/1: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2000) 71–188. Zu St. Lambrecht: Benedikt PLANK, St. Lambrecht, in: Germania Benedictina, 3/2: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2001) 318–380</bibl>
+                     <bibl>Othmar WONISCH, Versuch einer Bibliographie der Benediktinerabtei St. Lambrecht (St. Lambrecht 1916). Zu Nonnberg: Franz ESTERL, Chronik des adeligen Frauen-Benediktinerstiftes Nonnberg in Salzburg. Vom Entstehen desselben bis zum Jahre 1840 aus den Quellen bearbeitet (Salzburg 1841). Zu St. Paul: Ulrich FAUST, St. Paul im Lavanttal, in: Germania Benedictina, 3/3: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2002) 74–141.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Werke</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s413231" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/413231"/>
+      </surface>
+      <surface xml:id="s413232" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/413232"/>
+      </surface>
+   </facsimile>
+</TEI>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Abschrift: Joachim von Watt (Vadian), "Chronologia abbatum monasterii S. Galli"</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">469</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 22 Faszikel 2 Nr. 04 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Abschrift von Vadian, "Chronologia abbatum monasterii S. Galli", Hand BP. Am Ende unvollständig. Der Nachlass Vadians ("Vadianische Sammlung") befindet sich heute gemeinsam mit seiner Bibliothek in der Kantonsbibliothek St. Gallen.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Vadian: Bernhard HERTENSTEIN, Joachim von Watt (Vadianus), Bartholomäus Schobinger, Melchior Goldast. Die Beschäftigung mit dem Althochdeutschen von St. Gallen in Humanismus und Frühbarock (Das Althochdeutsche von St. Gallen. Texte und Untersuchungen zur sprachlichen Überlieferung St. Gallens vom 8. bis 12. Jahrhundert 3, Berlin–New York 1975). Zur Edition der Chronik: Joachim v. Watt (Vadian), Chronik der Äbte des Klosters St. Gallen, hg. von Ernst GRÖTZINGER (Deutsche Historische Schriften, 3 Bde., St. Gallen 1875–1879).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Werke</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s422761" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/422761"/>
+      </surface>
+      <surface xml:id="s422762" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/422762"/>
+      </surface>
+   </facsimile>
+</TEI>

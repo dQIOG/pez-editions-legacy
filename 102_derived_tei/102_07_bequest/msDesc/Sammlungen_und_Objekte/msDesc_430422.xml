@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Katalog: Massuet, "Scriptores Benedictini incerti temporis aut quorum aetatem investigare non vacat"</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">668</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 25 Faszikel 1 Nr. 64 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Katalog benediktinischer Schriftsteller, Hand Massuet. Bei jedem Schriftsteller ein Vermerk, in welcher Bibliothek dessen Handschriften zu finden sind. Dieser Katalog dürfte erst nach dem Tod Massuets an BP gelangt sein, sei es durch Martène oder bei BPs Paris-Aufenthalt 1728. Weitere Materialien aus von Hand Massuet werden erwähnt in Brief Massuet an BP (1715-01-30). Vgl. die Abschrift des Textes in Karton 85 Varia 25, Fasz. 1, Nr. 48. </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>vor 1716</date>
+                     <note>Massuet ist 1716 gestorben.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). Zu Joachim: Arcangelo BOSSI, Matricula monachorum Congregationis Casinensis Ordinis S. Benedicti, 1: 1409–1699, hg. von Leandro NOVELLI–Giovanni SPINELLI (Pubblicazioni del Centro Storico Benedettino Italiano 3, Cesena 1983). Zu Schlitpacher: Meta NIEDERKORN-BRUCK, Die Melker Reform im Spiegel der Visitationen (Mitteilungen des Instituts für Österreichische Geschichtsforschung Erg.bd. 30, Wien–München 1994). Zu Bernhard von Waging: Pirmin LINDNER, Familia S. Quirini in Tegernsee. Die Äbte und Mönche der Benediktiner-Abtei Tegernsee von den ältesten Zeiten bis zu ihrem Aussterben (1861) und ihr literarischer Nachlass. Oberbayerisches Archiv für vaterländische Geschichte 50 (1897) 18–130</bibl>
+                     <bibl>50 Ergh. (1898) 1–318. Zu de Ascha: Magnus SATTLER, Chronik von Andechs (Donauwörth 1877).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s430422" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/430422"/>
+      </surface>
+      <surface xml:id="s430423" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/430423"/>
+      </surface>
+      <surface xml:id="s430424" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/430424"/>
+      </surface>
+      <surface xml:id="s430425" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/430425"/>
+      </surface>
+   </facsimile>
+</TEI>

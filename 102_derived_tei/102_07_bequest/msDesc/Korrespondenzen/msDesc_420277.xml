@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Briefauszüge: Uffenbach an BP</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">399</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 11 Faszikel 1 Nr. 83 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Auszüge aus den Briefen Uffenbach an BP, Hand Mayer.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>19. Jh.</date>
+                     <note>Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Briefen: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. Zu Uffenbach: Konrad FRANKE, Zacharias Konrad von Uffenbach als Handschriftensammler. Ein Beitrag zur Kulturgeschichte des 18. Jahrhunderts (Würzburg 1965).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Korrespondenzen</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s420277" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/420277"/>
+      </surface>
+      <surface xml:id="s420278" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/420278"/>
+      </surface>
+      <surface xml:id="s420279" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/420279"/>
+      </surface>
+      <surface xml:id="s420280" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/420280"/>
+      </surface>
+   </facsimile>
+</TEI>

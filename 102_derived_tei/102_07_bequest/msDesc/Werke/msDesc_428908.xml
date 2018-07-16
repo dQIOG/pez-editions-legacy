@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Bio-bibliographische Notizen BPs zu "Opera necessario inspicienda hic"</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">621</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 25 Faszikel 1 Nr. 17 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Bibliographische Notizen mit dem Titel: "Opera necessario inspicienda hic", aufgrund einer Adressnotiz auf 1r sehr wahrscheinlich im Zusammenhang mit BPs Parisaufenthalt 1728. Am Ende bio-bibliographische Notizen. Hand BP.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>1728</date>
+                     <note/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Werke</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s428908" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/428908"/>
+      </surface>
+      <surface xml:id="s428909" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/428909"/>
+      </surface>
+      <surface xml:id="s428910" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/428910"/>
+      </surface>
+      <surface xml:id="s428911" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/428911"/>
+      </surface>
+   </facsimile>
+</TEI>

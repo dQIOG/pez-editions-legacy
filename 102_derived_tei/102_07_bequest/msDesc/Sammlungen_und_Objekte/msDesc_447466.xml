@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Abschrift: "Prophetia sancti Thomae Cantavariensis martyris"</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">757</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 30 Faszikel 1 Nr. 18 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Abschrift einer Prophezeiung des Thomas Becket (mit Anmerkungen), die Vorlage zur Abschrift konnte noch nicht identifiziert werden. Möglicherweise besteht aufgrund des Inhalts, der sich unter anderem auf "Anglia" und "Leonis" bezieht, ein Zusammenhang mit Alain de Lille, Prophetia Anglicana (Frankfurt 1608). Eine moderne Edition gibt es laut Jäckel (vgl. Literaturfeld) dazu nicht. Auf fol. 2r folgt ein Vers, der 1688 "Cistercii sub altari summo" gefunden wurde. Diese Anmerkung untermauert die Vermutung eines Zusammenhangs mit Alain de Lille, dieser war nämlich Zisterzienser in Cîteaux.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Prophezeiung und Darstellung eines Löwens als politisches Symbol im Mittelalter: Dirk JÄCKEL, Der Herrscher als Löwe. Ursprung und Gebrauch eines politischen Symbols im Früh- und Hochmittelalter (Beihefte zum Archiv für Kulturgeschichte 60, Köln 2006).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s447466" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/447466"/>
+      </surface>
+      <surface xml:id="s447467" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/447467"/>
+      </surface>
+      <surface xml:id="s447468" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/447468"/>
+      </surface>
+      <surface xml:id="s447469" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/447469"/>
+      </surface>
+   </facsimile>
+</TEI>

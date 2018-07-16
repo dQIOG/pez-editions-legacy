@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Abschrift des Traktats "De sacrosancta eucharistia" gegen Berengar von Tours</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">401</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 11 Faszikel 1 Nr. 85 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Abschrift eines Traktats "De sacrosancta eucharistia" aus der Bibliothek Wiblingen, wendet sich gegen die Lehren Berengars von der Eucharistie. Hand Mayer.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>19. Jh.</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Lehren Berengars: Herman SELDERHUIS, Die Lehre von der Eucharistie aus Sicht der reformatorischen Theologen und die Rezeption der Schriften des Berengar von Tours in der Frühen Neuzeit, in: Divina officia. Liturgie und Frömmigkeit im Mittelalter. Ausstellung der Herzog August Bibliothek Wolfenbüttel und des Dom-Museums Hildesheim in der Biblioteca Augusta vom 28. November 2004 bis 31. Juli 2005, hg. von Patrizia CARMASSI (Ausstellungskataloge der Herzog August Bibliothek 83, Wolfenbüttel 2004) 318–340. Zur Wiblinger Bibliothek: Heribert HUMMEL, Bibliotheca Wiblingana. Aus Scriptorium und Bibliothek der ehemaligen Benediktinerabtei Wiblingen. SMGB 89 (1978) 510–570.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s420297" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/420297"/>
+      </surface>
+      <surface xml:id="s420298" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/420298"/>
+      </surface>
+      <surface xml:id="s420299" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/420299"/>
+      </surface>
+      <surface xml:id="s420300" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/420300"/>
+      </surface>
+      <surface xml:id="s420301" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/420301"/>
+      </surface>
+      <surface xml:id="s420302" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/420302"/>
+      </surface>
+      <surface xml:id="s420303" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/420303"/>
+      </surface>
+      <surface xml:id="s420304" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/420304"/>
+      </surface>
+   </facsimile>
+</TEI>

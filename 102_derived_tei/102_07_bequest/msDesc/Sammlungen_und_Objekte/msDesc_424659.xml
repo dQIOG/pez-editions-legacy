@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Handschriften- und Bibliotheksnotizen zu Rheinsberg</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">538</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 23 Faszikel 1 Nr. 37 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Handschriften- und Bibliotheksnotizen zur Bibliothek Friedrichs II. auf Schloss Rheinsberg, zusammengestellt 1737. Friedrich lebte von 1736–1740 in Rheinsberg.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>1737</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Friedrich dem Großen und seiner Bibliothek: Friedrich der Große – Potsdamer Ausgabe, hg. von Anne BAILLOT (Philosophische Schriften 6, Berlin 2007).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s424659" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/424659"/>
+      </surface>
+      <surface xml:id="s424660" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/424660"/>
+      </surface>
+      <surface xml:id="s424661" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/424661"/>
+      </surface>
+      <surface xml:id="s424662" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/424662"/>
+      </surface>
+      <surface xml:id="s424663" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/424663"/>
+      </surface>
+      <surface xml:id="s424664" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/424664"/>
+      </surface>
+      <surface xml:id="s424665" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/424665"/>
+      </surface>
+      <surface xml:id="s424666" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/424666"/>
+      </surface>
+   </facsimile>
+</TEI>

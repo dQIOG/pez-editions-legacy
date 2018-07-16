@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief: Zacharias a S. Elisabetha an NN; Handschriftenkatalog des Karmelitenklosters zu Straubing</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">428</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 11 Faszikel 3 Nr. 16 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Brief Zacharias a S. Elisabetha an NN (1722-08-10), der einen Handschriftenkatalog des Karmelitenklosters Straubing enthält, und für BP angefertigt worden ist.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>1722-08-10</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Straubing: Adalbert DECKERT, Karmel in Straubing: 1368–1968. 600 Jahre Jubiläumschronik (Textus et studia historica carmelitana 8, Rom 1968). Zu A S. Elisabetha: Adalbert DECKERT–Matthäus HÖSLER, Schematismus der Oberdeutschen Karmelitenprovinz von 1650 bis zur Säkularisation im Jahre 1802 unter besonderer Berücksichtigung der beiden Klöster Straubing und Abensberg. Jahresbericht des Historischen Vereins für Straubing und Umgebung 89 (1987) 141–253</bibl>
+                     <bibl>92 (1990) 145–312</bibl>
+                     <bibl>94 (1992) 187–316</bibl>
+                     <bibl>95 (1993) 265–361</bibl>
+                     <bibl>97 (1995) 149–297</bibl>
+                     <bibl>Friedrich ENDL, Die Beziehung des Stiftes Altenburg sowie der umliegenden Stifte, Klöster und Weltpriesterpfarren etc. zu dem Piaristen-Kollegium in Horn in Niederösterreich. Ein Beitrag zur Geschichte des Studiums und der Wissenschaft in den niederösterreichischen Stiften, Klöstern und geistlichen Institutionen im 17. und 18. Jahrhundert. SMGB 24 (1903) 58–67, 282–303, 582–598.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s421217" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/421217"/>
+      </surface>
+      <surface xml:id="s421218" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/421218"/>
+      </surface>
+      <surface xml:id="s421219" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/421219"/>
+      </surface>
+      <surface xml:id="s421220" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/421220"/>
+      </surface>
+   </facsimile>
+</TEI>

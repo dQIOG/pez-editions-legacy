@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Abschrift einer Urkunde Papst Urban II. an Abt Berenger von St.-Laurent zu Lüttich </title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">320</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 11 Faszikel 1 Nr. 04 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Abschrift einer Urkunde Papst Urban II. an Abt Berenger von St.-Laurent zu Lüttich (1094/1095 = Jaffé 4145). Abschrift aus dem Archiv von St.-Laurent, Hand Mayer.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>19. Jh.</date>
+                     <note>Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Papst Urban II.: Alfons BECKER, Papst Urban II. (MGH Schriften 19, 2 Bde., Stuttgart 1964, 1988). Zu Berenger: Ursmer BERLIÈRE, Monasticon belge, 2: Province de Liège (Liège 1962). Regest zu Jaffé 4145: Regesta pontificum Romanorum, hg. von Philipp JAFFÉ, 1 (Leipzig 1885) 676.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s418854" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/418854"/>
+      </surface>
+      <surface xml:id="s418855" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/418855"/>
+      </surface>
+      <surface xml:id="s418856" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/418856"/>
+      </surface>
+      <surface xml:id="s418857" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/418857"/>
+      </surface>
+   </facsimile>
+</TEI>

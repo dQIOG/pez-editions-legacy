@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Manuskript: Liste der Vorsteher von Spital am Pyhrn</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">416</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 11 Faszikel 3 Nr. 04 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Liste der Provisoren des Hospitals (seit 1241), Dechanten (seit 1418, des Kollegiatstiftes seit 1605) und Pröpste (seit 1604) von Spital am Pyhrn, am Ende Brieftext Kettelers an HP, der in seinen Scriptores Rerum Austriacarum, 2 (Leipzig 1725) eine Hausgeschichte des Kollegiatstiftes abdruckt. Auf die Scriptores verweist auch eine spätere Hand am Beginn des Stücks. Die Schreibweise der Namen (Dechanten, Pröpste) richtet sich nach Hans Krawarik, siehe Literatur.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>1725-07-12</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Spital: Hans KRAWARIK, Die weltlichen Chorherren von Spital am Pyhrn (1418–1807) (Forschungen zur Geschichte Oberösterreichs 15, Linz 1988).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s420958" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/420958"/>
+      </surface>
+      <surface xml:id="s420959" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/420959"/>
+      </surface>
+      <surface xml:id="s420960" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/420960"/>
+      </surface>
+      <surface xml:id="s420961" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/420961"/>
+      </surface>
+      <surface xml:id="s420962" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/420962"/>
+      </surface>
+      <surface xml:id="s420963" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/420963"/>
+      </surface>
+      <surface xml:id="s420964" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/420964"/>
+      </surface>
+      <surface xml:id="s420965" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/420965"/>
+      </surface>
+   </facsimile>
+</TEI>

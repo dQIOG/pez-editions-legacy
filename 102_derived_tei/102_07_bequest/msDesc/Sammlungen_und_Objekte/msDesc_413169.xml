@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Handschriftennotizen zu Codices aus Mondsee und St. Peter</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">239</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 10 Faszikel 3 Nr. 42 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Handschriftennotizen zu Äbten von Mondsee und St. Peter, entnommen einem nicht näher definierten Cod. aus Mondsee (15. Jh.) und einem aus St. Peter (12. Jh.), Hand Mayer.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert. Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Handschriften aus Mondsee: Hans THURN, Die Handschriften der Universitätsbibliothek Würzburg, 2: Handschriften aus benediktinischen Provenienzen, 1. Hälfte: Amorbach, Kitzingen, Münsterschwarzach, Theres, Würzburg: St. Afra, St. Burkard, Schottenkloster St. Jakob. Anhang: Erfurt, Minden, Mondsee (Wiesbaden 1973). Zu Handschriften aus St. Peter: Gerold HAYER et al., Die deutschen Handschriften des Mittelalters der Erzabtei St. Peter zu Salzburg (Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters III/1, Wien 1982). Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s413169" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/413169"/>
+      </surface>
+      <surface xml:id="s413170" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/413170"/>
+      </surface>
+   </facsimile>
+</TEI>

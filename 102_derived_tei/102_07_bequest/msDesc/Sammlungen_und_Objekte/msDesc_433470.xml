@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Abschrift Hagns von "Opuscula Ratherii episcopi Veronensis"</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">700</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 28 Faszikel 2 Nr. 12 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Abschrift mit dem Titel "Opuscula Ratherii episcopi Veronensis", darin "Invectiva de translatione sancti Metronis", "Sermones" und "Epistolae". Als Vorlage diente die Handschrift BStB Clm. 6340, vorher Dombibliothek Freising.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–108v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>1725</date>
+                     <note>Auf fol. 1r findet sich ein Hinweis auf den Verfasser dieser Abschrift: "... eruta a clarissimo patre Leonardo Weihenstephanensi 1725". Hier ist eine sichere Identifizierung mit P. Leonhard Hagn (Profess 1685, Subprior, gest. 1733) laut Gentner (vgl. Literaturfeld) möglich. </note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Rather von Verona: Hans M. SCHALLER, Rather von Verona, in: Lexikon des Mittelalters, 7 (München 1995) col. 457–458. Zur Edition der Werke von Rather von Verona: The complete works of Rather of Verona, ed. Peter L. D. REID (Medieval and Renaissance texts and studies 76, Binghamton 1991). Zur Edition der "Sermones": Sermones Ratherii episcopi Veronensis, ed. Benny R. REECE (Worcester 1969). Zu Clm. 6340: Karl HALM–Wilhelm MEYER–Georg THOMAS, Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis, 3/3: Catalogus codicum Latinorum Bibliothecae Regiae Monacensis. Secundum Andreae Schmelleri Indices, 1/3: Codices latinos (Clm) 5251–8100 complectens (München 1873). Zu Hagn: Heinrich GENTNER, Geschichte des Benedictinerklosters Weihenstephan bey Freysing. Aus Urkunden angefertiget. Beyträge zur Geschichte, Topographie und Statistik des Erzbisthums München und Freysing 6 (1854) 1–350.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s433470" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/433470"/>
+      </surface>
+      <surface xml:id="s433471" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/433471"/>
+      </surface>
+      <surface xml:id="s433472" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/433472"/>
+      </surface>
+      <surface xml:id="s433473" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/433473"/>
+      </surface>
+      <surface xml:id="s433474" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/433474"/>
+      </surface>
+      <surface xml:id="s433475" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/433475"/>
+      </surface>
+      <surface xml:id="s433476" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/433476"/>
+      </surface>
+      <surface xml:id="s433477" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/433477"/>
+      </surface>
+      <surface xml:id="s433478" n="5r">
+         <graphic url="http://unidam.univie.ac.at/id/433478"/>
+      </surface>
+      <surface xml:id="s433479" n="5v">
+         <graphic url="http://unidam.univie.ac.at/id/433479"/>
+      </surface>
+      <surface xml:id="s433480" n="6r">
+         <graphic url="http://unidam.univie.ac.at/id/433480"/>
+      </surface>
+      <surface xml:id="s433481" n="6v">
+         <graphic url="http://unidam.univie.ac.at/id/433481"/>
+      </surface>
+      <surface xml:id="s433482" n="7r">
+         <graphic url="http://unidam.univie.ac.at/id/433482"/>
+      </surface>
+      <surface xml:id="s433483" n="7v">
+         <graphic url="http://unidam.univie.ac.at/id/433483"/>
+      </surface>
+      <surface xml:id="s433484" n="8r">
+         <graphic url="http://unidam.univie.ac.at/id/433484"/>
+      </surface>
+      <surface xml:id="s433485" n="8v">
+         <graphic url="http://unidam.univie.ac.at/id/433485"/>
+      </surface>
+      <surface xml:id="s433486" n="9r">
+         <graphic url="http://unidam.univie.ac.at/id/433486"/>
+      </surface>
+      <surface xml:id="s433487" n="9v">
+         <graphic url="http://unidam.univie.ac.at/id/433487"/>
+      </surface>
+      <surface xml:id="s433488" n="10r">
+         <graphic url="http://unidam.univie.ac.at/id/433488"/>
+      </surface>
+      <surface xml:id="s433489" n="10v">
+         <graphic url="http://unidam.univie.ac.at/id/433489"/>
+      </surface>
+      <surface xml:id="s433490" n="11r">
+         <graphic url="http://unidam.univie.ac.at/id/433490"/>
+      </surface>
+      <surface xml:id="s433491" n="11v">
+         <graphic url="http://unidam.univie.ac.at/id/433491"/>
+      </surface>
+      <surface xml:id="s433492" n="">
+         <graphic url="http://unidam.univie.ac.at/id/433492"/>
+      </surface>
+      <surface xml:id="s433493" n="12v">
+         <graphic url="http://unidam.univie.ac.at/id/433493"/>
+      </surface>
+      <surface xml:id="s433494" n="13r">
+         <graphic url="http://unidam.univie.ac.at/id/433494"/>
+      </surface>
+      <surface xml:id="s433495" n="13v">
+         <graphic url="http://unidam.univie.ac.at/id/433495"/>
+      </surface>
+      <surface xml:id="s433496" n="14r">
+         <graphic url="http://unidam.univie.ac.at/id/433496"/>
+      </surface>
+      <surface xml:id="s433497" n="14v">
+         <graphic url="http://unidam.univie.ac.at/id/433497"/>
+      </surface>
+      <surface xml:id="s433498" n="15r">
+         <graphic url="http://unidam.univie.ac.at/id/433498"/>
+      </surface>
+      <surface xml:id="s433499" n="15v">
+         <graphic url="http://unidam.univie.ac.at/id/433499"/>
+      </surface>
+      <surface xml:id="s433500" n="16r">
+         <graphic url="http://unidam.univie.ac.at/id/433500"/>
+      </surface>
+      <surface xml:id="s433501" n="16v">
+         <graphic url="http://unidam.univie.ac.at/id/433501"/>
+      </surface>
+      <surface xml:id="s433502" n="17r">
+         <graphic url="http://unidam.univie.ac.at/id/433502"/>
+      </surface>
+      <surface xml:id="s433503" n="17v">
+         <graphic url="http://unidam.univie.ac.at/id/433503"/>
+      </surface>
+      <surface xml:id="s433504" n="18r">
+         <graphic url="http://unidam.univie.ac.at/id/433504"/>
+      </surface>
+      <surface xml:id="s433505" n="18v">
+         <graphic url="http://unidam.univie.ac.at/id/433505"/>
+      </surface>
+      <surface xml:id="s433506" n="19r">
+         <graphic url="http://unidam.univie.ac.at/id/433506"/>
+      </surface>
+      <surface xml:id="s433507" n="19v">
+         <graphic url="http://unidam.univie.ac.at/id/433507"/>
+      </surface>
+      <surface xml:id="s433508" n="20r">
+         <graphic url="http://unidam.univie.ac.at/id/433508"/>
+      </surface>
+      <surface xml:id="s433509" n="20v">
+         <graphic url="http://unidam.univie.ac.at/id/433509"/>
+      </surface>
+      <surface xml:id="s433510" n="21r">
+         <graphic url="http://unidam.univie.ac.at/id/433510"/>
+      </surface>
+      <surface xml:id="s433511" n="21v">
+         <graphic url="http://unidam.univie.ac.at/id/433511"/>
+      </surface>
+      <surface xml:id="s433512" n="22r">
+         <graphic url="http://unidam.univie.ac.at/id/433512"/>
+      </surface>
+      <surface xml:id="s433513" n="22v">
+         <graphic url="http://unidam.univie.ac.at/id/433513"/>
+      </surface>
+      <surface xml:id="s433514" n="23r">
+         <graphic url="http://unidam.univie.ac.at/id/433514"/>
+      </surface>
+      <surface xml:id="s433515" n="23v">
+         <graphic url="http://unidam.univie.ac.at/id/433515"/>
+      </surface>
+      <surface xml:id="s433516" n="24r">
+         <graphic url="http://unidam.univie.ac.at/id/433516"/>
+      </surface>
+      <surface xml:id="s433517" n="24v">
+         <graphic url="http://unidam.univie.ac.at/id/433517"/>
+      </surface>
+      <surface xml:id="s433518" n="25r">
+         <graphic url="http://unidam.univie.ac.at/id/433518"/>
+      </surface>
+      <surface xml:id="s433519" n="25v">
+         <graphic url="http://unidam.univie.ac.at/id/433519"/>
+      </surface>
+      <surface xml:id="s433520" n="26r">
+         <graphic url="http://unidam.univie.ac.at/id/433520"/>
+      </surface>
+      <surface xml:id="s433521" n="26v">
+         <graphic url="http://unidam.univie.ac.at/id/433521"/>
+      </surface>
+      <surface xml:id="s433522" n="27r">
+         <graphic url="http://unidam.univie.ac.at/id/433522"/>
+      </surface>
+      <surface xml:id="s433523" n="27v">
+         <graphic url="http://unidam.univie.ac.at/id/433523"/>
+      </surface>
+      <surface xml:id="s433524" n="28r">
+         <graphic url="http://unidam.univie.ac.at/id/433524"/>
+      </surface>
+      <surface xml:id="s433525" n="28v">
+         <graphic url="http://unidam.univie.ac.at/id/433525"/>
+      </surface>
+      <surface xml:id="s433526" n="29r">
+         <graphic url="http://unidam.univie.ac.at/id/433526"/>
+      </surface>
+      <surface xml:id="s433527" n="29v">
+         <graphic url="http://unidam.univie.ac.at/id/433527"/>
+      </surface>
+      <surface xml:id="s433528" n="30r">
+         <graphic url="http://unidam.univie.ac.at/id/433528"/>
+      </surface>
+      <surface xml:id="s433529" n="30v">
+         <graphic url="http://unidam.univie.ac.at/id/433529"/>
+      </surface>
+      <surface xml:id="s433530" n="31r">
+         <graphic url="http://unidam.univie.ac.at/id/433530"/>
+      </surface>
+      <surface xml:id="s433531" n="31v">
+         <graphic url="http://unidam.univie.ac.at/id/433531"/>
+      </surface>
+      <surface xml:id="s433532" n="32r">
+         <graphic url="http://unidam.univie.ac.at/id/433532"/>
+      </surface>
+      <surface xml:id="s433533" n="32v">
+         <graphic url="http://unidam.univie.ac.at/id/433533"/>
+      </surface>
+      <surface xml:id="s433534" n="33r">
+         <graphic url="http://unidam.univie.ac.at/id/433534"/>
+      </surface>
+      <surface xml:id="s433535" n="33v">
+         <graphic url="http://unidam.univie.ac.at/id/433535"/>
+      </surface>
+      <surface xml:id="s433536" n="34r">
+         <graphic url="http://unidam.univie.ac.at/id/433536"/>
+      </surface>
+      <surface xml:id="s433537" n="34v">
+         <graphic url="http://unidam.univie.ac.at/id/433537"/>
+      </surface>
+      <surface xml:id="s433538" n="35r">
+         <graphic url="http://unidam.univie.ac.at/id/433538"/>
+      </surface>
+      <surface xml:id="s433539" n="35v">
+         <graphic url="http://unidam.univie.ac.at/id/433539"/>
+      </surface>
+      <surface xml:id="s433540" n="36r">
+         <graphic url="http://unidam.univie.ac.at/id/433540"/>
+      </surface>
+      <surface xml:id="s433541" n="36v">
+         <graphic url="http://unidam.univie.ac.at/id/433541"/>
+      </surface>
+      <surface xml:id="s433542" n="37r">
+         <graphic url="http://unidam.univie.ac.at/id/433542"/>
+      </surface>
+      <surface xml:id="s433543" n="37v">
+         <graphic url="http://unidam.univie.ac.at/id/433543"/>
+      </surface>
+      <surface xml:id="s433544" n="38r">
+         <graphic url="http://unidam.univie.ac.at/id/433544"/>
+      </surface>
+      <surface xml:id="s433545" n="38v">
+         <graphic url="http://unidam.univie.ac.at/id/433545"/>
+      </surface>
+      <surface xml:id="s433546" n="39r">
+         <graphic url="http://unidam.univie.ac.at/id/433546"/>
+      </surface>
+      <surface xml:id="s433547" n="39v">
+         <graphic url="http://unidam.univie.ac.at/id/433547"/>
+      </surface>
+      <surface xml:id="s433548" n="40r">
+         <graphic url="http://unidam.univie.ac.at/id/433548"/>
+      </surface>
+      <surface xml:id="s433549" n="40v">
+         <graphic url="http://unidam.univie.ac.at/id/433549"/>
+      </surface>
+      <surface xml:id="s433550" n="41r">
+         <graphic url="http://unidam.univie.ac.at/id/433550"/>
+      </surface>
+      <surface xml:id="s433551" n="41v">
+         <graphic url="http://unidam.univie.ac.at/id/433551"/>
+      </surface>
+      <surface xml:id="s433552" n="42r">
+         <graphic url="http://unidam.univie.ac.at/id/433552"/>
+      </surface>
+      <surface xml:id="s433553" n="42v">
+         <graphic url="http://unidam.univie.ac.at/id/433553"/>
+      </surface>
+      <surface xml:id="s433554" n="43r">
+         <graphic url="http://unidam.univie.ac.at/id/433554"/>
+      </surface>
+      <surface xml:id="s433555" n="43v">
+         <graphic url="http://unidam.univie.ac.at/id/433555"/>
+      </surface>
+      <surface xml:id="s433556" n="44r">
+         <graphic url="http://unidam.univie.ac.at/id/433556"/>
+      </surface>
+      <surface xml:id="s433557" n="44v">
+         <graphic url="http://unidam.univie.ac.at/id/433557"/>
+      </surface>
+      <surface xml:id="s433558" n="45r">
+         <graphic url="http://unidam.univie.ac.at/id/433558"/>
+      </surface>
+      <surface xml:id="s433559" n="45v">
+         <graphic url="http://unidam.univie.ac.at/id/433559"/>
+      </surface>
+      <surface xml:id="s433560" n="46r">
+         <graphic url="http://unidam.univie.ac.at/id/433560"/>
+      </surface>
+      <surface xml:id="s433561" n="46v">
+         <graphic url="http://unidam.univie.ac.at/id/433561"/>
+      </surface>
+      <surface xml:id="s433562" n="47r">
+         <graphic url="http://unidam.univie.ac.at/id/433562"/>
+      </surface>
+      <surface xml:id="s433563" n="47v">
+         <graphic url="http://unidam.univie.ac.at/id/433563"/>
+      </surface>
+      <surface xml:id="s433564" n="48r">
+         <graphic url="http://unidam.univie.ac.at/id/433564"/>
+      </surface>
+      <surface xml:id="s433565" n="48v">
+         <graphic url="http://unidam.univie.ac.at/id/433565"/>
+      </surface>
+      <surface xml:id="s433566" n="49r">
+         <graphic url="http://unidam.univie.ac.at/id/433566"/>
+      </surface>
+      <surface xml:id="s433567" n="49v">
+         <graphic url="http://unidam.univie.ac.at/id/433567"/>
+      </surface>
+      <surface xml:id="s433568" n="50r">
+         <graphic url="http://unidam.univie.ac.at/id/433568"/>
+      </surface>
+      <surface xml:id="s433569" n="50v">
+         <graphic url="http://unidam.univie.ac.at/id/433569"/>
+      </surface>
+      <surface xml:id="s433570" n="51r">
+         <graphic url="http://unidam.univie.ac.at/id/433570"/>
+      </surface>
+      <surface xml:id="s433571" n="51v">
+         <graphic url="http://unidam.univie.ac.at/id/433571"/>
+      </surface>
+      <surface xml:id="s433572" n="52r">
+         <graphic url="http://unidam.univie.ac.at/id/433572"/>
+      </surface>
+      <surface xml:id="s433573" n="52v">
+         <graphic url="http://unidam.univie.ac.at/id/433573"/>
+      </surface>
+      <surface xml:id="s433574" n="53r">
+         <graphic url="http://unidam.univie.ac.at/id/433574"/>
+      </surface>
+      <surface xml:id="s433575" n="53v">
+         <graphic url="http://unidam.univie.ac.at/id/433575"/>
+      </surface>
+      <surface xml:id="s433576" n="54r">
+         <graphic url="http://unidam.univie.ac.at/id/433576"/>
+      </surface>
+      <surface xml:id="s433577" n="54v">
+         <graphic url="http://unidam.univie.ac.at/id/433577"/>
+      </surface>
+      <surface xml:id="s433578" n="55r">
+         <graphic url="http://unidam.univie.ac.at/id/433578"/>
+      </surface>
+      <surface xml:id="s433579" n="55v">
+         <graphic url="http://unidam.univie.ac.at/id/433579"/>
+      </surface>
+      <surface xml:id="s433580" n="56r">
+         <graphic url="http://unidam.univie.ac.at/id/433580"/>
+      </surface>
+      <surface xml:id="s433581" n="56v">
+         <graphic url="http://unidam.univie.ac.at/id/433581"/>
+      </surface>
+      <surface xml:id="s433582" n="57r">
+         <graphic url="http://unidam.univie.ac.at/id/433582"/>
+      </surface>
+      <surface xml:id="s433583" n="57v">
+         <graphic url="http://unidam.univie.ac.at/id/433583"/>
+      </surface>
+      <surface xml:id="s433584" n="58r">
+         <graphic url="http://unidam.univie.ac.at/id/433584"/>
+      </surface>
+      <surface xml:id="s433585" n="58v">
+         <graphic url="http://unidam.univie.ac.at/id/433585"/>
+      </surface>
+      <surface xml:id="s433586" n="59r">
+         <graphic url="http://unidam.univie.ac.at/id/433586"/>
+      </surface>
+      <surface xml:id="s433587" n="59v">
+         <graphic url="http://unidam.univie.ac.at/id/433587"/>
+      </surface>
+      <surface xml:id="s433588" n="60r">
+         <graphic url="http://unidam.univie.ac.at/id/433588"/>
+      </surface>
+      <surface xml:id="s433589" n="60v">
+         <graphic url="http://unidam.univie.ac.at/id/433589"/>
+      </surface>
+      <surface xml:id="s433590" n="61r">
+         <graphic url="http://unidam.univie.ac.at/id/433590"/>
+      </surface>
+      <surface xml:id="s433591" n="61v">
+         <graphic url="http://unidam.univie.ac.at/id/433591"/>
+      </surface>
+      <surface xml:id="s433592" n="62r">
+         <graphic url="http://unidam.univie.ac.at/id/433592"/>
+      </surface>
+      <surface xml:id="s433593" n="62v">
+         <graphic url="http://unidam.univie.ac.at/id/433593"/>
+      </surface>
+      <surface xml:id="s433594" n="63r">
+         <graphic url="http://unidam.univie.ac.at/id/433594"/>
+      </surface>
+      <surface xml:id="s433595" n="63v">
+         <graphic url="http://unidam.univie.ac.at/id/433595"/>
+      </surface>
+      <surface xml:id="s433596" n="64r">
+         <graphic url="http://unidam.univie.ac.at/id/433596"/>
+      </surface>
+      <surface xml:id="s433597" n="64v">
+         <graphic url="http://unidam.univie.ac.at/id/433597"/>
+      </surface>
+      <surface xml:id="s433598" n="65r">
+         <graphic url="http://unidam.univie.ac.at/id/433598"/>
+      </surface>
+      <surface xml:id="s433599" n="65v">
+         <graphic url="http://unidam.univie.ac.at/id/433599"/>
+      </surface>
+      <surface xml:id="s433600" n="66r">
+         <graphic url="http://unidam.univie.ac.at/id/433600"/>
+      </surface>
+      <surface xml:id="s433601" n="66v">
+         <graphic url="http://unidam.univie.ac.at/id/433601"/>
+      </surface>
+      <surface xml:id="s433602" n="67r">
+         <graphic url="http://unidam.univie.ac.at/id/433602"/>
+      </surface>
+      <surface xml:id="s433603" n="67v">
+         <graphic url="http://unidam.univie.ac.at/id/433603"/>
+      </surface>
+      <surface xml:id="s433604" n="68r">
+         <graphic url="http://unidam.univie.ac.at/id/433604"/>
+      </surface>
+      <surface xml:id="s433605" n="68v">
+         <graphic url="http://unidam.univie.ac.at/id/433605"/>
+      </surface>
+      <surface xml:id="s433606" n="69r">
+         <graphic url="http://unidam.univie.ac.at/id/433606"/>
+      </surface>
+      <surface xml:id="s433607" n="69v">
+         <graphic url="http://unidam.univie.ac.at/id/433607"/>
+      </surface>
+      <surface xml:id="s433608" n="70r">
+         <graphic url="http://unidam.univie.ac.at/id/433608"/>
+      </surface>
+      <surface xml:id="s433609" n="70v">
+         <graphic url="http://unidam.univie.ac.at/id/433609"/>
+      </surface>
+      <surface xml:id="s433610" n="71r">
+         <graphic url="http://unidam.univie.ac.at/id/433610"/>
+      </surface>
+      <surface xml:id="s433611" n="71v">
+         <graphic url="http://unidam.univie.ac.at/id/433611"/>
+      </surface>
+      <surface xml:id="s433612" n="72r">
+         <graphic url="http://unidam.univie.ac.at/id/433612"/>
+      </surface>
+      <surface xml:id="s433613" n="72v">
+         <graphic url="http://unidam.univie.ac.at/id/433613"/>
+      </surface>
+      <surface xml:id="s433614" n="73r">
+         <graphic url="http://unidam.univie.ac.at/id/433614"/>
+      </surface>
+      <surface xml:id="s433615" n="73v">
+         <graphic url="http://unidam.univie.ac.at/id/433615"/>
+      </surface>
+      <surface xml:id="s433616" n="74r">
+         <graphic url="http://unidam.univie.ac.at/id/433616"/>
+      </surface>
+      <surface xml:id="s433617" n="74v">
+         <graphic url="http://unidam.univie.ac.at/id/433617"/>
+      </surface>
+      <surface xml:id="s433618" n="75r">
+         <graphic url="http://unidam.univie.ac.at/id/433618"/>
+      </surface>
+      <surface xml:id="s433619" n="75v">
+         <graphic url="http://unidam.univie.ac.at/id/433619"/>
+      </surface>
+      <surface xml:id="s433620" n="76r">
+         <graphic url="http://unidam.univie.ac.at/id/433620"/>
+      </surface>
+      <surface xml:id="s433621" n="76v">
+         <graphic url="http://unidam.univie.ac.at/id/433621"/>
+      </surface>
+      <surface xml:id="s433622" n="77r">
+         <graphic url="http://unidam.univie.ac.at/id/433622"/>
+      </surface>
+      <surface xml:id="s433623" n="77v">
+         <graphic url="http://unidam.univie.ac.at/id/433623"/>
+      </surface>
+      <surface xml:id="s433624" n="78r">
+         <graphic url="http://unidam.univie.ac.at/id/433624"/>
+      </surface>
+      <surface xml:id="s433625" n="78v">
+         <graphic url="http://unidam.univie.ac.at/id/433625"/>
+      </surface>
+      <surface xml:id="s433626" n="79r">
+         <graphic url="http://unidam.univie.ac.at/id/433626"/>
+      </surface>
+      <surface xml:id="s433627" n="79v">
+         <graphic url="http://unidam.univie.ac.at/id/433627"/>
+      </surface>
+      <surface xml:id="s433628" n="80r">
+         <graphic url="http://unidam.univie.ac.at/id/433628"/>
+      </surface>
+      <surface xml:id="s433629" n="80v">
+         <graphic url="http://unidam.univie.ac.at/id/433629"/>
+      </surface>
+      <surface xml:id="s433630" n="81r">
+         <graphic url="http://unidam.univie.ac.at/id/433630"/>
+      </surface>
+      <surface xml:id="s433631" n="81v">
+         <graphic url="http://unidam.univie.ac.at/id/433631"/>
+      </surface>
+      <surface xml:id="s433632" n="82r">
+         <graphic url="http://unidam.univie.ac.at/id/433632"/>
+      </surface>
+      <surface xml:id="s433633" n="82v">
+         <graphic url="http://unidam.univie.ac.at/id/433633"/>
+      </surface>
+      <surface xml:id="s433634" n="83r">
+         <graphic url="http://unidam.univie.ac.at/id/433634"/>
+      </surface>
+      <surface xml:id="s433635" n="83v">
+         <graphic url="http://unidam.univie.ac.at/id/433635"/>
+      </surface>
+      <surface xml:id="s433636" n="84r">
+         <graphic url="http://unidam.univie.ac.at/id/433636"/>
+      </surface>
+      <surface xml:id="s433637" n="84v">
+         <graphic url="http://unidam.univie.ac.at/id/433637"/>
+      </surface>
+      <surface xml:id="s433638" n="85r">
+         <graphic url="http://unidam.univie.ac.at/id/433638"/>
+      </surface>
+      <surface xml:id="s433639" n="85v">
+         <graphic url="http://unidam.univie.ac.at/id/433639"/>
+      </surface>
+      <surface xml:id="s433640" n="86r">
+         <graphic url="http://unidam.univie.ac.at/id/433640"/>
+      </surface>
+      <surface xml:id="s433641" n="86v">
+         <graphic url="http://unidam.univie.ac.at/id/433641"/>
+      </surface>
+      <surface xml:id="s433642" n="87r">
+         <graphic url="http://unidam.univie.ac.at/id/433642"/>
+      </surface>
+      <surface xml:id="s433643" n="87v">
+         <graphic url="http://unidam.univie.ac.at/id/433643"/>
+      </surface>
+      <surface xml:id="s433644" n="88r">
+         <graphic url="http://unidam.univie.ac.at/id/433644"/>
+      </surface>
+      <surface xml:id="s433645" n="88v">
+         <graphic url="http://unidam.univie.ac.at/id/433645"/>
+      </surface>
+      <surface xml:id="s433646" n="89r">
+         <graphic url="http://unidam.univie.ac.at/id/433646"/>
+      </surface>
+      <surface xml:id="s433647" n="89v">
+         <graphic url="http://unidam.univie.ac.at/id/433647"/>
+      </surface>
+      <surface xml:id="s433648" n="90r">
+         <graphic url="http://unidam.univie.ac.at/id/433648"/>
+      </surface>
+      <surface xml:id="s433649" n="90v">
+         <graphic url="http://unidam.univie.ac.at/id/433649"/>
+      </surface>
+      <surface xml:id="s433650" n="91r">
+         <graphic url="http://unidam.univie.ac.at/id/433650"/>
+      </surface>
+      <surface xml:id="s433651" n="91v">
+         <graphic url="http://unidam.univie.ac.at/id/433651"/>
+      </surface>
+      <surface xml:id="s433652" n="92r">
+         <graphic url="http://unidam.univie.ac.at/id/433652"/>
+      </surface>
+      <surface xml:id="s433653" n="92v">
+         <graphic url="http://unidam.univie.ac.at/id/433653"/>
+      </surface>
+      <surface xml:id="s433654" n="93r">
+         <graphic url="http://unidam.univie.ac.at/id/433654"/>
+      </surface>
+      <surface xml:id="s433655" n="93v">
+         <graphic url="http://unidam.univie.ac.at/id/433655"/>
+      </surface>
+      <surface xml:id="s433656" n="94r">
+         <graphic url="http://unidam.univie.ac.at/id/433656"/>
+      </surface>
+      <surface xml:id="s433657" n="94v">
+         <graphic url="http://unidam.univie.ac.at/id/433657"/>
+      </surface>
+      <surface xml:id="s433658" n="95r">
+         <graphic url="http://unidam.univie.ac.at/id/433658"/>
+      </surface>
+      <surface xml:id="s433659" n="95v">
+         <graphic url="http://unidam.univie.ac.at/id/433659"/>
+      </surface>
+      <surface xml:id="s433660" n="96r">
+         <graphic url="http://unidam.univie.ac.at/id/433660"/>
+      </surface>
+      <surface xml:id="s433661" n="96v">
+         <graphic url="http://unidam.univie.ac.at/id/433661"/>
+      </surface>
+      <surface xml:id="s433662" n="97r">
+         <graphic url="http://unidam.univie.ac.at/id/433662"/>
+      </surface>
+      <surface xml:id="s433663" n="97v">
+         <graphic url="http://unidam.univie.ac.at/id/433663"/>
+      </surface>
+      <surface xml:id="s433664" n="98r">
+         <graphic url="http://unidam.univie.ac.at/id/433664"/>
+      </surface>
+      <surface xml:id="s433665" n="98v">
+         <graphic url="http://unidam.univie.ac.at/id/433665"/>
+      </surface>
+      <surface xml:id="s433666" n="99r">
+         <graphic url="http://unidam.univie.ac.at/id/433666"/>
+      </surface>
+      <surface xml:id="s433667" n="99v">
+         <graphic url="http://unidam.univie.ac.at/id/433667"/>
+      </surface>
+      <surface xml:id="s433668" n="100r">
+         <graphic url="http://unidam.univie.ac.at/id/433668"/>
+      </surface>
+      <surface xml:id="s433669" n="100v">
+         <graphic url="http://unidam.univie.ac.at/id/433669"/>
+      </surface>
+      <surface xml:id="s433670" n="101r">
+         <graphic url="http://unidam.univie.ac.at/id/433670"/>
+      </surface>
+      <surface xml:id="s433671" n="101v">
+         <graphic url="http://unidam.univie.ac.at/id/433671"/>
+      </surface>
+      <surface xml:id="s433672" n="102r">
+         <graphic url="http://unidam.univie.ac.at/id/433672"/>
+      </surface>
+      <surface xml:id="s433673" n="102v">
+         <graphic url="http://unidam.univie.ac.at/id/433673"/>
+      </surface>
+      <surface xml:id="s433674" n="103r">
+         <graphic url="http://unidam.univie.ac.at/id/433674"/>
+      </surface>
+      <surface xml:id="s433675" n="103v">
+         <graphic url="http://unidam.univie.ac.at/id/433675"/>
+      </surface>
+      <surface xml:id="s433676" n="104r">
+         <graphic url="http://unidam.univie.ac.at/id/433676"/>
+      </surface>
+      <surface xml:id="s433677" n="104v">
+         <graphic url="http://unidam.univie.ac.at/id/433677"/>
+      </surface>
+      <surface xml:id="s433678" n="105r">
+         <graphic url="http://unidam.univie.ac.at/id/433678"/>
+      </surface>
+      <surface xml:id="s433679" n="105v">
+         <graphic url="http://unidam.univie.ac.at/id/433679"/>
+      </surface>
+      <surface xml:id="s433680" n="106r">
+         <graphic url="http://unidam.univie.ac.at/id/433680"/>
+      </surface>
+      <surface xml:id="s433681" n="106v">
+         <graphic url="http://unidam.univie.ac.at/id/433681"/>
+      </surface>
+      <surface xml:id="s433682" n="107r">
+         <graphic url="http://unidam.univie.ac.at/id/433682"/>
+      </surface>
+      <surface xml:id="s433683" n="107v">
+         <graphic url="http://unidam.univie.ac.at/id/433683"/>
+      </surface>
+      <surface xml:id="s433684" n="108r">
+         <graphic url="http://unidam.univie.ac.at/id/433684"/>
+      </surface>
+      <surface xml:id="s433685" n="108v">
+         <graphic url="http://unidam.univie.ac.at/id/433685"/>
+      </surface>
+   </facsimile>
+</TEI>

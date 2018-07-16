@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Schriftstellerkatalog von Disentis</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">334</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 11 Faszikel 1 Nr. 18 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Schriftstellerkatalog von Disentis und verbrüderter Klöster, Hand Mayer. Für die hier vorliegende Abschrift aus dem 19. Jh. vgl. teilweise (Defuns und Desax fehlen dort, Karl Decurtins fehlt hier) einen Schriftstellerkatalog von Disentis in Karton 7 Patres 9, Fasz. 2, Nr. 89 = Abschriftencodex (AC) fol. 660r–v, 662r–666v, der als Beilage zu Brief Defuns an BP (1712-12-18) nach Melk gelangt ist. Die Angaben zu Desax sind wohl eine Abschrift von Karton 7 Patres 9, Fasz. 2, Nr. 89 = Abschriftencodex (AC) fol. 661r–v; dieses Blatt wurde entweder bei dessen Bindung in den Abschriftencodex eingefügt oder vielleicht schon früher. Es ist als Beilage zu Brief Defuns an BP (1713-07-19) erhalten. Für ein weiteres Fragment eines Schriftstellerkatalogs von Disentis (verfasst nach 1716) vgl. Karton 7 Patres 9, Fasz. 2, Nr. 9.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–3v, Schmutzblatt r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>19. Jh.</date>
+                     <note>Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Disentis: Rudolf HENGGELER, Monasticon-Benedictinum Helvetiae, 4: Profeßbuch der Benediktinerabteien St. Martin in Disentis, St. Vinzenz in Beinwil und U. L. Frau von Mariastein, St. Leodegar und St. Mauritius im Hof zu Luzern, Allerheiligen in Schaffhausen, St. Georg zu Stein am Rhein, Sta. Maria zu Wagenhausen, Hl. Kreuz und St. Johannes Ev. zu Trub, St. Johann im Thurtal (Zug 1955)</bibl>
+                     <bibl>Elsanne GILOMEN-SCHENKEL–Iso MÜLLER, Disentis, in: Helvetia Sacra, Abt. III: Die Orden mit Benediktinerregel, 1: Frühe Kloster, die Benediktiner und Benediktinerinnen in der Schweiz, Teil 1, hg. von Elsanne GILOMEN-SCHENKEL (Bern 1986) 474–512. Zu Briefen und Schriftstellerkatalogen von 1712, 1713: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s418939" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/418939"/>
+      </surface>
+      <surface xml:id="s418940" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/418940"/>
+      </surface>
+      <surface xml:id="s418941" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/418941"/>
+      </surface>
+      <surface xml:id="s418942" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/418942"/>
+      </surface>
+      <surface xml:id="s418943" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/418943"/>
+      </surface>
+      <surface xml:id="s418944" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/418944"/>
+      </surface>
+      <surface xml:id="s418945" n="Schmutzblattr">
+         <graphic url="http://unidam.univie.ac.at/id/418945"/>
+      </surface>
+      <surface xml:id="s418946" n="Schmutzblattv">
+         <graphic url="http://unidam.univie.ac.at/id/418946"/>
+      </surface>
+   </facsimile>
+</TEI>

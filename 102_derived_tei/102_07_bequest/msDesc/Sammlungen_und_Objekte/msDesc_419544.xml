@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Schriftsteller- und Handschriftenkatalog von Muri aus Briefen Studer an NN</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">361</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 11 Faszikel 1 Nr. 45 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Abschrift eines Schriftstellerkatalog von Muri, zusammengestellt aus den Briefen Studers 1717 bis 1722, Hand Mayer. Adressat bleibt ungenannt, vielleicht Steyerer oder Egger? Zu den Brüdern Pez in Melk hatte Studer nur indirekten Kontakt. Auf der letzten Seite (fol. 4v) Handschriftenverzeichnis von Muri. Vgl. auch Schriftstellerkataloge von Muri in Karton 7 Patres 9, Fasz. 2, Nr. 8 und 11.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>19. Jh.</date>
+                     <note>Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Muri: Martin KIEM, Geschichte der Benedictiner Abtei Muri-Gries (ad S. Martinum – ad B. V. Mariam) (2 Bde., Stans 1888–1891). Zu Muri und Brüdern Pez: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s419544" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/419544"/>
+      </surface>
+      <surface xml:id="s419545" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/419545"/>
+      </surface>
+      <surface xml:id="s419546" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/419546"/>
+      </surface>
+      <surface xml:id="s419547" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/419547"/>
+      </surface>
+      <surface xml:id="s419548" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/419548"/>
+      </surface>
+      <surface xml:id="s419549" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/419549"/>
+      </surface>
+      <surface xml:id="s419550" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/419550"/>
+      </surface>
+      <surface xml:id="s419551" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/419551"/>
+      </surface>
+   </facsimile>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Abschrift zu Faucher aus Barral, Chronologia sanctorum</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">107</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres  09 Faszikel 2 Nr. 06 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Abschrift "Opera omnia reverendi patris domini Dionysii Faucherii monachi Lerinensis" aus Vincent BARRAL, Chronologia sanctorum et aliorum virorum illustrium ac abbatum sacrae insulae Lerinensis (Lyon 1613). Elogium und Werkskatalog des Denis Faucher aus Lérins. Vgl. eine Abschrift aus früherer Zeit (18. Jh.) in Karton 7 Patres 10, Fasz. 3, Nr. 8. </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>um 1900</date>
+                     <note>Im Zusammenhang mit der Pez-Forschung um 1900.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Faucher, Barral und Lérins: Arthur Cooper COOPER-MARSDIN, The History of the Islands of the Lerins, the Monastery, Saints and Theologians of S. Honorat (Cambridge 2010)</bibl>
+                     <bibl>Henri MORIS, L’ abbaye de Lérins. Histoire et monuments (Paris 1909).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s410783" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/410783"/>
+      </surface>
+      <surface xml:id="s410784" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/410784"/>
+      </surface>
+      <surface xml:id="s410785" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/410785"/>
+      </surface>
+      <surface xml:id="s410786" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/410786"/>
+      </surface>
+   </facsimile>
+</TEI>

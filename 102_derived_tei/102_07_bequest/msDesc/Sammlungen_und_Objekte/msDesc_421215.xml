@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Biographische Notizen zu Kolb und Johannes III. von Ochsenhausen sowie zu einer nicht identifizierbaren Person</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">427</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 11 Faszikel 3 Nr. 15 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Biographische Notizen zu Kolb und Johannes III. von Ochsenhausen (Schottenabt in Wien; beide 15. Jahrhundert); von anderer Hand Fragment einer Totenrede auf einen an der Pest verstorbenen Mönch. Auf fol. 1r ein Verweis auf Altenburg von einer Hand des 19. Jh.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Kolb und Johannes III. von Ochsenhausen: Meta NIEDERKORN-BRUCK, Profeßbuch des Klosters Melk. 1. Teil 1418–1452. Die Äbte von 1418–1483. Stift Melk. Geschichte und Gegenwart 4 (1985) 79–202</bibl>
+                     <bibl>Meta NIEDERKORN-BRUCK, Die Melker Reform im Spiegel der Visitationen (Mitteilungen des Instituts für Österreichische Geschichtsforschung Erg.bd. 30, Wien–München 1994). Zu Altenburg: Hanna EGGER, Altenburg, in: Germania Benedictina, 3/1: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2000) 213–289.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s421215" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/421215"/>
+      </surface>
+      <surface xml:id="s421216" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/421216"/>
+      </surface>
+   </facsimile>
+</TEI>

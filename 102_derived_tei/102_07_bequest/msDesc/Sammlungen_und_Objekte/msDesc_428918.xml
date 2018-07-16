@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Exzerpte zu Haimo von Halberstadt und Alkuin aus Moller, Homonymoscopia</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">624</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 25 Faszikel 1 Nr. 20 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Exzerpte zu Haimo von Halberstadt und Alkuin aus Johann MOLLER, Homonymoscopia (Hamburg 1697). Randbemerkung Hand BP: "Hae litteris domini Sigler annexae erant". Beilage zu Sigler an BP (1713-07-11).</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>1713</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Haimo von Halberstadt: Birgit GANSWEIDT, Haimo von Halberstadt, in: Lexikon des Mittelalters, 4 (München–Zürich 1989) col. 1864. Zu Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s428918" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/428918"/>
+      </surface>
+      <surface xml:id="s428919" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/428919"/>
+      </surface>
+      <surface xml:id="s428920" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/428920"/>
+      </surface>
+      <surface xml:id="s428921" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/428921"/>
+      </surface>
+   </facsimile>
+</TEI>

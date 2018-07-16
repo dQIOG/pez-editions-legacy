@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Handschriftenkatalog von Muri</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">287</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 10 Faszikel 8 Nr. 26 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Handschriftenkatalog von Muri: "Index librorum manuscriptorum veterum, qui extant in bibliotheca Murensi", Verfasser unbekannt, fol. 4r bringt weiteren Hinweis: "Cum eorum seriem reverendus pater Benedictus Studer per Apronianum Hueber" BP "ante duos tresve annos communicarit". Wohl Beilage zu einem noch nicht zugeordneten Brief Studers an NN. Vgl. Schriftstellerkatalog von Muri in Karton 7 Patres 9, Fasz. 2, Nr. 8 und 11 sowie in Karton 85 Varia 23, Fasz. 1, Nr. 2 und 3.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Muri: Martin KIEM, Geschichte der Benedictiner Abtei Muri-Gries (ad S. Martinum – ad B. V. Mariam) (2 Bde., Stans 1888–1891). Zu Mehrerau: Pirmin LINDNER, Album Augiae Brigantinae. Album von Mehrerau bei Bregenz, enthaltend die Äbte und Mönche der ehemaligen Benediktiner-Abtei Mehrerau vom Jahre 1097 bis zu ihrem Aussterben (1856) und deren literarischen Nachlass. Jahres-Bericht des Vorarlberger Museum-Vereines 41 (1902) 31–107</bibl>
+                     <bibl>Alois NIEDERSTÄTTER, Mehrerau, in: Germania Benedictina, 3/2: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2001) 491–525. Zur Studer, Hueber und Korrespondenz mit BP: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s416967" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/416967"/>
+      </surface>
+      <surface xml:id="s416968" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/416968"/>
+      </surface>
+      <surface xml:id="s416969" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/416969"/>
+      </surface>
+      <surface xml:id="s416970" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/416970"/>
+      </surface>
+      <surface xml:id="s416971" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/416971"/>
+      </surface>
+      <surface xml:id="s416972" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/416972"/>
+      </surface>
+      <surface xml:id="s416973" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/416973"/>
+      </surface>
+      <surface xml:id="s416974" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/416974"/>
+      </surface>
+   </facsimile>
+</TEI>

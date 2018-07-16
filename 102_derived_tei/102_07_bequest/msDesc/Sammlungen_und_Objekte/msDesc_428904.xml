@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Bio-bibliographische Notiz zu De Blois</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">620</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 25 Faszikel 1 Nr. 16 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Bio-bibliographische Notiz zu De Blois aus Le Mire, Elogia Belgica (Antwerpen 1609).</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>17. Jh.</date>
+                     <note>Französische Hand des 17. Jahrhundert?</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu De Blois: Georges BLOIS, Louis de Blois. Un bénédictin au XVIe siècle. Paris 1875.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s428904" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/428904"/>
+      </surface>
+      <surface xml:id="s428905" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/428905"/>
+      </surface>
+      <surface xml:id="s428906" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/428906"/>
+      </surface>
+      <surface xml:id="s428907" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/428907"/>
+      </surface>
+   </facsimile>
+</TEI>

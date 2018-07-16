@@ -90,3 +90,7 @@ div[type = 'commentary'] note p {
 relatedItem[type]:before {
     content: oxy_xpath("@type")":";
 }
+
+gap {
+    content: "["oxy_xpath("@reason")"]";
+}

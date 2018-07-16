@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Abschrift: Benedikt von Aniane, "Modus paenitentiarum"</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">485</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 22 Faszikel 2 Nr. 20 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Abschrift des "Modus paenitentiarum" des Benedikt von Aniane, als Vorlage diente eine Handschrift des Klosters St.-Serge et Bach in Angers (aus 1650). Französische Hand.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Edition: Initia consuetudinis benedictinae, hg. von Josef SEMMLER, in: Corpus Consuetudinum Monasticarum, 1, hg. von Kassius HALLINGER (Siegburg 1963) 571–582.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s423343" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/423343"/>
+      </surface>
+      <surface xml:id="s423344" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/423344"/>
+      </surface>
+      <surface xml:id="s423345" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/423345"/>
+      </surface>
+      <surface xml:id="s423346" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/423346"/>
+      </surface>
+      <surface xml:id="s423347" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/423347"/>
+      </surface>
+      <surface xml:id="s423348" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/423348"/>
+      </surface>
+      <surface xml:id="s423349" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/423349"/>
+      </surface>
+      <surface xml:id="s423350" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/423350"/>
+      </surface>
+   </facsimile>
+</TEI>

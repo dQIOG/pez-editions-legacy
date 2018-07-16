@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Gedicht auf Urania</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">332</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 11 Faszikel 1 Nr. 16 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Gedicht auf die Göttin Urania in deutscher Sprache; möglicherweise aus dem Kontext des Melker Gymnasiums.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>19. Jh.</date>
+                     <note>Hand des 19. Jahrhundert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zum Bildungs- und Schulwesen in Melk im späten 18. Jahrhundert: Franz M. EYBL, Zwischen Psalm und Werther. Ein Modell klösterlicher Textzirkulation im 18. Jahrhundert, in: Lesen und Schreiben in Europa 1500–1900. Vergleichende Perspektiven, hg. von Alfred MESSERLI–Roger CHARTIER (Basel 2000) 335–349</bibl>
+                     <bibl>Johannes FRIMMEL, Literarisches Leben in Melk. Ein Kloster im 18. Jahrhundert im kulturellen Umbruch (Wien 2005).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s418931" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/418931"/>
+      </surface>
+      <surface xml:id="s418932" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/418932"/>
+      </surface>
+      <surface xml:id="s418933" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/418933"/>
+      </surface>
+      <surface xml:id="s418934" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/418934"/>
+      </surface>
+   </facsimile>
+</TEI>

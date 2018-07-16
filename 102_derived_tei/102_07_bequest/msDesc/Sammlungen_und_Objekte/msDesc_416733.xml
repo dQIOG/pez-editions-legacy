@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Schriftstellerkatalog "Antiqui auctores Benedictini non satis noti"</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">269</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 10 Faszikel 8 Nr. 08 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Katalog französische Benediktinerschriftsteller vom 11.-17. Jahrhundert. Auf der 1. Seite Vermerk von Katschthaler: "Pisant, Belgien" sowie Ordnungsvermerk "ad 209". Wohl Beilage zu einem noch nicht zugeordneten Brief Pisant an BP.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>ca. 1716</date>
+                     <note>Es sind zwei Briefe Pisants aus 1716 im Nachlass der Brüder Pez in Melk erhalten.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Pisant: Yves CHAUSSY, Matricula Monachorum Professorum Congregationis S. Mauri in Gallia Ordinis Sancti Patris Benedicti (Bibliothèque d’histoire et d’archéologie chrétiennes, Paris 1959). Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s416733" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/416733"/>
+      </surface>
+      <surface xml:id="s416734" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/416734"/>
+      </surface>
+      <surface xml:id="s416735" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/416735"/>
+      </surface>
+      <surface xml:id="s416736" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/416736"/>
+      </surface>
+   </facsimile>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Schriftstellerkatalog von Garsten</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">519</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 23 Faszikel 1 Nr. 18 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Schriftstellerkatalog von Garsten mit Verweisen auf den Jesuiten Jakob Gretser. Ordnungsvermerk auf fol. 2v: "215". Katalog wird erwähnt in Brief König an BP (1709-12-07), eine Abschrift findet sich in Karton 7 Patres 9, Fasz. 2, Nr. 89 = Abschriftencodex (AC) fol. 60r–61r.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>1709-12-07</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Schriftstellern: Günter GARSTENAUER, Beiträge zur Geschichte des Klosters Garsten und der Stadt Steyr, 2: P. Ernest Koch. Biographien. Biographische Denkmäler vom aufgehobenen Stifte Steyr-Garsten getreulich und mühsam aus verschiedenen Dokumenten von einem Ordensprofessen daselbst gesammelt. 1803. Textquelle: Oberösterreichisches Landesarchiv, Stiftsarchiv Garsten, HS 76 und 76a (Sierning 2011). Zu Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s424291" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/424291"/>
+      </surface>
+      <surface xml:id="s424292" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/424292"/>
+      </surface>
+      <surface xml:id="s424293" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/424293"/>
+      </surface>
+      <surface xml:id="s424294" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/424294"/>
+      </surface>
+   </facsimile>
+</TEI>

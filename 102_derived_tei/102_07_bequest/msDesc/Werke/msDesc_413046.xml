@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Urkundenabschrift: Konzil von Basel an Martin von Senging </title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">218</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 10 Faszikel 3 Nr. 21 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Abschrift BPs einer Urkunde des Konzils von Basel, eigentlich des "Rumpfkonzils" von Lausanne, an Martin von Senging 1449-04-24. Wohl Vorarbeiten zu Band 8 der Bibliotheca ascetica.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>vor 1725</date>
+                     <note>Band 8 der Bibliotheca ascetica ist 1725 in Regensburg erschienen. </note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Martin von Senging: Meta BRUCK, Profeßbuch des Klosters Melk, 1: 1418–1452. Die Äbte von 1418–1483. Stift Melk. Geschichte und Gegenwart 4 (1985) 79–202. Zum Konzil von Basel: Die Konzilien von Pisa (1409), Konstanz (1414–1418) und Basel (1431–1449). Institution und Personen, hg. von Heribert MÜLLER (Konstanzer Arbeitskreis für Mittelalterliche Geschichte 67, Ostfildern 2007).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Werke</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s413046" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/413046"/>
+      </surface>
+      <surface xml:id="s413047" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/413047"/>
+      </surface>
+   </facsimile>
+</TEI>

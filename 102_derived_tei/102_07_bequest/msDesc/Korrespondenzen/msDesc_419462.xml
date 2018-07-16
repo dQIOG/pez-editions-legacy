@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Briefauszüge: Moser an HP und BP</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">352</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 11 Faszikel 1 Nr. 36 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Auszüge aus den Briefen Moser an HP und BP, Hand Mayer. Datierungen teilweise irrig.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>19. Jh.</date>
+                     <note>Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Moser: Mack WALKER, Johann Jakob Moser and the Holy Roman Empire of the German Nation (Chapel Hill N.C. u.a. 1981). Zu Briefen: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. Zu Briefen an HP: Irene RABL, Briefe an Hieronymus Pez OSB aus seinem Nachlass im Stiftsarchiv Melk, Karton 7/13: Verzeichnis und Kurzbiographien der Korrespondenzpartner. SMGB 122 (2011) 327–367.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Korrespondenzen</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s419462" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/419462"/>
+      </surface>
+      <surface xml:id="s419463" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/419463"/>
+      </surface>
+      <surface xml:id="s419464" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/419464"/>
+      </surface>
+      <surface xml:id="s419465" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/419465"/>
+      </surface>
+      <surface xml:id="s419466" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/419466"/>
+      </surface>
+      <surface xml:id="s419467" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/419467"/>
+      </surface>
+      <surface xml:id="s419468" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/419468"/>
+      </surface>
+      <surface xml:id="s419469" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/419469"/>
+      </surface>
+   </facsimile>
+</TEI>

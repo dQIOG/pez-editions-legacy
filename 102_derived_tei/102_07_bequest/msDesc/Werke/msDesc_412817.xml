@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Konzept zu BP, Dissertatio apologetico-literaria ad Gentilottum ab Engelsbrunn</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">207</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 10 Faszikel 3 Nr. 10 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Konzept zu BP, Dissertatio apologetico-literaria ad Gentilottum ab Engelsbrunn (Wien 1717), Hand BP. Am Ende unvollständig, mit zahlreichen Anmerkungen und Streichungen.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>vor 1717</date>
+                     <note>BPs Dissertatio apologetico-literaria ist 1717 erschienen.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zur Auseinandersetzung zwischen BP und Gentilotti: Ines PEPER, Il carteggio erudito di Giovanni Benedetto Gentilotti d'Engelsbrunn (1672-1725), bibliotecario imperiale, in: Le carte vive. Epistolari e carteggi nel Settecento. Atti del primo Convegno internazionale di studi del Centro di Ricerca sugli Epistolari del Settecento, Verona, 4-6 dicembre 2008, hg. von Corrado VIOLA (Biblioteca del XVIII secolo 16, Roma 2011) 479–487.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Werke</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s412817" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/412817"/>
+      </surface>
+      <surface xml:id="s412818" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/412818"/>
+      </surface>
+      <surface xml:id="s412819" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/412819"/>
+      </surface>
+      <surface xml:id="s412820" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/412820"/>
+      </surface>
+      <surface xml:id="s412821" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/412821"/>
+      </surface>
+      <surface xml:id="s412822" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/412822"/>
+      </surface>
+      <surface xml:id="s412823" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/412823"/>
+      </surface>
+      <surface xml:id="s412824" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/412824"/>
+      </surface>
+   </facsimile>
+</TEI>

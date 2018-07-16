@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Druckvorlage BPs zu Irimbert von Admont, "De incendio monasterii sui"</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">445</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 22 Faszikel 1 Nr. 05 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Druckvorlage BPs zu Irimbert von Admont, "De incendio monasterii sui", abgedruckt in Band 8 von BP, Bibliotheca ascetica antiquo-nova (12 Bde., Regensburg 1723–1740). Mit Anweisungen an den Drucker.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–3v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>vor 1725</date>
+                     <note>Band 8 der Bibliotheca ascetica ist 1725 erschienen.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Irimbert von Admont: Johann Wilhelm BRAUN, Irimbert von Admont. Frühmittelalterliche Studien. Jahrbuch des Instituts für Frühmittelalterforschung der Universität Münster 7 (1973) 266–323</bibl>
+                     <bibl>Johann Wilhelm BRAUN, Einige Bemerkungen zur Beurteilung der "Admonter Reform" sowie der Äbte Gottfried und Irimbert von Admont in der neueren Literatur. SMGB 87 (1976) 431–434. Zu Werken BPs: Koloman SCHÖNHOFER, P. Bernhard Pez (22.2.1683–27.3.1735), P. Hieronymus Pez (24.2.1685–14.10.1762), Benediktiner von Melk (Leben, Bedeutung und Werke) (ungedr. theol. Dipl.Arb., Innsbruck 1973).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Werke</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s422092" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/422092"/>
+      </surface>
+      <surface xml:id="s422093" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/422093"/>
+      </surface>
+      <surface xml:id="s422094" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/422094"/>
+      </surface>
+      <surface xml:id="s422095" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/422095"/>
+      </surface>
+      <surface xml:id="s422096" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/422096"/>
+      </surface>
+      <surface xml:id="s422097" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/422097"/>
+      </surface>
+   </facsimile>
+</TEI>

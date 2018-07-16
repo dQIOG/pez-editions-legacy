@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Schriftstellerkatalog von Benediktbeuren</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">406</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 11 Faszikel 1 Nr. 90 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Abschrift eines Schriftstellerkatalogs von Benediktbeuren, darunter sind einige anonyme Schriftsteller bis ins 13. Jh., Hand Mayer. Nach Mayers Notiz auf fol. 1r mit Ergänzungen aus BPs "Itinerarium Bavaricum et Suevicum" (= Stiftsbibliothek Melk, Cod. 1850), das Notizen von den Bibliotheksreisen der Brüder Pez (Benediktbeuren 1717) enthält. Das hier vorliegende Stück ist somit eine ergänzte Abschrift einer in Karton 7 Patres 7 = Band 2 der Pezbriefe fol. 698r–703v erhaltenen Beilage zu Brief Meichelbeck an BP (1716-10-04).</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>19. Jh.</date>
+                     <note>Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zur Edition des Schriftstellerkatalogs: Albert SIEGMUND, P. Karl Meichelbecks Briefe. Studien und Mitteilungen zur Geschichte des Benediktiner-Ordens und seiner Zweige 80/1–2 (1969) 105–189</bibl>
+                     <bibl>81 (1970) 261–314. Zu Benediktbeuren: Didier F. ISEL, Zur Gründungs- und Frühgeschichte des Klosters Benediktbeuern. Eine quellenkritische Studie. SMGB 121 (2010) 131–155. Zu Tesenbacher: Pirmin LINDNER, Historia monasterii Tegernseensis. Beiträge zur Geschichte, Topographie und Statistik des Erzbistums München und Freising 7 (1901) 179–258</bibl>
+                     <bibl>8 (1903) 78–286</bibl>
+                     <bibl>Pirmin LINDNER, Familia S. Quirini in Tegernsee. Die Äbte und Mönche der Benediktiner-Abtei Tegernsee von den ältesten Zeiten bis zu ihrem Aussterben (1861) und ihr literarischer Nachlass. Oberbayerisches Archiv für vaterländische Geschichte 50 (1897) 18–130</bibl>
+                     <bibl>50 Ergh. (1898) 1–318. Zu Meichelbeck: Thomas STOCKINGER, War Karl Meichelbeck ein "deutscher Mauriner"?, in: Europäische Geschichtskulturen um 1700 zwischen Gelehrsamkeit, Politik und Konfession, hg. von Thomas WALLNIG–Thomas STOCKINGER–Ines PEPER–Patrick FISKA (Berlin–Boston 2012) 135–168. Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlaß der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. Studien und Mitteilungen zur Geschichte des Benediktinerordens und seiner Zweige 110 (1999) 195–243. Zu Cod. 1850: Christine GLASSNER, Neuzeitliche Handschriften aus dem Nachlass der Brüder Bernhard und Hieronymus Pez in der Bibliothek des Benediktinerstiftes Melk (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 372 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe IV 7, Wien 2008).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s420506" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/420506"/>
+      </surface>
+      <surface xml:id="s420507" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/420507"/>
+      </surface>
+      <surface xml:id="s420508" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/420508"/>
+      </surface>
+      <surface xml:id="s420509" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/420509"/>
+      </surface>
+      <surface xml:id="s420510" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/420510"/>
+      </surface>
+      <surface xml:id="s420511" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/420511"/>
+      </surface>
+      <surface xml:id="s420512" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/420512"/>
+      </surface>
+      <surface xml:id="s420513" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/420513"/>
+      </surface>
+   </facsimile>
+</TEI>

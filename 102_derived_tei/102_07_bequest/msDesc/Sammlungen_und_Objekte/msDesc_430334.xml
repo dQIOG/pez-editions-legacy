@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Bibliotheks- und Handschriftenkatalog von Ochsenhausen</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">662</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 25 Faszikel 1 Nr. 58 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Bibliotheks- und Handschriftenkatalog von Ochsenhausen. Vermerk BPs: "Ex monasterio Ochsenhusano 1716 mense Julio per patrem Aemilianum priorem". Beilage zu Reichardt an BP (1716-07-15). Vgl. die zweite Version des Kataloges in Karton 7 Patres 6, I 108r–v ; vgl. auch Handschriftenkatalog von 1731 in Karton 85 Varia 23, Fasz. 1, Nr. 9. </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>1716</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Reichardt: Pirmin LINDNER, Verzeichnis aller Aebte und der vom Beginne des XVI. Jahrhunderts bis 1861 verstorbenen Mönche der Reichsabtei Ochsenhausen O. S. Bened. Gedenkblatt an deren Gründung im Jahre 1099. Diöcesanarchiv von Schwaben 17 (1899) 97–100, 117–120, 136–138, 154–156, 171–173</bibl>
+                     <bibl>18 (1900) 75–77, 86–91, 191–192. Zu Handschriften: Libri sapientiae, libri vitae. Schätze der ehemaligen Bibliothek der Benediktiner-Reichsabtei Ochsenhausen: Handschriften, Inkunabeln, Frühdrucke, Bücher vom 9. bis 18. Jahrhundert. Eine Ausstellung der Stadt Ochsenhausen in Verbindung mit dem Nationalmuseum in Prag, Abteilung für Schloßbibliotheken, und dem Denkmalamt für Westböhmen in Pilsen. Ochsenhausen 29. August bis 17. Oktober 1993, hg. von Birgit DIETRICH (Ochsenhausen 1993)</bibl>
+                     <bibl>Hugo OTT, Ochsenhausen, in: Germania Benedictina, 5: Die Benediktinerklöster in Baden-Württemberg, hg. von Franz QUARTHAL–Hansmartin DECKER-HAUFF–Klaus SCHREINER (Augsburg 1975) 454–464. Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s430334" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/430334"/>
+      </surface>
+      <surface xml:id="s430335" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/430335"/>
+      </surface>
+   </facsimile>
+</TEI>

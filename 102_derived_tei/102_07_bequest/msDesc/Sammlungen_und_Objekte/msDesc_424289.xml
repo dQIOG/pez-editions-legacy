@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Abschrift: Epitaph des Abtes Wolbero von St. Pantaleon zu Köln</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">518</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 23 Faszikel 1 Nr. 17 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Abschrift des Epitaphes von Abt Wolbero von St. Pantaleon (Abt 1147–1165) mit der Überschrift: "Ex antiquissima tabula, quae asservatur manuscripta in coenobio domini Pantaleonis intra Coloniam".</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Wolbero und seinen Urkundenfälschungen: Stephanie HAARLÄNDER, Hagiographie und urkundliche Überlieferung von Klöstern im 12./13. Jahrhundert, in: Hagiographie im Kontext: Wirkungsweisen und Möglichkeiten historischer Auswertung, hg. von Dieter BAUER–Klaus HERBERS (Beiträge zur Hagiographie 1, Stuttgart 2000) 26–45. Zu St. Pantaleon: Hans Joachim KRACHT, St. Pantaleon, in: Germania Benedictina, 8: Die Benediktinerklöster in Nordrhein-Westfalen, hg. von Rhaban HAACKE (St. Ottilien 1980) 390–404.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s424289" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/424289"/>
+      </surface>
+      <surface xml:id="s424290" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/424290"/>
+      </surface>
+   </facsimile>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Abschrift: Johannes Barbatus, "Catalogus illustrium virorum ordinis S. Benedicti"schriftstellern</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">674</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 25 Faszikel 1 Nr. 70 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Abschrift eines Katalogs benediktinischer Schriftsteller aus Johannes Barbatus, "Catalogus illustrium virorum ordinis S. Benedicti" (= SLUB Dresden, Cod. A 190). Der Katalog ist alphabetisch nach den Vornamen der Schriftsteller geordnet. Die Handschrift befindet sich heute in der Sächsischen Landesbibliothek in Dresden und weist Provenienzvermerke des Klosters Bursfelde sowie des Schottenklosters in Erfurt auf. Bei der Entstehung der hier vorliegenden Abschrift befand sich die Handschrift laut Vermerk auf fol. 1r im Schottenkloster in Erfurt. Im Brief Widow an BP (1715-02-10) weist der Absender BP darauf hin, dass der Schottenmönch Baillie, der BP Ende 1714 besucht hatte, zur Zeit in Erfurt wirkt. Eine Verbindung zwischen der Abschrift, Baillie und BP konnte noch nicht nachgewiesen werden.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zum Cod. A 190: Franz SCHNORR VON CAROLSFELD, Katalog der Handschriften der königl. öffentlichen Bibliothek zu Dresden, 1: A–D, F–H (Leipzig 1882). Zu Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). Zum Verhältnis des Textes zu den Werken des Johannes Trithemius: Klaus ARNOLD, De viris illustribus. Aus den Anfängen der humanistischen Literaturgeschichtsschreibung: Johannes Trithemius und andere Schriftstellerkataloge des 15. Jahrhunderts. Humanistica Lovaniensia 42 (1993) 52–70.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s430548" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/430548"/>
+      </surface>
+      <surface xml:id="s430549" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/430549"/>
+      </surface>
+      <surface xml:id="s430550" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/430550"/>
+      </surface>
+      <surface xml:id="s430551" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/430551"/>
+      </surface>
+   </facsimile>
+</TEI>

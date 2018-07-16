@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Notizen und Abschriften aus Tegernseer Handschriften</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">525</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 23 Faszikel 1 Nr. 24 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Notizen und Abschriften aus Tegernseer Handschriften, insbesondere zu Autoren der Melker Reform. Initien zu Martin von Leibitz, "Alphabetarium divini amoris" (S. 1); Schlitpacher, "Explanatio officii capitularis" (S. 1–2); Johannes von Speyer, "De lectione regulari" (S. 2–4); Johannes von Speyer, "Epistola ad quendam doctorem" (später abgeschrieben von Krinner, StiB Melk, Cod. 395, 547ff.; S. 4–5); Johannes von Speyer, "Epistola ad quendam monachum de mutatione professionis" (Vorlage geschrieben von Nott 1457; S. 5–7); Bernhard von Waging, "De spiritualibus sentimentis" (Vorlage BStB München, clm 18598 oder wohl eher clm 18600; S. 8); Bernhard von Waging, "Defensorium Laudatorii doctae ignorantiae" (Vorlage wohl clm 18600, evtl. clm 18591; S. 9); Schlitpacher, "De gaudiis electorum" (Vorlage sicher clm 18610, da nur dort überliefert; S. 9–10); Ulrich von Landau, "Tractatus de fonte salutis", [recte wohl: Udalricus de Fonte Salutis, "Expositio super Canticum Mariae"; in clm 18610] (S. 10–11); Ulrich von Landau, verschiedene Predigten (S. 11–13); Bernhard von Waging, 22 Predigten (wohl jene in clm 18591; S. 13–15); Eibensteiner, vier Briefe an Ayndorffer und Konrad von Geisenfeld, 1447 (vielleicht nach clm 18610?; S. 15–17); Schlitpacher, Brief an Ayndorffer wg. des Übertritts des Konrad von Geisenfeld, 1447 (dazu Notiz Huebers zu Geisenfeld; S. 17–18); Keck, Briefe an Eibensteiner und Schlitpacher, 1445 (S. 18–21); Petrus von Rosenheim, "Oratio exhortatoria" (S. 21); Alkuin, "Logica seu Dialogus didascalicus" (S. 21–23); Bernhard von Waging, Brief an den Konvent von St. Ulrich und Afra zu Augsburg (S. 23); Odo von Cluny, Predigten (wohl nach clm 19491; S. 24); Bernhard von Waging, "Collationes capitulares" (wohl nach clm 18572; S. 25); "Musica enchiriadis", "Scholica enchiriadis" (S. 26–27); Adalbold von Utrecht, "Musica" (S. 27); Eberhard von Freising, "Tractatus de mensura fistularum", "Regula ad fundendas nolas" (S. 28–29); Notiz über Abt Konrad I. (gest. 1155); dann (ab S. 31) Briefe desselben an den Papst, an die Kanoniker von Passau, an Otto von Freising (S. 29–35); Notiz über Abt Rupert I. (gest. 1186); dann (ab S. 36) insgesamt 15 Briefe von und an diesen (S. 35–50); zwei weitere Briefe Konrads I. (S. 50–52); Briefe Friedrichs I. und Konrads III. an die Äbte von Tegernsee (S. 52–54); Kyderer, "Tractatus ad bene moriendum" (Vorrede; S. 54–56); Kyderer, zahlreiche Predigten (S. 56–58); Ulrich von Landau, 68 Predigten, 1494 (S. 58–60); Ulrich von Landau, 51 Predigten, 1487 (S. 61–62); Ulrich von Landau, Predigten, 1485 (S. 62–64); Ulrich von Landau, weitere Predigten aus 4 verschiedenen Codices (S. 64–72); Siberer, Predigten (S. 72–73); Druckwerke von Benediktinern, darunter die neuesten Thesen von Wenzl und Bemerkungen Huebers über ein Gespräch mit diesem (S. 74–76). Beilage zu Brief Hueber an BP (1716-11-22). Vgl. auch Tegernseensia in StiB Melk, Cod. 1637 sowie Karton 85 Varia 23, Fasz. 1, Nr. 22 bis 29.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1–76.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>1716</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Hueber, Ayndorffer, Keck: Pirmin LINDNER, Familia S. Quirini in Tegernsee. Die Äbte und Mönche der Benediktiner-Abtei Tegernsee von den ältesten Zeiten bis zu ihrem Aussterben (1861) und ihr literarischer Nachlass. Oberbayerisches Archiv für vaterländische Geschichte 50 (1897) 18–130</bibl>
+                     <bibl>50 Ergh. (1898) 1–318. Zu Tegernseer Handschriften: Christine Elisabeth EDER, Die Schule des Klosters Tegernsee im frühen Mittelalter im Spiegel der Tegernseer Handschriften. SMGB 83 (1972) 6–155</bibl>
+                     <bibl>Karl HALM–Friedrich KEINZ–Wilhelm MEYER–Georg THOMAS, Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis, 4/3: Catalogus codicum Latinorum Bibliothecae Regiae Monacensis. Secundum Andreae Schmelleri Indices, 2/3: Codices num. 15121–21313 complectens (München 1878). Zu StiB Melk, Cod. 395 und 1637: Christine GLASSNER, Neuzeitliche Handschriften aus dem Nachlass der Brüder Bernhard und Hieronymus Pez in der Bibliothek des Benediktinerstiftes Melk (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 372 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe IV 7, Wien 2008). Zu Eibensteiner, Konrad von Geisenfeld, Schlitpacher: Meta NIEDERKORN-BRUCK, Die Melker Reform im Spiegel der Visitationen (Mitteilungen des Instituts für Österreichische Geschichtsforschung Erg.bd. 30, Wien–München 1994). Zu Wenzl: Emmanuel J. BAUER, Thomistische Metaphysik an der alten Benediktineruniversität Salzburg. Darstellung und Interpretation einer philosophischen Schule des 17./18. Jahrhunderts (Salzburger Theologische Studien 1, Innsbruck–Wien 1996). Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s424418" n="1">
+         <graphic url="http://unidam.univie.ac.at/id/424418"/>
+      </surface>
+      <surface xml:id="s424419" n="2">
+         <graphic url="http://unidam.univie.ac.at/id/424419"/>
+      </surface>
+      <surface xml:id="s424420" n="3">
+         <graphic url="http://unidam.univie.ac.at/id/424420"/>
+      </surface>
+      <surface xml:id="s424421" n="4">
+         <graphic url="http://unidam.univie.ac.at/id/424421"/>
+      </surface>
+      <surface xml:id="s424422" n="5">
+         <graphic url="http://unidam.univie.ac.at/id/424422"/>
+      </surface>
+      <surface xml:id="s424423" n="6">
+         <graphic url="http://unidam.univie.ac.at/id/424423"/>
+      </surface>
+      <surface xml:id="s424424" n="7">
+         <graphic url="http://unidam.univie.ac.at/id/424424"/>
+      </surface>
+      <surface xml:id="s424425" n="8">
+         <graphic url="http://unidam.univie.ac.at/id/424425"/>
+      </surface>
+      <surface xml:id="s424426" n="9">
+         <graphic url="http://unidam.univie.ac.at/id/424426"/>
+      </surface>
+      <surface xml:id="s424427" n="10">
+         <graphic url="http://unidam.univie.ac.at/id/424427"/>
+      </surface>
+      <surface xml:id="s424428" n="11">
+         <graphic url="http://unidam.univie.ac.at/id/424428"/>
+      </surface>
+      <surface xml:id="s424429" n="12">
+         <graphic url="http://unidam.univie.ac.at/id/424429"/>
+      </surface>
+      <surface xml:id="s424430" n="13">
+         <graphic url="http://unidam.univie.ac.at/id/424430"/>
+      </surface>
+      <surface xml:id="s424431" n="14">
+         <graphic url="http://unidam.univie.ac.at/id/424431"/>
+      </surface>
+      <surface xml:id="s424432" n="15">
+         <graphic url="http://unidam.univie.ac.at/id/424432"/>
+      </surface>
+      <surface xml:id="s424433" n="16">
+         <graphic url="http://unidam.univie.ac.at/id/424433"/>
+      </surface>
+      <surface xml:id="s424434" n="17">
+         <graphic url="http://unidam.univie.ac.at/id/424434"/>
+      </surface>
+      <surface xml:id="s424435" n="18">
+         <graphic url="http://unidam.univie.ac.at/id/424435"/>
+      </surface>
+      <surface xml:id="s424436" n="19">
+         <graphic url="http://unidam.univie.ac.at/id/424436"/>
+      </surface>
+      <surface xml:id="s424437" n="20">
+         <graphic url="http://unidam.univie.ac.at/id/424437"/>
+      </surface>
+      <surface xml:id="s424438" n="21">
+         <graphic url="http://unidam.univie.ac.at/id/424438"/>
+      </surface>
+      <surface xml:id="s424439" n="22">
+         <graphic url="http://unidam.univie.ac.at/id/424439"/>
+      </surface>
+      <surface xml:id="s424440" n="23">
+         <graphic url="http://unidam.univie.ac.at/id/424440"/>
+      </surface>
+      <surface xml:id="s424441" n="24">
+         <graphic url="http://unidam.univie.ac.at/id/424441"/>
+      </surface>
+      <surface xml:id="s424442" n="25">
+         <graphic url="http://unidam.univie.ac.at/id/424442"/>
+      </surface>
+      <surface xml:id="s424443" n="26">
+         <graphic url="http://unidam.univie.ac.at/id/424443"/>
+      </surface>
+      <surface xml:id="s424444" n="27">
+         <graphic url="http://unidam.univie.ac.at/id/424444"/>
+      </surface>
+      <surface xml:id="s424445" n="28">
+         <graphic url="http://unidam.univie.ac.at/id/424445"/>
+      </surface>
+      <surface xml:id="s424446" n="29">
+         <graphic url="http://unidam.univie.ac.at/id/424446"/>
+      </surface>
+      <surface xml:id="s424447" n="30">
+         <graphic url="http://unidam.univie.ac.at/id/424447"/>
+      </surface>
+      <surface xml:id="s424448" n="31">
+         <graphic url="http://unidam.univie.ac.at/id/424448"/>
+      </surface>
+      <surface xml:id="s424449" n="32">
+         <graphic url="http://unidam.univie.ac.at/id/424449"/>
+      </surface>
+      <surface xml:id="s424450" n="33">
+         <graphic url="http://unidam.univie.ac.at/id/424450"/>
+      </surface>
+      <surface xml:id="s424451" n="34">
+         <graphic url="http://unidam.univie.ac.at/id/424451"/>
+      </surface>
+      <surface xml:id="s424452" n="35">
+         <graphic url="http://unidam.univie.ac.at/id/424452"/>
+      </surface>
+      <surface xml:id="s424453" n="36">
+         <graphic url="http://unidam.univie.ac.at/id/424453"/>
+      </surface>
+      <surface xml:id="s424454" n="37">
+         <graphic url="http://unidam.univie.ac.at/id/424454"/>
+      </surface>
+      <surface xml:id="s424455" n="38">
+         <graphic url="http://unidam.univie.ac.at/id/424455"/>
+      </surface>
+      <surface xml:id="s424456" n="39">
+         <graphic url="http://unidam.univie.ac.at/id/424456"/>
+      </surface>
+      <surface xml:id="s424457" n="40">
+         <graphic url="http://unidam.univie.ac.at/id/424457"/>
+      </surface>
+      <surface xml:id="s424458" n="41">
+         <graphic url="http://unidam.univie.ac.at/id/424458"/>
+      </surface>
+      <surface xml:id="s424459" n="42">
+         <graphic url="http://unidam.univie.ac.at/id/424459"/>
+      </surface>
+      <surface xml:id="s424460" n="43">
+         <graphic url="http://unidam.univie.ac.at/id/424460"/>
+      </surface>
+      <surface xml:id="s424461" n="44">
+         <graphic url="http://unidam.univie.ac.at/id/424461"/>
+      </surface>
+      <surface xml:id="s424462" n="45">
+         <graphic url="http://unidam.univie.ac.at/id/424462"/>
+      </surface>
+      <surface xml:id="s424463" n="46">
+         <graphic url="http://unidam.univie.ac.at/id/424463"/>
+      </surface>
+      <surface xml:id="s424464" n="47">
+         <graphic url="http://unidam.univie.ac.at/id/424464"/>
+      </surface>
+      <surface xml:id="s424465" n="48">
+         <graphic url="http://unidam.univie.ac.at/id/424465"/>
+      </surface>
+      <surface xml:id="s424466" n="49">
+         <graphic url="http://unidam.univie.ac.at/id/424466"/>
+      </surface>
+      <surface xml:id="s424467" n="50">
+         <graphic url="http://unidam.univie.ac.at/id/424467"/>
+      </surface>
+      <surface xml:id="s424468" n="51">
+         <graphic url="http://unidam.univie.ac.at/id/424468"/>
+      </surface>
+      <surface xml:id="s424469" n="52">
+         <graphic url="http://unidam.univie.ac.at/id/424469"/>
+      </surface>
+      <surface xml:id="s424470" n="53">
+         <graphic url="http://unidam.univie.ac.at/id/424470"/>
+      </surface>
+      <surface xml:id="s424471" n="54">
+         <graphic url="http://unidam.univie.ac.at/id/424471"/>
+      </surface>
+      <surface xml:id="s424472" n="55">
+         <graphic url="http://unidam.univie.ac.at/id/424472"/>
+      </surface>
+      <surface xml:id="s424473" n="56">
+         <graphic url="http://unidam.univie.ac.at/id/424473"/>
+      </surface>
+      <surface xml:id="s424474" n="57">
+         <graphic url="http://unidam.univie.ac.at/id/424474"/>
+      </surface>
+      <surface xml:id="s424475" n="58">
+         <graphic url="http://unidam.univie.ac.at/id/424475"/>
+      </surface>
+      <surface xml:id="s424476" n="59">
+         <graphic url="http://unidam.univie.ac.at/id/424476"/>
+      </surface>
+      <surface xml:id="s424477" n="60">
+         <graphic url="http://unidam.univie.ac.at/id/424477"/>
+      </surface>
+      <surface xml:id="s424478" n="61">
+         <graphic url="http://unidam.univie.ac.at/id/424478"/>
+      </surface>
+      <surface xml:id="s424479" n="62">
+         <graphic url="http://unidam.univie.ac.at/id/424479"/>
+      </surface>
+      <surface xml:id="s424480" n="63">
+         <graphic url="http://unidam.univie.ac.at/id/424480"/>
+      </surface>
+      <surface xml:id="s424481" n="64">
+         <graphic url="http://unidam.univie.ac.at/id/424481"/>
+      </surface>
+      <surface xml:id="s424482" n="65">
+         <graphic url="http://unidam.univie.ac.at/id/424482"/>
+      </surface>
+      <surface xml:id="s424483" n="66">
+         <graphic url="http://unidam.univie.ac.at/id/424483"/>
+      </surface>
+      <surface xml:id="s424484" n="67">
+         <graphic url="http://unidam.univie.ac.at/id/424484"/>
+      </surface>
+      <surface xml:id="s424485" n="68">
+         <graphic url="http://unidam.univie.ac.at/id/424485"/>
+      </surface>
+      <surface xml:id="s424486" n="69">
+         <graphic url="http://unidam.univie.ac.at/id/424486"/>
+      </surface>
+      <surface xml:id="s424487" n="70">
+         <graphic url="http://unidam.univie.ac.at/id/424487"/>
+      </surface>
+      <surface xml:id="s424488" n="71">
+         <graphic url="http://unidam.univie.ac.at/id/424488"/>
+      </surface>
+      <surface xml:id="s424489" n="72">
+         <graphic url="http://unidam.univie.ac.at/id/424489"/>
+      </surface>
+      <surface xml:id="s424490" n="73">
+         <graphic url="http://unidam.univie.ac.at/id/424490"/>
+      </surface>
+      <surface xml:id="s424491" n="74">
+         <graphic url="http://unidam.univie.ac.at/id/424491"/>
+      </surface>
+      <surface xml:id="s424492" n="75">
+         <graphic url="http://unidam.univie.ac.at/id/424492"/>
+      </surface>
+      <surface xml:id="s424493" n="76">
+         <graphic url="http://unidam.univie.ac.at/id/424493"/>
+      </surface>
+   </facsimile>
+</TEI>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Abschrift eines Briefes, vermutlich Gerhochs von Reichersberg</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">236</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 10 Faszikel 3 Nr. 39 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Abschrift eines Briefes, der Gerhoch von Reichersberg zugeschrieben werden kann und in ÖNB Wien, Cod. 1754 fol. 144r–149v (vormals Mondseer Cod.) überliefert ist. Auf der Abschrift ist vermerkt, dass der Brief in der Handschrift auf einen Brief Gerhochs an eine Unbekannte folgt, der mit "Rogas et rogando cogis filia in Christo karissima" (fol. 135r–144r) beginnt und den BP in seinem Thesaurus anecdotorum novissimus, 6 (Augsburg 1729) abgedruckt hat.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu dem unbekannten Brief: Peter CLASSEN, Gerhoch von Reichersberg. Eine Biographie mit einem Anhang über die Quellen, ihre handschriftliche Überlieferung und ihre Chronologie (Wiesbaden 1960) 463. Zum Thesaurus: Christine GLASSNER, Der "Thesaurus anecdotorum novissimus" des Melker Benediktiners Bernhard Pez. SMGB 113 (2002) 341–370. Zu Cod. 1754: Tabulae codicum manu scriptorum praeter graecos et orientales in Bibliotheca Palatina Vindobonensi asservatorum, 1: Cod. 1–2000, ed. Academia Caesarea Vindobonensis (Wien 1864).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s413143" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/413143"/>
+      </surface>
+      <surface xml:id="s413144" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/413144"/>
+      </surface>
+      <surface xml:id="s413145" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/413145"/>
+      </surface>
+      <surface xml:id="s413146" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/413146"/>
+      </surface>
+      <surface xml:id="s413147" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/413147"/>
+      </surface>
+      <surface xml:id="s413148" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/413148"/>
+      </surface>
+      <surface xml:id="s413149" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/413149"/>
+      </surface>
+      <surface xml:id="s413150" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/413150"/>
+      </surface>
+   </facsimile>
+</TEI>

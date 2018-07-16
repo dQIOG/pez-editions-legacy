@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Notizen: Anreden, Daten, Incipit von Pez-Briefen aus der Bibliothèque nationale de France</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">32</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres  09 Faszikel 1 Nr. 15 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Anreden, Daten, Incipit von Pez-Briefen und Schramb-Briefen aus mehreren Codices der Bibliothèque nationale de France. Insgesamt 19 Briefe, was nur einen Teil der in Paris überlieferten Pez-Briefe darstellt. Laut Vermerk auf 4v (spätere Hand) von Katschthaler.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>um 1900</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Katschthaler: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1889)</bibl>
+                     <bibl>Directorium officii divini Benedictino Mellicense (Melk 1922–1947)</bibl>
+                     <bibl>900 Jahre Benediktiner in Melk. Jubiläumsausstellung 1989, Stift Melk, hg. von Ernst BRUCKMÜLLER–Burkhard ELLEGAST–Erwin ROTTER (Melk 1989). Zu Katschthalers Befassung mit der Thematik: Eduard Ernst KATSCHTHALER, Über Bernhard Pez und dessen Briefnachlass. Jahresbericht des k.k. Obergymnasiums zu Melk 39 (1889) 3–106. Zu Schrambs Kontakten mit den Maurinern: Patrick FISKA, Zu Leben und Werk des Melker Benediktiners Anselm Schramb (1658–1720). Mit einer Edition seiner Briefkorrespondenz. SMBG 122 (2011) 201–306.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Korrespondenzen</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s407477" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/407477"/>
+      </surface>
+      <surface xml:id="s407478" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/407478"/>
+      </surface>
+      <surface xml:id="s407479" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/407479"/>
+      </surface>
+      <surface xml:id="s407480" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/407480"/>
+      </surface>
+      <surface xml:id="s407481" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/407481"/>
+      </surface>
+      <surface xml:id="s407482" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/407482"/>
+      </surface>
+      <surface xml:id="s407483" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/407483"/>
+      </surface>
+      <surface xml:id="s407484" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/407484"/>
+      </surface>
+   </facsimile>
+</TEI>

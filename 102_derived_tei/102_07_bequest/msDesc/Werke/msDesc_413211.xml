@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Bio-bibliographische Notizen BPs zum Hl. Benedikt und Hl. Koloman</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">245</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 10 Faszikel 3 Nr. 48 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Bio-bibliographische Notizen BPs zum Hl. Benedikt und Hl. Koloman, teilweise aus der Bibliothek des Klosters Lambach. Wahrscheinlich Notizen von der Bibliotheksreise nach Oberösterreich. Vgl. auch Notizen in Karton 7 Patres 9, Fasz. 1, Nr. 54.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>ca. 1715</date>
+                     <note>1715 besuchten die Brüder Pez Klosterbibliotheken in Oberösterreich (Garsten, Gleink, St. Florian, Kremsmünster, Lambach, Waldhausen, Wilhering).</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu der Bibliotheksreise nach Oberösterreich: Eduard Ernst KATSCHTHALER, Über Bernhard Pez und dessen Briefnachlass. Jahresbericht des k.k. Obergymnasiums zu Melk 39 (1889) 3–106</bibl>
+                     <bibl>Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Werke</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s413211" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/413211"/>
+      </surface>
+      <surface xml:id="s413212" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/413212"/>
+      </surface>
+      <surface xml:id="s413213" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/413213"/>
+      </surface>
+      <surface xml:id="s413214" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/413214"/>
+      </surface>
+   </facsimile>
+</TEI>

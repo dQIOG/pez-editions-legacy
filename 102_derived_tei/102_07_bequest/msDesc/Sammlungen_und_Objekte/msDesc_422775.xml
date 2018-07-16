@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Manuskript: Hausgeschichte von Orval (Belgien)</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">475</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 22 Faszikel 2 Nr. 10 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Hausgeschichte "De fundatione monasterii B. Mariae de Aurea Valle et primaeva observantia ordinis Cisterciensis in illud non ita pridem introducta", Hand Mintart. Gebundene Einheit. Der Gründungsgeschichte folgen zwei Brieftexte: 1) Mintart an P. Bruno von Ossegg in Böhmen (1716-05-16) fol. 6v–10v, 2) Mintart an Priger von Lilienfeld (1718-01-22) fol. 10v–15v. Das Album Ossecense (vgl. Literaturfeld) beinhaltet lediglich zwei Professen mit dem Namen Bruno, einerseits Bruno Kempf (geboren 1699, Einkleidung 1720, Profess 1721, Primiz 1727, gestorben 1741) und andererseits Bruno Thorand, der jedoch erst 1726 geboren ist. Hier ist eine Identifikation mit Bruno Kempf sehr wahrscheinlich, auch wenn die Bezeichnung mit "Pater" aufgrund seiner Biographie irreführend ist. Auf fol. 1r Notizen Katschthalers. Zu den Briefen vgl. Abschriften in Karton 7 Patres 9, Fasz. 1, Nr. 63, Gründungsgeschichte und Briefe sind auch in StiB Melk, Cod. 1192 enthalten (verfasst vom Melker Leopold Danschachner).</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>Umschlag r–v,1r–15v, Umschlag r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>um 1718</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Mintart: Ulrich BRZOSA, Die Geschichte der katholischen Kirche in Düsseldorf. Von den Anfängen bis zur Säkularisation (Bonner Beiträge zur Kirchengeschichte 24, Köln–Weimar–Wien 2001) 352–363. Zu Orval: Nécrologe de l’abbaye d’Orval, hg. von Henry et Joseph BARBIER. Analectes pour servir à l’histoire ecclesiastique de la Belgique 3 (1866) 223–242</bibl>
+                     <bibl>Nicolas TILLIÈRE, Histoire de l’Abbaye d’Orval (Villeurs-devant-Orval 1967). Zu Kempf: Album Ossecense oder Verzeichnis der Mitglieder des Cistercienser-Stiftes Ossegg vom Jahre 1645–1896 (Ossegg 1896). Zu Priger: Eugen MÜLLER, Profeßbuch des Zisterzienserstiftes Lilienfeld (SMGB Erg.bd. 38, St. Ottilien 1996). Zu Cod. 1192: Christine GLASSNER, Neuzeitliche Handschriften aus dem Nachlass der Brüder Bernhard und Hieronymus Pez in der Bibliothek des Benediktinerstiftes Melk (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 372 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe IV 7, Wien 2008).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s422775" n="Umschlag r">
+         <graphic url="http://unidam.univie.ac.at/id/422775"/>
+      </surface>
+      <surface xml:id="s422776" n="Umschlag v">
+         <graphic url="http://unidam.univie.ac.at/id/422776"/>
+      </surface>
+      <surface xml:id="s422777" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/422777"/>
+      </surface>
+      <surface xml:id="s422778" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/422778"/>
+      </surface>
+      <surface xml:id="s422779" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/422779"/>
+      </surface>
+      <surface xml:id="s422780" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/422780"/>
+      </surface>
+      <surface xml:id="s422781" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/422781"/>
+      </surface>
+      <surface xml:id="s422782" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/422782"/>
+      </surface>
+      <surface xml:id="s422783" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/422783"/>
+      </surface>
+      <surface xml:id="s422784" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/422784"/>
+      </surface>
+      <surface xml:id="s422785" n="5r">
+         <graphic url="http://unidam.univie.ac.at/id/422785"/>
+      </surface>
+      <surface xml:id="s422786" n="5v">
+         <graphic url="http://unidam.univie.ac.at/id/422786"/>
+      </surface>
+      <surface xml:id="s422787" n="6r">
+         <graphic url="http://unidam.univie.ac.at/id/422787"/>
+      </surface>
+      <surface xml:id="s422788" n="6v">
+         <graphic url="http://unidam.univie.ac.at/id/422788"/>
+      </surface>
+      <surface xml:id="s422789" n="7r">
+         <graphic url="http://unidam.univie.ac.at/id/422789"/>
+      </surface>
+      <surface xml:id="s422790" n="7v">
+         <graphic url="http://unidam.univie.ac.at/id/422790"/>
+      </surface>
+      <surface xml:id="s422791" n="8r">
+         <graphic url="http://unidam.univie.ac.at/id/422791"/>
+      </surface>
+      <surface xml:id="s422792" n="8v">
+         <graphic url="http://unidam.univie.ac.at/id/422792"/>
+      </surface>
+      <surface xml:id="s422793" n="9r">
+         <graphic url="http://unidam.univie.ac.at/id/422793"/>
+      </surface>
+      <surface xml:id="s422794" n="9v">
+         <graphic url="http://unidam.univie.ac.at/id/422794"/>
+      </surface>
+      <surface xml:id="s422795" n="10r">
+         <graphic url="http://unidam.univie.ac.at/id/422795"/>
+      </surface>
+      <surface xml:id="s422796" n="10v">
+         <graphic url="http://unidam.univie.ac.at/id/422796"/>
+      </surface>
+      <surface xml:id="s422797" n="11r">
+         <graphic url="http://unidam.univie.ac.at/id/422797"/>
+      </surface>
+      <surface xml:id="s422798" n="11v">
+         <graphic url="http://unidam.univie.ac.at/id/422798"/>
+      </surface>
+      <surface xml:id="s422799" n="12r">
+         <graphic url="http://unidam.univie.ac.at/id/422799"/>
+      </surface>
+      <surface xml:id="s422800" n="12v">
+         <graphic url="http://unidam.univie.ac.at/id/422800"/>
+      </surface>
+      <surface xml:id="s422801" n="13r">
+         <graphic url="http://unidam.univie.ac.at/id/422801"/>
+      </surface>
+      <surface xml:id="s422802" n="13v">
+         <graphic url="http://unidam.univie.ac.at/id/422802"/>
+      </surface>
+      <surface xml:id="s422803" n="14r">
+         <graphic url="http://unidam.univie.ac.at/id/422803"/>
+      </surface>
+      <surface xml:id="s422804" n="14v">
+         <graphic url="http://unidam.univie.ac.at/id/422804"/>
+      </surface>
+      <surface xml:id="s422805" n="15r">
+         <graphic url="http://unidam.univie.ac.at/id/422805"/>
+      </surface>
+      <surface xml:id="s422806" n="15v">
+         <graphic url="http://unidam.univie.ac.at/id/422806"/>
+      </surface>
+      <surface xml:id="s422807" n="Umschlag r">
+         <graphic url="http://unidam.univie.ac.at/id/422807"/>
+      </surface>
+      <surface xml:id="s422808" n="Umschlag v">
+         <graphic url="http://unidam.univie.ac.at/id/422808"/>
+      </surface>
+   </facsimile>
+</TEI>

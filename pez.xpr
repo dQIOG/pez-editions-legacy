@@ -6827,6 +6827,64 @@ return </String>
                                                         <Boolean>false</Boolean>
                                                     </field>
                                                 </action>
+                                                <action>
+                                                    <field name="id">
+                                                        <String>nachlass.bibliographieLink.hinzufügen</String>
+                                                    </field>
+                                                    <field name="name">
+                                                        <String>Nachlass: Bibliographielink hinzufügen</String>
+                                                    </field>
+                                                    <field name="description">
+                                                        <String></String>
+                                                    </field>
+                                                    <field name="largeIconPath">
+                                                        <String></String>
+                                                    </field>
+                                                    <field name="smallIconPath">
+                                                        <String></String>
+                                                    </field>
+                                                    <field name="accessKey">
+                                                        <String></String>
+                                                    </field>
+                                                    <field name="accelerator">
+                                                        <String>ctrl shift O</String>
+                                                    </field>
+                                                    <field name="actionModes">
+                                                        <actionMode-array>
+                                                            <actionMode>
+                                                                <field name="xpathCondition">
+                                                                    <String></String>
+                                                                </field>
+                                                                <field name="argValues">
+                                                                    <serializableOrderedMap>
+                                                                        <entry>
+                                                                            <String>URL</String>
+                                                                            <String>${pdu}/102_derived_tei/102_07_bequest/pez_bequest_bibliography.xml</String>
+                                                                        </entry>
+                                                                        <entry>
+                                                                            <String>element</String>
+                                                                            <String>"&lt;rs xmlns='http://www.tei-c.org/ns/1.0' type='bibl' key='bqbibl:" + @ID + "'>&lt;/rs>"</String>
+                                                                        </entry>
+                                                                        <entry>
+                                                                            <String>expression</String>
+                                                                            <String>./note[1]</String>
+                                                                        </entry>
+                                                                        <entry>
+                                                                            <String>node</String>
+                                                                            <String>//mods</String>
+                                                                        </entry>
+                                                                    </serializableOrderedMap>
+                                                                </field>
+                                                                <field name="operationID">
+                                                                    <String>org.bbaw.telota.ediarum.InsertRegisterOperation</String>
+                                                                </field>
+                                                            </actionMode>
+                                                        </actionMode-array>
+                                                    </field>
+                                                    <field name="enabledInReadOnlyContext">
+                                                        <Boolean>false</Boolean>
+                                                    </field>
+                                                </action>
                                             </action-array>
                                         </field>
                                         <field name="menubarDescriptor">
@@ -15041,7 +15099,7 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Nachlass: export nach EAD</String>
+                                        <String>Nachlass: export nach msDesc</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">

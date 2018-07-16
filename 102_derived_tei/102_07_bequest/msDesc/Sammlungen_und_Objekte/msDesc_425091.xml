@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Handschriftennotiz zu Würzburg</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">554</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 23 Faszikel 1 Nr. 53 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Handschriftennotiz zu Würzburg mit dem Titel: "Codex membranaceus (nr. 5 bibliothecae Herbipolensis cathedrail, nuper detectae [sic]) continens in se canones apostolorum et diversorum conciliorum", heute wohl M. p. th. f. 3 der Universitätsbibliothek Würzburg: "Canones apostolorum et conciliorum". Vgl. Karton 85 Varia 30, Fasz. 1, Nr. 23; Nr. 25. </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–3v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Eckhart: Stefan BENZ, Johann Georg von Eckhart (1674–1730), in: Fränkische Lebensbilder. Fünfzehnter Band, hg. von Alfred WENDEHORST (Veröffentlichungen der Gesellschaft für Fränkische Geschichte, Reihe VII A 15, Neustadt an der Aisch 1993) 135–156</bibl>
+                     <bibl>Thomas WALLNIG, Johann Georg Eckhart als Verwerter von Leibniz' Kollektaneen: Geschichtsforscher in höfischen Diensten oder gelehrter Beamter?, in: Leibniz als Sammler und Verwerter historischer Quellen, hg. von Nora GÄDEKE (Wolfenbüttel 2012) 189–210. Zur Handschrift: Hans THURN, Die Handschriften der Universitätsbibliothek Würzburg, 3/1: Die Pergamenthandschriften der ehemaligen Dombibliothek (Wiesbaden 1984).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s425091" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/425091"/>
+      </surface>
+      <surface xml:id="s425092" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/425092"/>
+      </surface>
+      <surface xml:id="s425093" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/425093"/>
+      </surface>
+      <surface xml:id="s425094" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/425094"/>
+      </surface>
+      <surface xml:id="s425095" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/425095"/>
+      </surface>
+      <surface xml:id="s425096" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/425096"/>
+      </surface>
+   </facsimile>
+</TEI>

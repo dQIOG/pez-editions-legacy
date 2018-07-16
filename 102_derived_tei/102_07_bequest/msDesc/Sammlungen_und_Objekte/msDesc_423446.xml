@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Bio-bibliographische Notizen zu Ruben </title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">497</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 22 Faszikel 3 Nr. 12 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Bio-bibliographische Notizen zu Abt Ruben (gest. 1609) von Abdinghof. </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Ruben: Hugo KRAMER, Abt Leonhard Ruben. Ein Lebensbild aus der Zeit der katholischen Erneuerung in Paderborn. Westfälische Zeitschrift. Zeitschrift für vaterländische Geschichte und Altertumskunde 103/104 (1954) 271–333</bibl>
+                     <bibl>Hermann-Josef SCHMALOR, Die Abdinghofer Bibliothek unter Abt Leonhard Ruben und das Paderborner Buchgewerbe um 1600. Westfälische Zeitschrift. Zeitschrift für vaterländische Geschichte und Altertumskunde 129 (1979) 193–245.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s423446" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/423446"/>
+      </surface>
+      <surface xml:id="s423447" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/423447"/>
+      </surface>
+      <surface xml:id="s423448" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/423448"/>
+      </surface>
+      <surface xml:id="s423449" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/423449"/>
+      </surface>
+   </facsimile>
+</TEI>

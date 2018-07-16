@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Briefabschrift: BP und Kapitel an Gentilotti</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">50</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres  09 Faszikel 1 Nr. 32 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Briefabschrift BP und Kapitel an Gentilotti. Zu den "Capitula" vgl. auch Karton 3 Äbte 6, Fasz. 2.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>nach 1722</date>
+                     <note>Vermutlich zeitgenössische Abschrift eines Briefs vom 1722-12-17.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu den "Capitula" des Melker Konvents: Hugo HANTSCH, Bernhard Pez und Abt Berthold Dietmayr. MIÖG 71 (1963) 128–139. Zur Auseinandersetzung zwischen BP und Gentilotti: Il carteggio erudito di Giovanni Benedetto Gentilotti d'Engelsbrunn (1672-1725), bibliotecario imperiale, in: Le carte vive. Epistolari e carteggi nel Settecento. Atti del primo Convegno internazionale di studi del Centro di Ricerca sugli Epistolari del Settecento, Verona, 4-6 dicembre 2008, hg. von Corrado VIOLA (Biblioteca del XVIII secolo 16, Roma 2011) 479-487.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Korrespondenzen</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s408616" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/408616"/>
+      </surface>
+      <surface xml:id="s408617" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/408617"/>
+      </surface>
+      <surface xml:id="s408618" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/408618"/>
+      </surface>
+      <surface xml:id="s408619" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/408619"/>
+      </surface>
+   </facsimile>
+</TEI>

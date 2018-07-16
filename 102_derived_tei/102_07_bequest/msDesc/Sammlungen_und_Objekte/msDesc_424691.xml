@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Abschrift aus einer Handschrift des Wiener Schottenklosters</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">539</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 23 Faszikel 1 Nr. 38 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Abschrift des Prologs aus Cod. 55.c.3. (Nr. 363 nach Hübl, vgl. Literaturfeld, 15. Jh.) des Wiener Schottenklosters.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Cod. 55.c.3: Albert HÜBL, Catalogus codicum manu scriptorum qui in Bibliotheca Monasterii B.M.V. ad Scotos Vindobonae servantur (Wien–Leipzig 1899</bibl>
+                     <bibl>Nachdruck Wiesbaden 1970).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s424691" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/424691"/>
+      </surface>
+      <surface xml:id="s424692" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/424692"/>
+      </surface>
+      <surface xml:id="s424693" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/424693"/>
+      </surface>
+      <surface xml:id="s424694" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/424694"/>
+      </surface>
+   </facsimile>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Abschrift: Baluze, Elogium auf Ellenbog</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">649</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 25 Faszikel 1 Nr. 45 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Abschrift eines Elogiums auf Ellenbog, zusammengestellt von Baluze aus dessen Briefen, mit dem Titel: "Nicolai Ellembogii monachi Benedictini elogium historicum". Hand Massuet. Beilage zu Brief Massuet an BP (1710-07-10).</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>1710</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Ellenbog und seinem Briefwechsel: Andreas BIGELMAIR–Franz ZOEPFL, Nikolaus Ellenbog, Briefwechsel (Corpus catholicorum. Werke katholischer Schriftsteller im Zeitalter der Glaubensspaltung 19/21, Münster 1938)</bibl>
+                     <bibl>Pirmin LINDNER, Album Ottoburanum. Die Äbte und Mönche des ehemaligen freien Reichs-Stiftes Ottobeuren, Benediktiner-Ordens in Schwaben und deren literarischer Nachlass von 764 bis zu ihrem Aussterben (1858). Zeitschrift des Historischen Vereins für Schwaben und Neuburg 30 (1903) 77–142</bibl>
+                     <bibl>31 (1904) 1–90. Zu Baluze: Jean BOUTIER, Stephanus Baluzius tutelensis. Étienne Baluze (1630–1718). Un savant tullois dans la France de Louis XIV (Tulle 2007). Zu Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s430122" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/430122"/>
+      </surface>
+      <surface xml:id="s430123" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/430123"/>
+      </surface>
+      <surface xml:id="s430124" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/430124"/>
+      </surface>
+      <surface xml:id="s430125" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/430125"/>
+      </surface>
+   </facsimile>
+</TEI>

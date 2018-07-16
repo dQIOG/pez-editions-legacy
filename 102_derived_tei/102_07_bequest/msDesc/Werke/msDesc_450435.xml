@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Cod. Mell. 28: Druckvorlagen für Bibliotheca ascetica Bd. V und Teile des Thesaurus anecdotorum novissimus Bd. I, II und III</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">737</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno>Cod. 0028 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Cod. 28 (olim 1087, 1810) besteht aus sechs Faszikeln unterschiedlicher Größe in getrennter Foliierung bzw. Paginierung, von verschiedenen Händen. Alle Texte sind Druckvorlagen für BP, Thesaurus anecdotorum novissimus 1, 2, 3 sowie für Band 5 von BP, Bibliotheca ascetica antiquo-nova. Die Blätter weisen an den Rändern Korrekturen, Ergänzungen und (deutsche) Anweisungen BPs an den Drucker in Rötelstift auf. Bei Glassner keine Nummerierung der Faszikel.</summary>
+                  <msItem n="1">
+                     <locus>14r–70v; Bl. 1–13 fehlen</locus>
+                     <bibl>
+                        <author>Richalmus de Speciosa Valle (= Richalm von Schöntal)</author> 
+                        <title>Liber revelationum</title> (Anfang fehlt, beginnt cap. VIII = Druck Sp. 394). Vorlage: <title>Codex Tegernseensis</title> (aus Pez, TA). Aktueller Bibliotheksort und Signatur: München BStB, Clm 18595, 109r–165r.</bibl>
+                  </msItem>
+                  <msItem n="2">
+                     <locus>Ir–VIv, 1r–92v</locus>
+                     <bibl>
+                        <author>Anton Volmar</author> 
+                        <title>De spirituali perfectione</title> (1617). Vorlage: <title>Codex Carthusiae Seitzensi</title> (aus Bibliotheca ascetica V, praefatio 2v).</bibl>
+                  </msItem>
+                  <msItem n="3">
+                     <locus>1r–40v</locus>
+                     <bibl>
+                        <author>Johannes von Würzburg</author> 
+                        <title>Descriptio terrae sanctae</title>. Abschrift dat. 20.3.1718 Tegernsee. Vorlage: <title>Codex Tegernseensis</title>. Aktueller Bibliotheksort und Signatur: München BStB, Clm 19418, Bearbeiter Krinner.</bibl>
+                  </msItem>
+                  <msItem n="4">
+                     <locus>p. 1–143, davor ein Titelblatt</locus>
+                     <bibl>
+                        <author>Engelbert von Admont</author> 
+                        <title>Tractatus de gratiis et virtutibus BMV</title>. Vorlage: <title>Codex Gemnicensis cum Admontensi et BMV Scotensi collato</title>. Aktuelle Bibliotheksorte und Signaturen: Admont, Cod. 181 oder 396 (Admont, Cod. 489, der diesen Text ebenfalls überliefert, ist als Vorlage nicht möglich, da er aus Seitz stammt und sich im 18. Jh. wohl noch dort befunden hat); Wien, Schottenstift 286 (Hübl 290), 139r–225v. Bearbeiter und Schreiber Wydemann.</bibl>
+                  </msItem>
+                  <msItem n="5">
+                     <locus>1r</locus>
+                     <bibl>
+                        <author>Titelblatt Thesaurus Tom. III/3. 2r–97r: Veit Arnpeck</author> (Hs. mit dem irrtümlichen Zusatz <title>prior Ebersbergensis</title>), <title>Chronica Baioariorum</title> (Hs.: <title>Chronicon Baioriae seu Bavariae</title>). Vorlage: <title>Autographon</title>. Aktueller Bibliotheksort und Signatur: München BStB, Clm 2230. Bearbeiter und Schreiber BP.</bibl>
+                  </msItem>
+                  <msItem n="6">
+                     <locus>p. 1–117</locus>
+                     <bibl>
+                        <author>Gerhoch von Reichersberg</author> 
+                        <title>Opusculum de aedificio Dei</title> (Hs.: <title>Liber de aedificio Dei seu de studio et cura disciplinae ecclesiasticae</title>). Einige Blätter an falscher Stelle und seitenverkehrt eingebunden. Vorlage: <title>Codex Benedictoburanus</title>. Aktueller Bibliotheksort und Signatur: München BStB, Clm 4556 (15. Jh.; Abschrift von Clm 5129, 12. Jh.). Bearbeiter und Schreiber Wydemann.</bibl>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>Buchdeckel vorne r–v, Nr. 1: 14r–70v, Nr. 2: Ir–VIv, 1r–92v mit Foliierungsverlauf ab 141r: 141r (=41r)–143v (=43v), 150r (=50r)–151v (=51v), 151ar (=44r)–151bv (=45v), 151cr (=47r)–151dv (=48v), 151er (=46r)–151ev (=46v), 151fr (49r)–151fv (=49v), 152r (=52r)–158v(=58v), 160r (=60r)–166v(=66v), 166ar (=59r)–166av(=59v), 167r(=67r)–192v(=92v), Nr. 3: Titelblatt r–v, 1r–40v, Nr. 4: Titelblatt r–v, 1–144, Nr. 5: 1r–44v, 46r–51v, 51ar–51av, 52r–52v, 52ar–52av, 53r–61v, 53r–75v, 75ar–75av, 76r–77v, 79r–80v, 80ar–80dv, 81r–97v, Nr. 6: Titelblatt r–v, 1–117 mit Foliierung ab 1: 1 (keine Paginierung), 2 (keine Paginierung), 3 (=62), 4 (=61), 5 (=60), 6 (=59), 7 (=58), 8 (=57), 9 (=49)–16 (=56), 17 (=5), 18 (keine Paginierung), 19 (=5)–56 (=42), 57 (=46), 58 (=45), 59 (47), 60 (=58), 61 (=43), 62 (=44), 63–118, Buchdeckel hinten r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>18. Jh.</date>
+                     <note>Laut Glassner, Neuzeitliche Handschriften (vgl. Literaturfeld) 2. Jahrzehnt 18. Jh.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Cod. 28: Christine GLASSNER, Neuzeitliche Handschriften aus dem Nachlass der Brüder Bernhard und Hieronymus Pez in der Bibliothek des Benediktinerstiftes Melk (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 372 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe IV 7, Wien 2008) [dort angeführte Literatur hier nur auszugsweise übernommen]. Zu Krinner: Pirmin LINDNER, Familia S. Quirini in Tegernsee. Die Äbte und Mönche der Benediktiner-Abtei Tegernsee von den ältesten Zeiten bis zu ihrem Aussterben (1861) und ihr literarischer Nachlass. Oberbayerisches Archiv für vaterländische Geschichte 50 (1897) 18–130</bibl>
+                     <bibl>50 Ergh. (1898) 1–318. Zu Wydemann: Thomas AIGNER, Gaming, in: Monasticon Cartusiense II, hg. von James HOGG–Alain GIRARD–Daniel LE BLÉVEC (Salzburg 2004) 82–86</bibl>
+                     <bibl>Heinrich ZEISSBERG, Zur Geschichte der Kartause Gaming. Archiv für Österreichische Geschichte 60 (1880) 562–596. Zu 1)–6): BP, Thesaurus anecdotorum novissimus, 1, 2, 3 (Augsburg 1721)</bibl>
+                     <bibl>BP, Bibliotheca ascetica antiquo-nova (12 Bde., Regensburg 1723–1740). Zu 4): Albert HÜBL, Catalogus codicum manu scriptorum, qui in bibliotheca monasterii B. M. V. ad Scotos Vindobonae servantur (Wien–Leipzig 1899).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Werke</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s450435" n="Buchdeckel vorne r">
+         <graphic url="http://unidam.univie.ac.at/id/450435"/>
+      </surface>
+      <surface xml:id="s451377" n="Nr. 6: Titelblatt r">
+         <graphic url="http://unidam.univie.ac.at/id/451377"/>
+      </surface>
+      <surface xml:id="s451378" n="Nr. 6: Titelblatt v">
+         <graphic url="http://unidam.univie.ac.at/id/451378"/>
+      </surface>
+      <surface xml:id="s451382" n="Nr. 6: 4">
+         <graphic url="http://unidam.univie.ac.at/id/451382"/>
+      </surface>
+      <surface xml:id="s451383" n="Nr. 6: 5">
+         <graphic url="http://unidam.univie.ac.at/id/451383"/>
+      </surface>
+      <surface xml:id="s451384" n="Nr. 6: 6">
+         <graphic url="http://unidam.univie.ac.at/id/451384"/>
+      </surface>
+      <surface xml:id="s451385" n="Nr. 6: 7">
+         <graphic url="http://unidam.univie.ac.at/id/451385"/>
+      </surface>
+      <surface xml:id="s451386" n="Nr. 6: 8">
+         <graphic url="http://unidam.univie.ac.at/id/451386"/>
+      </surface>
+      <surface xml:id="s451387" n="Nr. 6: 9">
+         <graphic url="http://unidam.univie.ac.at/id/451387"/>
+      </surface>
+      <surface xml:id="s451416" n="Nr. 6: 38">
+         <graphic url="http://unidam.univie.ac.at/id/451416"/>
+      </surface>
+      <surface xml:id="s451417" n="Nr. 6: 39">
+         <graphic url="http://unidam.univie.ac.at/id/451417"/>
+      </surface>
+      <surface xml:id="s451418" n="Nr. 6: 40">
+         <graphic url="http://unidam.univie.ac.at/id/451418"/>
+      </surface>
+      <surface xml:id="s451419" n="Nr. 6: 41">
+         <graphic url="http://unidam.univie.ac.at/id/451419"/>
+      </surface>
+      <surface xml:id="s451420" n="Nr. 6: 42">
+         <graphic url="http://unidam.univie.ac.at/id/451420"/>
+      </surface>
+      <surface xml:id="s451421" n="Nr. 6: 43">
+         <graphic url="http://unidam.univie.ac.at/id/451421"/>
+      </surface>
+      <surface xml:id="s451422" n="Nr. 6: 44">
+         <graphic url="http://unidam.univie.ac.at/id/451422"/>
+      </surface>
+      <surface xml:id="s451423" n="Nr. 6: 45">
+         <graphic url="http://unidam.univie.ac.at/id/451423"/>
+      </surface>
+      <surface xml:id="s451424" n="Nr. 6: 46">
+         <graphic url="http://unidam.univie.ac.at/id/451424"/>
+      </surface>
+      <surface xml:id="s451425" n="Nr. 6: 47">
+         <graphic url="http://unidam.univie.ac.at/id/451425"/>
+      </surface>
+      <surface xml:id="s451426" n="Nr. 6: 48">
+         <graphic url="http://unidam.univie.ac.at/id/451426"/>
+      </surface>
+      <surface xml:id="s451427" n="Nr. 6: 49">
+         <graphic url="http://unidam.univie.ac.at/id/451427"/>
+      </surface>
+      <surface xml:id="s451428" n="Nr. 6: 50">
+         <graphic url="http://unidam.univie.ac.at/id/451428"/>
+      </surface>
+      <surface xml:id="s451429" n="Nr. 6: 51">
+         <graphic url="http://unidam.univie.ac.at/id/451429"/>
+      </surface>
+      <surface xml:id="s451430" n="Nr. 6: 52">
+         <graphic url="http://unidam.univie.ac.at/id/451430"/>
+      </surface>
+      <surface xml:id="s451431" n="Nr. 6: 53">
+         <graphic url="http://unidam.univie.ac.at/id/451431"/>
+      </surface>
+      <surface xml:id="s451432" n="Nr. 6: 54">
+         <graphic url="http://unidam.univie.ac.at/id/451432"/>
+      </surface>
+      <surface xml:id="s451433" n="Nr. 6: 55">
+         <graphic url="http://unidam.univie.ac.at/id/451433"/>
+      </surface>
+      <surface xml:id="s451434" n="Nr. 6: 56">
+         <graphic url="http://unidam.univie.ac.at/id/451434"/>
+      </surface>
+      <surface xml:id="s451435" n="Nr. 6: 57">
+         <graphic url="http://unidam.univie.ac.at/id/451435"/>
+      </surface>
+      <surface xml:id="s451436" n="Nr. 6: 58">
+         <graphic url="http://unidam.univie.ac.at/id/451436"/>
+      </surface>
+      <surface xml:id="s451437" n="Nr. 6: 59">
+         <graphic url="http://unidam.univie.ac.at/id/451437"/>
+      </surface>
+      <surface xml:id="s451438" n="Nr. 6: 60">
+         <graphic url="http://unidam.univie.ac.at/id/451438"/>
+      </surface>
+      <surface xml:id="s451439" n="Nr. 6: 61">
+         <graphic url="http://unidam.univie.ac.at/id/451439"/>
+      </surface>
+      <surface xml:id="s451440" n="Nr. 6: 62">
+         <graphic url="http://unidam.univie.ac.at/id/451440"/>
+      </surface>
+      <surface xml:id="s451441" n="Nr. 6: 63">
+         <graphic url="http://unidam.univie.ac.at/id/451441"/>
+      </surface>
+      <surface xml:id="s451442" n="Nr. 6: 64">
+         <graphic url="http://unidam.univie.ac.at/id/451442"/>
+      </surface>
+      <surface xml:id="s451443" n="Nr. 6: 65">
+         <graphic url="http://unidam.univie.ac.at/id/451443"/>
+      </surface>
+      <surface xml:id="s451444" n="Nr. 6: 66">
+         <graphic url="http://unidam.univie.ac.at/id/451444"/>
+      </surface>
+      <surface xml:id="s451445" n="Nr. 6: 67">
+         <graphic url="http://unidam.univie.ac.at/id/451445"/>
+      </surface>
+      <surface xml:id="s451446" n="Nr. 6: 68">
+         <graphic url="http://unidam.univie.ac.at/id/451446"/>
+      </surface>
+      <surface xml:id="s451447" n="Nr. 6: 69">
+         <graphic url="http://unidam.univie.ac.at/id/451447"/>
+      </surface>
+      <surface xml:id="s451448" n="Nr. 6: 70">
+         <graphic url="http://unidam.univie.ac.at/id/451448"/>
+      </surface>
+      <surface xml:id="s451449" n="Nr. 6: 71">
+         <graphic url="http://unidam.univie.ac.at/id/451449"/>
+      </surface>
+      <surface xml:id="s451450" n="Nr. 6: 72">
+         <graphic url="http://unidam.univie.ac.at/id/451450"/>
+      </surface>
+      <surface xml:id="s451451" n="Nr. 6: 73">
+         <graphic url="http://unidam.univie.ac.at/id/451451"/>
+      </surface>
+      <surface xml:id="s451452" n="Nr. 6: 74">
+         <graphic url="http://unidam.univie.ac.at/id/451452"/>
+      </surface>
+      <surface xml:id="s451453" n="Nr. 6: 75">
+         <graphic url="http://unidam.univie.ac.at/id/451453"/>
+      </surface>
+      <surface xml:id="s451454" n="Nr. 6: 76">
+         <graphic url="http://unidam.univie.ac.at/id/451454"/>
+      </surface>
+      <surface xml:id="s451455" n="Nr. 6: 77">
+         <graphic url="http://unidam.univie.ac.at/id/451455"/>
+      </surface>
+      <surface xml:id="s451456" n="Nr. 6: 78">
+         <graphic url="http://unidam.univie.ac.at/id/451456"/>
+      </surface>
+      <surface xml:id="s451457" n="Nr. 6: 79">
+         <graphic url="http://unidam.univie.ac.at/id/451457"/>
+      </surface>
+      <surface xml:id="s451458" n="Nr. 6: 80">
+         <graphic url="http://unidam.univie.ac.at/id/451458"/>
+      </surface>
+      <surface xml:id="s451459" n="Nr. 6: 81">
+         <graphic url="http://unidam.univie.ac.at/id/451459"/>
+      </surface>
+      <surface xml:id="s451460" n="Nr. 6: 82">
+         <graphic url="http://unidam.univie.ac.at/id/451460"/>
+      </surface>
+      <surface xml:id="s451461" n="Nr. 6: 83">
+         <graphic url="http://unidam.univie.ac.at/id/451461"/>
+      </surface>
+      <surface xml:id="s451462" n="Nr. 6: 84">
+         <graphic url="http://unidam.univie.ac.at/id/451462"/>
+      </surface>
+      <surface xml:id="s451463" n="Nr. 6: 85">
+         <graphic url="http://unidam.univie.ac.at/id/451463"/>
+      </surface>
+      <surface xml:id="s451464" n="Nr. 6: 86">
+         <graphic url="http://unidam.univie.ac.at/id/451464"/>
+      </surface>
+      <surface xml:id="s451465" n="Nr. 6: 87">
+         <graphic url="http://unidam.univie.ac.at/id/451465"/>
+      </surface>
+      <surface xml:id="s451466" n="Nr. 6: 88">
+         <graphic url="http://unidam.univie.ac.at/id/451466"/>
+      </surface>
+      <surface xml:id="s451467" n="Nr. 6: 89">
+         <graphic url="http://unidam.univie.ac.at/id/451467"/>
+      </surface>
+      <surface xml:id="s451468" n="Nr. 6: 90">
+         <graphic url="http://unidam.univie.ac.at/id/451468"/>
+      </surface>
+      <surface xml:id="s451469" n="Nr. 6: 91">
+         <graphic url="http://unidam.univie.ac.at/id/451469"/>
+      </surface>
+      <surface xml:id="s451470" n="Nr. 6: 92">
+         <graphic url="http://unidam.univie.ac.at/id/451470"/>
+      </surface>
+      <surface xml:id="s451471" n="Nr. 6: 93">
+         <graphic url="http://unidam.univie.ac.at/id/451471"/>
+      </surface>
+      <surface xml:id="s451472" n="Nr. 6: 94">
+         <graphic url="http://unidam.univie.ac.at/id/451472"/>
+      </surface>
+      <surface xml:id="s451473" n="Nr. 6: 95">
+         <graphic url="http://unidam.univie.ac.at/id/451473"/>
+      </surface>
+      <surface xml:id="s451474" n="Nr. 6: 96">
+         <graphic url="http://unidam.univie.ac.at/id/451474"/>
+      </surface>
+      <surface xml:id="s451475" n="Nr. 6: 97">
+         <graphic url="http://unidam.univie.ac.at/id/451475"/>
+      </surface>
+      <surface xml:id="s451476" n="Nr. 6: 98">
+         <graphic url="http://unidam.univie.ac.at/id/451476"/>
+      </surface>
+      <surface xml:id="s451477" n="Nr. 6: 99">
+         <graphic url="http://unidam.univie.ac.at/id/451477"/>
+      </surface>
+   </facsimile>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Notizen: "De viris illustribus monasterii S. Jacobi Leodiensis"</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">63</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres  09 Faszikel 1 Nr. 45 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>"De viris illustribus monasterii S. Jacobi Leodiensis". Liste wichtiger Äbte des Benediktinerklosters St.-Jacques zu Lüttich sowie in andere Klöster als Äbte oder Prioren berufene Konventualen; Schriftsteller. Am Anfang eine Notiz zu "Gallus von Königssaal", Malogranatum liber III; am Ende eine Notiz zur "Imitatio Christi", wonach das Werk schon vor dem Datum der meist angenommenen Fertigstellung durch Thomas von Kempen 1441 existierte, wie aus zwei Handschriften der eigenen Bibliothek hervorgeht.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Äbten von St.-Jacques zu Lüttich: Ursmer BERLIÈRE, Monasticon belge, 2: Province de Liège (Liège 1962).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s409162" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/409162"/>
+      </surface>
+      <surface xml:id="s409163" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/409163"/>
+      </surface>
+      <surface xml:id="s409164" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/409164"/>
+      </surface>
+      <surface xml:id="s409165" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/409165"/>
+      </surface>
+   </facsimile>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Manuskript: Hausgeschichte von Mariahof, Äbteliste von St. Lambrecht</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">378</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 11 Faszikel 1 Nr. 62 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Hausgeschichte von Mariahof (heute im Pfarrverband mit St. Lambrecht) und Äbteliste von St. Lambrecht, Hand Mayer.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–6v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>19. Jh.</date>
+                     <note>Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert?</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu St. Lambrecht/Mariahof: Benedikt PLANK, St. Lambrecht, in: Germania Benedictina, 3/2: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2001) 318–380</bibl>
+                     <bibl>Othmar WONISCH, Versuch einer Bibliographie der Benediktinerabtei St. Lambrecht (St. Lambrecht 1916).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s419923" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/419923"/>
+      </surface>
+      <surface xml:id="s419924" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/419924"/>
+      </surface>
+      <surface xml:id="s419925" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/419925"/>
+      </surface>
+      <surface xml:id="s419926" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/419926"/>
+      </surface>
+      <surface xml:id="s419927" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/419927"/>
+      </surface>
+      <surface xml:id="s419928" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/419928"/>
+      </surface>
+      <surface xml:id="s419929" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/419929"/>
+      </surface>
+      <surface xml:id="s419930" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/419930"/>
+      </surface>
+      <surface xml:id="s419931" n="5r">
+         <graphic url="http://unidam.univie.ac.at/id/419931"/>
+      </surface>
+      <surface xml:id="s419932" n="5v">
+         <graphic url="http://unidam.univie.ac.at/id/419932"/>
+      </surface>
+      <surface xml:id="s419933" n="6r">
+         <graphic url="http://unidam.univie.ac.at/id/419933"/>
+      </surface>
+      <surface xml:id="s419934" n="6v">
+         <graphic url="http://unidam.univie.ac.at/id/419934"/>
+      </surface>
+   </facsimile>
+</TEI>

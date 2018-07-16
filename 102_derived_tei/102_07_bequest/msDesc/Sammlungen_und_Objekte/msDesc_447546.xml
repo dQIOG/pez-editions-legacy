@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Handschriftennotizen zur Dombibliothek Würzburg</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">762</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 30 Faszikel 1 Nr. 23 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Notizen zu Handschriften der Dombibliothek Würzburg mit den olim-Signaturen 74, 88, 89 und 147. Vgl. Karton 85 Varia 23, Fasz. 1, Nr. 53; Karton 85 Varia 30, Fasz. 1, Nr. 25. Im Zusammenhang mit der Korrespondenz mit Konrad Sigler 1717, verschiedene Hände, eine davon wohl Sigler selbst.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Handschriften der ehemaligen Dombibliothek Würzburg: Hans THURN, Die Handschriften der Universitätsbibliothek Würzburg, 3/1: Die Pergamenthandschriften der ehemaligen Dombibliothek (Wiesbaden 1984).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s447546" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/447546"/>
+      </surface>
+      <surface xml:id="s447547" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/447547"/>
+      </surface>
+   </facsimile>
+</TEI>

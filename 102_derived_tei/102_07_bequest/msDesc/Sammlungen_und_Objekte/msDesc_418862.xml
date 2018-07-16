@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Schriftsteller- und Handschriftenkatalog von Weihenstephan</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">322</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 11 Faszikel 1 Nr. 06 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Schriftsteller- und Handschriftenkatalog von Weihenstephan, Hand Mayer. Auszug aus dem Schriftstellerkatalog in Karton 85 Varia 23, Fasz. 1, Nr. 54.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–5v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>19. Jh.</date>
+                     <note>Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Weihenstephan: Heinrich GENTNER, Geschichte des Benedictinerklosters Weihenstephan bey Freysing. Aus Urkunden angefertiget. Beyträge zur Geschichte, Topographie und Statistik des Erzbisthums München und Freysing 6 (1854) 1–350. Zu Handschriften Weihenstephans: Karl HALM–Friedrich KEINZ–Wilhelm MEYER–Georg THOMAS, Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis, 4/4: Catalogus codicum Latinorum Bibliothecae Regiae Monacensis. Secundum Andreae Schmelleri Indices, 2/4: Codices num. 21406–27268 complectens (München 1881).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s418862" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/418862"/>
+      </surface>
+      <surface xml:id="s418863" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/418863"/>
+      </surface>
+      <surface xml:id="s418864" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/418864"/>
+      </surface>
+      <surface xml:id="s418865" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/418865"/>
+      </surface>
+      <surface xml:id="s418866" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/418866"/>
+      </surface>
+      <surface xml:id="s418867" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/418867"/>
+      </surface>
+      <surface xml:id="s418868" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/418868"/>
+      </surface>
+      <surface xml:id="s418869" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/418869"/>
+      </surface>
+      <surface xml:id="s418870" n="5r">
+         <graphic url="http://unidam.univie.ac.at/id/418870"/>
+      </surface>
+      <surface xml:id="s418871" n="5v">
+         <graphic url="http://unidam.univie.ac.at/id/418871"/>
+      </surface>
+   </facsimile>
+</TEI>

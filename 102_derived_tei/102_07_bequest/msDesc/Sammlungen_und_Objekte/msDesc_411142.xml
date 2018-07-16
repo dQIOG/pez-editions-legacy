@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Notizen: "Catalogi"</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">151</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres  09 Faszikel 2 Nr. 51 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>"Catalogi". Übersicht über 31 nach Melk gesandte Schriftstellerkataloge. </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–3v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>um 1900</date>
+                     <note>Im Zusammenhang mit der Pez-Forschung um 1900.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Katschthaler: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1889)</bibl>
+                     <bibl>Directorium officii divini Benedictino Mellicense (Melk 1922–1947)</bibl>
+                     <bibl>900 Jahre Benediktiner in Melk. Jubiläumsausstellung 1989, Stift Melk, hg. von Ernst BRUCKMÜLLER–Burkhard ELLEGAST–Erwin ROTTER (Melk 1989).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s411142" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/411142"/>
+      </surface>
+      <surface xml:id="s411143" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/411143"/>
+      </surface>
+      <surface xml:id="s411144" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/411144"/>
+      </surface>
+      <surface xml:id="s411145" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/411145"/>
+      </surface>
+      <surface xml:id="s411146" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/411146"/>
+      </surface>
+      <surface xml:id="s411147" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/411147"/>
+      </surface>
+   </facsimile>
+</TEI>

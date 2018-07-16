@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Manuskript: Reliquienverzeichnis von St. Veit zu Gladbach</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">490</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 22 Faszikel 3 Nr. 05 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>"Specificatio sacrarum reliquiarum in monasterio S. Viti in Gladbach". Dieses Reliquienverzeichnis von Mönchengladbach ist ein Auszug aus der Gladbacher Chronik "Liber de fundatione" von Knor und Beilage zu Buchels an BP (1717-08-26). Buchels hat im Juli 1717 Gladbach besucht, dessen Abt Knor BP eine Beilage zusenden lässt, die eine Liste der Reliquien in der Klosterkirche enthält. </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>1717</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Gladbach: Hans BANGE–Wolfgang LÖHR, Gladbach, in: Germania Benedictina, 8: Die Benediktinerklöster in Nordrhein-Westfalen, hg. von Rhaban HAACKE (St. Ottilien 1980) 323–351. Zu den Reliquien: Natalie Alexandra HOLTSCHOPPEN, Zur Gründungsgeschichte des Klosters St. Vitus in Mönchengladbach. Die Necrologeinträge für die Gründer Baldricus, Gero und Sandrad, in: Mittelalter an Rhein und Maas. Beiträge zur Geschichte des Niederrheins, hg. von Uwe LUDWIG–Thomas SCHILP (Studien zur Geschichte und Kultur Nordwesteuropas 8, Münster 2004) 69–85. Zum Reliquienverzeichnis: Peter ROPERTZ, Quellen und Beiträge zur Geschichte der Benediktiner-Abtei des hl. Vitus in M. Gladbach (Bonn 1877).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s423394" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/423394"/>
+      </surface>
+      <surface xml:id="s423395" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/423395"/>
+      </surface>
+      <surface xml:id="s423396" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/423396"/>
+      </surface>
+      <surface xml:id="s423397" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/423397"/>
+      </surface>
+      <surface xml:id="s423398" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/423398"/>
+      </surface>
+      <surface xml:id="s423399" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/423399"/>
+      </surface>
+      <surface xml:id="s423400" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/423400"/>
+      </surface>
+      <surface xml:id="s423401" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/423401"/>
+      </surface>
+   </facsimile>
+</TEI>

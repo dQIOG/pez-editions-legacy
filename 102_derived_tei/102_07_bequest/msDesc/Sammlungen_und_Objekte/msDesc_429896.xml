@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Schriftstellerkatalog von S. Simpliciano zu Mailand</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">642</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 25 Faszikel 1 Nr. 38 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Schriftstellerkatalog von S. Simpliciano zu Mailand, ausführlich zu Omodeo. Stück wohl keine Beilage zu einem schon identifizierten Brief an BP, da Brief Omodeo an BP (1710-05-14) einen anderen Schriftstellerkatalog als Beilage hat, zu diesem vgl. Karton 7 Patres 6, Fasz. 1, 306r–307v.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu den Schriftstellern: Arcangelo BOSSI, Matricula monachorum Congregationis Casinensis Ordinis S. Benedicti, 1: 1409–1699, hg. von Leandro NOVELLI–Giovanni SPINELLI (Pubblicazioni del Centro Storico Benedettino Italiano 3, Cesena 1983). Zu Brief von 1710: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s429896" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/429896"/>
+      </surface>
+      <surface xml:id="s429897" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/429897"/>
+      </surface>
+      <surface xml:id="s429898" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/429898"/>
+      </surface>
+      <surface xml:id="s429899" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/429899"/>
+      </surface>
+      <surface xml:id="s429900" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/429900"/>
+      </surface>
+      <surface xml:id="s429901" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/429901"/>
+      </surface>
+      <surface xml:id="s429902" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/429902"/>
+      </surface>
+      <surface xml:id="s429903" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/429903"/>
+      </surface>
+   </facsimile>
+</TEI>

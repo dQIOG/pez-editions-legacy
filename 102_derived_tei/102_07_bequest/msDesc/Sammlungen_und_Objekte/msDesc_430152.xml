@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Schriftstellerkatalog von Rott am Inn</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">653</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 25 Faszikel 1 Nr. 49 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Schriftstellerkatalog von Rott am Inn, Hand Dullinger. Beilage zu Brief Dullinger an BP (1716-02-06). Am Ende kurze Informationen zur Klostergeschichte.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>1716</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Schriftstellern: Martin RUF, Professbuch des Benediktinerstiftes Rott am Inn (SMGB Erg.bd. 32, St. Ottilien 1991). Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s430152" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/430152"/>
+      </surface>
+      <surface xml:id="s430153" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/430153"/>
+      </surface>
+      <surface xml:id="s430154" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/430154"/>
+      </surface>
+      <surface xml:id="s430155" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/430155"/>
+      </surface>
+      <surface xml:id="s430156" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/430156"/>
+      </surface>
+      <surface xml:id="s430157" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/430157"/>
+      </surface>
+      <surface xml:id="s430158" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/430158"/>
+      </surface>
+      <surface xml:id="s430159" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/430159"/>
+      </surface>
+   </facsimile>
+</TEI>

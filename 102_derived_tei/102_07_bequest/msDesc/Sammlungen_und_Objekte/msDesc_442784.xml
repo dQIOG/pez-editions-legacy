@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Bio-bibliographische Notizen zu Frowin von Engelberg</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">722</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 26 Faszikel 1 Nr. 01 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Bio-bibliographische Notizen zu Abt Frowin von Engelberg. Es ist unklar, ob das hier vorliegende Stück mit der im Brief Hueber an BP (1718-01-24) erwähnten "Epitome vitae beati Frowini" zu identifizieren ist.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–3v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Frowin von Engelberg: Othmar BAUER, Frowin von Engelberg (1147–1178), De laude liberi arbitrii libri VII. Ms 46 von Engelberg, Schweiz. Recherches de théologie ancienne et médiévale 15 (1948) 27–75, 269–303</bibl>
+                     <bibl>Benedikt GOTTWALD, Album Engelbergense seu Catalogus religiosorum O. S. B. exempti monasterii B. V. M. in Monte Angelorum vulgo Engelberg in Helvetia circa annum post Christum natum 1082 fundati (Luzern 1882). Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s442784" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/442784"/>
+      </surface>
+      <surface xml:id="s442785" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/442785"/>
+      </surface>
+      <surface xml:id="s442786" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/442786"/>
+      </surface>
+      <surface xml:id="s442787" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/442787"/>
+      </surface>
+      <surface xml:id="s442788" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/442788"/>
+      </surface>
+      <surface xml:id="s442789" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/442789"/>
+      </surface>
+   </facsimile>
+</TEI>

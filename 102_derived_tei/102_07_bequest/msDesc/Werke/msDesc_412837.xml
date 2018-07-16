@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Bio-bibliographische Notizen: BP zu benediktinischen Schriftstellern </title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">209</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 10 Faszikel 3 Nr. 12 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Bio-bibliographische Notizen BPs zu benediktinischen Schriftstellern, u.a. aus Melchior GOLDAST, Alamannicarum rerum scriptores (3 Bde., Frankfurt 1606). Im rechten oberen Eck Nummerierung "44", wohl unvollständig.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>vor 1735</date>
+                     <note>BP ist 1735 gestorben.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Ekkehard: Ekkehard V., in: Wetzer und Welte's Kirchenlexikon, 4: Duisburger Universität–Fusswaschung, begr. von Heinrich Josef WETZER (Freiburg i. Br. 1886). Zu Scheyern: Anselm REICHHOLD, Chronik von Scheyern. Von den ersten Anfängen bis zur Gegenwart (Weißenhorn 1998). Zu Scheckmann: Christian Gottlieb JÖCHER, Allgemeines Gelehrtenlexicon, 4 (Leipzig 1751).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Werke</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s412837" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/412837"/>
+      </surface>
+      <surface xml:id="s412838" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/412838"/>
+      </surface>
+      <surface xml:id="s412839" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/412839"/>
+      </surface>
+      <surface xml:id="s412840" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/412840"/>
+      </surface>
+   </facsimile>
+</TEI>

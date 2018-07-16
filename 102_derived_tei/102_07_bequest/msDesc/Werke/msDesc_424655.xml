@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Handschriftennotizen zur Bibliotheca Colbertina</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">537</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 23 Faszikel 1 Nr. 36 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Handschriftennotizen zur Bibliotheca Colbertina (nach Jean-Baptiste Colbert) aus Bibliotheca Colbertina, seu Catalogus librorum Bibliothecae quae fuit primum J. B. Colbert Regni administri (Vol. 1–3, Paris 1728), Hand BP. Mit Anmerkungen Mayers.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>nach 1728</date>
+                     <note>Die Bibliotheca Colbertina wurde 1728 versteigert, zu diesem Anlass wurde wohl der Katalog (vgl. Beschreibungsfeld) angelegt. Das Stück steht möglicherweise in Zusammenhang mit BPs Paris-Aufenthalt 1728.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Colbert und seiner Bibliothek: Jacob SOLL, The information master: Jean-Baptiste Colbert’s secret state intelligence system (Cultures of knowledge in the early modern world, Ann Arbor 2009). Zu Mayer: Zu Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855)</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Werke</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s424655" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/424655"/>
+      </surface>
+      <surface xml:id="s424656" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/424656"/>
+      </surface>
+      <surface xml:id="s424657" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/424657"/>
+      </surface>
+      <surface xml:id="s424658" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/424658"/>
+      </surface>
+   </facsimile>
+</TEI>

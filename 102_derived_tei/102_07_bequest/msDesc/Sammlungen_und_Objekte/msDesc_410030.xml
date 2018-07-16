@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Manuskript: Wydemann zur Autorschaft von "De imitatione Christi"</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">78</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres  09 Faszikel 1 Nr. 60 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Fragment eines Traktates über die Autorschaft von "De imitatione Christi" von der Hand Wydemanns, die er einem Kartäuser (einem so genannten Ludolf von Sachsen) zuschreiben möchte. Bezieht sich eingehend auf die verschiedenen Codices, die von den Maurinern zur Beurteilung vorgelegt wurden. Am Schluß mehr als eine Seite gestrichen mit dem Vermerk "Observatio sequitur". Stück wohl in inhaltlichem Zusammenhang mit Karton 7 Patres 9, Fasz. 1, Nr. 61. Fortsetzung von Text in Karton 7 Patres 7, Faszikel 2, fol. 4r–7v.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>ab 1719</date>
+                     <note>Das Thema "De imitatione Christi" taucht in den Briefen Wydemanns an BP ab 1719 auf.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Briefen: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. Zur Diskussion um die Autorschaft von "De imitatione Christi" zwischen Melk und Gaming: Patrick FISKA, Zu Leben und Werk des Melker Benediktiners Anselm Schramb (1658–1720). Mit einer Edition seiner Briefkorrespondenz. SMBG 122 (2011) 201–306</bibl>
+                     <bibl>Thomas WALLNIG, Gasthaus und Gelehrsamkeit. Studien zu Herkunft und Bildungsweg von Bernhard Pez OSB vor 1709 (VIÖG 48, Wien–München 2007).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s410030" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/410030"/>
+      </surface>
+      <surface xml:id="s410031" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/410031"/>
+      </surface>
+      <surface xml:id="s410032" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/410032"/>
+      </surface>
+      <surface xml:id="s410033" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/410033"/>
+      </surface>
+      <surface xml:id="s410034" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/410034"/>
+      </surface>
+      <surface xml:id="s410035" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/410035"/>
+      </surface>
+      <surface xml:id="s410036" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/410036"/>
+      </surface>
+      <surface xml:id="s410037" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/410037"/>
+      </surface>
+   </facsimile>
+</TEI>

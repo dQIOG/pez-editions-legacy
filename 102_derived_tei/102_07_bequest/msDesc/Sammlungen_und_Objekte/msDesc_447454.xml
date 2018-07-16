@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Exzerpt aus Kircher, Oedipus Aegyptiacus</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">755</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 30 Faszikel 1 Nr. 16 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Exzerpt aus Athanasius KIRCHER, Oedipus Aegyptiacus (3 Bde., Rom 1652–1655), beinhaltet die Inhaltsverzeichnisse ("synopsis") zu Tom. I–III, ohne Seitenangaben.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s447454" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/447454"/>
+      </surface>
+      <surface xml:id="s447455" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/447455"/>
+      </surface>
+      <surface xml:id="s447456" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/447456"/>
+      </surface>
+      <surface xml:id="s447457" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/447457"/>
+      </surface>
+      <surface xml:id="s447458" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/447458"/>
+      </surface>
+      <surface xml:id="s447459" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/447459"/>
+      </surface>
+      <surface xml:id="s447460" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/447460"/>
+      </surface>
+      <surface xml:id="s447461" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/447461"/>
+      </surface>
+   </facsimile>
+</TEI>

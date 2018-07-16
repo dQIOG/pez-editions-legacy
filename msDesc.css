@@ -17,5 +17,41 @@ facsimile surface {
 }
 
 foliation:before {
-    content: "Foliierungsverlauf";
+    content: "Foliierungsverlauf: ";
+}
+
+additional > listBibl:before {
+    content: "Literatur: ";
+}
+
+msDesc {
+    color: black;
+}
+
+msDesc > msIdentifier:before {
+    content: "Verzeichnungseinheit: ";
+}
+
+msDesc > msIdentifier > *:after {
+    content: " > ";
+}
+
+msDesc > msIdentifier > idno:after {
+    content: ""!important;
+}
+
+summary:before {
+    content: "Inhalt: ";
+}
+
+origin > date:before {
+    content: "Datierung: ";
+}
+
+origin > note:before {
+    content: "Zur Datierung: ";
+}
+
+classCode:before {
+    content: "RNA-Klassifizierung: ";
 }

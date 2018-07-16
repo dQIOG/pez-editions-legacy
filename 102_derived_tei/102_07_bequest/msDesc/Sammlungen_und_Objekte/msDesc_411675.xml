@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Briefabschriften: Gerberon an Ludwig XIV (?) </title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">187</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres  09 Faszikel 2 Nr. 87 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Undatierte Briefabschriften Gerberon (wohl) an Ludwig XIV. Zwei Abschriften desselben Briefes.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>18. Jh.</date>
+                     <note>Wohl zeitgenössische Abschriften.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Maurinern: Yves CHAUSSY, Matricula Monachorum Professorum Congregationis S. Mauri in Gallia Ordinis Sancti Patris Benedicti (Bibliothèque d’histoire et d’archéologie chrétiennes, Paris 1959)</bibl>
+                     <bibl>Dom Martène. Histoire de la congrégation de Saint-Maur, hg. von Gaston CHARVIN (Archives de la France monastique 31–35, 42–43, 46–48, 10 Bde., Ligugé–Paris 1928–1954).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s411675" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/411675"/>
+      </surface>
+      <surface xml:id="s411676" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/411676"/>
+      </surface>
+      <surface xml:id="s411677" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/411677"/>
+      </surface>
+      <surface xml:id="s411678" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/411678"/>
+      </surface>
+   </facsimile>
+</TEI>

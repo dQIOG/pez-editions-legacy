@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Werkskatalog des Trithemius</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">574</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 23 Faszikel 2 Nr. 16 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Werkskatalog des Trithemius mit Anmerkungen am rechten Rand, ob in der Bibliothek des Verfassers vorhanden oder nicht ("non habemus"). Vgl. selben Katalog von der selben Hand, aber unvollständig, in Karton 85 Varia 23, Fasz. 2, Nr. 20.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Trithemius: Klaus ARNOLD, Johannes Trithemius (1462–1516) (Quellen und Forschungen zur Geschichte des Bistums und Hochstifts Würzburg 23, Würzburg 1991)</bibl>
+                     <bibl>Ivo FISCHER, Der Nachlaß des Abtes Johannes Trithemius von St. Jakob in Würzburg. Archiv des Historischen Vereins von Unterfranken und Aschaffenburg 67 (1928) 41–82.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s425633" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/425633"/>
+      </surface>
+      <surface xml:id="s425634" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/425634"/>
+      </surface>
+      <surface xml:id="s425635" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/425635"/>
+      </surface>
+      <surface xml:id="s425636" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/425636"/>
+      </surface>
+      <surface xml:id="s425637" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/425637"/>
+      </surface>
+      <surface xml:id="s425638" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/425638"/>
+      </surface>
+      <surface xml:id="s425639" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/425639"/>
+      </surface>
+      <surface xml:id="s425640" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/425640"/>
+      </surface>
+   </facsimile>
+</TEI>

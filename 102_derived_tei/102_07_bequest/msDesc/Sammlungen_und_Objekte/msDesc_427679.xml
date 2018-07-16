@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Katalog von Benediktinerklöstern in Deutschland, Österreich, Belgien und Frankreich; Bio-bibliographische Notizen zu Metzler und Kisel</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">599</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 24 Faszikel 2 Nr. 12 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Katalog von Benediktinerklöstern in Deutschland, Österreich, Belgien und Frankreich (darunter u.a. Göttweig, Garsten, Admont, Banz, Rott am Inn, Scheyern, Achin bei Douai, Ettal), die im 11. und 12. Jahrhundert gegründet oder dem Benediktinerorden übertragen worden sind. Danach bio-bibliographische Notizen zu Metzler und Kisel. </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>nach 1677</date>
+                     <note>Das genannte Werk von Kisel datiert 1677.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Metzler: Pirmin LINDNER, Fünf Professbücher süddeutscher Benediktiner-Abteien. Beiträge zu einem Monasticon-benedictinum Germaniae, 3: Professbuch der Benediktiner-Abtei Zwiefalten (Kempten–München 1910). Zu Kisel: Carlos SOMMERVOGEL, Bibliothèque de la Compagnie de Jésus. Nouvelle édition (11 Bde., Bruxelles–Paris 1890–1932).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s427679" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/427679"/>
+      </surface>
+      <surface xml:id="s427680" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/427680"/>
+      </surface>
+      <surface xml:id="s427681" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/427681"/>
+      </surface>
+      <surface xml:id="s427682" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/427682"/>
+      </surface>
+   </facsimile>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief: Angehrn (?) an Besange</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">346</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 11 Faszikel 1 Nr. 30 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Brief Beda (Angehrn?) an Besange in Kremsmünster, in griechischer Sprache. Aufgrund des Briefinhalts (Beda schreibt z.B. dass er sich über ein Wiedersehen freuen würde und er nennt Besange seinen Lehrer der griechischen Sprache) liegt die Vermutung nahe, dass sich die Briefpartner Beda und Besange persönlich gekannt haben. Ersterer befand sich im November 1746 in Melk, wie er im Brief schreibt. In den Melker Prioratsephemeriden (durchgesehen wurde der Zeitraum von September bis Ende November 1746, da Beda im Brief schreibt, dass er am 22. September von "seiner Stadt" aufgebrochen ist) findet sich jedoch kein Hinweis auf einen Beda. Aufgrund der ähnlichen Lebensläufe (Angehrn (*1725) und Besange (*1726) haben beide 1744 Profess abgelegt, Angehrn in St. Gallen, Besange in Kremsmünster; Angehrn wurde 1749 zum Priester geweiht, Besange 1750) liegt eine Identifizierung mit Beda Angehrn (Abt von St. Gallen 1767–1796) nahe. Auch das stellenweise recht elementare Griechisch könnte auf einen eher jungen Mönch (Angehrn wäre zum Zeitpunkt des Briefes im 21. Lebensjahr gewesen) hindeuten. Ein Verwandter Beda Angehrns war Abt Benedikt Maria Angehrn von Neresheim.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>1746-11</date>
+                     <note>Datumsangabe nach dem attischen Kalender, entweder 21. oder 22. November.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Besange: Altman KELLNER, Professbuch des Stiftes Kremsmünster (Kremsmünster 1968)</bibl>
+                     <bibl>Justus SCHMIDT, Linzer Kunstchronik, 2: Die Dichter, Schriftsteller und Gelehrten (Sonderpublikationen zur Linzer Stadtgeschichte, Linz 1951). Zu Angehrn: Johannes DUFT–Anton GÖSSI–Werner VOGLER, St. Gallen, in: Helvetia Sacra, Abt. III: Die Orden mit Benediktinerregel, 1: Frühe Klöster, die Benediktiner und Benediktinerinnen in der Schweiz, hg. von Elsanne GILOMEN-SCHENKEL, Teil 2 (Bern 1986) 1180–1369</bibl>
+                     <bibl>Rudolf HENGGELER, Monasticon-Benedictinum Helvetiae, 1: Profeßbuch der fürstlichen Benediktinerabtei der Heiligen Gallus und Otmar zu St. Gallen (Zug o.J. [1929]). Zu den Melker Prioratsephemeriden: Stabilitas loci und vita activa. Die Mobilität der Konventualen des barocken Benediktinerstiftes Melk anhand der Prioratsephemeriden, in: Leben und Alltag in böhmisch-mährischen und niederösterreichischen Klöstern in Spätmittelalter und Neuzeit. Referate der gleichnamigen Tagung in Brno vom 28. bis 29. Oktober 2008, hg. von Heidemarie SPECHT–Tomáš CERNUŠÁK (Monastica Historia 1, St. Pölten–Brno 2011) 245–265. Zu Benedikt Maria Angehrn: Ulrich L. LEHNER, Enlightened Monks. The German Benedictines 1740–1803 (Oxford et al. 2011).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s419012" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/419012"/>
+      </surface>
+      <surface xml:id="s419013" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/419013"/>
+      </surface>
+      <surface xml:id="s419014" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/419014"/>
+      </surface>
+      <surface xml:id="s419015" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/419015"/>
+      </surface>
+   </facsimile>
+</TEI>

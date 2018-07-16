@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Französisches Briefkonzept von BP</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">561</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 23 Faszikel 2 Nr. 03 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Fragment eines undatierten, französischen Briefkonzeptes von BP, ohne namentliche Anrede und behandelte Personen. Vielleicht aus 1728?</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu BP und Kontakt zu Maurinern in Frankreich: Thomas WALLNIG, Bernhard Pez und die Mauriner. Die Entstehung eines gelehrten Kontaktes im Spannungsfeld zwischen Vorbildhaftigkeit und Anregung, in: Érudition et commerce épistolaire. Jean Mabillon et la tradition monastique, hg. von Daniel-Odon HUREL (Textes et traditions 6, Paris 2003) 153–175.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Werke</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s425268" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/425268"/>
+      </surface>
+      <surface xml:id="s425269" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/425269"/>
+      </surface>
+   </facsimile>
+</TEI>

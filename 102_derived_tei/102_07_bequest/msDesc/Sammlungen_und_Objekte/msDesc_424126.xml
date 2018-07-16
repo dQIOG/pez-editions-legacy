@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Schriftstellerkatalog von Groß St. Martin zu Köln</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">511</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 23 Faszikel 1 Nr. 10 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Katalog von Schriftstellern des 15. Jahrhunderts unter Abt Meyer im Kloster Groß St. Martin zu Köln. Am Ende wohl unvollständig.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Schriftstellern: Elke-Ursel HAMMER, Monastische Reform zwischen Person und Institution. Zum Wirken des Abtes Adam Meyer von Groß St. Martin in Köln (1454–1499) (Veröffentlichungen des Max-Planck-Instituts für Geschichte 165, Göttingen 2001).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s424126" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/424126"/>
+      </surface>
+      <surface xml:id="s424127" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/424127"/>
+      </surface>
+      <surface xml:id="s424128" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/424128"/>
+      </surface>
+      <surface xml:id="s424129" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/424129"/>
+      </surface>
+      <surface xml:id="s424130" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/424130"/>
+      </surface>
+      <surface xml:id="s424131" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/424131"/>
+      </surface>
+      <surface xml:id="s424132" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/424132"/>
+      </surface>
+      <surface xml:id="s424133" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/424133"/>
+      </surface>
+   </facsimile>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief: Herrgott an HP</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">145</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres  09 Faszikel 2 Nr. 44 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Brief Herrgott an HP (1740-08-17), Original.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>1740-08-17</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Herrgott: Josef Peter ORTNER, Marquard Herrgott (1694–1762). Sein Leben und Wirken als Historiker und Diplomat (Veröffentlichungen der Kommission für Geschichte Österreichs 5 = Schriften des DDr. Franz Josef Mayer-Gunthof-Fonds 8, Wien–München 1972). Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Korrespondenzen</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s411095" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/411095"/>
+      </surface>
+      <surface xml:id="s411096" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/411096"/>
+      </surface>
+      <surface xml:id="s411097" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/411097"/>
+      </surface>
+      <surface xml:id="s411098" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/411098"/>
+      </surface>
+   </facsimile>
+</TEI>

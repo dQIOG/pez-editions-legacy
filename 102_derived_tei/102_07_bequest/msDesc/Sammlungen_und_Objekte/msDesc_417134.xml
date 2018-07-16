@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Bio-bibliographische Notizen zu Stengel</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">296</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 10 Faszikel 8 Nr. 35 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Bio-bibliographische Notizen zu Stengel. Vgl. auch Notizen zu seiner Person in Karton 7 Patres 10, Fasz. 3, Nr. 43.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Stengel: Pirmin LINDNER, Memoriale San-Ulricanum sive Compendium vitae et mortis Religiosorum Ord. S. Benedicti liberi et imperialis monasterii ad S. S. Udalricum et Afram Augustae Vindel., qui ab a. 1610–1857 pie in domino obierunt, additis eorum laboribus litterariis. Diöcesanarchiv von Schwaben 8 (1891) 5–6, 9–10, 17–18, 30–32, 37–38, 41–42, 54–56, 59–60</bibl>
+                     <bibl>15 (1897) 161–164, 185–188</bibl>
+                     <bibl>16 (1898) 13–16, 25–28, 42–44.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s417134" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/417134"/>
+      </surface>
+      <surface xml:id="s417135" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/417135"/>
+      </surface>
+   </facsimile>
+</TEI>

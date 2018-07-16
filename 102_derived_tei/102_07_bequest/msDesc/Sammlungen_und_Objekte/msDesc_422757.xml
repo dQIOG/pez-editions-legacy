@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Bibliographische Notizen zu Bucelin</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">467</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 22 Faszikel 2 Nr. 02 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Bibliographische Notizen zu Bucelin. </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Bucelin: Claudia Maria NEESEN, Gabriel Bucelin OSB (1599–1681). Leben und historiographisches Werk (Stuttgarter historische Studien zur Landes- und Wirtschaftsgeschichte 3, Ostfildern 2003)</bibl>
+                     <bibl>Thomas STUMP, Pater Gabriel Bucelin, 1599–1681, in: Festschrift zur 900-Jahr-Feier des Klosters 1056–1956. Ein Beitrag zur Geistes- und Gütergeschichte der Abtei, hg. von Gebhard SPAHR (Weingarten 1956) 370–395</bibl>
+                     <bibl>Alfons M. ZIMMERMANN, P. Gabriel Bucelin als Hagiograph des Benediktinerordens, in: Festschrift zur 900-Jahr-Feier des Klosters 1056–1956. Ein Beitrag zur Geistes- und Gütergeschichte der Abtei, hg. von Gebhard SPAHR (Weingarten 1956) 396–400.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s422757" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/422757"/>
+      </surface>
+      <surface xml:id="s422758" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/422758"/>
+      </surface>
+   </facsimile>
+</TEI>

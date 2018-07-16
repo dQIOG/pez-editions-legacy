@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Exzerpt, Handschriftenkatalog von St. Emmeram zu Regensburg</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">747</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 30 Faszikel 1 Nr. 08 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Exzerpt aus dem Handschriftenkatalog von St. Emmeram zu Regensburg, Hand BP. Der Katalog wurde 1500 von Menger verfasst (= heute BStB München, Clm 14675). Vgl. 1. Teil des Katalogs in Karton 85 Varia 23, Fasz. 1, Nr. 35.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>9–14.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Menger und seinem Katalog: Bernhard BISCHOFF, Mittelalterliche Studien. Ausgewählte Aufsätze zur Schriftkunde und Literaturgeschichte (3 Bde., Stuttgart 1966–1981). Zu Clm 14675: Karl HALM–Georg von LAUBMANN–Wilhelm MEYER, Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis, 4/2: Catalogus codicum Latinorum Bibliothecae Regiae Monacensis. Secundum Andreae Schmelleri Indices, 2/2: Codices latinos (Clm) 11001–15028 complectens (München 1876).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Werke</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s447202" n="9">
+         <graphic url="http://unidam.univie.ac.at/id/447202"/>
+      </surface>
+      <surface xml:id="s447203" n="10">
+         <graphic url="http://unidam.univie.ac.at/id/447203"/>
+      </surface>
+      <surface xml:id="s447204" n="11">
+         <graphic url="http://unidam.univie.ac.at/id/447204"/>
+      </surface>
+      <surface xml:id="s447205" n="12">
+         <graphic url="http://unidam.univie.ac.at/id/447205"/>
+      </surface>
+      <surface xml:id="s447206" n="13">
+         <graphic url="http://unidam.univie.ac.at/id/447206"/>
+      </surface>
+      <surface xml:id="s447207" n="14">
+         <graphic url="http://unidam.univie.ac.at/id/447207"/>
+      </surface>
+   </facsimile>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Abschrift der Kapitelüberschriften von Trithemius, De viris illustribus ordinis sancti Benedicti</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">573</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 23 Faszikel 2 Nr. 15 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Abschrift der Kapitelüberschriften des zweiten Buches von Johannes TRITHEMIUS, De viris illustribus ordinis sancti Benedicti (Köln 1575), beginnt mit Hl. Benedikt (Kap. 1) und endet mit Nikolaus Donis (Kap. 143).</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Schriftstellerkatalog: Klaus ARNOLD, De viris illustribus. Aus den Anfängen der humanistischen Literaturgeschichtsschreibung: Johannes Trithemius und andere Schriftstellerkataloge des 15. Jahrhunderts. Humanistica Lovaniensia 42 (1993) 52–70. Zu Trithemius: Klaus ARNOLD, Johannes Trithemius (1462–1516) (Quellen und Forschungen zur Geschichte des Bistums und Hochstifts Würzburg 23, Würzburg 1991).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s425629" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/425629"/>
+      </surface>
+      <surface xml:id="s425630" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/425630"/>
+      </surface>
+      <surface xml:id="s425631" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/425631"/>
+      </surface>
+      <surface xml:id="s425632" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/425632"/>
+      </surface>
+   </facsimile>
+</TEI>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Bio-bibliographische Notiz zu Petrus von Rosenheim</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">331</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 11 Faszikel 1 Nr. 15 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Bio-bibliographische Notiz zu Petrus von Rosenheim, Hand Mayer. </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>19. Jh.</date>
+                     <note>Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Petrus von Rosenheim und Melk: Meta NIEDERKORN-BRUCK, Die Melker Reform im Spiegel der Visitationen (Mitteilungen des Instituts für Österreichische Geschichtsforschung Erg.bd. 30, Wien–München 1994)</bibl>
+                     <bibl>Hellmut ROSENFELD, Petrus von Rosenheim, in: Die deutsche Literatur des Mittelalters. Verfasserlexikon, 7, hg. von Kurt RUH et al. (Berlin–New York 1989) col. 518–521.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s418929" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/418929"/>
+      </surface>
+      <surface xml:id="s418930" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/418930"/>
+      </surface>
+   </facsimile>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Urkundenabschriften im Zusammenhang mit Tegernsee</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">527</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 23 Faszikel 1 Nr. 26 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Urkundenabschriften (1297; Dekret Rudolf und Ludwig von Bayern 1313; Gesellenbrief für Franz Oswald 1407; Privileg Papst Julius II. für Tegernsee unter Abt Maurus Leyrer 1512) in Zusammenhang mit Tegernsee, am Beginn und am Ende unvollständig.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Tegernsee: Pirmin LINDNER, Historia monasterii Tegernseensis. Beiträge zur Geschichte, Topographie und Statistik des Erzbistums München und Freising 7 (1901) 179–258</bibl>
+                     <bibl>8 (1903) 78–286.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s424502" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/424502"/>
+      </surface>
+      <surface xml:id="s424503" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/424503"/>
+      </surface>
+      <surface xml:id="s424504" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/424504"/>
+      </surface>
+      <surface xml:id="s424505" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/424505"/>
+      </surface>
+      <surface xml:id="s424506" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/424506"/>
+      </surface>
+      <surface xml:id="s424507" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/424507"/>
+      </surface>
+      <surface xml:id="s424508" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/424508"/>
+      </surface>
+      <surface xml:id="s424509" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/424509"/>
+      </surface>
+   </facsimile>
+</TEI>

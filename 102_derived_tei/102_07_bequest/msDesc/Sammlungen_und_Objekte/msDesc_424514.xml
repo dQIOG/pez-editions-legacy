@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Biographische Notizen zu Aindorffer</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">529</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 23 Faszikel 1 Nr. 28 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Fragment mit biographischen Notizen zu Abt Aindorffer von Tegernsee, Hand Hueber. Am Anfang und Ende unvollständig, nur S. 49 und 50 vorhanden. Es handelt sich bei dem Stück wohl um eine Abschrift aus einer Tegernseer Handschrift mit dem Titel "Historia S. Quirini Regis et Martyris" (= Cod. 2301). </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Aindorffer: Joachim ANGERER, Die Bräuche der Abtei Tegernsee unter Abt Kaspar Ayndorffer (1426–1461), verbunden mit einer textkritischen Edition der Consuetudines Tegernseenses (Studien und Mitteilungen zur Geschichte des Benediktiner-Ordens und seiner Zweige Erg.bd. 18, Ottobeuren–Augsburg 1968). Zur "Historia" und zu Cod. 2301: Karl HALM–Georg von LAUBMANN–Wilhelm MEYER, Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis, 3/1: Codices latinos continens. Editio altera, 1/1: Codices num. 1–2329 complectens (München 1892)</bibl>
+                     <bibl>Bernhard SCHMEIDLER, Studien zur Geschichtschreibung des Klosters Tegernsee vom 11. bis zum 16. Jahrhundert (Schriftenreihe zur bayerischen Landesgeschichte 20, München 1935). Edition der "Historia": Andreas Felix OEFELE, Rerum Boicarum Scriptores, 2 (Augsburg 1763).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s424514" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/424514"/>
+      </surface>
+      <surface xml:id="s424515" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/424515"/>
+      </surface>
+   </facsimile>
+</TEI>

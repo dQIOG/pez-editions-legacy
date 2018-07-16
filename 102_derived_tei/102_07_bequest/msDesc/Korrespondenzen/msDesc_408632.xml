@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Briefabschrift: BP und Kapitel an Starhemberg</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">51</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres  09 Faszikel 1 Nr. 33 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Briefabschrift BP und Kapitel an Graf von Starhemberg im Zusammenhang mit den "Capitula" des Melker Konvents. Ausfertigung ähnlich drei weiteren in Karton 3 Äbte 6, Fasz. 2.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>nach 1722</date>
+                     <note>Vermutlich zeitgenössische Abschrift eines Briefs vom 1722-12-13.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu den "Capitula" des Melker Konvents: Hugo HANTSCH, Bernhard Pez und Abt Berthold Dietmayr. MIÖG 71 (1963) 128–139.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Korrespondenzen</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s408632" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/408632"/>
+      </surface>
+      <surface xml:id="s408633" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/408633"/>
+      </surface>
+      <surface xml:id="s408634" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/408634"/>
+      </surface>
+      <surface xml:id="s408635" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/408635"/>
+      </surface>
+      <surface xml:id="s408636" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/408636"/>
+      </surface>
+      <surface xml:id="s408637" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/408637"/>
+      </surface>
+      <surface xml:id="s408638" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/408638"/>
+      </surface>
+      <surface xml:id="s408639" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/408639"/>
+      </surface>
+   </facsimile>
+</TEI>

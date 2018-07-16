@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Schriftstellerkatalog von Beinwil-Mariastein</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">340</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 11 Faszikel 1 Nr. 24 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Schriftstellerkatalog von Beinwil-Mariastein, Hand Mayer. Auszug aus bzw. Abschrift eines Schriftstellerkatalogs von Beinwil-Mariastein in Karton 85 Varia 23, Fasz. 2, Nr. 25.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>19. Jh.</date>
+                     <note>Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Schriftstellern: Rudolf HENGGELER, Monasticon-Benedictinum Helvetiae, 4: Profeßbuch der Benediktinerabteien St. Martin in Disentis, St. Vinzenz in Beinwil und U. L. Frau von Mariastein, St. Leodegar und St. Mauritius im Hof zu Luzern, Allerheiligen in Schaffhausen, St. Georg zu Stein am Rhein, Sta. Maria zu Wagenhausen, Hl. Kreuz und St. Johannes Ev. zu Trub, St. Johann im Thurtal (Zug 1955)</bibl>
+                     <bibl>Lukas SCHENKER, Beinwil-Mariastein, in: Helvetia Sacra, Abt. III: Die Orden mit Benediktinerregel, 1: Frühe Klöster, die Benediktiner und Benediktinerinnen in der Schweiz, Teil 1, hg. von Elsanne GILOMEN-SCHENKEL (Bern 1986) 384–421.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s418989" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/418989"/>
+      </surface>
+      <surface xml:id="s418990" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/418990"/>
+      </surface>
+      <surface xml:id="s418991" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/418991"/>
+      </surface>
+      <surface xml:id="s418992" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/418992"/>
+      </surface>
+   </facsimile>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Abschrift: Offener Brief an Reslhuber, Abt des Stiftes Kremsmünster</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">487</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 22 Faszikel 3 Nr. 02 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Abschrift eines offenen Briefs an Reslhuber aus dem Neuen Wiener Tagblatt von 1869-08-30, der eine Reaktion auf Reslhubers Schreiben an die Redaktion des Neuen Wiener Tagblatts (1869-08-12) darstellt. In Zusammenhang mit dem "Österreichischen Kulturkampf" (vgl. Literaturfeld). Hand des 19. Jahrhunderts.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>nach 1869</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Reslhuber: Altman KELLNER, Professbuch des Stiftes Kremsmünster (Kremsmünster 1968). Zum "Österreichischen Kulturkampf": Christian HALAMA, Altkatholiken in Österreich. Geschichte und Bestandsaufnahme (Wien–Köln–Weimar 2004).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s423364" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/423364"/>
+      </surface>
+      <surface xml:id="s423365" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/423365"/>
+      </surface>
+      <surface xml:id="s423366" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/423366"/>
+      </surface>
+      <surface xml:id="s423367" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/423367"/>
+      </surface>
+   </facsimile>
+</TEI>

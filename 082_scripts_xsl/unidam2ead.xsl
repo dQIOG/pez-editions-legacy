@@ -5,6 +5,7 @@
     xmlns:_="urn:pez"
     xmlns="http://ead3.archivists.org/schema/"
     xmlns:ead="http://ead3.archivists.org/schema/"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:saxon="http://saxon.sf.net/"
     exclude-result-prefixes="xs"
     version="2.0">
@@ -13,14 +14,39 @@
     <xsl:param name="LOCALTYPE_FASZIKEL">file</xsl:param>
     <xsl:param name="img-path-steps" select="tokenize(base-uri(),'/')"/>
     <xsl:param name="img-path" select="string-join(($img-path-steps[position() lt count($img-path-steps)],'_verz_einh'),'/')"/>
+    <xsl:param name="path-to-tsv">../001_src/Nachlass/PEZ_Nachlass_Kategorisierung_nach_RNA.tsv</xsl:param>
+    <xsl:variable name="path-to-personen-ids" select="'file:/C:/Users/Daniel/data/pez-edition/001_src/2016-03-21_Institutionen-Personen.xml'"/>
+    <xsl:variable name="personen-ids" select="doc($path-to-personen-ids)"/>
+    <xsl:function name="_:person-by-name">
+        <xsl:param name="person" as="element(person)"/>
+        <xsl:sequence select="$personen-ids//tei:cell[normalize-space(.) = $person/concat(name,' ', vorname)]/..//tei:ptr/@target"/>
+    </xsl:function>
+    <xsl:variable name="tsv" select="unparsed-text($path-to-tsv,'UTF-8')"/>
+    <xsl:variable name="lines" select="tokenize($tsv,'\n')"/>
+    <xsl:variable name="entries" as="item()+">
+        <xsl:for-each select="$lines[position() gt 1]">
+            <xsl:variable name="t" select="tokenize(.,'\t')" as="xs:string*"/>
+            <entry xmlns="" id="{tokenize($t[2],'/')[last()]}">
+                <title><xsl:value-of select="$t[1]"/></title>
+                <link><xsl:value-of select="$t[2]"/></link>
+                <cat><xsl:value-of select="$t[3]"/></cat>
+            </entry>
+        </xsl:for-each>
+    </xsl:variable>
     
     <xsl:function name="_:letter-by-date" as="item()*">
         <xsl:param name="date"/>
         <xsl:sequence select="doc(concat('https://exist-curation.minerva.arz.oeaw.ac.at/exist/restxq/pez/letters?view=heading&amp;filter=date=',$date))//item"/>
     </xsl:function>
+    <xsl:function name="_:category" as="item()*">
+        <xsl:param name="bild" as="element(bild)"/>
+        <xsl:variable name="id" select="$bild/@id"/>
+        <xsl:sequence select="$entries[@id = $id]/normalize-space(cat)"/>
+    </xsl:function>
     <xsl:template match="/bilder">
         <xsl:processing-instruction name="xml-model">href="http://www.loc.gov/ead/ead3.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
         <xsl:processing-instruction name="xml-model">href="http://www.loc.gov/ead/ead3.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:processing-instruction>
+        <xsl:message select="doc-available($path-to-personen-ids)"/>
         <ead> 
             <control>
                 <recordid>peznachlassead</recordid>
@@ -74,39 +100,53 @@
                     </repository>
                 </did>
                 <dsc>
-                    <xsl:apply-templates select="bild"/>
+                    <xsl:for-each-group select="bild" group-by="_:category(.)">
+                        <c level="series">
+                            <did>
+                                <unittitle><xsl:value-of select="current-grouping-key()"/></unittitle>
+                            </did>
+                            <xsl:apply-templates select="current-group()">
+                                <xsl:with-param name="category" tunnel="yes" select="current-grouping-key()"/>
+                            </xsl:apply-templates>
+                        </c>
+                    </xsl:for-each-group>
                 </dsc>
             </archdesc>
         </ead>
     </xsl:template>
     
     <xsl:template match="bild">
+        <xsl:param name="category" tunnel="yes"/>
         <xsl:variable name="verz_einh_id" select="verz_einh/@id"/>
         <xsl:variable name="path-to-folgeseiten" select="concat($img-path,'/',$verz_einh_id,'.xml')"/>
-        <c level="item" id="i{$verz_einh_id}">
-            <did>
-                <xsl:apply-templates select="standort" mode="did"/>
-                <xsl:apply-templates select="verz_einh"/>
-                <xsl:apply-templates select="titel" mode="did"/>
-                <xsl:apply-templates select="datierung" mode="did"/>
-                <xsl:apply-templates select="datierung_zusatz" mode="did"/>
-                <xsl:variable name="folgeseiten" select="if (doc-available($path-to-folgeseiten)) then doc($path-to-folgeseiten)//bild else ()" as="element(bild)*"/>
-                <xsl:choose>
-                    <xsl:when test="exists($folgeseiten)">
-                        <daoset label="Digitalisate" coverage="whole">
-                            <dao daotype="derived" coverage="whole" label="{normalize-space(foliierung)}" href="{ $verz_einh_id}/{@id}.tif" />                            
-                            <xsl:for-each select="$folgeseiten">
-                                <dao daotype="derived" coverage="whole" label="{normalize-space(foliierung_paginierung)}" href="{$verz_einh_id}/{@id}.tif"/>
-                            </xsl:for-each>
-                        </daoset>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <dao daotype="derived" coverage="whole" label="{normalize-space(foliierung)}" href="{ $verz_einh_id}/{@id}.tif" />
-                    </xsl:otherwise>
-                </xsl:choose>
-            </did>
-            <xsl:apply-templates/>
-        </c>
+        <xi:include href="c/{$verz_einh_id}.xml" xmlns:xi="http://www.w3.org/2003/XInclude"/>
+        <xsl:result-document href="ead/{normalize-space(replace($category,'\s+','_'))}/{@id}.xml">
+            <c level="item" id="i{$verz_einh_id}">
+                <did>
+                    <xsl:apply-templates select="standort" mode="did"/>
+                    <xsl:apply-templates select="verz_einh"/>
+                    <xsl:apply-templates select="titel" mode="did"/>
+                    <xsl:apply-templates select="datierung" mode="did"/>
+                    <xsl:apply-templates select="datierung_zusatz" mode="did"/>
+                    <xsl:variable name="folgeseiten" select="if (doc-available($path-to-folgeseiten)) then doc($path-to-folgeseiten)//bild else ()" as="element(bild)*"/>
+                    <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/{@id}.xml" />
+                    <xsl:choose>
+                        <xsl:when test="exists($folgeseiten)">
+                            <daoset>
+                                <dao daotype="derived" coverage="whole" label="{normalize-space(foliierung)}" href="{ $verz_einh_id}/{@id}.tif" />                            
+                                <xsl:for-each select="$folgeseiten">
+                                    <dao daotype="derived" coverage="whole" label="{normalize-space(foliierung_paginierung)}" href="{$verz_einh_id}/{@id}.tif"/>
+                                </xsl:for-each>
+                            </daoset>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <dao daotype="derived" coverage="whole" label="{normalize-space(foliierung)}" href="{ $verz_einh_id}/{@id}.tif" />
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </did>
+                <xsl:apply-templates/>
+            </c>
+        </xsl:result-document>
     </xsl:template>
     
     <xsl:template match="standort"/>
@@ -186,6 +226,13 @@
     
     <xsl:template match="person">
         <persname relator="{funktion}">
+            <xsl:variable name="ids" select="_:person-by-name(.)"/>
+            <xsl:if test="exists($ids)">
+                <xsl:message select="$ids"/>
+            </xsl:if>
+            <xsl:for-each select="$ids">
+                <part localtype="identifier"><xsl:value-of select="."/></part>
+            </xsl:for-each>
             <xsl:apply-templates select="* except funktion"/>
         </persname> 
     </xsl:template>

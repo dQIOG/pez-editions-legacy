@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Cod. Mell. 36: Januarius Stahel, "Catalogus manuscriptorum bibliothecae Augiae Divitis"</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">769</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno>Cod. 0036 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Cod. 36 (ohne Altsignaturen und Besitzstempel da aufgefunden in einem Stehsammler im Lesezimmer der Stiftsbibliothek Melk 2008) besteht aus einem Faszikel: p. 1–56: Januarius Stahel, "Catalogus manuscriptorum Bibliothecae Augiae Divitis renovatus et auctus 1724". Der Handschriftenkatalog weist eine Unterteilung in 9 Klassen auf und enthält 436 Handschriften: "Summa summarum omnium codicum – 436" (p. 56). Das Original des Katalogs gilt laut Holder–Preisendanz (vgl. Literaturfeld) als verloren, erhalten ist eine Abschrift aus dem Jahr 1787, die sich heute laut Preisendank, Der Reichenauer Handschriften-Katalog (vgl. Literaturfeld) im Staatsarchiv Zürich unter der Signatur J 433 befindet. Die Melker Abschrift dürfte zeitnah zur Abfassung des Katalogs (1724) entstanden sein (vgl. das identische Wasserzeichen in Melk, Cod. 1966, der ebenfalls aus der Reichenau stammt und mit 1723 datiert ist). Die "Classes" und die am Rand vermerkten Nummern (1. Spalte: Regalnummer, 2. Spalte: fortlaufende Nummer in der "Classis") entsprechen den bei Holder–Preisendanz angegebenen alten Signaturen. Zu einer Abschrift des Cod. 36 vgl. Karton 85 Varia 23, Fasz. 1, Nr. 1.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>Buchdeckel vorne r–v, Ir–IIv, 1–56, Buchdeckel hinten r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>1724</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Cod. 36: Nora GÄDEKE, Die Beschäftigung mit den "Libri vitae" St. Gallens und der Reichenau im 17. und frühen 18. Jahrhundert, in: Bücher des Lebens – Lebendige Bücher, hg. von Peter ERHART–Jakob KURATLI HÜEBLIN (St. Gallen 2010) 140–150</bibl>
+                     <bibl>Christine GLASSNER, Neuzeitliche Handschriften aus dem Nachlass der Brüder Bernhard und Hieronymus Pez in der Bibliothek des Benediktinerstiftes Melk (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 372 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe IV 7, Wien 2008) [dort angeführte Literatur hier nur auszugsweise übernommen]</bibl>
+                     <bibl>Alfred HOLDER–Karl PREISENDANZ, Die Handschriften der großherzoglich Badischen Hof- und Landesbibliothek in Karlsruhe, 7: Die Reichenauer Handschriften 3 (Leipzig–Berlin 1918</bibl>
+                     <bibl>Nachdruck Wiesbaden 1973)</bibl>
+                     <bibl>Karl PREISENDANZ, Der Reichenauer Handschriften-Katalog von 1724, in: Festschrift für Georg LEIDINGER zum 60. Geburtstag am 30. Dezember 1930, hg. von Albert HARTMANN (München 1930) 199–206</bibl>
+                     <bibl>Magnoald ZIEGELBAUER–Oliver LEGIPONT, Historia rei literariae ordinis sancti Benedicti in quattuor partes distributa. Opus eruditorum votis diu expetitum, ad perfectam historiae Benedictinae cognitionem summe necessarium et universim omnibus bonarum artium cultoribus non utile minus quam scitu lectuque iucundum (4 Bde., Augsburg–Würzburg 1754). Zu Stahel: Karl PREISENDANZ, Aus Bücherei und Schreibstube der Reichenau, in: Die Kultur der Abtei Reichenau. Erinnerungsschrift zur zwölfhundertsten Wiederkehr des Gründungsjahres des Inselklosters 724–1924, hg. von Konrad BEYERLE (2 Bde., München 1925) 2 657–683.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s452589" n="Buchdeckel vorne r">
+         <graphic url="http://unidam.univie.ac.at/id/452589"/>
+      </surface>
+      <surface xml:id="s452590" n="Buchdeckel vorne v">
+         <graphic url="http://unidam.univie.ac.at/id/452590"/>
+      </surface>
+      <surface xml:id="s452591" n="Ir">
+         <graphic url="http://unidam.univie.ac.at/id/452591"/>
+      </surface>
+      <surface xml:id="s452592" n="Iv">
+         <graphic url="http://unidam.univie.ac.at/id/452592"/>
+      </surface>
+      <surface xml:id="s452593" n="IIr">
+         <graphic url="http://unidam.univie.ac.at/id/452593"/>
+      </surface>
+      <surface xml:id="s452594" n="IIv">
+         <graphic url="http://unidam.univie.ac.at/id/452594"/>
+      </surface>
+      <surface xml:id="s452595" n="1">
+         <graphic url="http://unidam.univie.ac.at/id/452595"/>
+      </surface>
+      <surface xml:id="s452596" n="2">
+         <graphic url="http://unidam.univie.ac.at/id/452596"/>
+      </surface>
+      <surface xml:id="s452597" n="3">
+         <graphic url="http://unidam.univie.ac.at/id/452597"/>
+      </surface>
+      <surface xml:id="s452598" n="4">
+         <graphic url="http://unidam.univie.ac.at/id/452598"/>
+      </surface>
+      <surface xml:id="s452599" n="5">
+         <graphic url="http://unidam.univie.ac.at/id/452599"/>
+      </surface>
+      <surface xml:id="s452600" n="6">
+         <graphic url="http://unidam.univie.ac.at/id/452600"/>
+      </surface>
+      <surface xml:id="s452601" n="7">
+         <graphic url="http://unidam.univie.ac.at/id/452601"/>
+      </surface>
+      <surface xml:id="s452602" n="8">
+         <graphic url="http://unidam.univie.ac.at/id/452602"/>
+      </surface>
+      <surface xml:id="s452603" n="9">
+         <graphic url="http://unidam.univie.ac.at/id/452603"/>
+      </surface>
+      <surface xml:id="s452604" n="10">
+         <graphic url="http://unidam.univie.ac.at/id/452604"/>
+      </surface>
+      <surface xml:id="s452605" n="11">
+         <graphic url="http://unidam.univie.ac.at/id/452605"/>
+      </surface>
+      <surface xml:id="s452606" n="12">
+         <graphic url="http://unidam.univie.ac.at/id/452606"/>
+      </surface>
+      <surface xml:id="s452607" n="13">
+         <graphic url="http://unidam.univie.ac.at/id/452607"/>
+      </surface>
+      <surface xml:id="s452608" n="14">
+         <graphic url="http://unidam.univie.ac.at/id/452608"/>
+      </surface>
+      <surface xml:id="s452609" n="15">
+         <graphic url="http://unidam.univie.ac.at/id/452609"/>
+      </surface>
+      <surface xml:id="s452610" n="16">
+         <graphic url="http://unidam.univie.ac.at/id/452610"/>
+      </surface>
+      <surface xml:id="s452611" n="17">
+         <graphic url="http://unidam.univie.ac.at/id/452611"/>
+      </surface>
+      <surface xml:id="s452612" n="18">
+         <graphic url="http://unidam.univie.ac.at/id/452612"/>
+      </surface>
+      <surface xml:id="s452613" n="19">
+         <graphic url="http://unidam.univie.ac.at/id/452613"/>
+      </surface>
+      <surface xml:id="s452614" n="20">
+         <graphic url="http://unidam.univie.ac.at/id/452614"/>
+      </surface>
+      <surface xml:id="s452615" n="21">
+         <graphic url="http://unidam.univie.ac.at/id/452615"/>
+      </surface>
+      <surface xml:id="s452616" n="22">
+         <graphic url="http://unidam.univie.ac.at/id/452616"/>
+      </surface>
+      <surface xml:id="s452617" n="23">
+         <graphic url="http://unidam.univie.ac.at/id/452617"/>
+      </surface>
+      <surface xml:id="s452618" n="24">
+         <graphic url="http://unidam.univie.ac.at/id/452618"/>
+      </surface>
+      <surface xml:id="s452619" n="25">
+         <graphic url="http://unidam.univie.ac.at/id/452619"/>
+      </surface>
+      <surface xml:id="s452620" n="26">
+         <graphic url="http://unidam.univie.ac.at/id/452620"/>
+      </surface>
+      <surface xml:id="s452621" n="27">
+         <graphic url="http://unidam.univie.ac.at/id/452621"/>
+      </surface>
+      <surface xml:id="s452622" n="28">
+         <graphic url="http://unidam.univie.ac.at/id/452622"/>
+      </surface>
+      <surface xml:id="s452623" n="29">
+         <graphic url="http://unidam.univie.ac.at/id/452623"/>
+      </surface>
+      <surface xml:id="s452624" n="30">
+         <graphic url="http://unidam.univie.ac.at/id/452624"/>
+      </surface>
+      <surface xml:id="s452625" n="31">
+         <graphic url="http://unidam.univie.ac.at/id/452625"/>
+      </surface>
+      <surface xml:id="s452626" n="32">
+         <graphic url="http://unidam.univie.ac.at/id/452626"/>
+      </surface>
+      <surface xml:id="s452627" n="33">
+         <graphic url="http://unidam.univie.ac.at/id/452627"/>
+      </surface>
+      <surface xml:id="s452628" n="34">
+         <graphic url="http://unidam.univie.ac.at/id/452628"/>
+      </surface>
+      <surface xml:id="s452629" n="35">
+         <graphic url="http://unidam.univie.ac.at/id/452629"/>
+      </surface>
+      <surface xml:id="s452630" n="36">
+         <graphic url="http://unidam.univie.ac.at/id/452630"/>
+      </surface>
+      <surface xml:id="s452631" n="37">
+         <graphic url="http://unidam.univie.ac.at/id/452631"/>
+      </surface>
+      <surface xml:id="s452632" n="38">
+         <graphic url="http://unidam.univie.ac.at/id/452632"/>
+      </surface>
+      <surface xml:id="s452633" n="39">
+         <graphic url="http://unidam.univie.ac.at/id/452633"/>
+      </surface>
+      <surface xml:id="s452634" n="40">
+         <graphic url="http://unidam.univie.ac.at/id/452634"/>
+      </surface>
+      <surface xml:id="s452635" n="41">
+         <graphic url="http://unidam.univie.ac.at/id/452635"/>
+      </surface>
+      <surface xml:id="s452636" n="42">
+         <graphic url="http://unidam.univie.ac.at/id/452636"/>
+      </surface>
+      <surface xml:id="s452637" n="43">
+         <graphic url="http://unidam.univie.ac.at/id/452637"/>
+      </surface>
+      <surface xml:id="s452638" n="44">
+         <graphic url="http://unidam.univie.ac.at/id/452638"/>
+      </surface>
+      <surface xml:id="s452639" n="45">
+         <graphic url="http://unidam.univie.ac.at/id/452639"/>
+      </surface>
+      <surface xml:id="s452640" n="46">
+         <graphic url="http://unidam.univie.ac.at/id/452640"/>
+      </surface>
+      <surface xml:id="s452641" n="47">
+         <graphic url="http://unidam.univie.ac.at/id/452641"/>
+      </surface>
+      <surface xml:id="s452642" n="48">
+         <graphic url="http://unidam.univie.ac.at/id/452642"/>
+      </surface>
+      <surface xml:id="s452643" n="49">
+         <graphic url="http://unidam.univie.ac.at/id/452643"/>
+      </surface>
+      <surface xml:id="s452644" n="50">
+         <graphic url="http://unidam.univie.ac.at/id/452644"/>
+      </surface>
+      <surface xml:id="s452645" n="51">
+         <graphic url="http://unidam.univie.ac.at/id/452645"/>
+      </surface>
+      <surface xml:id="s452646" n="52">
+         <graphic url="http://unidam.univie.ac.at/id/452646"/>
+      </surface>
+      <surface xml:id="s452647" n="53">
+         <graphic url="http://unidam.univie.ac.at/id/452647"/>
+      </surface>
+      <surface xml:id="s452648" n="54">
+         <graphic url="http://unidam.univie.ac.at/id/452648"/>
+      </surface>
+      <surface xml:id="s452649" n="55">
+         <graphic url="http://unidam.univie.ac.at/id/452649"/>
+      </surface>
+      <surface xml:id="s452650" n="56">
+         <graphic url="http://unidam.univie.ac.at/id/452650"/>
+      </surface>
+      <surface xml:id="s452651" n="Buchdeckel hinten r">
+         <graphic url="http://unidam.univie.ac.at/id/452651"/>
+      </surface>
+      <surface xml:id="s452652" n="Buchdeckel hinten v">
+         <graphic url="http://unidam.univie.ac.at/id/452652"/>
+      </surface>
+   </facsimile>
+</TEI>

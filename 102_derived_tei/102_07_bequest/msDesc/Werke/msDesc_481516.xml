@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Cod. Mell. 922: Formulae. Epistolae. Orationes</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">803</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno>Cod. 0922 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Cod. 922 (olim 1037) besteht aus sieben Faszikeln, moderne Bleistiftfoliierung. Ir: Inhaltsverzeichnis des Codex aus der 1. Hälfte des 19. Jh., Hand Mayer. Bei Glassner keine Nummerierung der Faszikel.</summary>
+                  <msItem n="1">
+                     <locus>p. 1–9</locus>
+                     <bibl>
+                        <author>"Formulae Sangallenses miscellaneae</author> Nr. 2–8<title>. Vorlage nicht genannt. Aktueller Bibliotheksort und Signatur: Zürich, Zentralbibliothek, Rh. 131, 2r–21r. Bearbeiter Müller. p. 10–13: Hieronymus, </title>Epistola 30<title> (Hs: </title>Epistola ad Paulam de alphabeto Hebraeorum<title>). Vorlage nicht genannt. Aktueller Bibliotheksort und Signatur: Zürich, Zentralbibliothek, Rh. 131, 9r–13r. Bearbeiter Müller. p. 14–21: </title>Formulae Sangallenses miscellaneae, Nr. 9–17<title>. Vorlage nicht genannt. Aktueller Bibliotheksort und Signatur: Zürich, Zentralbibliothek, R h. 131, 2r–21r. Bearbeiter Müller. p. 21–22: </title>Ordo librorum catholicorum ad legendum<title>. Lektionenordnung. Vorlage nicht genannt. Aktueller Bibliotheksort und Signatur: Zürich, Zentralbibliothek, Rh. 131, 21v–22r. Bearbeiter Müller. p. 22–48: Salomo III. episcopus Constantiensis, </title>Formulae". Nach Zeumer, Formulae Sangallenses (vgl. Literaturfeld): Hier Nr. 1–4 vollständig, Nr. 5 und 8 mutile, Nr. 9, 10 und 24 vollständig, Nr. 25, 38–47 mut., endet mit Ed. S. 430,5 (in Nr. 47). Vorlage nicht genannt. Aktueller Bibliotheksort und Signatur: Zürich, Zentralbibliothek, Rh. 131, 22v–28v. Bearbeiter Müller.</bibl>
+                  </msItem>
+                  <msItem n="2">
+                     <locus>p. 49–56</locus>
+                     <bibl>
+                        <author>Thiathildis abbatissa S. Romarici (= Thiadhild zu Freckenhorst)</author> 
+                        <title>Indicularius</title>. Bei Zeumer, Indicularius Thiathildis (vgl. Literaturfeld) nach der Vorlagehandschrift als einziger Handschrift. Vorlage nicht genannt. Aktueller Bibliotheksort und Signatur: Zürich, Zentralbibliothek, Rh. 131, 29v–36v. Bearbeiter Müller.</bibl>
+                  </msItem>
+                  <msItem n="3">
+                     <locus>p. 57–77</locus>
+                     <bibl>
+                        <author>Haymarus monachus</author> 
+                        <title>De expugnata Accone liber tetrastichus seu Rhythmus de expeditione Hierosolymitana</title>. p. 57: <title>Ex insignissimo eleganti Ms. Codice Richardi de Somno Nabuchodonosor</title>. Halbbrüchig geschrieben, mit Randnotizen des Theodor Mayer (?). Vorlage: Cod. aus Bamberg, S. Michael. Aktueller Bibliotheksort und Signatur: Bamberg SB, Patr. 130/2, 144–150.</bibl>
+                  </msItem>
+                  <msItem n="4">
+                     <locus>p. 79–82</locus>
+                     <bibl>
+                        <author>Nicolaus Maniacucius vel Hildebertus Cenomanensis (?)</author> 
+                        <title>Catalogus metricus Romanorum pontificum</title> (= <title>Versus de sacramento, Versus de romanis pontificibus</title> [Rep.font.]). p. 79: <title>Ex insigni perg. Ms. in fol. Richardi de Somno Nabuchodonosor ex Biblioth. S. Mich. Bambergae</title>. Halbbrüchig geschrieben. Vorlage: Bamberg, S. Michael. Aktueller Bibliotheksort und Signatur: Bamberg SB, Patr. 130/2, 142–143.</bibl>
+                  </msItem>
+                  <msItem n="5">
+                     <locus>p. 83–86</locus>
+                     <bibl>
+                        <author>Fridericus III. imperator</author> 
+                        <title>Encyclica ad omnes principes Europae de convocatione electorum ad conventum Nurenbergensem ubi agatur de modo et ratione congregandi concilii generalis et extinguendi schismatis</title> (1443-06-01, Wien). <title>Ex Cod. Emmeramensi. Extat apud Martene T. 1. Thes. Anecd. sed hic recudi debuit ob seqq. epist.</title>. Pez-Zählung: <title>1</title>. (zunächst römisch, dann auf arabische Zählung korrigiert, nur die Folgenummern). Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 120r–121r. Bearbeiter BP. p. 86–88: Fridericus III. imperator, <title>Epistola ad Eugenium papam IV. de congregatione Nurenbergensi</title> (Hs.: <title>de eiusdem argumenti</title>) (1443-06-25, Wien). Pez-Zählung: <title>2</title>. Datierung in der Melker Hs. von Pez konjiziert: <title>25. Juni</title> (wohl 1443). Auch in Göttweig, Cod. 445 (alt 390), 88r. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 121r. Bearbeiter BP. p. 88–90: Fridericus III. imperator, <title>Epistola ad sacrum collegium cardinalium, quos hortatur, ut Eugenium papam ad indicendum concilium generale inducant</title> (1443-06-25, Wien). Pez-Zählung: <title>3</title>. Auch in Göttweig, Cod. 445 (alt 390), 88v–89r. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 121v–122r. Bearbeiter BP. p. 90–98: Eugen IV. papa, <title>Responsio ad Friderici III. epistolam in causa concilii generalis</title> (1443-08-Kal. Sept., Siena). Pez-Zählung: <title>4</title>. Auch in Göttweig, Cod. 445 (alt 390), 78–80. Vorlage: Regensburg, S. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 122r–124r. Bearbeiter BP. p. 98–99: Iohannes rex Castellae (= Johann II. von Kastilien-León), <title>Epistola ad Fridericum III. imperatorem Romanorum de concilio generali</title>. Pez-Zählung: <title>5</title>. Pez-Titel fehlt, jedoch ist Platz dafür ausgespart. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 125v–126r. Bearbeiter BP. p. 100–102: Alphonsus V. rex Portugalliae (et Algarbii) (= Alphons V. von Portugal), <title>Epistola ad Fridericum III. imperatorem Romanorum in causa generalis concilii Nurenbergensis</title>. Pez-Zählung: <title>VI</title>. Pez-Titel fehlt, jedoch Platz dafür ausgespart. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 126r. Bearbeiter BP. p. 103–104: Iohannes I. rex Navarrae, <title>Epistola ad Fridericum III. imperatorem Romanorum in causa concilii generalis</title>. Pez-Zählung: <title>VII</title>. Pez-Titel fehlt, Platz dafür ausgespart. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 126v–127r. Bearbeiter BP. p. 104–105: Maria regina Aragonum, <title>Epistola ad Fridericum III. imperatorem Romanorum in causa concilii generalis</title>. Pez-Zählung: <title>VIII</title>. Pez-Titel fehlt, Platz dafür ausgespart. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 127r. Bearbeiter BP. p. 105–107: Philippus Maria Sfortia (?) dux Mediolanensis, <title>Epistola ad Fridericum III. imperatorem Romanorum in causa concilii generalis</title>. Pez-Zählung: <title>IX</title>. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 127r. Bearbeiter BP. p. 107–108: Raphael Adurnus (=Raffaele Adorno) dux Ianuensis, <title>Epistola ad Fridericum III. imperatorem</title> (1443-09-18, Genua). Pez-Zählung: <title>X</title>. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 127v–128r. Bearbeiter BP. p. 108–109: Iohannes Iacobus marchio Montisferrati (de Monteferrato = Giangiacomo Paleologo), <title>Epistola ad Fridericum III. imperatorem</title>. Pez-Zählung: <title>XI</title>. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 128r. Bearbeiter BP. p. 109–112: Guterius Alvarez (?), <title>Epistola ad Fridericum III. imperatorem</title>. Pez-Zählung: <title>XII</title>. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 128r–129r. Bearbeiter BP. p. 113–114: Comes Fuxi et Bigorrae (= Grafschaft Foix und Bigorre), <title>Epistola ad Fridericum III. imperatorem</title>. Pez-Zählung: <title>XIII</title>. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 129r. Bearbeiter BP. p. 114–115: <title>Epistola civitatis Florentinae ad Fridericum III. imperatoreum in causa congregationis Nurenbergensis</title> (1443-08-28, Florenz). Pez-Zählung: <title>XIV</title>. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 129v. Bearbeiter BP. p. 115–117: <title>Epistola civitatis Senensis ad Fridericum III. imperatorem in cause congregationis Nurenbergensis</title>. Pez-Zählung: <title>XV</title>. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 129v–130r. Bearbeiter BP. p. 117–119: Fridericus III. imperator [Aeneas Silvius], <title>Epistola ad Carolum VII. Francorum regem de libero transitu Armeniacorum in regis dominio militantium</title> (1443-08-22, Wiener Neustadt). Pez-Zählung: <title>XVI</title>. Auch in Göttweig, Cod. 390, 200v. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 130r. Bearbeiter BP. p. 119–120: Sigismundus dux Austriae [Aeneas Silvius], <title>Epistola ad Carolum VII. Francorum regem de libero transitu Armeniacorum in regis dominio militantium</title> (1443-08-21, Wiener Neustadt). Pez-Zählung: <title>XVII</title>. Vorlage: Regensburg, St. Emmeram? Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 130v. Bearbeiter BP. p. 120–122: Fridericus III., <title>Epistola ad Ludovicum Sabaudiae ducem qua eum ne Suevicensibus opem ferat hortatur</title> (1443, in fine Octobris). Pez-Zählung: <title>XVIII</title>. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 130v. Bearbeiter BP. p. 122–123: Ludovicus dux Savaudiae (= Ludwig von Savoyen), <title>Epistola ad Albertum ducem Austriae, in qua scribit se dispositum esse ad auxilium praestandum confoederatis</title> (1445-09-10, Genevois). Pez-Zählung: <title>XIX</title>. Pez-Titel fehlt, jedoch Platz ausgespart. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 131v. Bearbeiter BP. p. 123–125: Albertus dux Austriae, <title>Epistola ad Ludovicum Sabaudiae ducem, qua eum a consilio suo removere conatur</title>. Pez-Zählung: <title>XX</title>. Pez-Titel fehlt. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 131v. Bearbeiter BP. p. 125–128: Ludwig von Savoyen, <title>Epistola ad Albertum ducem Austriae responsoria</title>. Pez-Zählung: <title>XXI</title>. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 132r. Bearbeiter BP. p. 128–132: Friedrich III. [Aeneas Silvius], <title>Epistola ad Ludovicum Sabaudiae ducem</title> (1445-12-18, Wien). Pez-Zählung: <title>XXII</title>. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 132v. Bearbeiter BP. p. 132–134: Friedrich III. [Aeneas Silvius], <title>Epistola ad civitatem Lausanensem</title>. Pez-Zählung: <title>XXIII</title>. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 134r–v. Bearbeiter BP. p. 134–136: Friedrich III. [Aeneas Silvius], <title>Epistola ad Wladislaum regem Poloniae</title> (1443, Wiener Neustadt). Pez-Zählung: XXIV<title>. Pez-Titel fehlt, jedoch Platz dafür ausgespart. Auch in Göttweig, Cod. 445 (alt 390), 87. Vorlage: Regensburg, S. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 134v. Bearbeiter BP. p. 136–137: Friedrich III. [Aeneas Silvius], </title>Epistola ad Iohannem Huniadem Hungariae gubernatorem<title> (1452). Pez-Zählung: </title>XXV<title>. Vorlage: </title>Ex Biblioth. Mellic.<title>. Aktueller Bibliotheksort und Signatur: Melk, Cod. 1799, 219r. Bearbeiter BP. p. 137–138: Nicolaus V. papa (= Nikolaus V.), </title>Epistola ad Iohannem Huniadem Hungariae gubernatorem<title> (1452-04-22, Rom). Pez-Zählung: </title>XXVI<title>. Vorlage: </title>Ex Biblioth. Mellic.<title>. Aktueller Bibliotheksort und Signatur: Melk, Cod. 1799, 217v–218r. Bearbeiter BP. p. 138–140: Nikolaus V., </title>Epistola ad Fridericum regem Romanorum<title> (1447-02-17). Pez-Zählung: </title>XXVII<title>. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 145v–146r. Bearbeiter BP. p. 140: Nikolaus V., </title>Epistola ad Fridericum regem Romanorum ut assistat Henrico Slick eique regalia det etc.<title> (Rom). Pez-Zählung: </title>XXVIII<title>. Pez-Titel fehlt, jedoch Platz dafür ausgespart. Vorlage: Regensburg, St. Emmeram. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 146r. Bearbeiter BP. p. 141–142: Friedrich III., </title>Epistola ad Nicolaum V. pontificem maximum de amissione urbis Constantinopolitanae<title> (1453). Pez-Zählung: </title>XXIX<title>. Vorlage nicht genannt. Bearbeiter BP (Schreiber des Titels), Text von anderer Hand. p. 143–144: Friedrich III., </title>Epistola ad Aeneam Silvium Romanae ecclesiae cardinalem gratulatoria quod ad hanc dignitatem sit promotus<title> (1457-01-30, Graz). Pez-Zählung: </title>XL<title> (irrtümlich, sollte eigentlich </title>XXX<title> sein). p. 155–156: Fridericus I. imperator, </title>Constitutio pacis<title> (1158) = </title>Epistola ad universos<title>. Nach den Lesarten handelt es sich bei der Vorlage um die Hs. B* aus der Ausgabe der </title>Gesta Friderici<title> durch Waitz–von Simson (vgl. Literaturfeld), das wäre danach (p. XXXIII f.) der unten zitierte Tegernseer Codex. Vorlage nicht genannt. Aktueller Bibliotheksort und Signatur: München BStB, Clm 19411 (aus Tegernsee). Bearbeiter BP. p. 157–161: Casparus Schlick (= Kaspar Schlick) [Aeneas Silvius], </title>Epistola ad Iulianum Caesarinum cardinalem S. Angeli, prima<title> (1443-08-31, Wiener Neustadt). Keine Zählung, da die folgenden Briefe aber mit II, III etc. gezählt sind, ist hier Nr. </title>I<title> anzusetzen. Pez-Titel fehlt, jedoch Platz dafür ausgespart. Auch in Göttweig, Cod. 445 (olim 390)/c.8v–10r. Vorlage: Nicht genannt. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 135–136. Bearbeiter BP. p. 161–162: Kaspar Schlick [Aeneas Silvius], </title>Epistola ad Iulianum Caesarinum cardinalem S. Angeli, secunda<title> (1443-05-06, Wiener Neustadt). Pez-Zählung: </title>II<title>. Pez-Titel fehlt, Platz ausgespart. Vorlage: Nicht genannt. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 140v. Bearbeiter BP. p. 162–165: Kaspar Schlick [Aeneas Silvius], </title>Epistola ad Iulianum Caesarinum cardinalem S. Angeli, tertia<title> (1444-05-28, Wien). Pez-Zählung: </title>III<title>. Pez-Titel fehlt, Platz ausgespart. Vorlage: Nicht genannt. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 142–143. Bearbeiter BP. p. 165–167: Kaspar Schlick [Aeneas Silvius], </title>Epistola ad Iulianum Caesarinum cardinalem S. Angeli, quarta<title> (1444-06-24, Wien). Pez-Zählung: </title>IV<title>. Pez-Titel fehlt, Platz ausgespart. Vorlage: Nicht genannt. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 143. Bearbeiter BP. p. 167–168: Kaspar Schlick [Aeneas Silvius], </title>Epistola ad Nicolaum de Arcimboldis Parmensem ducalem consiliarium<title> (1443-09-16, Graz). Pez-Zählung: </title>V<title>. Pez-Titel fehlt, Platz ausgespart. Auch in Göttweig, Cod. 445 (olim 390), 81. Vorlage: Nicht genannt. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 136v. Bearbeiter BP. p. 168–171: Kaspar Schlick [Aeneas Silvius], </title>Epistola ad dominum Albericum Maletta iuris consultum Papiensem<title> (1443-09-16, Graz). Ausg.: Cugnoni (wie oben), 389–391 (73–75). Pez-Zählung: </title>VI<title>. Pez-Titel fehlt, Platz ausgespart. Vorlage: Nicht genannt. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 136v–137r. Bearbeiter BP. p. 171–172: Kaspar Schlick [Aeneas Silvius], </title>Epistola ad illustrem principem Leonellum marchionem Estensem<title> (1443-09-17, Graz). Pez-Zählung: </title>VII<title>. Pez-Titel fehlt, Platz ausgespart. Vorlage: Nicht genannt. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 137v. Bearbeiter BP. p. 172–174: Kaspar Schlick [Aeneas Silvius], </title>Epistola ad Eugenium IV. pontificem maximum<title> (1443-10-14, Wien). Pez-Zählung: </title>VIII<title>. Pez-Titel fehlt, Platz ausgespart. Göttweig, Cod. 445 (olim 390), f. 91. Vorlage: Nicht genannt. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 137. Bearbeiter BP. p. 174–175: Kaspar Schlick [Aeneas Silvius], </title>Epistola ad Nicolaum de Arcimboldis<title> (hier: </title>ad N. amicum<title>) (1443-10-16, Wien). Pez-Zählung: </title>IX<title>. Pez-Titel fehlt, Platz ausgespart. Göttweig, Cod. 445 (olim 390), f. 91v–92r. Vorlage: Nicht genannt. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 138v. Bearbeiter BP. p. 175: Kaspar Schlick [Aeneas Silvius], </title>Epistola ad Ugutionem de Contrariis ducatus Mediolani gubernatorem<title> (1443-10-14, Wien). Pez-Zählung: </title>X". Pez-Titel fehlt, Platz ausgespart. Bricht nach 6 Zeilen am Ende einer Recto-Seite ab. Göttweig, Cod. 445 (olim 390), f. 92. Vorlage: Nicht genannt. Aktueller Bibliotheksort und Signatur: München BStB, Clm 14134, 138v–139r. Bearbeiter BP.</bibl>
+                  </msItem>
+                  <msItem n="6">
+                     <locus>p. 181–187</locus>
+                     <bibl>
+                        <author>Christian I. von Schweden</author> 
+                        <title>Epistola ad Fridericum III.</title> (1454-04-14, Roskilde). Zählung: <title>I</title>. Ohne Titel, Platz ausgespart. p. 189–213: Iacobus Capora de Ianua (= Jacopo Camphora von Genua), <title>Oratio facta coram Friderico Romanorum imperatore</title> (1456-02-01, Graz). Bisher kein Drucknachweis. Zählung: <title>II</title>. P. 199/200 ist ein Schaltzettel mit Korrekturen von anderer Hand. Vorlage nicht genannt. Möglicherweise heute: Melk, Cod. 1799, 234r–237r. Weitere Überlieferungen: Rein, Cod. 87, 168r–172v; Wien ÖNB, Cod. 3250, 39–43 und Cod. 4322, 10v–16r; München BStB, Clm 78, 250–254. p. 215–223: Stephanus Nicolai de Petra Rubea, <title>Historia conflictus Turcorum cum cruce signatis fidelibus</title>. Zählung: <title>V</title>, d.h. die Texte mit den Nummern <title>III–IV</title> fehlen.</bibl>
+                  </msItem>
+                  <msItem n="7">
+                     <locus>p. 225–227</locus>
+                     <bibl>
+                        <author>Pius II. papa [Aeneas Silvius]</author> 
+                        <title>Oratio in occursu capitis S. Andreae habita = Verba quae habuit in pratis apud pontem Milvium in occursu capitis b. Andreae apostoli</title> (1462-04-12). Ohne Zählung, Text von anderer Hand, sicher ursprünglich eine Briefbeilage. Am Ende: <title>Ex Codice Chartaceo in Quart., manu saeculi 15ti. In eodem Codice extat Rhetorica Poetica Enee Senensis ad Joannem de Baden Marchionem, modo episcopum Trevirensem. Incipit: Tua esset vir illustris</title>. Vorlage nicht genannt.</bibl>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>Buchdeckel vorne r–v, Titelblatt vorne r–v, 1–228, Deckblatt hinten r–v, Buchdeckel hinten r–v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>18. Jh.</date>
+                     <note>Laut Glassner, Neuzeitliche Handschriften (vgl. Literaturfeld) 1. Drittel 18. Jh.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Cod. 922: Christine GLASSNER, Neuzeitliche Handschriften aus dem Nachlass der Brüder Bernhard und Hieronymus Pez in der Bibliothek des Benediktinerstiftes Melk (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 372 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe IV 7, Wien 2008) [dort angeführte Literatur hier nur auszugsweise übernommen]. Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Müller: Rudolf HENGGELER, Monasticon-Benedictinum Helvetiae, 1: Profeßbuch der fürstlichen Benediktinerabtei der Heiligen Gallus und Otmar zu St. Gallen (Zug o.J. [1929])</bibl>
+                     <bibl>"Fidelis tametsi inutilis servus". P. Moritz Müller OSB (St. Gallen) in seiner historisch-literarischen und politisch-diplomatischen Tätigkeit im Spiegel seiner Korrespondenz 1709–1714. Studien und Mitteilungen zur Geschichte des Benediktinerordens und seiner Zweige 118 (2007) 339–432. Zu 1): Martin GERBERT, Monumenta veteris liturgiae Alemanicae (3 Bde., St. Blasien 1777–1779)</bibl>
+                     <bibl>Jaques-Paul MIGNE, Patrologiae Cursus completus, Series latina (221 Bde., Paris 1844–1855</bibl>
+                     <bibl>hier Bd. 87)</bibl>
+                     <bibl>Paul Friedrich von WYSS, Alamannische Formeln und Briefe aus dem neunten Jahrhundert. Mittheilungen der antiquarischen Gesellschaft in Zürich 7 (1853) 26–31</bibl>
+                     <bibl>Formulae Sangallenses, hg. von Karl ZEUMER, in: MGH Leges, Formulae Merowingici et Carolini aevi (1886) 378–437. Zu 2): Indicularius Thiathildis, hg. von Karl ZEUMER, in: MGH Leges, Formulae Merowingici et Carolini aevi (1886) 525–528. Zu 3): Repertorium Fontium Historiae Medii Aevi 5 (1984) 391. Zu 4): Repertorium Fontium Historiae Medii Aevi 7 (1997) 434f.</bibl>
+                     <bibl>Ex Arnaldi cronica Londoniensi, hg. von Reinhold PAULI–Felix LIEBERMANN, in: MGH SS 28 (1888) 527–547. Zu 5): Placidus BRAUN, Notitia historico-literaria de codicibus manuscriptis in bibliotheca (6 Bde., Augsburg 1791–1796)</bibl>
+                     <bibl>Joseph CHMEL, Bericht über die von ihm im Frühjahr und Sommer 1850 unternommene literarische Reise. Sitzungsberichte. Akademie der Wissenschaften in Wien, Philosophisch-Historische Klasse 5, 2 (1850) 361–450, 591–728</bibl>
+                     <bibl>Opera inedita. Descripsit ex codicibus Chiapinis, hg. von Giuseppe CUGNONI (Rom 1883</bibl>
+                     <bibl>Neudruck Farnborough 1968)</bibl>
+                     <bibl>Epistolae principum, rerum publicarum ac sapientium virorum, hg. von Girolamo DONZELLINI (Venedig 1574)</bibl>
+                     <bibl>Edmond MARTÈNE–Ursin DURAND, Thesaurus novus anecdotorum (5 Bde., Paris 1717)</bibl>
+                     <bibl>Georg PRAY, Annales regum Hungariae (5 Bde., Wien 1763–1770)</bibl>
+                     <bibl>Burkhard Gotthelf STRUVE–Marquard FREHER, Rerum Germanicarum Scriptores (3 Bde., Straßburg 1717)</bibl>
+                     <bibl>Georg VOIGT, Enea Silvio de’ Piccolomini als Papst Pius der Zweite und sein Zeitalter (3 Bde., Berlin 1856–1863</bibl>
+                     <bibl>Neudruck Berlin 1967)</bibl>
+                     <bibl>Ottonis et Rahewini gesta Friderici I. imperatoris, hg. von Georg WAITZ–Bernhard de SIMSON (MGH SS rerum Germanicarum in usum scholarum ex monumentis Germaniae historicis recusi, Hannover–Leipzig 1912)</bibl>
+                     <bibl>Der Briefwechsel des Eneas Silvius Piccolomini, I. Abt.: Briefe aus der Laienzeit (1431–1445), II: Amtliche Briefe, hg. von Rudolf WOLKAN (Fontes rerum Austriacarum II/62, Wien 1909). Zu 6): Johann Joachim MÜLLER, Des Heiligen Römischen Reichs Teutscher Nation Reichs Tags Theatrum (2 Bde., Jena 1713). Zu 7): Pius II., Orationes politicae et ecclesiasticae, hg. von Johannes Dominicus MANSI (3 Bde., Lucca 1755–1759).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Werke</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s481516" n="Buchdeckel vorne r">
+         <graphic url="http://unidam.univie.ac.at/id/481516"/>
+      </surface>
+      <surface xml:id="s481517" n="Buchdeckel vorne v">
+         <graphic url="http://unidam.univie.ac.at/id/481517"/>
+      </surface>
+      <surface xml:id="s481518" n="Titelblatt vorne r">
+         <graphic url="http://unidam.univie.ac.at/id/481518"/>
+      </surface>
+      <surface xml:id="s481519" n="Titelblatt vorne v">
+         <graphic url="http://unidam.univie.ac.at/id/481519"/>
+      </surface>
+      <surface xml:id="s481520" n="1">
+         <graphic url="http://unidam.univie.ac.at/id/481520"/>
+      </surface>
+      <surface xml:id="s481521" n="2">
+         <graphic url="http://unidam.univie.ac.at/id/481521"/>
+      </surface>
+      <surface xml:id="s481522" n="3">
+         <graphic url="http://unidam.univie.ac.at/id/481522"/>
+      </surface>
+      <surface xml:id="s481523" n="4">
+         <graphic url="http://unidam.univie.ac.at/id/481523"/>
+      </surface>
+      <surface xml:id="s481524" n="5">
+         <graphic url="http://unidam.univie.ac.at/id/481524"/>
+      </surface>
+      <surface xml:id="s481525" n="6">
+         <graphic url="http://unidam.univie.ac.at/id/481525"/>
+      </surface>
+      <surface xml:id="s481526" n="7">
+         <graphic url="http://unidam.univie.ac.at/id/481526"/>
+      </surface>
+      <surface xml:id="s481527" n="8">
+         <graphic url="http://unidam.univie.ac.at/id/481527"/>
+      </surface>
+      <surface xml:id="s481528" n="9">
+         <graphic url="http://unidam.univie.ac.at/id/481528"/>
+      </surface>
+      <surface xml:id="s481529" n="10">
+         <graphic url="http://unidam.univie.ac.at/id/481529"/>
+      </surface>
+      <surface xml:id="s481530" n="11">
+         <graphic url="http://unidam.univie.ac.at/id/481530"/>
+      </surface>
+      <surface xml:id="s481531" n="12">
+         <graphic url="http://unidam.univie.ac.at/id/481531"/>
+      </surface>
+      <surface xml:id="s481532" n="13">
+         <graphic url="http://unidam.univie.ac.at/id/481532"/>
+      </surface>
+      <surface xml:id="s481533" n="14">
+         <graphic url="http://unidam.univie.ac.at/id/481533"/>
+      </surface>
+      <surface xml:id="s481534" n="15">
+         <graphic url="http://unidam.univie.ac.at/id/481534"/>
+      </surface>
+      <surface xml:id="s481535" n="16">
+         <graphic url="http://unidam.univie.ac.at/id/481535"/>
+      </surface>
+      <surface xml:id="s481536" n="17">
+         <graphic url="http://unidam.univie.ac.at/id/481536"/>
+      </surface>
+      <surface xml:id="s481537" n="18">
+         <graphic url="http://unidam.univie.ac.at/id/481537"/>
+      </surface>
+      <surface xml:id="s481538" n="19">
+         <graphic url="http://unidam.univie.ac.at/id/481538"/>
+      </surface>
+      <surface xml:id="s481539" n="20">
+         <graphic url="http://unidam.univie.ac.at/id/481539"/>
+      </surface>
+      <surface xml:id="s481540" n="21">
+         <graphic url="http://unidam.univie.ac.at/id/481540"/>
+      </surface>
+      <surface xml:id="s481541" n="22">
+         <graphic url="http://unidam.univie.ac.at/id/481541"/>
+      </surface>
+      <surface xml:id="s481542" n="23">
+         <graphic url="http://unidam.univie.ac.at/id/481542"/>
+      </surface>
+      <surface xml:id="s481543" n="24">
+         <graphic url="http://unidam.univie.ac.at/id/481543"/>
+      </surface>
+      <surface xml:id="s481544" n="25">
+         <graphic url="http://unidam.univie.ac.at/id/481544"/>
+      </surface>
+      <surface xml:id="s481545" n="26">
+         <graphic url="http://unidam.univie.ac.at/id/481545"/>
+      </surface>
+      <surface xml:id="s481546" n="27">
+         <graphic url="http://unidam.univie.ac.at/id/481546"/>
+      </surface>
+      <surface xml:id="s481547" n="28">
+         <graphic url="http://unidam.univie.ac.at/id/481547"/>
+      </surface>
+      <surface xml:id="s481548" n="29">
+         <graphic url="http://unidam.univie.ac.at/id/481548"/>
+      </surface>
+      <surface xml:id="s481549" n="30">
+         <graphic url="http://unidam.univie.ac.at/id/481549"/>
+      </surface>
+      <surface xml:id="s481550" n="31">
+         <graphic url="http://unidam.univie.ac.at/id/481550"/>
+      </surface>
+      <surface xml:id="s481551" n="32">
+         <graphic url="http://unidam.univie.ac.at/id/481551"/>
+      </surface>
+      <surface xml:id="s481552" n="33">
+         <graphic url="http://unidam.univie.ac.at/id/481552"/>
+      </surface>
+      <surface xml:id="s481553" n="34">
+         <graphic url="http://unidam.univie.ac.at/id/481553"/>
+      </surface>
+      <surface xml:id="s481554" n="35">
+         <graphic url="http://unidam.univie.ac.at/id/481554"/>
+      </surface>
+      <surface xml:id="s481555" n="36">
+         <graphic url="http://unidam.univie.ac.at/id/481555"/>
+      </surface>
+      <surface xml:id="s481556" n="37">
+         <graphic url="http://unidam.univie.ac.at/id/481556"/>
+      </surface>
+      <surface xml:id="s481557" n="38">
+         <graphic url="http://unidam.univie.ac.at/id/481557"/>
+      </surface>
+      <surface xml:id="s481558" n="39">
+         <graphic url="http://unidam.univie.ac.at/id/481558"/>
+      </surface>
+      <surface xml:id="s481559" n="40">
+         <graphic url="http://unidam.univie.ac.at/id/481559"/>
+      </surface>
+      <surface xml:id="s481560" n="41">
+         <graphic url="http://unidam.univie.ac.at/id/481560"/>
+      </surface>
+      <surface xml:id="s481561" n="42">
+         <graphic url="http://unidam.univie.ac.at/id/481561"/>
+      </surface>
+      <surface xml:id="s481562" n="43">
+         <graphic url="http://unidam.univie.ac.at/id/481562"/>
+      </surface>
+      <surface xml:id="s481563" n="44">
+         <graphic url="http://unidam.univie.ac.at/id/481563"/>
+      </surface>
+      <surface xml:id="s481564" n="45">
+         <graphic url="http://unidam.univie.ac.at/id/481564"/>
+      </surface>
+      <surface xml:id="s481565" n="46">
+         <graphic url="http://unidam.univie.ac.at/id/481565"/>
+      </surface>
+      <surface xml:id="s481566" n="47">
+         <graphic url="http://unidam.univie.ac.at/id/481566"/>
+      </surface>
+      <surface xml:id="s481567" n="48">
+         <graphic url="http://unidam.univie.ac.at/id/481567"/>
+      </surface>
+      <surface xml:id="s481568" n="49">
+         <graphic url="http://unidam.univie.ac.at/id/481568"/>
+      </surface>
+      <surface xml:id="s481569" n="50">
+         <graphic url="http://unidam.univie.ac.at/id/481569"/>
+      </surface>
+      <surface xml:id="s481570" n="51">
+         <graphic url="http://unidam.univie.ac.at/id/481570"/>
+      </surface>
+      <surface xml:id="s481571" n="52">
+         <graphic url="http://unidam.univie.ac.at/id/481571"/>
+      </surface>
+      <surface xml:id="s481572" n="53">
+         <graphic url="http://unidam.univie.ac.at/id/481572"/>
+      </surface>
+      <surface xml:id="s481573" n="54">
+         <graphic url="http://unidam.univie.ac.at/id/481573"/>
+      </surface>
+      <surface xml:id="s481574" n="55">
+         <graphic url="http://unidam.univie.ac.at/id/481574"/>
+      </surface>
+      <surface xml:id="s481575" n="56">
+         <graphic url="http://unidam.univie.ac.at/id/481575"/>
+      </surface>
+      <surface xml:id="s481576" n="57">
+         <graphic url="http://unidam.univie.ac.at/id/481576"/>
+      </surface>
+      <surface xml:id="s481577" n="58">
+         <graphic url="http://unidam.univie.ac.at/id/481577"/>
+      </surface>
+      <surface xml:id="s481578" n="59">
+         <graphic url="http://unidam.univie.ac.at/id/481578"/>
+      </surface>
+      <surface xml:id="s481579" n="60">
+         <graphic url="http://unidam.univie.ac.at/id/481579"/>
+      </surface>
+      <surface xml:id="s481580" n="61">
+         <graphic url="http://unidam.univie.ac.at/id/481580"/>
+      </surface>
+      <surface xml:id="s481581" n="62">
+         <graphic url="http://unidam.univie.ac.at/id/481581"/>
+      </surface>
+      <surface xml:id="s481582" n="63">
+         <graphic url="http://unidam.univie.ac.at/id/481582"/>
+      </surface>
+      <surface xml:id="s481583" n="64">
+         <graphic url="http://unidam.univie.ac.at/id/481583"/>
+      </surface>
+      <surface xml:id="s481584" n="65">
+         <graphic url="http://unidam.univie.ac.at/id/481584"/>
+      </surface>
+      <surface xml:id="s481585" n="66">
+         <graphic url="http://unidam.univie.ac.at/id/481585"/>
+      </surface>
+      <surface xml:id="s481586" n="67">
+         <graphic url="http://unidam.univie.ac.at/id/481586"/>
+      </surface>
+      <surface xml:id="s481587" n="68">
+         <graphic url="http://unidam.univie.ac.at/id/481587"/>
+      </surface>
+      <surface xml:id="s481588" n="69">
+         <graphic url="http://unidam.univie.ac.at/id/481588"/>
+      </surface>
+      <surface xml:id="s481589" n="70">
+         <graphic url="http://unidam.univie.ac.at/id/481589"/>
+      </surface>
+      <surface xml:id="s481590" n="71">
+         <graphic url="http://unidam.univie.ac.at/id/481590"/>
+      </surface>
+      <surface xml:id="s481591" n="72">
+         <graphic url="http://unidam.univie.ac.at/id/481591"/>
+      </surface>
+      <surface xml:id="s481592" n="73">
+         <graphic url="http://unidam.univie.ac.at/id/481592"/>
+      </surface>
+      <surface xml:id="s481593" n="74">
+         <graphic url="http://unidam.univie.ac.at/id/481593"/>
+      </surface>
+      <surface xml:id="s481594" n="75">
+         <graphic url="http://unidam.univie.ac.at/id/481594"/>
+      </surface>
+      <surface xml:id="s481595" n="76">
+         <graphic url="http://unidam.univie.ac.at/id/481595"/>
+      </surface>
+      <surface xml:id="s481596" n="77">
+         <graphic url="http://unidam.univie.ac.at/id/481596"/>
+      </surface>
+      <surface xml:id="s481597" n="78">
+         <graphic url="http://unidam.univie.ac.at/id/481597"/>
+      </surface>
+      <surface xml:id="s481598" n="79">
+         <graphic url="http://unidam.univie.ac.at/id/481598"/>
+      </surface>
+      <surface xml:id="s481599" n="80">
+         <graphic url="http://unidam.univie.ac.at/id/481599"/>
+      </surface>
+      <surface xml:id="s481600" n="81">
+         <graphic url="http://unidam.univie.ac.at/id/481600"/>
+      </surface>
+      <surface xml:id="s481601" n="82">
+         <graphic url="http://unidam.univie.ac.at/id/481601"/>
+      </surface>
+      <surface xml:id="s481602" n="83">
+         <graphic url="http://unidam.univie.ac.at/id/481602"/>
+      </surface>
+      <surface xml:id="s481603" n="84">
+         <graphic url="http://unidam.univie.ac.at/id/481603"/>
+      </surface>
+      <surface xml:id="s481604" n="85">
+         <graphic url="http://unidam.univie.ac.at/id/481604"/>
+      </surface>
+      <surface xml:id="s481605" n="86">
+         <graphic url="http://unidam.univie.ac.at/id/481605"/>
+      </surface>
+      <surface xml:id="s481606" n="87">
+         <graphic url="http://unidam.univie.ac.at/id/481606"/>
+      </surface>
+      <surface xml:id="s481607" n="88">
+         <graphic url="http://unidam.univie.ac.at/id/481607"/>
+      </surface>
+      <surface xml:id="s481608" n="89">
+         <graphic url="http://unidam.univie.ac.at/id/481608"/>
+      </surface>
+      <surface xml:id="s481609" n="90">
+         <graphic url="http://unidam.univie.ac.at/id/481609"/>
+      </surface>
+      <surface xml:id="s481610" n="91">
+         <graphic url="http://unidam.univie.ac.at/id/481610"/>
+      </surface>
+      <surface xml:id="s481611" n="92">
+         <graphic url="http://unidam.univie.ac.at/id/481611"/>
+      </surface>
+      <surface xml:id="s481612" n="93">
+         <graphic url="http://unidam.univie.ac.at/id/481612"/>
+      </surface>
+      <surface xml:id="s481613" n="94">
+         <graphic url="http://unidam.univie.ac.at/id/481613"/>
+      </surface>
+      <surface xml:id="s481614" n="95">
+         <graphic url="http://unidam.univie.ac.at/id/481614"/>
+      </surface>
+      <surface xml:id="s481615" n="96">
+         <graphic url="http://unidam.univie.ac.at/id/481615"/>
+      </surface>
+      <surface xml:id="s481616" n="97">
+         <graphic url="http://unidam.univie.ac.at/id/481616"/>
+      </surface>
+      <surface xml:id="s481617" n="98">
+         <graphic url="http://unidam.univie.ac.at/id/481617"/>
+      </surface>
+      <surface xml:id="s481618" n="99">
+         <graphic url="http://unidam.univie.ac.at/id/481618"/>
+      </surface>
+      <surface xml:id="s481619" n="100">
+         <graphic url="http://unidam.univie.ac.at/id/481619"/>
+      </surface>
+      <surface xml:id="s481620" n="101">
+         <graphic url="http://unidam.univie.ac.at/id/481620"/>
+      </surface>
+      <surface xml:id="s481621" n="102">
+         <graphic url="http://unidam.univie.ac.at/id/481621"/>
+      </surface>
+      <surface xml:id="s481622" n="103">
+         <graphic url="http://unidam.univie.ac.at/id/481622"/>
+      </surface>
+      <surface xml:id="s481623" n="104">
+         <graphic url="http://unidam.univie.ac.at/id/481623"/>
+      </surface>
+      <surface xml:id="s481624" n="105">
+         <graphic url="http://unidam.univie.ac.at/id/481624"/>
+      </surface>
+      <surface xml:id="s481625" n="106">
+         <graphic url="http://unidam.univie.ac.at/id/481625"/>
+      </surface>
+      <surface xml:id="s481626" n="107">
+         <graphic url="http://unidam.univie.ac.at/id/481626"/>
+      </surface>
+      <surface xml:id="s481627" n="108">
+         <graphic url="http://unidam.univie.ac.at/id/481627"/>
+      </surface>
+      <surface xml:id="s481628" n="109">
+         <graphic url="http://unidam.univie.ac.at/id/481628"/>
+      </surface>
+      <surface xml:id="s481629" n="110">
+         <graphic url="http://unidam.univie.ac.at/id/481629"/>
+      </surface>
+      <surface xml:id="s481630" n="111">
+         <graphic url="http://unidam.univie.ac.at/id/481630"/>
+      </surface>
+      <surface xml:id="s481631" n="112">
+         <graphic url="http://unidam.univie.ac.at/id/481631"/>
+      </surface>
+      <surface xml:id="s481632" n="113">
+         <graphic url="http://unidam.univie.ac.at/id/481632"/>
+      </surface>
+      <surface xml:id="s481633" n="114">
+         <graphic url="http://unidam.univie.ac.at/id/481633"/>
+      </surface>
+      <surface xml:id="s481634" n="115">
+         <graphic url="http://unidam.univie.ac.at/id/481634"/>
+      </surface>
+      <surface xml:id="s481635" n="116">
+         <graphic url="http://unidam.univie.ac.at/id/481635"/>
+      </surface>
+      <surface xml:id="s481636" n="117">
+         <graphic url="http://unidam.univie.ac.at/id/481636"/>
+      </surface>
+      <surface xml:id="s481637" n="118">
+         <graphic url="http://unidam.univie.ac.at/id/481637"/>
+      </surface>
+      <surface xml:id="s481638" n="119">
+         <graphic url="http://unidam.univie.ac.at/id/481638"/>
+      </surface>
+      <surface xml:id="s481639" n="120">
+         <graphic url="http://unidam.univie.ac.at/id/481639"/>
+      </surface>
+      <surface xml:id="s481640" n="121">
+         <graphic url="http://unidam.univie.ac.at/id/481640"/>
+      </surface>
+      <surface xml:id="s481641" n="122">
+         <graphic url="http://unidam.univie.ac.at/id/481641"/>
+      </surface>
+      <surface xml:id="s481642" n="123">
+         <graphic url="http://unidam.univie.ac.at/id/481642"/>
+      </surface>
+      <surface xml:id="s481643" n="124">
+         <graphic url="http://unidam.univie.ac.at/id/481643"/>
+      </surface>
+      <surface xml:id="s481644" n="125">
+         <graphic url="http://unidam.univie.ac.at/id/481644"/>
+      </surface>
+      <surface xml:id="s481645" n="126">
+         <graphic url="http://unidam.univie.ac.at/id/481645"/>
+      </surface>
+      <surface xml:id="s481646" n="127">
+         <graphic url="http://unidam.univie.ac.at/id/481646"/>
+      </surface>
+      <surface xml:id="s481647" n="128">
+         <graphic url="http://unidam.univie.ac.at/id/481647"/>
+      </surface>
+      <surface xml:id="s481648" n="129">
+         <graphic url="http://unidam.univie.ac.at/id/481648"/>
+      </surface>
+      <surface xml:id="s481649" n="130">
+         <graphic url="http://unidam.univie.ac.at/id/481649"/>
+      </surface>
+      <surface xml:id="s481650" n="131">
+         <graphic url="http://unidam.univie.ac.at/id/481650"/>
+      </surface>
+      <surface xml:id="s481651" n="132">
+         <graphic url="http://unidam.univie.ac.at/id/481651"/>
+      </surface>
+      <surface xml:id="s481652" n="133">
+         <graphic url="http://unidam.univie.ac.at/id/481652"/>
+      </surface>
+      <surface xml:id="s481653" n="134">
+         <graphic url="http://unidam.univie.ac.at/id/481653"/>
+      </surface>
+      <surface xml:id="s481654" n="135">
+         <graphic url="http://unidam.univie.ac.at/id/481654"/>
+      </surface>
+      <surface xml:id="s481655" n="136">
+         <graphic url="http://unidam.univie.ac.at/id/481655"/>
+      </surface>
+      <surface xml:id="s481656" n="137">
+         <graphic url="http://unidam.univie.ac.at/id/481656"/>
+      </surface>
+      <surface xml:id="s481657" n="138">
+         <graphic url="http://unidam.univie.ac.at/id/481657"/>
+      </surface>
+      <surface xml:id="s481658" n="139">
+         <graphic url="http://unidam.univie.ac.at/id/481658"/>
+      </surface>
+      <surface xml:id="s481659" n="140">
+         <graphic url="http://unidam.univie.ac.at/id/481659"/>
+      </surface>
+      <surface xml:id="s481660" n="141">
+         <graphic url="http://unidam.univie.ac.at/id/481660"/>
+      </surface>
+      <surface xml:id="s481661" n="142">
+         <graphic url="http://unidam.univie.ac.at/id/481661"/>
+      </surface>
+      <surface xml:id="s481662" n="143">
+         <graphic url="http://unidam.univie.ac.at/id/481662"/>
+      </surface>
+      <surface xml:id="s481663" n="144">
+         <graphic url="http://unidam.univie.ac.at/id/481663"/>
+      </surface>
+      <surface xml:id="s481664" n="145">
+         <graphic url="http://unidam.univie.ac.at/id/481664"/>
+      </surface>
+      <surface xml:id="s481665" n="146">
+         <graphic url="http://unidam.univie.ac.at/id/481665"/>
+      </surface>
+      <surface xml:id="s481666" n="147">
+         <graphic url="http://unidam.univie.ac.at/id/481666"/>
+      </surface>
+      <surface xml:id="s481667" n="148">
+         <graphic url="http://unidam.univie.ac.at/id/481667"/>
+      </surface>
+      <surface xml:id="s481668" n="149">
+         <graphic url="http://unidam.univie.ac.at/id/481668"/>
+      </surface>
+      <surface xml:id="s481669" n="150">
+         <graphic url="http://unidam.univie.ac.at/id/481669"/>
+      </surface>
+      <surface xml:id="s481670" n="151">
+         <graphic url="http://unidam.univie.ac.at/id/481670"/>
+      </surface>
+      <surface xml:id="s481671" n="152">
+         <graphic url="http://unidam.univie.ac.at/id/481671"/>
+      </surface>
+      <surface xml:id="s481672" n="153">
+         <graphic url="http://unidam.univie.ac.at/id/481672"/>
+      </surface>
+      <surface xml:id="s481673" n="154">
+         <graphic url="http://unidam.univie.ac.at/id/481673"/>
+      </surface>
+      <surface xml:id="s481674" n="155">
+         <graphic url="http://unidam.univie.ac.at/id/481674"/>
+      </surface>
+      <surface xml:id="s481675" n="156">
+         <graphic url="http://unidam.univie.ac.at/id/481675"/>
+      </surface>
+      <surface xml:id="s481676" n="157">
+         <graphic url="http://unidam.univie.ac.at/id/481676"/>
+      </surface>
+      <surface xml:id="s481677" n="158">
+         <graphic url="http://unidam.univie.ac.at/id/481677"/>
+      </surface>
+      <surface xml:id="s481678" n="159">
+         <graphic url="http://unidam.univie.ac.at/id/481678"/>
+      </surface>
+      <surface xml:id="s481679" n="160">
+         <graphic url="http://unidam.univie.ac.at/id/481679"/>
+      </surface>
+      <surface xml:id="s481680" n="161">
+         <graphic url="http://unidam.univie.ac.at/id/481680"/>
+      </surface>
+      <surface xml:id="s481681" n="162">
+         <graphic url="http://unidam.univie.ac.at/id/481681"/>
+      </surface>
+      <surface xml:id="s481682" n="163">
+         <graphic url="http://unidam.univie.ac.at/id/481682"/>
+      </surface>
+      <surface xml:id="s481683" n="164">
+         <graphic url="http://unidam.univie.ac.at/id/481683"/>
+      </surface>
+      <surface xml:id="s481684" n="165">
+         <graphic url="http://unidam.univie.ac.at/id/481684"/>
+      </surface>
+      <surface xml:id="s481685" n="166">
+         <graphic url="http://unidam.univie.ac.at/id/481685"/>
+      </surface>
+      <surface xml:id="s481686" n="167">
+         <graphic url="http://unidam.univie.ac.at/id/481686"/>
+      </surface>
+      <surface xml:id="s481687" n="168">
+         <graphic url="http://unidam.univie.ac.at/id/481687"/>
+      </surface>
+      <surface xml:id="s481688" n="169">
+         <graphic url="http://unidam.univie.ac.at/id/481688"/>
+      </surface>
+      <surface xml:id="s481689" n="170">
+         <graphic url="http://unidam.univie.ac.at/id/481689"/>
+      </surface>
+      <surface xml:id="s481690" n="171">
+         <graphic url="http://unidam.univie.ac.at/id/481690"/>
+      </surface>
+      <surface xml:id="s481691" n="172">
+         <graphic url="http://unidam.univie.ac.at/id/481691"/>
+      </surface>
+      <surface xml:id="s481692" n="173">
+         <graphic url="http://unidam.univie.ac.at/id/481692"/>
+      </surface>
+      <surface xml:id="s481693" n="174">
+         <graphic url="http://unidam.univie.ac.at/id/481693"/>
+      </surface>
+      <surface xml:id="s481694" n="175">
+         <graphic url="http://unidam.univie.ac.at/id/481694"/>
+      </surface>
+      <surface xml:id="s481695" n="176">
+         <graphic url="http://unidam.univie.ac.at/id/481695"/>
+      </surface>
+      <surface xml:id="s481696" n="177">
+         <graphic url="http://unidam.univie.ac.at/id/481696"/>
+      </surface>
+      <surface xml:id="s481697" n="178">
+         <graphic url="http://unidam.univie.ac.at/id/481697"/>
+      </surface>
+      <surface xml:id="s481698" n="179">
+         <graphic url="http://unidam.univie.ac.at/id/481698"/>
+      </surface>
+      <surface xml:id="s481699" n="180">
+         <graphic url="http://unidam.univie.ac.at/id/481699"/>
+      </surface>
+      <surface xml:id="s481700" n="181">
+         <graphic url="http://unidam.univie.ac.at/id/481700"/>
+      </surface>
+      <surface xml:id="s481701" n="182">
+         <graphic url="http://unidam.univie.ac.at/id/481701"/>
+      </surface>
+      <surface xml:id="s481702" n="183">
+         <graphic url="http://unidam.univie.ac.at/id/481702"/>
+      </surface>
+      <surface xml:id="s481703" n="184">
+         <graphic url="http://unidam.univie.ac.at/id/481703"/>
+      </surface>
+      <surface xml:id="s481704" n="185">
+         <graphic url="http://unidam.univie.ac.at/id/481704"/>
+      </surface>
+      <surface xml:id="s481705" n="186">
+         <graphic url="http://unidam.univie.ac.at/id/481705"/>
+      </surface>
+      <surface xml:id="s481706" n="187">
+         <graphic url="http://unidam.univie.ac.at/id/481706"/>
+      </surface>
+      <surface xml:id="s481707" n="188">
+         <graphic url="http://unidam.univie.ac.at/id/481707"/>
+      </surface>
+      <surface xml:id="s481708" n="189">
+         <graphic url="http://unidam.univie.ac.at/id/481708"/>
+      </surface>
+      <surface xml:id="s481709" n="190">
+         <graphic url="http://unidam.univie.ac.at/id/481709"/>
+      </surface>
+      <surface xml:id="s481710" n="191">
+         <graphic url="http://unidam.univie.ac.at/id/481710"/>
+      </surface>
+      <surface xml:id="s481711" n="192">
+         <graphic url="http://unidam.univie.ac.at/id/481711"/>
+      </surface>
+      <surface xml:id="s481712" n="193">
+         <graphic url="http://unidam.univie.ac.at/id/481712"/>
+      </surface>
+      <surface xml:id="s481713" n="194">
+         <graphic url="http://unidam.univie.ac.at/id/481713"/>
+      </surface>
+      <surface xml:id="s481714" n="195">
+         <graphic url="http://unidam.univie.ac.at/id/481714"/>
+      </surface>
+      <surface xml:id="s481715" n="196">
+         <graphic url="http://unidam.univie.ac.at/id/481715"/>
+      </surface>
+      <surface xml:id="s481716" n="197">
+         <graphic url="http://unidam.univie.ac.at/id/481716"/>
+      </surface>
+      <surface xml:id="s481717" n="198">
+         <graphic url="http://unidam.univie.ac.at/id/481717"/>
+      </surface>
+      <surface xml:id="s481718" n="199">
+         <graphic url="http://unidam.univie.ac.at/id/481718"/>
+      </surface>
+      <surface xml:id="s481719" n="200">
+         <graphic url="http://unidam.univie.ac.at/id/481719"/>
+      </surface>
+      <surface xml:id="s481720" n="201">
+         <graphic url="http://unidam.univie.ac.at/id/481720"/>
+      </surface>
+      <surface xml:id="s481721" n="202">
+         <graphic url="http://unidam.univie.ac.at/id/481721"/>
+      </surface>
+      <surface xml:id="s481722" n="203">
+         <graphic url="http://unidam.univie.ac.at/id/481722"/>
+      </surface>
+      <surface xml:id="s481723" n="204">
+         <graphic url="http://unidam.univie.ac.at/id/481723"/>
+      </surface>
+      <surface xml:id="s481724" n="205">
+         <graphic url="http://unidam.univie.ac.at/id/481724"/>
+      </surface>
+      <surface xml:id="s481725" n="206">
+         <graphic url="http://unidam.univie.ac.at/id/481725"/>
+      </surface>
+      <surface xml:id="s481726" n="207">
+         <graphic url="http://unidam.univie.ac.at/id/481726"/>
+      </surface>
+      <surface xml:id="s481727" n="208">
+         <graphic url="http://unidam.univie.ac.at/id/481727"/>
+      </surface>
+      <surface xml:id="s481728" n="209">
+         <graphic url="http://unidam.univie.ac.at/id/481728"/>
+      </surface>
+      <surface xml:id="s481729" n="210">
+         <graphic url="http://unidam.univie.ac.at/id/481729"/>
+      </surface>
+      <surface xml:id="s481730" n="211">
+         <graphic url="http://unidam.univie.ac.at/id/481730"/>
+      </surface>
+      <surface xml:id="s481731" n="212">
+         <graphic url="http://unidam.univie.ac.at/id/481731"/>
+      </surface>
+      <surface xml:id="s481732" n="213">
+         <graphic url="http://unidam.univie.ac.at/id/481732"/>
+      </surface>
+      <surface xml:id="s481733" n="214">
+         <graphic url="http://unidam.univie.ac.at/id/481733"/>
+      </surface>
+      <surface xml:id="s481734" n="215">
+         <graphic url="http://unidam.univie.ac.at/id/481734"/>
+      </surface>
+      <surface xml:id="s481735" n="216">
+         <graphic url="http://unidam.univie.ac.at/id/481735"/>
+      </surface>
+      <surface xml:id="s481736" n="217">
+         <graphic url="http://unidam.univie.ac.at/id/481736"/>
+      </surface>
+      <surface xml:id="s481737" n="218">
+         <graphic url="http://unidam.univie.ac.at/id/481737"/>
+      </surface>
+      <surface xml:id="s481738" n="219">
+         <graphic url="http://unidam.univie.ac.at/id/481738"/>
+      </surface>
+      <surface xml:id="s481739" n="220">
+         <graphic url="http://unidam.univie.ac.at/id/481739"/>
+      </surface>
+      <surface xml:id="s481740" n="221">
+         <graphic url="http://unidam.univie.ac.at/id/481740"/>
+      </surface>
+      <surface xml:id="s481741" n="222">
+         <graphic url="http://unidam.univie.ac.at/id/481741"/>
+      </surface>
+      <surface xml:id="s481742" n="223">
+         <graphic url="http://unidam.univie.ac.at/id/481742"/>
+      </surface>
+      <surface xml:id="s481743" n="224">
+         <graphic url="http://unidam.univie.ac.at/id/481743"/>
+      </surface>
+      <surface xml:id="s481744" n="225">
+         <graphic url="http://unidam.univie.ac.at/id/481744"/>
+      </surface>
+      <surface xml:id="s481745" n="226">
+         <graphic url="http://unidam.univie.ac.at/id/481745"/>
+      </surface>
+      <surface xml:id="s481746" n="">
+         <graphic url="http://unidam.univie.ac.at/id/481746"/>
+      </surface>
+      <surface xml:id="s481747" n="228">
+         <graphic url="http://unidam.univie.ac.at/id/481747"/>
+      </surface>
+      <surface xml:id="s481748" n="Deckblatt hinten r">
+         <graphic url="http://unidam.univie.ac.at/id/481748"/>
+      </surface>
+      <surface xml:id="s481749" n="Deckblatt hinten v">
+         <graphic url="http://unidam.univie.ac.at/id/481749"/>
+      </surface>
+      <surface xml:id="s481750" n="Buchdeckel hinten r">
+         <graphic url="http://unidam.univie.ac.at/id/481750"/>
+      </surface>
+      <surface xml:id="s481751" n="Buchdeckel hinten v">
+         <graphic url="http://unidam.univie.ac.at/id/481751"/>
+      </surface>
+   </facsimile>
+</TEI>

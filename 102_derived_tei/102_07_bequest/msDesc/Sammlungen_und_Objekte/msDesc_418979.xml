@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Schriftsteller- und Handschriftenkatalog von Rheinau, Schriftstellerkatalog von Brauweiler</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">338</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 11 Faszikel 1 Nr. 22 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Schriftsteller- und Handschriftenkatalog von Rheinau, Schriftstellerkatalog von Brauweiler. Vgl. auch Bibliothekskatalog von Rheinau in Karton 7 Patres 10, Fasz. 8, Nr. 16.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–3v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>19. Jh.</date>
+                     <note>Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Rheinau: Rudolf HENGGELER, Monasticon-Benedictinum Helvetiae, 2: Profeßbuch der Benediktinerabteien Pfäfers, Rheinau, Fischingen (Zug 1931)</bibl>
+                     <bibl>Judith STEINMANN–Peter STOTZ, Rheinau, in: Helvetia Sacra, Abt. III: Die Orden mit Benediktinerregel, 1: Frühe Klöster, die Benediktiner und Benediktinerinnen in der Schweiz, Teil 2, hg. von Elsanne GILOMEN-SCHENKEL (Bern 1986) 1101–1165. Zu Iten: Gall HEER, Johannes Mabillon und die Schweizer Benediktiner. Ein Beitrag zur Geschichte der historischen Quellenforschung im 17. und 18. Jahrhundert (St. Gallen 1938). Zu Rheinauer Handschriften: Leo Cunibert MOHLBERG, Mittelalterliche Handschriften (Katalog der Handschriften der Zentralbibliothek Zürich 1, Zürich 1952). Zu Oederlin: Rudolf HENGGELER, Das Rheinauer Archiv in Einsiedeln, in: Archivalia et Historica. Arbeiten aus dem Gebiet der Geschichte und des Archivwesens. Festschrift für Prof. Dr. Anton Largadièr (Zürich 1958) 51–60. Zu Brauweiler: Erich WISPLINGHOFF, Die Benediktinerabtei Brauweiler (Germania Sacra N.F. 29: Die Bistümer der Kirchenprovinz Köln: Das Erzbistum Köln, Berlin 1992)</bibl>
+                     <bibl>Erich WISPLINGHOFF, Brauweiler, in: Germania Benedictina, 8: Die Benediktinerklöster in Nordrhein-Westfalen, hg. von Rhaban HAACKE (St. Ottilien 1980) 216–231.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s418979" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/418979"/>
+      </surface>
+      <surface xml:id="s418980" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/418980"/>
+      </surface>
+      <surface xml:id="s418981" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/418981"/>
+      </surface>
+      <surface xml:id="s418982" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/418982"/>
+      </surface>
+      <surface xml:id="s418983" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/418983"/>
+      </surface>
+      <surface xml:id="s418984" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/418984"/>
+      </surface>
+   </facsimile>
+</TEI>

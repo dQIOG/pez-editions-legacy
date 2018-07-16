@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Handschriften- und Bibliotheksnotizen zu Lilienfeld </title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">94</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres  09 Faszikel 1 Nr. 76 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Notizen "Adversaria litteraria admodum reverendorum religiosorum patrum Bernardi piae memoriae et Hieronymi Peziorum professorum Mellicensium, quae in Austriae cum Superioris tum Inferioris monasteriorum bibliothecis collegerunt. Ex bibliotheca Campililiensi". Bericht über Handschriften und (gegen Ende) gedruckte Benediktinerwerke, die in Lilienfeld vorhanden sind. Mit Anmerkungen für HP. Nicht von BP oder HP, möglicherweise  Schmid oder Haagn (beide Lilienfelder Professen des 18. Jh. und Pez-Korrespondenten).</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–6v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>nach 1735</date>
+                     <note>Nach Tod BP (1735), da Zusatz "piae memoriae".</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Schmid, Haagn: Eugen MÜLLER, Profeßbuch des Zisterzienserstiftes Lilienfeld (SMGB Erg.bd. 38, St. Ottilien 1996). Zu Lilienfelder Handschriften: Conrad SCHIMEK, Verzeichniss der Handschriften des Stiftes Lilienfeld, in: Die Handschriften-Verzeichnisse der Cistercienser-Stifte 1 (Xenia Bernardina II, Wien 1891) 481–561.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s410526" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/410526"/>
+      </surface>
+      <surface xml:id="s410527" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/410527"/>
+      </surface>
+      <surface xml:id="s410528" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/410528"/>
+      </surface>
+      <surface xml:id="s410529" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/410529"/>
+      </surface>
+      <surface xml:id="s410530" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/410530"/>
+      </surface>
+      <surface xml:id="s410531" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/410531"/>
+      </surface>
+      <surface xml:id="s410532" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/410532"/>
+      </surface>
+      <surface xml:id="s410533" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/410533"/>
+      </surface>
+      <surface xml:id="s410534" n="5r">
+         <graphic url="http://unidam.univie.ac.at/id/410534"/>
+      </surface>
+      <surface xml:id="s410535" n="5v">
+         <graphic url="http://unidam.univie.ac.at/id/410535"/>
+      </surface>
+      <surface xml:id="s410536" n="6r">
+         <graphic url="http://unidam.univie.ac.at/id/410536"/>
+      </surface>
+      <surface xml:id="s410537" n="6v">
+         <graphic url="http://unidam.univie.ac.at/id/410537"/>
+      </surface>
+   </facsimile>
+</TEI>

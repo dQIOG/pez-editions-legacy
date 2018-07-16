@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Exzerpte BPs aus Freind, Histoire de la Medicine; De la Croix-Du Maine, Bibliothèque; Rossoti, Syllabus</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">546</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 23 Faszikel 1 Nr. 45 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Exzerpte BPs aus Histoire de la Medicine pars III., traduit de l’Anglois par Jean FREIND (Paris 1728), François Grudé DE LA CROIX DU MAINE, Premier volume de la bibliothèque du sieur de La Croix-du-Maine (Paris 1584) und Andrea ROSSOTTI, Syllabus Pedemontium scriptorum (Mondovì 1667). Das Stück steht möglicherweise in Zusammenhang mit dem Paris-Aufenthalt BPs 1728.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>nach 1728</date>
+                     <note>BP exzerpiert aus Freind (Paris 1728).</note>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Werke</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s424775" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/424775"/>
+      </surface>
+      <surface xml:id="s424776" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/424776"/>
+      </surface>
+      <surface xml:id="s424777" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/424777"/>
+      </surface>
+      <surface xml:id="s424778" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/424778"/>
+      </surface>
+      <surface xml:id="s424779" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/424779"/>
+      </surface>
+      <surface xml:id="s424780" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/424780"/>
+      </surface>
+      <surface xml:id="s424781" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/424781"/>
+      </surface>
+      <surface xml:id="s424782" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/424782"/>
+      </surface>
+   </facsimile>
+</TEI>

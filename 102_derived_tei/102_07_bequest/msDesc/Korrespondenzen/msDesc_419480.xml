@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Briefauszüge: C. P. N. Hoffmann, Natzer, Rauch, Schwarz und J. W. Hoffmann an HP und BP </title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">354</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 11 Faszikel 1 Nr. 38 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Auszüge aus Briefen C.P.N. Hoffmann, Natzer, Rauch, Schwarz und J.W. Hoffmann an BP und HP, Hand Mayer. Datierungen teilweise irrig.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>19. Jh.</date>
+                     <note>Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Briefen Schwarz und Natzer an BP (die anderen hier angeführten Briefe kommen bei Glassner nicht vor): Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. Zu Briefen C.P.N. Hoffmann, Rauch, J.W. Hoffmann an HP (aus dessen Nachlass im Stiftsarchiv Melk): Irene RABL, Briefe an Hieronymus Pez OSB aus seinem Nachlass im Stiftsarchiv Melk, Karton 7/13: Verzeichnis und Kurzbiographien der Korrespondenzpartner. SMGB 122 (2011) 327–367.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Korrespondenzen</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s419480" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/419480"/>
+      </surface>
+      <surface xml:id="s419481" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/419481"/>
+      </surface>
+      <surface xml:id="s419482" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/419482"/>
+      </surface>
+      <surface xml:id="s419483" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/419483"/>
+      </surface>
+   </facsimile>
+</TEI>

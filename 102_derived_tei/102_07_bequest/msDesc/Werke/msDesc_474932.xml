@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Cod. Mell. 623: Hermannus Contractus</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">789</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno>Cod. 0623 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Cod. 623 (olim 1070) besteht aus mehreren [sechs], zusammengehörigen Teilen. Tintenpaginierung des Schreibers und moderne Bleistiftfoliierung (gültig). Schreiber Wydemann. Bei Glassner keine Nummerierung der Faszikel.</summary>
+                  <msItem n="1">
+                     <locus>1r–3v</locus>
+                     <bibl>
+                        <author>Leopold Wydemann</author> 
+                        <title>Epistola ad Bernardum Pez de martyrologio Hermanni Contracti</title> (Original, undatiert).</bibl>
+                  </msItem>
+                  <msItem n="2">
+                     <locus>4r–5v</locus>
+                     <bibl>
+                        <author>Stephan Bochenthaler (Bochenvallius)</author> 
+                        <title>Nota de martyrologio Canisii (= Notkeri)</title>. Diese Notiz bezieht sich auf die unten genannte Ausgabe des Martyrologiums Notkers.</bibl>
+                  </msItem>
+                  <msItem n="3">
+                     <locus>6r–76v</locus>
+                     <bibl>
+                        <author>Hermann von Reichenau</author> 
+                        <title>Martyrologium</title>. Aus dem vorliegenden Codex geht hervor, daß Leopold Wydemann bereits 150 Jahre vor Dümmler (vgl. Literaturfeld) die Beziehungen zwischen Notkers und Hermanns Martyrologium untersucht und die Zusätze Hermanns in ähnlicher Weise wie später Dümmler aufgelistet hatte. Mit Korrekturen am Rand und Quellenangaben Hand Wydemann. Kopiert ist nicht der ganze Text, häufig wird bei gleichem Wortlaut auf den Druck des Canisius (vgl. Literaturfeld) verwiesen. Die geplante Ausgabe durch BP wäre die Erstausgabe nach dieser Hs. gewesen. Vorlage nicht genannt. Aktueller Bibliotheksort und Signatur: Stuttgart WLB, Cod. theol. et phil. 2° 209, 1–109. Bearbeiter Wydemann.</bibl>
+                  </msItem>
+                  <msItem n="4">
+                     <locus>77r–96v (= Paginierung des Schreibers 1–</locus>
+                     <bibl>
+                        <author>"Supplementum martysologii Henrici Canisii seu Notkeri Balbuli ex vetustissimo Codice pergameno Zwifatensi". Mit Korrekturen am Rand. Vorlage: "Cod. Zwifaltensis". Aktueller Bibliotheksort und Signatur: Stuttgart WLB</author> Cod. theol. et phil. 2° 209.</bibl>
+                  </msItem>
+                  <msItem n="5">
+                     <locus>97r–98r</locus>
+                     <bibl>
+                        <author>Leopold Wydemann</author> 
+                        <title>Observatio in supplementum martyrologii Notkeri Balbuli a Canisio editi</title>. Bearbeiter Wydemann.</bibl>
+                  </msItem>
+                  <msItem n="6">
+                     <locus>99r–106r</locus>
+                     <bibl>
+                        <author>Leopold Wydemann</author> 
+                        <title>Singularia in Martyrologio Hermanni Contracti quae in Adone, Rhabano et Notkero non reperi</title>. Vgl. zu diesem ersten Eintrag auch Dümmler (vgl. Literaturfeld). Bearbeiter Wydemann. 107r–108v: Leopold Wydemann, <title>Singularia ex Martyrologio Hermanni Contracti</title>. Kopien der obigen Kurznotizen aus der Hs. Bearbeiter Wydemann.</bibl>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>Buchdeckel vorne r–v, Deckblatt vorne r–v, 1r–94v, 94ar–94av, 95r–108v, Deckblatt hinten r–v, Buchdeckel hinten r–v.
+</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>18. Jh.</date>
+                     <note>Laut Glassner, Neuzeitliche Handschriften (vgl. Literaturfeld) 1. Drittel 18. Jh.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Cod. 623: Christine GLASSNER, Neuzeitliche Handschriften aus dem Nachlass der Brüder Bernhard und Hieronymus Pez in der Bibliothek des Benediktinerstiftes Melk (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 372 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe IV 7, Wien 2008) [dort angeführte Literatur hier nur auszugsweise übernommen]. Zu Bochenthaler: Pirmin LINDNER, Fünf Professbücher süddeutscher Benediktiner-Abteien. Beiträge zu einem Monasticon-benedictinum Germaniae, 3: Professbuch der Benediktiner-Abtei Zwiefalten (Kempten–München 1910). Zu Wydemann: Thomas AIGNER, Gaming, in: Monasticon Cartusiense II, hg. von James HOGG–Alain GIRARD–Daniel LE BLÉVEC (Salzburg 2004) 82–86</bibl>
+                     <bibl>Heinrich ZEISSBERG, Zur Geschichte der Kartause Gaming. Archiv für Österreichische Geschichte 60 (1880) 562–596. Zu 3): Henricus CANISIUS, Antiquae Lectiones seu antiqua monumenta ad historiam mediae aetatis illustrandam nunquam edita VI. (Ingolstadt 1604)</bibl>
+                     <bibl>Ernst DÜMMLER, Das Martyrologium Notkers und seiner Verwandten. Forschungen zur deutschen Geschichte 25 (1885) 197–220</bibl>
+                     <bibl>Jaques-Paul MIGNE, Patrologiae Cursus completus, Series latina (221 Bde., Paris 1844–1855</bibl>
+                     <bibl>hier Bd. 131).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Werke</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s474932" n="Buchdeckel vorne r">
+         <graphic url="http://unidam.univie.ac.at/id/474932"/>
+      </surface>
+      <surface xml:id="s474933" n="Buchdeckel vorne v">
+         <graphic url="http://unidam.univie.ac.at/id/474933"/>
+      </surface>
+      <surface xml:id="s474934" n="Deckblatt vorne r">
+         <graphic url="http://unidam.univie.ac.at/id/474934"/>
+      </surface>
+      <surface xml:id="s474935" n="Deckblatt vorne v">
+         <graphic url="http://unidam.univie.ac.at/id/474935"/>
+      </surface>
+      <surface xml:id="s474946" n="6r">
+         <graphic url="http://unidam.univie.ac.at/id/474946"/>
+      </surface>
+      <surface xml:id="s474947" n="6v">
+         <graphic url="http://unidam.univie.ac.at/id/474947"/>
+      </surface>
+      <surface xml:id="s474948" n="7r">
+         <graphic url="http://unidam.univie.ac.at/id/474948"/>
+      </surface>
+      <surface xml:id="s474949" n="7v">
+         <graphic url="http://unidam.univie.ac.at/id/474949"/>
+      </surface>
+      <surface xml:id="s474950" n="8r">
+         <graphic url="http://unidam.univie.ac.at/id/474950"/>
+      </surface>
+      <surface xml:id="s474951" n="8v">
+         <graphic url="http://unidam.univie.ac.at/id/474951"/>
+      </surface>
+      <surface xml:id="s474952" n="9r">
+         <graphic url="http://unidam.univie.ac.at/id/474952"/>
+      </surface>
+      <surface xml:id="s474953" n="9v">
+         <graphic url="http://unidam.univie.ac.at/id/474953"/>
+      </surface>
+      <surface xml:id="s475061" n="63v">
+         <graphic url="http://unidam.univie.ac.at/id/475061"/>
+      </surface>
+      <surface xml:id="s475062" n="64r">
+         <graphic url="http://unidam.univie.ac.at/id/475062"/>
+      </surface>
+      <surface xml:id="s475063" n="64v">
+         <graphic url="http://unidam.univie.ac.at/id/475063"/>
+      </surface>
+      <surface xml:id="s475064" n="65r">
+         <graphic url="http://unidam.univie.ac.at/id/475064"/>
+      </surface>
+      <surface xml:id="s475065" n="65v">
+         <graphic url="http://unidam.univie.ac.at/id/475065"/>
+      </surface>
+      <surface xml:id="s475066" n="66r">
+         <graphic url="http://unidam.univie.ac.at/id/475066"/>
+      </surface>
+      <surface xml:id="s475067" n="66v">
+         <graphic url="http://unidam.univie.ac.at/id/475067"/>
+      </surface>
+      <surface xml:id="s475068" n="67r">
+         <graphic url="http://unidam.univie.ac.at/id/475068"/>
+      </surface>
+      <surface xml:id="s475069" n="67v">
+         <graphic url="http://unidam.univie.ac.at/id/475069"/>
+      </surface>
+      <surface xml:id="s475070" n="68r">
+         <graphic url="http://unidam.univie.ac.at/id/475070"/>
+      </surface>
+      <surface xml:id="s475071" n="68v">
+         <graphic url="http://unidam.univie.ac.at/id/475071"/>
+      </surface>
+      <surface xml:id="s475072" n="69r">
+         <graphic url="http://unidam.univie.ac.at/id/475072"/>
+      </surface>
+      <surface xml:id="s475073" n="69v">
+         <graphic url="http://unidam.univie.ac.at/id/475073"/>
+      </surface>
+      <surface xml:id="s475074" n="70r">
+         <graphic url="http://unidam.univie.ac.at/id/475074"/>
+      </surface>
+      <surface xml:id="s475075" n="70v">
+         <graphic url="http://unidam.univie.ac.at/id/475075"/>
+      </surface>
+      <surface xml:id="s475076" n="71r">
+         <graphic url="http://unidam.univie.ac.at/id/475076"/>
+      </surface>
+      <surface xml:id="s475077" n="71v">
+         <graphic url="http://unidam.univie.ac.at/id/475077"/>
+      </surface>
+      <surface xml:id="s475078" n="72r">
+         <graphic url="http://unidam.univie.ac.at/id/475078"/>
+      </surface>
+      <surface xml:id="s475079" n="72v">
+         <graphic url="http://unidam.univie.ac.at/id/475079"/>
+      </surface>
+      <surface xml:id="s475080" n="73r">
+         <graphic url="http://unidam.univie.ac.at/id/475080"/>
+      </surface>
+      <surface xml:id="s475081" n="73v">
+         <graphic url="http://unidam.univie.ac.at/id/475081"/>
+      </surface>
+      <surface xml:id="s475082" n="74r">
+         <graphic url="http://unidam.univie.ac.at/id/475082"/>
+      </surface>
+      <surface xml:id="s475083" n="74v">
+         <graphic url="http://unidam.univie.ac.at/id/475083"/>
+      </surface>
+      <surface xml:id="s475084" n="75r">
+         <graphic url="http://unidam.univie.ac.at/id/475084"/>
+      </surface>
+      <surface xml:id="s475085" n="75v">
+         <graphic url="http://unidam.univie.ac.at/id/475085"/>
+      </surface>
+      <surface xml:id="s475086" n="76r">
+         <graphic url="http://unidam.univie.ac.at/id/475086"/>
+      </surface>
+      <surface xml:id="s475087" n="76v">
+         <graphic url="http://unidam.univie.ac.at/id/475087"/>
+      </surface>
+      <surface xml:id="s475088" n="77r">
+         <graphic url="http://unidam.univie.ac.at/id/475088"/>
+      </surface>
+      <surface xml:id="s475089" n="77v">
+         <graphic url="http://unidam.univie.ac.at/id/475089"/>
+      </surface>
+      <surface xml:id="s475090" n="78r">
+         <graphic url="http://unidam.univie.ac.at/id/475090"/>
+      </surface>
+      <surface xml:id="s475091" n="78v">
+         <graphic url="http://unidam.univie.ac.at/id/475091"/>
+      </surface>
+      <surface xml:id="s475092" n="79r">
+         <graphic url="http://unidam.univie.ac.at/id/475092"/>
+      </surface>
+      <surface xml:id="s475093" n="79v">
+         <graphic url="http://unidam.univie.ac.at/id/475093"/>
+      </surface>
+      <surface xml:id="s475094" n="80r">
+         <graphic url="http://unidam.univie.ac.at/id/475094"/>
+      </surface>
+      <surface xml:id="s475095" n="80v">
+         <graphic url="http://unidam.univie.ac.at/id/475095"/>
+      </surface>
+      <surface xml:id="s475096" n="81r">
+         <graphic url="http://unidam.univie.ac.at/id/475096"/>
+      </surface>
+      <surface xml:id="s475097" n="81v">
+         <graphic url="http://unidam.univie.ac.at/id/475097"/>
+      </surface>
+      <surface xml:id="s475098" n="82r">
+         <graphic url="http://unidam.univie.ac.at/id/475098"/>
+      </surface>
+      <surface xml:id="s475099" n="82v">
+         <graphic url="http://unidam.univie.ac.at/id/475099"/>
+      </surface>
+      <surface xml:id="s475100" n="83r">
+         <graphic url="http://unidam.univie.ac.at/id/475100"/>
+      </surface>
+      <surface xml:id="s475101" n="83v">
+         <graphic url="http://unidam.univie.ac.at/id/475101"/>
+      </surface>
+      <surface xml:id="s475102" n="84r">
+         <graphic url="http://unidam.univie.ac.at/id/475102"/>
+      </surface>
+      <surface xml:id="s475103" n="84v">
+         <graphic url="http://unidam.univie.ac.at/id/475103"/>
+      </surface>
+      <surface xml:id="s475104" n="85r">
+         <graphic url="http://unidam.univie.ac.at/id/475104"/>
+      </surface>
+      <surface xml:id="s475105" n="85v">
+         <graphic url="http://unidam.univie.ac.at/id/475105"/>
+      </surface>
+      <surface xml:id="s475106" n="86r">
+         <graphic url="http://unidam.univie.ac.at/id/475106"/>
+      </surface>
+      <surface xml:id="s475107" n="86v">
+         <graphic url="http://unidam.univie.ac.at/id/475107"/>
+      </surface>
+      <surface xml:id="s475108" n="87r">
+         <graphic url="http://unidam.univie.ac.at/id/475108"/>
+      </surface>
+      <surface xml:id="s475109" n="87v">
+         <graphic url="http://unidam.univie.ac.at/id/475109"/>
+      </surface>
+      <surface xml:id="s475110" n="88r">
+         <graphic url="http://unidam.univie.ac.at/id/475110"/>
+      </surface>
+      <surface xml:id="s475111" n="88v">
+         <graphic url="http://unidam.univie.ac.at/id/475111"/>
+      </surface>
+      <surface xml:id="s475112" n="89r">
+         <graphic url="http://unidam.univie.ac.at/id/475112"/>
+      </surface>
+      <surface xml:id="s475113" n="89v">
+         <graphic url="http://unidam.univie.ac.at/id/475113"/>
+      </surface>
+      <surface xml:id="s475114" n="90r">
+         <graphic url="http://unidam.univie.ac.at/id/475114"/>
+      </surface>
+      <surface xml:id="s475115" n="90v">
+         <graphic url="http://unidam.univie.ac.at/id/475115"/>
+      </surface>
+      <surface xml:id="s475116" n="91r">
+         <graphic url="http://unidam.univie.ac.at/id/475116"/>
+      </surface>
+      <surface xml:id="s475117" n="91v">
+         <graphic url="http://unidam.univie.ac.at/id/475117"/>
+      </surface>
+      <surface xml:id="s475118" n="92r">
+         <graphic url="http://unidam.univie.ac.at/id/475118"/>
+      </surface>
+      <surface xml:id="s475119" n="92v">
+         <graphic url="http://unidam.univie.ac.at/id/475119"/>
+      </surface>
+      <surface xml:id="s475120" n="93r">
+         <graphic url="http://unidam.univie.ac.at/id/475120"/>
+      </surface>
+      <surface xml:id="s475121" n="93v">
+         <graphic url="http://unidam.univie.ac.at/id/475121"/>
+      </surface>
+      <surface xml:id="s475122" n="94r">
+         <graphic url="http://unidam.univie.ac.at/id/475122"/>
+      </surface>
+      <surface xml:id="s475123" n="94v">
+         <graphic url="http://unidam.univie.ac.at/id/475123"/>
+      </surface>
+      <surface xml:id="s475124" n="94ar">
+         <graphic url="http://unidam.univie.ac.at/id/475124"/>
+      </surface>
+      <surface xml:id="s475125" n="94av">
+         <graphic url="http://unidam.univie.ac.at/id/475125"/>
+      </surface>
+      <surface xml:id="s475126" n="95r">
+         <graphic url="http://unidam.univie.ac.at/id/475126"/>
+      </surface>
+      <surface xml:id="s475127" n="95v">
+         <graphic url="http://unidam.univie.ac.at/id/475127"/>
+      </surface>
+      <surface xml:id="s475128" n="96r">
+         <graphic url="http://unidam.univie.ac.at/id/475128"/>
+      </surface>
+      <surface xml:id="s475129" n="96v">
+         <graphic url="http://unidam.univie.ac.at/id/475129"/>
+      </surface>
+      <surface xml:id="s475130" n="97r">
+         <graphic url="http://unidam.univie.ac.at/id/475130"/>
+      </surface>
+      <surface xml:id="s475131" n="97v">
+         <graphic url="http://unidam.univie.ac.at/id/475131"/>
+      </surface>
+      <surface xml:id="s475132" n="98r">
+         <graphic url="http://unidam.univie.ac.at/id/475132"/>
+      </surface>
+      <surface xml:id="s475133" n="98v">
+         <graphic url="http://unidam.univie.ac.at/id/475133"/>
+      </surface>
+      <surface xml:id="s475134" n="99r">
+         <graphic url="http://unidam.univie.ac.at/id/475134"/>
+      </surface>
+      <surface xml:id="s475135" n="99v">
+         <graphic url="http://unidam.univie.ac.at/id/475135"/>
+      </surface>
+      <surface xml:id="s475154" n="Deckblatt hinten r">
+         <graphic url="http://unidam.univie.ac.at/id/475154"/>
+      </surface>
+      <surface xml:id="s475155" n="Deckblatt hinten v">
+         <graphic url="http://unidam.univie.ac.at/id/475155"/>
+      </surface>
+      <surface xml:id="s475156" n="Buchdeckel hinten r">
+         <graphic url="http://unidam.univie.ac.at/id/475156"/>
+      </surface>
+      <surface xml:id="s475157" n="Buchdeckel hinten v">
+         <graphic url="http://unidam.univie.ac.at/id/475157"/>
+      </surface>
+   </facsimile>
+</TEI>

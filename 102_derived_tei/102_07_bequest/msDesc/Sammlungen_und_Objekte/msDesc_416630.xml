@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Bibliographische Notizen mit Verweisen auf (Melker) Handschriften</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">262</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 10 Faszikel 8 Nr. 01 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Bibliographische Notizen mit Verweisen auf Melker Handschriften des Mittelalters, zum Teil geodnet nach Autoren. Der Bezug zu Melk ergibt sich einerseits aus dem Zusatz "Mellic." bei den Signaturen der Handschriften, andererseits aus dem Vermerk "Mellicensia" von einer Hand um 1900 auf fol. 5v. </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–5v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Melker Handschriften bis 1400: Christine GLASSNER–Alois HAIDINGER, Inventar der Handschriften des Benediktinerstiftes Melk, Teil 1: Von den Anfängen bis ca. 1400 (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 285 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe II 8/1, 2 Bde., Wien 2000).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s416630" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/416630"/>
+      </surface>
+      <surface xml:id="s416631" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/416631"/>
+      </surface>
+      <surface xml:id="s416632" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/416632"/>
+      </surface>
+      <surface xml:id="s416633" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/416633"/>
+      </surface>
+      <surface xml:id="s416634" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/416634"/>
+      </surface>
+      <surface xml:id="s416635" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/416635"/>
+      </surface>
+      <surface xml:id="s416636" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/416636"/>
+      </surface>
+      <surface xml:id="s416637" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/416637"/>
+      </surface>
+      <surface xml:id="s416638" n="5r">
+         <graphic url="http://unidam.univie.ac.at/id/416638"/>
+      </surface>
+      <surface xml:id="s416639" n="5v">
+         <graphic url="http://unidam.univie.ac.at/id/416639"/>
+      </surface>
+   </facsimile>
+</TEI>

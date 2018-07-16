@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Abschrift von "De partibus divinae legis legis libri II" aus einer Handschrift aus St.-Vincent zu Laon </title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">323</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 11 Faszikel 1 Nr. 07 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Abschrift des Briefes Junilius Africanus an Bischof Primasius, der dem ersten Kapitel "De partibus divinae legis legis libri II" seines Buches "Instituta regularia divinae legis" vorangestellt ist. Das Werk hat Junilius Africanus diesem Bischof gewidmet. Abschrift aus Cod. 463.5 (12. Jh.) aus dem Kloster St.-Vincent zu Laon, Hand Mayer.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>19. Jh.</date>
+                     <note>Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Edition mit englischer Übersetzung: Michael MAAS, Exegesis and empire in the early Byzantine mediterranean (Studien und Texte zu Antike und Christentum 17, Tübingen 2003).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s418872" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/418872"/>
+      </surface>
+      <surface xml:id="s418873" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/418873"/>
+      </surface>
+      <surface xml:id="s418874" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/418874"/>
+      </surface>
+      <surface xml:id="s418875" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/418875"/>
+      </surface>
+   </facsimile>
+</TEI>

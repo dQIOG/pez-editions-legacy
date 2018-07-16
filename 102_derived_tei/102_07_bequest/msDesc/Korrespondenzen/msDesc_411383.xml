@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Briefabschrift: BP an NN </title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">165</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres  09 Faszikel 2 Nr. 65 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Briefabschrift BP an NN (Abdinghof; 1710-02-27). Dazu eine Liste "Catalogus monasteriorum congregationis Bursfeldensis, quorum ideas et historias ad manus habeo; reliqua desiderantur". Aus Staatsarchiv Münster, Msc. VII-5212: Verschiedene Korrespondenzen, 1589-1797 (Vorlage heute verschollen). Vgl. Briefabschrift mit ähnlichem Inhalt in Karton 7 Patres 9, Fasz. 2, Nr. 63.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–3v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>19. Jh.</date>
+                     <note/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Korrespondenzen</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s411383" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/411383"/>
+      </surface>
+      <surface xml:id="s411384" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/411384"/>
+      </surface>
+      <surface xml:id="s411385" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/411385"/>
+      </surface>
+      <surface xml:id="s411386" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/411386"/>
+      </surface>
+      <surface xml:id="s411387" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/411387"/>
+      </surface>
+      <surface xml:id="s411388" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/411388"/>
+      </surface>
+   </facsimile>
+</TEI>

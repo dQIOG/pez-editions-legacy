@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Manuskript: "De coenobio Mellicensi OSB in Austria notatu digniora"</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">230</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 07 Patres 10 Faszikel 3 Nr. 33 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Manuskript zur Geschichte des Benediktinerklosters Melk, beginnend mit der Gründung. Zitiert werden: HP, Scriptores rerum Austriacarum (3 Bde., Leipzig 1721–1725, Regensburg 1745), HP, Historia S. Leopoldi (Wien 1747), Schramb, Chronicon Mellicense (Wien 1702) sowie P. Hueber, Austria ex archivis Mellicensibus illustrata (Leipzig 1722).</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–4v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>nach 1764</date>
+                     <note>Letzte Eintragung zu 1764.</note>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s413101" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/413101"/>
+      </surface>
+      <surface xml:id="s413102" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/413102"/>
+      </surface>
+      <surface xml:id="s413103" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/413103"/>
+      </surface>
+      <surface xml:id="s413104" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/413104"/>
+      </surface>
+      <surface xml:id="s413105" n="3r">
+         <graphic url="http://unidam.univie.ac.at/id/413105"/>
+      </surface>
+      <surface xml:id="s413106" n="3v">
+         <graphic url="http://unidam.univie.ac.at/id/413106"/>
+      </surface>
+      <surface xml:id="s413107" n="4r">
+         <graphic url="http://unidam.univie.ac.at/id/413107"/>
+      </surface>
+      <surface xml:id="s413108" n="4v">
+         <graphic url="http://unidam.univie.ac.at/id/413108"/>
+      </surface>
+   </facsimile>
+</TEI>

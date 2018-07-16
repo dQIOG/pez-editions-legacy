@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Bibliographische Notizen zum Benediktinerorden</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">650</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 25 Faszikel 1 Nr. 46 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Bibliographische Notizen, alphabetisch geordnet nach dem Nachnamen der Autoren, zum Benediktinerorden mit dem Titel: "Catalogus eorum virorum, qui de ordine sancti Benedicti scripserunt". Auf 2v Vermerk "Ad litteram ex Lipenio descriptus", also Exzerpte bzw. Abschriften aus einem Werk von Martin Lipenius. </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1r–2v.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>nach 1681</date>
+                     <note>Jüngster Eintrag aus 1681.</note>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Sammlungen und Objekte</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s430127" n="1r">
+         <graphic url="http://unidam.univie.ac.at/id/430127"/>
+      </surface>
+      <surface xml:id="s430128" n="1v">
+         <graphic url="http://unidam.univie.ac.at/id/430128"/>
+      </surface>
+      <surface xml:id="s430129" n="2r">
+         <graphic url="http://unidam.univie.ac.at/id/430129"/>
+      </surface>
+      <surface xml:id="s430130" n="2v">
+         <graphic url="http://unidam.univie.ac.at/id/430130"/>
+      </surface>
+   </facsimile>
+</TEI>

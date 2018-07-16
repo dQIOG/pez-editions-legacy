@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Handschriftennotizen, Exzerpte BPs zur Bibliotheca Benedictina aus Thuillier, "Collectaneen"</title>
+            <title type="sub">Digital Manuscript description</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Center for Digital Humanities</publisher>
+            <idno type="unidam-verz_einh">542</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de">
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Melk</settlement>
+                  <institution>Benediktiner-Stift</institution>
+                  <repository>Stiftsarchiv</repository>
+                  <idno>Kt. 85 Varia 23 Faszikel 1 Nr. 41 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Handschriftennotizen BPs zu französischen und belgischen, klösterlichen (Benediktiner, Zisterzienser) Bibliotheken, zusammengestellt und exzerpiert aus den von Antoine-Vincent Thuillier angelegten "Collectaneen" für eine "Bibliotheca Benedictina". Diese literaturgeschichtlichen Arbeiten Thuilliers stehen in Zusammenhang mit den Arbeiten Massuets, die dieser in einem Brief an BP (1712-11-10) erwähnt. Am Ende wahrscheinlich unvollständig. Möglicherweise in Verbindung mit BPs Paris-Aufenthalt 1728.</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>1–8.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <note>Undatiert.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Zu Maurinern: Yves CHAUSSY, Matricula Monachorum Professorum Congregationis S. Mauri in Gallia Ordinis Sancti Patris Benedicti (Bibliothèque d’histoire et d’archéologie chrétiennes, Paris 1959)</bibl>
+                     <bibl>Jean-Baptiste VANEL, Les Bénédictins de Saint-Maur à Saint-Germain-des-Prés 1630–1792. Nécrologe des religieux de la Congrégation de Saint-Maur décédés à l’Abbaye de Saint-Germain-des-Prés (Paris 1896). Zu Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <classCode scheme="RNA">Werke</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="s424735" n="1">
+         <graphic url="http://unidam.univie.ac.at/id/424735"/>
+      </surface>
+      <surface xml:id="s424736" n="2">
+         <graphic url="http://unidam.univie.ac.at/id/424736"/>
+      </surface>
+      <surface xml:id="s424737" n="3">
+         <graphic url="http://unidam.univie.ac.at/id/424737"/>
+      </surface>
+      <surface xml:id="s424738" n="4">
+         <graphic url="http://unidam.univie.ac.at/id/424738"/>
+      </surface>
+      <surface xml:id="s424739" n="5">
+         <graphic url="http://unidam.univie.ac.at/id/424739"/>
+      </surface>
+      <surface xml:id="s424740" n="6">
+         <graphic url="http://unidam.univie.ac.at/id/424740"/>
+      </surface>
+      <surface xml:id="s424741" n="7">
+         <graphic url="http://unidam.univie.ac.at/id/424741"/>
+      </surface>
+      <surface xml:id="s424742" n="8">
+         <graphic url="http://unidam.univie.ac.at/id/424742"/>
+      </surface>
+   </facsimile>
+</TEI>

@@ -10,7 +10,7 @@
     version="3.0">
     <xsl:output method="xml" indent="yes"/>
     
-    <xsl:param name="base-url" select="concat('https://',$user,':',$password,'@redmine.acdh.oeaw.ac.at/issues/')"/>
+    <xsl:param name="base-url" select="concat('https://',$redmine-user,':',$password,'@redmine.acdh.oeaw.ac.at/issues/')"/>
     
     
     <xsl:function name="_:get-md" as="item()?" xpath-default-namespace="">
