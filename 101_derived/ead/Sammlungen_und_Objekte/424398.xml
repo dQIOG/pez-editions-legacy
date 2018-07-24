@@ -13,32 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz1">Faszikel 1</container>
+      <unitid>Nr. 23</unitid>
       <unittitle>Bibliographische Notizen zu Seidel</unittitle>
-      <unitdate>1717</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/424398.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1" href="524/424398.tif"/>
-         <dao daotype="derived" coverage="whole" label="10" href="524/424407.tif"/>
-         <dao daotype="derived" coverage="whole" label="11" href="524/424408.tif"/>
-         <dao daotype="derived" coverage="whole" label="12" href="524/424409.tif"/>
-         <dao daotype="derived" coverage="whole" label="13" href="524/424410.tif"/>
-         <dao daotype="derived" coverage="whole" label="14" href="524/424411.tif"/>
-         <dao daotype="derived" coverage="whole" label="15" href="524/424412.tif"/>
-         <dao daotype="derived" coverage="whole" label="16" href="524/424413.tif"/>
-         <dao daotype="derived" coverage="whole" label="17" href="524/424414.tif"/>
-         <dao daotype="derived" coverage="whole" label="18" href="524/424415.tif"/>
-         <dao daotype="derived" coverage="whole" label="19" href="524/424416.tif"/>
-         <dao daotype="derived" coverage="whole" label="2" href="524/424399.tif"/>
-         <dao daotype="derived" coverage="whole" label="20" href="524/424417.tif"/>
-         <dao daotype="derived" coverage="whole" label="3" href="524/424400.tif"/>
-         <dao daotype="derived" coverage="whole" label="4" href="524/424401.tif"/>
-         <dao daotype="derived" coverage="whole" label="5" href="524/424402.tif"/>
-         <dao daotype="derived" coverage="whole" label="6" href="524/424403.tif"/>
-         <dao daotype="derived" coverage="whole" label="7" href="524/424404.tif"/>
-         <dao daotype="derived" coverage="whole" label="8" href="524/424405.tif"/>
-         <dao daotype="derived" coverage="whole" label="9" href="524/424406.tif"/>
-      </daoset>
    </did>
 
 
@@ -59,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Hueber</part>
          <part localtype="vorname">Alphons</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Seidel</part>
          <part localtype="vorname">Wolfgang</part>
       </persname>
@@ -77,11 +57,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/809501-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Tegernsee</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3551</part>
+         <part localtype="identifier">http://d-nb.info/gnd/809501-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/139580416</part>
+         <part localtype="identifier">http://www.geonames.org/2823679/tegernsee.html</part>
       </corpname>
    </controlaccess>
 
@@ -98,10 +82,7 @@
       <head>Beschreibung</head>
       <p>Aufstellungen des Inhalts von acht Handschriften Seidels (Sedelius): BStB München, clm 18682, clm 18683, clm 18695, clm 18687, clm 18688, clm 18690, clm 18692, cgm 4304. Hand Hueber. Auf S. 19 Hinweis, dass an BP versandt, Beilage zu Brief Hueber an BP (1717-09-12).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Seidel: Nikolaus PAULUS, Der Benediktiner Wolfgang Seidl. Ein bayerischer Gelehrter des 16. Jahrhunderts. Historisch-politische Blätter für das katholische Deutschland 113 (1894) 165–185; Hubert PÖHLEIN, Wolfgang Seidel 1492–1562. Benediktiner aus Tegernsee, Prediger zu München. Sein Leben und sein Werk (Münchner Theologische Studien, Abt. 1: Historische Abteilung 2, München 1951). Zu Tegernseer Handschriften: Christine Elisabeth EDER, Die Schule des Klosters Tegernsee im frühen Mittelalter im Spiegel der Tegernseer Handschriften. SMGB 83 (1972) 6–155; Karl HALM–Friedrich KEINZ–Wilhelm MEYER–Georg THOMAS, Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis, 4/3: Catalogus codicum Latinorum Bibliothecae Regiae Monacensis. Secundum Andreae Schmelleri Indices, 2/3: Codices num. 15121–21313 complectens (München 1878); Ignaz HARDT, Catalogus codicum manuscriptorum Graecorum Bibliothecae Regiae Bavaricae, 4: Cod. 348 bis 472 (München 1810). Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 

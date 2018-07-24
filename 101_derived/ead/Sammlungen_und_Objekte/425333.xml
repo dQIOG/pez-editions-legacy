@@ -13,36 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz2">Faszikel 2</container>
+      <unitid>Nr. 08</unitid>
       <unittitle>Werkskatalog des Trithemius; Abschrift</unittitle>
-      <unitdate>um 1900</unitdate>
       <didnote localtype="datenote">In Zusammenhang mit der Pez-Forschung um 1900.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/425333.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="566/425333.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="566/425351.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="566/425352.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="566/425353.tif"/>
-         <dao daotype="derived" coverage="whole" label="11v" href="566/425354.tif"/>
-         <dao daotype="derived" coverage="whole" label="12r" href="566/425355.tif"/>
-         <dao daotype="derived" coverage="whole" label="12v" href="566/425356.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="566/425334.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="566/425335.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="566/425336.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="566/425337.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="566/425338.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="566/425339.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="566/425340.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="566/425341.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="566/425342.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="566/425343.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="566/425344.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="566/425345.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="566/425346.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="566/425347.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="566/425348.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="566/425349.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="566/425350.tif"/>
-      </daoset>
    </did>
 
 
@@ -66,7 +42,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
@@ -80,11 +56,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -93,10 +73,7 @@
       <head>Beschreibung</head>
       <p>Werkskatalog des Trithemius mit dem Titel: "Libri Trithemii in annorum classes distributi iuxta computum continuatoris Chronici Sponheimensis". Nach dem Erscheinungs- bzw. Fertigstellungsjahr geordnet, beginnend 1484. Ab fol. 10r Abschrift des Werkskatalogs aus spätem 19. bzw. frühen 20. Jahrhundert, Hand Mayer.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Trithemius: Klaus ARNOLD, Johannes Trithemius (1462–1516) (Quellen und Forschungen zur Geschichte des Bistums und Hochstifts Würzburg 23, Würzburg 1991); Ivo FISCHER, Der Nachlaß des Abtes Johannes Trithemius von St. Jakob in Würzburg. Archiv des Historischen Vereins von Unterfranken und Aschaffenburg 67 (1928) 41–82.</p>
-   </bibliography>
+
 
 
 

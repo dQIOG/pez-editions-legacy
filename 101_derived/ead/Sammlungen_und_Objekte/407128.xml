@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 12</unitid>
       <unittitle>Exzerpt zu Schannat aus Wegele, Historiographie</unittitle>
-      <unitdate>um 1900</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung um 1900.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/407128.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="29/407128.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="29/407129.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="29/407130.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="29/407131.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Schannat</part>
          <part localtype="vorname">Johann Friedrich</part>
       </persname>
@@ -60,17 +56,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4074038-9" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bursfelder Kongregation</part>
          <part>Fulda</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/30121</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4074038-9</part>
+         <part localtype="identifier">http://viaf.org/viaf/237710601</part>
+         <part localtype="identifier">http://www.geonames.org/2923822/fulda.html</part>
       </corpname>
    </controlaccess>
 
@@ -79,10 +83,7 @@
       <head>Beschreibung</head>
       <p>Exzerpt  zu Schannat aus Franz Xaver WEGELE, Geschichte der deutschen Historiographie seit dem Auftreten des Humanismus (Geschichte der Wissenschaften in Deutschland. Neuere Zeit 20, München–Leipzig 1885). Teilweise in Kurzschrift. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p/>
-   </bibliography>
+
 
 
 

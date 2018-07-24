@@ -13,18 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz1">Faszikel 1</container>
+      <unitid>Nr. 20</unitid>
       <unittitle>Handschriftennotizen zu St. Gallen</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/424301.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="521/424301.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="521/424302.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="521/424303.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="521/424304.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="521/424305.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="521/424306.tif"/>
-      </daoset>
    </did>
 
 
@@ -53,11 +47,14 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1088891446" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Helvetische Kongregation</part>
          <part>St. Gallen</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1088891446</part>
+         <part localtype="identifier">http://viaf.org/viaf/266765811</part>
+         <part localtype="identifier">http://www.geonames.org/2658822/sankt-gallen.html</part>
       </corpname>
    </controlaccess>
 
@@ -66,10 +63,7 @@
       <head>Beschreibung</head>
       <p>Notizen zu St. Galler Handschriften, unterteilt in die Gebiete Hagiographie, Gesetzestexte, Metrik und Grammatik. Vermerk auf fol. 3v: "Ballet 1 fl. 12 x.".</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu St. Gallen: Rudolf HENGGELER, Monasticon-Benedictinum Helvetiae, 1: Profeßbuch der fürstlichen Benediktinerabtei der Heiligen Gallus und Otmar zu St. Gallen (Zug o.J. [1929]). Zu St. Galler Handschriften: Gustav SCHERRER, Verzeichniss der Handschriften der Stiftsbibliothek von St. Gallen (Halle 1875).</p>
-   </bibliography>
+
 
 
 

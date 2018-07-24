@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 32</unitid>
       <unittitle>Abschrift des Epitaphs von Abt Konrad; Regest eines Privilegs Ottokars für Mondsee</unittitle>
-      <unitdate>Anfang 19. Jh.</unitdate>
       <didnote localtype="datenote">Hand des frühen 19. Jh.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/413090.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="229/413090.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="229/413091.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,19 +39,19 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Konrad von Mondsee</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Massuet</part>
          <part localtype="vorname">René</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name"/>
          <part localtype="vorname">Ottokar II.</part>
       </persname>
@@ -70,17 +68,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4402803-9" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Mondsee</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/4037</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4402803-9</part>
+         <part localtype="identifier">http://viaf.org/viaf/262264489</part>
+         <part localtype="identifier">http://www.geonames.org/2771278/mondsee.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -102,10 +108,7 @@
       <head>Beschreibung</head>
       <p>Abschrift des Epitaphs von Abt Konrad (gest. 1145) aus einer Mondseer Handschrift des 12. Jh. (möglicherweise handelt es sich hierbei um ÖNB Wien, Cod. 791, worin sich auf fol. 117v das Epitaph des Abtes befindet) und Regest eines Privilegs Ottokars für Mondsee. BP berichtet Massuet in einem Brief von 1711-01-25 von dem Material, das er aus Mondsee erhalten hat, dabei könnte es sich um das Original zu dieser Abschrift handeln. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mondsee: Georg HEILINGSETZER, Mondsee, in: Germania Benedictina, 3/2: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2001) 874–923; Pirmin LINDNER, Das Profeßbuch der Benediktinerabtei Mondsee. Archiv für die Geschichte der Diözese Linz. Beilage zum Linzer Diözesanblatt 2 (1905) 133–199. Zur Korrespondenz: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). Zum Cod. 791: Tabulae codicum manu scriptorum praeter graecos et orientales in Bibliotheca Palatina Vindobonensi asservatorum, 1: Cod. 1–2000, ed. Academia Caesarea Vindobonensis (Wien 1864). Ergänzungen zu Cod. 791 online von Andreas FINGERNAGEL und Friedrich SIMADER: http://www.onb.ac.at.</p>
-   </bibliography>
+
 
 
 

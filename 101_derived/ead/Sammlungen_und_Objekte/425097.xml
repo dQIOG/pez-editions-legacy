@@ -13,22 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz1">Faszikel 1</container>
+      <unitid>Nr. 54</unitid>
       <unittitle>Schriftstellerkatalog zu Weihenstephan</unittitle>
-      <unitdate>1716</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/425097.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="555/425097.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="555/425098.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="555/425099.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="555/425100.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="555/425101.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="555/425102.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="555/425103.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="555/425104.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="555/425105.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="555/425106.tif"/>
-      </daoset>
    </did>
 
 
@@ -49,47 +39,47 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Eberhard II. von Weihenstephan</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Kiener</part>
          <part localtype="vorname">Benedikt</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Junghans</part>
          <part localtype="vorname">Korbinian</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Naisl</part>
          <part localtype="vorname">Ämilian</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Konrad II. von Weihenstephan</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Christoph Schleicher</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Karrer</part>
          <part localtype="vorname">Thomas</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Feichtmayr</part>
          <part localtype="vorname">Sixtus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Mayr</part>
          <part localtype="vorname">Daniel</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Maurus von Weihenstephan</part>
       </persname>
@@ -106,17 +96,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/16189197-4" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Weihenstephan</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60151</part>
+         <part localtype="identifier">http://d-nb.info/gnd/16189197-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/191597759</part>
+         <part localtype="identifier">http://www.geonames.org/2812833/weihenstephan.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -133,10 +131,7 @@
       <head>Beschreibung</head>
       <p>Schriftstellerkatalog von Weihenstephan, Hand Junghans. Beilage zu Brief Junghans an BP (1716-10-04).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Schriftstellern: Heinrich GENTNER, Geschichte des Benedictinerklosters Weihenstephan bey Freysing. Aus Urkunden angefertiget. Beyträge zur Geschichte, Topographie und Statistik des Erzbisthums München und Freysing 6 (1854) 1–350. Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 

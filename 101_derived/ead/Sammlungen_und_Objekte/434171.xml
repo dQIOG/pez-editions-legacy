@@ -13,40 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia28">Kt. 85 Varia 28</container>
+      <container localtype="file" containerid="melk_Kt85Varia28_fz2">Faszikel 2</container>
+      <unitid>Nr. 22</unitid>
       <unittitle>Briefabschrift: "Epistola Ermenrici ad dominum Grimoaldum abbatem et archicapellanum"</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Wohl in Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/434171.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="710/434171.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="710/434189.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="710/434190.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="710/434191.tif"/>
-         <dao daotype="derived" coverage="whole" label="11v" href="710/434192.tif"/>
-         <dao daotype="derived" coverage="whole" label="12r" href="710/434193.tif"/>
-         <dao daotype="derived" coverage="whole" label="12v" href="710/434194.tif"/>
-         <dao daotype="derived" coverage="whole" label="13r" href="710/434195.tif"/>
-         <dao daotype="derived" coverage="whole" label="13v" href="710/434196.tif"/>
-         <dao daotype="derived" coverage="whole" label="14r" href="710/434197.tif"/>
-         <dao daotype="derived" coverage="whole" label="14v" href="710/434198.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="710/434172.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="710/434173.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="710/434174.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="710/434175.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="710/434176.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="710/434177.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="710/434178.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="710/434179.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="710/434180.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="710/434181.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="710/434182.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="710/434183.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="710/434184.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="710/434185.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="710/434186.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="710/434187.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="710/434188.tif"/>
-      </daoset>
    </did>
 
 
@@ -67,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name"/>
          <part localtype="vorname">Ermenrich von Ellwangen</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Grimald von St. Gallen</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
@@ -95,22 +67,33 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4085563-6" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Ellwangen</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20165</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4085563-6</part>
+         <part localtype="identifier">http://viaf.org/viaf/240346955</part>
+         <part localtype="identifier">http://www.geonames.org/2930889/ellwangen.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1088891446" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Helvetische Kongregation</part>
          <part>St. Gallen</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1088891446</part>
+         <part localtype="identifier">http://viaf.org/viaf/266765811</part>
+         <part localtype="identifier">http://www.geonames.org/2658822/sankt-gallen.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -119,10 +102,7 @@
       <head>Beschreibung</head>
       <p>Briefabschrift Ermenrich von Ellwangen an Abt Grimald von St. Gallen. Die Anmerkung auf fol. 1r bezieht sich auf den St. Gallener Cod. 265, der den Brief enthält. Wohl Hand Mayer, mit Anmerkungen.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Edition: Lettre à Grimald/Ermenrich d’Ellwangen. Texte latin édité, traduit, annoté et introduit par Monique GOULLET (Sources d’histoire médiévale 37, Paris 2008). Zu Cod. 265: Gustav SCHERRER, Verzeichniss der Handschriften der Stiftsbibliothek von St. Gallen, Halle 1875.</p>
-   </bibliography>
+
 
 
 

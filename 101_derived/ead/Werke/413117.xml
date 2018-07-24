@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 37</unitid>
       <unittitle>Notizen: "Corrigenda et supplenda in hoc et in duobus prioribus tomis"</unittitle>
-      <unitdate>vor 1721</unitdate>
       <didnote localtype="datenote">Band 3 des Thesaurus ist 1721 in Augsburg erschienen.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/413117.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="234/413117.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="234/413118.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -55,11 +53,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -68,10 +70,7 @@
       <head>Beschreibung</head>
       <p>Notizen "Corrigenda et supplenda in hoc et in duobus prioribus tomis" von BP. Korrekturen und Ergänzungen zu den ersten drei Thesaurus-Bänden. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu BP und Thesaurus: Christine GLASSNER, Der "Thesaurus anecdotorum novissimus" des Melker Benediktiners Bernhard Pez. SMGB 113 (2002) 341–370.</p>
-   </bibliography>
+
 
 
 

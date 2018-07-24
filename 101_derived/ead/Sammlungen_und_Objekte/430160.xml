@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia25">Kt. 85 Varia 25</container>
+      <container localtype="file" containerid="melk_Kt85Varia25_fz1">Faszikel 1</container>
+      <unitid>Nr. 50</unitid>
       <unittitle>Bio-bibliographische Notizen zu Clario und Génébrard</unittitle>
-      <unitdate>um 1718</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/430160.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="654/430160.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="654/430161.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="654/430162.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="654/430163.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01320009 / 
 http://thesaurus.cerl.org/record/cnp01302798</part>
          <part localtype="identifier">http://viaf.org/viaf/49234015 / http://viaf.org/viaf/200746532</part>
@@ -51,7 +47,7 @@ http://thesaurus.cerl.org/record/cnp01302798</part>
          <part localtype="name">Génébrard</part>
          <part localtype="vorname">Gilbert</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01233104 / 
 http://thesaurus.cerl.org/record/cnp01324034</part>
          <part localtype="identifier">http://viaf.org/viaf/9872228</part>
@@ -72,17 +68,23 @@ http://thesaurus.cerl.org/record/cnp01324034</part>
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4839804-4" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Französische Klöster</part>
          <part>S. Pierre de Mauzac</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4839804-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/237478896</part>
+         <part localtype="identifier">http://www.geonames.org/2991258/mozac.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1087296986" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Cassinenser Kongregation</part>
          <part>Montecassino</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1087296986</part>
+         <part localtype="identifier">http://viaf.org/viaf/133865391</part>
+         <part localtype="identifier">http://www.geonames.org/3173005/abbazia-di-montecassino.html</part>
       </corpname>
    </controlaccess>
 
@@ -99,10 +101,7 @@ http://thesaurus.cerl.org/record/cnp01324034</part>
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen zu Clario und Génébrard aus André DU SAUSSAY, Insignis libri de scriptoribus ecclesiasticis eminentissimi cardinalis Bellarmini continuatio (Köln 1684). Hand Dullinger. Beilage zu Brief Dullinger an BP.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Clario: Arcangelo BOSSI, Matricula monachorum Congregationis Casinensis Ordinis S. Benedicti, 1: 1409–1699, hg. von Leandro NOVELLI–Giovanni SPINELLI (Pubblicazioni del Centro Storico Benedettino Italiano 3, Cesena 1983). Zu Génébrard: Jean Martial BESSE, Autobibliographie de Génébrard. Revue Mabillon. Archives de la France monastique 1 (1905/06) 297–306.</p>
-   </bibliography>
+
 
 
 

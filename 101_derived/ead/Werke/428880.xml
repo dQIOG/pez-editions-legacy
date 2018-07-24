@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia25">Kt. 85 Varia 25</container>
+      <container localtype="file" containerid="melk_Kt85Varia25_fz1">Faszikel 1</container>
+      <unitid>Nr. 14</unitid>
       <unittitle>Bio-bibliographische Notizen zu Autoren der Melker Reform</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/428880.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="618/428880.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="618/428881.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="618/428882.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="618/428883.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="618/428884.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="618/428885.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="618/428886.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="618/428887.tif"/>
-      </daoset>
    </did>
 
 
@@ -47,19 +39,19 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Johannes Gerson</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Johannes von Weilheim (Schlitpacher)</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Martin von Senging</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Christophorus Lieb von Isen</part>
       </persname>
@@ -73,11 +65,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -86,10 +82,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen zu Autoren der Melker Reform, Hand BP?</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zur Melker Reform: Meta NIEDERKORN-BRUCK, Die Melker Reform im Spiegel der Visitationen (Mitteilungen des Instituts für Österreichische Geschichtsforschung Erg.bd. 30, Wien–München 1994); Franz Xaver THOMA, Petrus von Rosenheim O. S. B. Ein Beitrag zur Melker Reformbewegung. Studien und Mitteilungen zur Geschichte des Benediktiner-Ordens und seiner Zweige 45 (1927) 94–222.</p>
-   </bibliography>
+
 
 
 

@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 34</unitid>
       <unittitle>Handschriftennotiz: Reiner von Lüttich "Palmarium Virginale", "Speculum poenitentiae"</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/413109.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="231/413109.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="231/413110.tif"/>
-      </daoset>
    </did>
 
 
@@ -44,21 +42,21 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://viaf.org/viaf/3695703</part>
          <part localtype="identifier">http://d-nb.info/gnd/135655706</part>
          <part localtype="name">Buchels</part>
          <part localtype="vorname">Johann</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name"/>
          <part localtype="vorname">Reiner von Lüttich</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Lombard</part>
          <part localtype="vorname">Célestin</part>
       </persname>
@@ -81,11 +79,15 @@
          <part>Belgische Klöster</part>
          <part>Lüttich - St.-Laurent</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -102,11 +104,7 @@
       <head>Beschreibung</head>
       <p>Abschrift einer Handschriftennotiz zu Reiner von Lüttichs "Palmarium Virginale" (Prolog) sowie zum "Speculum poenitentiae" (1. Buch), gedruckt in BP, Thesaurus anecdotorum novissimus, 4 (Augsburg 1723), wohl unvollständig. Buchels sendet BP Materialien zu Reiner von Lüttich (1719-05-11), die von Lombard angefertigt worden waren; Lombard selbst sendet weitere Abschriften direkt an BP (1720-02-21).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Werken Reiners von Lüttich: Max MANITIUS, Geschichte der lateinischen Literatur des Mittelalters (Handbuch der
-klassischen Altertums-Wissenschaft in systematischer Darstellung mit besonderer Rücksicht auf Geschichte und Methodik der einzelnen Disziplinen 9/2, 4 Bde., München 1911–1931). Zur konkreten Überlieferung: Hubert SILVESTRE, Notes concernant la première édition des œuvres de Renier de Saint-Laurent: deux lettres de Dom C. Lombard à Dom B. Pez. Revue Bénédictine 60 (1950) 208–213.</p>
-   </bibliography>
+
 
 
 

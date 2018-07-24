@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia25">Kt. 85 Varia 25</container>
+      <container localtype="file" containerid="melk_Kt85Varia25_fz1">Faszikel 1</container>
+      <unitid>Nr. 58</unitid>
       <unittitle>Bibliotheks- und Handschriftenkatalog von Ochsenhausen</unittitle>
-      <unitdate>1716</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/430334.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="662/430334.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="662/430335.tif"/>
-      </daoset>
    </did>
 
 
@@ -44,11 +42,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Reichardt</part>
          <part localtype="vorname">Aemilian</part>
       </persname>
@@ -65,17 +63,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2133171-6" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Oberschwäbische Kongregation</part>
          <part>Ochsenhausen</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20123</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2133171-6</part>
+         <part localtype="identifier">http://viaf.org/viaf/149403418</part>
+         <part localtype="identifier">http://www.geonames.org/2858326/ochsenhausen.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -93,10 +99,7 @@
       <p>Bibliotheks- und Handschriftenkatalog von Ochsenhausen. Vermerk BPs: "Ex monasterio Ochsenhusano 1716 mense Julio per patrem Aemilianum priorem". Beilage zu Reichardt an BP (1716-07-15). Vgl. die zweite Version des Kataloges in Karton 7 Patres 6, I 108r–v ; vgl. auch Handschriftenkatalog von 1731 in Karton 85 Varia 23, Fasz. 1, Nr. 9. 
 </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Reichardt: Pirmin LINDNER, Verzeichnis aller Aebte und der vom Beginne des XVI. Jahrhunderts bis 1861 verstorbenen Mönche der Reichsabtei Ochsenhausen O. S. Bened. Gedenkblatt an deren Gründung im Jahre 1099. Diöcesanarchiv von Schwaben 17 (1899) 97–100, 117–120, 136–138, 154–156, 171–173; 18 (1900) 75–77, 86–91, 191–192. Zu Handschriften: Libri sapientiae, libri vitae. Schätze der ehemaligen Bibliothek der Benediktiner-Reichsabtei Ochsenhausen: Handschriften, Inkunabeln, Frühdrucke, Bücher vom 9. bis 18. Jahrhundert. Eine Ausstellung der Stadt Ochsenhausen in Verbindung mit dem Nationalmuseum in Prag, Abteilung für Schloßbibliotheken, und dem Denkmalamt für Westböhmen in Pilsen. Ochsenhausen 29. August bis 17. Oktober 1993, hg. von Birgit DIETRICH (Ochsenhausen 1993); Hugo OTT, Ochsenhausen, in: Germania Benedictina, 5: Die Benediktinerklöster in Baden-Württemberg, hg. von Franz QUARTHAL–Hansmartin DECKER-HAUFF–Klaus SCHREINER (Augsburg 1975) 454–464. Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 

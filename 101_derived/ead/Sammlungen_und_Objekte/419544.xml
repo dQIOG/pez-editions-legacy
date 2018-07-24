@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 45</unitid>
       <unittitle>Schriftsteller- und Handschriftenkatalog von Muri aus Briefen Studer an NN</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/419544.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="361/419544.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="361/419545.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="361/419546.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="361/419547.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="361/419548.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="361/419549.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="361/419550.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="361/419551.tif"/>
-      </daoset>
    </did>
 
 
@@ -56,42 +48,42 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Steyerer</part>
          <part localtype="vorname">Anton</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00988332</part>
          <part localtype="identifier">http://viaf.org/viaf/69270300</part>
          <part localtype="identifier">http://d-nb.info/gnd/100120296</part>
          <part localtype="name">Egger</part>
          <part localtype="vorname">Felix</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Studer</part>
          <part localtype="vorname">Benedikt</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Gwicht</part>
          <part localtype="vorname">Rudolf</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Tschudi</part>
          <part localtype="vorname">Dominik</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Stöcklin</part>
          <part localtype="vorname">Augustin</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Weißenbach</part>
          <part localtype="vorname">Anselm</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Zurlauben</part>
          <part localtype="vorname">Placidus</part>
       </persname>
@@ -108,27 +100,38 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/809504-8" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Helvetische Kongregation</part>
          <part>Muri</part>
+         <part localtype="identifier">http://d-nb.info/gnd/809504-8</part>
+         <part localtype="identifier">http://viaf.org/viaf/261850484</part>
+         <part localtype="identifier">http://www.geonames.org/2659531/muri.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
          <part>Jesuiten</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1092103201" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Oberschwäbische Kongregation</part>
          <part>Petershausen</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20355</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1092103201</part>
+         <part localtype="identifier">http://viaf.org/viaf/136124853</part>
+         <part localtype="identifier">http://www.geonames.org/11548395/kloster-petershausen.html</part>
       </corpname>
    </controlaccess>
 
@@ -137,10 +140,7 @@
       <head>Beschreibung</head>
       <p>Abschrift eines Schriftstellerkatalog von Muri, zusammengestellt aus den Briefen Studers 1717 bis 1722, Hand Mayer. Adressat bleibt ungenannt, vielleicht Steyerer oder Egger? Zu den Brüdern Pez in Melk hatte Studer nur indirekten Kontakt. Auf der letzten Seite (fol. 4v) Handschriftenverzeichnis von Muri. Vgl. auch Schriftstellerkataloge von Muri in Karton 7 Patres 9, Fasz. 2, Nr. 8 und 11.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Muri: Martin KIEM, Geschichte der Benedictiner Abtei Muri-Gries (ad S. Martinum – ad B. V. Mariam) (2 Bde., Stans 1888–1891). Zu Muri und Brüdern Pez: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). </p>
-   </bibliography>
+
 
 
 

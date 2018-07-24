@@ -13,34 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia24">Kt. 85 Varia 24</container>
+      <container localtype="file" containerid="melk_Kt85Varia24_fz2">Faszikel 2</container>
+      <unitid>Nr. 15</unitid>
       <unittitle>Katalog: Verzeichnis europäischer Benediktinerklöster</unittitle>
-      <unitdate>um 1717</unitdate>
       <didnote localtype="datenote">Jüngster Vermerk von 1717.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/427693.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="602/427693.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="602/427711.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="602/427712.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="602/427713.tif"/>
-         <dao daotype="derived" coverage="whole" label="11v" href="602/427714.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="602/427694.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="602/427695.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="602/427696.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="602/427697.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="602/427698.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="602/427699.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="602/427700.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="602/427701.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="602/427702.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="602/427703.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="602/427704.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="602/427705.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="602/427706.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="602/427707.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="602/427708.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="602/427709.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="602/427710.tif"/>
-      </daoset>
    </did>
 
 
@@ -64,7 +42,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -78,11 +56,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -94,10 +76,7 @@
       <head>Beschreibung</head>
       <p>Verzeichnis europäischer Benediktinerklöster, nach Ländern (Frankreich, Spanien, Italien, Belgien, Deutschland) alphabetisch geordnet und teilweise mit Vermerken versehen, wann dorthin geschrieben wurde. Dazu oft bibliographische Notizen, die darauf hinweisen, woher BP die Information bezog. Hand BP. Von einer Ansetzung sämtlicher erwähnter Klöster in der Rubrik "Institutionen" wurde abgesehen.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p/>
-   </bibliography>
+
 
 
 

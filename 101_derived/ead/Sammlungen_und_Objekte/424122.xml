@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz1">Faszikel 1</container>
+      <unitid>Nr. 09</unitid>
       <unittitle>Handschriftenkatalog von Ochsenhausen</unittitle>
-      <unitdate>1731</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/424122.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="510/424122.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="510/424123.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="510/424124.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="510/424125.tif"/>
-      </daoset>
    </did>
 
 
@@ -51,11 +47,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2133171-6" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Oberschwäbische Kongregation</part>
          <part>Ochsenhausen</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20123</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2133171-6</part>
+         <part localtype="identifier">http://viaf.org/viaf/149403418</part>
+         <part localtype="identifier">http://www.geonames.org/2858326/ochsenhausen.html</part>
       </corpname>
    </controlaccess>
 
@@ -64,10 +64,7 @@
       <head>Beschreibung</head>
       <p>Handschriftenkatalog von Ochsenhausen aus 1731. Vgl. auch Handschriftenkatalog von 1716 in Karton 85 Varia 25, Fasz. 1, Nr. 58.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Ochsenhauser Handschriften: Libri sapientiae, libri vitae. Schätze der ehemaligen Bibliothek der Benediktiner-Reichsabtei Ochsenhausen: Handschriften, Inkunabeln, Frühdrucke, Bücher vom 9. bis 18. Jahrhundert. Eine Ausstellung der Stadt Ochsenhausen in Verbindung mit dem Nationalmuseum in Prag, Abteilung für Schloßbibliotheken, und dem Denkmalamt für Westböhmen in Pilsen. Ochsenhausen 29. August bis 17. Oktober 1993, hg. von Birgit DIETRICH (Ochsenhausen 1993); Hubert HOUBEN, St. Blasianer Handschriften des 11. und 12. Jahrhunderts unter besonderer Berücksichtigung der Ochsenhauser Klosterbibliothek (Münchener Beiträge zur Mediävistik und Renaissance-Forschung 30, München 1979); Konstantin MAIER, Bildung und Wissenschaft im Kloster Ochsenhausen, in: Ochsenhausen. Von der Benediktinerabtei zur oberschwäbischen Landstadt, hg. von Max HEROLD (Weisenhorn 1994) 299–316; Hugo OTT, Ochsenhausen, in: Germania Benedictina, 5: Die Benediktinerklöster in Baden-Württemberg, hg. von Franz QUARTHAL–Hansmartin DECKER-HAUFF–Klaus SCHREINER (Augsburg 1975) 454–464. </p>
-   </bibliography>
+
 
 
 

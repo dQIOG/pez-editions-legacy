@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 08</unitid>
       <unittitle>Handschriftennotiz zu Ottobeuren</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/418876.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="324/418876.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="324/418877.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="324/418878.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="324/418879.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
@@ -60,17 +56,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2003571-8" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Oberschwäbische Kongregation</part>
          <part>Ottobeuren</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60305</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2003571-8</part>
+         <part localtype="identifier">http://viaf.org/viaf/156630989</part>
+         <part localtype="identifier">http://www.geonames.org/8030045/ottobeuren-abbey.html</part>
       </corpname>
    </controlaccess>
 
@@ -79,10 +83,7 @@
       <head>Beschreibung</head>
       <p>Handschriftennotiz zu Ottobeuren: "Investitur der Äbte zu der Zeiten Friedrich I.", Hand Mayer.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Ottobeuren: Pirmin LINDNER, Album Ottoburanum. Die Äbte und Mönche des ehemaligen freien Reichs-Stiftes Ottobeuren, Benediktiner-Ordens in Schwaben und deren literarischer Nachlass von 764 bis zu ihrem Aussterben (1858). Zeitschrift des Historischen Vereins für Schwaben und Neuburg 30 (1903) 77–142; 31 (1904) 1–90. Zu Handschriften von Ottobeuren: Hermann HAUKE, Die mittelalterlichen Handschriften in der Abtei Ottobeuren – Kurzverzeichnis (Wiesbaden 1974); Hansmartin SCHWARZMAIER, Mittelalterliche Handschriften des Klosters Ottobeuren. Versuch einer Bestandsaufnahme. SMGB 73/2–4 (1962) 7–23.</p>
-   </bibliography>
+
 
 
 

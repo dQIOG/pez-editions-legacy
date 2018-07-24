@@ -13,36 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz4">Faszikel 4</container>
+      <unitid>Nr. 02</unitid>
       <unittitle>Schriftstellerkatalog: Hueber, "Residuae notae in catalogum scriptorum Augiae Maioris Brigantinae"</unittitle>
-      <unitdate>nach 1716</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/413455.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="Umschlagr" href="251/413455.tif"/>
-         <dao daotype="derived" coverage="whole" label="1" href="251/413457.tif"/>
-         <dao daotype="derived" coverage="whole" label="10" href="251/413466.tif"/>
-         <dao daotype="derived" coverage="whole" label="11" href="251/413467.tif"/>
-         <dao daotype="derived" coverage="whole" label="12" href="251/413468.tif"/>
-         <dao daotype="derived" coverage="whole" label="13" href="251/413469.tif"/>
-         <dao daotype="derived" coverage="whole" label="14" href="251/413470.tif"/>
-         <dao daotype="derived" coverage="whole" label="15" href="251/413471.tif"/>
-         <dao daotype="derived" coverage="whole" label="16" href="251/413472.tif"/>
-         <dao daotype="derived" coverage="whole" label="17" href="251/413473.tif"/>
-         <dao daotype="derived" coverage="whole" label="18" href="251/413474.tif"/>
-         <dao daotype="derived" coverage="whole" label="19" href="251/413475.tif"/>
-         <dao daotype="derived" coverage="whole" label="2" href="251/413458.tif"/>
-         <dao daotype="derived" coverage="whole" label="20" href="251/413476.tif"/>
-         <dao daotype="derived" coverage="whole" label="3" href="251/413459.tif"/>
-         <dao daotype="derived" coverage="whole" label="4" href="251/413460.tif"/>
-         <dao daotype="derived" coverage="whole" label="5" href="251/413461.tif"/>
-         <dao daotype="derived" coverage="whole" label="6" href="251/413462.tif"/>
-         <dao daotype="derived" coverage="whole" label="7" href="251/413463.tif"/>
-         <dao daotype="derived" coverage="whole" label="8" href="251/413464.tif"/>
-         <dao daotype="derived" coverage="whole" label="9" href="251/413465.tif"/>
-         <dao daotype="derived" coverage="whole" label="Umschlagr" href="251/413477.tif"/>
-         <dao daotype="derived" coverage="whole" label="Umschlagv" href="251/413456.tif"/>
-         <dao daotype="derived" coverage="whole" label="Umschlagv" href="251/413478.tif"/>
-      </daoset>
    </did>
 
 
@@ -63,23 +39,23 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Hueber</part>
          <part localtype="vorname">Apronian</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Ransperg</part>
          <part localtype="vorname">Franz</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Albrecht</part>
          <part localtype="vorname">Jacob</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Raminger</part>
          <part localtype="vorname">Gebhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01117147 / 
 http://thesaurus.cerl.org/record/cnp00422392</part>
          <part localtype="identifier">http://viaf.org/viaf/25416073</part>
@@ -87,15 +63,15 @@ http://thesaurus.cerl.org/record/cnp00422392</part>
          <part localtype="name">Boner</part>
          <part localtype="vorname">Michael</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Hellbock</part>
          <part localtype="vorname">Placidus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Vögel</part>
          <part localtype="vorname">Anton</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pappus von Laubenberg</part>
          <part localtype="vorname">Franz</part>
       </persname>
@@ -109,11 +85,15 @@ http://thesaurus.cerl.org/record/cnp00422392</part>
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1086282779" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Oberschwäbische Kongregation</part>
          <part>Mehrerau</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/92580</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1086282779</part>
+         <part localtype="identifier">http://viaf.org/viaf/867145857000822921033</part>
+         <part localtype="identifier">http://www.geonames.org/3333694/kloster-mehrerau.html</part>
       </corpname>
    </controlaccess>
 
@@ -130,10 +110,7 @@ http://thesaurus.cerl.org/record/cnp00422392</part>
       <head>Beschreibung</head>
       <p>Nachträge zum Schriftstellerkatalog in Karton 7 Patres 10, Fasz. 4, Nr. 1, Beilage zu Brief Hueber an BP (1718-01-24). Am Beginn Ordnungsvermerk "ad Nr. 565".</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Hueber und Korrespondenz mit BP: Gall HEER, P. Bernhard Pez von Melk OSB (1683–1735) in seinen Beziehungen zu den Schweizer Klöstern. Ein Kapitel benediktinischer Geistesgeschichte des frühen 18. Jahrhunderts, in: Festschrift Oskar VASELLA. Zum 60. Geburtstag am 15. Mai 1964 überreicht von Schülern und Freunden (Freiburg 1964). Zu Werken Huebers und einzelner Professen: Pirmin LINDNER, Album Augiae Brigantinae. Album von Mehrerau bei Bregenz, enthaltend die Äbte und Mönche der ehemaligen Benediktiner-Abtei Mehrerau vom Jahre 1097 bis zu ihrem Aussterben (1856) und deren literarischen Nachlass. Jahres-Bericht des Vorarlberger Museum-Vereines 41 (1902) 31–107. Zu Mehrerau: Alois NIEDERSTÄTTER, Mehrerau, in: Germania Benedictina, 3/2: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2001) 491–525. Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 

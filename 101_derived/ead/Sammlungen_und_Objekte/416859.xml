@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz8">Faszikel 8</container>
+      <unitid>Nr. 19</unitid>
       <unittitle>Schriftstellerkatalog von Theres</unittitle>
-      <unitdate>um 1730</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/416859.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="280/416859.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="280/416860.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,26 +39,26 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00575112</part>
          <part localtype="identifier">http://viaf.org/viaf/45207068</part>
          <part localtype="identifier">http://d-nb.info/gnd/123371554</part>
          <part localtype="name">Baumbach</part>
          <part localtype="vorname">Hyazinth</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Caspar "Cancellarius"</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Heinlein</part>
          <part localtype="vorname">Heinrich</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Urtlauff</part>
          <part localtype="vorname">Placidus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Melchior</part>
          <part localtype="vorname">Albert</part>
       </persname>
@@ -74,11 +72,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4695300-0" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bursfelder Kongregation</part>
          <part>Theres</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60395</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4695300-0</part>
+         <part localtype="identifier">http://viaf.org/viaf/248290664</part>
+         <part localtype="identifier">http://www.geonames.org/2858791/obertheres.html</part>
       </corpname>
    </controlaccess>
 
@@ -95,10 +97,7 @@
       <head>Beschreibung</head>
       <p>Schriftstellerkatalog zu Theres: "Catalogus authorum vel scriptorum monasterii Theres ad SS. Stephanum et Vitum". Ordnungsvermerk: "ad Nr. 194". Beilage zu Brief Krämer an BP (1730-05-30).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Theres: Gabriel VOGT, Burg und Dorf, Kloster und Schloß Theres am Main. Ein Beitrag zur Geschichte des Dorfes und der ehemaligen Benediktinerabtei St. Vitus zu Theres am Main (Münsterschwarzach 1979). Zu Heinlein: Emmanuel J. BAUER, Thomistische Metaphysik an der alten Benediktineruniversität Salzburg. Darstellung und Interpretation einer philosophischen Schule des 17./18. Jahrhunderts (Salzburger Theologische Studien 1, Innsbruck–Wien 1996). Zu Melchior: Rhabanus ERBACHER, Johann (P. Marianus OSB) Baal. Skizzen zum Leben und Schaffen des Komponisten und zum höfischen und klösterlichen Umkreis seines Wirkens (Münsterschwarzach 1990). Zur Korrespondenz zwischen BP und Baumbach bezüglich Theres: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</p>
-   </bibliography>
+
 
 
 

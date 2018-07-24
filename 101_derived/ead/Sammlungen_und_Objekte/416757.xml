@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz8">Faszikel 8</container>
+      <unitid>Nr. 12</unitid>
       <unittitle>Handschriftennotizen zu St.-Guilhem-le-Désert, St.-Pierre de Chaumes-en-Brie, Domarchiv Clermont-Ferrand, Kathedralkirche Amiens, Dominikaner Clermont-Ferrand</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/416757.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="273/416757.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="273/416758.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="273/416759.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="273/416760.tif"/>
-      </daoset>
    </did>
 
 
@@ -51,22 +47,29 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4368281-9" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Maurinerkongregation</part>
          <part>St.-Guilhem-le-Désert</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4368281-9</part>
+         <part localtype="identifier">http://viaf.org/viaf/168806933</part>
+         <part localtype="identifier">http://www.geonames.org/2979608/saint-guilhem-le-desert.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Maurinerkongregation</part>
          <part>St.-Pierre de Chaumes-en-Brie</part>
+         <part localtype="identifier">http://viaf.org/viaf/129100028</part>
+         <part localtype="identifier">http://www.geonames.org/3025910/chaumes-en-brie.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
          <part>Dominikaner</part>
          <part>Clermont-Ferrand</part>
+         <part localtype="identifier">http://viaf.org/viaf/316656779</part>
+         <part localtype="identifier">http://www.geonames.org/3024635/clermont-ferrand.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -80,10 +83,7 @@
       <head>Beschreibung</head>
       <p>Handschriftennotizen zu St.-Guilhem-le-Désert, St.-Pierre de Chaumes-en-Brie, Domarchiv Clermont-Ferrand, Kathedralkirche Amiens, Dominikanerkloster Clermont-Ferrand. In der "Ich-Form" geschrieben von F(rater?). I. B.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Literatur zu den einzelnen Klöstern: Laurent Henri COTTINEAU, Répertoire topo-bibliographique des abbayes et prieurés (2 Bde., Mâcon 1939).</p>
-   </bibliography>
+
 
 
 

@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 14</unitid>
       <unittitle>Bio-bibliographische Notizen zu Stephan von Olmütz</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/418921.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="330/418921.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="330/418922.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="330/418923.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="330/418924.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="330/418925.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="330/418926.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="330/418927.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="330/418928.tif"/>
-      </daoset>
    </did>
 
 
@@ -47,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Stephan von Olmütz</part>
       </persname>
@@ -68,16 +60,22 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
          <part>Kartäuser</part>
          <part>Dolein bei Olmütz</part>
+         <part localtype="identifier">http://viaf.org/viaf/143548200</part>
+         <part localtype="identifier">http://www.geonames.org/3076960/dolany.html</part>
       </corpname>
    </controlaccess>
 
@@ -86,10 +84,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen zu Stephan von Olmütz, Hand Mayer.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Stephan von Olmütz: Gregor WOLNY, Kirchliche Topographie von Mähren, meist nach Urkunden und Handschriften, Abt. 1: Olmützer Erzdiöcese 1 (Brünn 1855). </p>
-   </bibliography>
+
 
 
 

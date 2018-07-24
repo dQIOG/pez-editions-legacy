@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 05</unitid>
       <unittitle>Abschrift von Teilen der "Epistola apologetica" des Abtes Stephan von St.-Urbain an Bischof Roger II. von Châlons-sur-Marne</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/418858.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="321/418858.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="321/418859.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="321/418860.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="321/418861.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Roger II.</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name"/>
          <part localtype="vorname">Stephan von St.-Urbain</part>
       </persname>
@@ -68,17 +64,23 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Kongregation von St.-Vanne</part>
          <part>St.-Urbain</part>
+         <part localtype="identifier">http://viaf.org/viaf/138472711</part>
+         <part localtype="identifier">http://www.geonames.org/2976729/saint-urbain-maconcourt.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -92,10 +94,7 @@
       <head>Beschreibung</head>
       <p>Abschrift von Teilen (Incipit, Explicit) der "Epistola apologetica" des Abtes Stephan von St.-Urbain an Bischof Roger II. von Châlons-sur-Marne (11. Jh.), Hand Mayer. Vgl. gesamten Text in StiB Melk, Cod. 767, fol. 156r–171v.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Roger II.: Cyr Ulysse Joseph CHEVALIER, Repertoire des sources historiques du moyen age, 2: J–Z (Paris 1907). Zu Cod. 767: Christine GLASSNER, Neuzeitliche Handschriften aus dem Nachlass der Brüder Bernhard und Hieronymus Pez in der Bibliothek des Benediktinerstiftes Melk (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 372 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe IV 7, Wien 2008).</p>
-   </bibliography>
+
 
 
 

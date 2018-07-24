@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 25</unitid>
       <unittitle>Schriftstellerkatalog von Engelberg</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/418993.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="341/418993.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="341/418994.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="341/418995.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="341/418996.tif"/>
-      </daoset>
    </did>
 
 
@@ -46,79 +42,79 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Adalhelm von Engelberg</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hl. Frowin von Engelberg</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Berthold von Engelberg</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Heinrich von Koitingen</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Walter von Châtillon</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">"Rudolf von Thurnegg"</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Wüll</part>
          <part localtype="vorname">Heinrich</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Hartschi von Thun</part>
          <part localtype="vorname">Christian</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Keller</part>
          <part localtype="vorname">Maurus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Knittel</part>
          <part localtype="vorname">Placidus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Leu</part>
          <part localtype="vorname">Bonaventura</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Zurgilgen</part>
          <part localtype="vorname">Adalhelm</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://viaf.org/viaf/309623957</part>
          <part localtype="identifier">http://d-nb.info/gnd/1053320434</part>
          <part localtype="name">Betschart</part>
          <part localtype="vorname">Ignaz</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Athanasius von Castanea</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://viaf.org/viaf/315964665</part>
          <part localtype="identifier">http://d-nb.info/gnd/1071544837</part>
          <part localtype="name">Fleischlin</part>
          <part localtype="vorname">Gregor</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Imfeld</part>
          <part localtype="vorname">Gregor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Petrus Riga</part>
       </persname>
@@ -135,17 +131,24 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/5015078-9" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Helvetische Kongregation</part>
          <part>Engelberg</part>
+         <part localtype="identifier">http://d-nb.info/gnd/5015078-9</part>
+         <part localtype="identifier">http://viaf.org/viaf/143185915</part>
+         <part localtype="identifier">http://www.geonames.org/2660902/engelberg.html</part>
       </corpname>
    </controlaccess>
 
@@ -162,10 +165,7 @@
       <head>Beschreibung</head>
       <p>Abschrift eines Schriftstellerkatalogs von Engelberg. Das Original stammt von Imfeld aus Engelberg und wurde als Beilage zu einem Brief an BP (1711-03-23) versandt. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Engelberg: Helene BÜCHLER-MATTMANN–Gall HEER, Engelberg, in: Helvetia Sacra, Abt. III: Die Orden mit Benediktinerregel, 1: Frühe Kloster, die Benediktiner und Benediktinerinnen in der Schweiz, Teil 1, hg. von Elsanne GILOMEN-SCHENKEL (Bern 1986) 595–657; Benedikt GOTTWALD, Album Engelbergense seu Catalogus religiosorum O. S. B. exempti monasterii B. V. M. in Monte Angelorum vulgo Engelberg in Helvetia circa annum post Christum natum 1082 fundati (Luzern 1882). Zum Katalog: Gall HEER, P. Bernhard Pez von Melk OSB (1683–1735) in seinen Beziehungen zu den Schweizer Klöstern. Ein Kapitel benediktinischer Geistesgeschichte des frühen 18. Jahrhunderts, in: Festschrift Oskar VASELLA. Zum 60. Geburtstag am 15. Mai 1964 überreicht von Schülern und Freunden (Freiburg 1964). Zum Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</p>
-   </bibliography>
+
 
 
 

@@ -13,64 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia22">Kt. 85 Varia 22</container>
+      <container localtype="file" containerid="melk_Kt85Varia22_fz2">Faszikel 2</container>
+      <unitid>Nr. 01</unitid>
       <unittitle>Bio-bibliographische Notizen BPs zu benediktinischen Schriftstellern</unittitle>
-      <unitdate>nach 1717</unitdate>
       <didnote localtype="datenote">Jüngster Eintrag zu 1717.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/422705.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="466/422705.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="466/422723.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="466/422724.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="466/422725.tif"/>
-         <dao daotype="derived" coverage="whole" label="11v" href="466/422726.tif"/>
-         <dao daotype="derived" coverage="whole" label="12r" href="466/422727.tif"/>
-         <dao daotype="derived" coverage="whole" label="12v" href="466/422728.tif"/>
-         <dao daotype="derived" coverage="whole" label="13r" href="466/422729.tif"/>
-         <dao daotype="derived" coverage="whole" label="13v" href="466/422730.tif"/>
-         <dao daotype="derived" coverage="whole" label="14r" href="466/422731.tif"/>
-         <dao daotype="derived" coverage="whole" label="14v" href="466/422732.tif"/>
-         <dao daotype="derived" coverage="whole" label="15r" href="466/422733.tif"/>
-         <dao daotype="derived" coverage="whole" label="15v" href="466/422734.tif"/>
-         <dao daotype="derived" coverage="whole" label="16r" href="466/422735.tif"/>
-         <dao daotype="derived" coverage="whole" label="16v" href="466/422736.tif"/>
-         <dao daotype="derived" coverage="whole" label="17r" href="466/422737.tif"/>
-         <dao daotype="derived" coverage="whole" label="17v" href="466/422738.tif"/>
-         <dao daotype="derived" coverage="whole" label="18r" href="466/422739.tif"/>
-         <dao daotype="derived" coverage="whole" label="18v" href="466/422740.tif"/>
-         <dao daotype="derived" coverage="whole" label="19r" href="466/422741.tif"/>
-         <dao daotype="derived" coverage="whole" label="19v" href="466/422742.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="466/422706.tif"/>
-         <dao daotype="derived" coverage="whole" label="20r" href="466/422743.tif"/>
-         <dao daotype="derived" coverage="whole" label="20v" href="466/422744.tif"/>
-         <dao daotype="derived" coverage="whole" label="21r" href="466/422745.tif"/>
-         <dao daotype="derived" coverage="whole" label="21v" href="466/422746.tif"/>
-         <dao daotype="derived" coverage="whole" label="22r" href="466/422747.tif"/>
-         <dao daotype="derived" coverage="whole" label="22v" href="466/422748.tif"/>
-         <dao daotype="derived" coverage="whole" label="23r" href="466/422749.tif"/>
-         <dao daotype="derived" coverage="whole" label="23v" href="466/422750.tif"/>
-         <dao daotype="derived" coverage="whole" label="24r" href="466/422751.tif"/>
-         <dao daotype="derived" coverage="whole" label="24v" href="466/422752.tif"/>
-         <dao daotype="derived" coverage="whole" label="25r" href="466/422753.tif"/>
-         <dao daotype="derived" coverage="whole" label="25v" href="466/422754.tif"/>
-         <dao daotype="derived" coverage="whole" label="26r" href="466/422755.tif"/>
-         <dao daotype="derived" coverage="whole" label="26v" href="466/422756.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="466/422707.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="466/422708.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="466/422709.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="466/422710.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="466/422711.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="466/422712.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="466/422713.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="466/422714.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="466/422715.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="466/422716.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="466/422717.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="466/422718.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="466/422719.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="466/422720.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="466/422721.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="466/422722.tif"/>
-      </daoset>
    </did>
 
 
@@ -91,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -105,11 +53,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -118,10 +70,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen BPs zu benediktinischen Schriftstellern (ca. 500 Namen), nach Jahrhunderten geordnet und mit zahlreichen Referenzen (etwa Bolland, Bucelin, Mabillon, Wion; Acta eruditorum). Ein Großteil der Namen wurde nachträglich durchtestrichen, was möglicherweise auf eine Übernahme in die "Bibliotheca Benedictina" (vgl. Karton 85 Varia 24) hinweisen könnte. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu BP und seiner Bibliotheca Benedictina: Koloman SCHÖNHOFER, P. Bernhard Pez (22.2.1683–27.3.1735), P. Hieronymus Pez (24.2.1685–14.10.1762), Benediktiner von Melk (Leben, Bedeutung und Werke) (ungedr. theol. Dipl.Arb., Innsbruck 1973); Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</p>
-   </bibliography>
+
 
 
 

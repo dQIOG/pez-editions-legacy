@@ -13,36 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz1">Faszikel 1</container>
+      <unitid>Nr. 06</unitid>
       <unittitle>Abschrift aus den "Formulae Sangallenses"</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/424092.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="507/424092.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="507/424110.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="507/424111.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="507/424112.tif"/>
-         <dao daotype="derived" coverage="whole" label="11v" href="507/424113.tif"/>
-         <dao daotype="derived" coverage="whole" label="12r" href="507/424114.tif"/>
-         <dao daotype="derived" coverage="whole" label="12v" href="507/424115.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="507/424093.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="507/424094.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="507/424095.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="507/424096.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="507/424097.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="507/424098.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="507/424099.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="507/424100.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="507/424101.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="507/424102.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="507/424103.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="507/424104.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="507/424105.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="507/424106.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="507/424107.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="507/424108.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="507/424109.tif"/>
-      </daoset>
    </did>
 
 
@@ -71,11 +47,14 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4374885-5" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Helvetische Kongregation</part>
          <part>Rheinau</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4374885-5</part>
+         <part localtype="identifier">http://viaf.org/viaf/235202945</part>
+         <part localtype="identifier">http://www.geonames.org/3209262/rheinau.html</part>
       </corpname>
    </controlaccess>
 
@@ -84,10 +63,7 @@
       <head>Beschreibung</head>
       <p>Abschrift aus den "Formulae Sangallenses", laut Edition (vgl. Literaturfeld) könnte als Vorlage der Rheinauer Cod. 131 (heute Zentralbibliothek Zürich) gedient haben.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Edition: Formulae Sangallenses, in: Formulae Merowingici et Karolini aevi, hg. von Karl ZEUMER (MGH Leges 6, Hannover 1886; Nachdruck Hannover 2001) 378–437. Zu Rheinauer Handschriften: Christoph EGGENBERGER, Die Bibliothek des Benediktinerklosters Rheinau in der Zentralbibliothek Zürich (Librarium 48/I, Zürich 2005).</p>
-   </bibliography>
+
 
 
 

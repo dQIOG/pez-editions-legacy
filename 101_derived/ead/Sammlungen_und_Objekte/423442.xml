@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia22">Kt. 85 Varia 22</container>
+      <container localtype="file" containerid="melk_Kt85Varia22_fz3">Faszikel 3</container>
+      <unitid>Nr. 11</unitid>
       <unittitle>Abschrift der Praefatio aus Molitor, "Liber originum"</unittitle>
-      <unitdate>1712</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/423442.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="496/423442.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="496/423443.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="496/423444.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="496/423445.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Molitor</part>
          <part localtype="vorname">Kaspar</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Brunner</part>
          <part localtype="vorname">Augustin</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -68,16 +64,26 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1088887708" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>St. Blasien</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20387</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1088887708</part>
+         <part localtype="identifier">http://d-nb.info/gnd/65372-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/133695851</part>
+         <part localtype="identifier">http://viaf.org/viaf/170307029</part>
+         <part localtype="identifier">http://www.geonames.org/11204877/kloster-sankt-blasien.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -94,10 +100,7 @@
       <head>Beschreibung</head>
       <p>Abschrift der Praefatio zu Molitors "Liber originum", diese ist in Form eines Briefes von Abt Kaspar Molitor an Prior und Konvent von St. Blasien erhalten. Die Edition bei Mone (vgl. Literaturfeld) bietet nur Auszüge. Beilage zu Brief Brunner an BP (1712-10-23).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Molitor: Hugo OTT, St. Blasien, in: Germania Benedictina, 5: Die Benediktinerklöster in Baden-Württemberg, hg. von Franz QUARTHAL–Hansmartin DECKER-HAUFF–Klaus SCHREINER (Augsburg 1975) 146–160; Alfons SCHÄFER, St. Blasien, in: Helvetia Sacra, Abt. III: Die Orden mit Benediktinerregel, 1: Frühe Klöster, die Benediktiner und Benediktinerinnen in der Schweiz, Teil 2, hg. von Elsanne GILOMEN-SCHENKEL (Bern 1986) 1166–1176. Zu Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). Zur Edition: Franz Joseph MONE, Quellensammlung der badischen Landesgeschichte (4 Bde., Karlsruhe 1848–1867).</p>
-   </bibliography>
+
 
 
 

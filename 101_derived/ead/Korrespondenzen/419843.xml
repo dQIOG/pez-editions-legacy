@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 55</unitid>
       <unittitle>Briefauszüge: Nickel und Wiesmayr an HP, Scheyb an HP (?), bio-bibliographische Notizen zu Franz Christoph Scheyb</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/419843.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="371/419843.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="371/419844.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="371/419845.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="371/419846.tif"/>
-      </daoset>
    </did>
 
 
@@ -46,23 +42,23 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Scheyb</part>
          <part localtype="vorname">Franz Christoph </part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Nickel</part>
          <part localtype="vorname">Leopold</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Wiesmayr</part>
          <part localtype="vorname">Johann Georg</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
@@ -76,21 +72,30 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
          <part>Augustiner-Chorherren</part>
          <part>St. Andrä an der Traisen</part>
+         <part localtype="identifier">http://www.geonames.org/2766770/sankt-andrae-an-der-traisen.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2018820-1" source="GND">
          <part>geistliche</part>
          <part>Augustiner-Chorherren</part>
          <part>St. Florian</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/5000</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2018820-1</part>
+         <part localtype="identifier">http://viaf.org/viaf/133171207</part>
+         <part localtype="identifier">http://www.geonames.org/2771867/sankt-florian.html</part>
       </corpname>
       <corpname>
          <part>weltliche</part>
@@ -110,10 +115,7 @@
       <head>Beschreibung</head>
       <p>Auszüge aus jeweils einem Brief Nickel und Wiesmayr an HP sowie Scheyb (vermutlich auch) an HP; danach bio-bibliographische Notizen zu Scheyb, Hand Mayer.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Briefen an HP: Irene RABL, Briefe an Hieronymus Pez OSB aus seinem Nachlass im Stiftsarchiv Melk, Karton 7/13: Verzeichnis und Kurzbiographien der Korrespondenzpartner. SMGB 122 (2011) 327–367. Zu Scheyb: Irene HOLZER, Franz Christoph von Scheyb (1704–1774). Leben und Werk. Ein Beitrag zur süddeutsch-österreichischen Aufklärung (ungedr. phil. Diss., Wien 1976). Scheyb-Brief kommt nicht vor in: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 

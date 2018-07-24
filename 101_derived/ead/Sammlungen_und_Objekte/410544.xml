@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 77</unitid>
       <unittitle>Urkundenabschrift: Bischof Ulrich von Passau beurkundet auf Bitten des Markgrafen Leopolds III. die Weihe der Pfarrkirche in (Ober-)Meisling</unittitle>
-      <unitdate>vor 1747</unitdate>
       <didnote localtype="datenote">HPs "Historia sancti Leopoldi Austriae marchionis", wo die Urkunde abgedruckt ist, ist 1747 erschienen.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/410544.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="95/410544.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="95/410545.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,18 +39,18 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00969544</part>
          <part localtype="identifier">http://viaf.org/viaf/72490186</part>
          <part localtype="identifier">http://d-nb.info/gnd/130099864</part>
          <part localtype="name">Hanthaler</part>
          <part localtype="vorname">Chrysostomus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Ulrich von Passau</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Leopold III.</part>
       </persname>
@@ -69,21 +67,29 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/16117338-X" source="GND">
          <part>geistliche</part>
          <part>Zisterzienser</part>
          <part>Lilienfeld</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/92568</part>
+         <part localtype="identifier">http://d-nb.info/gnd/16117338-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/312850466</part>
+         <part localtype="identifier">http://www.geonames.org/2772470/lilienfeld.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
          <part>Säkularklerus</part>
          <part>Passau - Bistum</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -92,10 +98,7 @@
       <head>Beschreibung</head>
       <p>Urkundenabschrift des 18. Jh. Regest: Bischof Ulrich von Passau beurkundet auf Bitten des Markgrafen Leopold III. von Österreich die Weihe der auf dessen Grund erbauten Kirche zu (Ober-) Meisling. Datum: 1111-10-05. Die Original-Urkunde ist heute Teil der Allgemeinen Urkundenreihe (AUR) des Haus-, Hof- und Staatsarchivs in Wien. Schrift wohl Hanthaler, der HP für seine Historia einige Lilienfelder Quellenabschriften gesandt hat. Auf 1v Vermerk (Katschthaler): "abgedruckt in der Vita S. Leopoldi".</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zum Regest: Gerhard WINNER, Die Urkunden des Zisterzienserstiftes Lilienfeld 1111–1892 (Fontes rerum Austriacarum, Abt. 2: Diplomataria et acta 81, Wien 1974). Zu Hanthaler und seiner Beziehung zu HP: Alkuin Volker SCHACHENMAYR, Chrysostomus Hanthalers Briefe an die Brüder Pez (ungedr. Magisterarbeit am Institut für Österreichische Geschichtsforschung, Wien 2010). Zu Meisling als Lilienfelder Pfarre: Eugen MÜLLER, Profeßbuch des Zisterzienserstiftes Lilienfeld (SMGB Erg.bd. 38, St. Ottilien 1996).</p>
-   </bibliography>
+
 
 
 

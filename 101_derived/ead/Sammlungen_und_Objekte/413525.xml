@@ -13,50 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz5">Faszikel 5</container>
+      <unitid>Nr. 01</unitid>
       <unittitle>Manuskript: Wydemann, "Gaminger Codex"</unittitle>
-      <unitdate>um 1718</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/413525.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="Umschlagr" href="254/413525.tif"/>
-         <dao daotype="derived" coverage="whole" label="87v" href="254/413702.tif"/>
-         <dao daotype="derived" coverage="whole" label="88r" href="254/413703.tif"/>
-         <dao daotype="derived" coverage="whole" label="88v" href="254/413704.tif"/>
-         <dao daotype="derived" coverage="whole" label="89r" href="254/413705.tif"/>
-         <dao daotype="derived" coverage="whole" label="89v" href="254/413706.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="254/413543.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="254/413544.tif"/>
-         <dao daotype="derived" coverage="whole" label="90r" href="254/413707.tif"/>
-         <dao daotype="derived" coverage="whole" label="90v" href="254/413708.tif"/>
-         <dao daotype="derived" coverage="whole" label="91r" href="254/413709.tif"/>
-         <dao daotype="derived" coverage="whole" label="91v" href="254/413710.tif"/>
-         <dao daotype="derived" coverage="whole" label="92r" href="254/413711.tif"/>
-         <dao daotype="derived" coverage="whole" label="92v" href="254/413712.tif"/>
-         <dao daotype="derived" coverage="whole" label="93r" href="254/413713.tif"/>
-         <dao daotype="derived" coverage="whole" label="93v" href="254/413714.tif"/>
-         <dao daotype="derived" coverage="whole" label="94r" href="254/413715.tif"/>
-         <dao daotype="derived" coverage="whole" label="94v" href="254/413716.tif"/>
-         <dao daotype="derived" coverage="whole" label="95r" href="254/413717.tif"/>
-         <dao daotype="derived" coverage="whole" label="95v" href="254/413718.tif"/>
-         <dao daotype="derived" coverage="whole" label="96r" href="254/413719.tif"/>
-         <dao daotype="derived" coverage="whole" label="96v" href="254/413720.tif"/>
-         <dao daotype="derived" coverage="whole" label="97r" href="254/413721.tif"/>
-         <dao daotype="derived" coverage="whole" label="97v" href="254/413722.tif"/>
-         <dao daotype="derived" coverage="whole" label="98r" href="254/413723.tif"/>
-         <dao daotype="derived" coverage="whole" label="98v" href="254/413724.tif"/>
-         <dao daotype="derived" coverage="whole" label="99r" href="254/413725.tif"/>
-         <dao daotype="derived" coverage="whole" label="99v" href="254/413726.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="254/413545.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="254/413546.tif"/>
-         <dao daotype="derived" coverage="whole" label="Schmutzblattr" href="254/413759.tif"/>
-         <dao daotype="derived" coverage="whole" label="Schmutzblattr" href="254/413527.tif"/>
-         <dao daotype="derived" coverage="whole" label="Schmutzblattv" href="254/413760.tif"/>
-         <dao daotype="derived" coverage="whole" label="Schmutzblattv" href="254/413528.tif"/>
-         <dao daotype="derived" coverage="whole" label="Umschlagr" href="254/413761.tif"/>
-         <dao daotype="derived" coverage="whole" label="Umschlagv" href="254/413762.tif"/>
-         <dao daotype="derived" coverage="whole" label="Umschlagv" href="254/413526.tif"/>
-         <dao daotype="derived" coverage="whole" label="" href="254/413654.tif"/>
-      </daoset>
    </did>
 
 
@@ -80,23 +42,23 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Wydemann</part>
          <part localtype="vorname">Leopold</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Treger</part>
          <part localtype="vorname">Sebastian</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Hofer</part>
          <part localtype="vorname">Wilhelm</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Johannes a Cruce</part>
       </persname>
@@ -110,16 +72,23 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/3011144-4" source="GND">
          <part>geistliche</part>
          <part>Kartäuser</part>
          <part>Gaming</part>
+         <part localtype="identifier">http://d-nb.info/gnd/3011144-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/155471057</part>
+         <part localtype="identifier">http://www.geonames.org/2778949/gaming.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -128,10 +97,7 @@
       <head>Beschreibung</head>
       <p>"Gaminger Codex", von Wydemann nach Melk gesandtes Material: 1r–4v: Stiftungsbrief 1330 in deutscher Ausfertigung; 5r–8v: "De familia fundatoris notitia"; 9r–17v: Priorenliste nach Wilhelm Hofer 1330–1527; 18r–19v: LW an HP, 1726-09-19; 20r–23v: "Corrigenda" zur Priorenliste; 24r–32v: "Addenda" zur Priorenliste; 33r–34v: "Anniversaria extranea" nach Wilhelm Hofer; 35r–53v, 57r–61v: "Series monachorum" (nur 15. Jahrhundert) mit Appendices; 54r–56v: Briefwechsel im Zusammenhang mit Frater Johannes a Cruce; 62r–68v: Exzerpt aus Wiguleus HUND, Bayrisch Stammen-Buch (2 Bde., Ingolstadt 1585–1586); 69r–74v: "Anniversatia extranea" und Auszüge aus den "Cartae annuae"; 75r–87v: Liste von Benefaktoren 1386–1522; 88r–89v: Abschriften von Urkunden Friedrichs von Hohenberg (=einer der Benefaktoren) für Gaming 1403, 1404; 90r–90v: Liste von Benefaktoren 1522–1537; 91r–94v: Reliquienverzeichnis; 95r–98v: Exzerpt aus Theodor PETREIUS, Bibliotheca Cartusiana (Köln 1609); 99r–104v: Pengar, "Miraculosa sacrae Carthusilae Seitzensis fundatio" (Original und Abschrift LW); 105r–115v: "Observationes de origine Cartusiae Vallis S. Ioannis in Seitz". Das älteste Verzeichnis der Prioren, Liste von Benefaktoren, "series monachorum" sowie "Anniversaria extranea" heute ÖNB Wien, Cod. 12811. Zu "De familia fundatoris notitia" vgl. auch Varia 85 Karton 5. 2. Hand wahrscheinlich Treger.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Gaming: Thomas AIGNER, Gaming, in: Monasticon Cartusiense II, hg. von James HOGG–Alain GIRARD–Daniel LE BLÉVEC (Salzburg 2004) 82–86; Anton ERDINGER, Beiträge zur Geschichte der Karthause Gaming. Geschichtliche Beilagen zu den Consistorial-Currenden der Diöcese St. Pölten 5 (1895) 1–82; Josef FEIL, Original-Beiträge zur Geschichte der Aufhebung mehrer [!] Klöster in Niederösterreich. Oesterreichische Blätter für Literatur und Kunst, Geographie, Geschichte, Statistik und Naturkunde 2 (1845) 306–310, 315–318, 449–452, 540–544, 571–573; Walter HILDEBRAND, Kartause Gaming. Ausstellung anlässlich der Wiederherstellung des Herzogsgrabes. Herzog Albrecht II. und die Kartause Gaming (Gaming 1985); Heinrich ZEISSBERG, Zur Geschichte der Kartause Gaming. Archiv für Österreichische Geschichte 60 (1880) 562–596. Zu Briefen: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. Zu Cod. 12811: Tabulae codicum manu scriptorum praeter graecos et orientales in Bibliotheca Palatina Vindobonensi asservatorum, 7: Cod. 11501–14000, ed. Academia Caesarea Vindobonensis (Wien 1875).</p>
-   </bibliography>
+
 
 
 

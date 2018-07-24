@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 01</unitid>
       <unittitle>Handschriftennotizen aus den Bibliotheken Dünen bei Brügge und St.-Martin zu Tournai</unittitle>
-      <unitdate/>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/412734.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="198/412734.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="198/412735.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="198/412736.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="198/412737.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hl. Alkuin</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -70,17 +66,24 @@
          <part>Belgische Klöster</part>
          <part>Tournai - St.-Martin</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4217606-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Belgische Klöster</part>
          <part>Dünen bei Brügge</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4217606-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/153837685</part>
+         <part localtype="identifier">http://www.geonames.org/2786684/sint-idesbald.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -89,10 +92,7 @@
       <head>Beschreibung</head>
       <p>Handschriftennotizen aus den Bibliotheken Dünen bei Brügge (zu Alkuin) und St.-Martin zu Tournai. Französische Hand (?).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Handschriften von Dünen: Alberíc DUBOIS–Nicolas HUYGHEBAERT, Abbaye des Dunes à Koksyde et à Bruges, in: Monasticon belge, 3: Province de la Flandre Occidentale, 2 (Liège 1966) 353–445. Zu St.-Martin: Laurent Henri COTTINEAU, Répertoire topo-bibliographique des abbayes et prieurés (2 Bde., Mâcon 1939).</p>
-   </bibliography>
+
 
 
 

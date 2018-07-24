@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 09</unitid>
       <unittitle>Schriftstellerkatalog von Disentis</unittitle>
-      <unitdate>um 1900</unitdate>
       <didnote localtype="datenote">Abschrift im Zusammenhang mit der Pez-Forschung um 1900.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/410803.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="110/410803.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="110/410804.tif"/>
-      </daoset>
    </did>
 
 
@@ -49,11 +47,14 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1095228-7" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Helvetische Kongregation</part>
          <part>Disentis</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1095228-7</part>
+         <part localtype="identifier">http://viaf.org/viaf/135044223</part>
+         <part localtype="identifier">http://www.geonames.org/2661009/disentis.html</part>
       </corpname>
    </controlaccess>
 
@@ -62,10 +63,7 @@
       <head>Beschreibung</head>
       <p>Schriftstellerkatalog von Disentis: "Scriptores Dissertinenses". Original nach 1716, nennt Buchtitel, aber keinen Autorennamen; Fragment. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Disentis: Elsanne GILOMEN-SCHENKEL–Iso MÜLLER, Disentis, in: Helvetia Sacra, Abt. III: Die Orden mit Benediktinerregel, 1: Frühe Kloster, die Benediktiner und Benediktinerinnen in der Schweiz, Teil 1, hg. von Elsanne GILOMEN-SCHENKEL (Bern 1986) 474–512; Rudolf HENGGELER, Monasticon-Benedictinum Helvetiae, 4: Profeßbuch der Benediktinerabteien St. Martin in Disentis, St. Vinzenz in Beinwil und U. L. Frau von Mariastein, St. Leodegar und St. Mauritius im Hof zu Luzern, Allerheiligen in Schaffhausen, St. Georg zu Stein am Rhein, Sta. Maria zu Wagenhausen, Hl. Kreuz und St. Johannes Ev. zu Trub, St. Johann im Thurtal (Zug 1955).</p>
-   </bibliography>
+
 
 
 

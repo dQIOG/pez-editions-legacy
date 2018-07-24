@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz3">Faszikel 3</container>
+      <unitid>Nr. 13</unitid>
       <unittitle>Abschrift: "Chronica quomodo domini cruciferi exorti sunt"; bibliographische Notizen; Handschriftennotizen</unittitle>
-      <unitdate>nach 1728</unitdate>
       <didnote localtype="datenote">BP (?) exzerpiert aus "Journal de Sçavans" (1728).</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/421203.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1" href="425/421203.tif"/>
-         <dao daotype="derived" coverage="whole" label="2" href="425/421204.tif"/>
-         <dao daotype="derived" coverage="whole" label="3" href="425/421205.tif"/>
-         <dao daotype="derived" coverage="whole" label="4" href="425/421206.tif"/>
-         <dao daotype="derived" coverage="whole" label="5" href="425/421207.tif"/>
-         <dao daotype="derived" coverage="whole" label="6" href="425/421208.tif"/>
-         <dao daotype="derived" coverage="whole" label="7" href="425/421209.tif"/>
-         <dao daotype="derived" coverage="whole" label="8" href="425/421210.tif"/>
-      </daoset>
    </did>
 
 
@@ -53,11 +45,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Montfaucon</part>
          <part localtype="vorname">Bernard de</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -80,11 +72,14 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4199178-3" source="GND">
          <part>geistliche</part>
          <part>Zisterzienser</part>
          <part>Polnische Klöster</part>
          <part>Oliva</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4199178-3</part>
+         <part localtype="identifier">http://viaf.org/viaf/128317702</part>
+         <part localtype="identifier">http://www.geonames.org/3090147/oliwa.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -95,17 +90,24 @@
          <part>Benediktiner</part>
          <part>Maurinerkongregation</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1087296986" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Cassinenser Kongregation</part>
          <part>Montecassino</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1087296986</part>
+         <part localtype="identifier">http://viaf.org/viaf/133865391</part>
+         <part localtype="identifier">http://www.geonames.org/3173005/abbazia-di-montecassino.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -114,10 +116,7 @@
       <head>Beschreibung</head>
       <p>Abschriften und Exzerpte, Hand BPs? Auf S. 1–7 Abschrift einer "preussischen" Chronik mit dem Titel "Chronica quomodo domini cruciferi exorti sunt", die in einer Handschrift der Chigischen Bibliothek in Rom (G.II.51) überliefert ist. Diese Chronik gliedert sich in eine Geschichte des Deutschen Ordens von 1190–1256 und in einen Bericht über die Schlacht von Tannenberg. Die Geschichte des Deutschen Ordens entspricht einem Teil der Chronik des Klosters Oliva. Weiters folgt auf den S. 7–8 eine Abschrift BPs (?) aus dem Cassinenser Cod. 445 ("Nicolaus de S. Germano super regulam (circa annum 1304)") nach einer Vorlage Montfaucons. Den Abschluss bilden auf S. 8 zwei Exzerpte aus dem "Journal des sçavans" (1728) zu Benito FEIJÓO, Teatro critico universal (8 Bde., 1726–1739), sowie aus Mathieu PETITDIDIER, Justification de la morale et de la discipline de l'église de Rom et de toute l'Italie (Estival 1727). Möglicherweise in Zusammenhang mit BPs Paris-Aufenthalt 1728.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zur Chronik des Klosters Oliva und dessen Überlieferungen: Theodor HIRSCH–Ernst STREHLKE–Max TOEPPEN, Scriptores rerum Prussicarum. Die Geschichtsquellen der preussischen Vorzeit bis zum Untergange der Ordensherrschaft, 1 (Leipzig 1861). Zu Cod. 445: Luigi TOSTI, Bibliotheca Casinensis seu Codicum Manuscriptorum (5 Bde., Montecassino 1873). Zu Montfaucon: Dom Bernard de Montfaucon. Actes du Colloque de Carcassonne, octobre 1996, hg. von Daniel-Odon HUREL–Raymond ROGÉ (Bibliothèque Bénédictine 4, 2 Bde., Caudebec-en-Caux 1998).</p>
-   </bibliography>
+
 
 
 

@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 42</unitid>
       <unittitle>Handschriftennotizen zu Codices aus Mondsee und St. Peter</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert. Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/413169.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="239/413169.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="239/413170.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
@@ -55,11 +53,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4402803-9" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Mondsee</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/4037</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4402803-9</part>
+         <part localtype="identifier">http://viaf.org/viaf/262264489</part>
+         <part localtype="identifier">http://www.geonames.org/2771278/mondsee.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -67,11 +69,15 @@
          <part>Salzburgische Kongregation</part>
          <part>Salzburg - St. Peter</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -80,10 +86,7 @@
       <head>Beschreibung</head>
       <p>Handschriftennotizen zu Äbten von Mondsee und St. Peter, entnommen einem nicht näher definierten Cod. aus Mondsee (15. Jh.) und einem aus St. Peter (12. Jh.), Hand Mayer.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Handschriften aus Mondsee: Hans THURN, Die Handschriften der Universitätsbibliothek Würzburg, 2: Handschriften aus benediktinischen Provenienzen, 1. Hälfte: Amorbach, Kitzingen, Münsterschwarzach, Theres, Würzburg: St. Afra, St. Burkard, Schottenkloster St. Jakob. Anhang: Erfurt, Minden, Mondsee (Wiesbaden 1973). Zu Handschriften aus St. Peter: Gerold HAYER et al., Die deutschen Handschriften des Mittelalters der Erzabtei St. Peter zu Salzburg (Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters III/1, Wien 1982). Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855).</p>
-   </bibliography>
+
 
 
 

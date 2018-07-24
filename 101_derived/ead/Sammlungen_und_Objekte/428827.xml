@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia25">Kt. 85 Varia 25</container>
+      <container localtype="file" containerid="melk_Kt85Varia25_fz1">Faszikel 1</container>
+      <unitid>Nr. 12</unitid>
       <unittitle>Katalog: Verzeichnis von "Epistolae" und "Constitutiones"</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/428827.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="616/428827.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="616/428828.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Herrgott</part>
          <part localtype="vorname">Marquard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -62,16 +60,26 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1088887708" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>St. Blasien</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20387</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1088887708</part>
+         <part localtype="identifier">http://d-nb.info/gnd/65372-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/133695851</part>
+         <part localtype="identifier">http://viaf.org/viaf/170307029</part>
+         <part localtype="identifier">http://www.geonames.org/11204877/kloster-sankt-blasien.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -80,10 +88,7 @@
       <head>Beschreibung</head>
       <p>Verzeichnis von "Epistolae" und "Constitutiones", die von Herrgott angezweifelt werden. Vermerk, ob sie bereits ediert worden sind. Am Ende direkte Anrede von BP durch den Autor. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Herrgott: Josef Peter ORTNER, Marquard Herrgott (1694–1762). Sein Leben und Wirken als Historiker und Diplomat (Veröffentlichungen der Kommission für Geschichte Österreichs 5 = Schriften des DDr. Franz Josef Mayer-Gunthof-Fonds 8, Wien–München 1972).</p>
-   </bibliography>
+
 
 
 

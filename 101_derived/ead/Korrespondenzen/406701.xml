@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 09</unitid>
       <unittitle>Brief: HP an BP</unittitle>
-      <unitdate>1723-01-31</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/406701.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="25/406701.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="25/406702.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="25/406703.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="25/406704.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -61,11 +57,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -74,10 +74,7 @@
       <head>Beschreibung</head>
       <p>Brief HP an BP. Original. Zu den "Capitula" des Melker Konvents gegen Abt Dietmayr vgl. auch Karton 3 Äbte 6, Fasz. 2.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Der Brief scheint nicht auf bei: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. Zu den "Capitula" des Melker Konvents: Hugo HANTSCH, Bernhard Pez und Abt Berthold Dietmayr (MIÖG 71, Wien 1963) 128–139.</p>
-   </bibliography>
+
 
 
 

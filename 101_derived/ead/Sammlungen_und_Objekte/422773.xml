@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia22">Kt. 85 Varia 22</container>
+      <container localtype="file" containerid="melk_Kt85Varia22_fz2">Faszikel 2</container>
+      <unitid>Nr. 09</unitid>
       <unittitle>Bio-bibliographische Notizen zu Pfäfers</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/422773.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="474/422773.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="474/422774.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,23 +39,23 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Anonymus (OSB Pfäfers)</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">"Allwicus de Morr"</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Hueber</part>
          <part localtype="vorname">Apronian</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Schwitter</part>
          <part localtype="vorname">Gerold</part>
       </persname>
@@ -77,23 +75,34 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4219487-8" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Helvetische Kongregation</part>
          <part>Pfäfers</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4219487-8</part>
+         <part localtype="identifier">http://viaf.org/viaf/147403598</part>
+         <part localtype="identifier">http://www.geonames.org/2659224/pfaefers-dorf.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1086282779" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Oberschwäbische Kongregation</part>
          <part>Mehrerau</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/92580</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1086282779</part>
+         <part localtype="identifier">http://viaf.org/viaf/867145857000822921033</part>
+         <part localtype="identifier">http://www.geonames.org/3333694/kloster-mehrerau.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -110,10 +119,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen zu folgenden zwei Schriftstellern aus Pfäfers: 1) Anonymus, der eine Chronik von Pfäfers verfasst hat, und 2) "Allwicus de Morr", Verfasser des "Stemmatographicon“. Möglicherweise besteht ein Zusammenhang mit Gerhard Schwitter, Bibliothekar in Pfäfers, der 1718 unter anderem einen Schriftstellerkatalog von Pfäfers verfasst hat. Dieser Katalog ist als Beilage zum Brief Apronian Hueber an BP (1718-03-26) nach Melk gelangt und dort im Original erhalten (Karton 7 Patres 7 = Band 2 der Pezbriefe fol. 120r–123v). Er führt ebenfalls "Allwicus de Morr" an.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Pfäfers und seinen Schriftstellern: Jakob KURATLI HÜEBLIN, Archiv und Fälscherwerkstatt. Das Kloster Pfäfers und sein Umgang mit Schriftgut, 10. bis 18. Jahrhundert (Studia Fabariensia. Beiträge zur Pfäferser Klostergeschichte 4, Dietikon–Zürich 2010). Zu BPs Beziehung zu Pfäfers: Gall HEER, P. Bernhard Pez von Melk OSB (1683–1735) in seinen Beziehungen zu den Schweizer Klöstern. Ein Kapitel benediktinischer Geistesgeschichte des frühen 18. Jahrhunderts, in: Festschrift Oskar VASELLA. Zum 60. Geburtstag am 15. Mai 1964 überreicht von Schülern und Freunden (Freiburg 1964). Zu Brief (verzeichnet als Brief Schwitter an BP): Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 

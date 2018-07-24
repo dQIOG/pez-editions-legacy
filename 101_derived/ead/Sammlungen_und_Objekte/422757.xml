@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia22">Kt. 85 Varia 22</container>
+      <container localtype="file" containerid="melk_Kt85Varia22_fz2">Faszikel 2</container>
+      <unitid>Nr. 02</unitid>
       <unittitle>Bibliographische Notizen zu Bucelin</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/422757.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="467/422757.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="467/422758.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01467360</part>
          <part localtype="identifier">http://viaf.org/viaf/95166829 / http://viaf.org/viaf/289889169 / http://viaf.org/viaf/220146029582335822088</part>
          <part localtype="identifier">http://d-nb.info/gnd/118516493</part>
@@ -59,11 +57,17 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1087485037" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Oberschwäbische Kongregation</part>
          <part>Weingarten</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20528</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1087485037</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2112767-0</part>
+         <part localtype="identifier">http://viaf.org/viaf/156622198</part>
+         <part localtype="identifier">http://viaf.org/viaf/316426364</part>
+         <part localtype="identifier">http://www.geonames.org/2812204/weingarten.html</part>
       </corpname>
    </controlaccess>
 
@@ -72,11 +76,7 @@
       <head>Beschreibung</head>
       <p>Bibliographische Notizen zu Bucelin. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Bucelin: Claudia Maria NEESEN, Gabriel Bucelin OSB (1599–1681). Leben und historiographisches
-Werk (Stuttgarter historische Studien zur Landes- und Wirtschaftsgeschichte 3, Ostfildern 2003); Thomas STUMP, Pater Gabriel Bucelin, 1599–1681, in: Festschrift zur 900-Jahr-Feier des Klosters 1056–1956. Ein Beitrag zur Geistes- und Gütergeschichte der Abtei, hg. von Gebhard SPAHR (Weingarten 1956) 370–395; Alfons M. ZIMMERMANN, P. Gabriel Bucelin als Hagiograph des Benediktinerordens, in: Festschrift zur 900-Jahr-Feier des Klosters 1056–1956. Ein Beitrag zur Geistes- und Gütergeschichte der Abtei, hg. von Gebhard SPAHR (Weingarten 1956) 396–400.</p>
-   </bibliography>
+
 
 
 

@@ -13,36 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia28">Kt. 85 Varia 28</container>
+      <container localtype="file" containerid="melk_Kt85Varia28_fz2">Faszikel 2</container>
+      <unitid>Nr. 20</unitid>
       <unittitle>Abschrift: Gerhard von Csanád, "Deliberatio supra hymnum trium puerorum"</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Wohl in Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/434106.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="708/434106.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="708/434124.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="708/434125.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="708/434126.tif"/>
-         <dao daotype="derived" coverage="whole" label="11v" href="708/434127.tif"/>
-         <dao daotype="derived" coverage="whole" label="12r" href="708/434128.tif"/>
-         <dao daotype="derived" coverage="whole" label="12v" href="708/434129.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="708/434107.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="708/434108.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="708/434109.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="708/434110.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="708/434111.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="708/434112.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="708/434113.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="708/434114.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="708/434115.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="708/434116.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="708/434117.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="708/434118.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="708/434119.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="708/434120.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="708/434121.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="708/434122.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="708/434123.tif"/>
-      </daoset>
    </did>
 
 
@@ -63,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name"/>
          <part localtype="vorname">Gerhard von Csanád</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
@@ -93,11 +69,15 @@
          <part>Cassinenser Kongregation</part>
          <part>Venedig - S. Giorgio Maggiore</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -111,10 +91,7 @@
       <head>Beschreibung</head>
       <p>Abschrift "Deliberatio supra hymnum trium puerorum" des Gerhard von Csanád (Mönch und Abt des Klosters S. Giorgio in Venedig, danach Bischof von Csanád, heute Cenad in Rumänien), wohl Hand Mayer, mit Anmerkungen. Zu Gerhard von Csanád vgl. auch StiB Melk, Cod. 500.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zum "Delibertatio": Gabriel SILAGI, Untersuchungen zur "Deliberatio supra hymnum trium puerorum" des Gerhard von Csanád (Münchener Beiträge zur Mediävistik und Renaissance-Forschung 1, München 1967). Zu Cod. 500: Christine GLASSNER, Neuzeitliche Handschriften aus dem Nachlass der Brüder Bernhard und Hieronymus Pez in der Bibliothek des Benediktinerstiftes Melk (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 372 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe IV 7, Wien 2008).</p>
-   </bibliography>
+
 
 
 

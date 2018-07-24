@@ -13,44 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz1">Faszikel 1</container>
+      <unitid>Nr. 01</unitid>
       <unittitle>Manuskript: "Ablegatum Viennense de erigenda metropoli"</unittitle>
-      <unitdate>um 1722</unitdate>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/406183.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="13/406183.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="13/406201.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="13/406202.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="13/406203.tif"/>
-         <dao daotype="derived" coverage="whole" label="11v" href="13/406204.tif"/>
-         <dao daotype="derived" coverage="whole" label="12r" href="13/406205.tif"/>
-         <dao daotype="derived" coverage="whole" label="12v" href="13/406206.tif"/>
-         <dao daotype="derived" coverage="whole" label="13r" href="13/406207.tif"/>
-         <dao daotype="derived" coverage="whole" label="13v" href="13/406208.tif"/>
-         <dao daotype="derived" coverage="whole" label="14r" href="13/406209.tif"/>
-         <dao daotype="derived" coverage="whole" label="14v" href="13/406210.tif"/>
-         <dao daotype="derived" coverage="whole" label="15r" href="13/406211.tif"/>
-         <dao daotype="derived" coverage="whole" label="15v" href="13/406212.tif"/>
-         <dao daotype="derived" coverage="whole" label="16r" href="13/406213.tif"/>
-         <dao daotype="derived" coverage="whole" label="16v" href="13/406214.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="13/406184.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="13/406185.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="13/406186.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="13/406187.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="13/406188.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="13/406189.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="13/406190.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="13/406191.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="13/406192.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="13/406193.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="13/406194.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="13/406195.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="13/406196.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="13/406197.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="13/406198.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="13/406199.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="13/406200.tif"/>
-      </daoset>
    </did>
 
 
@@ -71,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00581271</part>
          <part localtype="identifier">http://viaf.org/viaf/948292</part>
          <part localtype="identifier">http://d-nb.info/gnd/124510736</part>
@@ -92,11 +60,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -105,10 +77,7 @@
       <head>Beschreibung</head>
       <p>"Ablegatum Viennense de erigenda metropoli". Inhalt im Zusammenhang mit der Auseinandersetzung zwischen BP und Abt Dietmayr 1722/23.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu den "Capitula" des Melker Konvents: Hugo HANTSCH, Bernhard Pez und Abt Berthold Dietmayr. MIÖG 71 (1963) 128–139.</p>
-   </bibliography>
+
 
 
 

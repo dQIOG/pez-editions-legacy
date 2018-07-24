@@ -13,48 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz1">Faszikel 1</container>
+      <unitid>Nr. 56</unitid>
       <unittitle>Abschrift: Liste der Lorcher und Passauer Bischöfe aus einer Gaminger Handschrift</unittitle>
-      <unitdate>1731</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/425227.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="557/425227.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="557/425245.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="557/425246.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="557/425247.tif"/>
-         <dao daotype="derived" coverage="whole" label="11v" href="557/425248.tif"/>
-         <dao daotype="derived" coverage="whole" label="12r" href="557/425249.tif"/>
-         <dao daotype="derived" coverage="whole" label="12v" href="557/425250.tif"/>
-         <dao daotype="derived" coverage="whole" label="13r" href="557/425251.tif"/>
-         <dao daotype="derived" coverage="whole" label="13v" href="557/425252.tif"/>
-         <dao daotype="derived" coverage="whole" label="14r" href="557/425253.tif"/>
-         <dao daotype="derived" coverage="whole" label="14v" href="557/425254.tif"/>
-         <dao daotype="derived" coverage="whole" label="15r" href="557/425255.tif"/>
-         <dao daotype="derived" coverage="whole" label="15v" href="557/425256.tif"/>
-         <dao daotype="derived" coverage="whole" label="16r" href="557/425257.tif"/>
-         <dao daotype="derived" coverage="whole" label="16v" href="557/425258.tif"/>
-         <dao daotype="derived" coverage="whole" label="17r" href="557/425259.tif"/>
-         <dao daotype="derived" coverage="whole" label="17v" href="557/425260.tif"/>
-         <dao daotype="derived" coverage="whole" label="18r" href="557/425261.tif"/>
-         <dao daotype="derived" coverage="whole" label="18v" href="557/425262.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="557/425228.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="557/425229.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="557/425230.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="557/425231.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="557/425232.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="557/425233.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="557/425234.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="557/425235.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="557/425236.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="557/425237.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="557/425238.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="557/425239.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="557/425240.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="557/425241.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="557/425242.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="557/425243.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="557/425244.tif"/>
-      </daoset>
    </did>
 
 
@@ -75,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Wydemann</part>
          <part localtype="vorname">Leopold</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
@@ -93,16 +57,23 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/3011144-4" source="GND">
          <part>geistliche</part>
          <part>Kartäuser</part>
          <part>Gaming</part>
+         <part localtype="identifier">http://d-nb.info/gnd/3011144-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/155471057</part>
+         <part localtype="identifier">http://www.geonames.org/2778949/gaming.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -119,10 +90,7 @@
       <head>Beschreibung</head>
       <p>Abschrift einer Liste ("Cathalogus Archiepiscoporum Laureacensium et Pataviensium") der Lorcher und Passauer Bischöfe aus einem Gaminger Cod. des 15. Jh. (wohl ÖNB, Cod. 3358), Hand Wydemann. Es folgen zwei Abschriften des Textes aus dem späten 19. bzw. frühen 20. Jh., auf fol. 18v Bemerkung Katschthalers mit Hinweis auf HPs Scriptores Band 1. Beilage zu Brief Wydemann an HP (1731-09-26).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Gaming: Thomas AIGNER, Gaming, in: Monasticon Cartusiense II, hg. von James HOGG–Alain GIRARD–Daniel LE BLÉVEC (Salzburg 2004) 82–86; Anton ERDINGER, Beiträge zur Geschichte der Karthause Gaming. Geschichtliche Beilagen zu den Consistorial-Currenden der Diöcese St. Pölten 5 (1895) 1–82; Josef FEIL, Original-Beiträge zur Geschichte der Aufhebung mehrer [!] Klöster in Niederösterreich. Oesterreichische Blätter für Literatur und Kunst, Geographie, Geschichte, Statistik und Naturkunde 2 (1845) 306–310, 315–318, 449–452, 540–544, 571–573; Walter HILDEBRAND, Kartause Gaming. Ausstellung anlässlich der Wiederherstellung des Herzogsgrabes. Herzog Albrecht II. und die Kartause Gaming (Gaming 1985); Heinrich ZEISSBERG, Zur Geschichte der Kartause Gaming. Archiv für Österreichische Geschichte 60 (1880) 562–596. Zu Cod. 3358: Tabulae codicum manu scriptorum praeter graecos et orientales in Bibliotheca Palatina Vindobonensi asservatorum, 2: Cod. 2001–3500, ed. Academia Caesarea Vindobonensis (Wien 1868). Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 

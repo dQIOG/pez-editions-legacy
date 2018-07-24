@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia25">Kt. 85 Varia 25</container>
+      <container localtype="file" containerid="melk_Kt85Varia25_fz1">Faszikel 1</container>
+      <unitid>Nr. 70</unitid>
       <unittitle>Abschrift: Johannes Barbatus, "Catalogus illustrium virorum ordinis S. Benedicti"schriftstellern</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/430548.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="674/430548.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="674/430549.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="674/430550.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="674/430551.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Widow</part>
          <part localtype="vorname">Konrad </part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Johannes Barbatus</part>
       </persname>
@@ -68,21 +64,31 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4197562-5" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bursfelder Kongregation</part>
          <part>Bursfelde</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/357</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4197562-5</part>
+         <part localtype="identifier">http://d-nb.info/gnd/5123111-6</part>
+         <part localtype="identifier">http://viaf.org/viaf/293964756</part>
+         <part localtype="identifier">http://viaf.org/viaf/172256916</part>
+         <part localtype="identifier">http://www.geonames.org/2940940/bursfelde.html</part>
       </corpname>
       <corpname>
          <part>weltliche</part>
          <part>Hamburg - Rat</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -91,10 +97,7 @@
       <head>Beschreibung</head>
       <p>Abschrift eines Katalogs benediktinischer Schriftsteller aus Johannes Barbatus, "Catalogus illustrium virorum ordinis S. Benedicti" (= SLUB Dresden, Cod. A 190). Der Katalog ist alphabetisch nach den Vornamen der Schriftsteller geordnet. Die Handschrift befindet sich heute in der Sächsischen Landesbibliothek in Dresden und weist Provenienzvermerke des Klosters Bursfelde sowie des Schottenklosters in Erfurt auf. Bei der Entstehung der hier vorliegenden Abschrift befand sich die Handschrift laut Vermerk auf fol. 1r im Schottenkloster in Erfurt. Im Brief Widow an BP (1715-02-10) weist der Absender BP darauf hin, dass der Schottenmönch Baillie, der BP Ende 1714 besucht hatte, zur Zeit in Erfurt wirkt. Eine Verbindung zwischen der Abschrift, Baillie und BP konnte noch nicht nachgewiesen werden.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zum Cod. A 190: Franz SCHNORR VON CAROLSFELD, Katalog der Handschriften der königl. öffentlichen Bibliothek zu Dresden, 1: A–D, F–H (Leipzig 1882). Zu Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). Zum Verhältnis des Textes zu den Werken des Johannes Trithemius: Klaus ARNOLD, De viris illustribus. Aus den Anfängen der humanistischen Literaturgeschichtsschreibung: Johannes Trithemius und andere Schriftstellerkataloge des 15. Jahrhunderts. Humanistica Lovaniensia 42 (1993) 52–70.</p>
-   </bibliography>
+
 
 
 

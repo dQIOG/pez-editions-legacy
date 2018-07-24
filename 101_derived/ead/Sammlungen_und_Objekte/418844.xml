@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 02</unitid>
       <unittitle>Bio-bibliographische Notiz zu Angelomus von Luxeuil</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/418844.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="318/418844.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="318/418845.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="318/418846.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="318/418847.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="318/418848.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="318/418849.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="318/418850.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="318/418851.tif"/>
-      </daoset>
    </did>
 
 
@@ -47,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Angelomus von Luxeuil</part>
       </persname>
@@ -68,17 +60,24 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/5559590-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Französische Klöster</part>
          <part>Luxeuil</part>
+         <part localtype="identifier">http://d-nb.info/gnd/5559590-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/135847122</part>
+         <part localtype="identifier">http://www.geonames.org/2996995/luxeuil-les-bains.html</part>
       </corpname>
    </controlaccess>
 
@@ -87,10 +86,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notiz zu Angelomus von Luxeuil, Hand Mayer.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Angelomus von Luxeuil: Fidel RÄDLE, Angelomus von Luxeuil, in: Lexikon des Mittelalters, 1 (München–Zürich 1980) col. 619. Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855).</p>
-   </bibliography>
+
 
 
 

@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia28">Kt. 85 Varia 28</container>
+      <container localtype="file" containerid="melk_Kt85Varia28_fz2">Faszikel 2</container>
+      <unitid>Nr. 19</unitid>
       <unittitle>Briefabschrift: Gerhoch von Reichersberg an Bernhard von Clairvaux</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Wohl in Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/434099.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="707/434099.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="707/434100.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="707/434101.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="707/434102.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name"/>
          <part localtype="vorname">Gerhoch von Reichersberg</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hl. Bernhard von Clairvaux</part>
       </persname>
@@ -68,21 +64,31 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2033438-2" source="GND">
          <part>geistliche</part>
          <part>Augustiner-Chorherren</part>
          <part>Reichersberg</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2033438-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/245395737</part>
+         <part localtype="identifier">http://www.geonames.org/2767754/reichersberg.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/3023813-4" source="GND">
          <part>geistliche</part>
          <part>Zisterzienser</part>
          <part>Clairvaux</part>
+         <part localtype="identifier">http://d-nb.info/gnd/3023813-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/168521834</part>
+         <part localtype="identifier">http://www.geonames.org/11000506/clairvaux-abbey.html</part>
       </corpname>
    </controlaccess>
 
@@ -91,10 +97,7 @@
       <head>Beschreibung</head>
       <p>Abschrift eines Briefes Gerhochs von Reichersberg an Bernhard von Clairvaux (aus 1147), wohl Hand Mayer, mit Anmerkungen. Laut Anmerkung auf fol. 1r war ein Cod. aus Ottobeuren Vorlage zu dieser Abschrift, Classen (vgl. Literaturfeld) nennt jedoch lediglich Cod. London, Brit. Mus. add. mss. 22634 und Cod. Melk 395.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Gerhoch von Reichersberg und Brief an Bernhard von Clairvaux: Peter CLASSEN, Gerhoch von Reichersberg. Eine Biographie mit einem Anhang über die Quellen, ihre handschriftliche Überlieferung und ihre Chronologie (Wiesbaden 1960).</p>
-   </bibliography>
+
 
 
 

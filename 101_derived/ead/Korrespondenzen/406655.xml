@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 07</unitid>
       <unittitle>Briefabschrift: HP und Kapitel wohl an Grimaldi</unittitle>
-      <unitdate>nach 1722</unitdate>
       <didnote localtype="datenote">Zeitgenössische Abschrift eines Briefes vom 1722-12-27.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/406655.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="23/406655.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="23/406656.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="23/406657.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="23/406658.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00546836 / 
 http://thesaurus.cerl.org/record/cnp00176788</part>
          <part localtype="identifier">http://viaf.org/viaf/39522096 / http://viaf.org/viaf/3630504 / http://viaf.org/viaf/54506436</part>
@@ -55,7 +51,7 @@ http://thesaurus.cerl.org/record/cnp00176788</part>
          <part localtype="name">Grimaldi</part>
          <part localtype="vorname">Girolamo</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Melk - Kapitel</part>
          <part localtype="vorname"/>
       </persname>
@@ -69,11 +65,15 @@ http://thesaurus.cerl.org/record/cnp00176788</part>
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>weltliche</part>
@@ -87,10 +87,7 @@ http://thesaurus.cerl.org/record/cnp00176788</part>
       <p>Brief (Briefabschrift?) HP und Kapitel wohl an Nuntius Grimaldi (1722-12-27). Zu den "Capitula" vgl. auch Karton 3 Äbte 6, Fasz. 2.
 </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu den "Capitula" des Melker Konvents: Hugo HANTSCH, Bernhard Pez und Abt Berthold Dietmayr (MIÖG 71, Wien 1963) 128–139.</p>
-   </bibliography>
+
 
 
 

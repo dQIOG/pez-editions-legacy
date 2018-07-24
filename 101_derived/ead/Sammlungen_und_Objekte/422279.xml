@@ -13,28 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia22">Kt. 85 Varia 22</container>
+      <container localtype="file" containerid="melk_Kt85Varia22_fz1">Faszikel 1</container>
+      <unitid>Nr. 14</unitid>
       <unittitle>Abschriften aus einem Niederaltaicher Cod. von Abt Gmainer</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/422279.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="454/422279.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="454/422280.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="454/422281.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="454/422282.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="454/422283.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="454/422284.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="454/422285.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="454/422286.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="454/422287.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="454/422288.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="454/422289.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="454/422290.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="454/422291.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="454/422292.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="454/422293.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="454/422294.tif"/>
-      </daoset>
    </did>
 
 
@@ -55,18 +39,18 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hl. Hermann von Niederaltaich</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01256573</part>
          <part localtype="identifier">http://viaf.org/viaf/20880842</part>
          <part localtype="identifier">http://d-nb.info/gnd/133679853</part>
          <part localtype="name">Gmainer</part>
          <part localtype="vorname">Paul</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -83,16 +67,24 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2005841-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Niederaltaich</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3308</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2005841-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/127140314</part>
+         <part localtype="identifier">http://www.geonames.org/2863667/niederalteich.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -101,10 +93,7 @@
       <head>Beschreibung</head>
       <p>Abschriften "Epistolae Hermani abbatis Altahensis ad Alexandrum IV. papam super canonizatione beati Guntheri" (fol. 1r–2r), "De ortu Augeae Beatae Mariae Virginis" (fol. 2r–5v) und "Vita Beatae Alrunae" (fol. 6r–8v), letzter Teil gedruckt in BP, Thesaurus anecdotorum novissimus, 2 (Augsburg 1721) col. 251–266. Die ersten beiden Teile sind nicht mehr in den Druck gelangt, sie sind in StiB Melk, Cod. 19 (243r–245v, "Libellus de origine et fundatione Augeae B. Mariae Virginis vulgo Frauenau in Bavaria" sowie 220r–v, "Epistola ad Alexandrum IV. papam de beato Gunthero") und Cod. 145 (fol. 88r–94v, "Origo seu fundatio ecclesiae BMV in Augea vulgo Frauenau") überliefert. Als Vorlage diente ein noch nicht identifizierter Niederaltaicher Cod., geschrieben von Abt Gmainer, eventuell ÖNB Wien, Cod. 413. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Niederaltaich, Hermann und Gmainer: Josef HEMMERLE, Germania Benedictina, 2: Die Benediktinerklöster in Bayern (Augsburg 1970); Georg STADTMÜLLER–Bonifaz PFISTER, Geschichte der Abtei Niederaltaich 741–1971 (Ottobeuren–Augsburg 1971). Zu den Cod.: Christine GLASSNER, Neuzeitliche Handschriften aus dem Nachlass der Brüder Bernhard und Hieronymus Pez in der Bibliothek des Benediktinerstiftes Melk (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 372 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe IV 7, Wien 2008). Zu ÖNB Cod. 413: Tabulae codicum manu scriptorum praeter graecos et orientales in Bibliotheca Palatina Vindobonensi asservatorum, 1: Cod. 1–2000, ed. Academia Caesarea Vindobonensis (Wien 1864).</p>
-   </bibliography>
+
 
 
 

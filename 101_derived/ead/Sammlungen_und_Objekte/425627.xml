@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz2">Faszikel 2</container>
+      <unitid>Nr. 14</unitid>
       <unittitle>Abschrift aus Le Mire, Elogia Belgica zu Hovaeus</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/425627.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="572/425627.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="572/425628.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Anton van Hove (Hovaeus)</part>
       </persname>
@@ -55,11 +53,17 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/5290040-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Luxemburgische Klöster</part>
          <part>Echternach</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3066</part>
+         <part localtype="identifier">http://d-nb.info/gnd/5290040-X</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4197118-8</part>
+         <part localtype="identifier">http://viaf.org/viaf/134574974</part>
+         <part localtype="identifier">http://viaf.org/viaf/292953366</part>
+         <part localtype="identifier">http://www.geonames.org/2960630/echternach.html</part>
       </corpname>
    </controlaccess>
 
@@ -68,10 +72,7 @@
       <head>Beschreibung</head>
       <p>Abschrift aus Aubert LE MIRE, Elogia Belgica sive illustrium Belgii scriptorum (Antwerpen 1609) zu Anton von Hove (Hovaeus). </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Hovaeus: Gunther FRANZ, Bedeutende Echternacher Äbte des 16. und 17. Jahrhunderts Hovaeus - Bertels - Richardot, in: Die Abtei Echternach 698–1998, hg. von Michele Camillo FERRARI–Jean SCHROEDER–Henri TRAUFFLER (Luxemburg 1999) 263–276; Gunther FRANZ, Antonius Hovaeus, Cornelius Loos und Friedrich Spee – drei Gegner der Hexenprozesse in Echternach und Trier, in: Hexenprozesse und ihre Gegner im trierisch-lothringischen Raum, hg. von Gunther FRANZ–Günter GEHL–Franz IRSIGLER (Historie und Politik 7, Weimar 1997) 117–141.</p>
-   </bibliography>
+
 
 
 

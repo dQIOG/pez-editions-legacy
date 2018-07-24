@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz8">Faszikel 8</container>
+      <unitid>Nr. 38</unitid>
       <unittitle>Bibliothekskatalog von St. Stephan zu Würzburg</unittitle>
-      <unitdate>1713</unitdate>
       <didnote localtype="datenote">Explicit: "Hic catalogus desumptus est ex nova bibliotheca monasterii S. Stephani Herbipoli ordinis sancti Benedicti anno 1713".</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/417144.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="299/417144.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="299/417145.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="299/417146.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="299/417147.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,18 +39,18 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00575112</part>
          <part localtype="identifier">http://viaf.org/viaf/45207068</part>
          <part localtype="identifier">http://d-nb.info/gnd/123371554</part>
          <part localtype="name">Baumbach</part>
          <part localtype="vorname">Hyazinth</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00543932</part>
          <part localtype="identifier">http://viaf.org/viaf/10645788</part>
          <part localtype="identifier">http://d-nb.info/gnd/118977709</part>
@@ -80,11 +76,15 @@
          <part>Bursfelder Kongregation</part>
          <part>Würzburg - St. Stephan</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -101,10 +101,7 @@
       <head>Beschreibung</head>
       <p>Katalog benediktinischer Werke in der Bibliothek von St. Stephan zu Würzburg, geschrieben vom Bibliothekar von St. Stephan. Dieser ist Ebenhöch nach seiner Wahl zum Abt 1714 in diesem Amt nachgefolgt, seine Identität konnte noch nicht festgestellt werden. Beilage zu Ebenhöch an BP (1714-11-14), Baumbach erwähnt den Katalog in einem Brief an BP (1713-06-25). Vgl. einen Zettel von der selben Hand in Karton 7 Patres 11, Karton 3, Nr. 9.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu St. Stephan: Georg SCHWINGER, Das St. Stephans-Kloster O.S.B. in Würzburg. Beiträge zu dessen Geschichte. Archiv des Historischen Vereins von Unterfranken und Aschaffenburg 40 (1898) 111–198; 41 (1899) 157–237; 42 (1900) 75–139; 43 (1901) 27–84. Zu Ebenhöch, Baumbach und Briefen: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</p>
-   </bibliography>
+
 
 
 

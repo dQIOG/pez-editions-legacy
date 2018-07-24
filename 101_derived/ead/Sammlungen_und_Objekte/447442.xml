@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia30">Kt. 85 Varia 30</container>
+      <container localtype="file" containerid="melk_Kt85Varia30_fz1">Faszikel 1</container>
+      <unitid>Nr. 12</unitid>
       <unittitle>Abschrift, Exzerpt: Material zu Johannes (Gersen) von Vercelli</unittitle>
-      <unitdate>17. Jh.</unitdate>
       <didnote localtype="datenote">Französische Hand des 17. Jahrhunderts.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/447442.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="751/447442.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="751/447443.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="751/447444.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="751/447445.tif"/>
-      </daoset>
    </did>
 
 
@@ -46,11 +42,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Mabillon</part>
          <part localtype="vorname">Jean</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Johannes Gersen</part>
       </persname>
@@ -72,11 +68,14 @@
          <part>Benediktiner</part>
          <part>Maurinerkongregation</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4506132-4" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Cassinenser Kongregation</part>
          <part>Vercelli</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4506132-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/239636669</part>
+         <part localtype="identifier">http://www.geonames.org/3164565/vercelli.html</part>
       </corpname>
    </controlaccess>
 
@@ -85,10 +84,7 @@
       <head>Beschreibung</head>
       <p>Material zu Johannes Gersen von Vercelli (fälschlicherweise als Autor von "De Imitatione Christi" angenommen) mit Auszügen aus einem "Chronicon Franciscanorum" zum 13. Jh., französische Hand. Laut Anmerkung auf fol. 1r 1695 an Mabillon gesandt, Brief nicht bei Leclercq (vgl. Literaturfeld). Wohl in Zusammenhang mit Jean MABILLON, Animadversiones in Vindicias Kempenses (Paris 1677) und dem immer wieder aufflammenden Streit um die Autorenfrage, der z.B. Anselm Schramb oder Leopold Wydemann auch im 18. Jh. beschäftigte. Vgl. weitere Materialien zu Gersen in Karton 85 Varia 30, Fasz. 1, Nr. 13.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zur Autorenfrage "De Imitatione Christi": Stefan BENZ, Zwischen Tradition und Kritik. Katholische Geschichtsschreibung im barocken Heiligen Römischen Reich (Historische Studien 473, Husum 2003); Patrick FISKA, Zu Leben und Werk des Melker Benediktiners Anselm Schramb (1658–1720). Mit einer Edition seiner Briefkorrespondenz. SMBG 122 (2011) 201–306. Zu Mabillon und "De Imitatione Christi": Henri LECLERCQ, Mabillon (2 Bde., Paris 1953–1957).</p>
-   </bibliography>
+
 
 
 

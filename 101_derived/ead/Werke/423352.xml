@@ -13,24 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia22">Kt. 85 Varia 22</container>
+      <container localtype="file" containerid="melk_Kt85Varia22_fz3">Faszikel 3</container>
+      <unitid>Nr. 01</unitid>
       <unittitle>Notizen BPs zum Benediktinerorden</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/423352.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1" href="486/423352.tif"/>
-         <dao daotype="derived" coverage="whole" label="10" href="486/423361.tif"/>
-         <dao daotype="derived" coverage="whole" label="11" href="486/423362.tif"/>
-         <dao daotype="derived" coverage="whole" label="12" href="486/423363.tif"/>
-         <dao daotype="derived" coverage="whole" label="2" href="486/423353.tif"/>
-         <dao daotype="derived" coverage="whole" label="3" href="486/423354.tif"/>
-         <dao daotype="derived" coverage="whole" label="4" href="486/423355.tif"/>
-         <dao daotype="derived" coverage="whole" label="5" href="486/423356.tif"/>
-         <dao daotype="derived" coverage="whole" label="6" href="486/423357.tif"/>
-         <dao daotype="derived" coverage="whole" label="7" href="486/423358.tif"/>
-         <dao daotype="derived" coverage="whole" label="8" href="486/423359.tif"/>
-         <dao daotype="derived" coverage="whole" label="9" href="486/423360.tif"/>
-      </daoset>
    </did>
 
 
@@ -51,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -65,11 +53,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -78,10 +70,7 @@
       <head>Beschreibung</head>
       <p>Historisch-chronologische Notizen BPs zum Benediktinerorden, nach Jahreszahlen geodrnet (543–866).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p/>
-   </bibliography>
+
 
 
 

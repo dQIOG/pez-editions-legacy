@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 03</unitid>
       <unittitle>Briefabschrift: BP an Galisio</unittitle>
-      <unitdate>1901-10-24</unitdate>
       <didnote localtype="datenote">Laut Vermerk Katschthalers von Bruno Albers (OSB Beuron) 1901-10-24 angefertigt.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/410767.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="104/410767.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="104/410768.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="104/410769.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="104/410770.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Albers</part>
          <part localtype="vorname">Bruno</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Galisio</part>
          <part localtype="vorname">Gregorio</part>
       </persname>
@@ -71,23 +67,34 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/10290268-9" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Beuroner Kongregation</part>
          <part>Beuron</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20550</part>
+         <part localtype="identifier">http://d-nb.info/gnd/10290268-9</part>
+         <part localtype="identifier">http://viaf.org/viaf/316396755</part>
+         <part localtype="identifier">http://www.geonames.org/11048399/benediktinerkloster-beuron.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1087296986" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Cassinenser Kongregation</part>
          <part>Montecassino</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1087296986</part>
+         <part localtype="identifier">http://viaf.org/viaf/133865391</part>
+         <part localtype="identifier">http://www.geonames.org/3173005/abbazia-di-montecassino.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -96,10 +103,7 @@
       <head>Beschreibung</head>
       <p>Briefabschrift (= 1. Enzyklik) BPs an den Abt von Monte Cassino (Galisio) (1709-11-17). </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Edition dieses Stücks in: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). Zur Cassinenser Kongregation: Arcangelo BOSSI, Matricula monachorum Congregationis Casinensis Ordinis S. Benedicti, 1: 1409–1699, hg. von Leandro NOVELLI–Giovanni SPINELLI (Pubblicazioni del Centro Storico Benedettino Italiano 3, Cesena 1983).</p>
-   </bibliography>
+
 
 
 

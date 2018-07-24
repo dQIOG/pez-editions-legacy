@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia25">Kt. 85 Varia 25</container>
+      <container localtype="file" containerid="melk_Kt85Varia25_fz1">Faszikel 1</container>
+      <unitid>Nr. 21</unitid>
       <unittitle>Bio-bibliographische Notizen BPs zu Rumpler</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/428922.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="625/428922.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="625/428923.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Rumpler</part>
          <part localtype="vorname">Angelus</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -62,16 +60,24 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4314806-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Vornbach</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60408</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4314806-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/236509601</part>
+         <part localtype="identifier">http://www.geonames.org/2816057/vornbach.html</part>
       </corpname>
    </controlaccess>
 
@@ -80,10 +86,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen BPs zu Rumpler. Vgl. auch biographische Notizen zu Rumpler in Karton 85 Varia 22, Fasz. 1, Nr. 16.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Rumpler: Erika S. DORRER, Angelus Rumpler Abt von Formbach (1501–1513) als Geschichtsschreiber. Ein Beitrag zur klösterlichen Geschichtsschreibung in Bayern am Ausgang des Mittelalters (Münchener Universitätsschriften – Münchener historische Studien, Abt. Bayerische Geschichte 1, Kallmünz 1965).</p>
-   </bibliography>
+
 
 
 

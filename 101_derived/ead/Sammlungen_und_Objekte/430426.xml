@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia25">Kt. 85 Varia 25</container>
+      <container localtype="file" containerid="melk_Kt85Varia25_fz1">Faszikel 1</container>
+      <unitid>Nr. 65</unitid>
       <unittitle>Bio-bibliographische Notizen zu Hay, Spieß, Settelin, Fischer</unittitle>
-      <unitdate>1710</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/430426.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="669/430426.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="669/430427.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,23 +39,23 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Settelin</part>
          <part localtype="vorname">Hermann</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Hay</part>
          <part localtype="vorname">Roman</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Spiess</part>
          <part localtype="vorname">Placidus</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00655510</part>
          <part localtype="identifier">http://viaf.org/viaf/25702994</part>
          <part localtype="identifier">http://d-nb.info/gnd/130136557</part>
@@ -77,17 +75,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2133171-6" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Oberschwäbische Kongregation</part>
          <part>Ochsenhausen</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20123</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2133171-6</part>
+         <part localtype="identifier">http://viaf.org/viaf/149403418</part>
+         <part localtype="identifier">http://www.geonames.org/2858326/ochsenhausen.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -104,10 +110,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen zu Hay, Spieß, Settelin und Fischer, Hand Fischer. Beilage zu Brief Fischer an BP (1710-07-30).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu den Schriftstellern aus Ochsenhausen: Pirmin LINDNER, Verzeichnis aller Äbte und der vom Beginne des XVI. Jahrhunderts bis 1861 verstorbenen Mönche der Reichsabtei Ochsenhausen O. S. Bened. Gedenkblatt an deren Gründung im Jahre 1099. Diöcesanarchiv von Schwaben 17 (1899) 97–100, 117–120, 136–138, 154–156, 171–173; 18 (1900) 75–77, 86–91, 191–192. Zu Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</p>
-   </bibliography>
+
 
 
 

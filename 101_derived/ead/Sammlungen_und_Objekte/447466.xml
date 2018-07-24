@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia30">Kt. 85 Varia 30</container>
+      <container localtype="file" containerid="melk_Kt85Varia30_fz1">Faszikel 1</container>
+      <unitid>Nr. 18</unitid>
       <unittitle>Abschrift: "Prophetia sancti Thomae Cantavariensis martyris"</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/447466.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="757/447466.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="757/447467.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="757/447468.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="757/447469.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Alanus ab Insulis (Alain de Lille)</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hl. Thomas Becket</part>
       </persname>
@@ -69,10 +65,13 @@
          <part>Säkularklerus</part>
          <part>Canterbury - Erzbistum</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4126338-8" source="GND">
          <part>geistliche</part>
          <part>Zisterzienser</part>
          <part>Cîteaux</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4126338-8</part>
+         <part localtype="identifier">http://viaf.org/viaf/240383407</part>
+         <part localtype="identifier">http://www.geonames.org/3024876/citeaux-abbey.html</part>
       </corpname>
    </controlaccess>
 
@@ -81,10 +80,7 @@
       <head>Beschreibung</head>
       <p>Abschrift einer Prophezeiung des Thomas Becket (mit Anmerkungen), die Vorlage zur Abschrift konnte noch nicht identifiziert werden. Möglicherweise besteht aufgrund des Inhalts, der sich unter anderem auf "Anglia" und "Leonis" bezieht, ein Zusammenhang mit Alain de Lille, Prophetia Anglicana (Frankfurt 1608). Eine moderne Edition gibt es laut Jäckel (vgl. Literaturfeld) dazu nicht. Auf fol. 2r folgt ein Vers, der 1688 "Cistercii sub altari summo" gefunden wurde. Diese Anmerkung untermauert die Vermutung eines Zusammenhangs mit Alain de Lille, dieser war nämlich Zisterzienser in Cîteaux.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Prophezeiung und Darstellung eines Löwens als politisches Symbol im Mittelalter: Dirk JÄCKEL, Der Herrscher als Löwe. Ursprung und Gebrauch eines politischen Symbols im Früh- und Hochmittelalter (Beihefte zum Archiv für Kulturgeschichte 60, Köln 2006). </p>
-   </bibliography>
+
 
 
 

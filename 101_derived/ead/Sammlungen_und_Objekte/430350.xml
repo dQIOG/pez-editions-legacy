@@ -13,36 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia25">Kt. 85 Varia 25</container>
+      <container localtype="file" containerid="melk_Kt85Varia25_fz1">Faszikel 1</container>
+      <unitid>Nr. 60</unitid>
       <unittitle>Druckvorlage, Abschrift: Wydemann, "Vita Chunradi (Chonradi) I."</unittitle>
-      <unitdate>1719</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/430350.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="Titelr" href="664/430350.tif"/>
-         <dao daotype="derived" coverage="whole" label="1" href="664/430352.tif"/>
-         <dao daotype="derived" coverage="whole" label="10" href="664/430361.tif"/>
-         <dao daotype="derived" coverage="whole" label="11" href="664/430362.tif"/>
-         <dao daotype="derived" coverage="whole" label="12" href="664/430363.tif"/>
-         <dao daotype="derived" coverage="whole" label="13" href="664/430364.tif"/>
-         <dao daotype="derived" coverage="whole" label="14" href="664/430365.tif"/>
-         <dao daotype="derived" coverage="whole" label="15" href="664/430366.tif"/>
-         <dao daotype="derived" coverage="whole" label="16" href="664/430367.tif"/>
-         <dao daotype="derived" coverage="whole" label="17" href="664/430368.tif"/>
-         <dao daotype="derived" coverage="whole" label="18" href="664/430369.tif"/>
-         <dao daotype="derived" coverage="whole" label="19" href="664/430370.tif"/>
-         <dao daotype="derived" coverage="whole" label="2" href="664/430353.tif"/>
-         <dao daotype="derived" coverage="whole" label="20" href="664/430371.tif"/>
-         <dao daotype="derived" coverage="whole" label="21" href="664/430372.tif"/>
-         <dao daotype="derived" coverage="whole" label="22" href="664/430373.tif"/>
-         <dao daotype="derived" coverage="whole" label="3" href="664/430354.tif"/>
-         <dao daotype="derived" coverage="whole" label="4" href="664/430355.tif"/>
-         <dao daotype="derived" coverage="whole" label="5" href="664/430356.tif"/>
-         <dao daotype="derived" coverage="whole" label="6" href="664/430357.tif"/>
-         <dao daotype="derived" coverage="whole" label="7" href="664/430358.tif"/>
-         <dao daotype="derived" coverage="whole" label="8" href="664/430359.tif"/>
-         <dao daotype="derived" coverage="whole" label="9" href="664/430360.tif"/>
-         <dao daotype="derived" coverage="whole" label="Titelv" href="664/430351.tif"/>
-      </daoset>
    </did>
 
 
@@ -66,11 +42,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Wydemann</part>
          <part localtype="vorname">Leopold</part>
       </persname>
@@ -84,16 +60,23 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/3011144-4" source="GND">
          <part>geistliche</part>
          <part>Kartäuser</part>
          <part>Gaming</part>
+         <part localtype="identifier">http://d-nb.info/gnd/3011144-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/155471057</part>
+         <part localtype="identifier">http://www.geonames.org/2778949/gaming.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -116,10 +99,7 @@
       <head>Beschreibung</head>
       <p>Druckvorlage und Abschrift Wydemanns der "Vita Chonradi I." eines unbekannten Mönchs aus Raitenhaslach, Vorlage war eine bisher noch nicht zugeordnete Handschrift aus St. Peter in Salzburg. Abgedruckt in BP, Thesaurus anecotorum novissimus, 2/3 (Augsburg 1721), col. 219–250. Laut "Itinerar" der Brüder Pez (StiB Melk, Cod. 1850, fol. 236 r–v) trug die Handschrift die Signatur R 130. Beilage zu Wydemann an BP (1719-05-13), erwähnt wird die Abschrift schon in früheren Briefen aus 1719.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Wydemann: Anton ERDINGER, Beiträge zur Geschichte der Karthause Gaming. Geschichtliche Beilagen zu den Consistorial-Currenden der Diöcese St. Pölten 5 (1895) 1–82; Josef FEIL, Original-Beiträge zur Geschichte der Aufhebung mehrer [!] Klöster in Niederösterreich. Oesterreichische Blätter für Literatur und Kunst, Geographie, Geschichte, Statistik und Naturkunde 2 (1845) 306–310, 315–318, 449–452, 540–544, 571–573; Walter HILDEBRAND, Kartause Gaming. Ausstellung anlässlich der Wiederherstellung des Herzogsgrabes. Herzog Albrecht II. und die Kartause Gaming (Gaming 1985); Heinrich ZEISSBERG, Zur Geschichte der Kartause Gaming. Archiv für Österreichische Geschichte 60 (1880) 562–596. Zu Anonymus von Raitenhaslach: Alois SIEBERER, Über den Verfasser der "Vita Chunradi archiepiscopi Salisburgensis", in: Mitteilungen der Gesellschaft für Salzburger Landeskunde 62 (1922) 1–24. Zu Briefen: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. Zum "Itinerar" (Cod. 1850): Christine GLASSNER, Neuzeitliche Handschriften aus dem Nachlass der Brüder Bernhard und Hieronymus Pez in der Bibliothek des Benediktinerstiftes Melk (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 372 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe IV 7, Wien 2008). Zu Handschriften aus St. Peter: Augustin JUNGWIRTH, Katalog der Handschriften des Stiftes S[ank]t Peter in Salzburg (Salzburg 1910; handschriftlich). Zur Edition: Vita Chunradi archiepiscopi Salisburgensis, hg. von Wilhelm WATTENBACH, in: MGH SS 11 (Hannover 1854) 62–77.</p>
-   </bibliography>
+
 
 
 

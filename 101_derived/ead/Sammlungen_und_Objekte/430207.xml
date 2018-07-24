@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia25">Kt. 85 Varia 25</container>
+      <container localtype="file" containerid="melk_Kt85Varia25_fz1">Faszikel 1</container>
+      <unitid>Nr. 56</unitid>
       <unittitle>Bio-bibliographische Notizen zu Wolfgang von Niederaltaich</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/430207.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="660/430207.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="660/430208.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Wolfgang von Niederaltaich</part>
       </persname>
@@ -55,10 +53,14 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2005841-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Niederaltaich</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3308</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2005841-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/127140314</part>
+         <part localtype="identifier">http://www.geonames.org/2863667/niederalteich.html</part>
       </corpname>
    </controlaccess>
 
@@ -67,10 +69,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen zu Wolfgang von Niederaltaich (16. Jh.). </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Wolfgang von Niederaltaich: Georg STADTMÜLLER–Bonifaz PFISTER, Geschichte der Abtei Niederaltaich 741–1971 (Ottobeuren–Augsburg 1971).</p>
-   </bibliography>
+
 
 
 

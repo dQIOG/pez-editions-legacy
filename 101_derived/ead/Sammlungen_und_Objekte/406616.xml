@@ -13,46 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 01</unitid>
       <unittitle>Manuskript: Kathrein, "Johann Friedrich Schannat und Dom Martène"</unittitle>
-      <unitdate>1894-05</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/406616.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="9/406616.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="9/406627.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="9/406628.tif"/>
-         <dao daotype="derived" coverage="whole" label="12r" href="9/406629.tif"/>
-         <dao daotype="derived" coverage="whole" label="13r" href="9/406630.tif"/>
-         <dao daotype="derived" coverage="whole" label="14r" href="9/406631.tif"/>
-         <dao daotype="derived" coverage="whole" label="15r" href="9/406632.tif"/>
-         <dao daotype="derived" coverage="whole" label="16r" href="9/406633.tif"/>
-         <dao daotype="derived" coverage="whole" label="17r" href="9/406634.tif"/>
-         <dao daotype="derived" coverage="whole" label="18r" href="9/406635.tif"/>
-         <dao daotype="derived" coverage="whole" label="19r" href="9/406636.tif"/>
-         <dao daotype="derived" coverage="whole" label="20r" href="9/406637.tif"/>
-         <dao daotype="derived" coverage="whole" label="21r" href="9/406638.tif"/>
-         <dao daotype="derived" coverage="whole" label="22r" href="9/406639.tif"/>
-         <dao daotype="derived" coverage="whole" label="23r" href="9/406640.tif"/>
-         <dao daotype="derived" coverage="whole" label="24r" href="9/406641.tif"/>
-         <dao daotype="derived" coverage="whole" label="25r" href="9/406642.tif"/>
-         <dao daotype="derived" coverage="whole" label="26r" href="9/406643.tif"/>
-         <dao daotype="derived" coverage="whole" label="27r" href="9/406644.tif"/>
-         <dao daotype="derived" coverage="whole" label="28r" href="9/406645.tif"/>
-         <dao daotype="derived" coverage="whole" label="29r" href="9/406646.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="9/406617.tif"/>
-         <dao daotype="derived" coverage="whole" label="30r" href="9/406647.tif"/>
-         <dao daotype="derived" coverage="whole" label="31r" href="9/406648.tif"/>
-         <dao daotype="derived" coverage="whole" label="31v" href="9/406649.tif"/>
-         <dao daotype="derived" coverage="whole" label="3ar" href="9/406619.tif"/>
-         <dao daotype="derived" coverage="whole" label="3br" href="9/406620.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="9/406618.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="9/406621.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="9/406622.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="9/406623.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="9/406624.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="9/406625.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="9/406626.tif"/>
-      </daoset>
    </did>
 
 
@@ -73,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Kathrein</part>
          <part localtype="vorname">Ignaz Eduard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Martène</part>
          <part localtype="vorname">Edmond</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Schannat</part>
          <part localtype="vorname">Johann Friedrich</part>
       </persname>
@@ -103,11 +69,15 @@
          <part>Benediktiner</part>
          <part>Maurinerkongregation</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -116,10 +86,7 @@
       <head>Beschreibung</head>
       <p>Manuskript einer Abhandlung zu elf Briefen Schannat an Martène mit einer kurzen Einleitung, Anmerkungen und Kommentaren. Vermerk auf 31v: "30 Quartseiten. Schannats Briefe an Martène im Cod. 25,538 der Bibliothèque nationale zu Paris, Fonds francais, Résidu de St. Germain. Abgeschrieben im Mai 1894". Zahlreiche farbige Korrekturen und Hervorhebungen, u. a. sind Stellen markiert worden, die BP betreffen.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Kathrein: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1887, 1889); Directorium officii divini Benedictino Mellicense (Melk 1922–1931). Zu Kathreins Befassung mit der Thematik: Ignaz E. KATHREIN, Aus dem Briefverkehr deutscher Gelehrten mit den Benedictinern der Congregation von St. Maur und deren Beziehungen zu den literarischen und und religiösen Bewegungen des 18. Jahrhunderts. SMBG 23 (1902) 111–126, 386–403, 625–631; 24 (1903) 175–184, 446–466. Zu Briefen: Léon HALKIN, Correspondance de J.-F. Schannat avec G. de Crassier et Dom E. Martène. Bulletin de la Société d’Art et d’Histoire du Diocèse de Liège 14 (1903) 1–159.</p>
-   </bibliography>
+
 
 
 

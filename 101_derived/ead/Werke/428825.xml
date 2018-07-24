@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia25">Kt. 85 Varia 25</container>
+      <container localtype="file" containerid="melk_Kt85Varia25_fz1">Faszikel 1</container>
+      <unitid>Nr. 11</unitid>
       <unittitle>Bio-bibliographische Exzerpte BPs zu Benediktinerschriftstellern aus den Acta Sanctorum</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/428825.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="615/428825.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="615/428826.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,23 +39,23 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Stengel</part>
          <part localtype="vorname">Karl</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Arnold von Lübeck</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Heriger von Lobbes</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Francois de Rivo</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01165720 / 
 http://thesaurus.cerl.org/record/cnp00994659
 http://thesaurus.cerl.org/record/cnp00103094</part>
@@ -66,39 +64,39 @@ http://thesaurus.cerl.org/record/cnp00103094</part>
          <part localtype="name">Briz Martínez</part>
          <part localtype="vorname">Juan</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Benedict Dorgan</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Olbert von Gembloux</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">"Ingulf von Crowland"</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Ménard</part>
          <part localtype="vorname">Nicolas Hugues</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Maihew</part>
          <part localtype="vorname">Edward</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Barral </part>
          <part localtype="vorname">Vincent</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Everhelm von Hautmont</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01349469 / 
 http://thesaurus.cerl.org/record/cnp00540641 / 
 http://thesaurus.cerl.org/record/cnp00904544</part>
@@ -117,11 +115,15 @@ http://thesaurus.cerl.org/record/cnp00904544</part>
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -130,10 +132,7 @@ http://thesaurus.cerl.org/record/cnp00904544</part>
       <head>Beschreibung</head>
       <p>Bio-bibliographische Exzerpte zu Benediktinerschriftstellern aus den Acta Sanctorum (Januar, Februar), Hand BP.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Bollandisten und den Acta Sanctorum: Jan Marco SAWILLA, Antiquarianismus, Hagiographie und Historie im 17. Jahrhundert. Zum Werk der Bollandisten, ein wissenschaftshistorischer Versuch (Frühe Neuzeit 131, Tübingen 2009).</p>
-   </bibliography>
+
 
 
 

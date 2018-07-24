@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia22">Kt. 85 Varia 22</container>
+      <container localtype="file" containerid="melk_Kt85Varia22_fz1">Faszikel 1</container>
+      <unitid>Nr. 01</unitid>
       <unittitle>Abschrift der Prophezeiung eines Einsiedlers in St. Gallen/Schweiz</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/422034.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="439/422034.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="439/422035.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="439/422036.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="439/422037.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Oberleithner</part>
          <part localtype="vorname">Johann</part>
       </persname>
@@ -57,11 +53,14 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1088891446" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Helvetische Kongregation</part>
          <part>St. Gallen</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1088891446</part>
+         <part localtype="identifier">http://viaf.org/viaf/266765811</part>
+         <part localtype="identifier">http://www.geonames.org/2658822/sankt-gallen.html</part>
       </corpname>
    </controlaccess>
 
@@ -70,10 +69,7 @@
       <head>Beschreibung</head>
       <p>Abschrift der Prophezeiung eines Einsiedlers in St. Gallen/Schweiz, der 1784 verstorben ist. Auf fol. 2r Notiz "Oberleithner Johann".</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Kloster St. Gallen: Johannes DUFT–Anton GÖSSI–Werner VOGLER, St. Gallen, in: Helvetia Sacra, Abt. III: Die Orden mit Benediktinerregel, 1: Frühe Klöster, die Benediktiner und Benediktinerinnen in der Schweiz, Teil 2, hg. von Elsanne GILOMEN-SCHENKEL (Bern 1986) 1180–1369.</p>
-   </bibliography>
+
 
 
 

@@ -13,18 +13,10 @@
             <part>Stiftsbibliothek</part>
          </corpname>
       </repository>
+      <unitid>Cod. 0656_2</unitid>
       <unittitle>Cod. Mell. 656/2: Irimbertus Admontensis 2</unittitle>
-      <unitdate>18. Jh.</unitdate>
       <didnote localtype="datenote">Laut Glassner, Neuzeitliche Handschriften (vgl. Literaturfeld) 1. Drittel 18. Jh.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/476094.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="Buchdeckel vorne r" href="792/476094.tif"/>
-         <dao daotype="derived" coverage="whole" label="Buchdeckel hinten r" href="792/476482.tif"/>
-         <dao daotype="derived" coverage="whole" label="Buchdeckel hinten v" href="792/476483.tif"/>
-         <dao daotype="derived" coverage="whole" label="Buchdeckel vorne v" href="792/476095.tif"/>
-         <dao daotype="derived" coverage="whole" label="Deckblatt vorne r" href="792/476096.tif"/>
-         <dao daotype="derived" coverage="whole" label="Deckblatt vorne v" href="792/476097.tif"/>
-      </daoset>
    </did>
 
 
@@ -48,11 +40,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name"/>
          <part localtype="vorname">Irimbert von Admont</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -66,17 +58,24 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/126116-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Salzburgische Kongregation</part>
          <part>Admont</part>
+         <part localtype="identifier">http://d-nb.info/gnd/126116-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/133125683</part>
+         <part localtype="identifier">http://www.geonames.org/2782979/admont.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -85,10 +84,7 @@
       <head>Beschreibung</head>
       <p>Cod. 656/2 (olim 1628, 1815) besteht aus 16 durchgezählten Sexternionen, Zählung von 16–31 (Fortsetzung von Cod. 656/1). Zahlreiche Korrekturen Hand BP. Deutsche Anweisungen für den Drucker. Moderne Tintenfoliierung. 1r–188v: Irimbert von Admont, "Expositio in librum II Regum". Dt. Anmerkungen für den Drucker: 1r: "NB Disen Titel setze mit mittler Fractur", 1r oberer Freirand Titel von späterer Hand: "Ven. Irimbertus Abb. Admont. in Lib. II. Regum". Schreiber: Korrekturen Hand BP. Die geplante Ausgabe durch BP wäre die Erstausgabe gewesen. Vorlage nicht genannt. Aktueller Bibliotheksort und Signatur: Admont, Cod. 16 (?).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Cod. 656/2: Johann Wilhelm BRAUN, Irimbert von Admont. Frühmittelalterliche Studien. Jahrbuch des Instituts für Frühmittelalterforschung der Universität Münster 7 (1973) 266–323; Christine GLASSNER, Neuzeitliche Handschriften aus dem Nachlass der Brüder Bernhard und Hieronymus Pez in der Bibliothek des Benediktinerstiftes Melk (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 372 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe IV 7, Wien 2008) [dort angeführte Literatur hier nur auszugsweise übernommen].</p>
-   </bibliography>
+
 
 
 

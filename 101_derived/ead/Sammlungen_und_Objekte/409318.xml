@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 55</unitid>
       <unittitle>Manuskript: Auszug aus einer Klostergeschichte von Lorsch</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/409318.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="73/409318.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="73/409319.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="73/409320.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="73/409321.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="73/409322.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="73/409323.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="73/409324.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="73/409325.tif"/>
-      </daoset>
    </did>
 
 
@@ -47,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Humbert von Lorsch</part>
       </persname>
@@ -61,10 +53,16 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/801576-4" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Lorsch</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/30244</part>
+         <part localtype="identifier">http://d-nb.info/gnd/801576-4</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1085245950</part>
+         <part localtype="identifier">http://viaf.org/viaf/143763943</part>
+         <part localtype="identifier">http://viaf.org/viaf/133012072</part>
+         <part localtype="identifier">http://www.geonames.org/11204726/kloster-lorsch.html</part>
       </corpname>
    </controlaccess>
 
@@ -73,10 +71,7 @@
       <head>Beschreibung</head>
       <p>Auszug aus einer Klostergeschichte von Lorsch betreffend den 21. Abt Humbert (1032–1037). Zum Teil wörtliche Wiedergabe der Lorscher Chronik zu 1033.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Edition der Chronik: Chronicon Laureshamense, hg. von Karl PERTZ, in: MGH SS 21 (Hannover 1869) 334–453. </p>
-   </bibliography>
+
 
 
 

@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia25">Kt. 85 Varia 25</container>
+      <container localtype="file" containerid="melk_Kt85Varia25_fz1">Faszikel 1</container>
+      <unitid>Nr. 13</unitid>
       <unittitle>Bio-bibliographische Notizen zu Périon</unittitle>
-      <unitdate>vor 1716</unitdate>
       <didnote localtype="datenote">Massuet ist 1716 gestorben.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/428878.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="617/428878.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="617/428879.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Périon</part>
          <part localtype="vorname">Joachim</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Massuet</part>
          <part localtype="vorname">René</part>
       </persname>
@@ -71,11 +69,15 @@
          <part>Benediktiner</part>
          <part>Maurinerkongregation</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -84,10 +86,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen zu Pèrion, Hand Massuet. Dieses Stück dürfte erst nach dem Tod Massuets (gest. 1716) an BP gelangt sein, sei es durch Martène ab 1716 oder bei BPs Paris-Aufenthalt 1728. Vgl. Notizen zu Périon in Karton 85 Varia 25, Fasz. 1, Nr. 9  sowie in Karton 7 Patres 10, Fasz. 8, Nr. 14.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Maurinern: Yves CHAUSSY, Matricula Monachorum Professorum Congregationis S. Mauri in Gallia Ordinis Sancti Patris Benedicti (Bibliothèque d’histoire et d’archéologie chrétiennes, Paris 1959).</p>
-   </bibliography>
+
 
 
 

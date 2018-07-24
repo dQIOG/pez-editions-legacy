@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 23</unitid>
       <unittitle>Bio-bibliographische Notizen zu Cassinensern und Vorburg</unittitle>
-      <unitdate>18. Jh.</unitdate>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/413051.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="220/413051.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="220/413052.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Di Nola</part>
          <part localtype="vorname">Costantino</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01232292 / 
 http://thesaurus.cerl.org/record/cnp01004730</part>
          <part localtype="identifier">http://viaf.org/viaf/88354729 / http://viaf.org/viaf/304920285 / http://viaf.org/viaf/52043293 / http://viaf.org/viaf/316427149</part>
@@ -57,7 +55,7 @@ http://thesaurus.cerl.org/record/cnp01004730</part>
          <part localtype="name">Calaber</part>
          <part localtype="vorname">Chrysostomus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Vorburg</part>
          <part localtype="vorname">Johann Philipp von</part>
       </persname>
@@ -83,22 +81,29 @@ http://thesaurus.cerl.org/record/cnp01004730</part>
          <part>Cassinenser Kongregation</part>
          <part>Neapel</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1087296986" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Cassinenser Kongregation</part>
          <part>Montecassino</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1087296986</part>
+         <part localtype="identifier">http://viaf.org/viaf/133865391</part>
+         <part localtype="identifier">http://www.geonames.org/3173005/abbazia-di-montecassino.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
          <part>Säkularklerus</part>
          <part>Basel - Bistum</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -107,10 +112,7 @@ http://thesaurus.cerl.org/record/cnp01004730</part>
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen BPs zu zwei Schriftstellern der Cassinenser Kongregation (Calaber, de Nola) sowie zu Vorburg.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Calaber: Mariano ARMELLINI, Bibliotheca Benedictino-Casinensis sive Scriptorum Casinensis congregationis alias S. Justinae Patavinae (2 Bde., Assisi 1731–1736). Zu de Nola und zur Cassinenser Kongregation: Arcangelo BOSSI, Matricula monachorum Congregationis Casinensis Ordinis S. Benedicti, 1: 1409–1699, hg. von Leandro NOVELLI–Giovanni SPINELLI (Pubblicazioni del Centro Storico Benedettino Italiano 3, Cesena 1983). Zu Vorburg: Adolf SCHENK, Vorbourg, in: Historisches-Biographisches Lexikon der Schweiz, 7, hg. von Heinrich TÜRLER–Victor ATTINGER–Marcel GODET (Neuenburg 1934).</p>
-   </bibliography>
+
 
 
 

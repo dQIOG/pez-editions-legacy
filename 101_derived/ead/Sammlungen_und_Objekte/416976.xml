@@ -13,24 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz8">Faszikel 8</container>
+      <unitid>Nr. 27</unitid>
       <unittitle>Biographische Notiz zu Reding</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/416976.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="288/416976.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="288/416977.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="288/416978.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="288/416979.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="288/416980.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="288/416981.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="288/416982.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="288/416983.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="288/416984.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="288/416985.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="288/416986.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="288/416987.tif"/>
-      </daoset>
    </did>
 
 
@@ -51,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Reding</part>
          <part localtype="vorname">Augustin</part>
       </persname>
@@ -65,11 +53,14 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2089329-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Helvetische Kongregation</part>
          <part>Einsiedeln</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2089329-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/143458106</part>
+         <part localtype="identifier">http://www.geonames.org/2660925/einsiedeln.html</part>
       </corpname>
    </controlaccess>
 
@@ -78,10 +69,7 @@
       <head>Beschreibung</head>
       <p>Biographische Notiz zu Reding: "Elogium reverendissimi et et celsisissimi SRI principis et abbatis Einsidlensis Augustini secundi". Ordnungsvermerk: "ad Nr. 216".</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Einsiedeln: Rudolf HENGGELER, Monasticon-Benedictinum Helvetiae, 3: Profeßbuch der fürstl. Benediktinerabtei U. L. Frau zu Einsiedeln. Festgabe zum tausendjährigen Bestand des Klosters (Zug 1933).</p>
-   </bibliography>
+
 
 
 

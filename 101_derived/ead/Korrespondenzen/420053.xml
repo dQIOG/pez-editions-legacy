@@ -13,28 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 70</unitid>
       <unittitle>Briefauszüge: Apronian Hueber an BP</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/420053.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="386/420053.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="386/420054.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="386/420055.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="386/420056.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="386/420057.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="386/420058.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="386/420059.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="386/420060.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="386/420061.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="386/420062.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="386/420063.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="386/420064.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="386/420065.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="386/420066.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="386/420067.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="386/420068.tif"/>
-      </daoset>
    </did>
 
 
@@ -50,15 +34,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Hueber</part>
          <part localtype="vorname">Apronian</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -75,17 +59,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1086282779" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Oberschwäbische Kongregation</part>
          <part>Mehrerau</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/92580</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1086282779</part>
+         <part localtype="identifier">http://viaf.org/viaf/867145857000822921033</part>
+         <part localtype="identifier">http://www.geonames.org/3333694/kloster-mehrerau.html</part>
       </corpname>
    </controlaccess>
 
@@ -119,10 +111,7 @@
       <head>Beschreibung</head>
       <p>Auszüge aus Briefen Hueber an BP, Hand Mayer. Datierungen teilweise irrig.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Mehrerau: Pirmin LINDNER, Album Augiae Brigantinae. Album von Mehrerau bei Bregenz, enthaltend die Äbte und Mönche der ehemaligen Benediktiner-Abtei Mehrerau vom Jahre 1097 bis zu ihrem Aussterben (1856) und deren literarischen Nachlass. Jahres-Bericht des Vorarlberger Museum-Vereines 41 (1902) 31–107; Alois NIEDERSTÄTTER, Mehrerau, in: Germania Benedictina, 3/2: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2001) 491–525. Zu Briefen: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 

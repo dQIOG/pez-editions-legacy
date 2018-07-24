@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia27">Kt. 85 Varia 27</container>
+      <container localtype="file" containerid="melk_Kt85Varia27_fz2">Faszikel 2</container>
+      <unitid>Nr. 06</unitid>
       <unittitle>Exzerpte HPs aus Mabillon, Sancti Bernardi abbatis primi Clarae-Vallensis opera omnia</unittitle>
-      <unitdate>um 1759</unitdate>
       <didnote localtype="datenote">Auf fol. 1r: "Coepta die 27. Junii an. 1759".</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/446856.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="733/446856.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="733/446857.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="733/446858.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="733/446859.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hl. Bernhard von Clairvaux</part>
       </persname>
@@ -61,11 +57,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -74,10 +74,7 @@
       <head>Beschreibung</head>
       <p>Exzerpte HPs aus Sancti Bernardi abbatis primi Clarae-Vallensis Opera omnia, hg. von Jean MABILLON (2 Bde., Paris 1690), hier u.a. "De conversione ad clericos sermo seu liber". Vgl. selbe Hand in Karton 85 Varia 27, Fasz. 2, Nr. 1, 2, 3, 4, 5. Trotz des gegenüber früheren Textproben abweichenden Schriftbildes ist bei diesem Stück sowie den weiteren Stücken dieses Faszikels aufgrund der Datums- und Altersangaben von einer Verfasserschaft HPs auszugehen, zumal zu diesem Zeitpunkt kein anderer gleichaltriger Mönch in Melk anwesend war.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu gedruckten Werken von Ambrosius: Jaques-Paul MIGNE, Patrologiae Cursus completus, Series latina (221 Bde., Paris 1844–1855; hier Bde. 182 bis 183).</p>
-   </bibliography>
+
 
 
 

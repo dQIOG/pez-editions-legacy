@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 05</unitid>
       <unittitle>Handschriftennotizen aus der Bibliothek Anchin</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/412756.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="202/412756.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="202/412757.tif"/>
-      </daoset>
    </did>
 
 
@@ -49,11 +47,13 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4505523-3" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Französische Klöster</part>
          <part>Anchin</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4505523-3</part>
+         <part localtype="identifier">http://viaf.org/viaf/242283724</part>
       </corpname>
    </controlaccess>
 
@@ -62,10 +62,7 @@
       <head>Beschreibung</head>
       <p>Handschriftennotizen aus der Bibliothek des Klosters Anchin ("ex bibliotheca Aquiscinctina") zu Epitaphen von drei Äbten (Alvisus, Leo-Leonius, Hugo).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Anchin: Énée Aimé ESCALLIER, L’abbaye d’Anchin 1079–1792 (Lille 1852); Jean-Pierre GERZAGUET, L’abbaye d’Anchin de sa fondation (1079) au XIVe siècle. Essor, vie et rayonnement d’une grande communauté bénédictine (Histoire et civilisations, Villeneuve-d'Ascq 1997). Zur Handschrift: Jürgen MIETHKE, Zur Herkunft Hugos von St. Viktor. Archiv für Kulturgeschichte 54 (1972) 241–265.</p>
-   </bibliography>
+
 
 
 

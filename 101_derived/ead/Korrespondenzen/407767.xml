@@ -13,24 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 25</unitid>
       <unittitle>Briefabschriften: BP und Kapitel an Graf Starhemberg</unittitle>
-      <unitdate>nach 1723</unitdate>
       <didnote localtype="datenote">Vermutlich zeitgenössische Abschrift zweier Briefe vom 1723-01-07 (unvollständig) und 1723-01-10.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/407767.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="42/407767.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="42/407768.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="42/407769.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="42/407770.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="42/407771.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="42/407772.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="42/407773.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="42/407774.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="42/407775.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="42/407776.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="42/407777.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="42/407778.tif"/>
-      </daoset>
    </did>
 
 
@@ -51,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Melk - Kapitel</part>
          <part localtype="vorname"/>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Starhemberg</part>
          <part localtype="vorname">Gundakar Thomas Graf</part>
       </persname>
@@ -73,11 +61,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>weltliche</part>
@@ -90,10 +82,7 @@
       <head>Beschreibung</head>
       <p>Briefabschriften BP und Kapitel an Starhemberg (1723-01-07, unvollständig; 1723-01-10). Zu den "Capitula" vgl. auch Karton 3 Äbte 6, Fasz. 2.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu den "Capitula" des Melker Konvents: Hugo HANTSCH, Bernhard Pez und Abt Berthold Dietmayr. MIÖG 71 (1963) 128–139.</p>
-   </bibliography>
+
 
 
 

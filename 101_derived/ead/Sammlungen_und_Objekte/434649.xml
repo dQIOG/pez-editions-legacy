@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia28">Kt. 85 Varia 28</container>
+      <container localtype="file" containerid="melk_Kt85Varia28_fz2">Faszikel 2</container>
+      <unitid>Nr. 30</unitid>
       <unittitle>Abschrift: Hrabanus Maurus, "Opusculum contra eos, qui repugnant institutis beati patris Benedicti"</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/434649.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="718/434649.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="718/434660.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name"/>
          <part localtype="vorname">Hrabanus Maurus von Fulda</part>
       </persname>
@@ -55,11 +53,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4074038-9" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bursfelder Kongregation</part>
          <part>Fulda</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/30121</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4074038-9</part>
+         <part localtype="identifier">http://viaf.org/viaf/237710601</part>
+         <part localtype="identifier">http://www.geonames.org/2923822/fulda.html</part>
       </corpname>
    </controlaccess>
 
@@ -68,10 +70,7 @@
       <head>Beschreibung</head>
       <p>Abschrift "Opusculum contra eos, qui repugnant institutis beati patris Benedicti" von Hrabanus Maurus, Abt von Fulda. Am Ende unvollständig.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Maurus: Josef LEINWEBER, Die Fuldaer Äbte und Bischöfe (Frankfurt am Main 1989). Zur Edition des "Opusculum": Jean MABILLON, Annales ordinis S. Benedicti, 2 (Paris 1704).</p>
-   </bibliography>
+
 
 
 

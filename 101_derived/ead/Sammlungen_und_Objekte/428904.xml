@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia25">Kt. 85 Varia 25</container>
+      <container localtype="file" containerid="melk_Kt85Varia25_fz1">Faszikel 1</container>
+      <unitid>Nr. 16</unitid>
       <unittitle>Bio-bibliographische Notiz zu De Blois</unittitle>
-      <unitdate>17. Jh.</unitdate>
       <didnote localtype="datenote">Französische Hand des 17. Jahrhundert?</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/428904.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="620/428904.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="620/428905.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="620/428906.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="620/428907.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Louis de Blois</part>
       </persname>
@@ -57,11 +53,14 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4346766-0" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Belgische Klöster</part>
          <part>Liessies</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4346766-0</part>
+         <part localtype="identifier">http://viaf.org/viaf/236536194</part>
+         <part localtype="identifier">http://www.geonames.org/2998458/liessies.html</part>
       </corpname>
    </controlaccess>
 
@@ -70,10 +69,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notiz zu De Blois aus Le Mire, Elogia Belgica (Antwerpen 1609).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu De Blois: Georges BLOIS, Louis de Blois. Un bénédictin au XVIe siècle. Paris 1875.</p>
-   </bibliography>
+
 
 
 

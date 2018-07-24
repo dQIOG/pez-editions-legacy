@@ -13,24 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 38</unitid>
       <unittitle>Manuskript: "Statuta observanda abbati Mellicensi praesenti statui accommodata anno 1700"</unittitle>
-      <unitdate>um 1723</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/408717.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="56/408717.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="56/408718.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="56/408719.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="56/408720.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="56/408721.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="56/408722.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="56/408723.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="56/408724.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="56/408725.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="56/408726.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="56/408727.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="56/408728.tif"/>
-      </daoset>
    </did>
 
 
@@ -51,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -65,11 +53,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -78,10 +70,7 @@
       <head>Beschreibung</head>
       <p>Manuskript "Statuta observanda abbati Mellicensi praesenti statui accommodata anno 1700". Zu den "Capitula" vgl. auch Karton 3 Äbte 6, Fasz. 2.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu den "Capitula" des Melker Konvents: Hugo HANTSCH, Bernhard Pez und Abt Berthold Dietmayr. MIÖG 71 (1963) 128–139.</p>
-   </bibliography>
+
 
 
 

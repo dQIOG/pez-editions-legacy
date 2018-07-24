@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 03</unitid>
       <unittitle>Abschrift: "Epistola Amblardi abbatis Sollemniacensis ad Arverum, scilicet thesaurarium S. Martini"</unittitle>
-      <unitdate/>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/412752.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="200/412752.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="200/412753.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Amblard de Solignac</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hervé de St. Martin</part>
       </persname>
@@ -59,10 +57,13 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1099409-9" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Solignac</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1099409-9</part>
+         <part localtype="identifier">http://viaf.org/viaf/133763219</part>
+         <part localtype="identifier">http://www.geonames.org/2974349/solignac.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -76,10 +77,7 @@
       <head>Beschreibung</head>
       <p>Abschrift eines Briefes Abt Amblard an Hervé (1001), abgedruckt bei Jean MABILLON, Annales ordinis sancti Benedicti, 4 (Paris 1707). Vgl. Abschrift aus späterer Zeit (um 1900) in Karton 7 Patres 9, Fasz. 2, Nr. 7. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Amblard und Brief: Jean-Loup LEMAÎTRE–Jean DUFOUR, Les documents nécrologiques de l’abbaye Saint-Pierre de Solignac (Recueil des Historiens de la France – Obituaires 1, Paris 1984); Camille RIVAIN, Histoire littéraire de la France, 6 (Paris 1742).</p>
-   </bibliography>
+
 
 
 

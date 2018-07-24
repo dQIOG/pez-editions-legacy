@@ -33,6 +33,8 @@
             </entry>
         </xsl:for-each>
     </xsl:variable>
+    <xsl:param name="path-to-institutions">../102_derived_tei/102_04_auxiliary_files/institutions.xml</xsl:param>
+    <xsl:variable name="institutions" select="doc($path-to-institutions)"/>
     
     <xsl:function name="_:letter-by-date" as="item()*">
         <xsl:param name="date"/>
@@ -124,13 +126,14 @@
             <c level="item" id="i{$verz_einh_id}">
                 <did>
                     <xsl:apply-templates select="standort" mode="did"/>
-                    <xsl:apply-templates select="verz_einh"/>
+                    <xsl:apply-templates select="verz_einh" mode="did"/>
                     <xsl:apply-templates select="titel" mode="did"/>
                     <xsl:apply-templates select="datierung" mode="did"/>
                     <xsl:apply-templates select="datierung_zusatz" mode="did"/>
                     <xsl:variable name="folgeseiten" select="if (doc-available($path-to-folgeseiten)) then doc($path-to-folgeseiten)//bild else ()" as="element(bild)*"/>
                     <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/{@id}.xml" />
-                    <xsl:choose>
+                    <!-- Facsimile are only in TEI msDesc -->
+                    <!--<xsl:choose>
                         <xsl:when test="exists($folgeseiten)">
                             <daoset>
                                 <dao daotype="derived" coverage="whole" label="{normalize-space(foliierung)}" href="{ $verz_einh_id}/{@id}.tif" />                            
@@ -142,7 +145,7 @@
                         <xsl:otherwise>
                             <dao daotype="derived" coverage="whole" label="{normalize-space(foliierung)}" href="{ $verz_einh_id}/{@id}.tif" />
                         </xsl:otherwise>
-                    </xsl:choose>
+                    </xsl:choose>-->
                 </did>
                 <xsl:apply-templates/>
             </c>
@@ -172,7 +175,7 @@
                 <unitid><xsl:value-of select="normalize-space(replace(.,'&gt;',''))"/></unitid>
             </xsl:when>
             <xsl:when test="starts-with(., 'Pez. Catalogus')">
-                <xsl:for-each select="tokenize(.,'&gt;')">
+                <xsl:for-each select="tokenize(.,'&gt;')[normalize-space(.)!='']">
                     <container localtype="file"><xsl:value-of select="normalize-space(.)"/></container>
                 </xsl:for-each>
             </xsl:when>
@@ -204,9 +207,10 @@
     </xsl:template>
     <xsl:template match="datierung"/>
     
-    <xsl:template match="datierung" mode="did">
-        <unitdate><xsl:value-of select="normalize-space(.)"/></unitdate>
-    </xsl:template>
+    <!-- only in msDesc -->
+    <xsl:template match="datierung" mode="did"/>
+        <!--<unitdate><xsl:value-of select="normalize-space(.)"/></unitdate>
+    </xsl:template>-->
     <xsl:template match="datierung_zusatz"/>
     <xsl:template match="datierung_zusatz" mode="did">
         <didnote localtype="datenote"><xsl:value-of select="normalize-space(.)"/></didnote>
@@ -225,10 +229,17 @@
     </xsl:template>
     
     <xsl:template match="person">
-        <persname relator="{funktion}">
-            <xsl:variable name="ids" select="_:person-by-name(.)"/>
-            <xsl:if test="exists($ids)">
-                <xsl:message select="$ids"/>
+        <xsl:variable name="ids" select="_:person-by-name(.)"/>
+        <xsl:variable name="relator">
+            <xsl:choose>
+                <xsl:when test="funktion = 'Urheber'">cre</xsl:when>
+                <xsl:when test="funktion = 'behandelte Person'">rcp</xsl:when>
+                <xsl:otherwise><xsl:value-of select="funktion"/></xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <persname relator="{$relator}">
+            <xsl:if test="exists($ids[contains(.,'dnb')])">
+                <xsl:attribute name="identifier" select="$ids[contains(.,'dnb')][1]"/>
             </xsl:if>
             <xsl:for-each select="$ids">
                 <part localtype="identifier"><xsl:value-of select="."/></part>
@@ -262,9 +273,25 @@
     </xsl:template>
     
     <xsl:template match="institution">
-        <corpname>
+        <xsl:variable name="parts" as="item()*">
             <xsl:for-each select="tokenize(.,'\s*&gt;\s*')[normalize-space(.) != '']">
                 <part><xsl:value-of select="normalize-space(.)"/></part>
+            </xsl:for-each>
+        </xsl:variable>
+        <xsl:variable name="level1" select="$institutions//tei:taxonomy/tei:category[tei:catDesc/tei:name = $parts[1]]"/>
+        <xsl:variable name="level2" select="$level1/tei:category[tei:catDesc/tei:name = $parts[2]]"/>
+        <xsl:variable name="level3" select="$level2/tei:category[tei:catDesc/tei:name = $parts[3]]"/>
+        <xsl:variable name="level4" select="$level3/tei:category[tei:catDesc/tei:name = $parts[4]]"/>
+        <xsl:variable name="entity" select="($level1, $level2, $level3, $level4)[last()]"/>
+        <xsl:variable name="identifiers" select="$entity/tei:catDesc/tei:idno"/>
+        <corpname>
+            <xsl:if test="exists($identifiers[@type = 'GND'])">
+                <xsl:attribute name="identifier" select="$identifiers[@type = 'GND'][1]/@corresp"></xsl:attribute>
+                <xsl:attribute name="source">GND</xsl:attribute>
+            </xsl:if>
+            <xsl:sequence select="$parts"/>
+            <xsl:for-each select="$identifiers">
+                <part localtype="identifier"><xsl:value-of select="@corresp"/></part>
             </xsl:for-each>
         </corpname>
     </xsl:template>
@@ -340,8 +367,9 @@
         </scopecontent>
     </xsl:template>
     
-    <xsl:template match="literatur">
-        <bibliography>
+    <!-- bibliography only in TEI -->
+    <xsl:template match="literatur"/>
+        <!--<bibliography>
             <head>Literatur</head>
             <xsl:choose>
                 <xsl:when test="matches(.,'\nZu 1\)')">
@@ -365,7 +393,7 @@
                 </xsl:otherwise>
             </xsl:choose>
         </bibliography>
-    </xsl:template>
+    </xsl:template>-->
     
     <xsl:template match="pez_br_z[normalize-space()!='']">
         <relatedmaterial>

@@ -13,60 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia27">Kt. 85 Varia 27</container>
+      <container localtype="file" containerid="melk_Kt85Varia27_fz2">Faszikel 2</container>
+      <unitid>Nr. 02</unitid>
       <unittitle>Exzerpte HPs aus Baluze, Sancti Caecilii Cypriani episcopi Carthaginensis et martyris opera</unittitle>
-      <unitdate>1762</unitdate>
       <didnote localtype="datenote">Auf fol. 1r: "Coepta die 18. Martii an. 1762", auf fol. 24r: "Finis excerptorum ex operibus S. Cypriani Ep. Carthag. et mart. die 21. Aug. an. Christi 1762 aetat. meae 78."</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/446363.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="729/446363.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="729/446381.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="729/446382.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="729/446383.tif"/>
-         <dao daotype="derived" coverage="whole" label="11v" href="729/446384.tif"/>
-         <dao daotype="derived" coverage="whole" label="12r" href="729/446385.tif"/>
-         <dao daotype="derived" coverage="whole" label="12v" href="729/446386.tif"/>
-         <dao daotype="derived" coverage="whole" label="13r" href="729/446387.tif"/>
-         <dao daotype="derived" coverage="whole" label="13v" href="729/446388.tif"/>
-         <dao daotype="derived" coverage="whole" label="14r" href="729/446389.tif"/>
-         <dao daotype="derived" coverage="whole" label="14v" href="729/446390.tif"/>
-         <dao daotype="derived" coverage="whole" label="15r" href="729/446391.tif"/>
-         <dao daotype="derived" coverage="whole" label="15v" href="729/446392.tif"/>
-         <dao daotype="derived" coverage="whole" label="16r" href="729/446393.tif"/>
-         <dao daotype="derived" coverage="whole" label="16v" href="729/446394.tif"/>
-         <dao daotype="derived" coverage="whole" label="17r" href="729/446395.tif"/>
-         <dao daotype="derived" coverage="whole" label="17v" href="729/446396.tif"/>
-         <dao daotype="derived" coverage="whole" label="18r" href="729/446397.tif"/>
-         <dao daotype="derived" coverage="whole" label="18v" href="729/446398.tif"/>
-         <dao daotype="derived" coverage="whole" label="19r" href="729/446399.tif"/>
-         <dao daotype="derived" coverage="whole" label="19v" href="729/446400.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="729/446364.tif"/>
-         <dao daotype="derived" coverage="whole" label="20r" href="729/446401.tif"/>
-         <dao daotype="derived" coverage="whole" label="20v" href="729/446402.tif"/>
-         <dao daotype="derived" coverage="whole" label="21r" href="729/446403.tif"/>
-         <dao daotype="derived" coverage="whole" label="21v" href="729/446404.tif"/>
-         <dao daotype="derived" coverage="whole" label="22r" href="729/446405.tif"/>
-         <dao daotype="derived" coverage="whole" label="22v" href="729/446406.tif"/>
-         <dao daotype="derived" coverage="whole" label="23r" href="729/446407.tif"/>
-         <dao daotype="derived" coverage="whole" label="23v" href="729/446408.tif"/>
-         <dao daotype="derived" coverage="whole" label="24r" href="729/446409.tif"/>
-         <dao daotype="derived" coverage="whole" label="24v" href="729/446410.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="729/446365.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="729/446366.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="729/446367.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="729/446368.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="729/446369.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="729/446370.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="729/446371.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="729/446372.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="729/446373.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="729/446374.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="729/446375.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="729/446376.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="729/446377.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="729/446378.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="729/446379.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="729/446380.tif"/>
-      </daoset>
    </did>
 
 
@@ -87,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hl. Cyprian</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
@@ -105,11 +57,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -118,10 +74,7 @@
       <head>Beschreibung</head>
       <p>Exzerpte HPs aus Sancti Caecilii Cypriani episcopi Carthaginensis et martyris opera, hg. von Etienne BALUZE (Venedig 1728). Vgl. selbe Hand in Karton 85 Varia 27, Fasz. 2, Nr. 1, 3, 4, 5, 6. Trotz des gegenüber früheren Textproben abweichenden Schriftbildes ist bei diesem Stück sowie den weiteren Stücken dieses Faszikels aufgrund der Datums- und Altersangaben von einer Verfasserschaft HPs auszugehen, zumal zu diesem Zeitpunkt kein anderer gleichaltriger Mönch in Melk anwesend war.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu gedruckten Werken von Cyprian: Jaques-Paul MIGNE, Patrologiae Cursus completus, Series latina (221 Bde., Paris 1844–1855; hier Bd. 4).</p>
-   </bibliography>
+
 
 
 

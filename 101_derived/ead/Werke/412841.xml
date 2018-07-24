@@ -13,56 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 13</unitid>
       <unittitle>Bio-bibliographische Notizen: BP zu benediktinischen Schriftstellern aus mehreren Werken</unittitle>
-      <unitdate>vor 1735</unitdate>
       <didnote localtype="datenote">BP ist 1735 gestorben.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/412841.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="9" href="210/412841.tif"/>
-         <dao daotype="derived" coverage="whole" label="10" href="210/412842.tif"/>
-         <dao daotype="derived" coverage="whole" label="11" href="210/412843.tif"/>
-         <dao daotype="derived" coverage="whole" label="12" href="210/412844.tif"/>
-         <dao daotype="derived" coverage="whole" label="13" href="210/412845.tif"/>
-         <dao daotype="derived" coverage="whole" label="14" href="210/412846.tif"/>
-         <dao daotype="derived" coverage="whole" label="15" href="210/412847.tif"/>
-         <dao daotype="derived" coverage="whole" label="16" href="210/412848.tif"/>
-         <dao daotype="derived" coverage="whole" label="17" href="210/412849.tif"/>
-         <dao daotype="derived" coverage="whole" label="18" href="210/412850.tif"/>
-         <dao daotype="derived" coverage="whole" label="19" href="210/412851.tif"/>
-         <dao daotype="derived" coverage="whole" label="20" href="210/412852.tif"/>
-         <dao daotype="derived" coverage="whole" label="21" href="210/412853.tif"/>
-         <dao daotype="derived" coverage="whole" label="22" href="210/412854.tif"/>
-         <dao daotype="derived" coverage="whole" label="23" href="210/412855.tif"/>
-         <dao daotype="derived" coverage="whole" label="24" href="210/412856.tif"/>
-         <dao daotype="derived" coverage="whole" label="25" href="210/412857.tif"/>
-         <dao daotype="derived" coverage="whole" label="26" href="210/412858.tif"/>
-         <dao daotype="derived" coverage="whole" label="27" href="210/412859.tif"/>
-         <dao daotype="derived" coverage="whole" label="28" href="210/412860.tif"/>
-         <dao daotype="derived" coverage="whole" label="29" href="210/412861.tif"/>
-         <dao daotype="derived" coverage="whole" label="30" href="210/412862.tif"/>
-         <dao daotype="derived" coverage="whole" label="31" href="210/412863.tif"/>
-         <dao daotype="derived" coverage="whole" label="32" href="210/412864.tif"/>
-         <dao daotype="derived" coverage="whole" label="33" href="210/412865.tif"/>
-         <dao daotype="derived" coverage="whole" label="34" href="210/412866.tif"/>
-         <dao daotype="derived" coverage="whole" label="35" href="210/412867.tif"/>
-         <dao daotype="derived" coverage="whole" label="36" href="210/412868.tif"/>
-         <dao daotype="derived" coverage="whole" label="37" href="210/412869.tif"/>
-         <dao daotype="derived" coverage="whole" label="38" href="210/412870.tif"/>
-         <dao daotype="derived" coverage="whole" label="39" href="210/412871.tif"/>
-         <dao daotype="derived" coverage="whole" label="40" href="210/412872.tif"/>
-         <dao daotype="derived" coverage="whole" label="41" href="210/412873.tif"/>
-         <dao daotype="derived" coverage="whole" label="42" href="210/412874.tif"/>
-         <dao daotype="derived" coverage="whole" label="43" href="210/412875.tif"/>
-         <dao daotype="derived" coverage="whole" label="44" href="210/412876.tif"/>
-         <dao daotype="derived" coverage="whole" label="45" href="210/412877.tif"/>
-         <dao daotype="derived" coverage="whole" label="46" href="210/412878.tif"/>
-         <dao daotype="derived" coverage="whole" label="47" href="210/412879.tif"/>
-         <dao daotype="derived" coverage="whole" label="48" href="210/412880.tif"/>
-         <dao daotype="derived" coverage="whole" label="49" href="210/412881.tif"/>
-         <dao daotype="derived" coverage="whole" label="50" href="210/412882.tif"/>
-         <dao daotype="derived" coverage="whole" label="51" href="210/412883.tif"/>
-         <dao daotype="derived" coverage="whole" label="52" href="210/412884.tif"/>
-      </daoset>
    </did>
 
 
@@ -83,31 +39,31 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Paulus Diaconus (Warnefridus)</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Richard de Dumellis</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hl. Augustinus von Canterbury</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Simon Langham</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Augustin Anglorum</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hl. Cuthbert von Lindisfarne</part>
       </persname>
@@ -124,11 +80,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -137,10 +97,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen BPs zu benediktinischen, großteils angelsächsichen, Schriftstellern des Mittelalters, mit Bezug auf mehrere Werke, darunter: Claude-Hugues MATHOUD, "Dissertatio de monachatu clericorum regularium S. Augustini" (unveröffentlichtes Manuskript); Jean MABILLON, Acta Sanctorum OSB (9 Bde., Paris 1668–1701); Edward MAIHEW, Congregationis Anglicanae ordinis S. Benedicti Trophaea (2 Bde., Reims 1619, 1625). Fragment beginnt mit p. 9. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Maurinern und ihren Werken: Yves CHAUSSY, Matricula Monachorum Professorum Congregationis S. Mauri in Gallia Ordinis Sancti Patris Benedicti (Bibliothèque d’histoire et d’archéologie chrétiennes, Paris 1959).</p>
-   </bibliography>
+
 
 
 

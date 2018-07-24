@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 47</unitid>
       <unittitle>Bio-bibliographische Notizen BPs zu Niggel</unittitle>
-      <unitdate>vor 1735</unitdate>
       <didnote localtype="datenote">BP ist 1735 gestorben.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/413209.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="244/413209.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="244/413210.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Niggel</part>
          <part localtype="vorname">Erhard</part>
       </persname>
@@ -59,11 +57,17 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2052902-8" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Scheyern</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60363</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2052902-8</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4208047-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/151936876</part>
+         <part localtype="identifier">http://viaf.org/viaf/145548928</part>
+         <part localtype="identifier">http://www.geonames.org/2839527/scheyern.html</part>
       </corpname>
    </controlaccess>
 
@@ -72,10 +76,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen BPs zu Erhard Niggel.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Niggel: Anselm REICHHOLD, Chronik von Scheyern. Von den ersten Anfängen bis zur Gegenwart (Weißenhorn 1998).</p>
-   </bibliography>
+
 
 
 

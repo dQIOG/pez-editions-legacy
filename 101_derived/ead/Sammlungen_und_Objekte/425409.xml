@@ -13,17 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz2">Faszikel 2</container>
+      <unitid>Nr. 11</unitid>
       <unittitle>(Kommentierter) Werkskatalog zu Trithemius nach dem "Chronicon Sponheimense"</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/425409.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="569/425409.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="569/425424.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="569/425425.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="569/425426.tif"/>
-         <dao daotype="derived" coverage="whole" label="" href="569/425463.tif"/>
-      </daoset>
    </did>
 
 
@@ -44,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Trithemius</part>
          <part localtype="vorname">Johannes</part>
       </persname>
@@ -58,11 +53,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4778875-6" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bursfelder Kongregation</part>
          <part>Sponheim</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/40277</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4778875-6</part>
+         <part localtype="identifier">http://viaf.org/viaf/245857634</part>
+         <part localtype="identifier">http://www.geonames.org/2830167/sponheim.html</part>
       </corpname>
    </controlaccess>
 
@@ -71,10 +70,7 @@
       <head>Beschreibung</head>
       <p>Werkskatalog zu Trithemius, mit Kommentaren. Zum überwiegenden Teil wurden die Notizen nach folgender Vorlage angelegt: Johannes Trithemius, "Chronicon Sponheimense" (Ms. St. Jakob zu Würzburg, heute UB Würzburg, M.ch.f. 126). Selbe Hand wie Karton 85 Varia 23, Fasz. 2, Nr. 5, 17, 19, 24, 26.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Trithemius: Klaus ARNOLD, Johannes Trithemius (1462–1516) (Quellen und Forschungen zur Geschichte des Bistums und Hochstifts Würzburg 23, Würzburg 1991); Ivo FISCHER, Der Nachlaß des Abtes Johannes Trithemius von St. Jakob in Würzburg. Archiv des Historischen Vereins von Unterfranken und Aschaffenburg 67 (1928) 41–82.</p>
-   </bibliography>
+
 
 
 

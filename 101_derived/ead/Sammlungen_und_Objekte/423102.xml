@@ -13,22 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia22">Kt. 85 Varia 22</container>
+      <container localtype="file" containerid="melk_Kt85Varia22_fz2">Faszikel 2</container>
+      <unitid>Nr. 15</unitid>
       <unittitle>Bio-bibliographische Notizen zu Melchior von Stamheim</unittitle>
-      <unitdate>um 1713</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/423102.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="480/423102.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="480/423103.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="480/423104.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="480/423105.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="480/423106.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="480/423107.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="480/423108.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="480/423109.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="480/423110.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="480/423111.tif"/>
-      </daoset>
    </did>
 
 
@@ -52,11 +42,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Melchior von Stamheim</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00109609 / 
 http://thesaurus.cerl.org/record/cnp00908258</part>
          <part localtype="identifier">http://viaf.org/viaf/52031263</part>
@@ -64,7 +54,7 @@ http://thesaurus.cerl.org/record/cnp00908258</part>
          <part localtype="name">Haiden</part>
          <part localtype="vorname">Placidus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -81,21 +71,29 @@ http://thesaurus.cerl.org/record/cnp00908258</part>
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Augsburg - St. Ulrich und Afra</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2005841-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Niederaltaich</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3308</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2005841-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/127140314</part>
+         <part localtype="identifier">http://www.geonames.org/2863667/niederalteich.html</part>
       </corpname>
    </controlaccess>
 
@@ -112,10 +110,7 @@ http://thesaurus.cerl.org/record/cnp00908258</part>
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen zu Melchior von Stamheim, Professe von Melk und später Abt von St. Ulrich und Afra in Augsburg. Es handelt sich um eine Abschrift aus dem "Chronicon ecclesiasticum" des Sigismund Meisterlin. Der Text ist gedruckt bei: Johannes PISTORIUS, Rerum Germanicarum veteres iam primum publicati scriptores sex (Frankfurt 1607) als "Sigismundi Chronicon“ unter den "Antiquitates Fuldenses". Bei der hier vorliegenden Abschrift handelt es sich um eine Beilage zu Brief Haiden an BP (1713-03-11), geschrieben von einem jungen Niederaltaicher Mönch.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Melchior von Stamheim: Meta NIEDERKORN-BRUCK, Die Melker Reform im Spiegel der Visitationen (Mitteilungen des Instituts für Österreichische Geschichtsforschung Erg.bd. 30, Wien–München 1994); Klaus GRAF, Ordensreform und Literatur in Augsburg während des 15. Jahrhunderts, in: Literarisches Leben in Augsburg während des 15. Jahrhunderts, hg. von Johannes JANOTA (Tübingen 1995) 100–159. Zu Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</p>
-   </bibliography>
+
 
 
 

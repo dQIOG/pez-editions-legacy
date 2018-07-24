@@ -13,24 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia22">Kt. 85 Varia 22</container>
+      <container localtype="file" containerid="melk_Kt85Varia22_fz1">Faszikel 1</container>
+      <unitid>Nr. 22</unitid>
       <unittitle>Abschriften von Briefen zum Vorrangstreit zwischen Benediktinern und Augustiner-Chorherren</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/422393.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="462/422393.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="462/422394.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="462/422395.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="462/422396.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="462/422397.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="462/422398.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="462/422399.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="462/422400.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="462/422401.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="462/422402.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="462/422403.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="462/422404.tif"/>
-      </daoset>
    </did>
 
 
@@ -51,18 +39,18 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00942409</part>
          <part localtype="identifier">http://viaf.org/viaf/13245867</part>
          <part localtype="identifier">http://d-nb.info/gnd/124583725</part>
          <part localtype="name">Erath</part>
          <part localtype="vorname">Augustin</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Kimpfler</part>
          <part localtype="vorname">Gregor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Rambeck</part>
          <part localtype="vorname">Ägydius</part>
       </persname>
@@ -83,12 +71,19 @@
          <part>geistliche</part>
          <part>Augustiner-Chorherren</part>
          <part>St. Andrä an der Traisen</part>
+         <part localtype="identifier">http://www.geonames.org/2766770/sankt-andrae-an-der-traisen.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2052902-8" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Scheyern</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60363</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2052902-8</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4208047-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/151936876</part>
+         <part localtype="identifier">http://viaf.org/viaf/145548928</part>
+         <part localtype="identifier">http://www.geonames.org/2839527/scheyern.html</part>
       </corpname>
    </controlaccess>
 
@@ -105,10 +100,7 @@
       <head>Beschreibung</head>
       <p>Abschriften von Briefen Erath an Kimpfler (1685-03-10) sowie Erath an Rambeck (1685-03-10), den Vorrangstreit zwischen Benediktinern und Augustiner-Chorherren betreffend. Der Disput begann bereits in den 1680ern, vgl. dazu auch Augustin ERATH, Commentarius (Wien 1689) sowie Don Eusebius CARLYMMAESSHIN Castroferrariensis (= Anselm SCHRAMB), Antilogia (Wien 1715).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Erath, Schramb und dem Disput: Stefan BENZ, Zwischen Tradition und Kritik. Katholische Geschichtsschreibung im barocken Heiligen Römischen Reich (Historische Studien 473, Husum 2003); Patrick FISKA, Zu Leben und Werk des Melker Benediktiners Anselm Schramb (1658–1720). Mit einer Edition seiner Briefkorrespondenz. SMBG 122 (2011) 201–306; Thomas STOCKINGER, Felix mansurus, si tacuisset, Erath. Augustin Erath CRSA (1648–1719), Propst von St. Andrä an der Traisen, als Historiograph und historisch-politischer Kontroversist. Jahrbuch des Stiftes Klosterneuburg N. F. 20 (2008) 151–208; Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). Zu Kimpfler, Rambeck: Anselm REICHHOLD, Chronik von Scheyern. Von den ersten Anfängen bis zur Gegenwart (Weißenhorn 1998).</p>
-   </bibliography>
+
 
 
 

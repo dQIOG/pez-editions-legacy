@@ -13,24 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 56</unitid>
       <unittitle>Notizen: "Übersicht des Pez Briefnachlasses, Band 2"</unittitle>
-      <unitdate>um 1900</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung um 1900.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/411242.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="156/411242.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="156/411243.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="156/411244.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="156/411245.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="156/411246.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="156/411247.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="156/411248.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="156/411249.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="156/411250.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="156/411251.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="156/411252.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="156/411253.tif"/>
-      </daoset>
    </did>
 
 
@@ -51,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Katschthaler</part>
          <part localtype="vorname">Eduard Ernst</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
@@ -73,11 +61,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -86,10 +78,7 @@
       <head>Beschreibung</head>
       <p>Übersicht der Briefe in Band 2 von Katschthaler. Briefe sind in der Reihenfolge angeführt, in der sie in diesem gebunden sind: Nummern, Absender, Empfänger, Ort, Datum, Anmerkungen. Vgl. Karton 7 Patres 7 = Band 2 der Pezbriefe sowie die Übersicht über Band 1 in Karton 7 Patres 9, Fasz. 2, Nr. 55.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zum Briefnachlass: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243; Eduard Ernst KATSCHTHALER, Über Bernhard Pez und dessen Briefnachlass. Jahresbericht des k.k. Obergymnasiums zu Melk 39 (1889) 3–106; Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). Zu Katschthaler: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1889); Directorium officii divini Benedictino Mellicense (Melk 1922–1947); 900 Jahre Benediktiner in Melk. Jubiläumsausstellung 1989, Stift Melk, hg. von Ernst BRUCKMÜLLER–Burkhard ELLEGAST–Erwin ROTTER (Melk 1989).</p>
-   </bibliography>
+
 
 
 

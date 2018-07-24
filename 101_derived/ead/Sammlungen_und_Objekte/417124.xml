@@ -13,22 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz8">Faszikel 8</container>
+      <unitid>Nr. 34</unitid>
       <unittitle>Schriftstellerkatalog von Seeon</unittitle>
-      <unitdate>um 1712</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/417124.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="295/417124.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="295/417125.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="295/417126.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="295/417127.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="295/417128.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="295/417129.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="295/417130.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="295/417131.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="295/417132.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="295/417133.tif"/>
-      </daoset>
    </did>
 
 
@@ -49,57 +39,57 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Grabmann</part>
          <part localtype="vorname">Edmund</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00144311</part>
          <part localtype="identifier">http://viaf.org/viaf/2818247</part>
          <part localtype="identifier">http://d-nb.info/gnd/100630189</part>
          <part localtype="name">Guzinger</part>
          <part localtype="vorname">Otto</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Baumgartner</part>
          <part localtype="vorname">Emmeram</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Schapperger</part>
          <part localtype="vorname">Desiderius</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Lospichler</part>
          <part localtype="vorname">Joseph</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00458608</part>
          <part localtype="identifier">http://viaf.org/viaf/10736104 / http://viaf.org/viaf/1869145857131122922328</part>
          <part localtype="identifier">http://d-nb.info/gnd/122764447 / http://d-nb.info/gnd/1090233450</part>
          <part localtype="name">Dullinger</part>
          <part localtype="vorname">Sigmund</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Kolb</part>
          <part localtype="vorname">Honorat</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Müller</part>
          <part localtype="vorname">Roman</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Werlin</part>
          <part localtype="vorname">Johann</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Sigel</part>
          <part localtype="vorname">Rufin</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Ruedorffer</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -113,17 +103,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4329037-1" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Salzburgische Kongregation</part>
          <part>Seeon</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60378</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4329037-1</part>
+         <part localtype="identifier">http://viaf.org/viaf/156094535</part>
+         <part localtype="identifier">http://www.geonames.org/2887415/klosterseeon.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -140,10 +138,7 @@
       <head>Beschreibung</head>
       <p>Schriftstellerkatalog von Seeon für die Zeit nach 1600. Katalog wurde vom Seeoner Bibliothekar Lospichler auf Geheiß des Abtes angefertigt und als Beilage zu einem Brief Grabmann an BP (1712-02-29) nach Melk versandt. Vgl. zum Schriftstellerkatalog eine spätere Abschrift (um 1900) in Karton 7 Patres 11, Fasz. 1, Nr. 92. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Dullinger, Müller: Hans ROTH, Die Seeoner Äbte vom 16. Jahrhundert bis zur Säkularisation des Klosters 1803, in: Kloster Seeon. Beiträge zu Geschichte, Kunst und Kultur der ehemaligen Benediktinerabtei, hg. von Hans von MALOTTKI (Weißenhorn 1993) 123–150. Zu Kolb: Maria Veneranda WIEST, Honorat Kolb, Abt von Seeon 1603–1670 (SMGB Ergh. 13, München 1937). Zu Sigel: Robert MÜNSTER, Die Musik im Kloster Seeon, in: Kloster Seeon. Beiträge zu Geschichte, Kunst und Kultur der ehemaligen Benediktinerabtei, hg. von Hans von MALOTTKI (Weißenhorn 1993) 347–358. Zu Kolb, Ruedorffer, Guzinger, Schapperger: Emmanuel J. BAUER, Thomistische Metaphysik an der alten Benediktineruniversität Salzburg. Darstellung und Interpretation einer philosophischen Schule des 17./18. Jahrhunderts (Salzburger Theologische Studien 1, Innsbruck–Wien 1996). Zu Kolb, Werlin, Guzinger: Hans PÖRNBACHER, Die schönste Kunst im Schreiben. Literaten und Literaturpflege in Seeon von 1600 bis 1800, in: Kloster Seeon. Beiträge zu Geschichte, Kunst und Kultur der ehemaligen Benediktinerabtei, hg. von Hans von MALOTTKI (Weißenhorn 1993) 329–346. Zu Baumgartner und Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). </p>
-   </bibliography>
+
 
 
 

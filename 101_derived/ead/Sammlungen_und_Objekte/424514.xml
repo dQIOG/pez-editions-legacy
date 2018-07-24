@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz1">Faszikel 1</container>
+      <unitid>Nr. 28</unitid>
       <unittitle>Biographische Notizen zu Aindorffer</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/424514.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="529/424514.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="529/424515.tif"/>
-      </daoset>
    </did>
 
 
@@ -44,11 +42,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Hueber</part>
          <part localtype="vorname">Alphons</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Aindorffer</part>
          <part localtype="vorname">Kaspar</part>
       </persname>
@@ -62,11 +60,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/809501-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Tegernsee</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3551</part>
+         <part localtype="identifier">http://d-nb.info/gnd/809501-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/139580416</part>
+         <part localtype="identifier">http://www.geonames.org/2823679/tegernsee.html</part>
       </corpname>
    </controlaccess>
 
@@ -75,10 +77,7 @@
       <head>Beschreibung</head>
       <p>Fragment mit biographischen Notizen zu Abt Aindorffer von Tegernsee, Hand Hueber. Am Anfang und Ende unvollständig, nur S. 49 und 50 vorhanden. Es handelt sich bei dem Stück wohl um eine Abschrift aus einer Tegernseer Handschrift mit dem Titel "Historia S. Quirini Regis et Martyris" (= Cod. 2301). </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Aindorffer: Joachim ANGERER, Die Bräuche der Abtei Tegernsee unter Abt Kaspar Ayndorffer (1426–1461), verbunden mit einer textkritischen Edition der Consuetudines Tegernseenses (Studien und Mitteilungen zur Geschichte des Benediktiner-Ordens und seiner Zweige Erg.bd. 18, Ottobeuren–Augsburg 1968). Zur "Historia" und zu Cod. 2301: Karl HALM–Georg von LAUBMANN–Wilhelm MEYER, Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis, 3/1: Codices latinos continens. Editio altera, 1/1: Codices num. 1–2329 complectens (München 1892); Bernhard SCHMEIDLER, Studien zur Geschichtschreibung des Klosters Tegernsee vom 11. bis zum 16. Jahrhundert (Schriftenreihe zur bayerischen Landesgeschichte 20, München 1935). Edition der "Historia": Andreas Felix OEFELE, Rerum Boicarum Scriptores, 2 (Augsburg 1763).</p>
-   </bibliography>
+
 
 
 

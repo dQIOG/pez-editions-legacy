@@ -13,18 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia22">Kt. 85 Varia 22</container>
+      <container localtype="file" containerid="melk_Kt85Varia22_fz1">Faszikel 1</container>
+      <unitid>Nr. 05</unitid>
       <unittitle>Druckvorlage BPs zu Irimbert von Admont, "De incendio monasterii sui"</unittitle>
-      <unitdate>vor 1725</unitdate>
       <didnote localtype="datenote">Band 8 der Bibliotheca ascetica ist 1725 erschienen.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/422092.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="445/422092.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="445/422093.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="445/422094.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="445/422095.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="445/422096.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="445/422097.tif"/>
-      </daoset>
    </did>
 
 
@@ -45,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name"/>
          <part localtype="vorname">Irimbert von Admont</part>
       </persname>
@@ -63,17 +57,24 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/126116-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Salzburgische Kongregation</part>
          <part>Admont</part>
+         <part localtype="identifier">http://d-nb.info/gnd/126116-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/133125683</part>
+         <part localtype="identifier">http://www.geonames.org/2782979/admont.html</part>
       </corpname>
    </controlaccess>
 
@@ -82,10 +83,7 @@
       <head>Beschreibung</head>
       <p>Druckvorlage BPs zu Irimbert von Admont, "De incendio monasterii sui", abgedruckt in Band 8 von BP, Bibliotheca ascetica antiquo-nova (12 Bde., Regensburg 1723–1740). Mit Anweisungen an den Drucker.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Irimbert von Admont: Johann Wilhelm BRAUN, Irimbert von Admont. Frühmittelalterliche Studien. Jahrbuch des Instituts für Frühmittelalterforschung der Universität Münster 7 (1973) 266–323; Johann Wilhelm BRAUN, Einige Bemerkungen zur Beurteilung der "Admonter Reform" sowie der Äbte Gottfried und Irimbert von Admont in der neueren Literatur. SMGB 87 (1976) 431–434. Zu Werken BPs: Koloman SCHÖNHOFER, P. Bernhard Pez (22.2.1683–27.3.1735), P. Hieronymus Pez (24.2.1685–14.10.1762), Benediktiner von Melk (Leben, Bedeutung und Werke) (ungedr. theol. Dipl.Arb., Innsbruck 1973).</p>
-   </bibliography>
+
 
 
 

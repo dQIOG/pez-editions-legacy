@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia25">Kt. 85 Varia 25</container>
+      <container localtype="file" containerid="melk_Kt85Varia25_fz1">Faszikel 1</container>
+      <unitid>Nr. 22</unitid>
       <unittitle>Bio-bibliographische Notizen BPs u.a. zu anonymen Autoren</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/428924.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="626/428924.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="626/428925.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="626/428926.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="626/428927.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -57,11 +53,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -70,10 +70,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen BPs u.a. zu anonymen Autoren aus Corvey.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Corvey: Gerhard BARTELS, Die Geschichtsschreibung des Klosters Corvey, in: Abhandlungen über Corveyer Geschichtsschreibung, hg. von Friedrich PHILIPPI (Veröffentlichungen der Historischen Kommission für Westfalen, Serie 9, Münster 1906) 101–172; Wilhelm STÜWER, Corvey, in: Germania Benedictina, 8: Die Benediktinerklöster in Nordrhein-Westfalen, hg. von Rhaban HAACKE (St. Ottilien 1980) 236–293.</p>
-   </bibliography>
+
 
 
 

@@ -13,18 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz1">Faszikel 1</container>
+      <unitid>Nr. 19</unitid>
       <unittitle>Schriftstellerkatalog von Ottobeuren</unittitle>
-      <unitdate>1709</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/424295.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="520/424295.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="520/424296.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="520/424297.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="520/424298.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="520/424299.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="520/424300.tif"/>
-      </daoset>
    </did>
 
 
@@ -45,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Krez</part>
          <part localtype="vorname">Albert</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01256257 / 
 http://thesaurus.cerl.org/record/cnp00089004</part>
          <part localtype="identifier">http://viaf.org/viaf/71750518 / http://viaf.org/viaf/199226904</part>
@@ -57,43 +51,43 @@ http://thesaurus.cerl.org/record/cnp00089004</part>
          <part localtype="name">Ellenbog</part>
          <part localtype="vorname">Nikolaus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Franz</part>
          <part localtype="vorname">Christian</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Aichler</part>
          <part localtype="vorname">David</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Baumhauer</part>
          <part localtype="vorname">Georg</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Sandholzer</part>
          <part localtype="vorname">Gallus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Reubi</part>
          <part localtype="vorname">Gregor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Molitor</part>
          <part localtype="vorname">Jakob</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Rhöer</part>
          <part localtype="vorname">Sebastian</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Ludwig</part>
          <part localtype="vorname">Rupert</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Textor</part>
          <part localtype="vorname">Sebastian</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -110,17 +104,25 @@ http://thesaurus.cerl.org/record/cnp00089004</part>
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2003571-8" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Oberschwäbische Kongregation</part>
          <part>Ottobeuren</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60305</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2003571-8</part>
+         <part localtype="identifier">http://viaf.org/viaf/156630989</part>
+         <part localtype="identifier">http://www.geonames.org/8030045/ottobeuren-abbey.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -137,10 +139,7 @@ http://thesaurus.cerl.org/record/cnp00089004</part>
       <head>Beschreibung</head>
       <p>Schriftstellerkatalog von Ottobeuren, worin zu Beginn Bezug genommen wird auf eine mittelalterliche Chronik, wohl das "Chronicon Ottenburanum". Vermerk auf fol. 3v: "Post has sequuntur Massuet literae (?) quas iam habet RP Bernardus". Katalog ist Beilage zu Brief Krez an BP (1709-10-08), Abschriften finden sich in Karton 7 Patres 9, Fasz. 2, Nr. 89 = Abschriftencodex (AC) fol. 114r–117r sowie in Karton 7 Patres 11, Fasz. 1, Nr. 28 (Hand Mayer um 1900).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Schriftstellern: Pirmin LINDNER, Album Ottoburanum. Die Äbte und Mönche des ehemaligen freien Reichs-Stiftes Ottobeuren, Benediktiner-Ordens in Schwaben und deren literarischer Nachlass von 764 bis zu ihrem Aussterben (1858). Zeitschrift des Historischen Vereins für Schwaben und Neuburg 30 (1903) 77–142; 31 (1904) 1–90. Zu Ellenbog: Andreas BIGELMAIR–Franz ZOEPFL, Nikolaus Ellenbog, Briefwechsel (Corpus catholicorum. Werke katholischer Schriftsteller im Zeitalter der Glaubensspaltung 19/21, Münster 1938). Zu Textor: Walter STEINBÖCK, P. Sebastian Textor. Das Leben und Wirken des Ottobeurer Mönches und Salzburger Universitätsprofessors zur Zeit des Fürsterzbischofs Ernst Thun. Versuch einer Biographie. Ein Beitrag zur Geschichte der Salzburger Benediktiner-Universität. SMGB 83 (1972) 755–834. Zu Reubi, Molitor, Rhöer: Emmanuel J. BAUER, Thomistische Metaphysik an der alten Benediktineruniversität Salzburg. Darstellung und Interpretation einer philosophischen Schule des 17./18. Jahrhunderts (Salzburger Theologische Studien 1, Innsbruck–Wien 1996). Zu Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</p>
-   </bibliography>
+
 
 
 

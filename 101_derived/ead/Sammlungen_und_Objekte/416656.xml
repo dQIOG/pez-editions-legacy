@@ -13,24 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz8">Faszikel 8</container>
+      <unitid>Nr. 03</unitid>
       <unittitle>Bio-bibliographische Notizen, Bücherverzeichnis Bibliothek Seitenstetten</unittitle>
-      <unitdate>um 1715</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/416656.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="264/416656.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="264/416657.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="264/416658.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="264/416659.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="264/416660.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="264/416661.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="264/416662.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="264/416663.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="264/416664.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="264/416665.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="264/416666.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="264/416667.tif"/>
-      </daoset>
    </did>
 
 
@@ -51,31 +39,31 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Edlinger</part>
          <part localtype="vorname">Joachim</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Witzenberger</part>
          <part localtype="vorname">Zacharias</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Schindlauer</part>
          <part localtype="vorname">Theophil</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Bernauer</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Thalner</part>
          <part localtype="vorname">Ildephons</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Neumayr</part>
          <part localtype="vorname">Anselm</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -92,17 +80,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/19112-7" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Seitenstetten</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/4040</part>
+         <part localtype="identifier">http://d-nb.info/gnd/19112-7</part>
+         <part localtype="identifier">http://viaf.org/viaf/248873380</part>
+         <part localtype="identifier">http://www.geonames.org/2765196/seitenstetten-markt.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2093432-4" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Beuroner Kongregation</part>
          <part>Neresheim</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20561</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2093432-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/142570913</part>
+         <part localtype="identifier">http://www.geonames.org/11282404/neresheim-abbey.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -110,17 +106,25 @@
          <part>Salzburgische Kongregation</part>
          <part>Salzburg - St. Peter</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2046531-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Kremsmünster</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/4025</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2046531-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/312583113</part>
+         <part localtype="identifier">http://www.geonames.org/11548388/kloster-kremsmuenster.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -137,10 +141,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen Edlingers zu Büchern in der Bibliothek des Klosters Seitenstetten. Beilage zu Edlinger an BP (1715-09-19).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Korrespondenz und Edlinger: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010); Stefan SPEVAK, P. Joachim Edlinger, Briefe an P. Hieronymus Pez. Edition (ungedr. Hausarbeit am Institut für Österreichische Geschichtsforschung, Wien 1992). Zu Neresheim: Pirmin LINDNER, Album Neresheimense. Verzeichnis der vom Jahre 1424–1854 verstorbenen Aebte und Religiosen der ehemaligen Reichsabtei Neresheim in Schwaben Benediktinerordens, mit biographischen Notizen. Diöcesanarchiv von Schwaben 13 (1895) 161–167, 181–188; 14 (1896) 9–13; Paulus WEISSENBERGER, Neresheim, in: Germania Benedictina, 5: Die Benediktinerklöster in Baden-Württemberg, hg. von Franz QUARTHAL–Hansmartin DECKER-HAUFF–Klaus SCHREINER (Augsburg 1975) 408–435. Zu St. Peter: Pirmin LINDNER, Professbuch der Benediktiner-Abtei St. Peter in Salzburg (1419–1856). Mitteilungen der Gesellschaft für Salzburger Landeskunde 46 (1906) 1–328. Zu Kremsmünster: Altman KELLNER, Professbuch des Stiftes Kremsmünster (Kremsmünster 1968).</p>
-   </bibliography>
+
 
 
 

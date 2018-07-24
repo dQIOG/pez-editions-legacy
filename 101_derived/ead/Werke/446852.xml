@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia27">Kt. 85 Varia 27</container>
+      <container localtype="file" containerid="melk_Kt85Varia27_fz2">Faszikel 2</container>
+      <unitid>Nr. 05</unitid>
       <unittitle>Exzerpte HPs aus Du Frische–Le Nourry, Sancti Ambrosii Mediolanensis episcopi opera</unittitle>
-      <unitdate>um 1762</unitdate>
       <didnote localtype="datenote">Auf fol. 1r: "Coepta die 1. Septembris anno 1762".</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/446852.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="732/446852.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="732/446853.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="732/446854.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="732/446855.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hl. Ambrosius</part>
       </persname>
@@ -61,11 +57,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -74,10 +74,7 @@
       <head>Beschreibung</head>
       <p>Exzerpte HPs aus Sancti Ambrosii Mediolanensis episcopi Opera, hg. von Jacques DU FRISCHE–Denis-Nicolas LE NOURRY (2 Bde., Paris 1686–1690), hier "Hexaemeron libri sex". Vgl. selbe Hand in Karton 85 Varia 27, Fasz. 2, Nr. 1, 2, 3, 4, 6. Am Ende unvollständig. Trotz des gegenüber früheren Textproben abweichenden Schriftbildes ist bei diesem Stück sowie den weiteren Stücken dieses Faszikels aufgrund der Datums- und Altersangaben von einer Verfasserschaft HPs auszugehen, zumal zu diesem Zeitpunkt kein anderer gleichaltriger Mönch in Melk anwesend war. Dafür spricht auch der Abbruch des Textes: HP starb am 14. Oktober.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu gedruckten Werken von Ambrosius: Jaques-Paul MIGNE, Patrologiae Cursus completus, Series latina (221 Bde., Paris 1844–1855; hier Bd. 14).</p>
-   </bibliography>
+
 
 
 

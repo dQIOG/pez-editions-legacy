@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 27</unitid>
       <unittitle>Bibliographische Notizen zu Aicher, Steinbacher, Mezger, Vols, Impekoven, Caramuel y Lobkowitz</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/413064.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="224/413064.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="224/413065.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,27 +39,27 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Caramuel y Lobkowitz</part>
          <part localtype="vorname">Juan </part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Impekoven</part>
          <part localtype="vorname">Johann</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Vols</part>
          <part localtype="vorname">Ernst</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Mezger</part>
          <part localtype="vorname">Paul</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Steinbacher</part>
          <part localtype="vorname">Placidus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00478724 / http://thesaurus.cerl.org/record/cnp00065151</part>
          <part localtype="identifier">http://viaf.org/viaf/88675904</part>
          <part localtype="identifier">http://d-nb.info/gnd/124578225</part>
@@ -84,17 +82,24 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/16189200-0" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Salzburgische Kongregation</part>
          <part>St. Veit an der Rott</part>
+         <part localtype="identifier">http://d-nb.info/gnd/16189200-0</part>
+         <part localtype="identifier">http://viaf.org/viaf/187715082</part>
+         <part localtype="identifier">http://www.geonames.org/2864547/neumarkt-sankt-veit.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4630703-5" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Frauenzell</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60098</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4630703-5</part>
+         <part localtype="identifier">http://viaf.org/viaf/249403003</part>
+         <part localtype="identifier">http://www.geonames.org/2944288/brennberg.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -106,10 +111,13 @@
          <part>geistliche</part>
          <part>Jesuiten</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/7725356-5" source="GND">
          <part>geistliche</part>
          <part>Minoriten</part>
          <part>Wels</part>
+         <part localtype="identifier">http://d-nb.info/gnd/7725356-5</part>
+         <part localtype="identifier">http://viaf.org/viaf/237996671</part>
+         <part localtype="identifier">http://www.geonames.org/2761524/wels.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -124,10 +132,7 @@
       <head>Beschreibung</head>
       <p>Bibliographische Notizen zu Aicher, Steinbacher, Mezger, Vols, Impekoven, Caramuel y Lobkowitz.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Aicher, Caramuel y Lobkowitz: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). Zu Mezger: Benedikt PROBST, Die drei Brüder Mezger. Ein exegetisches Dreigestirn an der alten Salzburger Benediktiner-Universität, in: Miscellanea biblica et orientalia R. P. Athanasio MILLER O. S. B., Secretario Pontificiae Commissionis Biblicae, completis LXX annis oblata, hg. von Adalbert METZINGER (Studia Anselmiana philosophica theologica 27/28, Roma 1951) 443–452. Zu Steinbacher: Joseph SÄCHERL, Chronik des Benediktiner-Klosters Frauenzell nebst geschichtlichen Nachrichten über Brennberg, Bruckbach, Siegenstein und Süßenbach, Altenthan, Pettenreut, Arrach, Zell, Martins-Neukirchen, Marienstein und Hetzenbach. Verhandlungen des historischen Vereines von Oberpfalz und Regensburg 15 (1853) 257–466. Zu Vols: Carlos SOMMERVOGEL, Bibliothèque de la Compagnie de Jésus. Nouvelle édition (11 Bde., Bruxelles–Paris 1890–1932). Zu Impekoven: Stefan BENZ, Zwischen Tradition und Kritik. Katholische Geschichtsschreibung im barocken Heiligen Römischen Reich (Historische Studien 473, Husum 2003).</p>
-   </bibliography>
+
 
 
 

@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz8">Faszikel 8</container>
+      <unitid>Nr. 32</unitid>
       <unittitle>Katalog asketischer Handschriften BPs</unittitle>
-      <unitdate>nach 1731</unitdate>
       <didnote localtype="datenote">"Blanbeckin iam edita".</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/417104.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="293/417104.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="293/417105.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="293/417106.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="293/417107.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="293/417108.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="293/417109.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="293/417110.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="293/417111.tif"/>
-      </daoset>
    </did>
 
 
@@ -42,7 +34,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -56,11 +48,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -69,10 +65,7 @@
       <head>Beschreibung</head>
       <p>Handschriftenkatalog: "Catalogus manuscriptorum asceticorum, quae in thecis ligneis reverendi patris Bernardi adservantur". Verzeichnis der Bücher in sieben Bücherregalen BPs, von zweiter Hand kommentiert.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu BP u.a.: Eduard Ernst KATSCHTHALER, Über Bernhard Pez und dessen Briefnachlass. Jahresbericht des k.k. Obergymnasiums zu Melk 39 (1889) 3–106; Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010); Thomas WALLNIG, Gasthaus und Gelehrsamkeit. Studien zu Herkunft und Bildungsweg von Bernhard Pez OSB vor 1709 (VIÖG 48, Wien–München 2007).</p>
-   </bibliography>
+
 
 
 

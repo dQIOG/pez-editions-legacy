@@ -13,11 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 14</unitid>
       <unittitle>Bio-bibliographische Notizen: BP zu benediktinischen Schriftstellern</unittitle>
-      <unitdate>vor 1735</unitdate>
       <didnote localtype="datenote">BP ist 1735 gestorben.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/412885.xml"/>
-      <dao daotype="derived" coverage="whole" label="1r" href="211/412885.tif"/>
    </did>
 
 
@@ -38,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Rather von Verona</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Ratram von Corbie</part>
       </persname>
@@ -66,22 +67,34 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4314804-9" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Lobbes</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4314804-9</part>
+         <part localtype="identifier">http://viaf.org/viaf/235183635</part>
+         <part localtype="identifier">http://www.geonames.org/2792245/lobbes.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/801563-6" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Französische Klöster</part>
          <part>Corbie</part>
+         <part localtype="identifier">http://d-nb.info/gnd/801563-6</part>
+         <part localtype="identifier">http://d-nb.info/gnd/16299242-7</part>
+         <part localtype="identifier">http://viaf.org/viaf/158013425</part>
+         <part localtype="identifier">http://viaf.org/viaf/244327500</part>
+         <part localtype="identifier">http://www.geonames.org/3023742/corbie.html</part>
       </corpname>
    </controlaccess>
 
@@ -90,10 +103,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische und theologische Notizen BPs zu benediktinischen Schriftstellern des Mittelalters. Am Ende Notizen zu Buchkauf von späterer Hand.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Rather von Verona: Hans M. SCHALLER, Rather von Verona, in: Lexikon des Mittelalters, 7 (München 1995) col. 457–458. Zu Ratramnus von Corbie: Ludwig HÖDL, Ratramnus von Corbie, in: Lexikon des Mittelalters, 7 (München 1995) col. 462–463.</p>
-   </bibliography>
+
 
 
 

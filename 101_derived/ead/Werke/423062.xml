@@ -13,30 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia22">Kt. 85 Varia 22</container>
+      <container localtype="file" containerid="melk_Kt85Varia22_fz2">Faszikel 2</container>
+      <unitid>Nr. 13</unitid>
       <unittitle>Druckvorlage: Johann von Ellenbogen, "Vita venerabilium monachorum monasterii sui"</unittitle>
-      <unitdate>vor 1725</unitdate>
       <didnote localtype="datenote">BPs Bibliotheca ascetica Band 8 ist 1725 erschienen.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/423062.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="478/423062.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="478/423063.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="478/423064.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="478/423065.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="478/423066.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="478/423067.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="478/423068.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="478/423069.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="478/423070.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="478/423071.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="478/423072.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="478/423073.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="478/423074.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="478/423075.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="478/423076.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="478/423077.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="478/423078.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="478/423079.tif"/>
-      </daoset>
    </did>
 
 
@@ -57,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name"/>
          <part localtype="vorname">Johann von Ellenbogen</part>
       </persname>
@@ -78,16 +60,24 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2173096-9" source="GND">
          <part>geistliche</part>
          <part>Zisterzienser</part>
          <part>Waldsassen</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60411</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2173096-9</part>
+         <part localtype="identifier">http://viaf.org/viaf/132663605</part>
+         <part localtype="identifier">http://www.geonames.org/6955808/basilika-waldsassen.html</part>
       </corpname>
    </controlaccess>
 
@@ -96,10 +86,7 @@
       <head>Beschreibung</head>
       <p>Druckvorlage Johann von Ellenbogen, "Vita venerabilium monachorum monasterii sui", gedruckt in BP, Bibliotheca ascetica antiquo-nova, 8 (Regensburg 1725). Aus einer nicht identifizierten Handschrift der Universitätsbibliothek Basel, mit Anweisungen für den Drucker, Hand BP.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Johann von Ellenbogen: Stephan ACHT, Zur Geschichte des Klosters und der Äbte von Waldsassen. Beiträge zur Geschichte des Bistums Regensburg 38 (2004) 23–75; Franz BINHACK, Die Äbte des Cisterzienser-Stiftes Waldsassen von 1133 bis 1506 (Eichstätt 1887); Georg SCHROTT, Mittelalterliche Geschichtsschreibung und ihre neuzeitliche Rezeption im Kloster Waldsassen. SMGB 107 (1996) 397–425. Zu BPs Werken: Koloman SCHÖNHOFER, P. Bernhard Pez (22.2.1683–27.3.1735), P. Hieronymus Pez (24.2.1685–14.10.1762), Benediktiner von Melk (Leben, Bedeutung und Werke) (ungedr. theol. Dipl.Arb., Innsbruck 1973).</p>
-   </bibliography>
+
 
 
 

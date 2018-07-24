@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia22">Kt. 85 Varia 22</container>
+      <container localtype="file" containerid="melk_Kt85Varia22_fz1">Faszikel 1</container>
+      <unitid>Nr. 12</unitid>
       <unittitle>Brief: Piter an HP</unittitle>
-      <unitdate>1750-06-29</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/422255.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="452/422255.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="452/422256.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Piter</part>
          <part localtype="vorname">Bonaventura</part>
       </persname>
@@ -62,17 +60,24 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4318686-5" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Böhmische Kongregation</part>
          <part>Břevnov/Braunau (Broumov)</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4318686-5</part>
+         <part localtype="identifier">http://viaf.org/viaf/130012950</part>
+         <part localtype="identifier">http://www.geonames.org/3078748/brevnov.html</part>
       </corpname>
    </controlaccess>
 
@@ -89,10 +94,7 @@
       <head>Beschreibung</head>
       <p>Brief Piter an HP (1750-06-29), am Anfang unvollständig. Die ersten vier Seiten des Briefes liegen in StiA Melk, Karton 7 Patres 6 (= Bd. I), fol. 20r–21v. Der Brief enthält eine Aufzählung böhmischer Klöster.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Piter: Vinzenz MAIWALD, Verzeichnisse von Schülern, die vor dem Jahre 1775 in Braunau studierten. Jahres-Bericht des öffentlichen Stifts-Obergymnasiums der Benediktiner zu Braunau in Böhmen 50 (1911) 3–74; Romuald Joseph SCHRAMM, Fratres ordinis S. P. Benedicti Břevnoveno-Braunenses in domino defuncti, in: Catalogus religiosorum sub Regula S. P. Benedicti in archisterio Břevnoviensi et monasterio Braunaviensi atque extra eadem militantium anno Domini MDCCCLXVII. Cum syllabo confratrum defunctorum (Prag 1867) 19–90. Zu böhmischen Benediktinerklöstern: Beda Franz MENZEL, Die böhmische Benediktinerkongregation, in: Germania Benedictina, 1: Die Reformverbände und Kongregationen der Benediktiner im deutschen Sprachraum, hg. von Ulrich FAUST–Franz QUARTHAL (St. Ottilien 1999) 591–619. Der (undatierte weil unvollständige) Brief kommt vor in: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 

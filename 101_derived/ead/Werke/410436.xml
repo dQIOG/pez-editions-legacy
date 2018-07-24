@@ -13,36 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 68</unitid>
       <unittitle>Manuskript: Konzept einer Schrift BPs zur Salzburger Frühgeschichte gegen Hansiz</unittitle>
-      <unitdate>um 1731</unitdate>
       <didnote localtype="datenote">BPs Epistola gegen Hansiz ist 1731 erschienen.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/410436.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="86/410436.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="86/410454.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="86/410455.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="86/410456.tif"/>
-         <dao daotype="derived" coverage="whole" label="11v" href="86/410457.tif"/>
-         <dao daotype="derived" coverage="whole" label="12r" href="86/410458.tif"/>
-         <dao daotype="derived" coverage="whole" label="12v" href="86/410459.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="86/410437.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="86/410438.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="86/410439.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="86/410440.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="86/410441.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="86/410442.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="86/410443.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="86/410444.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="86/410445.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="86/410446.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="86/410447.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="86/410448.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="86/410449.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="86/410450.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="86/410451.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="86/410452.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="86/410453.tif"/>
-      </daoset>
    </did>
 
 
@@ -63,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00908264 / 
 http://thesaurus.cerl.org/record/cnp00167742</part>
          <part localtype="identifier">http://viaf.org/viaf/50384677</part>
@@ -71,11 +47,11 @@ http://thesaurus.cerl.org/record/cnp00167742</part>
          <part localtype="name">Hansiz</part>
          <part localtype="vorname">Markus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hl. Rupert</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -93,11 +69,15 @@ http://thesaurus.cerl.org/record/cnp00167742</part>
          <part>geistliche</part>
          <part>Jesuiten</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -111,11 +91,7 @@ http://thesaurus.cerl.org/record/cnp00167742</part>
       <head>Beschreibung</head>
       <p>Konzept einer Schrift zur Salzburger Frühgeschichte (Virgil und Rupert). Viele Hinzufügungen in der Marge. Wohl in Zusammenhang (aber keine textliche Übereinstimmung) mit BP, Ad virum clarissimum, admodum reverendum et eruditissimum P. Marcum Hanzizium epistola (Wien 1731). Vgl. auch Karton 7 Patres 9, Fasz. 1, Nr. 69 bis 73.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zur Kontroverse zwischen BP und Hansiz: Stefan BENZ, Zwischen Tradition und Kritik. Katholische Geschichtsschreibung im barocken Heiligen Römischen Reich (Historische Studien 473, Husum 2003); Koloman SCHÖNHOFER, P. Bernhard Pez (22.2.1683–27.3.1735), P. Hieronymus Pez (24.2.1685–14.10.1762), Benediktiner von Melk (Leben, Bedeutung und Werke) (ungedr. theol. Dipl.Arb., Innsbruck 1973). Zu Virgil und Rupert: Herwig WOLFRAM, Die Zeit der Agilolfinger – Rupert und Virgil, in: Geschichte Salzburgs. Stadt und Land, 1: Vorgeschichte, Altertum, Mittelalter, Teil 1, hg. von
-Heinz DOPSCH (Salzburg 1981) 121–150.</p>
-   </bibliography>
+
 
 
 

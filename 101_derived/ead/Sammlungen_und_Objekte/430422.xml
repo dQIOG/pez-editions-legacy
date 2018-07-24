@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia25">Kt. 85 Varia 25</container>
+      <container localtype="file" containerid="melk_Kt85Varia25_fz1">Faszikel 1</container>
+      <unitid>Nr. 64</unitid>
       <unittitle>Katalog: Massuet, "Scriptores Benedictini incerti temporis aut quorum aetatem investigare non vacat"</unittitle>
-      <unitdate>vor 1716</unitdate>
       <didnote localtype="datenote">Massuet ist 1716 gestorben.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/430422.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="668/430422.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="668/430423.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="668/430424.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="668/430425.tif"/>
-      </daoset>
    </did>
 
 
@@ -49,41 +45,41 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://viaf.org/viaf/160108877</part>
          <part localtype="identifier">http://d-nb.info/gnd/142719935</part>
          <part localtype="name">Ascha</part>
          <part localtype="vorname">Maurus de</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Schlitpacher</part>
          <part localtype="vorname">Johannes</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Wilhelm von Poitiers</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Massuet</part>
          <part localtype="vorname">René</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Joachim Cassinensis</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Raoul von St.-Sepulcre</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Thomas Gallus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01231615 / 
 http://thesaurus.cerl.org/record/cnp01342975</part>
          <part localtype="identifier">http://viaf.org/viaf/27092943</part>
@@ -91,7 +87,7 @@ http://thesaurus.cerl.org/record/cnp01342975</part>
          <part localtype="name">Biondo</part>
          <part localtype="vorname">Flavio</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Bernhard von Waging</part>
       </persname>
@@ -119,17 +115,24 @@ http://thesaurus.cerl.org/record/cnp01342975</part>
          <part>Benediktiner</part>
          <part>Maurinerkongregation</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1087296986" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Cassinenser Kongregation</part>
          <part>Montecassino</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1087296986</part>
+         <part localtype="identifier">http://viaf.org/viaf/133865391</part>
+         <part localtype="identifier">http://www.geonames.org/3173005/abbazia-di-montecassino.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -146,17 +149,27 @@ http://thesaurus.cerl.org/record/cnp01342975</part>
          <part>weltliche</part>
          <part>Rom - Päpstlicher Hof</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/809501-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Tegernsee</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3551</part>
+         <part localtype="identifier">http://d-nb.info/gnd/809501-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/139580416</part>
+         <part localtype="identifier">http://www.geonames.org/2823679/tegernsee.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4310732-1" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Andechs</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/2091</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4310732-1</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1089050224</part>
+         <part localtype="identifier">http://viaf.org/viaf/233645846</part>
+         <part localtype="identifier">http://viaf.org/viaf/939145857951823021263</part>
+         <part localtype="identifier">http://www.geonames.org/2956253/andechs.html</part>
       </corpname>
    </controlaccess>
 
@@ -165,10 +178,7 @@ http://thesaurus.cerl.org/record/cnp01342975</part>
       <head>Beschreibung</head>
       <p>Katalog benediktinischer Schriftsteller, Hand Massuet. Bei jedem Schriftsteller ein Vermerk, in welcher Bibliothek dessen Handschriften zu finden sind. Dieser Katalog dürfte erst nach dem Tod Massuets an BP gelangt sein, sei es durch Martène oder bei BPs Paris-Aufenthalt 1728. Weitere Materialien aus von Hand Massuet werden erwähnt in Brief Massuet an BP (1715-01-30). Vgl. die Abschrift des Textes in Karton 85 Varia 25, Fasz. 1, Nr. 48. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). Zu Joachim: Arcangelo BOSSI, Matricula monachorum Congregationis Casinensis Ordinis S. Benedicti, 1: 1409–1699, hg. von Leandro NOVELLI–Giovanni SPINELLI (Pubblicazioni del Centro Storico Benedettino Italiano 3, Cesena 1983). Zu Schlitpacher: Meta NIEDERKORN-BRUCK, Die Melker Reform im Spiegel der Visitationen (Mitteilungen des Instituts für Österreichische Geschichtsforschung Erg.bd. 30, Wien–München 1994). Zu Bernhard von Waging: Pirmin LINDNER, Familia S. Quirini in Tegernsee. Die Äbte und Mönche der Benediktiner-Abtei Tegernsee von den ältesten Zeiten bis zu ihrem Aussterben (1861) und ihr literarischer Nachlass. Oberbayerisches Archiv für vaterländische Geschichte 50 (1897) 18–130; 50 Ergh. (1898) 1–318. Zu de Ascha: Magnus SATTLER, Chronik von Andechs (Donauwörth 1877). </p>
-   </bibliography>
+
 
 
 

@@ -13,28 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 13</unitid>
       <unittitle>Bio-bibliographische Notizen zu Johannes Trithemius</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/418905.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="329/418905.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="329/418906.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="329/418907.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="329/418908.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="329/418909.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="329/418910.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="329/418911.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="329/418912.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="329/418913.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="329/418914.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="329/418915.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="329/418916.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="329/418917.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="329/418918.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="329/418919.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="329/418920.tif"/>
-      </daoset>
    </did>
 
 
@@ -55,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Trithemius</part>
          <part localtype="vorname">Johannes</part>
       </persname>
@@ -76,17 +60,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4778875-6" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bursfelder Kongregation</part>
          <part>Sponheim</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/40277</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4778875-6</part>
+         <part localtype="identifier">http://viaf.org/viaf/245857634</part>
+         <part localtype="identifier">http://www.geonames.org/2830167/sponheim.html</part>
       </corpname>
    </controlaccess>
 
@@ -95,10 +87,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen zu Johannes Trithemius, Hand Mayer. Zu Materialien von Trithemius im Pez-Nachlass vgl. Karton 85 Varia 23, Fasz. 2.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Trithemius: Klaus ARNOLD, Johannes Trithemius (1462–1516) (Quellen und Forschungen zur Geschichte des Bistums und Hochstifts Würzburg 23, Würzburg 1991).</p>
-   </bibliography>
+
 
 
 

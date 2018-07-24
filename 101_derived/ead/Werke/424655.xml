@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz1">Faszikel 1</container>
+      <unitid>Nr. 36</unitid>
       <unittitle>Handschriftennotizen zur Bibliotheca Colbertina</unittitle>
-      <unitdate>nach 1728</unitdate>
       <didnote localtype="datenote">Die Bibliotheca Colbertina wurde 1728 versteigert, zu diesem Anlass wurde wohl der Katalog (vgl. Beschreibungsfeld) angelegt. Das Stück steht möglicherweise in Zusammenhang mit BPs Paris-Aufenthalt 1728.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/424655.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="537/424655.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="537/424656.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="537/424657.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="537/424658.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
@@ -61,11 +57,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -74,10 +74,7 @@
       <head>Beschreibung</head>
       <p>Handschriftennotizen zur Bibliotheca Colbertina (nach Jean-Baptiste Colbert) aus Bibliotheca Colbertina, seu Catalogus librorum Bibliothecae quae fuit primum J. B. Colbert Regni administri (Vol. 1–3, Paris 1728), Hand BP. Mit Anmerkungen Mayers.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Colbert und seiner Bibliothek: Jacob SOLL, The information master: Jean-Baptiste Colbert’s secret state intelligence system (Cultures of knowledge in the early modern world, Ann Arbor 2009). Zu Mayer: Zu Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855)</p>
-   </bibliography>
+
 
 
 

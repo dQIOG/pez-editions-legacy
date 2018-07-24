@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 72</unitid>
       <unittitle>Notizen: "Puncta redargutionum in responsionem patris Hansizii"</unittitle>
-      <unitdate>um 1731</unitdate>
       <didnote localtype="datenote">BPs Epistola gegen Hansiz ist 1731 erschienen.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/410492.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="90/410492.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="90/410493.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="90/410494.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="90/410495.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hl. Rupert</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00908264 / 
 http://thesaurus.cerl.org/record/cnp00167742</part>
          <part localtype="identifier">http://viaf.org/viaf/50384677</part>
@@ -69,11 +65,15 @@ http://thesaurus.cerl.org/record/cnp00167742</part>
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -91,12 +91,7 @@ http://thesaurus.cerl.org/record/cnp00167742</part>
       <head>Beschreibung</head>
       <p>Notizen "Puncta redargutionum in responsionem patris Hansizii". Halbbrüchiges Konzept mit vielen Streichungen und Korrekturen. Wohl Vorarbeiten zu BP, Ad virum clarissimum, admodum reverendum et eruditissimum P. Marcum Hanzizium epistola (Wien 1731). Vgl. auch Karton 7 Patres 9, Fasz. 1, Nr. 68 bis 71, 73.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zur Kontroverse zwischen BP und Hansiz: Stefan BENZ, Zwischen Tradition und Kritik. Katholische Geschichtsschreibung im barocken Heiligen Römischen Reich (Historische Studien 473, Husum 2003); Koloman SCHÖNHOFER, P. Bernhard Pez (22.2.1683–27.3.1735), P. Hieronymus Pez (24.2.1685–14.10.1762), Benediktiner von Melk (Leben, Bedeutung und Werke) (ungedr. theol. Dipl.Arb., Innsbruck 1973). Zum Hl. Rupert: Herwig WOLFRAM, Die Zeit der Agilolfinger – Rupert und Virgil, in: Geschichte Salzburgs. Stadt und Land, 1: Vorgeschichte, Altertum, Mittelalter, Teil 1, hg. von
-Heinz DOPSCH (Salzburg 1981) 121–150; Herwig WOLFRAM,  Grenzen und Räume. Geschichte Österreichs vor seiner
-Entstehung (Österreichische Geschichte 378-907, Wien 1995) 105–124.</p>
-   </bibliography>
+
 
 
 

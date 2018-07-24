@@ -13,26 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia22">Kt. 85 Varia 22</container>
+      <container localtype="file" containerid="melk_Kt85Varia22_fz3">Faszikel 3</container>
+      <unitid>Nr. 13</unitid>
       <unittitle>Urkundenabschrift: Papst Bonifaz IX. bestätigt die Schenkungen Sieghartskirchen und Sitzendorf für das Stift Baumburg</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/423450.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="498/423450.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="498/423451.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="498/423452.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="498/423453.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="498/423454.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="498/423455.tif"/>
-         <dao daotype="derived" coverage="whole" label="4ar" href="498/423458.tif"/>
-         <dao daotype="derived" coverage="whole" label="4av" href="498/423459.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="498/423456.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="498/423457.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="498/423460.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="498/423461.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="498/423462.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="498/423463.tif"/>
-      </daoset>
    </did>
 
 
@@ -53,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name"/>
          <part localtype="vorname">Bonifaz IX.</part>
       </persname>
@@ -72,10 +58,14 @@
          <part>Säkularklerus</part>
          <part>Rom - Papst</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4439930-3" source="GND">
          <part>geistliche</part>
          <part>Augustiner-Chorherren</part>
          <part>Baumburg</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60046</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4439930-3</part>
+         <part localtype="identifier">http://viaf.org/viaf/246269571</part>
+         <part localtype="identifier">http://www.geonames.org/2952025/baumburg.html</part>
       </corpname>
    </controlaccess>
 
@@ -84,10 +74,7 @@
       <head>Beschreibung</head>
       <p>Papst Bonifaz IX. bestätigt die Schenkungen Sieghartskirchen und Sitzendorf für das Stift Baumburg (1398-05-21). Mit inserierten Urkunden. Eingelegte Notizen des 19. Jahrhunderts auf eigenem Blatt.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Baumburg: Rudolf HADERSTORFER, Die Säkularisation der oberbayerischen Klöster Baumburg und Seeon. Die wirtschaftlichen und sozialen Wandlungen (Forschungen zur Sozial- und Wirtschaftsgeschichte 9, Stuttgart 1967); Katharina SCHMID, Kloster Baumburg. Entstehung und Entwicklung des klösterlichen Lebens und Wirkens in Baumburg (Altenmarkt 2007). Zu Baumburger Urkunden: Martin Johann WALKO, Die Traditionen des Augustiner-Chorherrenstifts Baumburg an der Alz (Quellen und Erörterungen zur bayerischen Geschichte N.F. 44/1, München 2004). Zur Bulle Bonifaz IX.: Monumenta Baumburgensia, in: Monumenta boica 2 (München 1764) 167–270. </p>
-   </bibliography>
+
 
 
 

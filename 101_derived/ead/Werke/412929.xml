@@ -13,48 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 15</unitid>
       <unittitle>Bio-bibliographische Notizen: BP, HP (?) zu benediktinischen Schriftstellern</unittitle>
-      <unitdate>vor 1735</unitdate>
       <didnote localtype="datenote">BP ist 1735 gestorben.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/412929.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="212/412929.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="212/412947.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="212/412948.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="212/412949.tif"/>
-         <dao daotype="derived" coverage="whole" label="11v" href="212/412950.tif"/>
-         <dao daotype="derived" coverage="whole" label="12r" href="212/412951.tif"/>
-         <dao daotype="derived" coverage="whole" label="12v" href="212/412952.tif"/>
-         <dao daotype="derived" coverage="whole" label="13r" href="212/412953.tif"/>
-         <dao daotype="derived" coverage="whole" label="13v" href="212/412954.tif"/>
-         <dao daotype="derived" coverage="whole" label="14r" href="212/412955.tif"/>
-         <dao daotype="derived" coverage="whole" label="14v" href="212/412956.tif"/>
-         <dao daotype="derived" coverage="whole" label="15r" href="212/412957.tif"/>
-         <dao daotype="derived" coverage="whole" label="15v" href="212/412958.tif"/>
-         <dao daotype="derived" coverage="whole" label="16r" href="212/412959.tif"/>
-         <dao daotype="derived" coverage="whole" label="16v" href="212/412960.tif"/>
-         <dao daotype="derived" coverage="whole" label="17r" href="212/412961.tif"/>
-         <dao daotype="derived" coverage="whole" label="17v" href="212/412962.tif"/>
-         <dao daotype="derived" coverage="whole" label="18r" href="212/412963.tif"/>
-         <dao daotype="derived" coverage="whole" label="18v" href="212/412964.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="212/412930.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="212/412931.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="212/412932.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="212/412933.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="212/412934.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="212/412935.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="212/412936.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="212/412937.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="212/412938.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="212/412939.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="212/412940.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="212/412941.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="212/412942.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="212/412943.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="212/412944.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="212/412945.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="212/412946.tif"/>
-      </daoset>
    </did>
 
 
@@ -75,27 +39,27 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Welling</part>
          <part localtype="vorname">Ulrich</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Welling</part>
          <part localtype="vorname">Konrad</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Heinrich Steoro</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hl. Hermann von Niederaltaich</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -112,26 +76,38 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Augsburg - St. Ulrich und Afra</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2005841-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Niederaltaich</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3308</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2005841-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/127140314</part>
+         <part localtype="identifier">http://www.geonames.org/2863667/niederalteich.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1012970-4" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Metten</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3269</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1012970-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/124810424</part>
+         <part localtype="identifier">http://www.geonames.org/2871573/metten.html</part>
       </corpname>
    </controlaccess>
 
@@ -140,10 +116,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen BPs, HPs (?) zu benediktinischen Schriftstellern. Am Anfang unvollständig.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Hermann von Niederaltaich: Karl SCHNITH, Hermann von Niederaltaich, in: Lexikon des Mittelalters, 4 (München–Zürich 1989) col. 2167. Zu Heinrich Steoro: Wilhelm FINK, Entwicklungsgeschichte der Benedictinerabtei Metten (SMGB Ergh. 1, 3 Bde., München 1926–1930). Zu Brüdern Welling und Steoro: Anton Maria KOBOLT, Baierisches Gelehrten-Lexikon (Landshut 1795).</p>
-   </bibliography>
+
 
 
 

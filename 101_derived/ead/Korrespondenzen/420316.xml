@@ -13,28 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 86</unitid>
       <unittitle>Briefauszüge: Mayr an BP</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/420316.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="402/420316.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="402/420317.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="402/420318.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="402/420319.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="402/420320.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="402/420321.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="402/420322.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="402/420323.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="402/420324.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="402/420325.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="402/420326.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="402/420327.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="402/420328.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="402/420329.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="402/420330.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="402/420331.tif"/>
-      </daoset>
    </did>
 
 
@@ -55,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayr</part>
          <part localtype="vorname">Cölestin</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -80,17 +64,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4313535-3" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Oberschwäbische Kongregation</part>
          <part>Wiblingen</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20449</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4313535-3</part>
+         <part localtype="identifier">http://viaf.org/viaf/154929897</part>
+         <part localtype="identifier">http://www.geonames.org/11548398/kloster-wiblingen.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -127,10 +119,7 @@
       <head>Beschreibung</head>
       <p>Auszüge aus den Briefen Mayr an BP, Hand Mayer. Datierungen teilweise irrig.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Briefen: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. Zu Mayr: Pirmin LINDNER, Album Wiblingense. Die Äbte und Mönche der Benediktinerabtei Wiblingen von 1099–1864. Mit biographischen Notizen. Diöcesanarchiv von Schwaben 19 (1901) 1–4, 37–42, 73–77, 107–112, 163–167; 20 (1902) 10–15, 85–90, 107–110.</p>
-   </bibliography>
+
 
 
 

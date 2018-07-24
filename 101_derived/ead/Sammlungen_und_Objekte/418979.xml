@@ -13,18 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 22</unitid>
       <unittitle>Schriftsteller- und Handschriftenkatalog von Rheinau, Schriftstellerkatalog von Brauweiler</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/418979.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="338/418979.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="338/418980.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="338/418981.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="338/418982.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="338/418983.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="338/418984.tif"/>
-      </daoset>
    </did>
 
 
@@ -48,85 +42,85 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://viaf.org/viaf/200209665</part>
          <part localtype="identifier">http://d-nb.info/gnd/172107407</part>
          <part localtype="identifier">http://personendatenbank.germania-sacra.de/index/gsn/039-01470-001</part>
          <part localtype="name">Groten</part>
          <part localtype="vorname">Beda</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Volmar</part>
          <part localtype="vorname">Caspar</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://viaf.org/viaf/200228997 / http://viaf.org/viaf/249201500</part>
          <part localtype="identifier">http://d-nb.info/gnd/172890462 /   http://d-nb.info/gnd/174157487</part>
          <part localtype="identifier">http://personendatenbank.germania-sacra.de/index/gsn/044-01137-001</part>
          <part localtype="name">Franken</part>
          <part localtype="vorname">Matthias</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Breuer</part>
          <part localtype="vorname">Philipp</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Heister</part>
          <part localtype="vorname">Petrus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Adami</part>
          <part localtype="vorname">Adam</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Münch (Munch)</part>
          <part localtype="vorname">Johann Heinrich</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Artopäus</part>
          <part localtype="vorname">Heribert</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Münster</part>
          <part localtype="vorname">Andreas</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Konrad von Brauweiler</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Wolphelm von Brauweiler</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Ello von Brauweiler</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Fortman</part>
          <part localtype="vorname">Nikolaus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Oederlin</part>
          <part localtype="vorname">Benedikt</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Harzer de Salenstein</part>
          <part localtype="vorname">Sebastian</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Iten</part>
          <part localtype="vorname">Basil</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Zumbrunnen</part>
          <part localtype="vorname">Fridolin</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Lauffen</part>
          <part localtype="vorname">Roman</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
@@ -143,23 +137,34 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4374885-5" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Helvetische Kongregation</part>
          <part>Rheinau</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4374885-5</part>
+         <part localtype="identifier">http://viaf.org/viaf/235202945</part>
+         <part localtype="identifier">http://www.geonames.org/3209262/rheinau.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/16278665-7" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bursfelder Kongregation</part>
          <part>Brauweiler</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/1062</part>
+         <part localtype="identifier">http://d-nb.info/gnd/16278665-7</part>
+         <part localtype="identifier">http://viaf.org/viaf/261980982</part>
+         <part localtype="identifier">http://www.geonames.org/2944981/brauweiler.html</part>
       </corpname>
    </controlaccess>
 
@@ -168,10 +173,7 @@
       <head>Beschreibung</head>
       <p>Schriftsteller- und Handschriftenkatalog von Rheinau, Schriftstellerkatalog von Brauweiler. Vgl. auch Bibliothekskatalog von Rheinau in Karton 7 Patres 10, Fasz. 8, Nr. 16.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Rheinau: Rudolf HENGGELER, Monasticon-Benedictinum Helvetiae, 2: Profeßbuch der Benediktinerabteien Pfäfers, Rheinau, Fischingen (Zug 1931); Judith STEINMANN–Peter STOTZ, Rheinau, in: Helvetia Sacra, Abt. III: Die Orden mit Benediktinerregel, 1: Frühe Klöster, die Benediktiner und Benediktinerinnen in der Schweiz, Teil 2, hg. von Elsanne GILOMEN-SCHENKEL (Bern 1986) 1101–1165. Zu Iten: Gall HEER, Johannes Mabillon und die Schweizer Benediktiner. Ein Beitrag zur Geschichte der historischen Quellenforschung im 17. und 18. Jahrhundert (St. Gallen 1938). Zu Rheinauer Handschriften: Leo Cunibert MOHLBERG, Mittelalterliche Handschriften (Katalog der Handschriften der Zentralbibliothek Zürich 1, Zürich 1952). Zu Oederlin: Rudolf HENGGELER, Das Rheinauer Archiv in Einsiedeln, in: Archivalia et Historica. Arbeiten aus dem Gebiet der Geschichte und des Archivwesens. Festschrift für Prof. Dr. Anton Largadièr (Zürich 1958) 51–60. Zu Brauweiler: Erich WISPLINGHOFF, Die Benediktinerabtei Brauweiler (Germania Sacra N.F. 29: Die Bistümer der  Kirchenprovinz Köln: Das Erzbistum Köln, Berlin 1992); Erich WISPLINGHOFF, Brauweiler, in: Germania Benedictina, 8: Die Benediktinerklöster in Nordrhein-Westfalen, hg. von Rhaban HAACKE (St. Ottilien 1980) 216–231.</p>
-   </bibliography>
+
 
 
 

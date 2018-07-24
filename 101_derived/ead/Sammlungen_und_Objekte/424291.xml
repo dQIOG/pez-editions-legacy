@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz1">Faszikel 1</container>
+      <unitid>Nr. 18</unitid>
       <unittitle>Schriftstellerkatalog von Garsten</unittitle>
-      <unitdate>1709-12-07</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/424291.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="519/424291.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="519/424292.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="519/424293.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="519/424294.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01454044 / 
 http://thesaurus.cerl.org/record/cnp01235706 / 
 http://thesaurus.cerl.org/record/cnp00917217</part>
@@ -52,59 +48,59 @@ http://thesaurus.cerl.org/record/cnp00917217</part>
          <part localtype="name">Gretser</part>
          <part localtype="vorname">Jakob</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Rauscher</part>
          <part localtype="vorname">Roman</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">König</part>
          <part localtype="vorname">Robert</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00455477</part>
          <part localtype="identifier">http://viaf.org/viaf/25486608</part>
          <part localtype="identifier">http://d-nb.info/gnd/12250397X</part>
          <part localtype="name">Ebberth</part>
          <part localtype="vorname">Johannes Baptist</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00176030</part>
          <part localtype="identifier">http://viaf.org/viaf/52049791</part>
          <part localtype="identifier">http://d-nb.info/gnd/101083009</part>
          <part localtype="name">Faber</part>
          <part localtype="vorname">Virgil</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Wenger</part>
          <part localtype="vorname">Maurus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00507276</part>
          <part localtype="identifier">http://viaf.org/viaf/20743124</part>
          <part localtype="identifier">http://d-nb.info/gnd/128721367</part>
          <part localtype="name">Egg</part>
          <part localtype="vorname">Edmund</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00455131</part>
          <part localtype="identifier">http://viaf.org/viaf/42721136</part>
          <part localtype="identifier">http://d-nb.info/gnd/122479351</part>
          <part localtype="name">Behamstein</part>
          <part localtype="vorname">Benedikt</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Freudenpichl</part>
          <part localtype="vorname">Ambros</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Kirchmayr</part>
          <part localtype="vorname">Seraphin</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">König</part>
          <part localtype="vorname">Robert</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -118,17 +114,26 @@ http://thesaurus.cerl.org/record/cnp00917217</part>
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4135190-3" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Garsten</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3104</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4135190-3</part>
+         <part localtype="identifier">http://viaf.org/viaf/124723050</part>
+         <part localtype="identifier">http://www.geonames.org/2778843/garsten.html</part>
+         <part localtype="identifier">http://www.geonames.org/6698715/kirche-ehem-stiftskirche-barockstil.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -149,10 +154,7 @@ http://thesaurus.cerl.org/record/cnp00917217</part>
       <head>Beschreibung</head>
       <p>Schriftstellerkatalog von Garsten mit Verweisen auf den Jesuiten Jakob Gretser. Ordnungsvermerk auf fol. 2v: "215". Katalog wird erwähnt in Brief König an BP (1709-12-07), eine Abschrift findet sich in Karton 7 Patres 9, Fasz. 2, Nr. 89 = Abschriftencodex (AC) fol. 60r–61r.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Schriftstellern: Günter GARSTENAUER, Beiträge zur Geschichte des Klosters Garsten und der Stadt Steyr, 2: P. Ernest Koch. Biographien. Biographische Denkmäler vom aufgehobenen Stifte Steyr-Garsten getreulich und mühsam aus verschiedenen Dokumenten von einem Ordensprofessen daselbst gesammelt. 1803. Textquelle: Oberösterreichisches Landesarchiv, Stiftsarchiv Garsten, HS 76 und 76a (Sierning 2011). Zu Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</p>
-   </bibliography>
+
 
 
 

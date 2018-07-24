@@ -13,24 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia25">Kt. 85 Varia 25</container>
+      <container localtype="file" containerid="melk_Kt85Varia25_fz1">Faszikel 1</container>
+      <unitid>Nr. 47</unitid>
       <unittitle>Bio-bibliographische Notizen BPs zu spanischen Benediktinern bzw. Exzerpt aus Antonio, Bibliotheca hispana</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/430131.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1" href="651/430131.tif"/>
-         <dao daotype="derived" coverage="whole" label="10" href="651/430140.tif"/>
-         <dao daotype="derived" coverage="whole" label="11" href="651/430141.tif"/>
-         <dao daotype="derived" coverage="whole" label="12" href="651/430142.tif"/>
-         <dao daotype="derived" coverage="whole" label="2" href="651/430132.tif"/>
-         <dao daotype="derived" coverage="whole" label="3" href="651/430133.tif"/>
-         <dao daotype="derived" coverage="whole" label="4" href="651/430134.tif"/>
-         <dao daotype="derived" coverage="whole" label="5" href="651/430135.tif"/>
-         <dao daotype="derived" coverage="whole" label="6" href="651/430136.tif"/>
-         <dao daotype="derived" coverage="whole" label="7" href="651/430137.tif"/>
-         <dao daotype="derived" coverage="whole" label="8" href="651/430138.tif"/>
-         <dao daotype="derived" coverage="whole" label="9" href="651/430139.tif"/>
-      </daoset>
    </did>
 
 
@@ -54,7 +42,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -71,11 +59,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -88,10 +80,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen zu spanischen Benediktinern des 16. und 17. Jh. bzw. Exzerpt aus Nicolás ANTONIO, Bibliotheca hispana sive hispanorum (2 Bde., Rom 1672) mit Seitenangaben. Hand BP. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p/>
-   </bibliography>
+
 
 
 

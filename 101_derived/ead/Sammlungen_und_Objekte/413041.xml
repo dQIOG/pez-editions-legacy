@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 20</unitid>
       <unittitle>Urkundenabschrift: Melker Konvent mit Abt Urban an NN</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/413041.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="217/413041.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="217/413042.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Melk - Kapitel</part>
          <part localtype="vorname"/>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pentaz</part>
          <part localtype="vorname">Urban</part>
       </persname>
@@ -59,11 +57,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -72,10 +74,7 @@
       <head>Beschreibung</head>
       <p>Abschrift einer Urkunde des Melker Konvents mit Abt Urban von 1583-05-07 an einen unbekannten Empfänger. Vgl. Abschrift zum Tod mehrerer Konventualen von der selben Hand in Karton 85 Varia 25, Fasz. 1, Nr. 72.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Melk: Ignaz Franz KEIBLINGER, Geschichte des Benedictiner-Stiftes Melk in Niederosterreich, seiner Besitzungen und Umgebungen (3 Bde., Wien 1851–1869).</p>
-   </bibliography>
+
 
 
 

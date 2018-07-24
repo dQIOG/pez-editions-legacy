@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 38</unitid>
       <unittitle>Briefauszüge: C. P. N. Hoffmann, Natzer, Rauch, Schwarz und J. W. Hoffmann an HP und BP</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/419480.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="354/419480.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="354/419481.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="354/419482.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="354/419483.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,35 +39,35 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Schwarz</part>
          <part localtype="vorname">Christian Gottlieb</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Hoffmann</part>
          <part localtype="vorname">Johann Wilhelm</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Hoffmann</part>
          <part localtype="vorname">Constantin Philipp Nikolaus</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Natzer</part>
          <part localtype="vorname">Candidus</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Rauch</part>
          <part localtype="vorname">Johann Franz</part>
       </persname>
@@ -88,11 +84,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>weltliche</part>
@@ -106,10 +106,13 @@
          <part>weltliche</part>
          <part>Wittenberg - Universität</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1043114-7" source="GND">
          <part>geistliche</part>
          <part>Prämonstratenser</part>
          <part>Geras</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1043114-7</part>
+         <part localtype="identifier">http://viaf.org/viaf/158906590</part>
+         <part localtype="identifier">http://www.geonames.org/2778691/geras.html</part>
       </corpname>
    </controlaccess>
 
@@ -121,10 +124,7 @@
       <head>Beschreibung</head>
       <p>Auszüge aus Briefen C.P.N. Hoffmann, Natzer, Rauch, Schwarz und J.W. Hoffmann an BP und HP, Hand Mayer. Datierungen teilweise irrig.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Briefen Schwarz und Natzer an BP (die anderen hier angeführten Briefe kommen bei Glassner nicht vor): Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. Zu Briefen C.P.N. Hoffmann, Rauch, J.W. Hoffmann an HP (aus dessen Nachlass im Stiftsarchiv Melk): Irene RABL, Briefe an Hieronymus Pez OSB aus seinem Nachlass im Stiftsarchiv Melk, Karton 7/13: Verzeichnis und Kurzbiographien der Korrespondenzpartner. SMGB 122 (2011) 327–367.</p>
-   </bibliography>
+
 
 
 

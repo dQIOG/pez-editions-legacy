@@ -13,40 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia22">Kt. 85 Varia 22</container>
+      <container localtype="file" containerid="melk_Kt85Varia22_fz2">Faszikel 2</container>
+      <unitid>Nr. 12</unitid>
       <unittitle>Druckvorlage: Engelbert von Admont, "Dialogus concupiscentiae ac rationis"</unittitle>
-      <unitdate>vor 1725</unitdate>
       <didnote localtype="datenote">Die Opuscula Philosophica Engelberts sind 1725 erschienen.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/423034.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="477/423034.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="477/423052.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="477/423053.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="477/423054.tif"/>
-         <dao daotype="derived" coverage="whole" label="11v" href="477/423055.tif"/>
-         <dao daotype="derived" coverage="whole" label="12r" href="477/423056.tif"/>
-         <dao daotype="derived" coverage="whole" label="12v" href="477/423057.tif"/>
-         <dao daotype="derived" coverage="whole" label="13r" href="477/423058.tif"/>
-         <dao daotype="derived" coverage="whole" label="13v" href="477/423059.tif"/>
-         <dao daotype="derived" coverage="whole" label="14r" href="477/423060.tif"/>
-         <dao daotype="derived" coverage="whole" label="14v" href="477/423061.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="477/423035.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="477/423036.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="477/423037.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="477/423038.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="477/423039.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="477/423040.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="477/423041.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="477/423042.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="477/423043.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="477/423044.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="477/423045.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="477/423046.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="477/423047.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="477/423048.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="477/423049.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="477/423050.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="477/423051.tif"/>
-      </daoset>
    </did>
 
 
@@ -67,19 +39,19 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name"/>
          <part localtype="vorname">Engelbert von Admont</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Hueber</part>
          <part localtype="vorname">Karlmann</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Hueber</part>
          <part localtype="vorname">Dominik</part>
       </persname>
@@ -93,17 +65,24 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/126116-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Salzburgische Kongregation</part>
          <part>Admont</part>
+         <part localtype="identifier">http://d-nb.info/gnd/126116-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/133125683</part>
+         <part localtype="identifier">http://www.geonames.org/2782979/admont.html</part>
       </corpname>
    </controlaccess>
 
@@ -112,10 +91,7 @@
       <head>Beschreibung</head>
       <p>Druckvorlage "Dialogus concupiscentiae ac rationis" für Engelberti Opuscula Philosophica (Regensburg 1725), aus einer Admonter Handschrift (Cod. 492) und mit Anmerkungen für den Drucker, Hand BP. Bei den Opuscula handelt es sich um eine Melker Thesendefension Dominik Huebers unter dem Vorsitz seines Bruders Karlmann Hueber.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Engelbert von Admont: Karl UBL, Engelbert von Admont. Ein Gelehrter im Spannungsfeld von Aristotelismus und christlicher Überlieferung (Mitteilungen des Instituts für Österreichische Geschichtsforschung Ergänzungsband 37, Wien–München 2000). Zum "Dialogus" und Überlieferung: Carmen CARDELLE DE HARTMANN, Lateinische Dialoge 1200–1400: literaturhistorische Studie und Repertorium (Mittelalterliche Studien und Texte 37, Leiden 2007). Edition: Dominicus HUEBER, Celerrimini Engelberti Abbatis Admontensis Ord. S. Ben. Opuscula Philosophica (Regensburg [1725]). Zu Cod. 492: Jacob WICHNER, Catalogus codicum manu scriptorum Admontensis (Admont 1889; handschriftlich).</p>
-   </bibliography>
+
 
 
 

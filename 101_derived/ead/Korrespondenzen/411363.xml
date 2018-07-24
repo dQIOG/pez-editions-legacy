@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 63</unitid>
       <unittitle>Briefabschrift: BP an NN</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/411363.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="163/411363.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="163/411364.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="163/411365.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="163/411366.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -60,11 +56,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -87,10 +87,7 @@
       <head>Beschreibung</head>
       <p>Briefabschrift BP an NN (St. Pantaleon 1709-12-26) aus Staatsarchiv Münster, Msc. VII-5212: Verschiedene Korrespondenzen, 1589-1797. Vgl. Briefabschrift mit ähnlichem Inhalt in Karton 7 Patres 9, Fasz. 2, Nr. 65.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu St. Pantaleon: Hans Joachim KRACHT, St. Pantaleon, in: Germania Benedictina, 8: Die Benediktinerklöster in Nordrhein-Westfalen, hg. von Rhaban HAACKE (St. Ottilien 1980) 390–404. Zu Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</p>
-   </bibliography>
+
 
 
 
