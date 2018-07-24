@@ -48,6 +48,32 @@ summary:before {
     content: "Inhalt: ";
 }
 
+summary {
+    display: block;
+}
+
+msItem:before {
+    content: attr(n)")   ";
+}
+
+msItem {
+    display: block;
+    margin: 0.4em 0 0.4em 0;
+}
+
+msItem > listBibl:before {
+    content: "Literatur: ";
+}
+
+msItem > listBibl {
+    margin-top: 0.4em;
+    margin-left: 1.5em;
+}
+
+msItem > listBibl > bibl {
+    display: list-item;
+}
+
 origin > date:before {
     content: "Datierung: ";
 }
