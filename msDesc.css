@@ -24,6 +24,10 @@ additional > listBibl:before {
     content: "Literatur: ";
 }
 
+additional > listBibl > bibl {
+    display: list-item;
+}
+
 msDesc {
     color: black;
 }
@@ -55,3 +59,4 @@ origin > note:before {
 classCode:before {
     content: "RNA-Klassifizierung: ";
 }
+
