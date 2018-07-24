@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia25">Kt. 85 Varia 25</container>
+      <container localtype="file" containerid="melk_Kt85Varia25_fz1">Faszikel 1</container>
+      <unitid>Nr. 66</unitid>
       <unittitle>Bio-bibliographischen Notizen zu Lauffen und Zumbrunnen</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/430428.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="670/430428.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="670/430429.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="670/430430.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="670/430431.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="670/430432.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="670/430433.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="670/430434.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="670/430435.tif"/>
-      </daoset>
    </did>
 
 
@@ -47,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Zumbrunnen</part>
          <part localtype="vorname">Fridolin</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Lauffen</part>
          <part localtype="vorname">Roman</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Müller</part>
          <part localtype="vorname">Konrad</part>
       </persname>
@@ -69,11 +61,14 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4374885-5" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Helvetische Kongregation</part>
          <part>Rheinau</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4374885-5</part>
+         <part localtype="identifier">http://viaf.org/viaf/235202945</part>
+         <part localtype="identifier">http://www.geonames.org/3209262/rheinau.html</part>
       </corpname>
    </controlaccess>
 
@@ -82,10 +77,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen zu den beiden Rheinauern Lauffen und Zumbrunnen. Hand Konrad Müller, zu selber Hand vgl. Bibliothekskatalog Rheinau in Karton 7 Patres 10, Fasz. 8, Nr. 16 und bio-bibliographische Notizen zu Iten in Karton 85 Varia 22, Fasz. 1, Nr. 21. Vgl. den Brief Apronian Hueber an BP: 1718-10-22.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Müller, Lauffen und Zumbrunnen: Rudolf HENGGELER, Monasticon-Benedictinum Helvetiae, 2: Profeßbuch der Benediktinerabteien Pfäfers, Rheinau, Fischingen (Zug 1931). Zu Rheinau: Judith STEINMANN–Peter STOTZ, Rheinau, in: Helvetia Sacra, Abt. III: Die Orden mit Benediktinerregel, 1: Frühe Klöster, die Benediktiner und Benediktinerinnen in der Schweiz, Teil 2, hg. von Elsanne GILOMEN-SCHENKEL (Bern 1986) 1101–1165.</p>
-   </bibliography>
+
 
 
 

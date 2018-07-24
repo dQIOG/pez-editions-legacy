@@ -13,52 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz2">Faszikel 2</container>
+      <unitid>Nr. 09</unitid>
       <unittitle>Werkskatalog des Trithemius mit Kommentaren aus der Sekundärliteratur</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/425357.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="567/425357.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="567/425375.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="567/425376.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="567/425377.tif"/>
-         <dao daotype="derived" coverage="whole" label="11v" href="567/425378.tif"/>
-         <dao daotype="derived" coverage="whole" label="12r" href="567/425379.tif"/>
-         <dao daotype="derived" coverage="whole" label="12v" href="567/425380.tif"/>
-         <dao daotype="derived" coverage="whole" label="13r" href="567/425381.tif"/>
-         <dao daotype="derived" coverage="whole" label="13v" href="567/425382.tif"/>
-         <dao daotype="derived" coverage="whole" label="14r" href="567/425383.tif"/>
-         <dao daotype="derived" coverage="whole" label="14v" href="567/425384.tif"/>
-         <dao daotype="derived" coverage="whole" label="15r" href="567/425385.tif"/>
-         <dao daotype="derived" coverage="whole" label="15v" href="567/425386.tif"/>
-         <dao daotype="derived" coverage="whole" label="16r" href="567/425387.tif"/>
-         <dao daotype="derived" coverage="whole" label="16v" href="567/425388.tif"/>
-         <dao daotype="derived" coverage="whole" label="17r" href="567/425389.tif"/>
-         <dao daotype="derived" coverage="whole" label="17v" href="567/425390.tif"/>
-         <dao daotype="derived" coverage="whole" label="18r" href="567/425391.tif"/>
-         <dao daotype="derived" coverage="whole" label="18v" href="567/425392.tif"/>
-         <dao daotype="derived" coverage="whole" label="19r" href="567/425393.tif"/>
-         <dao daotype="derived" coverage="whole" label="19v" href="567/425394.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="567/425358.tif"/>
-         <dao daotype="derived" coverage="whole" label="20r" href="567/425395.tif"/>
-         <dao daotype="derived" coverage="whole" label="20v" href="567/425396.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="567/425359.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="567/425360.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="567/425361.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="567/425362.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="567/425363.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="567/425364.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="567/425365.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="567/425366.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="567/425367.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="567/425368.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="567/425369.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="567/425370.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="567/425371.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="567/425372.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="567/425373.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="567/425374.tif"/>
-      </daoset>
    </did>
 
 
@@ -79,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Trithemius</part>
          <part localtype="vorname">Johannes</part>
       </persname>
@@ -93,11 +53,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4778875-6" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bursfelder Kongregation</part>
          <part>Sponheim</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/40277</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4778875-6</part>
+         <part localtype="identifier">http://viaf.org/viaf/245857634</part>
+         <part localtype="identifier">http://www.geonames.org/2830167/sponheim.html</part>
       </corpname>
    </controlaccess>
 
@@ -106,10 +70,7 @@
       <head>Beschreibung</head>
       <p>Werkskatalog des Trithemius ohne Titel, Einteilung erfolgt in Exergetica, Theologica, Homiletica, Philosophica und Historica, diese sind u.a. exzerpiert aus Antonio POSSEVINO, Apparatus sacer (3 Bde., Venedig 1603–1606), Arnold WION, Lignum vitae (5 Bde., Venedig 1595) und wohl Conrad GESNER, Bibliotheca universalis (4 Bde., Zürich 1545–1555). Vgl. einen weiteren Werkskatalog mit ähnlichem Aufbau in Karton 85 Varia 23, Fasz. 2, Nr. 7.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Trithemius: Klaus ARNOLD, Johannes Trithemius (1462–1516) (Quellen und Forschungen zur Geschichte des Bistums und Hochstifts Würzburg 23, Würzburg 1991); Ivo FISCHER, Der Nachlaß des Abtes Johannes Trithemius von St. Jakob in Würzburg. Archiv des Historischen Vereins von Unterfranken und Aschaffenburg 67 (1928) 41–82.</p>
-   </bibliography>
+
 
 
 

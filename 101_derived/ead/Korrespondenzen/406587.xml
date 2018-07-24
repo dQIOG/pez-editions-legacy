@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 05</unitid>
       <unittitle>Exzerpte Katschthalers aus mehreren Göttweiger Codices zu Bessel, darin Briefabschriften BP an Bessel sowie Bessel an Legipont</unittitle>
-      <unitdate>um 1900</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/406587.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="21/406587.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="21/406588.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="21/406589.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="21/406590.tif"/>
-      </daoset>
    </did>
 
 
@@ -46,19 +42,19 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Katschthaler</part>
          <part localtype="vorname">Eduard Ernst</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Legipont</part>
          <part localtype="vorname">Oliver</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00397622</part>
          <part localtype="identifier">http://viaf.org/viaf/62342389</part>
          <part localtype="identifier">http://d-nb.info/gnd/118662562</part>
@@ -79,17 +75,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2103432-1" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Göttweig</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/4035</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2103432-1</part>
+         <part localtype="identifier">http://viaf.org/viaf/245287151</part>
+         <part localtype="identifier">http://www.geonames.org/2778228/stift-goettweig.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -104,10 +108,7 @@
       <head>Beschreibung</head>
       <p>Exzerpte Katschthalers aus mehreren Göttweiger Codices zu Bessel, darin Briefabschrift BP an Bessel aus Cod. 669 (1732-11-29), und Briefabschrift  Bessel an Legipont aus Cod. 692 (1739-12-12).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Katschthaler: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1889); Directorium officii divini Benedictino Mellicense  (Melk 1922–1947); 900 Jahre Benediktiner in Melk. Jubiläumsausstellung 1989, Stift Melk, hg. von Ernst BRUCKMÜLLER–Burkhard ELLEGAST–Erwin ROTTER (Melk 1989). Zu Katschthalers Befassung mit der Thematik: Eduard Ernst KATSCHTHALER, Über Bernhard Pez und dessen Briefnachlass. Jahresbericht des k.k. Obergymnasiums zu Melk 39 (1889) 3–106. Zu Göttweiger Codices: Vinzenz WERL, Manuscripten-Catalog der Stifts-Bibliothek zu Göttweig (2 Bde., Göttweig 1843; handschriftlich).</p>
-   </bibliography>
+
 
 
 

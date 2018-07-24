@@ -13,32 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz8">Faszikel 8</container>
+      <unitid>Nr. 48</unitid>
       <unittitle>Abschrift der Einleitung und Exzerpte aus Bessel, Chronicon Gotwicense</unittitle>
-      <unitdate>18. Jh.</unitdate>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/417357.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1" href="309/417357.tif"/>
-         <dao daotype="derived" coverage="whole" label="10" href="309/417366.tif"/>
-         <dao daotype="derived" coverage="whole" label="11" href="309/417367.tif"/>
-         <dao daotype="derived" coverage="whole" label="12" href="309/417368.tif"/>
-         <dao daotype="derived" coverage="whole" label="13" href="309/417369.tif"/>
-         <dao daotype="derived" coverage="whole" label="14" href="309/417370.tif"/>
-         <dao daotype="derived" coverage="whole" label="15" href="309/417371.tif"/>
-         <dao daotype="derived" coverage="whole" label="16" href="309/417372.tif"/>
-         <dao daotype="derived" coverage="whole" label="17" href="309/417373.tif"/>
-         <dao daotype="derived" coverage="whole" label="18" href="309/417374.tif"/>
-         <dao daotype="derived" coverage="whole" label="19" href="309/417375.tif"/>
-         <dao daotype="derived" coverage="whole" label="2" href="309/417358.tif"/>
-         <dao daotype="derived" coverage="whole" label="20" href="309/417376.tif"/>
-         <dao daotype="derived" coverage="whole" label="3" href="309/417359.tif"/>
-         <dao daotype="derived" coverage="whole" label="4" href="309/417360.tif"/>
-         <dao daotype="derived" coverage="whole" label="5" href="309/417361.tif"/>
-         <dao daotype="derived" coverage="whole" label="6" href="309/417362.tif"/>
-         <dao daotype="derived" coverage="whole" label="7" href="309/417363.tif"/>
-         <dao daotype="derived" coverage="whole" label="8" href="309/417364.tif"/>
-         <dao daotype="derived" coverage="whole" label="9" href="309/417365.tif"/>
-      </daoset>
    </did>
 
 
@@ -62,7 +42,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00397622</part>
          <part localtype="identifier">http://viaf.org/viaf/62342389</part>
          <part localtype="identifier">http://d-nb.info/gnd/118662562</part>
@@ -80,11 +60,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2103432-1" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Göttweig</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/4035</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2103432-1</part>
+         <part localtype="identifier">http://viaf.org/viaf/245287151</part>
+         <part localtype="identifier">http://www.geonames.org/2778228/stift-goettweig.html</part>
       </corpname>
    </controlaccess>
 
@@ -93,10 +77,7 @@
       <head>Beschreibung</head>
       <p>Abschrift der Einleitung und Exzerpte aus Gottfried BESSEL, Chronicon Gotwicense (Tegernsee 1732).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Göttweig: Clemens Anton LASHOFER, Professbuch des Benediktinerstiftes Göttweig. Zur 900-Jahr-Feier der Gründung des Klosters (SMGB Ergbd. 26, St. Ottilien 1983).</p>
-   </bibliography>
+
 
 
 

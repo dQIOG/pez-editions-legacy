@@ -13,24 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 41</unitid>
       <unittitle>Manuskript: Hausgeschichte von Rott am Inn</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/419514.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="357/419514.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="357/419515.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="357/419516.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="357/419517.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="357/419518.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="357/419519.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="357/419520.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="357/419521.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="357/419522.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="357/419523.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="357/419524.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="357/419525.tif"/>
-      </daoset>
    </did>
 
 
@@ -54,7 +42,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
@@ -71,17 +59,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4278403-7" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Rott am Inn</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60355</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4278403-7</part>
+         <part localtype="identifier">http://viaf.org/viaf/293128079</part>
+         <part localtype="identifier">http://www.geonames.org/2843772/rott-am-inn.html</part>
       </corpname>
    </controlaccess>
 
@@ -98,10 +94,7 @@
       <head>Beschreibung</head>
       <p>Hausgeschichte von Rott am Inn: "Monasterii Rotensis OSB in Superiore Bavaria anno 1073 fundati historica descriptio", nicht zu verwechseln mit dem Kloster St. Veit an der Rott, Hand Mayer. Das Original war eine Beilage zu Brief Dullinger an BP.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Rott am Inn: Martin RUF, Professbuch des Benediktinerstiftes Rott am Inn (SMGB Erg.bd. 32, St. Ottilien 1991).</p>
-   </bibliography>
+
 
 
 

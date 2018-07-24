@@ -13,22 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 30</unitid>
       <unittitle>Schriftstellerkatalog von Andechs</unittitle>
-      <unitdate>um 1710</unitdate>
       <didnote localtype="datenote">Wohl in Zusammenhang mit dem Brief Eixls an BP 1710-02-09 entstanden.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/413076.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="227/413076.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="227/413077.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="227/413078.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="227/413079.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="227/413080.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="227/413081.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="227/413082.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="227/413083.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="227/413084.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="227/413085.tif"/>
-      </daoset>
    </did>
 
 
@@ -49,83 +39,83 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01037751</part>
          <part localtype="identifier">http://viaf.org/viaf/309704809</part>
          <part localtype="identifier">http://d-nb.info/gnd/1055607234</part>
          <part localtype="name">Eixl</part>
          <part localtype="vorname">Thomas</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Eggerer</part>
          <part localtype="vorname">Leonhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Praytenwieser</part>
          <part localtype="vorname">Matthias</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Hochmayr</part>
          <part localtype="vorname">Ulrich</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Calzolaio</part>
          <part localtype="vorname">Leonardo</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://viaf.org/viaf/160108877</part>
          <part localtype="identifier">http://d-nb.info/gnd/142719935</part>
          <part localtype="name">Ascha</part>
          <part localtype="vorname">Maurus de</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00386579</part>
          <part localtype="identifier">http://viaf.org/viaf/25355519 / http://viaf.org/viaf/1316145857144022922977</part>
          <part localtype="identifier">http://d-nb.info/gnd/116508000 /   http://d-nb.info/gnd/1089672764</part>
          <part localtype="name">Christel</part>
          <part localtype="vorname">Nikolaus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Weiß</part>
          <part localtype="vorname">Matthäus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Jacobi</part>
          <part localtype="vorname">Karl</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Probst</part>
          <part localtype="vorname">Cölestin</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Kibler</part>
          <part localtype="vorname">Ägydius</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Staudigl</part>
          <part localtype="vorname">Ulrich</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Rambeck</part>
          <part localtype="vorname">Maurus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Kolberer</part>
          <part localtype="vorname">Kajetan</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Grienmelt</part>
          <part localtype="vorname">Lampert</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Sutor</part>
          <part localtype="vorname">Rupert</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Gerstl</part>
          <part localtype="vorname">Ildephons</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Adam von Andechs</part>
       </persname>
@@ -139,11 +129,17 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4310732-1" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Andechs</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/2091</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4310732-1</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1089050224</part>
+         <part localtype="identifier">http://viaf.org/viaf/233645846</part>
+         <part localtype="identifier">http://viaf.org/viaf/939145857951823021263</part>
+         <part localtype="identifier">http://www.geonames.org/2956253/andechs.html</part>
       </corpname>
    </controlaccess>
 
@@ -160,10 +156,7 @@
       <head>Beschreibung</head>
       <p>Schriftstellerkatalog zu Andechs mit Anhang: "Elenchus eorum, qui in monasterio Montis Sancti Andechs scribendi libris operam suam dedere".</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Eixl, Christel, Weiß, Jacob, Rambeck, Grienmelt sowie zur Korrespondenz Eixls mit BP: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). Zu Kibler: Albert SIEGMUND, Kibler (Gilles), in: Dictionnaire de spiritualité, ascétique et mystique, doctrine et histoire, 8: Jacob – Kyspenning, hg. von Marcel VILLER et al. (Paris 1974) col. 1721–1723. Zu Staudigl: Hugo HOLL, P. Ulrich Staudigl von Andechs († 1720) als erster Prokurator der bayrischen Benediktiner-Kongregation in Rom. (Dargestellt nach seinen Briefen). SMGB 51 (1933) 231–275; Birgitta KJÄER, P. Ulrich Staudigl (1644–1720) von Andechs. Mönch und Arzt (München 1986). Zu Eggerer, Praytenwieser, Probst, Kolberer, Gerstl: Odilo LECHNER, Die Benediktiner auf Andechs, in: Andechs. Der Heilige Berg. Von der Frühzeit bis zur Gegenwart, hg. von Karl BOSL–Odilo LECHNER–Wolfgang SCHÜLE–Josef Othmar ZÖLLER (München 1993) 134–142. Allgemein zu Andechs: Magnus SATTLER, Chronik von Andechs (Donauwörth 1877).</p>
-   </bibliography>
+
 
 
 

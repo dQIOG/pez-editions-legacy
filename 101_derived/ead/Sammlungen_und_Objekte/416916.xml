@@ -13,34 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz8">Faszikel 8</container>
+      <unitid>Nr. 25</unitid>
       <unittitle>Bibliotheks- und Handschriftenkatalog von St. Paul im Lavanttal</unittitle>
-      <unitdate>1714</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/416916.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="159" href="286/416916.tif"/>
-         <dao daotype="derived" coverage="whole" label="160" href="286/416917.tif"/>
-         <dao daotype="derived" coverage="whole" label="161" href="286/416918.tif"/>
-         <dao daotype="derived" coverage="whole" label="162" href="286/416919.tif"/>
-         <dao daotype="derived" coverage="whole" label="163" href="286/416920.tif"/>
-         <dao daotype="derived" coverage="whole" label="164" href="286/416921.tif"/>
-         <dao daotype="derived" coverage="whole" label="165" href="286/416922.tif"/>
-         <dao daotype="derived" coverage="whole" label="166" href="286/416923.tif"/>
-         <dao daotype="derived" coverage="whole" label="167" href="286/416924.tif"/>
-         <dao daotype="derived" coverage="whole" label="168" href="286/416925.tif"/>
-         <dao daotype="derived" coverage="whole" label="169" href="286/416926.tif"/>
-         <dao daotype="derived" coverage="whole" label="170" href="286/416927.tif"/>
-         <dao daotype="derived" coverage="whole" label="171" href="286/416928.tif"/>
-         <dao daotype="derived" coverage="whole" label="172" href="286/416929.tif"/>
-         <dao daotype="derived" coverage="whole" label="173" href="286/416930.tif"/>
-         <dao daotype="derived" coverage="whole" label="174" href="286/416931.tif"/>
-         <dao daotype="derived" coverage="whole" label="175" href="286/416932.tif"/>
-         <dao daotype="derived" coverage="whole" label="176" href="286/416933.tif"/>
-         <dao daotype="derived" coverage="whole" label="177" href="286/416935.tif"/>
-         <dao daotype="derived" coverage="whole" label="178" href="286/416936.tif"/>
-         <dao daotype="derived" coverage="whole" label="179" href="286/416937.tif"/>
-         <dao daotype="derived" coverage="whole" label="180" href="286/416938.tif"/>
-      </daoset>
    </did>
 
 
@@ -64,15 +42,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Reichart</part>
          <part localtype="vorname">Albert</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Stadler</part>
          <part localtype="vorname">Alphons</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -86,17 +64,24 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1042262-6" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Salzburgische Kongregation</part>
          <part>St. Paul im Lavanttal</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1042262-6</part>
+         <part localtype="identifier">http://viaf.org/viaf/124953676</part>
+         <part localtype="identifier">http://www.geonames.org/2766459/sankt-paul-im-levanttal.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -113,10 +98,7 @@
       <head>Beschreibung</head>
       <p>Bibliotheks- und Handschriftenkatalog von St. Paul im Lavanttal: "Series librorum a Benedictinis conscriptorum qui in bibliotheca monasterii S. Pauli OSB in Carinthia continentur". Beilage zu Reichert an BP (1714-08-20), Hand Stadler? Stadler war von 1709–1711 zu Gast in Melk, daher mit BP persönlich bekannt.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Reichart, Stadler und Korrespondenz mit Brüdern Pez: Peter Alcant BUDIK, Albert Reichart, Abt des Stiftes St. Paul. (Ein Beitrag zur kärntnerischen Literaturgeschichte). Carinthia. Zeitschrift für Vaterlandskunde, Belehrung und Unterhaltung 43 (1853) 85–86; Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). Zu St. Paul: Ulrich FAUST, St. Paul im Lavanttal, in: Germania Benedictina, 3/3: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2002) 74–141.</p>
-   </bibliography>
+
 
 
 

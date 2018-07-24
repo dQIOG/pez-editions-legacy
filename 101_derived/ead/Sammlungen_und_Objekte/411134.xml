@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 49</unitid>
       <unittitle>Brief: Kinter an Katschthaler (?)</unittitle>
-      <unitdate>1895-04-20</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung um 1900.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/411134.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="149/411134.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="149/411135.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Katschthaler</part>
          <part localtype="vorname">Eduard Ernst</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Knauer</part>
          <part localtype="vorname">Vinzenz</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Kinter</part>
          <part localtype="vorname">Maurus</part>
       </persname>
@@ -66,17 +64,24 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/809495-0" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Böhmische Kongregation</part>
          <part>Raigern</part>
+         <part localtype="identifier">http://d-nb.info/gnd/809495-0</part>
+         <part localtype="identifier">http://viaf.org/viaf/150791076</part>
+         <part localtype="identifier">http://www.geonames.org/10286448/rajhrad-monastery-church-t.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -91,10 +96,7 @@
       <head>Beschreibung</head>
       <p>Brief Kinter wohl an Katschthaler (Raigern, 1895-04-20). Sendet Briefkopien von Knauer zurück.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Raigern: Martin RUF, Die Geschichtsschreibung im Stift Raigern seit der Barockzeit und die Anfänge der "Studien und Mitteilungen", in: Tausend Jahre Benediktiner in den Klöstern Břevnov, Braunau und Rohr, hg. von Johannes HOFMANN (SMGB Erg.bd. 33, St. Ottilien 1993) 591–610. Zu Katschthaler: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1889); Directorium officii divini Benedictino Mellicense (Melk 1922–1947); 900 Jahre Benediktiner in Melk. Jubiläumsausstellung 1989, Stift Melk, hg. von Ernst BRUCKMÜLLER–Burkhard ELLEGAST–Erwin ROTTER (Melk 1989). Zum Schottenkloster: Cölestin RAPF–Heinrich FERENCZY, Wien, Schotten, in: Germania Benedictina, 3/3: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2002) 779–817.</p>
-   </bibliography>
+
 
 
 

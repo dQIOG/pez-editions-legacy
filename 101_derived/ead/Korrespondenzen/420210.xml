@@ -13,28 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 80</unitid>
       <unittitle>Briefauszüge: Martène und Durand an BP</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/420210.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="396/420210.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="396/420211.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="396/420212.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="396/420213.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="396/420214.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="396/420215.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="396/420216.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="396/420217.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="396/420218.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="396/420219.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="396/420220.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="396/420221.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="396/420222.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="396/420223.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="396/420224.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="396/420225.tif"/>
-      </daoset>
    </did>
 
 
@@ -55,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Martène</part>
          <part localtype="vorname">Edmond</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00972001 / 
 http://thesaurus.cerl.org/record/cnp01325575 / 
 http://thesaurus.cerl.org/record/cnp01441789 / 
@@ -75,7 +59,7 @@ http://thesaurus.cerl.org/record/cnp01467386</part>
          <part localtype="name">Durand</part>
          <part localtype="vorname">Ursin</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -97,11 +81,15 @@ http://thesaurus.cerl.org/record/cnp01467386</part>
          <part>Benediktiner</part>
          <part>Maurinerkongregation</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -146,10 +134,7 @@ http://thesaurus.cerl.org/record/cnp01467386</part>
       <head>Beschreibung</head>
       <p>Auszüge aus den Briefen Martène und Durand an BP, Hand Mayer. Datierungen teilweise irrig.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Briefen: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. Zu Maurinern: Yves CHAUSSY, Matricula Monachorum Professorum Congregationis S. Mauri in Gallia Ordinis Sancti Patris Benedicti (Bibliothèque d’histoire et d’archéologie chrétiennes, Paris 1959); Jean-Baptiste VANEL, Les Bénédictins de Saint-Maur à Saint-Germain-des-Prés 1630–1792. Nécrologe des religieux de la Congrégation de Saint-Maur décédés à l’Abbaye de Saint-Germain-des-Prés (Paris 1896).</p>
-   </bibliography>
+
 
 
 

@@ -13,22 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz1">Faszikel 1</container>
+      <unitid>Nr. 31</unitid>
       <unittitle>Manuskript BPs zur Bibliotheca Benedictino-Mauriana</unittitle>
-      <unitdate>nach 1702</unitdate>
       <didnote localtype="datenote">Jüngster Eintrag von 1702.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/424576.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="532/424576.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="532/424577.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="532/424578.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="532/424579.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="532/424580.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="532/424581.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="532/424582.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="532/424583.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="532/424584.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="532/424585.tif"/>
-      </daoset>
    </did>
 
 
@@ -49,31 +39,31 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Martin</part>
          <part localtype="vorname">Claude</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Martène</part>
          <part localtype="vorname">Edmond</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Massuet</part>
          <part localtype="vorname">René</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Roussel</part>
          <part localtype="vorname">Guillaume</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Montfaucon</part>
          <part localtype="vorname">Bernard de</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Le Gallois</part>
          <part localtype="vorname">Antoine-Paul </part>
       </persname>
@@ -90,11 +80,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -108,10 +102,7 @@
       <head>Beschreibung</head>
       <p>Manuskript BPs zur Bibliotheca Benedictino-Mauriana (darin Martin, Marténe, Massuet, Rossel, Montfaucon und Le Gallois), gedruckt 1716 in Augsburg.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Maurinern: Yves CHAUSSY, Matricula Monachorum Professorum Congregationis S. Mauri in Gallia Ordinis Sancti Patris Benedicti (Bibliothèque d’histoire et d’archéologie chrétiennes, Paris 1959).</p>
-   </bibliography>
+
 
 
 

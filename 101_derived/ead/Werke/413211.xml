@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 48</unitid>
       <unittitle>Bio-bibliographische Notizen BPs zum Hl. Benedikt und Hl. Koloman</unittitle>
-      <unitdate>ca. 1715</unitdate>
       <didnote localtype="datenote">1715 besuchten die Brüder Pez Klosterbibliotheken in Oberösterreich (Garsten, Gleink, St. Florian, Kremsmünster, Lambach, Waldhausen, Wilhering).</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/413211.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="245/413211.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="245/413212.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="245/413213.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="245/413214.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hl. Benedikt</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hl. Koloman</part>
       </persname>
@@ -65,11 +61,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1048727-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Lambach</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3196</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1048727-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/143705101</part>
+         <part localtype="identifier">http://www.geonames.org/8410618/stift-lambach.html</part>
       </corpname>
    </controlaccess>
 
@@ -78,10 +78,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen BPs zum Hl. Benedikt und Hl. Koloman, teilweise aus der Bibliothek des Klosters Lambach. Wahrscheinlich Notizen von der Bibliotheksreise nach Oberösterreich. Vgl. auch Notizen in Karton 7 Patres 9, Fasz. 1, Nr. 54.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu der Bibliotheksreise nach Oberösterreich: Eduard Ernst KATSCHTHALER, Über Bernhard Pez und dessen Briefnachlass. Jahresbericht des k.k. Obergymnasiums zu Melk 39 (1889) 3–106; Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</p>
-   </bibliography>
+
 
 
 

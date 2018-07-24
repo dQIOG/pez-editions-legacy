@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 82</unitid>
       <unittitle>Notizen: "Hepidanni annales 2"</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/410615.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="100/410615.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="100/410616.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="100/410617.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="100/410618.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,14 +39,14 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01160336</part>
          <part localtype="identifier">http://viaf.org/viaf/36936239</part>
          <part localtype="identifier">http://d-nb.info/gnd/118696130</part>
          <part localtype="name">Goldast von Haiminsfeld</part>
          <part localtype="vorname">Melchior</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01349469 / 
 http://thesaurus.cerl.org/record/cnp00540641 / 
 http://thesaurus.cerl.org/record/cnp00904544</part>
@@ -59,11 +55,11 @@ http://thesaurus.cerl.org/record/cnp00904544</part>
          <part localtype="name">Duchesne</part>
          <part localtype="vorname">André</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Meibom</part>
          <part localtype="vorname">Heinrich</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
@@ -102,10 +98,7 @@ http://thesaurus.cerl.org/record/cnp00904544</part>
       <head>Beschreibung</head>
       <p>Auszüge zu den "Annales Sangallenses maiores dicti Hepidanni", Fragment. Davor fehlt wohl ein weiterer Bogen. Vgl. Karton 7 Patres 9, Fasz. 1, Nr. 81 und 83 sowie StiB Melk, Cod. 19, 350r–357v. Hand Mayer.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Edition: Annales Sangallenses maiores, hg. von Ildefons de ARX, in: MGH SS 1 (Hannover 1826) 72–85. Zum Melker Cod. 19: Christine GLASSNER, Neuzeitliche Handschriften aus dem Nachlass der Brüder Bernhard und Hieronymus Pez in der Bibliothek des Benediktinerstiftes Melk (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 372 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe IV 7, Wien 2008). Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855).</p>
-   </bibliography>
+
 
 
 

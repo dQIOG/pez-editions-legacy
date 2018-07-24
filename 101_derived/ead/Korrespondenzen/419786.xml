@@ -13,34 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 53</unitid>
       <unittitle>Briefauszüge: Legipont an BP, Kropff an Legipont, Scheffer an Forster, Forster an Kropff, Kropff an Forster, Legipont an Kropff</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/419786.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="369/419786.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="369/419804.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="369/419805.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="369/419787.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="369/419788.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="369/419789.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="369/419790.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="369/419791.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="369/419792.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="369/419793.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="369/419794.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="369/419795.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="369/419796.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="369/419797.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="369/419798.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="369/419799.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="369/419800.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="369/419801.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="369/419802.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="369/419803.tif"/>
-         <dao daotype="derived" coverage="whole" label="Schmutzblattr" href="369/419806.tif"/>
-         <dao daotype="derived" coverage="whole" label="Schmutzblattv" href="369/419807.tif"/>
-      </daoset>
    </did>
 
 
@@ -61,30 +39,30 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Scheffer</part>
          <part localtype="vorname">Willibrord</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00387120 / http://thesaurus.cerl.org/record/cnp01353722</part>
          <part localtype="identifier">http://viaf.org/viaf/42594848</part>
          <part localtype="identifier">http://d-nb.info/gnd/116665106</part>
          <part localtype="name">Forster</part>
          <part localtype="vorname">Frobenius</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Legipont</part>
          <part localtype="vorname">Oliver</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Kropff</part>
          <part localtype="vorname">Martin</part>
       </persname>
@@ -101,11 +79,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -160,10 +142,7 @@
       <head>Beschreibung</head>
       <p>Auszüge aus den Briefen Legipont an BP, Kropff an Legipont, Scheffer an Forster, Forster an Kropff, Kropff an Forster, Legipont an Kropff, Hand Mayer. Vgl. zu den Kropff-Briefen dessen Nachlass im StiA Melk, Karton 7 Patres 16, Korrespondenz.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Legipont und seiner Verbindung zu BP: Stefan BENZ, Zwischen Tradition und Kritik. Katholische Geschichtsschreibung im barocken Heiligen Römischen Reich (Historische Studien 473, Husum 2003). Zu Briefen an BP: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. Zu Forster: Benedikt BRAUNMÜLLER, Reihe der Äbte von St. Emmeram in Regensburg. SMGB 4/2 (1883) 118–134; Joseph Anton ENDRES, Frobenius Forster, Fürstabt von St. Emmeram in Regensburg. Ein Beitrag zur Litteratur- und Ordensgeschichte des 18. Jahrhunderts (Strassburger Theologische Studien 4/1, Freiburg im Breisgau 1900). Zu Scheffer: Franz-Josef HEYEN et al., Trier, St. Maximin, in: Germania Benedictina, 9: Die Männer- und Frauenklöster der Benediktiner in Rheinland-Pfalz und Saarland, hg. von Friedhelm JÜRGENSMEIER–Regina Elisabeth SCHWERDTFEGER (St. Ottilien 1999) 1010–1088.</p>
-   </bibliography>
+
 
 
 

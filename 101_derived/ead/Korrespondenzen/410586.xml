@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 79</unitid>
       <unittitle>Brief: Hauer an unbekannten Mitbruder (HP?)</unittitle>
-      <unitdate>1762-01-19</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/410586.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="97/410586.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="97/410587.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="97/410588.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="97/410589.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,17 +39,17 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">http://viaf.org/viaf/305247920</part>
          <part localtype="identifier">http://d-nb.info/gnd/1041833164</part>
          <part localtype="name">Hauer</part>
          <part localtype="vorname">Urban</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pauer</part>
          <part localtype="vorname">Thomas</part>
       </persname>
@@ -67,11 +63,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -80,10 +80,7 @@
       <head>Beschreibung</head>
       <p>Deutscher Brief des späteren Abtes Hauer (1763–1785) aus Wien an unbekannten Mitbruder (HP?). Betrifft Krankheit des Abtes Pauer und finanzielle Dispositionen.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Der Brief scheint nicht auf bei: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. Zu Hauer: Lajos ABAFI, Die Geschichte der Freimaurerei in Österreich-Ungarn 4 (Budapest 1893); Ignaz Franz KEIBLINGER, Geschichte des Benedictiner-Stiftes Melk in Niederösterreich, seiner Besitzungen und Umgebungen 1 (Wien 1851).</p>
-   </bibliography>
+
 
 
 

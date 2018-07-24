@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 75</unitid>
       <unittitle>Briefauszüge: Knittel an BP</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/420107.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="391/420107.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="391/420108.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="391/420109.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="391/420110.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Knittel</part>
          <part localtype="vorname">Michael</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -68,17 +64,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/5024707-4" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Oberschwäbische Kongregation</part>
          <part>Zwiefalten</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20399</part>
+         <part localtype="identifier">http://d-nb.info/gnd/5024707-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/146121339</part>
+         <part localtype="identifier">http://www.geonames.org/2803545/zwiefalten.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -101,10 +105,7 @@
       <head>Beschreibung</head>
       <p>Auszüge aus den Briefen Knittel an BP, Hand Mayer.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Briefen: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. Zu Knittel: Pirmin LINDNER, Fünf Professbücher süddeutscher Benediktiner-Abteien. Beiträge zu einem Monasticon-benedictinum Germaniae, 3: Professbuch der Benediktiner-Abtei Zwiefalten (Kempten–München 1910).</p>
-   </bibliography>
+
 
 
 

@@ -13,28 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz1">Faszikel 1</container>
+      <unitid>Nr. 42</unitid>
       <unittitle>Bio-bibliographische Notizen und Exzerpte BPs</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/424743.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="543/424743.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="543/424744.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="543/424745.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="543/424746.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="543/424747.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="543/424748.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="543/424749.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="543/424750.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="543/424751.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="543/424752.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="543/424753.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="543/424754.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="543/424755.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="543/424756.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="543/424757.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="543/424758.tif"/>
-      </daoset>
    </did>
 
 
@@ -58,7 +42,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -72,11 +56,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -85,10 +73,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen und Exzerpte sowie Werklisten insbesondere zu spanischen Autoren, Hand BP. Am Anfang unvollständig, beginnt mit S. 61. Möglicherweise in Zusammenhang mit BPs Paris-Aufenthalt 1728.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p/>
-   </bibliography>
+
 
 
 

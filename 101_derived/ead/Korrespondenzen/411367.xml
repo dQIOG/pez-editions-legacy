@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 64</unitid>
       <unittitle>Briefabschrift: BP an Grass</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/411367.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="164/411367.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="164/411368.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="164/411369.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="164/411370.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="164/411371.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="164/411372.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="164/411373.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="164/411374.tif"/>
-      </daoset>
    </did>
 
 
@@ -47,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://viaf.org/viaf/246864594</part>
          <part localtype="identifier">http://d-nb.info/gnd/187099553</part>
          <part localtype="name">Grass</part>
@@ -70,17 +62,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2071959-0" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bursfelder Kongregation</part>
          <part>Corvey</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/415</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2071959-0</part>
+         <part localtype="identifier">http://viaf.org/viaf/136705567</part>
+         <part localtype="identifier">http://www.geonames.org/10942877/imperial-abbey-of-corvey.html</part>
       </corpname>
    </controlaccess>
 
@@ -97,10 +97,7 @@
       <head>Beschreibung</head>
       <p>Briefabschrift BP an Grass (1710-12-17) aus Staatsarchiv Münster, Msc. VII-5212: Verschiedene Korrespondenzen, 1589-1797 (Vorlage heute verschollen). Vgl. Briefabschriften mit ähnlichem Inhalt in Karton 7 Patres 9, Fasz. 2, Nr. 63, 65.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Grass: Hermann-Josef SCHMALOR, Die Bibliothek der ehemaligen Reichsabtei Corvey. Westfälische Zeitschrift. Zeitschrift für vaterländische Geschichte und Altertumskunde 147 (1997) 251–269. Zu Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</p>
-   </bibliography>
+
 
 
 

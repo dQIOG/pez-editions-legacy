@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 21</unitid>
       <unittitle>Handschriftennotizen aus einem "Codex epistolaris"</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/418975.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="337/418975.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="337/418976.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="337/418977.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="337/418978.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
@@ -57,11 +53,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -73,10 +73,14 @@
          <part>Säkularklerus</part>
          <part>Passau - Bistum</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2005841-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Niederaltaich</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3308</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2005841-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/127140314</part>
+         <part localtype="identifier">http://www.geonames.org/2863667/niederalteich.html</part>
       </corpname>
    </controlaccess>
 
@@ -85,10 +89,7 @@
       <head>Beschreibung</head>
       <p>Handschriftennotizen aus einem "Codex epistolaris", einer Sammlung von Briefen, welche die Korrespondenz zwischen dem Erzbischof von Salzburg, dem Bischof von Passau, den Herzögen von Österreich und Bayern sowie den Äbten von Niederaltaich abbilden.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855).</p>
-   </bibliography>
+
 
 
 

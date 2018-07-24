@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia22">Kt. 85 Varia 22</container>
+      <container localtype="file" containerid="melk_Kt85Varia22_fz2">Faszikel 2</container>
+      <unitid>Nr. 05</unitid>
       <unittitle>Abschrift: Ratramnus von Corbie, "Contra Graecorum ecclesiam"</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/422763.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="470/422763.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="470/422764.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name"/>
          <part localtype="vorname">Ratram von Corbie</part>
       </persname>
@@ -59,11 +57,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -72,10 +74,7 @@
       <head>Beschreibung</head>
       <p>Abschrift von Ratram, "Contra Graecorum ecclesiam", Hand BP. Am Ende unvollständig.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Ratramnus von Corbie: Ludwig HÖDL, Ratramnus von Corbie, in: Lexikon des Mittelalters, 7 (München 1995) col. 462–463. Edition: Jaques-Paul MIGNE, Patrologiae Cursus completus, Series latina (221 Bde., Paris 1844–1855; hier Bd. 121). </p>
-   </bibliography>
+
 
 
 

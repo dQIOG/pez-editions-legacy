@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz1">Faszikel 1</container>
+      <unitid>Nr. 41</unitid>
       <unittitle>Handschriftennotizen, Exzerpte BPs zur Bibliotheca Benedictina aus Thuillier, "Collectaneen"</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/424735.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1" href="542/424735.tif"/>
-         <dao daotype="derived" coverage="whole" label="2" href="542/424736.tif"/>
-         <dao daotype="derived" coverage="whole" label="3" href="542/424737.tif"/>
-         <dao daotype="derived" coverage="whole" label="4" href="542/424738.tif"/>
-         <dao daotype="derived" coverage="whole" label="5" href="542/424739.tif"/>
-         <dao daotype="derived" coverage="whole" label="6" href="542/424740.tif"/>
-         <dao daotype="derived" coverage="whole" label="7" href="542/424741.tif"/>
-         <dao daotype="derived" coverage="whole" label="8" href="542/424742.tif"/>
-      </daoset>
    </did>
 
 
@@ -50,15 +42,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Thuillier</part>
          <part localtype="vorname">Antoine-Vincent</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Massuet</part>
          <part localtype="vorname">René</part>
       </persname>
@@ -75,11 +67,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -101,10 +97,7 @@
       <head>Beschreibung</head>
       <p>Handschriftennotizen BPs zu französischen und belgischen, klösterlichen (Benediktiner, Zisterzienser) Bibliotheken, zusammengestellt und exzerpiert aus den von Antoine-Vincent Thuillier angelegten "Collectaneen" für eine "Bibliotheca Benedictina". Diese literaturgeschichtlichen Arbeiten Thuilliers stehen in Zusammenhang mit den Arbeiten Massuets, die dieser in einem Brief an BP (1712-11-10) erwähnt. Am Ende wahrscheinlich unvollständig. Möglicherweise in Verbindung mit BPs Paris-Aufenthalt 1728.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Maurinern: Yves CHAUSSY, Matricula Monachorum Professorum Congregationis S. Mauri in Gallia Ordinis Sancti Patris Benedicti (Bibliothèque d’histoire et d’archéologie chrétiennes, Paris 1959); Jean-Baptiste VANEL, Les Bénédictins de Saint-Maur à Saint-Germain-des-Prés 1630–1792. Nécrologe des religieux de la Congrégation de Saint-Maur décédés à l’Abbaye de Saint-Germain-des-Prés (Paris 1896). Zu Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</p>
-   </bibliography>
+
 
 
 

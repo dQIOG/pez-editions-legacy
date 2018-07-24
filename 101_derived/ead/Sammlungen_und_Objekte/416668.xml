@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz8">Faszikel 8</container>
+      <unitid>Nr. 04</unitid>
       <unittitle>Schriftstellerkatalog von Brauweiler</unittitle>
-      <unitdate>vor 1756</unitdate>
       <didnote localtype="datenote">Groten stirbt 1756.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/416668.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="265/416668.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="265/416669.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="265/416670.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="265/416671.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="265/416672.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="265/416673.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="265/416674.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="265/416675.tif"/>
-      </daoset>
    </did>
 
 
@@ -47,53 +39,53 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">http://viaf.org/viaf/200209665</part>
          <part localtype="identifier">http://d-nb.info/gnd/172107407</part>
          <part localtype="identifier">http://personendatenbank.germania-sacra.de/index/gsn/039-01470-001</part>
          <part localtype="name">Groten</part>
          <part localtype="vorname">Beda</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Konrad von Brauweiler</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Artopäus</part>
          <part localtype="vorname">Heribert</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Münch (Munch)</part>
          <part localtype="vorname">Johann Heinrich</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Schögens</part>
          <part localtype="vorname">Nicolaus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Keister</part>
          <part localtype="vorname">Petrus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Breuer</part>
          <part localtype="vorname">Philipp</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://viaf.org/viaf/200228997 / http://viaf.org/viaf/249201500</part>
          <part localtype="identifier">http://d-nb.info/gnd/172890462 /   http://d-nb.info/gnd/174157487</part>
          <part localtype="identifier">http://personendatenbank.germania-sacra.de/index/gsn/044-01137-001</part>
          <part localtype="name">Franken</part>
          <part localtype="vorname">Matthias</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Piliopeus</part>
          <part localtype="vorname">Gerhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Gulichius</part>
          <part localtype="vorname">Leonardus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Volmar</part>
          <part localtype="vorname">Caspar</part>
       </persname>
@@ -107,11 +99,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/16278665-7" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bursfelder Kongregation</part>
          <part>Brauweiler</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/1062</part>
+         <part localtype="identifier">http://d-nb.info/gnd/16278665-7</part>
+         <part localtype="identifier">http://viaf.org/viaf/261980982</part>
+         <part localtype="identifier">http://www.geonames.org/2944981/brauweiler.html</part>
       </corpname>
    </controlaccess>
 
@@ -123,10 +119,7 @@
       <head>Beschreibung</head>
       <p>Schriftstellerkatalog "Catalogus scriptorum monasterii Brauweilerensis" von Groten. Wohl Beilage zu einem noch nicht zugeordneten Brief, den Groten an BP (?) nach Melk versandt hat. Vgl. spätere Abschrift in Karton 7 Patres 11, Fasz. 1, Nr. 22.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Brauweiler: Erich WISPLINGHOFF, Die Benediktinerabtei Brauweiler (Germania Sacra N.F. 29: Die Bistümer der  Kirchenprovinz Köln: Das Erzbistum Köln, Berlin 1992); Erich WISPLINGHOFF, Brauweiler, in: Germania Benedictina, 8: Die Benediktinerklöster in Nordrhein-Westfalen, hg. von Rhaban HAACKE (St. Ottilien 1980) 216–231. Der Brief scheint nicht auf bei: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 

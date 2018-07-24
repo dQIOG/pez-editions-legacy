@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia22">Kt. 85 Varia 22</container>
+      <container localtype="file" containerid="melk_Kt85Varia22_fz2">Faszikel 2</container>
+      <unitid>Nr. 07</unitid>
       <unittitle>Bio-bibliographische Notizen zu Hetto von Basel, Eigil von Fulda und Walahfrid Strabo</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/422769.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="472/422769.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="472/422770.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,19 +39,19 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hetto von Basel</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Walahfrid Strabo</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Eigil von Fulda</part>
       </persname>
@@ -75,22 +73,34 @@
          <part>Säkularklerus</part>
          <part>Basel - Bistum</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4193476-3" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Reichenau</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20359</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4193476-3</part>
+         <part localtype="identifier">http://viaf.org/viaf/244595494</part>
+         <part localtype="identifier">http://www.geonames.org/3209418/reichenau.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4074038-9" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bursfelder Kongregation</part>
          <part>Fulda</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/30121</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4074038-9</part>
+         <part localtype="identifier">http://viaf.org/viaf/237710601</part>
+         <part localtype="identifier">http://www.geonames.org/2923822/fulda.html</part>
       </corpname>
    </controlaccess>
 
@@ -99,10 +109,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen zu den Äbten Hetto von Basel, Eigil von Fulda und Walahfrid Strabo. Hand BP? Am Beginn und am Ende unvollständig.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Hetto von Basel und Strabo: Ursula BEGRICH, Reichenau, in: Helvetia Sacra, Abt. III: Die Orden mit Benediktinerregel, 1: Frühe Klöster, die Benediktiner und Benediktinerinnen in der Schweiz, hg. von Elsanne GILOMEN-SCHENKEL, Teil 2 (Bern 1986) 1059–1100; Franz QUARTHAL–Paul Berthold RUPP–Klaus SCHREINER–Georg WIELAND–Friedrich WIELANDT, Reichenau, in: Germania Benedictina, 5: Die Benediktinerklöster in Baden-Württemberg, hg. von Franz QUARTHAL–Hansmartin DECKER-HAUFF–Klaus SCHREINER (Augsburg 1975) 503–548. Zu Eigil von Fulda: Josef LEINWEBER, Die Fuldaer Äbte und Bischöfe (Frankfurt am Main 1989).</p>
-   </bibliography>
+
 
 
 

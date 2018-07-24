@@ -13,11 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 17</unitid>
       <unittitle>Brief: Scherrer an Katschthaler</unittitle>
-      <unitdate>1889-04-01</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/407573.xml"/>
-      <dao daotype="derived" coverage="whole" label="1r" href="34/407573.tif"/>
    </did>
 
 
@@ -38,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Scherrer</part>
          <part localtype="vorname">Gustav</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Katschthaler</part>
          <part localtype="vorname">Eduard Ernst</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Müller</part>
          <part localtype="vorname">Moritz</part>
       </persname>
@@ -63,17 +64,24 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1088891446" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Helvetische Kongregation</part>
          <part>St. Gallen</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1088891446</part>
+         <part localtype="identifier">http://viaf.org/viaf/266765811</part>
+         <part localtype="identifier">http://www.geonames.org/2658822/sankt-gallen.html</part>
       </corpname>
    </controlaccess>
 
@@ -82,10 +90,7 @@
       <head>Beschreibung</head>
       <p>Brief Scherrer (Archivar in St. Gallen) an Katschthaler. Teilt eine Abschrift des einen in St. Gallen vorhandenen Pez-Briefes mit und gibt Auskünfte über Moritz Müller.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Katschthaler: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1889); Directorium officii divini Benedictino Mellicense (Melk 1922–1947); 900 Jahre Benediktiner in Melk. Jubiläumsausstellung 1989, Stift Melk, hg. von Ernst BRUCKMÜLLER–Burkhard ELLEGAST–Erwin ROTTER (Melk 1989). Zu Katschthalers Befassung mit der Thematik: Eduard Ernst KATSCHTHALER, Über Bernhard Pez und dessen Briefnachlass. Jahresbericht des k.k. Obergymnasiums zu Melk 39 (1889) 3–106. Zu Müller: Thomas STOCKINGER, "Fidelis tametsi inutilis servus". P. Moritz Müller OSB (St. Gallen) in seiner historisch-literarischen und politisch-diplomatischen Tätigkeit im Spiegel seiner Korrespondenz 1709–1714. SMGB 118 (2007); Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</p>
-   </bibliography>
+
 
 
 

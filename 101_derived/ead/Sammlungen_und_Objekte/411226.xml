@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 54</unitid>
       <unittitle>Notizen: "Übersicht des Itinerarium Peziorum"</unittitle>
-      <unitdate>um 1900</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung um 1900.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/411226.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="154/411226.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="154/411227.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="154/411228.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="154/411229.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Katschthaler</part>
          <part localtype="vorname">Eduard Ernst</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
@@ -68,157 +64,251 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2078067-9" source="GND">
          <part>geistliche</part>
          <part>Augustiner-Chorherren</part>
          <part>Klosterneuburg</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2078067-9</part>
+         <part localtype="identifier">http://viaf.org/viaf/158948225</part>
+         <part localtype="identifier">http://www.geonames.org/2773913/klosterneuburg.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/16323774-8" source="GND">
          <part>geistliche</part>
          <part>Kartäuser</part>
          <part>Mauerbach</part>
+         <part localtype="identifier">http://d-nb.info/gnd/16323774-8</part>
+         <part localtype="identifier">http://viaf.org/viaf/238861104</part>
+         <part localtype="identifier">http://www.geonames.org/2771785/mauerbach.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4800063-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Mariazell in Österreich</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4800063-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/236583747</part>
+         <part localtype="identifier">http://www.geonames.org/2774084/kleinmariazell.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
          <part>Augustiner-Chorherren</part>
          <part>St. Pölten</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/92584</part>
+         <part localtype="identifier">http://www.geonames.org/2766429/sankt-poelten.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2084243-0" source="GND">
          <part>geistliche</part>
          <part>Augustiner-Chorherren</part>
          <part>Herzogenburg</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2084243-0</part>
+         <part localtype="identifier">http://viaf.org/viaf/240758791</part>
+         <part localtype="identifier">http://www.geonames.org/2776470/herzogenburg.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/5000463-3" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Altenburg</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/4031</part>
+         <part localtype="identifier">http://d-nb.info/gnd/5000463-3</part>
+         <part localtype="identifier">http://viaf.org/viaf/128335745</part>
+         <part localtype="identifier">http://www.geonames.org/9782091/stift-altenburg.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/19112-7" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Seitenstetten</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/4040</part>
+         <part localtype="identifier">http://d-nb.info/gnd/19112-7</part>
+         <part localtype="identifier">http://viaf.org/viaf/248873380</part>
+         <part localtype="identifier">http://www.geonames.org/2765196/seitenstetten-markt.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
          <part>Säkularklerus</part>
          <part>Spital am Pyhrn - Kollegiatstift</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4135190-3" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Garsten</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3104</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4135190-3</part>
+         <part localtype="identifier">http://viaf.org/viaf/124723050</part>
+         <part localtype="identifier">http://www.geonames.org/2778843/garsten.html</part>
+         <part localtype="identifier">http://www.geonames.org/6698715/kirche-ehem-stiftskirche-barockstil.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4135713-9" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Gleink</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/4033</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4135713-9</part>
+         <part localtype="identifier">http://viaf.org/viaf/243487008</part>
+         <part localtype="identifier">http://www.geonames.org/2778486/gleink.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2018820-1" source="GND">
          <part>geistliche</part>
          <part>Augustiner-Chorherren</part>
          <part>St. Florian</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/5000</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2018820-1</part>
+         <part localtype="identifier">http://viaf.org/viaf/133171207</part>
+         <part localtype="identifier">http://www.geonames.org/2771867/sankt-florian.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2103432-1" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Göttweig</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/4035</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2103432-1</part>
+         <part localtype="identifier">http://viaf.org/viaf/245287151</part>
+         <part localtype="identifier">http://www.geonames.org/2778228/stift-goettweig.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/7681118-9" source="GND">
          <part>geistliche</part>
          <part>Zisterzienser</part>
          <part>Baumgartenberg</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/90914</part>
+         <part localtype="identifier">http://d-nb.info/gnd/7681118-9</part>
+         <part localtype="identifier">http://viaf.org/viaf/237496956</part>
+         <part localtype="identifier">http://www.geonames.org/2781940/baumgartenberg.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1048727-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Lambach</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3196</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1048727-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/143705101</part>
+         <part localtype="identifier">http://www.geonames.org/8410618/stift-lambach.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/16137840-7" source="GND">
          <part>geistliche</part>
          <part>Augustiner-Chorherren</part>
          <part>Pernegg</part>
+         <part localtype="identifier">http://d-nb.info/gnd/16137840-7</part>
+         <part localtype="identifier">http://viaf.org/viaf/237925052</part>
+         <part localtype="identifier">http://www.geonames.org/2769078/pernegg.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/16117338-X" source="GND">
          <part>geistliche</part>
          <part>Zisterzienser</part>
          <part>Lilienfeld</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/92568</part>
+         <part localtype="identifier">http://d-nb.info/gnd/16117338-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/312850466</part>
+         <part localtype="identifier">http://www.geonames.org/2772470/lilienfeld.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/10092270-3" source="GND">
          <part>geistliche</part>
          <part>Zisterzienser</part>
          <part>Zwettl</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/92566</part>
+         <part localtype="identifier">http://d-nb.info/gnd/10092270-3</part>
+         <part localtype="identifier">http://viaf.org/viaf/151080140</part>
+         <part localtype="identifier">http://www.geonames.org/2760415/zwettl-stift.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/809501-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Tegernsee</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3551</part>
+         <part localtype="identifier">http://d-nb.info/gnd/809501-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/139580416</part>
+         <part localtype="identifier">http://www.geonames.org/2823679/tegernsee.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2115958-0" source="GND">
          <part>geistliche</part>
          <part>Kartäuser</part>
          <part>Aggsbach</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2115958-0</part>
+         <part localtype="identifier">http://viaf.org/viaf/173198941</part>
+         <part localtype="identifier">http://www.geonames.org/2782955/aggsbach.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/16189197-4" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Weihenstephan</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60151</part>
+         <part localtype="identifier">http://d-nb.info/gnd/16189197-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/191597759</part>
+         <part localtype="identifier">http://www.geonames.org/2812833/weihenstephan.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
          <part>Säkularklerus</part>
          <part>Freising - Bistum</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2003571-8" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Oberschwäbische Kongregation</part>
          <part>Ottobeuren</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60305</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2003571-8</part>
+         <part localtype="identifier">http://viaf.org/viaf/156630989</part>
+         <part localtype="identifier">http://www.geonames.org/8030045/ottobeuren-abbey.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Füssen - St. Mang</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4194769-1" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Wessobrunn</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/1069</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4194769-1</part>
+         <part localtype="identifier">http://d-nb.info/gnd/16189196-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/158304681</part>
+         <part localtype="identifier">http://viaf.org/viaf/199147976</part>
+         <part localtype="identifier">http://www.geonames.org/2810581/wessobrunn.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1051616-5" source="GND">
          <part>geistliche</part>
          <part>Prämonstratenser</part>
          <part>Windberg</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60418</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1051616-5</part>
+         <part localtype="identifier">http://viaf.org/viaf/157586988</part>
+         <part localtype="identifier">http://www.geonames.org/2808279/windberg.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1232399-8" source="GND">
          <part>geistliche</part>
          <part>Zisterzienser</part>
          <part>Aldersbach</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60001</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1232399-8</part>
+         <part localtype="identifier">http://viaf.org/viaf/145063212</part>
+         <part localtype="identifier">http://www.geonames.org/2958577/aldersbach.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1029344493" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Oberaltaich</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1029344493</part>
+         <part localtype="identifier">http://viaf.org/viaf/293715405</part>
+         <part localtype="identifier">http://www.geonames.org/2947026/bogen.html</part>
       </corpname>
       <corpname>
          <part>weltliche</part>
@@ -235,27 +325,45 @@
          <part>Säkularklerus</part>
          <part>Salzburg - Erzbistum</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4998318-0" source="GND">
          <part>geistliche</part>
          <part>Augustiner-Chorherren</part>
          <part>Beyharting</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60057</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4998318-0</part>
+         <part localtype="identifier">http://viaf.org/viaf/242321307</part>
+         <part localtype="identifier">http://www.geonames.org/2820775/tuntenhausen.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4278403-7" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Rott am Inn</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60355</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4278403-7</part>
+         <part localtype="identifier">http://viaf.org/viaf/293128079</part>
+         <part localtype="identifier">http://www.geonames.org/2843772/rott-am-inn.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4314806-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Vornbach</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60408</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4314806-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/236509601</part>
+         <part localtype="identifier">http://www.geonames.org/2816057/vornbach.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4310732-1" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Andechs</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/2091</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4310732-1</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1089050224</part>
+         <part localtype="identifier">http://viaf.org/viaf/233645846</part>
+         <part localtype="identifier">http://viaf.org/viaf/939145857951823021263</part>
+         <part localtype="identifier">http://www.geonames.org/2956253/andechs.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -273,80 +381,131 @@
          <part>Säkularklerus</part>
          <part>Augsburg - Domkapitel</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4273466-6" source="GND">
          <part>geistliche</part>
          <part>Augustiner-Chorherren</part>
          <part>Polling</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60319</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4273466-6</part>
+         <part localtype="identifier">http://viaf.org/viaf/244198719</part>
+         <part localtype="identifier">http://www.geonames.org/2852841/polling.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/126116-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Salzburgische Kongregation</part>
          <part>Admont</part>
+         <part localtype="identifier">http://d-nb.info/gnd/126116-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/133125683</part>
+         <part localtype="identifier">http://www.geonames.org/2782979/admont.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>St. Lambrecht</part>
+         <part localtype="identifier">http://viaf.org/viaf/153857503</part>
+         <part localtype="identifier">http://www.geonames.org/2766615/sankt-lambrecht.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4249098-4" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Attel</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60014</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4249098-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/237344271</part>
+         <part localtype="identifier">http://www.geonames.org/2954955/attel.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4329037-1" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Salzburgische Kongregation</part>
          <part>Seeon</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60378</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4329037-1</part>
+         <part localtype="identifier">http://viaf.org/viaf/156094535</part>
+         <part localtype="identifier">http://www.geonames.org/2887415/klosterseeon.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4212238-7" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Benediktbeuern</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/1061</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4212238-7</part>
+         <part localtype="identifier">http://viaf.org/viaf/28145424487686830934</part>
+         <part localtype="identifier">http://www.geonames.org/2951104/benediktbeuern.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4545293-3" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Thierhaupten</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60396</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4545293-3</part>
+         <part localtype="identifier">http://viaf.org/viaf/247828773</part>
+         <part localtype="identifier">http://www.geonames.org/2822749/thierhaupten.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2052902-8" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Scheyern</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60363</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2052902-8</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4208047-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/151936876</part>
+         <part localtype="identifier">http://viaf.org/viaf/145548928</part>
+         <part localtype="identifier">http://www.geonames.org/2839527/scheyern.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4129308-3" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Irsee</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60172</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4129308-3</part>
+         <part localtype="identifier">http://viaf.org/viaf/240855879</part>
+         <part localtype="identifier">http://www.geonames.org/2895744/irsee.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/5024707-4" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Oberschwäbische Kongregation</part>
          <part>Zwiefalten</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20399</part>
+         <part localtype="identifier">http://d-nb.info/gnd/5024707-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/146121339</part>
+         <part localtype="identifier">http://www.geonames.org/2803545/zwiefalten.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4402803-9" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Mondsee</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/4037</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4402803-9</part>
+         <part localtype="identifier">http://viaf.org/viaf/262264489</part>
+         <part localtype="identifier">http://www.geonames.org/2771278/mondsee.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1012970-4" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Metten</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3269</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1012970-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/124810424</part>
+         <part localtype="identifier">http://www.geonames.org/2871573/metten.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2046531-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Kremsmünster</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/4025</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2046531-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/312583113</part>
+         <part localtype="identifier">http://www.geonames.org/11548388/kloster-kremsmuenster.html</part>
       </corpname>
    </controlaccess>
 
@@ -355,10 +514,7 @@
       <head>Beschreibung</head>
       <p>Übersicht über den Inhalt des "Itinerarium Peziorum" (vgl. StiB Melk, Cod. 1850) von Katschthaler, zweispaltig: in der linken Spalte Folien des Itinerars und rechts die von den Brüdern besuchten Bibliotheken und Klöster. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Cod. 1850: Christine GLASSNER, Neuzeitliche Handschriften aus dem Nachlass der Brüder Bernhard und Hieronymus Pez in der Bibliothek des Benediktinerstiftes Melk (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 372 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe IV 7, Wien 2008). Zu Katschthaler: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1889); Directorium officii divini Benedictino Mellicense (Melk 1922–1947); 900 Jahre Benediktiner in Melk. Jubiläumsausstellung 1989, Stift Melk, hg. von Ernst BRUCKMÜLLER–Burkhard ELLEGAST–Erwin ROTTER (Melk 1989).</p>
-   </bibliography>
+
 
 
 

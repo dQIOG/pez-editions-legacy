@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 52</unitid>
       <unittitle>Briefauszüge: Lyll und Guetrather an BP</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/419779.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="368/419779.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="368/419780.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="368/419781.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="368/419782.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,19 +39,19 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Lyll</part>
          <part localtype="vorname">Benedikt</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00483403</part>
          <part localtype="identifier">http://viaf.org/viaf/37861025</part>
          <part localtype="identifier">http://d-nb.info/gnd/124806821</part>
@@ -75,22 +71,34 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4540159-7" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Mönchsdeggingen</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60241</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4540159-7</part>
+         <part localtype="identifier">http://viaf.org/viaf/125945300</part>
+         <part localtype="identifier">http://www.geonames.org/2869847/moenchsdeggingen.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/809501-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Tegernsee</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3551</part>
+         <part localtype="identifier">http://d-nb.info/gnd/809501-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/139580416</part>
+         <part localtype="identifier">http://www.geonames.org/2823679/tegernsee.html</part>
       </corpname>
    </controlaccess>
 
@@ -107,10 +115,7 @@
       <head>Beschreibung</head>
       <p>Auszüge aus den Briefen Lyll und Guetrather an BP, Hand Mayer.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Lyll: Paulus WEISSENBERGER, Michael Dobler, Abt von Mönchsdeggingen im Ries 1705–1777. SMGB 75 (1965) 360–469. Zu Guetrather: Pirmin LINDNER, Familia S. Quirini in Tegernsee. Die Äbte und Mönche der Benediktiner-Abtei Tegernsee von den ältesten Zeiten bis zu ihrem Aussterben (1861) und ihr literarischer Nachlass. Oberbayerisches Archiv für vaterländische Geschichte 50 (1897) 18–130; 50 Ergh. (1898) 1–318. Zu Briefen: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 

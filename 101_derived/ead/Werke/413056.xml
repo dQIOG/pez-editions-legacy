@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 24</unitid>
       <unittitle>Bio-bibliographische Notizen zu Constantinus Africanus und Tetradius</unittitle>
-      <unitdate>vor 1735</unitdate>
       <didnote localtype="datenote">BP ist 1735 gestorben.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/413056.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="221/413056.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="221/413057.tif"/>
-      </daoset>
    </did>
 
 
@@ -44,15 +42,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Constantinus Africanus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Tetradius von Besançon</part>
       </persname>
@@ -72,22 +70,29 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1087296986" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Cassinenser Kongregation</part>
          <part>Montecassino</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1087296986</part>
+         <part localtype="identifier">http://viaf.org/viaf/133865391</part>
+         <part localtype="identifier">http://www.geonames.org/3173005/abbazia-di-montecassino.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
          <part>Säkularklerus</part>
          <part>Besançon - Erzbistum</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -96,10 +101,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen BPs zu Constantinus Africanus aus Petrus CASTELLANUS, Vitae illustrium medicorum (Antwerpen 1617) und Tetradius aus Louis JACOB, De claris scriptoribus Cabilonensibus libri III (Paris 1652).  </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Constantinus Africanus: Heinrich SCHIPPERGES, Constantinus Africanus, in: Lexikon des Mittelalters, 3 (München–Zürich 1986) col. 171. Zu Tetradius: August POTTHAST, Wegweiser durch die Geschichtswerke des europäischen Mittelalters von 375–1500 (Bibliotheca historica medii aevi, Supplement, Berlin 1868).</p>
-   </bibliography>
+
 
 
 

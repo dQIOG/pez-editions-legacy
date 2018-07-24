@@ -13,24 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 76</unitid>
       <unittitle>Handschriften- und Bibliotheksnotizen zu Lilienfeld</unittitle>
-      <unitdate>nach 1735</unitdate>
       <didnote localtype="datenote">Nach Tod BP (1735), da Zusatz "piae memoriae".</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/410526.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="94/410526.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="94/410527.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="94/410528.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="94/410529.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="94/410530.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="94/410531.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="94/410532.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="94/410533.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="94/410534.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="94/410535.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="94/410536.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="94/410537.tif"/>
-      </daoset>
    </did>
 
 
@@ -54,19 +42,19 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Haagn</part>
          <part localtype="vorname">Wilhelm</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Schmid</part>
          <part localtype="vorname">Konrad</part>
       </persname>
@@ -80,16 +68,24 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/16117338-X" source="GND">
          <part>geistliche</part>
          <part>Zisterzienser</part>
          <part>Lilienfeld</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/92568</part>
+         <part localtype="identifier">http://d-nb.info/gnd/16117338-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/312850466</part>
+         <part localtype="identifier">http://www.geonames.org/2772470/lilienfeld.html</part>
       </corpname>
    </controlaccess>
 
@@ -98,10 +94,7 @@
       <head>Beschreibung</head>
       <p>Notizen "Adversaria litteraria admodum reverendorum religiosorum patrum Bernardi piae memoriae et Hieronymi Peziorum professorum Mellicensium, quae in Austriae cum Superioris tum Inferioris monasteriorum bibliothecis collegerunt. Ex bibliotheca Campililiensi". Bericht über Handschriften und (gegen Ende) gedruckte Benediktinerwerke, die in Lilienfeld vorhanden sind. Mit Anmerkungen für HP. Nicht von BP oder HP, möglicherweise  Schmid oder Haagn (beide Lilienfelder Professen des 18. Jh. und Pez-Korrespondenten).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Schmid, Haagn: Eugen MÜLLER, Profeßbuch des Zisterzienserstiftes Lilienfeld (SMGB Erg.bd. 38, St. Ottilien 1996). Zu Lilienfelder Handschriften: Conrad SCHIMEK, Verzeichniss der Handschriften des Stiftes Lilienfeld, in: Die Handschriften-Verzeichnisse der Cistercienser-Stifte 1 (Xenia Bernardina II, Wien 1891) 481–561.</p>
-   </bibliography>
+
 
 
 

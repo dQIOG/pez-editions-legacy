@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz8">Faszikel 8</container>
+      <unitid>Nr. 14</unitid>
       <unittitle>Bio-bibliographische Notiz zu Périon</unittitle>
-      <unitdate/>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/416767.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="275/416767.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="275/416768.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Périon</part>
          <part localtype="vorname">Joachim</part>
       </persname>
@@ -55,11 +53,16 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/7520756-4" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Maurinerkongregation</part>
          <part>Cormery</part>
+         <part localtype="identifier">http://d-nb.info/gnd/7520756-4</part>
+         <part localtype="identifier">http://d-nb.info/gnd/5336955-5</part>
+         <part localtype="identifier">http://viaf.org/viaf/249427541</part>
+         <part localtype="identifier">http://viaf.org/viaf/148655655</part>
+         <part localtype="identifier">http://www.geonames.org/3023637/cormery.html</part>
       </corpname>
    </controlaccess>
 
@@ -68,10 +71,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notiz zu Périon, zu seiner Person vgl. auch Notizen in Karton 85 Varia 25, Fasz. 1, Nr. 9 und eine eigenhändig von Massuet verfasste Notiz ebd., Nr. 13. Ordnungsvermerk: "ad Nr. 202".</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Périon: Yves CHAUSSY, Matricula Monachorum Professorum Congregationis S. Mauri in Gallia Ordinis Sancti Patris Benedicti (Bibliothèque d’histoire et d’archéologie chrétiennes, Paris 1959).</p>
-   </bibliography>
+
 
 
 

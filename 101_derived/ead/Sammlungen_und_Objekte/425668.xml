@@ -13,36 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz2">Faszikel 2</container>
+      <unitid>Nr. 19</unitid>
       <unittitle>Bio-bibliographische Notizen zu Trithemius</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/425668.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="577/425668.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="577/425686.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="577/425687.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="577/425688.tif"/>
-         <dao daotype="derived" coverage="whole" label="11v" href="577/425689.tif"/>
-         <dao daotype="derived" coverage="whole" label="12r" href="577/425690.tif"/>
-         <dao daotype="derived" coverage="whole" label="12v" href="577/425691.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="577/425669.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="577/425670.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="577/425671.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="577/425672.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="577/425673.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="577/425674.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="577/425675.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="577/425676.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="577/425677.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="577/425678.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="577/425679.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="577/425680.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="577/425681.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="577/425682.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="577/425683.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="577/425684.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="577/425685.tif"/>
-      </daoset>
    </did>
 
 
@@ -63,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Trithemius</part>
          <part localtype="vorname">Johannes</part>
       </persname>
@@ -77,11 +53,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4778875-6" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bursfelder Kongregation</part>
          <part>Sponheim</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/40277</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4778875-6</part>
+         <part localtype="identifier">http://viaf.org/viaf/245857634</part>
+         <part localtype="identifier">http://www.geonames.org/2830167/sponheim.html</part>
       </corpname>
    </controlaccess>
 
@@ -90,10 +70,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen zu Trithemius, Fragment. Selbe Hand wie Karton 85 Varia 23, Fasz. 2, Nr. 5, 11, 17, 24, 26.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Trithemius: Klaus ARNOLD, Johannes Trithemius (1462–1516) (Quellen und Forschungen zur Geschichte des Bistums und Hochstifts Würzburg 23, Würzburg 1991); Ivo FISCHER, Der Nachlaß des Abtes Johannes Trithemius von St. Jakob in Würzburg. Archiv des Historischen Vereins von Unterfranken und Aschaffenburg 67 (1928) 41–82.</p>
-   </bibliography>
+
 
 
 

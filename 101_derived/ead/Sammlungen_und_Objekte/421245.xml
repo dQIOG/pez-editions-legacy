@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz3">Faszikel 3</container>
+      <unitid>Nr. 20</unitid>
       <unittitle>Handschriftennotizen aus dem Kloster Beaulieu-sur-Dordogne (Bellilocense super Dordoniam) und Montauban (Montalbanensis)</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/421245.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="432/421245.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="432/421246.tif"/>
-      </daoset>
    </did>
 
 
@@ -49,11 +47,14 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/7556678-3" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Französische Klöster</part>
          <part>Beaulieu-sur-Dordogne</part>
+         <part localtype="identifier">http://d-nb.info/gnd/7556678-3</part>
+         <part localtype="identifier">http://viaf.org/viaf/315526108</part>
+         <part localtype="identifier">http://www.geonames.org/3034241/beaulieu-sur-dordogne.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -67,10 +68,7 @@
       <head>Beschreibung</head>
       <p>Handschriftennotizen zu den Benediktinerklöstern Beaulieu-sur-Dordogne und Montauban. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Beaulieu-sur-Dordogne: Frédéric LE HECH, Histoire de Beaulieu-sur-Dordogne et de son pays (Limoges 2010). Zu Handschriften Montauban: Camille DAUX, Histoire de l’eglise de Montauban (2 Bde., Paris 1881–1882); Catalogue général des manuscrits des bibliothèques publiques de France. Départements, 31 (Paris 1898).</p>
-   </bibliography>
+
 
 
 

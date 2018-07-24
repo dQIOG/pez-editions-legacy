@@ -13,28 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz1">Faszikel 1</container>
+      <unitid>Nr. 12</unitid>
       <unittitle>Bibliotheks- und Werkskatalog benediktinischer Schriftsteller in der Bibliothek von Reichenau</unittitle>
-      <unitdate>1716</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/424162.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="513/424162.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="513/424163.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="513/424164.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="513/424165.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="513/424166.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="513/424167.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="513/424168.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="513/424169.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="513/424170.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="513/424171.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="513/424172.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="513/424173.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="513/424174.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="513/424175.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="513/424176.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="513/424177.tif"/>
-      </daoset>
    </did>
 
 
@@ -58,15 +42,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Hueber</part>
          <part localtype="vorname">Apronian</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Wetter</part>
          <part localtype="vorname">Wolfgang</part>
       </persname>
@@ -83,22 +67,34 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4193476-3" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Reichenau</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20359</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4193476-3</part>
+         <part localtype="identifier">http://viaf.org/viaf/244595494</part>
+         <part localtype="identifier">http://www.geonames.org/3209418/reichenau.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1086282779" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Oberschwäbische Kongregation</part>
          <part>Mehrerau</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/92580</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1086282779</part>
+         <part localtype="identifier">http://viaf.org/viaf/867145857000822921033</part>
+         <part localtype="identifier">http://www.geonames.org/3333694/kloster-mehrerau.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -115,10 +111,7 @@
       <head>Beschreibung</head>
       <p>Bibliotheks- und Werkskatalog benediktinischer Schriftsteller aus der Reichenau, verfasst vom Reichenauer Prior Wolfgang Wetter. Auf fol. 8v folgender Eintrag (Hand Hueber), der von einem früheren Bibliothekskatalog berichtet: "In praesenti catalogo, quem a Pl. Rdo. D. P. priore Augiae Divitis accepi, solum assignatur formatum libri, reliquis circumstantiis brevitatis causa omissis, si quid tamen ex assignatis libris (quod vix credo) Mellizii [sic] inveniendi non forent, paratus est praefatus D. P. prior etiam addere cuiuscunque libri locum, tempusque editionis et nomen typographi. Catalogum librorum ab incolis Augiae Divitis olim consciptorum iam ante aliquos annos se Adm. Rdae. D. vestrae mississe testatur in litteris 24. Octobris ad me datis". Beilage zu Brief Hueber an BP (1716-12-04).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Reichenau: Franz QUARTHAL–Paul Berthold RUPP–Klaus SCHREINER–Georg WIELAND–Friedrich WIELANDT, Reichenau, in: Germania Benedictina, 5: Die Benediktinerklöster in Baden-Württemberg, hg. von Franz QUARTHAL–Hansmartin DECKER-HAUFF–Klaus SCHREINER (Augsburg 1975) 503–548. Zur Reichenauer Bibliothek bzw. zu Handschriften: Alfred HOLDER, Die Handschriften der großherzoglich Badischen Hof- und Landesbibliothek in Karlsruhe, 5: Die Reichenauer Handschriften 1. Die Pergamenthandschriften (Leipzig 1906); Alfred HOLDER–Karl PREISENDANZ, Die Handschriften der großherzoglich Badischen Hof- und Landesbibliothek in Karlsruhe, 7: Die Reichenauer Handschriften 3 (Leipzig–Berlin 1918); Paul LEHMANN, Die mittelalterliche Bibliothek, in: Die Kultur der Abtei Reichenau. Erinnerungsschrift zur zwölfhundertsten Wiederkehr des Gründungsjahres des Inselklosters 724–1924, hg. von Konrad BEYERLE (2 Bde., München 1925) 2 645–656.</p>
-   </bibliography>
+
 
 
 

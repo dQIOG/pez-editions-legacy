@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz3">Faszikel 3</container>
+      <unitid>Nr. 11</unitid>
       <unittitle>Briefabschrift: Noailles an NN</unittitle>
-      <unitdate>nach 1728</unitdate>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/421167.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="423/421167.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="423/421168.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="423/421169.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="423/421170.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Noailles</part>
          <part localtype="vorname">Louis-Antoine de</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Klemens XI.</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01321693 / 
 http://thesaurus.cerl.org/record/cnp00639522</part>
          <part localtype="identifier">http://viaf.org/viaf/34284476</part>
@@ -59,7 +55,7 @@ http://thesaurus.cerl.org/record/cnp00639522</part>
          <part localtype="name">Dorsanne</part>
          <part localtype="vorname">Antoine</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Benedikt XIII.</part>
       </persname>
@@ -98,11 +94,15 @@ http://thesaurus.cerl.org/record/cnp00639522</part>
          <part>weltliche</part>
          <part>Wien - Hof</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -111,10 +111,7 @@ http://thesaurus.cerl.org/record/cnp00639522</part>
       <head>Beschreibung</head>
       <p>Am Beginn unvollständige Abschrift eines Briefes von Kardinal Noailles (1728-10-13), in welchem dieser gegenüber Papst Benedikt XIII. erklärt, seinen Widerstand gegen die Bulle "Unigenitus", die von Papst Klemes XI. 1713 erlassen worden war, aufzugeben und die Bulle nun anzuerkennen. Anschließend (fol. 1v–2v) folgt eine Abschrift des päpstlichen Antwortschreibens (1728-08-21). Möglicherweise in Zusammenhang mit BPs Paris-Aufenthalt 1728.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zum Jansenismus und zur Bulle "Unigenitus": Dale VAN KLEY, The Jansenists and the Expulsion of the Jesuits from France 1757–1765 (New Haven–London 1975); Andreas SCHILL, Die Constitution Unigenitus, ihre Veranlassung und ihre Folgen. Ein Beitrag zur Geschichte des Jansenismus. Nach den Quellen dargestellt (Freiburg im Breisgau 1876).</p>
-   </bibliography>
+
 
 
 

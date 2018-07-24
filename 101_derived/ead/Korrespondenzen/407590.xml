@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 18</unitid>
       <unittitle>Notizen: "Verzeichnis der Pezbriefe, die in andern Orten im Original vorhanden"</unittitle>
-      <unitdate>um 1900</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/407590.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="35/407590.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="35/407591.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Katschthaler</part>
          <part localtype="vorname">Eduard Ernst</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
@@ -63,11 +61,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -76,10 +78,7 @@
       <head>Beschreibung</head>
       <p>"Verzeichnis der Pezbriefe, die in andern Orten im Original vorhanden" von Katschthaler.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Katschthaler: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1889); Directorium officii divini Benedictino Mellicense (Melk 1922–1947); 900 Jahre Benediktiner in Melk. Jubiläumsausstellung 1989, Stift Melk, hg. von Ernst BRUCKMÜLLER–Burkhard ELLEGAST–Erwin ROTTER (Melk 1989). Zu Katschthalers Befassung mit der Thematik: Eduard Ernst KATSCHTHALER, Über Bernhard Pez und dessen Briefnachlass. Jahresbericht des k.k. Obergymnasiums zu Melk 39 (1889) 3–106.</p>
-   </bibliography>
+
 
 
 

@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz1">Faszikel 1</container>
+      <unitid>Nr. 05</unitid>
       <unittitle>Abschrift aus Tschudi, "Spongia Benedictina iudicii duorum theologorum ad Sacram Caesaream Maiestatem super translatione restituendorum monasteriorum ab antiquis ordinibus ad Societatem Jesu"</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/424086.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="506/424086.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="506/424087.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="506/424088.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="506/424089.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Tschudi</part>
          <part localtype="vorname">Dominik</part>
       </persname>
@@ -57,11 +53,14 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/809504-8" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Helvetische Kongregation</part>
          <part>Muri</part>
+         <part localtype="identifier">http://d-nb.info/gnd/809504-8</part>
+         <part localtype="identifier">http://viaf.org/viaf/261850484</part>
+         <part localtype="identifier">http://www.geonames.org/2659531/muri.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -74,10 +73,7 @@
       <head>Beschreibung</head>
       <p>Abschrift der Vorrede eines Aufsatzes von Tschudi mit dem Titel: "Spongia Benedictina iudicii duorum theologorum ad Sacram Caesaream Maiestatem super translatione restituendorum monasteriorum ab antiquis ordinibus ad Societatem Jesu" (1630). Tschudi schreibt darin über den Streit zwischen Jesuiten und Benediktinern sowie die Überlassung der Benediktinerklöster an die Jesuiten. Der Aufsatz ist nie in den Druck gelangt.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Tschudi und seinem Aufsatz "Spongia Benedictina": Martin KIEM, Geschichte der Benedictiner Abtei Muri-Gries (ad S. Martinum – ad B. V. Mariam) (2 Bde., Stans 1888–1891). Zum Streit zwischen Benediktinern und Jesuiten: Stefan BENZ, Zwischen Tradition und Kritik. Katholische Geschichtsschreibung im barocken Heiligen Römischen Reich (Historische Studien 473, Husum 2003).</p>
-   </bibliography>
+
 
 
 

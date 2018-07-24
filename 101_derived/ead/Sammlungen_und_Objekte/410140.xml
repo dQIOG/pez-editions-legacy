@@ -13,42 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 65</unitid>
       <unittitle>Notizen: "Pro Bibliotheca Mellicensi de novo collecta"</unittitle>
-      <unitdate>18. Jh.</unitdate>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/410140.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="83/410140.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="83/410158.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="83/410159.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="83/410160.tif"/>
-         <dao daotype="derived" coverage="whole" label="11v" href="83/410161.tif"/>
-         <dao daotype="derived" coverage="whole" label="12r" href="83/410162.tif"/>
-         <dao daotype="derived" coverage="whole" label="12v" href="83/410163.tif"/>
-         <dao daotype="derived" coverage="whole" label="13r" href="83/410164.tif"/>
-         <dao daotype="derived" coverage="whole" label="13v" href="83/410165.tif"/>
-         <dao daotype="derived" coverage="whole" label="14r" href="83/410166.tif"/>
-         <dao daotype="derived" coverage="whole" label="14v" href="83/410167.tif"/>
-         <dao daotype="derived" coverage="whole" label="15r" href="83/410168.tif"/>
-         <dao daotype="derived" coverage="whole" label="15v" href="83/410169.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="83/410141.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="83/410142.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="83/410143.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="83/410144.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="83/410145.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="83/410146.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="83/410147.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="83/410148.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="83/410149.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="83/410150.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="83/410151.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="83/410152.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="83/410153.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="83/410154.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="83/410155.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="83/410156.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="83/410157.tif"/>
-      </daoset>
    </did>
 
 
@@ -69,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Kropff</part>
          <part localtype="vorname">Martin</part>
       </persname>
@@ -83,11 +53,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -96,10 +70,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen "Pro Bibliotheca Mellicensi de novo collecta", hauptsächlich zu Melker Autoren des 15. Jahrhunderts, wohl von Kropff im Zusammenhang mit der Bibliotheca Mellicensis (Wien 1747). Die Notizen beruhen zum Großteil auf der Durcharbeitung von BP, Thesaurus und Bibliotheca Ascetica sowie HP, Scriptores rerum Austriacarum.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Kropff: Christine GLASSNER, Neuzeitliche Handschriften aus dem Nachlass der Brüder Bernhard und Hieronymus Pez in der Bibliothek des Benediktinerstiftes Melk (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 372 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe IV 7, Wien 2008).</p>
-   </bibliography>
+
 
 
 

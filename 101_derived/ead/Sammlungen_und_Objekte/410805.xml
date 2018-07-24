@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 10</unitid>
       <unittitle>Schriftstellerkatalog von St.-Evre zu Toul</unittitle>
-      <unitdate>um 1900</unitdate>
       <didnote localtype="datenote">Abschrift im Zusammenhang mit der Pez-Forschung um 1900.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/410805.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="111/410805.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="111/410806.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="111/410807.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="111/410808.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="111/410809.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="111/410810.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="111/410811.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="111/410812.tif"/>
-      </daoset>
    </did>
 
 
@@ -47,19 +39,19 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Dogeniller</part>
          <part localtype="vorname">Hermann</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">D'Auzécourt</part>
          <part localtype="vorname">Amand</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Vidricus von St.-Evre zu Toul</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -81,11 +73,15 @@
          <part>Benediktiner</part>
          <part>Toul - St.-Evre</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -97,10 +93,7 @@
       <head>Beschreibung</head>
       <p>Schriftstellerkatalog von St.-Evre zu Toul: "Auctores litterarii, qui in antiqua et celebri abbatia S. Apri Tullensi floruerunt". Nach Bleistiftvermerk auf fol. 1r Original "1716-08-16, d'Auzécourt, Toul". Dazu der Ordnungsvermerk "609". Original (StiA Melk, Karton 7 Patres 7, enthält Band 2 der Pezbriefe, fol. 610r–611v) zu dieser Abschrift Beilage zu d'Auzécourt an BP (1716-08-16). </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu St.-Evre in Toul: Francine ROZE, L’abbaye de Saint-Evre de Toul au Haut Moyen Age. Le Pays Lorrain 61/2 (1981) 73–83. Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 

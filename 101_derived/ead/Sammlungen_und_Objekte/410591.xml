@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 80</unitid>
       <unittitle>Manuskript: "Sciagraphia vindiciarum pro consortio imperii Romani inter Fridericum Austriacum et Ludovicum Bavarum ex transactione Monacensi de anno 1325"</unittitle>
-      <unitdate>vor 1729</unitdate>
       <didnote localtype="datenote">Der 6. und letzte Band des Thesaurus ist 1729 erschienen.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/410591.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="98/410591.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="98/410592.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="98/410593.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="98/410594.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="98/410595.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="98/410596.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="98/410597.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="98/410598.tif"/>
-      </daoset>
    </did>
 
 
@@ -47,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Wurmbrand</part>
          <part localtype="vorname">Johann Wilhelm Graf </part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -69,11 +61,15 @@
          <part>weltliche</part>
          <part>Wien - Hof</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -82,10 +78,7 @@
       <head>Beschreibung</head>
       <p>Manuskript "Sciagraphia vindiciarum pro consortio imperii Romani inter Fridericum Austriacum et Ludovicum Bavarum ex transactione Monacensi de anno 1325" zum Münchner Vertrag zwischen Kaiser Friedrich dem Schönen und Ludwig dem Bayern 1325. Auf 1r zeitgenössischer Vermerk: "Communicata patri Bernardo Pez a comite de Wurmbrand". Wahrscheinlich für die Thesaurus-Bände nach Melk gesandt.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Wurmbrand und seinen Forschungen zu Kaiser Friedrich dem Schönen: Stefan BENZ, Zwischen Tradition und Kritik. Katholische Geschichtsschreibung im barocken Heiligen Römischen Reich (Historische Studien 473, Husum 2003). Zum Thesaurus: Christine GLASSNER, Der "Thesaurus anecdotorum novissimus" des Melker Benediktiners Bernhard Pez. SMGB 113 (2002) 341–370.</p>
-   </bibliography>
+
 
 
 

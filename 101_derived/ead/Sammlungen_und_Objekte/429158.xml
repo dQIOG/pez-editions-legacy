@@ -13,36 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia25">Kt. 85 Varia 25</container>
+      <container localtype="file" containerid="melk_Kt85Varia25_fz1">Faszikel 1</container>
+      <unitid>Nr. 29</unitid>
       <unittitle>Schriftstellerkatalog, Handschriftenkatalog von St. Emmeram zu Regensburg</unittitle>
-      <unitdate>1715</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/429158.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1" href="633/429158.tif"/>
-         <dao daotype="derived" coverage="whole" label="10" href="633/429167.tif"/>
-         <dao daotype="derived" coverage="whole" label="11" href="633/429168.tif"/>
-         <dao daotype="derived" coverage="whole" label="12" href="633/429169.tif"/>
-         <dao daotype="derived" coverage="whole" label="13" href="633/429170.tif"/>
-         <dao daotype="derived" coverage="whole" label="14" href="633/429171.tif"/>
-         <dao daotype="derived" coverage="whole" label="15" href="633/429172.tif"/>
-         <dao daotype="derived" coverage="whole" label="16" href="633/429173.tif"/>
-         <dao daotype="derived" coverage="whole" label="17" href="633/429174.tif"/>
-         <dao daotype="derived" coverage="whole" label="18" href="633/429175.tif"/>
-         <dao daotype="derived" coverage="whole" label="19" href="633/429176.tif"/>
-         <dao daotype="derived" coverage="whole" label="2" href="633/429159.tif"/>
-         <dao daotype="derived" coverage="whole" label="20" href="633/429177.tif"/>
-         <dao daotype="derived" coverage="whole" label="21" href="633/429178.tif"/>
-         <dao daotype="derived" coverage="whole" label="22" href="633/429179.tif"/>
-         <dao daotype="derived" coverage="whole" label="23" href="633/429180.tif"/>
-         <dao daotype="derived" coverage="whole" label="24" href="633/429181.tif"/>
-         <dao daotype="derived" coverage="whole" label="3" href="633/429160.tif"/>
-         <dao daotype="derived" coverage="whole" label="4" href="633/429161.tif"/>
-         <dao daotype="derived" coverage="whole" label="5" href="633/429162.tif"/>
-         <dao daotype="derived" coverage="whole" label="6" href="633/429163.tif"/>
-         <dao daotype="derived" coverage="whole" label="7" href="633/429164.tif"/>
-         <dao daotype="derived" coverage="whole" label="8" href="633/429165.tif"/>
-         <dao daotype="derived" coverage="whole" label="9" href="633/429166.tif"/>
-      </daoset>
    </did>
 
 
@@ -66,22 +42,22 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00628312</part>
          <part localtype="identifier">http://viaf.org/viaf/33086111</part>
          <part localtype="identifier">http://d-nb.info/gnd/129766771</part>
          <part localtype="name">Erhardt</part>
          <part localtype="vorname">Kaspar</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Otloh von St. Emmeram</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Hoffmann</part>
          <part localtype="vorname">Christophorus</part>
       </persname>
@@ -104,11 +80,15 @@
          <part>Bayerische Kongregation</part>
          <part>Regensburg - St. Emmeram</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -125,10 +105,7 @@
       <head>Beschreibung</head>
       <p>Schriftstellerkatalog von St. Emmeram zu Regensburg mit dem Titel: "Catalogus scriptorum monasterii Sancti Emmerami Ratisbonae". Zu Beginn irrige Angabe zum vermeintlich ersten Abt von St. Emmeram, "Apollonius von Athen", der in der Literatur jedoch nicht nachweisbar ist, dort scheint hingegen Gaubald (gest. 761) als erster Abt auf (vgl. Literaturfeld). Bei diesem Stück könnte es sich um eine Beilage zu Brief Erhardt an BP (1715-08-03) handeln.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). Zu Äbten von St. Emmeram: Benedikt BRAUNMÜLLER, Reihe der Aebte von St. Emmeram in Regensburg. SMGB 4/2 (1883) 118–134. </p>
-   </bibliography>
+
 
 
 

@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 59</unitid>
       <unittitle>Abschrift zu Oberascher aus "Historia brevis monasterii Monseensis"</unittitle>
-      <unitdate>nach 1710</unitdate>
       <didnote localtype="datenote">"Historia" wurde 1710 an BP nach Melk gesandt.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/410028.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="77/410028.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="77/410029.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Oberascher</part>
          <part localtype="vorname">Maurus</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Seeau</part>
          <part localtype="vorname">Koloman von</part>
       </persname>
@@ -63,17 +61,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4402803-9" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Mondsee</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/4037</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4402803-9</part>
+         <part localtype="identifier">http://viaf.org/viaf/262264489</part>
+         <part localtype="identifier">http://www.geonames.org/2771278/mondsee.html</part>
       </corpname>
    </controlaccess>
 
@@ -90,10 +96,7 @@
       <head>Beschreibung</head>
       <p>"Elogium reverendissimi domini Mauri Oberascher abbatis Monseensis decerptum ex historia monasterii Monseensis ad me anno 1710 ab admodum reverendo domino patre Colomanno priore missa". Abschrift aus der "Historia brevis monasterii Monseensis", die 1710  von Seeau aus Mondsee an BP geschickt worden ist, Hand BP. Auf 1v der Ordnungsvermerk "N. 38. 1710. Monsee a Colomanno Monseensi". Vgl. Karton 7 Patres 10, Fasz. 3, Nr. 32.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Oberascher: Pirmin LINDNER, Das Profeßbuch der Benediktinerabtei Mondsee. Archiv für die Geschichte der Diözese Linz. Beilage zum Linzer Diözesanblatt 2 (1905) 133–199; Vinzenz STAUFER, Mondseer Gelehrte. Jahres-Bericht des kaiserlich-königlichen Ober-Gymnasiums zu Melk 14 (1864) 1–18; 15 (1865) 3–27; Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</p>
-   </bibliography>
+
 
 
 

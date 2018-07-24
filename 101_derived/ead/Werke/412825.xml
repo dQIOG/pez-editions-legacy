@@ -13,24 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 11</unitid>
       <unittitle>Konzept zu BP, Epistolae apologeticae pro ordine sancti Benedicti</unittitle>
-      <unitdate>vor 1715</unitdate>
       <didnote localtype="datenote">BPs Epistolae sind 1715 erschienen.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/412825.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="208/412825.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="208/412826.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="208/412827.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="208/412828.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="208/412829.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="208/412830.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="208/412831.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="208/412832.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="208/412833.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="208/412834.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="208/412835.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="208/412836.tif"/>
-      </daoset>
    </did>
 
 
@@ -51,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -65,11 +53,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -78,10 +70,7 @@
       <head>Beschreibung</head>
       <p>Konzept zu BP, Epistolae apologeticae pro ordine sancti Benedicti (Kempten 1715) von BP. Am Ende unvollständig, mit zahlreichen Anmerkungen und Streichungen.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Epistolae: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010); Thomas WALLNIG, Die "Epistolae apologeticae pro ordine sancti Benedicti" von Bernhard Pez (1715). Beobachtungen und Personenregister, in: Vergangenheit und Vergegenwärtigung. Frühes Mittelalter und europäische Erinnerungskultur, hg. von Helmut REIMITZ–Bernhard ZELLER (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 373 = Forschungen zur Geschichte des Mittelalters 14, Wien 2009) 9–30.</p>
-   </bibliography>
+
 
 
 

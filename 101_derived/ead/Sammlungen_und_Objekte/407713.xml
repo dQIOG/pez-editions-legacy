@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 21</unitid>
       <unittitle>Brief: Clergier an Mabillon</unittitle>
-      <unitdate>vor 1694</unitdate>
       <didnote localtype="datenote">Undatiert. Clergier grüßt Germain, der 1694 verstorben ist.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/407713.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="38/407713.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="38/407714.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="38/407715.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="38/407716.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Clergier</part>
          <part localtype="vorname">Odon</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Mabillon</part>
          <part localtype="vorname">Jean</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01321566 / 
 http://thesaurus.cerl.org/record/cnp00548502</part>
          <part localtype="identifier">http://viaf.org/viaf/24611609</part>
@@ -81,10 +77,7 @@ http://thesaurus.cerl.org/record/cnp00548502</part>
       <head>Beschreibung</head>
       <p>Brief Clergier an Mabillon. Original, das BP möglicherweise im Zuge seines Paris-Aufenthaltes 1728 von den Maurinern geschenkt wurde.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mabillon, Clergier und Germain: Yves CHAUSSY, Matricula Monachorum Professorum Congregationis S. Mauri in Gallia Ordinis Sancti Patris Benedicti (Bibliothèque d’histoire et d’archéologie chrétiennes, Paris 1959).</p>
-   </bibliography>
+
 
 
 

@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 45</unitid>
       <unittitle>Briefabschrift: HP an Wiesmayr</unittitle>
-      <unitdate>um 1900</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung um 1900.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/411099.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="146/411099.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="146/411100.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="146/411101.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="146/411102.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Wiesmayr</part>
          <part localtype="vorname">Johann Georg</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pachl</part>
          <part localtype="vorname">Johann</part>
       </persname>
@@ -65,16 +61,24 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2018820-1" source="GND">
          <part>geistliche</part>
          <part>Augustiner-Chorherren</part>
          <part>St. Florian</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/5000</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2018820-1</part>
+         <part localtype="identifier">http://viaf.org/viaf/133171207</part>
+         <part localtype="identifier">http://www.geonames.org/2771867/sankt-florian.html</part>
       </corpname>
    </controlaccess>
 
@@ -91,10 +95,7 @@
       <head>Beschreibung</head>
       <p>Briefabschrift HP an Wiesmayr (1747-04-09). Auf 1r Vermerk: "Aus dem Stiftsarchive in St. Florian".  Auf 2r Fußnote: "Vgl. Mühlbacher a. a. O. p. 69, wo dieser Brief bis hieher abgedruckt und verwertet ist". </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu St. Florian und Brief: Engelbert MÜHLBACHER, Die literarischen Leistungen des Stiftes St. Florian bis zur Mitte des 19. Jahrhunderts (Innsbruck 1905); Ferdinand REISINGER–Katharina BRANDES, St. Florian, in: Österreichisches Chorherrenbuch. Die Klöster der Augustiner-Chorherren in der ehemaligen Österreichisch-Ungarischen Monarchie, 1: Die bestehenden Klöster der Augustiner-Chorherren in Österreich, Südtirol und Polen, hg. von Floridus RÖHRIG (Klosterneuburg 1997) 337–384.</p>
-   </bibliography>
+
 
 
 

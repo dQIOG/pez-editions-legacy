@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 88</unitid>
       <unittitle>Briefauszüge: Edlinger an HP</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/420482.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="404/420482.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="404/420483.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="404/420484.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="404/420485.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Edlinger</part>
          <part localtype="vorname">Joachim</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
@@ -65,17 +61,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/19112-7" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Seitenstetten</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/4040</part>
+         <part localtype="identifier">http://d-nb.info/gnd/19112-7</part>
+         <part localtype="identifier">http://viaf.org/viaf/248873380</part>
+         <part localtype="identifier">http://www.geonames.org/2765196/seitenstetten-markt.html</part>
       </corpname>
    </controlaccess>
 
@@ -94,10 +98,7 @@
       <head>Beschreibung</head>
       <p>Auszüge aus den Briefen Edlinger an HP, Hand Mayer. Datierungen teilweise irrig.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Briefen und Edlinger: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243; Stefan SPEVAK, P. Joachim Edlinger, Briefe an P. Hieronymus Pez. Edition (ungedr. Hausarbeit am Institut für Österreichische Geschichtsforschung, Wien 1992); Irene RABL, Briefe an Hieronymus Pez OSB aus seinem Nachlass im Stiftsarchiv Melk, Karton 7/13: Verzeichnis und Kurzbiographien der Korrespondenzpartner. SMGB 122 (2011) 327–367.</p>
-   </bibliography>
+
 
 
 

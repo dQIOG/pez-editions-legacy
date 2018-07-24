@@ -13,22 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz8">Faszikel 8</container>
+      <unitid>Nr. 01</unitid>
       <unittitle>Bibliographische Notizen mit Verweisen auf (Melker) Handschriften</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/416630.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="262/416630.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="262/416631.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="262/416632.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="262/416633.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="262/416634.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="262/416635.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="262/416636.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="262/416637.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="262/416638.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="262/416639.tif"/>
-      </daoset>
    </did>
 
 
@@ -57,11 +47,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -70,10 +64,7 @@
       <head>Beschreibung</head>
       <p>Bibliographische Notizen mit Verweisen auf Melker Handschriften des Mittelalters, zum Teil geodnet nach Autoren. Der Bezug zu Melk ergibt sich einerseits aus dem Zusatz "Mellic." bei den Signaturen der Handschriften, andererseits aus dem Vermerk "Mellicensia" von einer Hand um 1900 auf fol. 5v. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Melker Handschriften bis 1400: Christine GLASSNER–Alois HAIDINGER, Inventar der Handschriften des Benediktinerstiftes Melk, Teil 1: Von den Anfängen bis ca. 1400 (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 285 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe II 8/1, 2 Bde., Wien 2000).</p>
-   </bibliography>
+
 
 
 

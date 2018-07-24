@@ -13,28 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 61</unitid>
       <unittitle>Manuskript: Wydemann "Observatio"</unittitle>
-      <unitdate>um 1719</unitdate>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/410038.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="79/410038.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="79/410039.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="79/410040.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="79/410041.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="79/410042.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="79/410043.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="79/410044.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="79/410045.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="79/410046.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="79/410047.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="79/410048.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="79/410049.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="79/410050.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="79/410051.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="79/410052.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="79/410053.tif"/>
-      </daoset>
    </did>
 
 
@@ -55,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Wydemann</part>
          <part localtype="vorname">Leopold</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Ludolf von Sachsen</part>
       </persname>
@@ -76,15 +60,21 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/3011144-4" source="GND">
          <part>geistliche</part>
          <part>Kartäuser</part>
          <part>Gaming</part>
+         <part localtype="identifier">http://d-nb.info/gnd/3011144-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/155471057</part>
+         <part localtype="identifier">http://www.geonames.org/2778949/gaming.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1122314116" source="GND">
          <part>geistliche</part>
          <part>Kartäuser</part>
          <part>Strassburg</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1122314116</part>
+         <part localtype="identifier">http://viaf.org/viaf/66148267908605110730</part>
+         <part localtype="identifier">http://www.geonames.org/2973783/strasbourg.html</part>
       </corpname>
    </controlaccess>
 
@@ -103,10 +93,7 @@
       <head>Beschreibung</head>
       <p>Wydemann "Observatio", betrifft Ludolf von Sachsen und die Frage, ob und wie lange er Dominikaner war, bevor er Kartäuser wurde, sowie, was über seine Laufbahn als Kartäuser bekannt ist. Beilage zu Wydemann an BP (1719-05-23/24, 1720-05-29)? Stück wohl in inhaltlichem Zusammenhang mit Karton 7 Patres 9, Fasz. 1, Nr. 60.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Briefen: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. Zur Diskussion um die Autorschaft von "De imitatione Christi" zwischen Melk und Gaming: Patrick FISKA, Zu Leben und Werk des Melker Benediktiners Anselm Schramb (1658–1720). Mit einer Edition seiner Briefkorrespondenz. SMBG 122 (2011) 201–306; Thomas WALLNIG, Gasthaus und Gelehrsamkeit. Studien zu Herkunft und Bildungsweg von Bernhard Pez OSB vor 1709 (VIÖG 48, Wien–München 2007).</p>
-   </bibliography>
+
 
 
 

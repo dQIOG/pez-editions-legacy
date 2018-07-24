@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 86</unitid>
       <unittitle>Manuskript: "Humillima petita pro gratiosa caesarea confirmatione a Mellicensibus submississime oblata et a futuro abbate observanda"</unittitle>
-      <unitdate>um 1723</unitdate>
       <didnote localtype="datenote">Vermutlich zeitgenössische Abschrift.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/411671.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="186/411671.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="186/411672.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="186/411673.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="186/411674.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,18 +39,18 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00581271</part>
          <part localtype="identifier">http://viaf.org/viaf/948292</part>
          <part localtype="identifier">http://d-nb.info/gnd/124510736</part>
          <part localtype="name">Dietmayr</part>
          <part localtype="vorname">Berthold</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Melk - Kapitel</part>
          <part localtype="vorname"/>
       </persname>
@@ -68,11 +64,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -81,10 +81,7 @@
       <head>Beschreibung</head>
       <p>"Humillima petita pro gratiosa caesarea confirmatione a Mellicensibus submississime oblata et a futuro abbate observanda". Inhalt im Zusammenhang mit der Auseinandersetzung zwischen BP und Abt Dietmayr 1722/1723. Am Ende unvollständig. Zu den "Capitula" vgl. auch Karton 7 Patres 9, Fasz. 1, Nr. 26 bis 34 sowie Karton 3 Äbte 6, Fasz. 2.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu den "Capitula" des Melker Konvents: Hugo HANTSCH, Bernhard Pez und Abt Berthold Dietmayr. MIÖG 71 (1963) 128–139.</p>
-   </bibliography>
+
 
 
 

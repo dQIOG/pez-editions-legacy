@@ -13,18 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 04</unitid>
       <unittitle>Briefabschrift: Calmet an BP</unittitle>
-      <unitdate>um 1900</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung um 1900.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/410771.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="105/410771.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="105/410772.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="105/410773.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="105/410774.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="105/410775.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="105/410776.tif"/>
-      </daoset>
    </did>
 
 
@@ -45,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01428541 / 
 http://thesaurus.cerl.org/record/cnp01322562
 http://thesaurus.cerl.org/record/cnp00397679</part>
@@ -55,7 +49,7 @@ http://thesaurus.cerl.org/record/cnp00397679</part>
          <part localtype="name">Calmet</part>
          <part localtype="vorname">Augustin</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -77,12 +71,18 @@ http://thesaurus.cerl.org/record/cnp00397679</part>
          <part>Benediktiner</part>
          <part>Kongregation von St.-Vanne</part>
          <part>Senones</part>
+         <part localtype="identifier">http://viaf.org/viaf/285077438</part>
+         <part localtype="identifier">http://www.geonames.org/2975063/senones.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -91,10 +91,7 @@ http://thesaurus.cerl.org/record/cnp00397679</part>
       <head>Beschreibung</head>
       <p>Briefabschrift Calmet an BP (1716-11-01). </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Briefen Calmets: Ursmer BERLIÈRE, Quelques correspondants de Dom Calmet. Revue bénédictine 15 (1898) 11–25, 75–85, 215–231, 247–264, 315–328, 357–364; Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 

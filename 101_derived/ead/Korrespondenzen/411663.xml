@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 84</unitid>
       <unittitle>Brief: Hausdorf an BP</unittitle>
-      <unitdate>1710-12-10</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/411663.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="184/411663.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="184/411664.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Hausdorf</part>
          <part localtype="vorname">Rupert</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -62,17 +60,24 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4318686-5" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Böhmische Kongregation</part>
          <part>Břevnov/Braunau (Broumov)</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4318686-5</part>
+         <part localtype="identifier">http://viaf.org/viaf/130012950</part>
+         <part localtype="identifier">http://www.geonames.org/3078748/brevnov.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -89,10 +94,7 @@
       <head>Beschreibung</head>
       <p>Brief Hausdorf an BP (1710-12-10). </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243; Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). Zu Braunau/Broumov: Beda Franz MENZEL, Die böhmische Benediktinerkongregation, in: Germania Benedictina, 1: Die Reformverbände und Kongregationen der Benediktiner im deutschen Sprachraum, hg. von Ulrich FAUST–Franz QUARTHAL (St. Ottilien 1999) 591–619; Laurenz WINTERA, Stift Braunau im Dienste der Kultur. Ein Beitrag zur Kulturgeschichte der katholischen Kirche in Böhmen. Jahresbericht des öffentlichen Stifts-Obergymnasiums der Benediktiner zu Braunau in Böhmen (1904) 3–85. </p>
-   </bibliography>
+
 
 
 

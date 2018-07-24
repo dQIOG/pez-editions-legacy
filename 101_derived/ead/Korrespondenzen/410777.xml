@@ -13,18 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 05</unitid>
       <unittitle>Briefabschrift: Maran an HP</unittitle>
-      <unitdate>um 1900</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung um 1900.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/410777.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="106/410777.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="106/410778.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="106/410779.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="106/410780.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="106/410781.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="106/410782.tif"/>
-      </daoset>
    </did>
 
 
@@ -45,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Maran</part>
          <part localtype="vorname">Prudent</part>
       </persname>
@@ -71,11 +65,15 @@
          <part>Benediktiner</part>
          <part>Maurinerkongregation</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -84,10 +82,7 @@
       <head>Beschreibung</head>
       <p>Briefabschrift Maran an HP (1740-09-27). Etliche Fehler des wohl jugendlichen Abschreibers.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Maran: Yves CHAUSSY, Matricula Monachorum Professorum Congregationis S. Mauri in Gallia Ordinis Sancti Patris Benedicti (Bibliothèque d’histoire et d’archéologie chrétiennes, Paris 1959). Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 

@@ -13,32 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz1">Faszikel 1</container>
+      <unitid>Nr. 40</unitid>
       <unittitle>(Bibliographische) Abschriften BPs aus Druckwerken</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/424715.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="541/424715.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="541/424733.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="541/424734.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="541/424716.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="541/424717.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="541/424718.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="541/424719.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="541/424720.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="541/424721.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="541/424722.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="541/424723.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="541/424724.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="541/424725.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="541/424726.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="541/424727.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="541/424728.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="541/424729.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="541/424730.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="541/424731.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="541/424732.tif"/>
-      </daoset>
    </did>
 
 
@@ -59,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -73,11 +53,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -86,10 +70,7 @@
       <head>Beschreibung</head>
       <p>(Bibliographische) Abschriften BPs u.a. aus Antoine DU VERDIER, La Bibliotheque D'Antoine Du Verdier (Lyon 1585), Paul COLOMIÈS, Opuscula (Utrecht 1669), Gilbert GENEBRARD, Divinarum Hebraicarumque literarum profesoris Regii (4 Bde., Paris 1576–1585) sowie Ippolito MARRACCI, Bibliotheca Mariana (2 Bde., Rom 1648). Vgl. auch Karton 85 Varia 23, Fasz. 1, Nr. 30. Das Stück steht möglicherweise in Zusammenhang mit BPs Paris-Aufenthalt 1728.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p/>
-   </bibliography>
+
 
 
 

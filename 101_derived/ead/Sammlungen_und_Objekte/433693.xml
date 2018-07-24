@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia28">Kt. 85 Varia 28</container>
+      <container localtype="file" containerid="melk_Kt85Varia28_fz2">Faszikel 2</container>
+      <unitid>Nr. 13</unitid>
       <unittitle>Abschrift: "Sermo S. Bertharis abbatis Cassinensis de S. Luca evangelista"</unittitle>
-      <unitdate>1660</unitdate>
       <didnote localtype="datenote">Laut Anmerkung auf fol. 1r ("tunc"; 1660).</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/433693.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1" href="701/433693.tif"/>
-         <dao daotype="derived" coverage="whole" label="2" href="701/433694.tif"/>
-         <dao daotype="derived" coverage="whole" label="3" href="701/433695.tif"/>
-         <dao daotype="derived" coverage="whole" label="4" href="701/433696.tif"/>
-         <dao daotype="derived" coverage="whole" label="5" href="701/433697.tif"/>
-         <dao daotype="derived" coverage="whole" label="6" href="701/433698.tif"/>
-         <dao daotype="derived" coverage="whole" label="7" href="701/433699.tif"/>
-         <dao daotype="derived" coverage="whole" label="8" href="701/433700.tif"/>
-      </daoset>
    </did>
 
 
@@ -47,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Montholon</part>
          <part localtype="vorname">Jean-Francois de</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name"/>
          <part localtype="vorname">Bertharius von Monte Cassino</part>
       </persname>
@@ -68,16 +60,22 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4126338-8" source="GND">
          <part>geistliche</part>
          <part>Zisterzienser</part>
          <part>Cîteaux</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4126338-8</part>
+         <part localtype="identifier">http://viaf.org/viaf/240383407</part>
+         <part localtype="identifier">http://www.geonames.org/3024876/citeaux-abbey.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1087296986" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Cassinenser Kongregation</part>
          <part>Montecassino</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1087296986</part>
+         <part localtype="identifier">http://viaf.org/viaf/133865391</part>
+         <part localtype="identifier">http://www.geonames.org/3173005/abbazia-di-montecassino.html</part>
       </corpname>
    </controlaccess>
 
@@ -86,10 +84,7 @@
       <head>Beschreibung</head>
       <p>Abschrift des Jean-Francois de Montholon aus einem noch nicht identifizierten "Cod. ms. abbatiae Cist.". Montholon legte Profess in Cîteaux ab und war zum Zeitpunkt der Abschrift Abt von Saint Sulpice-en-Bugey, wie aus einer Anmerkung auf fol. 1r hervorgeht. Vielleicht handelt es sich bei der Vorlage, aufgrund seiner Biographie, um eine Handschrift aus Cîteaux. Diese Vermutung konnte bisher noch nicht verifiziert werden. Bei dem Text handelt es sich um einen "Sermo" des Abtes Bertharius von Monte Cassino mit dem Titel "De S. Luca evangelista" alias "Homilia LIX (de Sanctis) in natali S. Lucae evangelistae".</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Bertharius: Alessandro PRATESI, Bertario di Montecassino, in: Dizionario biografico degli Italiani, 9 (Roma 1967) 477–480.</p>
-   </bibliography>
+
 
 
 

@@ -13,24 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 62</unitid>
       <unittitle>Manuskript: Hausgeschichte von Mariahof, Äbteliste von St. Lambrecht</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert?</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/419923.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="378/419923.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="378/419924.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="378/419925.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="378/419926.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="378/419927.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="378/419928.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="378/419929.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="378/419930.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="378/419931.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="378/419932.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="378/419933.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="378/419934.tif"/>
-      </daoset>
    </did>
 
 
@@ -51,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
@@ -65,17 +53,23 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>St. Lambrecht</part>
+         <part localtype="identifier">http://viaf.org/viaf/153857503</part>
+         <part localtype="identifier">http://www.geonames.org/2766615/sankt-lambrecht.html</part>
       </corpname>
    </controlaccess>
 
@@ -84,10 +78,7 @@
       <head>Beschreibung</head>
       <p>Hausgeschichte von Mariahof (heute im Pfarrverband mit St. Lambrecht) und Äbteliste von St. Lambrecht, Hand Mayer.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu St. Lambrecht/Mariahof: Benedikt PLANK, St. Lambrecht, in: Germania Benedictina, 3/2: Die benediktinischen Mönchs- und Nonnenklöster in Österreich und Südtirol, hg. von Ulrich FAUST–Waltraud KRASSNIG (St. Ottilien 2001) 318–380; Othmar WONISCH, Versuch einer Bibliographie der Benediktinerabtei St. Lambrecht (St. Lambrecht 1916).</p>
-   </bibliography>
+
 
 
 

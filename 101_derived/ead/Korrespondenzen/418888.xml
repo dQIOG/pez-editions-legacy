@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 11</unitid>
       <unittitle>Auszüge aus Briefen an BP und Apronian Hueber</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/418888.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="327/418888.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="327/418889.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="327/418890.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="327/418891.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="327/418892.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="327/418893.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="327/418894.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="327/418895.tif"/>
-      </daoset>
    </did>
 
 
@@ -47,38 +39,38 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Doll</part>
          <part localtype="vorname">Roman</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">https://thesaurus.cerl.org/record/cnp00625190</part>
          <part localtype="identifier">http://viaf.org/viaf/13396187</part>
          <part localtype="identifier">http://d-nb.info/gnd/129728527</part>
          <part localtype="name">Abelzhauser</part>
          <part localtype="vorname">Benedikt</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Foederl</part>
          <part localtype="vorname">Korbinian</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Wydemann</part>
          <part localtype="vorname">Leopold</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Hueber</part>
          <part localtype="vorname">Apronian</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Kammerlander</part>
          <part localtype="vorname">Hermann</part>
       </persname>
@@ -98,44 +90,69 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2115958-0" source="GND">
          <part>geistliche</part>
          <part>Kartäuser</part>
          <part>Aggsbach</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2115958-0</part>
+         <part localtype="identifier">http://viaf.org/viaf/173198941</part>
+         <part localtype="identifier">http://www.geonames.org/2782955/aggsbach.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4313535-3" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Oberschwäbische Kongregation</part>
          <part>Wiblingen</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20449</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4313535-3</part>
+         <part localtype="identifier">http://viaf.org/viaf/154929897</part>
+         <part localtype="identifier">http://www.geonames.org/11548398/kloster-wiblingen.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/19112-7" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Seitenstetten</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/4040</part>
+         <part localtype="identifier">http://d-nb.info/gnd/19112-7</part>
+         <part localtype="identifier">http://viaf.org/viaf/248873380</part>
+         <part localtype="identifier">http://www.geonames.org/2765196/seitenstetten-markt.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2165566-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Marienberg in Südtirol</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2165566-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/154456762</part>
+         <part localtype="identifier">http://www.geonames.org/3172843/abbazia-di-monte-maria.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1086282779" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Oberschwäbische Kongregation</part>
          <part>Mehrerau</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/92580</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1086282779</part>
+         <part localtype="identifier">http://viaf.org/viaf/867145857000822921033</part>
+         <part localtype="identifier">http://www.geonames.org/3333694/kloster-mehrerau.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/3011144-4" source="GND">
          <part>geistliche</part>
          <part>Kartäuser</part>
          <part>Gaming</part>
+         <part localtype="identifier">http://d-nb.info/gnd/3011144-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/155471057</part>
+         <part localtype="identifier">http://www.geonames.org/2778949/gaming.html</part>
       </corpname>
    </controlaccess>
 
@@ -155,10 +172,7 @@
       <head>Beschreibung</head>
       <p>Auszug aus Briefen Foederl an BP (1731-01-09), Kammerlander an Hueber (1717-01-09), Doll an BP (1710-04-06), Abelzhauser an BP (1709-09-11), Wydemann an BP (1718-12-10, 1734-09-21), Hand Mayer.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Briefen bis 1715: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). Zu  Briefen nach 1715: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 

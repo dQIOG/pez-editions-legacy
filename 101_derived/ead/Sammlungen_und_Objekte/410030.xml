@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 60</unitid>
       <unittitle>Manuskript: Wydemann zur Autorschaft von "De imitatione Christi"</unittitle>
-      <unitdate>ab 1719</unitdate>
       <didnote localtype="datenote">Das Thema "De imitatione Christi" taucht in den Briefen Wydemanns an BP ab 1719 auf.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/410030.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="78/410030.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="78/410031.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="78/410032.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="78/410033.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="78/410034.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="78/410035.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="78/410036.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="78/410037.tif"/>
-      </daoset>
    </did>
 
 
@@ -47,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Wydemann</part>
          <part localtype="vorname">Leopold</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Ludolf von Sachsen</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Thomas von Kempen</part>
       </persname>
@@ -72,15 +64,21 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/3011144-4" source="GND">
          <part>geistliche</part>
          <part>Kartäuser</part>
          <part>Gaming</part>
+         <part localtype="identifier">http://d-nb.info/gnd/3011144-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/155471057</part>
+         <part localtype="identifier">http://www.geonames.org/2778949/gaming.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1122314116" source="GND">
          <part>geistliche</part>
          <part>Kartäuser</part>
          <part>Strassburg</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1122314116</part>
+         <part localtype="identifier">http://viaf.org/viaf/66148267908605110730</part>
+         <part localtype="identifier">http://www.geonames.org/2973783/strasbourg.html</part>
       </corpname>
    </controlaccess>
 
@@ -89,10 +87,7 @@
       <head>Beschreibung</head>
       <p>Fragment eines Traktates über die Autorschaft von "De imitatione Christi" von der Hand Wydemanns, die er einem Kartäuser (einem so genannten Ludolf von Sachsen) zuschreiben möchte. Bezieht sich eingehend auf die verschiedenen Codices, die von den Maurinern zur Beurteilung vorgelegt wurden. Am Schluß mehr als eine Seite gestrichen mit dem Vermerk "Observatio sequitur". Stück wohl in inhaltlichem Zusammenhang mit Karton 7 Patres 9, Fasz. 1, Nr. 61. Fortsetzung von Text in Karton 7 Patres 7, Faszikel 2, fol. 4r–7v.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Briefen: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. Zur Diskussion um die Autorschaft von "De imitatione Christi" zwischen Melk und Gaming: Patrick FISKA, Zu Leben und Werk des Melker Benediktiners Anselm Schramb (1658–1720). Mit einer Edition seiner Briefkorrespondenz. SMBG 122 (2011) 201–306; Thomas WALLNIG, Gasthaus und Gelehrsamkeit. Studien zu Herkunft und Bildungsweg von Bernhard Pez OSB vor 1709 (VIÖG 48, Wien–München 2007).</p>
-   </bibliography>
+
 
 
 

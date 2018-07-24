@@ -13,18 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 02</unitid>
       <unittitle>Briefabschrift: HP an Montfaucon</unittitle>
-      <unitdate>um 1900</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung um 1900.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/410761.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="18/410761.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="18/410762.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="18/410763.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="18/410764.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="18/410765.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="18/410766.tif"/>
-      </daoset>
    </did>
 
 
@@ -45,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Montfaucon</part>
          <part localtype="vorname">Bernard de</part>
       </persname>
@@ -66,11 +60,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -84,10 +82,7 @@
       <head>Beschreibung</head>
       <p>Briefabschrift HP an Montfaucon (1737-07-04). Aus Bibliothèque nationale de France FF 17711, 105r–106v.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Montfaucon: Yves CHAUSSY, Matricula Monachorum Professorum Congregationis S. Mauri in Gallia Ordinis Sancti Patris Benedicti (Bibliothèque d’histoire et d’archéologie chrétiennes, Paris 1959); Dom Bernard de Montfaucon. Actes du Colloque de Carcassonne, octobre 1996, hg. von Daniel-Odon HUREL–Raymond ROGÉ (Bibliothèque Bénédictine 4, 2 Bde., Caudebec-en-Caux 1998).</p>
-   </bibliography>
+
 
 
 

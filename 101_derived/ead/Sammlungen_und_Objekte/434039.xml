@@ -13,60 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia28">Kt. 85 Varia 28</container>
+      <container localtype="file" containerid="melk_Kt85Varia28_fz2">Faszikel 2</container>
+      <unitid>Nr. 18</unitid>
       <unittitle>Abschrift eines Brieftraktates Gerhochs von Reichersberg "Liber de novitatibus huius temporis"</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Wohl in Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/434039.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="706/434039.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="706/434057.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="706/434058.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="706/434059.tif"/>
-         <dao daotype="derived" coverage="whole" label="11v" href="706/434060.tif"/>
-         <dao daotype="derived" coverage="whole" label="12r" href="706/434061.tif"/>
-         <dao daotype="derived" coverage="whole" label="12v" href="706/434062.tif"/>
-         <dao daotype="derived" coverage="whole" label="13r" href="706/434063.tif"/>
-         <dao daotype="derived" coverage="whole" label="13v" href="706/434064.tif"/>
-         <dao daotype="derived" coverage="whole" label="14r" href="706/434065.tif"/>
-         <dao daotype="derived" coverage="whole" label="14v" href="706/434066.tif"/>
-         <dao daotype="derived" coverage="whole" label="15r" href="706/434067.tif"/>
-         <dao daotype="derived" coverage="whole" label="15v" href="706/434068.tif"/>
-         <dao daotype="derived" coverage="whole" label="16r" href="706/434069.tif"/>
-         <dao daotype="derived" coverage="whole" label="16v" href="706/434070.tif"/>
-         <dao daotype="derived" coverage="whole" label="17r" href="706/434071.tif"/>
-         <dao daotype="derived" coverage="whole" label="17v" href="706/434072.tif"/>
-         <dao daotype="derived" coverage="whole" label="18r" href="706/434073.tif"/>
-         <dao daotype="derived" coverage="whole" label="18v" href="706/434074.tif"/>
-         <dao daotype="derived" coverage="whole" label="19r" href="706/434075.tif"/>
-         <dao daotype="derived" coverage="whole" label="19v" href="706/434076.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="706/434040.tif"/>
-         <dao daotype="derived" coverage="whole" label="20r" href="706/434077.tif"/>
-         <dao daotype="derived" coverage="whole" label="20v" href="706/434078.tif"/>
-         <dao daotype="derived" coverage="whole" label="21r" href="706/434079.tif"/>
-         <dao daotype="derived" coverage="whole" label="21v" href="706/434080.tif"/>
-         <dao daotype="derived" coverage="whole" label="22r" href="706/434081.tif"/>
-         <dao daotype="derived" coverage="whole" label="22v" href="706/434082.tif"/>
-         <dao daotype="derived" coverage="whole" label="23r" href="706/434083.tif"/>
-         <dao daotype="derived" coverage="whole" label="23v" href="706/434084.tif"/>
-         <dao daotype="derived" coverage="whole" label="24r" href="706/434085.tif"/>
-         <dao daotype="derived" coverage="whole" label="24v" href="706/434086.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="706/434041.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="706/434042.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="706/434043.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="706/434044.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="706/434045.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="706/434046.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="706/434047.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="706/434048.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="706/434049.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="706/434050.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="706/434051.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="706/434052.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="706/434053.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="706/434054.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="706/434055.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="706/434056.tif"/>
-      </daoset>
    </did>
 
 
@@ -87,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name"/>
          <part localtype="vorname">Gerhoch von Reichersberg</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hadrian IV.</part>
       </persname>
@@ -112,16 +64,23 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2033438-2" source="GND">
          <part>geistliche</part>
          <part>Augustiner-Chorherren</part>
          <part>Reichersberg</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2033438-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/245395737</part>
+         <part localtype="identifier">http://www.geonames.org/2767754/reichersberg.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -135,10 +94,7 @@
       <head>Beschreibung</head>
       <p>Abschrift "Liber de novitatibus huius temporis" des Gerhoch von Reichersberg, wohl Hand Mayer, mit Anmerkungen. Diese Schrift ist nicht nur Papst Hadrian IV. gewidmet sondern stellt einen Brieftraktat an diesen dar. Laut Anmerkung auf fol. 1r war ein Göttweiger Cod. Vorlage zu dieser Abschrift, Classen (vgl. Literaturfeld) nennt jedoch lediglich Cod. Admont 434 und Cod. Klosterneuburg 345.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Gerhoch von Reichersberg und "Liber de novitatibus huius temporis": Peter CLASSEN, Gerhoch von Reichersberg. Eine Biographie mit einem Anhang über die Quellen, ihre handschriftliche Überlieferung und ihre Chronologie (Wiesbaden 1960).</p>
-   </bibliography>
+
 
 
 

@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz2">Faszikel 2</container>
+      <unitid>Nr. 15</unitid>
       <unittitle>Abschrift der Kapitelüberschriften von Trithemius, De viris illustribus ordinis sancti Benedicti</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/425629.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="573/425629.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="573/425630.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="573/425631.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="573/425632.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Trithemius</part>
          <part localtype="vorname">Johannes</part>
       </persname>
@@ -57,11 +53,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4778875-6" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bursfelder Kongregation</part>
          <part>Sponheim</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/40277</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4778875-6</part>
+         <part localtype="identifier">http://viaf.org/viaf/245857634</part>
+         <part localtype="identifier">http://www.geonames.org/2830167/sponheim.html</part>
       </corpname>
    </controlaccess>
 
@@ -70,10 +70,7 @@
       <head>Beschreibung</head>
       <p>Abschrift der Kapitelüberschriften des zweiten Buches von Johannes TRITHEMIUS, De viris illustribus ordinis sancti Benedicti (Köln 1575), beginnt mit Hl. Benedikt (Kap. 1) und endet mit Nikolaus Donis (Kap. 143).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Schriftstellerkatalog: Klaus ARNOLD, De viris illustribus. Aus den Anfängen der humanistischen Literaturgeschichtsschreibung: Johannes Trithemius und andere Schriftstellerkataloge des 15. Jahrhunderts. Humanistica Lovaniensia 42 (1993) 52–70. Zu Trithemius: Klaus ARNOLD, Johannes Trithemius (1462–1516) (Quellen und Forschungen zur Geschichte des Bistums und Hochstifts Würzburg 23, Würzburg 1991).</p>
-   </bibliography>
+
 
 
 

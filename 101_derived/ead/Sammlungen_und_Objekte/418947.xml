@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 19</unitid>
       <unittitle>Bio-bibliographische Notizen zu Otfried von Weißenburg</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/418947.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="335/418947.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="335/418948.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="335/418949.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="335/418950.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Otfried von Weißenburg</part>
       </persname>
@@ -64,17 +60,24 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4028148-6" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Französische Klöster</part>
          <part>Weißenburg</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4028148-6</part>
+         <part localtype="identifier">http://viaf.org/viaf/158280881</part>
+         <part localtype="identifier">http://www.geonames.org/2967325/wissembourg.html</part>
       </corpname>
    </controlaccess>
 
@@ -83,10 +86,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen zu Otfried von Weißenburg, Hand Mayer. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Otfried von Weißenburg: Ulrich ERNST, Otfried von Weißenburg, in: Lexikon des Mittelalters, 6 (München 1993) col. 1557–1559.</p>
-   </bibliography>
+
 
 
 

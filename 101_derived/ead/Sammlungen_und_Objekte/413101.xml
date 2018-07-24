@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 33</unitid>
       <unittitle>Manuskript: "De coenobio Mellicensi OSB in Austria notatu digniora"</unittitle>
-      <unitdate>nach 1764</unitdate>
       <didnote localtype="datenote">Letzte Eintragung zu 1764.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/413101.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="230/413101.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="230/413102.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="230/413103.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="230/413104.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="230/413105.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="230/413106.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="230/413107.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="230/413108.tif"/>
-      </daoset>
    </did>
 
 
@@ -47,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Schramb</part>
          <part localtype="vorname">Anselm</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Hueber</part>
          <part localtype="vorname">Philibert</part>
       </persname>
@@ -69,11 +61,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -82,10 +78,7 @@
       <head>Beschreibung</head>
       <p>Manuskript zur Geschichte des Benediktinerklosters Melk, beginnend mit der Gründung. Zitiert werden: HP, Scriptores rerum Austriacarum (3 Bde., Leipzig 1721–1725, Regensburg 1745), HP, Historia S. Leopoldi (Wien 1747), Schramb, Chronicon Mellicense (Wien 1702) sowie P. Hueber, Austria ex archivis Mellicensibus illustrata (Leipzig 1722).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p/>
-   </bibliography>
+
 
 
 

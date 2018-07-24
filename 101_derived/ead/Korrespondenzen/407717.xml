@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 22</unitid>
       <unittitle>Brief: Prandtner an HP</unittitle>
-      <unitdate>1721-12-13</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/407717.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="39/407717.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="39/407718.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="39/407719.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="39/407720.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Prandtner</part>
          <part localtype="vorname">Ildephons</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
@@ -61,17 +57,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1048727-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Lambach</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3196</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1048727-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/143705101</part>
+         <part localtype="identifier">http://www.geonames.org/8410618/stift-lambach.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -88,10 +92,7 @@
       <head>Beschreibung</head>
       <p>Brief Prandtner an HP. Original.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Der Brief scheint nicht auf bei: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. Zu Prandtner: Irene RABL, Briefe an Hieronymus Pez OSB aus seinem Nachlass im Stiftsarchiv Melk, Karton 7/13: Verzeichnis und Kurzbiographien der Korrespondenzpartner. SMGB 122 (2011) 327–367; Thomas STOCKINGER, Das Stift Lambach und die Forschungsvorhaben der Brüder Bernhard und Hieronymus Pez OSB. [In dem Band zur Tagung "Stift Lambach in der Frühen Neuzeit" (Lambach 2009).]</p>
-   </bibliography>
+
 
 
 

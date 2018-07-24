@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 78</unitid>
       <unittitle>Abschrift: Telesphorus, "De causis, de statu, de cognitione ac fine praesentis scismatis"</unittitle>
-      <unitdate>um 1718</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/411572.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="178/411572.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="178/411573.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="178/411574.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="178/411575.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="178/411576.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="178/411577.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="178/411578.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="178/411579.tif"/>
-      </daoset>
    </did>
 
 
@@ -47,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Wydemann</part>
          <part localtype="vorname">Leopold</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Telesphorus von Cosenza</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Heinrich von Langenstein</part>
       </persname>
@@ -72,15 +64,21 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/3011144-4" source="GND">
          <part>geistliche</part>
          <part>Kartäuser</part>
          <part>Gaming</part>
+         <part localtype="identifier">http://d-nb.info/gnd/3011144-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/155471057</part>
+         <part localtype="identifier">http://www.geonames.org/2778949/gaming.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4729280-5" source="GND">
          <part>geistliche</part>
          <part>Paulaner</part>
          <part>Cosenza</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4729280-5</part>
+         <part localtype="identifier">http://viaf.org/viaf/248741637</part>
+         <part localtype="identifier">http://www.geonames.org/2523888/paola.html</part>
       </corpname>
       <corpname>
          <part>weltliche</part>
@@ -101,10 +99,7 @@
       <head>Beschreibung</head>
       <p>Abschrift aus einer Gaminger Handschrift von Telesphorus, "De causis, statu, cognitione ac fine praesentis scismatis", eventuell ÖNB, Cod. 3313 oder 5180. Vermerk Hand BP? Unvollständig. Heinrich von Langenstein verfaßte im Jahre 1392 seine sog. Schrift "Contra Telesphorum", gedruckt in BP, Thesaurus anecdotorum novissimus, 1, 2, 3 (Augsburg 1721). Zu Langenstein vgl. auch Karton 7 Patres 9, Fasz. 2, Nr. 26. Wohl Beilage zu Wydemann an BP (1718-04-09). </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Telesphorus von Cosenza: Johannes SCHLAGETER, Telesphorus von Cosenza, in: Lexikon des Mittelalters, 8 (München 1997) col. 530. Zu Heinrich von Langenstein: Georg KREUZER, Heinrich von Langenstein, in: Lexikon des Mittelalters, 4 (München–Zürich 1989) col. 2095. Zu Gaming: Thomas AIGNER, Gaming, in: Monasticon Cartusiense II, hg. von James HOGG–Alain GIRARD–Daniel LE BLÉVEC (Salzburg 2004) 82–86; Anton ERDINGER, Beiträge zur Geschichte der Karthause Gaming. Geschichtliche Beilagen zu den Consistorial-Currenden der Diöcese St. Pölten 5 (1895) 1–82; Josef FEIL, Original-Beiträge zur Geschichte der Aufhebung mehrer [!] Klöster in Niederösterreich. Oesterreichische Blätter für Literatur und Kunst, Geographie, Geschichte, Statistik und Naturkunde 2 (1845) 306–310, 315–318, 449–452, 540–544, 571–573; Walter HILDEBRAND, Kartause Gaming. Ausstellung anlässlich der Wiederherstellung des Herzogsgrabes. Herzog Albrecht II. und die Kartause Gaming (Gaming 1985); Heinrich ZEISSBERG, Zur Geschichte der Kartause Gaming. Archiv für Österreichische Geschichte 60 (1880) 562–596. Zu Handschriften in der ÖNB: Tabulae codicum manu scriptorum praeter graecos et orientales in Bibliotheca Palatina Vindobonensi asservatorum, 2: Cod. 2001–3500, ed. Academia Caesarea Vindobonensis (Wien 1868); Tabulae codicum manu scriptorum praeter graecos et orientales in Bibliotheca Palatina Vindobonensi asservatorum, 4: Cod. 5001 - Cod. 6500, ed. Academia Caesarea Vindobonensis (Wien 1870).</p>
-   </bibliography>
+
 
 
 

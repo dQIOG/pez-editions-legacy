@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 23</unitid>
       <unittitle>Schriftstellerkatalog von Pfäfers</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/418985.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="339/418985.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="339/418986.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="339/418987.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="339/418988.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,27 +39,27 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Göringer</part>
          <part localtype="vorname">Andreas</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Heider</part>
          <part localtype="vorname">Johannes</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Höslin</part>
          <part localtype="vorname">Jodok</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Schwitter</part>
          <part localtype="vorname">Gerold</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Konrad von Pfäfers</part>
       </persname>
@@ -80,17 +76,24 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4219487-8" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Helvetische Kongregation</part>
          <part>Pfäfers</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4219487-8</part>
+         <part localtype="identifier">http://viaf.org/viaf/147403598</part>
+         <part localtype="identifier">http://www.geonames.org/2659224/pfaefers-dorf.html</part>
       </corpname>
    </controlaccess>
 
@@ -99,10 +102,7 @@
       <head>Beschreibung</head>
       <p>Schriftstellerkatalog von Pfäfers, Hand Mayer.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Pfäfers: Rudolf HENGGELER, Monasticon-Benedictinum Helvetiae, 2: Profeßbuch der Benediktinerabteien Pfäfers, Rheinau, Fischingen (Zug 1931); Jakob KURATLI HÜEBLIN, Archiv und Fälscherwerkstatt. Das Kloster Pfäfers und sein Umgang mit Schriftgut, 10.–18. Jahrhundert (Studia Fabariensia. Beiträge zur Pfäferser Klostergeschichte 4, Dietikon–Zürich 2010).</p>
-   </bibliography>
+
 
 
 

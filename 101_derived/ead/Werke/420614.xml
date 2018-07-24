@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz2">Faszikel 2</container>
+      <unitid>Nr. 02</unitid>
       <unittitle>Bio-bibliographische Notizen: BP zu Schriftstellern aus St. Gallen</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/420614.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="411/420614.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="411/420615.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="411/420616.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="411/420617.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,19 +39,19 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Walahfrid Strabo</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hrabanus Maurus von Fulda</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Gozbert von St. Gallen</part>
       </persname>
@@ -72,23 +68,34 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1088891446" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Helvetische Kongregation</part>
          <part>St. Gallen</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1088891446</part>
+         <part localtype="identifier">http://viaf.org/viaf/266765811</part>
+         <part localtype="identifier">http://www.geonames.org/2658822/sankt-gallen.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4074038-9" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bursfelder Kongregation</part>
          <part>Fulda</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/30121</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4074038-9</part>
+         <part localtype="identifier">http://viaf.org/viaf/237710601</part>
+         <part localtype="identifier">http://www.geonames.org/2923822/fulda.html</part>
       </corpname>
    </controlaccess>
 
@@ -97,10 +104,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen BPs zu Schriftstellern aus St. Gallen, hauptsächlich zu Strabo und seinem Lehrer Hrabanus Maurus, auf fol. 2r Elogium auf Abt Gozbert von St. Gallen. Fragment, beginnt mit Seite 18.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu St. Gallen: Johannes DUFT–Anton GÖSSI–Werner VOGLER, St. Gallen, in: Helvetia Sacra, Abt. III: Die Orden mit Benediktinerregel, 1: Frühe Klöster, die Benediktiner und Benediktinerinnen in der Schweiz, hg. von Elsanne GILOMEN-SCHENKEL, Teil 2 (Bern 1986) 1180–1369; Rudolf HENGGELER, Monasticon-Benedictinum Helvetiae, 1: Profeßbuch der fürstlichen Benediktinerabtei der Heiligen Gallus und Otmar zu St. Gallen (Zug o.J. [1929]). </p>
-   </bibliography>
+
 
 
 

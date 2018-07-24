@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 61</unitid>
       <unittitle>Briefauszüge: Calogiera an BP</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/419919.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="377/419919.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="377/419920.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="377/419921.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="377/419922.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01884343 / 
 http://thesaurus.cerl.org/record/cnp01094677 / 
 http://thesaurus.cerl.org/record/cnp00884151 / 
@@ -57,7 +53,7 @@ http://thesaurus.cerl.org/record/cnp00124967</part>
          <part localtype="name">Calogiera</part>
          <part localtype="vorname">Angelo</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -74,11 +70,15 @@ http://thesaurus.cerl.org/record/cnp00124967</part>
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -112,10 +112,7 @@ http://thesaurus.cerl.org/record/cnp00124967</part>
       <head>Beschreibung</head>
       <p>Auszüge aus Briefen Calogiera an BP, Hand Mayer. Datierungen teilweise irrig. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Calogiera: Cesare DE MICHELIS, L’epistolario di Angelo Calogerà. Studi veneziani 10 (1968) 621–704.</p>
-   </bibliography>
+
 
 
 

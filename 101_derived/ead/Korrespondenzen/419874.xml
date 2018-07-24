@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 57</unitid>
       <unittitle>Briefauszüge: Döderlein und Ruele an BP</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/419874.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="373/419874.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="373/419875.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="373/419876.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="373/419877.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,22 +39,22 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00446908</part>
          <part localtype="identifier">http://viaf.org/viaf/77186064 / http://viaf.org/viaf/305921895</part>
          <part localtype="identifier">http://d-nb.info/gnd/121988511 /   http://d-nb.info/gnd/1045742570</part>
          <part localtype="name">Döderlein</part>
          <part localtype="vorname">Johann Alexander</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Ruele</part>
          <part localtype="vorname">Marian</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -75,11 +71,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>weltliche</part>
@@ -89,6 +89,7 @@
          <part>geistliche</part>
          <part>Karmeliter</part>
          <part>Rovereto</part>
+         <part localtype="identifier">http://www.geonames.org/3168854/rovereto.html</part>
       </corpname>
    </controlaccess>
 
@@ -108,10 +109,7 @@
       <head>Beschreibung</head>
       <p>Auszüge aus den Briefen Döderlein und Ruele an BP, Hand Mayer. Datierungen teilweise irrig.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Briefen: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 

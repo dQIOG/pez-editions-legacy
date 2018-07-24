@@ -13,32 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 89</unitid>
       <unittitle>Briefauszüge: Gropp an BP und Pliemel</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/420486.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="405/420486.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="405/420504.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="405/420505.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="405/420487.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="405/420488.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="405/420489.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="405/420490.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="405/420491.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="405/420492.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="405/420493.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="405/420494.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="405/420495.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="405/420496.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="405/420497.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="405/420498.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="405/420499.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="405/420500.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="405/420501.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="405/420502.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="405/420503.tif"/>
-      </daoset>
    </did>
 
 
@@ -59,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00387808</part>
          <part localtype="identifier">http://viaf.org/viaf/17984539 / http://viaf.org/viaf/208511159</part>
          <part localtype="identifier">http://d-nb.info/gnd/11686639X /   http://d-nb.info/gnd/179433997</part>
@@ -71,11 +51,11 @@
          <part localtype="name">Gropp</part>
          <part localtype="vorname">Ignaz</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pliemel</part>
          <part localtype="vorname">Adrian</part>
       </persname>
@@ -92,11 +72,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -137,10 +121,7 @@
       <head>Beschreibung</head>
       <p>Auszüge aus den Briefen Gropp an BP und Pliemel (Prior von Melk), Hand Mayer.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Gropp: Alois SCHMID, P. Ignaz Gropp OSB (1695–1758), Benediktinermönch und Historiograph, in: Fränkische Lebensbilder, 19, hg. von Erich SCHNEIDER (Neustadt an der Aisch 2002) 89–106; Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). Zu Briefen: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 

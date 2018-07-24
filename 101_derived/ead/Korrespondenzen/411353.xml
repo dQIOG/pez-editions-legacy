@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 60</unitid>
       <unittitle>Brief: Hauthaler an Katschthaler</unittitle>
-      <unitdate>1889-12-27</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung um 1900.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/411353.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="160/411353.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="160/411354.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Hauthaler</part>
          <part localtype="vorname">Willibald</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Katschthaler</part>
          <part localtype="vorname">Eduard Ernst</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Lindner</part>
          <part localtype="vorname">Pirmin</part>
       </persname>
@@ -69,11 +67,15 @@
          <part>Salzburgische Kongregation</part>
          <part>Salzburg - St. Peter</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -82,10 +84,7 @@
       <head>Beschreibung</head>
       <p>Brief Hauthaler an Katschthaler (1889-12-27). Begleitschreiben zu der Briefabschrift in Karton 7 Patres 9, Fasz. 2, Nr. 59. Hauthaler "erfüllt [damit] den P. Pirmin gegenüber ausgedrückten Wunsch".</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Katschthaler: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1889); Directorium officii divini Benedictino Mellicense (Melk 1922–1947); 900 Jahre Benediktiner in Melk. Jubiläumsausstellung 1989, Stift Melk, hg. von Ernst BRUCKMÜLLER–Burkhard ELLEGAST–Erwin ROTTER (Melk 1989).</p>
-   </bibliography>
+
 
 
 

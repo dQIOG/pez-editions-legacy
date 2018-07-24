@@ -13,40 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 47</unitid>
       <unittitle>Notizen: "Übersicht des Pez Briefnachlasses"; Briefabschrift: BP an Garelli</unittitle>
-      <unitdate>um 1900</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung um 1900.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/411103.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1ar" href="147/411103.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="147/411123.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="147/411124.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="147/411125.tif"/>
-         <dao daotype="derived" coverage="whole" label="11v" href="147/411126.tif"/>
-         <dao daotype="derived" coverage="whole" label="12r" href="147/411127.tif"/>
-         <dao daotype="derived" coverage="whole" label="12v" href="147/411128.tif"/>
-         <dao daotype="derived" coverage="whole" label="13r" href="147/411129.tif"/>
-         <dao daotype="derived" coverage="whole" label="13v" href="147/411130.tif"/>
-         <dao daotype="derived" coverage="whole" label="1av" href="147/411104.tif"/>
-         <dao daotype="derived" coverage="whole" label="1r" href="147/411105.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="147/411106.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="147/411107.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="147/411108.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="147/411109.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="147/411110.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="147/411111.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="147/411112.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="147/411113.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="147/411114.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="147/411115.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="147/411116.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="147/411117.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="147/411118.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="147/411119.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="147/411120.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="147/411121.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="147/411122.tif"/>
-      </daoset>
    </did>
 
 
@@ -70,18 +42,18 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Katschthaler</part>
          <part localtype="vorname">Eduard Ernst</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01482634</part>
          <part localtype="identifier">http://viaf.org/viaf/52441754</part>
          <part localtype="identifier">http://d-nb.info/gnd/116439475</part>
          <part localtype="name">Garelli</part>
          <part localtype="vorname">Pius Nikolaus</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -95,11 +67,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>weltliche</part>
@@ -112,10 +88,7 @@
       <head>Beschreibung</head>
       <p>Notizen "Übersicht des Pez Briefnachlasses" in Melk, der Brief BP an Garelli (1725-07-15; 11v und 12v) befindet sich heute in der Autographensammlung der ÖNB Wien, 36/84-1. Der Brief kam (nach Glassner) möglicherweise aus nachgelassenen Papieren Garellis in diesen Bestand der Hofbibliothek (heute ÖNB). 263 numerierte Briefe, dazu Namen der Absender, Orte, Daten, teilweise in Kurzschrift. Für die Fortsetzung vgl. Karton 7 Patres 9, Fasz. 2, Nr. 57. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Briefen: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243; Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). Zu Katschthaler: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1889); Directorium officii divini Benedictino Mellicense (Melk 1922–1947); 900 Jahre Benediktiner in Melk. Jubiläumsausstellung 1989, Stift Melk, hg. von Ernst BRUCKMÜLLER–Burkhard ELLEGAST–Erwin ROTTER (Melk 1989). Zu Katschthalers Befassung mit der Thematik: Eduard Ernst KATSCHTHALER, Über Bernhard Pez und dessen Briefnachlass. Jahresbericht des k.k. Obergymnasiums zu Melk 39 (1889) 3–106. Zu Garelli: Laurenz STREBL, Die barocke Bibliothek (1663–1739), in: Geschichte der Österreichischen Nationalbibliothek, 1: Die Hofbibliothek (1368–1922), hg. von Josef STUMMVOLL (Museion. Veröffentlichungen der Österreichischen Nationalbibliothek N. F., Zweite Reihe: Allgemeine Veröffentlichungen 3/1, Wien 1968) 163–217.</p>
-   </bibliography>
+
 
 
 

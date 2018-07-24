@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 74</unitid>
       <unittitle>Briefauszüge: Steyerer an BP und HP</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/420103.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="390/420103.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="390/420104.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="390/420105.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="390/420106.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,19 +39,19 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Steyerer</part>
          <part localtype="vorname">Anton</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
@@ -73,11 +69,15 @@
          <part>geistliche</part>
          <part>Jesuiten</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -94,10 +94,7 @@
       <head>Beschreibung</head>
       <p>Auszüge aus den Briefen Steyerer an BP und HP, Hand Mayer.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Brief an BP: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010). Zu Brief an HP: Irene RABL, Briefe an Hieronymus Pez OSB aus seinem Nachlass im Stiftsarchiv Melk, Karton 7/13: Verzeichnis und Kurzbiographien der Korrespondenzpartner. SMGB 122 (2011) 327–367. Zu Steyerer: Stefan BENZ, Zwischen Tradition und Kritik. Katholische Geschichtsschreibung im barocken Heiligen Römischen Reich (Historische Studien 473, Husum 2003).</p>
-   </bibliography>
+
 
 
 

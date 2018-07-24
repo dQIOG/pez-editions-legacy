@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 44</unitid>
       <unittitle>Brief: Herrgott an HP</unittitle>
-      <unitdate>1740-08-17</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/411095.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="145/411095.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="145/411096.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="145/411097.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="145/411098.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Herrgott</part>
          <part localtype="vorname">Marquard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
@@ -64,16 +60,26 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1088887708" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>St. Blasien</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20387</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1088887708</part>
+         <part localtype="identifier">http://d-nb.info/gnd/65372-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/133695851</part>
+         <part localtype="identifier">http://viaf.org/viaf/170307029</part>
+         <part localtype="identifier">http://www.geonames.org/11204877/kloster-sankt-blasien.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -90,10 +96,7 @@
       <head>Beschreibung</head>
       <p>Brief Herrgott an HP (1740-08-17), Original.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Herrgott: Josef Peter ORTNER, Marquard Herrgott (1694–1762). Sein Leben und Wirken als Historiker und Diplomat (Veröffentlichungen der Kommission für Geschichte Österreichs 5 = Schriften des DDr. Franz Josef Mayer-Gunthof-Fonds 8, Wien–München 1972). Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 

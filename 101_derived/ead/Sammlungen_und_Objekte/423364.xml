@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia22">Kt. 85 Varia 22</container>
+      <container localtype="file" containerid="melk_Kt85Varia22_fz3">Faszikel 3</container>
+      <unitid>Nr. 02</unitid>
       <unittitle>Abschrift: Offener Brief an Reslhuber, Abt des Stiftes Kremsmünster</unittitle>
-      <unitdate>nach 1869</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/423364.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="487/423364.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="487/423365.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="487/423366.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="487/423367.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Reslhuber</part>
          <part localtype="vorname">Augustin</part>
       </persname>
@@ -57,11 +53,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2046531-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Kremsmünster</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/4025</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2046531-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/312583113</part>
+         <part localtype="identifier">http://www.geonames.org/11548388/kloster-kremsmuenster.html</part>
       </corpname>
    </controlaccess>
 
@@ -70,10 +70,7 @@
       <head>Beschreibung</head>
       <p>Abschrift eines offenen Briefs an Reslhuber aus dem Neuen Wiener Tagblatt von 1869-08-30, der eine Reaktion auf Reslhubers Schreiben an die Redaktion des Neuen Wiener Tagblatts (1869-08-12) darstellt. In Zusammenhang mit dem "Österreichischen Kulturkampf" (vgl. Literaturfeld). Hand des 19. Jahrhunderts.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Reslhuber: Altman KELLNER, Professbuch des Stiftes Kremsmünster (Kremsmünster 1968). Zum "Österreichischen Kulturkampf": Christian HALAMA, Altkatholiken in Österreich. Geschichte und Bestandsaufnahme (Wien–Köln–Weimar 2004). </p>
-   </bibliography>
+
 
 
 

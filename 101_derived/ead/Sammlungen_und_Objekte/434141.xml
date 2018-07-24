@@ -13,38 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia28">Kt. 85 Varia 28</container>
+      <container localtype="file" containerid="melk_Kt85Varia28_fz2">Faszikel 2</container>
+      <unitid>Nr. 21</unitid>
       <unittitle>Abschrift: Gerhoch von Reichersberg, "De quarta vigilia noctis"</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Wohl in Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/434141.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="709/434141.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="709/434159.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="709/434161.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="709/434163.tif"/>
-         <dao daotype="derived" coverage="whole" label="11v" href="709/434165.tif"/>
-         <dao daotype="derived" coverage="whole" label="12r" href="709/434167.tif"/>
-         <dao daotype="derived" coverage="whole" label="12v" href="709/434168.tif"/>
-         <dao daotype="derived" coverage="whole" label="13r" href="709/434169.tif"/>
-         <dao daotype="derived" coverage="whole" label="13v" href="709/434170.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="709/434142.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="709/434143.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="709/434144.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="709/434145.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="709/434146.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="709/434147.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="709/434148.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="709/434149.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="709/434150.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="709/434151.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="709/434152.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="709/434153.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="709/434154.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="709/434155.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="709/434156.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="709/434157.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="709/434158.tif"/>
-      </daoset>
    </did>
 
 
@@ -65,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name"/>
          <part localtype="vorname">Gerhoch von Reichersberg</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
@@ -83,16 +57,23 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2033438-2" source="GND">
          <part>geistliche</part>
          <part>Augustiner-Chorherren</part>
          <part>Reichersberg</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2033438-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/245395737</part>
+         <part localtype="identifier">http://www.geonames.org/2767754/reichersberg.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -101,10 +82,7 @@
       <head>Beschreibung</head>
       <p>Abschrift "De quarta vigilia noctis" von Gerhoch von Reichersberg, Prolog und Werk sind nicht deutlich voneinander abgesetzt. Wohl Hand Mayer, mit Anmerkungen. Auf fol. 13v Hinweis auf Mayer: "Theodor May[er], Präfect".</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Gerhoch von Reichersberg und "De quarta vigilia noctis": Peter CLASSEN, Gerhoch von Reichersberg. Eine Biographie mit einem Anhang über die Quellen, ihre handschriftliche Überlieferung und ihre Chronologie (Wiesbaden 1960).</p>
-   </bibliography>
+
 
 
 

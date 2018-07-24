@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 31</unitid>
       <unittitle>Briefabschrift: Gentilotti an BP</unittitle>
-      <unitdate>nach 1722</unitdate>
       <didnote localtype="datenote">Vermutlich zeitgenössische Abschrift eines Briefs vom 1722-12-12.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/408592.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="49/408592.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="49/408593.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00378571</part>
          <part localtype="identifier">http://viaf.org/viaf/40112353</part>
          <part localtype="identifier">http://d-nb.info/gnd/115629203</part>
@@ -66,11 +64,15 @@
          <part>weltliche</part>
          <part>Wien - Hof</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -79,10 +81,7 @@
       <head>Beschreibung</head>
       <p>Briefabschrift Gentilotti an BP. Zu den "Capitula" vgl. auch Karton 3 Äbte 6, Fasz. 2.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu den "Capitula" des Melker Konvents: Hugo HANTSCH, Bernhard Pez und Abt Berthold Dietmayr. MIÖG 71 (1963) 128–139. Zur Auseinandersetzung zwischen BP und Gentilotti: Il carteggio erudito di Giovanni Benedetto Gentilotti d'Engelsbrunn (1672-1725), bibliotecario imperiale, in: Le carte vive. Epistolari e carteggi nel Settecento. Atti del primo Convegno internazionale di studi del Centro di Ricerca sugli Epistolari del Settecento, Verona, 4-6 dicembre 2008, hg. von Corrado VIOLA (Biblioteca del XVIII secolo 16, Roma 2011) 479-487.</p>
-   </bibliography>
+
 
 
 

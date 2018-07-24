@@ -13,18 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia26">Kt. 85 Varia 26</container>
+      <container localtype="file" containerid="melk_Kt85Varia26_fz1">Faszikel 1</container>
+      <unitid>Nr. 01</unitid>
       <unittitle>Bio-bibliographische Notizen zu Frowin von Engelberg</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/442784.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="722/442784.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="722/442785.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="722/442786.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="722/442787.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="722/442788.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="722/442789.tif"/>
-      </daoset>
    </did>
 
 
@@ -45,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hl. Frowin von Engelberg</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Hueber</part>
          <part localtype="vorname">Apronian</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -73,23 +67,34 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/5015078-9" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Helvetische Kongregation</part>
          <part>Engelberg</part>
+         <part localtype="identifier">http://d-nb.info/gnd/5015078-9</part>
+         <part localtype="identifier">http://viaf.org/viaf/143185915</part>
+         <part localtype="identifier">http://www.geonames.org/2660902/engelberg.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1086282779" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Oberschwäbische Kongregation</part>
          <part>Mehrerau</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/92580</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1086282779</part>
+         <part localtype="identifier">http://viaf.org/viaf/867145857000822921033</part>
+         <part localtype="identifier">http://www.geonames.org/3333694/kloster-mehrerau.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -106,10 +111,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen zu Abt Frowin von Engelberg. Es ist unklar, ob das hier vorliegende Stück mit der im Brief Hueber an BP (1718-01-24) erwähnten "Epitome vitae beati Frowini" zu identifizieren ist.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Frowin von Engelberg: Othmar BAUER, Frowin von Engelberg (1147–1178), De laude liberi arbitrii libri VII. Ms 46 von Engelberg, Schweiz. Recherches de théologie ancienne et médiévale 15 (1948) 27–75, 269–303; Benedikt GOTTWALD, Album Engelbergense seu Catalogus religiosorum O. S. B. exempti monasterii B. V. M. in Monte Angelorum vulgo Engelberg in Helvetia circa annum post Christum natum 1082 fundati (Luzern 1882). Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 

@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz8">Faszikel 8</container>
+      <unitid>Nr. 35</unitid>
       <unittitle>Bio-bibliographische Notizen zu Stengel</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/417134.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="296/417134.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="296/417135.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Stengel</part>
          <part localtype="vorname">Karl</part>
       </persname>
@@ -60,10 +58,14 @@
          <part>Benediktiner</part>
          <part>Augsburg - St. Ulrich und Afra</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1079820841" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Anhausen an der Brenz</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20160</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1079820841</part>
+         <part localtype="identifier">http://viaf.org/viaf/90145003762361340587</part>
+         <part localtype="identifier">http://www.geonames.org/2956047/anhausen.html</part>
       </corpname>
    </controlaccess>
 
@@ -72,10 +74,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen zu Stengel. Vgl. auch Notizen zu seiner Person in Karton 7 Patres 10, Fasz. 3, Nr. 43.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Stengel: Pirmin LINDNER, Memoriale San-Ulricanum sive Compendium vitae et mortis Religiosorum Ord. S. Benedicti liberi et imperialis monasterii ad S. S. Udalricum et Afram Augustae Vindel., qui ab a. 1610–1857 pie in domino obierunt, additis eorum laboribus litterariis. Diöcesanarchiv von Schwaben 8 (1891) 5–6, 9–10, 17–18, 30–32, 37–38, 41–42, 54–56, 59–60; 15 (1897) 161–164, 185–188; 16 (1898) 13–16, 25–28, 42–44.</p>
-   </bibliography>
+
 
 
 

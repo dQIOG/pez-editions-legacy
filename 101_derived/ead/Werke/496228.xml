@@ -13,60 +13,11 @@
             <part>Stiftsbibliothek</part>
          </corpname>
       </repository>
+      <container localtype="file">Pez. Catalogus. 1-16</container>
+      <container localtype="file">Pez. Catalogus. 15</container>
       <unittitle>Cod. Mell. s.n.: Pez-Catalogus 15 = Bernhard Pez, Katalog der Stiftsbibliothek Melk 15 etc.</unittitle>
-      <unitdate>18. Jh.</unitdate>
       <didnote localtype="datenote">Laut Glassner, Neuzeitliche Handschriften (vgl. Literaturfeld) 1. Drittel 18. Jh..</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/496228.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="Umschlagblatt vorne r" href="841/496228.tif"/>
-         <dao daotype="derived" coverage="whole" label="1" href="841/496230.tif"/>
-         <dao daotype="derived" coverage="whole" label="10" href="841/496239.tif"/>
-         <dao daotype="derived" coverage="whole" label="11" href="841/496240.tif"/>
-         <dao daotype="derived" coverage="whole" label="12" href="841/496241.tif"/>
-         <dao daotype="derived" coverage="whole" label="13" href="841/496242.tif"/>
-         <dao daotype="derived" coverage="whole" label="14" href="841/496243.tif"/>
-         <dao daotype="derived" coverage="whole" label="15" href="841/496244.tif"/>
-         <dao daotype="derived" coverage="whole" label="16" href="841/496245.tif"/>
-         <dao daotype="derived" coverage="whole" label="17" href="841/496246.tif"/>
-         <dao daotype="derived" coverage="whole" label="18" href="841/496247.tif"/>
-         <dao daotype="derived" coverage="whole" label="19" href="841/496248.tif"/>
-         <dao daotype="derived" coverage="whole" label="2" href="841/496231.tif"/>
-         <dao daotype="derived" coverage="whole" label="20" href="841/496249.tif"/>
-         <dao daotype="derived" coverage="whole" label="21" href="841/496250.tif"/>
-         <dao daotype="derived" coverage="whole" label="22" href="841/496251.tif"/>
-         <dao daotype="derived" coverage="whole" label="23" href="841/496252.tif"/>
-         <dao daotype="derived" coverage="whole" label="24" href="841/496253.tif"/>
-         <dao daotype="derived" coverage="whole" label="25" href="841/496254.tif"/>
-         <dao daotype="derived" coverage="whole" label="26" href="841/496255.tif"/>
-         <dao daotype="derived" coverage="whole" label="27" href="841/496256.tif"/>
-         <dao daotype="derived" coverage="whole" label="28" href="841/496257.tif"/>
-         <dao daotype="derived" coverage="whole" label="29" href="841/496258.tif"/>
-         <dao daotype="derived" coverage="whole" label="3" href="841/496232.tif"/>
-         <dao daotype="derived" coverage="whole" label="30" href="841/496259.tif"/>
-         <dao daotype="derived" coverage="whole" label="31" href="841/496260.tif"/>
-         <dao daotype="derived" coverage="whole" label="32" href="841/496261.tif"/>
-         <dao daotype="derived" coverage="whole" label="33" href="841/496262.tif"/>
-         <dao daotype="derived" coverage="whole" label="34" href="841/496263.tif"/>
-         <dao daotype="derived" coverage="whole" label="35" href="841/496264.tif"/>
-         <dao daotype="derived" coverage="whole" label="36" href="841/496265.tif"/>
-         <dao daotype="derived" coverage="whole" label="37" href="841/496266.tif"/>
-         <dao daotype="derived" coverage="whole" label="38" href="841/496267.tif"/>
-         <dao daotype="derived" coverage="whole" label="39" href="841/496268.tif"/>
-         <dao daotype="derived" coverage="whole" label="4" href="841/496233.tif"/>
-         <dao daotype="derived" coverage="whole" label="40" href="841/496269.tif"/>
-         <dao daotype="derived" coverage="whole" label="41" href="841/496270.tif"/>
-         <dao daotype="derived" coverage="whole" label="42" href="841/496271.tif"/>
-         <dao daotype="derived" coverage="whole" label="43" href="841/496272.tif"/>
-         <dao daotype="derived" coverage="whole" label="44" href="841/496273.tif"/>
-         <dao daotype="derived" coverage="whole" label="5" href="841/496234.tif"/>
-         <dao daotype="derived" coverage="whole" label="6" href="841/496235.tif"/>
-         <dao daotype="derived" coverage="whole" label="7" href="841/496236.tif"/>
-         <dao daotype="derived" coverage="whole" label="8" href="841/496237.tif"/>
-         <dao daotype="derived" coverage="whole" label="9" href="841/496238.tif"/>
-         <dao daotype="derived" coverage="whole" label="Umschlagblatt hinten r" href="841/496274.tif"/>
-         <dao daotype="derived" coverage="whole" label="Umschlagblatt hinten v" href="841/496275.tif"/>
-         <dao daotype="derived" coverage="whole" label="Umschlagblatt vorne v" href="841/496229.tif"/>
-      </daoset>
    </did>
 
 
@@ -90,15 +41,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Staufer</part>
          <part localtype="vorname">Vinzenz</part>
       </persname>
@@ -112,11 +63,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -125,10 +80,7 @@
       <head>Beschreibung</head>
       <p>Bei Cod. s.n. handelt es sich um 16 lose Faszikel (= Pez-Catalogus 1–16) mit Umschlägen und Aufschriften des 19. Jh., ohne Zählung (678 Seiten). BP, "Catalogus manuscriptorum qui in bibliotheca monasterii Mellicensis servantur". Systematisches Register zu den mittelalterlichen Melker Hss., in jeder Systematikkategorie geordnet nach Autoren, darauf folgen die Anonyma. I (Numerierung hinzugefügt, Titel meist von BP am ersten Blatt recto, auf dem Umschlag von Mayer oder Staufer wiederholt, manchmal in leichter Abänderung) = Bibliorum Interpretes seu Biblia et interpretes, II = SS. Patres, III = Theologi Scholastici. (auf dem Umschlag hinzugefügt: "Catalogus sat amplus"?), IV = Theologi, V = Canonistae, VI = Homiletici, VII = Ritualia, VIII = Ascetae, IX = Philosophi, X = Historici, XI = Iuris consulti, XII = Grammatici, XIII = Oratores, XIV = Medici, XV = Poetae, XVI = Inedita. Bearbeiter und Schreiber BP.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Cod. s.n.: Christine GLASSNER, Neuzeitliche Handschriften aus dem Nachlass der Brüder Bernhard und Hieronymus Pez in der Bibliothek des Benediktinerstiftes Melk (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 372 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe IV 7, Wien 2008). Zu mittelalterlichen Melker Handschriften: Christine GLASSNER–Alois HAIDINGER, Inventar der Handschriften des Benediktinerstiftes Melk, Teil 1: Von den Anfängen bis ca. 1400 (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 285 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe II 8/1, 2 Bde., Wien 2000). Zu Mayer und Staufer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855).</p>
-   </bibliography>
+
 
 
 

@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 39</unitid>
       <unittitle>Abschrift eines Briefes, vermutlich Gerhochs von Reichersberg</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/413143.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="236/413143.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="236/413144.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="236/413145.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="236/413146.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="236/413147.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="236/413148.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="236/413149.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="236/413150.tif"/>
-      </daoset>
    </did>
 
 
@@ -47,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name"/>
          <part localtype="vorname">Gerhoch von Reichersberg</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -65,10 +57,13 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2033438-2" source="GND">
          <part>geistliche</part>
          <part>Augustiner-Chorherren</part>
          <part>Reichersberg</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2033438-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/245395737</part>
+         <part localtype="identifier">http://www.geonames.org/2767754/reichersberg.html</part>
       </corpname>
    </controlaccess>
 
@@ -77,10 +72,7 @@
       <head>Beschreibung</head>
       <p>Abschrift eines Briefes, der Gerhoch von Reichersberg zugeschrieben werden kann und in ÖNB Wien, Cod. 1754 fol. 144r–149v (vormals Mondseer Cod.) überliefert ist. Auf der Abschrift ist vermerkt, dass der Brief in der Handschrift auf einen Brief Gerhochs an eine Unbekannte folgt, der mit "Rogas et rogando cogis filia in Christo karissima" (fol. 135r–144r) beginnt und den BP in seinem Thesaurus anecdotorum novissimus, 6 (Augsburg 1729) abgedruckt hat.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu dem unbekannten Brief: Peter CLASSEN, Gerhoch von Reichersberg. Eine Biographie mit einem Anhang über die Quellen, ihre handschriftliche Überlieferung und ihre Chronologie (Wiesbaden 1960) 463. Zum Thesaurus: Christine GLASSNER, Der "Thesaurus anecdotorum novissimus" des Melker Benediktiners Bernhard Pez. SMGB 113 (2002) 341–370. Zu Cod. 1754: Tabulae codicum manu scriptorum praeter graecos et orientales in Bibliotheca Palatina Vindobonensi asservatorum, 1: Cod. 1–2000, ed. Academia Caesarea Vindobonensis (Wien 1864).</p>
-   </bibliography>
+
 
 
 

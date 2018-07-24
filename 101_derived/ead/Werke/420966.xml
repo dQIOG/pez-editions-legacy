@@ -13,28 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz3">Faszikel 3</container>
+      <unitid>Nr. 05</unitid>
       <unittitle>Manuskript: BP, "Patris Bernardi Pezii ad illustrissimum comitem Josephum Casimirum de *** pro venerabilis virginis Agnetis Blanbekianae vita et revelationibus epistola"</unittitle>
-      <unitdate>1731</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/420966.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1" href="417/420966.tif"/>
-         <dao daotype="derived" coverage="whole" label="10" href="417/420975.tif"/>
-         <dao daotype="derived" coverage="whole" label="11" href="417/420976.tif"/>
-         <dao daotype="derived" coverage="whole" label="12" href="417/420977.tif"/>
-         <dao daotype="derived" coverage="whole" label="13" href="417/420978.tif"/>
-         <dao daotype="derived" coverage="whole" label="14" href="417/420979.tif"/>
-         <dao daotype="derived" coverage="whole" label="15" href="417/420980.tif"/>
-         <dao daotype="derived" coverage="whole" label="16" href="417/420981.tif"/>
-         <dao daotype="derived" coverage="whole" label="2" href="417/420967.tif"/>
-         <dao daotype="derived" coverage="whole" label="3" href="417/420968.tif"/>
-         <dao daotype="derived" coverage="whole" label="4" href="417/420969.tif"/>
-         <dao daotype="derived" coverage="whole" label="5" href="417/420970.tif"/>
-         <dao daotype="derived" coverage="whole" label="6" href="417/420971.tif"/>
-         <dao daotype="derived" coverage="whole" label="7" href="417/420972.tif"/>
-         <dao daotype="derived" coverage="whole" label="8" href="417/420973.tif"/>
-         <dao daotype="derived" coverage="whole" label="9" href="417/420974.tif"/>
-      </daoset>
    </did>
 
 
@@ -58,11 +42,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Sinzendorf</part>
          <part localtype="vorname">Joseph Bernhard Graf</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -76,11 +60,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>weltliche</part>
@@ -93,10 +81,7 @@
       <head>Beschreibung</head>
       <p>Manuskript: BP, "Patris Bernardi Pezii ad illustrissimum comitem Josephum Casimirum de *** pro venerabilis virginis Agnetis Blanbekianae vita et revelationibus epistola". Das Manuskript enthält jedoch im Gegensatz zu Manuskript (Abschrift von HP?) in Karton 7 Patres 9, Fasz. 2, Nr. 1 lediglich folgenden Brief: BP an Sinzendorf (1731-04-13). Der Brief wurde nicht gedruckt, vgl. dazu auch StiB Melk, Druck Nr. 32363.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu BPs Agnes Blannbekin: Stefan BENZ, Zwischen Tradition und Kritik. Katholische Geschichtsschreibung im barocken Heiligen Römischen Reich (Historische Studien 473, Husum 2003). Zu dem Sammelband 32363: Christine GLASSNER, Neuzeitliche Handschriften aus dem Nachlass der Brüder Bernhard und Hieronymus Pez in der Bibliothek des Benediktinerstiftes Melk (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse. Denkschriften 372 = Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, Reihe IV 7, Wien 2008). Zu (unveröffentlichten) Werken BPs: Koloman SCHÖNHOFER, P. Bernhard Pez (22.2.1683–27.3.1735), P. Hieronymus Pez (24.2.1685–14.10.1762), Benediktiner von Melk (Leben, Bedeutung und Werke) (ungedr. theol. Dipl.Arb., Innsbruck 1973). Zu Sinzendorf: Rudolf REINHARDT, Konvertiten und deren Nachkommen in der Reichskirche der Frühen Neuzeit. Rottenburger Jahrbuch für Kirchengeschichte 8 (1989) 9–37.</p>
-   </bibliography>
+
 
 
 

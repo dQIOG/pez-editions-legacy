@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 29</unitid>
       <unittitle>Abschrift einer Grabinschrift der Johanna von Lamberg in Tittmoning aus Aicher, Theatrum funebre</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/419010.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="345/419010.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="345/419011.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Lamberg</part>
          <part localtype="vorname">Johanna von</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00478724 / http://thesaurus.cerl.org/record/cnp00065151</part>
          <part localtype="identifier">http://viaf.org/viaf/88675904</part>
          <part localtype="identifier">http://d-nb.info/gnd/124578225</part>
@@ -69,21 +67,28 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>weltliche</part>
          <part>Wien - Hof</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/16189200-0" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Salzburgische Kongregation</part>
          <part>St. Veit an der Rott</part>
+         <part localtype="identifier">http://d-nb.info/gnd/16189200-0</part>
+         <part localtype="identifier">http://viaf.org/viaf/187715082</part>
+         <part localtype="identifier">http://www.geonames.org/2864547/neumarkt-sankt-veit.html</part>
       </corpname>
    </controlaccess>
 
@@ -92,10 +97,7 @@
       <head>Beschreibung</head>
       <p>Abschrift einer Grabinschrift der Johanna von Lamberg aus Otto AICHER, Theatrum funebre (4 Bde., Salzburg 1673–1675). Das Grab befand sich bis Anfang des 20. Jh. in der Kirche St. Laurentius in Tittmoning. Es war jedoch bei einem Brand 1815 stark beschädigt worden, weshalb man es bei der Renovierung 1933/34 aus dem Gotteshaus entfernt hat (für diese Auskunft und für den Literaturhinweis zum Grab danken wir Stiftssakristan und -sekretariatsleiter Rainer Zimmermann, Tittmoning).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Aicher und seinem Theatrum funebre: Thomas NEUKIRCHEN, Inscriptio. Rhetorik und Poetik der Scharfsinningen Inschrift im Zeitalter des Barock (Studien zur deutschen Literatur 152, Tübingen 1999). Zu Johanna von Lamberg: Stefan SIENELL, Die Geheime Konferenz unter Kaiser Leopold I. Personelle Strukturen und Methoden zur politischen Entscheidungsfindung am Wiener Hof (Beiträge zur Neueren Geschichte Österreichs 17, Frankfurt am Main–Berlin–Wien u.a. 2001). Zum Grab der Johanna von Lamberg in Tittmoning: Dieter GEORGE–Franz LUDWIG, Geschichte in Erz und Stein: Tittmoninger Inschriften und Steindenkmale aus fünf Jahrhunderten (Tittmoning 2003).</p>
-   </bibliography>
+
 
 
 

@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 24</unitid>
       <unittitle>Schriftstellerkatalog von Beinwil-Mariastein</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/418989.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="340/418989.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="340/418990.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="340/418991.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="340/418992.tif"/>
-      </daoset>
    </did>
 
 
@@ -46,67 +42,67 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Herzberg</part>
          <part localtype="vorname">Gregor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Staal</part>
          <part localtype="vorname">Johann Baptist</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Bröchin</part>
          <part localtype="vorname">Vitalis</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Ammann</part>
          <part localtype="vorname">Ägidius</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Honegger</part>
          <part localtype="vorname">Bonaventura</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Böglin</part>
          <part localtype="vorname">Joachim</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Greutter</part>
          <part localtype="vorname">Anselm</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Böschung</part>
          <part localtype="vorname">Heinrich</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Finck</part>
          <part localtype="vorname">Vinzenz</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Kiefer</part>
          <part localtype="vorname">Fintan</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Delsberg</part>
          <part localtype="vorname">Urs Graf</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Caesar</part>
          <part localtype="vorname">Heinrich</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Schwaller</part>
          <part localtype="vorname">Benedikt</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Kiefer</part>
          <part localtype="vorname">Anton</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Acklin</part>
          <part localtype="vorname">Vinzenz</part>
       </persname>
@@ -123,17 +119,24 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1087569400" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Helvetische Kongregation</part>
          <part>Beinwil-Mariastein</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1087569400</part>
+         <part localtype="identifier">http://viaf.org/viaf/1590145857084322921751</part>
+         <part localtype="identifier">http://www.geonames.org/2659762/mariastein.html</part>
       </corpname>
    </controlaccess>
 
@@ -142,10 +145,7 @@
       <head>Beschreibung</head>
       <p>Schriftstellerkatalog von Beinwil-Mariastein, Hand Mayer. Auszug aus bzw. Abschrift eines Schriftstellerkatalogs von Beinwil-Mariastein in Karton 85 Varia 23, Fasz. 2, Nr. 25.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Schriftstellern: Rudolf HENGGELER, Monasticon-Benedictinum Helvetiae, 4: Profeßbuch der Benediktinerabteien St. Martin in Disentis, St. Vinzenz in Beinwil und U. L. Frau von Mariastein, St. Leodegar und St. Mauritius im Hof zu Luzern, Allerheiligen in Schaffhausen, St. Georg zu Stein am Rhein, Sta. Maria zu Wagenhausen, Hl. Kreuz und St. Johannes Ev. zu Trub, St. Johann im Thurtal (Zug 1955); Lukas SCHENKER, Beinwil-Mariastein, in: Helvetia Sacra, Abt. III: Die Orden mit Benediktinerregel, 1: Frühe Klöster, die Benediktiner und Benediktinerinnen in der Schweiz, Teil 1, hg. von Elsanne GILOMEN-SCHENKEL (Bern 1986) 384–421.</p>
-   </bibliography>
+
 
 
 

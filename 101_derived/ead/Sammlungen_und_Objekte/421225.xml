@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz3">Faszikel 3</container>
+      <unitid>Nr. 18</unitid>
       <unittitle>Werkskatalog benediktinischer Schriftsteller in Gladbach</unittitle>
-      <unitdate>1694 - 1712</unitdate>
       <didnote localtype="datenote">Werkkatalog Stand von 1694, Beilage zu Brief aus 1712-05-09.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/421225.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="430/421225.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="430/421226.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,35 +39,35 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Weishaupt</part>
          <part localtype="vorname">Wolfgang</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Honn (Oeding)</part>
          <part localtype="vorname">Wilhelm</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Metzler</part>
          <part localtype="vorname">Thomas</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Mesenich</part>
          <part localtype="vorname">Anton</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Krodt</part>
          <part localtype="vorname">Anselm</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Overham</part>
          <part localtype="vorname">Adolph</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Heinlein</part>
          <part localtype="vorname">Heinrich</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00577175 / 
 http://thesaurus.cerl.org/record/cnp00101747</part>
          <part localtype="identifier">http://viaf.org/viaf/316731544 / http://viaf.org/viaf/120785919</part>
@@ -77,11 +75,11 @@ http://thesaurus.cerl.org/record/cnp00101747</part>
          <part localtype="name">Bertels</part>
          <part localtype="vorname">Johannes</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Illem</part>
          <part localtype="vorname">Odo</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -101,11 +99,14 @@ http://thesaurus.cerl.org/record/cnp00101747</part>
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2089329-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Helvetische Kongregation</part>
          <part>Einsiedeln</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2089329-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/143458106</part>
+         <part localtype="identifier">http://www.geonames.org/2660925/einsiedeln.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -113,11 +114,15 @@ http://thesaurus.cerl.org/record/cnp00101747</part>
          <part>Bursfelder Kongregation</part>
          <part>Köln - Deutz</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/5024707-4" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Oberschwäbische Kongregation</part>
          <part>Zwiefalten</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20399</part>
+         <part localtype="identifier">http://d-nb.info/gnd/5024707-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/146121339</part>
+         <part localtype="identifier">http://www.geonames.org/2803545/zwiefalten.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -131,33 +136,53 @@ http://thesaurus.cerl.org/record/cnp00101747</part>
          <part>Bursfelder Kongregation</part>
          <part>Köln - St. Pantaleon</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/16209420-6" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Werden</part>
+         <part localtype="identifier">http://d-nb.info/gnd/16209420-6</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1024787133</part>
+         <part localtype="identifier">http://viaf.org/viaf/199039778</part>
+         <part localtype="identifier">http://viaf.org/viaf/235272626</part>
+         <part localtype="identifier">http://www.geonames.org/2810961/werden.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4695300-0" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bursfelder Kongregation</part>
          <part>Theres</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/60395</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4695300-0</part>
+         <part localtype="identifier">http://viaf.org/viaf/248290664</part>
+         <part localtype="identifier">http://www.geonames.org/2858791/obertheres.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/16277855-7" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bursfelder Kongregation</part>
          <part>Gladbach</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3513</part>
+         <part localtype="identifier">http://d-nb.info/gnd/16277855-7</part>
+         <part localtype="identifier">http://d-nb.info/gnd/5345265-3</part>
+         <part localtype="identifier">http://viaf.org/viaf/266131839</part>
+         <part localtype="identifier">http://viaf.org/viaf/141628585</part>
+         <part localtype="identifier">http://viaf.org/viaf/200220285</part>
+         <part localtype="identifier">http://www.geonames.org/2869894/moenchengladbach.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Luxemburgische Klöster</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -174,10 +199,7 @@ http://thesaurus.cerl.org/record/cnp00101747</part>
       <head>Beschreibung</head>
       <p>Katalog von Werken benediktinischer Schriftsteller in Gladbach, Hand Illem. Honn vielleicht identisch mit Wilhelm Oeding von Deutz? Beilage zu Illem an BP (1712-05-09). Eine Abschrift ist erhalten in Karton 7 Patres 9, Fasz. 2, Nr. 89 = Abschriftencodex (AC) fol. 41r–42r.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Weishaupt: Rudolf HENGGELER, Monasticon-Benedictinum Helvetiae, 3: Profeßbuch der fürstl. Benediktinerabtei U. L. Frau zu Einsiedeln. Festgabe zum tausendjährigen Bestand des Klosters (Zug 1933). Zu Honn (Oeding), Mesenich, Krodt: Paulus VOLK, Die Generalkapitels-Rezesse der Bursfelder Kongregation (4 Bde., Siegburg 1955–1972). Zu Metzler: Pirmin LINDNER, Fünf Professbücher süddeutscher Benediktiner-Abteien. Beiträge zu einem Monasticon-benedictinum Germaniae, 3: Professbuch der Benediktiner-Abtei Zwiefalten (Kempten–München 1910). Zu Krodt: Adolph THOMAS, Geschichte der Pfarre St. Mauritius zu Köln (Köln 1878). Zu Overham: Wilhelm STÜWER, Werden, in: Germania Benedictina, 8: Die Benediktinerklöster in Nordrhein-Westfalen, hg. von Rhaban HAACKE (St. Ottilien 1980) 575–607. Zu Heinlein: Adelhard KASPAR, Zur inneren Geschichte der Abtei Neustadt am Main. Würzburger Diözesangeschichtsblätter 30 (1968) 208–227. Zu Bertels: Philibert SCHMITZ, Bertels (Jean), in: Dictionnaire d’histoire et de géographie ecclésiastiques, 8: Benoît – Biscioni, hg. von Alfred BAUDRILLART et al. (Paris 1935) col. 933–935; Edmund SCHNEIDER, Johannes Bertels, O.S.B., Abt von Münster und Echternach. (Ein Beitrag zur Geschichte des Benedictinerordens auf luxemburger Boden). SMGB 17 (1896) 269–276, 429–437. Zu Illem: Hans BANGE–Wolfgang LÖHR, Gladbach, in: Germania Benedictina, 8: Die Benediktinerklöster in Nordrhein-Westfalen, hg. von Rhaban HAACKE (St. Ottilien 1980) 323–351. Zu Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</p>
-   </bibliography>
+
 
 
 

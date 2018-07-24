@@ -13,24 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 54</unitid>
       <unittitle>Notizen von der Oberösterreich-Reise der Brüder Pez (1715?)</unittitle>
-      <unitdate>ca. 1715</unitdate>
       <didnote localtype="datenote">1715 besuchten die Brüder Pez Klosterbibliotheken in Oberösterreich (Garsten, Gleink, St. Florian, Kremsmünster, Lambach, Waldhausen, Wilhering).</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/409304.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="72/409304.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="72/409305.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="72/409306.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="72/409307.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="72/409308.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="72/409309.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="72/409310.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="72/409311.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="72/409312.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="72/409313.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="72/409314.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="72/409315.tif"/>
-      </daoset>
    </did>
 
 
@@ -54,11 +42,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01325300 / 
 http://thesaurus.cerl.org/record/cnp00398070</part>
          <part localtype="identifier">http://viaf.org/viaf/36948387 / http://viaf.org/viaf/210863608</part>
@@ -77,23 +65,35 @@ http://thesaurus.cerl.org/record/cnp00398070</part>
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1048727-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Lambach</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3196</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1048727-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/143705101</part>
+         <part localtype="identifier">http://www.geonames.org/8410618/stift-lambach.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4135713-9" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Gleink</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/4033</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4135713-9</part>
+         <part localtype="identifier">http://viaf.org/viaf/243487008</part>
+         <part localtype="identifier">http://www.geonames.org/2778486/gleink.html</part>
       </corpname>
    </controlaccess>
 
@@ -102,10 +102,7 @@ http://thesaurus.cerl.org/record/cnp00398070</part>
       <head>Beschreibung</head>
       <p>Liste hauptsächlich gedruckter Werke, darunter viele, aber nicht alle von Benediktinern; jüngstes 1713. Zwischendurch Notizen wie "Thomas de Haselbach vocatur magnificus in quodam codice manuscripto Gluniacensi" (3v) oder die Nachzeichnung einer römischen Inschrift aus dem Lapidarium von Lambach (5v). Wahrscheinlich Notizen von der Bibliotheksreise nach Oberösterreich im Jahr 1715.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu der Bibliotheksreise nach Oberösterreich: Eduard Ernst KATSCHTHALER, Über Bernhard Pez und dessen Briefnachlass. Jahresbericht des k.k. Obergymnasiums zu Melk 39 (1889) 3–106; Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</p>
-   </bibliography>
+
 
 
 

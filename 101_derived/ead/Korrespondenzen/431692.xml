@@ -13,24 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia25">Kt. 85 Varia 25</container>
+      <container localtype="file" containerid="melk_Kt85Varia25_fz1">Faszikel 1</container>
+      <unitid>Nr. 78</unitid>
       <unittitle>Deutsche Regesten zu Pez-Briefen</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/431692.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="682/431692.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="682/431693.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="682/431694.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="682/431695.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="682/431696.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="682/431697.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="682/431698.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="682/431699.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="682/431700.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="682/431701.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="682/431702.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="682/431703.tif"/>
-      </daoset>
    </did>
 
 
@@ -51,76 +39,76 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00378571</part>
          <part localtype="identifier">http://viaf.org/viaf/40112353</part>
          <part localtype="identifier">http://d-nb.info/gnd/115629203</part>
          <part localtype="name">Gentilotti</part>
          <part localtype="vorname">Johann Benedikt</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01482634</part>
          <part localtype="identifier">http://viaf.org/viaf/52441754</part>
          <part localtype="identifier">http://d-nb.info/gnd/116439475</part>
          <part localtype="name">Garelli</part>
          <part localtype="vorname">Pius Nikolaus</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Struve</part>
          <part localtype="vorname">Burkhard Gotthelf</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01340507</part>
          <part localtype="identifier">http://viaf.org/viaf/17304078 / http://viaf.org/viaf/245288143</part>
          <part localtype="identifier">http://d-nb.info/gnd/100061362 / http://d-nb.info/gnd/186330340</part>
          <part localtype="name">Buder</part>
          <part localtype="vorname">Christian Gottlieb</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mencke</part>
          <part localtype="vorname">Johann Burkhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Zeno</part>
          <part localtype="vorname">Apostolo</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Liebknecht</part>
          <part localtype="vorname">Johann Georg</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Iselin</part>
          <part localtype="vorname">Jakob Christoph</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Meichelbeck</part>
          <part localtype="vorname">Karl</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Passionei</part>
          <part localtype="vorname">Domenico Silvio</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Quirini</part>
          <part localtype="vorname">Angelo Maria</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Schannat</part>
          <part localtype="vorname">Johann Friedrich</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Schwarz</part>
          <part localtype="vorname">Christian Gottlieb</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Spannagel</part>
          <part localtype="vorname">Gottfried Philipp</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
@@ -143,11 +131,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>weltliche</part>
@@ -169,11 +161,15 @@
          <part>weltliche</part>
          <part>Basel - Universität</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4212238-7" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Benediktbeuern</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/1061</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4212238-7</part>
+         <part localtype="identifier">http://viaf.org/viaf/28145424487686830934</part>
+         <part localtype="identifier">http://www.geonames.org/2951104/benediktbeuern.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -370,10 +366,7 @@
       <head>Beschreibung</head>
       <p>Deutsche Regesten von Briefen meist weltlicher Gelehrter an BP, Hand Mayer? Datierungen teilweise irrig.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Briefen: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. Zu Gentilotti, Struve, Buder, Mencke, Zeno, Passionei, Schannat, Spannagel: Stefan BENZ, Zwischen Tradition und Kritik. Katholische Geschichtsschreibung im barocken Heiligen Römischen Reich (Historische Studien 473, Husum 2003). Zu Meichelbeck: Thomas STOCKINGER, War Karl Meichelbeck ein "deutscher Mauriner"?, in: Europäische Geschichtskulturen um 1700 zwischen Gelehrsamkeit, Politik und Konfession, hg. von Thomas WALLNIG–Thomas STOCKINGER–Ines PEPER–Patrick FISKA (Berlin–Boston 2012) 135–168. Zu Garelli: Laurenz STREBL, Die barocke Bibliothek (1663–1739), in: Geschichte der Österreichischen Nationalbibliothek, 1: Die Hofbibliothek (1368–1922), hg. von Josef STUMMVOLL (Museion. Veröffentlichungen der Österreichischen Nationalbibliothek N. F., Zweite Reihe: Allgemeine Veröffentlichungen 3/1, Wien 1968) 163–217. Zu Liebknecht: Andreas KLEINERT, Naturwissenschaften und Mathematik in Gießen im 18. Jahrhundert, in: Form, Zahl, Ordnung: Studien zur Wissenschafts- und Technikgeschichte. Festschrift für Ivo SCHNEIDER zum 65. Geburtstag, hg. von Rudolf SEISING–Menso FOLKERTS–Ulf HASHAGEN (Boethius Band 48, Stuttgart 2004) 563–576. Zu Iselin: Fritz HEITZ, Johann Rudolf Iselin 1705–1779. Ein Beitrag zur Geschichte der schweizerischen Historiographie des 18. Jahrhunderts (Basler Beiträge zur Geschichtswissenschaft 32, Basel 1949). Zu Quirini: Friedrich LAUCHERT, Zu den wissenschaftlichen Bestrebungen des P. Oliverius Legipontius (O. S. B.). Seine Beziehungen zu dem Cardinal Angelo Maria Quirini (O. S. B.). Studien und Mittheilungen aus dem Benedictiner- und dem Cistercienser-Orden mit besonderer Berücksichtigung der Ordensgeschichte und Statistik 23 (1902) 432–439. Zu Schwarz: Gunda WERNER–Eleonore SCHMIDT-HERRLING, Die Bibliotheken der Universität Altdorf (Beiheft zum Zentralblatt für Bibliothekswesen 69, Wiesbaden 1968).</p>
-   </bibliography>
+
 
 
 

@@ -13,40 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz1">Faszikel 1</container>
+      <unitid>Nr. 11</unitid>
       <unittitle>Handschriftenkatalog von St. Gallen</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/424134.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="512/424134.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="512/424152.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="512/424153.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="512/424154.tif"/>
-         <dao daotype="derived" coverage="whole" label="11v" href="512/424155.tif"/>
-         <dao daotype="derived" coverage="whole" label="12r" href="512/424156.tif"/>
-         <dao daotype="derived" coverage="whole" label="12v" href="512/424157.tif"/>
-         <dao daotype="derived" coverage="whole" label="13r" href="512/424158.tif"/>
-         <dao daotype="derived" coverage="whole" label="13v" href="512/424159.tif"/>
-         <dao daotype="derived" coverage="whole" label="14r" href="512/424160.tif"/>
-         <dao daotype="derived" coverage="whole" label="14v" href="512/424161.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="512/424135.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="512/424136.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="512/424137.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="512/424138.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="512/424139.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="512/424140.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="512/424141.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="512/424142.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="512/424143.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="512/424144.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="512/424145.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="512/424146.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="512/424147.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="512/424148.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="512/424149.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="512/424150.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="512/424151.tif"/>
-      </daoset>
    </did>
 
 
@@ -67,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Müller</part>
          <part localtype="vorname">Moritz</part>
       </persname>
@@ -81,11 +53,14 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1088891446" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Helvetische Kongregation</part>
          <part>St. Gallen</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1088891446</part>
+         <part localtype="identifier">http://viaf.org/viaf/266765811</part>
+         <part localtype="identifier">http://www.geonames.org/2658822/sankt-gallen.html</part>
       </corpname>
    </controlaccess>
 
@@ -94,10 +69,7 @@
       <head>Beschreibung</head>
       <p>Handschriftenkatalog von St. Gallen (in drei Teilen) mit dem Titel: "Pauperis Viduae tria aera minuta in Gazophylacium, hoc est Bibliothecae S. Galli nuper exspoliatae manuscriptorum tres partes", der dritte Teil wohl von der Hand Müllers. Anmerkung nach dem Titel (fol. 1r), dass vorliegender Katalog für BPs Thesaurus nach Melk versandt wurde.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu St. Galler Handschriften: Gustav SCHERRER, Verzeichniss der Handschriften der Stiftsbibliothek von St. Gallen (Halle 1875). Zu Müller: Thomas STOCKINGER, "Fidelis tametsi inutilis servus". P. Moritz Müller OSB (St. Gallen) in seiner historisch-literarischen und politisch-diplomatischen Tätigkeit im Spiegel seiner Korrespondenz 1709–1714. SMGB 118 (2007) 339–432.</p>
-   </bibliography>
+
 
 
 

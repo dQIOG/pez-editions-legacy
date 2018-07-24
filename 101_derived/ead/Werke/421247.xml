@@ -13,18 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz3">Faszikel 3</container>
+      <unitid>Nr. 21</unitid>
       <unittitle>Abschrift HPs der Steirischen Reimchronik (ÖNB Wien, Cod. 3040)</unittitle>
-      <unitdate>um 1722</unitdate>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/421247.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="433/421247.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="433/421248.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="433/421249.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="433/421250.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="433/421251.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="433/421252.tif"/>
-      </daoset>
    </did>
 
 
@@ -45,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name"/>
          <part localtype="vorname">Ottokar aus der Gaal</part>
       </persname>
@@ -63,11 +57,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -76,10 +74,7 @@
       <head>Beschreibung</head>
       <p>(Teilweise) Abschrift HPs der Österreichischen Reimchronik von Ottokar aus der Gaal aus ÖNB Wien, Cod. 3040 (vgl. Notizen fol. 3v), angefertigt (laut Reisenotiz fol. 3v) 1722. Am Anfang unvollständig. Die gesamte Reimchronik wurde veröffentlicht in HP, Scriptores rerum Austriacarum, 3 (Regensburg 1745).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu HPs Werken: Koloman SCHÖNHOFER, P. Bernhard Pez (22.2.1683–27.3.1735), P. Hieronymus Pez (24.2.1685–14.10.1762), Benediktiner von Melk (Leben, Bedeutung und Werke) (ungedr. theol. Dipl.Arb., Innsbruck 1973). Zu Cod. 3040: Hermann MENHARDT, Verzeichnis der altdeutschen literarischen Handschriften der österreichischen Nationalbibliothek (Veröffentlichungen des Instituts für deutsche Sprache und Literatur 13, 3 Bde., Berlin 1960–1961). Edition der Chronik: Ottokars Österreichische Reimchronik, hg. von Joseph SEEMÜLLER (MGH Deutsche Chroniken und andere Geschichtsbucher des Mittelalters 5, 2 Teile, Hannover 1890–1893).</p>
-   </bibliography>
+
 
 
 

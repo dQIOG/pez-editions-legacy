@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 40</unitid>
       <unittitle>Briefauszüge: Alphons Hueber an BP</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/419500.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="356/419500.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="356/419501.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="356/419502.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="356/419503.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Hueber</part>
          <part localtype="vorname">Alphons</part>
       </persname>
@@ -68,17 +64,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/809501-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Tegernsee</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3551</part>
+         <part localtype="identifier">http://d-nb.info/gnd/809501-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/139580416</part>
+         <part localtype="identifier">http://www.geonames.org/2823679/tegernsee.html</part>
       </corpname>
    </controlaccess>
 
@@ -98,10 +102,7 @@
       <head>Beschreibung</head>
       <p>Auszüge aus den Briefen Alphons Hueber an BP, Hand Mayer. Datierungen teilweise irrig.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Briefen bis 1715: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</p>
-   </bibliography>
+
 
 
 

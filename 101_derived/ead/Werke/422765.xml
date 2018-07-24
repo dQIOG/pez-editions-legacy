@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia22">Kt. 85 Varia 22</container>
+      <container localtype="file" containerid="melk_Kt85Varia22_fz2">Faszikel 2</container>
+      <unitid>Nr. 06</unitid>
       <unittitle>Exzerpte BPs aus den Annales Fuldenses</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/422765.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="471/422765.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="471/422766.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="471/422767.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="471/422768.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -57,11 +53,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -70,10 +70,7 @@
       <head>Beschreibung</head>
       <p>Exzerpte BPs aus den Annales Fuldenses, am Beginn und am Ende unvollständig, beginnt mit dem Jahr 848 und endet 882.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Edition der Annales: Annales Fuldenses, hg. von Georg Heinrich PERTZ–Friedrich KURZE (MGH SS rerum Germanicarum in usum scholarum, Hannover 1891; Nachdruck Hannover 1993).</p>
-   </bibliography>
+
 
 
 

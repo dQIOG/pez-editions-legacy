@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 84</unitid>
       <unittitle>Briefauszug: Duff an BP</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/420283.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="400/420283.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="400/420288.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="400/420289.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="400/420290.tif"/>
-      </daoset>
    </did>
 
 
@@ -46,19 +42,19 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Trithemius</part>
          <part localtype="vorname">Johannes</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Duff</part>
          <part localtype="vorname">Augustin</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
@@ -75,11 +71,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -102,10 +102,7 @@
       <head>Beschreibung</head>
       <p>Auszug aus einem Brief Duff an BP, darin Werkskatalog des Trithemius und Auflistung seiner Werke in der Bibliothek des Schottenklosters St. Jakob zu Würzburg, Hand Mayer.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Briefen: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. Zum Schottenkloster: Michael WIELAND, Das Schottenkloster zu St. Jakob in Würzburg. Archiv des historischen Vereines von Unterfranken und Aschaffenburg 16/2–3 (1863) 1–182.</p>
-   </bibliography>
+
 
 
 

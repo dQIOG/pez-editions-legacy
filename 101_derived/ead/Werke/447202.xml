@@ -13,18 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia30">Kt. 85 Varia 30</container>
+      <container localtype="file" containerid="melk_Kt85Varia30_fz1">Faszikel 1</container>
+      <unitid>Nr. 08</unitid>
       <unittitle>Exzerpt, Handschriftenkatalog von St. Emmeram zu Regensburg</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/447202.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="9" href="747/447202.tif"/>
-         <dao daotype="derived" coverage="whole" label="10" href="747/447203.tif"/>
-         <dao daotype="derived" coverage="whole" label="11" href="747/447204.tif"/>
-         <dao daotype="derived" coverage="whole" label="12" href="747/447205.tif"/>
-         <dao daotype="derived" coverage="whole" label="13" href="747/447206.tif"/>
-         <dao daotype="derived" coverage="whole" label="14" href="747/447207.tif"/>
-      </daoset>
    </did>
 
 
@@ -48,11 +42,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Menger</part>
          <part localtype="vorname">Dionysius</part>
       </persname>
@@ -69,11 +63,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -88,10 +86,7 @@
       <head>Beschreibung</head>
       <p>Exzerpt aus dem Handschriftenkatalog von St. Emmeram zu Regensburg, Hand BP. Der Katalog wurde 1500 von Menger verfasst (= heute BStB München, Clm 14675). Vgl. 1. Teil des Katalogs in Karton 85 Varia 23, Fasz. 1, Nr. 35.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Menger und seinem Katalog: Bernhard BISCHOFF, Mittelalterliche Studien. Ausgewählte Aufsätze zur Schriftkunde und Literaturgeschichte (3 Bde., Stuttgart 1966–1981). Zu Clm 14675: Karl HALM–Georg von LAUBMANN–Wilhelm MEYER, Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis, 4/2: Catalogus codicum Latinorum Bibliothecae Regiae Monacensis. Secundum Andreae Schmelleri Indices, 2/2: Codices latinos (Clm) 11001–15028 complectens (München 1876).</p>
-   </bibliography>
+
 
 
 

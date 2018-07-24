@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 69</unitid>
       <unittitle>Briefauszüge: Garelli und Liebknecht an BP</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/420049.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="385/420049.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="385/420050.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="385/420051.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="385/420052.tif"/>
-      </daoset>
    </did>
 
 
@@ -38,22 +34,22 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01482634</part>
          <part localtype="identifier">http://viaf.org/viaf/52441754</part>
          <part localtype="identifier">http://d-nb.info/gnd/116439475</part>
          <part localtype="name">Garelli</part>
          <part localtype="vorname">Pius Nikolaus</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Liebknecht</part>
          <part localtype="vorname">Johann Georg</part>
       </persname>
@@ -74,11 +70,15 @@
          <part>weltliche</part>
          <part>Wien - Hof</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>weltliche</part>
@@ -108,10 +108,7 @@
       <head>Beschreibung</head>
       <p>Auszüge aus den Briefen Garelli und Liebknecht an BP, Hand Mayer. Datierungen teilweise irrig.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Garelli: Laurenz STREBL, Die barocke Bibliothek (1663–1739), in: Geschichte der Österreichischen Nationalbibliothek, 1: Die Hofbibliothek (1368–1922), hg. von Josef STUMMVOLL (Museion. Veröffentlichungen der Österreichischen Nationalbibliothek N. F., Zweite Reihe: Allgemeine Veröffentlichungen 3/1, Wien 1968) 163–217. Zu Liebknecht: Peter MORAW, Kleine Geschichte der Universität Gießen von den Anfängen bis zur Gegenwart (Gießen 1990). Zu Briefen: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 

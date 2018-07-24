@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 81</unitid>
       <unittitle>Brief: Lombard an Le Texier</unittitle>
-      <unitdate>1716-08-05</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/411655.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="181/411655.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="181/411656.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="181/411657.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="181/411658.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Lombard</part>
          <part localtype="vorname">Célestin</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Le Texier</part>
          <part localtype="vorname">François</part>
       </persname>
@@ -74,11 +70,15 @@
          <part>Belgische Klöster</part>
          <part>Lüttich - St.-Laurent</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -96,10 +96,7 @@
       <p>Brief Lombard an Le Texier (1716-08-05). Vgl. dazu die Bemerkungen zum Brief Lombard an BP (1719-01-10).
 </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243; Hubert SILVESTRE, Concernant la première édition des oeuvres de Renier de Saint-Laurent: deux lettres de Dom C. Lombard à Dom B. Pez. Revue Bénédictine 60 (1950) 208–214. Zu Lüttich: Ursmer BERLIÈRE, Monasticon belge, 2: Province de Liège (Liège 1962).</p>
-   </bibliography>
+
 
 
 

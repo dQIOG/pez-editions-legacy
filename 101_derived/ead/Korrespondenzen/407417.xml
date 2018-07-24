@@ -13,15 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 14</unitid>
       <unittitle>Notizen: Übersicht der Pez- und Schramb-Briefe in den maurinischen Beständen der Bibliothèque nationale de France</unittitle>
-      <unitdate>um 1900</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/407417.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="31/407417.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="31/407418.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="31/407419.tif"/>
-      </daoset>
    </did>
 
 
@@ -42,19 +39,19 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Schramb</part>
          <part localtype="vorname">Anselm</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Katschthaler</part>
          <part localtype="vorname">Eduard Ernst</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -68,11 +65,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -81,10 +82,7 @@
       <head>Beschreibung</head>
       <p>Übersicht der Pez- und Schramb-Briefe in zahlreichen Codices der maurinischen Bestände der Bibliothèque nationale de France von Katschthaler.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Katschthaler: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1889); Directorium officii divini Benedictino Mellicense (Melk 1922–1947); 900 Jahre Benediktiner in Melk. Jubiläumsausstellung 1989, Stift Melk, hg. von Ernst BRUCKMÜLLER–Burkhard ELLEGAST–Erwin ROTTER (Melk 1989). Zu Katschthalers Befassung mit der Thematik: Eduard Ernst KATSCHTHALER, Über Bernhard Pez und dessen Briefnachlass. Jahresbericht des k.k. Obergymnasiums zu Melk 39 (1889) 3–106. Zu Schrambs Kontakten mit den Maurinern: Patrick FISKA, Zu Leben und Werk des Melker Benediktiners Anselm Schramb (1658–1720). Mit einer Edition seiner Briefkorrespondenz. SMBG 122 (2011) 201–306.</p>
-   </bibliography>
+
 
 
 

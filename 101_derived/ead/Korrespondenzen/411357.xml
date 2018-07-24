@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 62</unitid>
       <unittitle>Briefabschrift: BP an Eckhart</unittitle>
-      <unitdate>1890-05-27</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung um 1900.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/411357.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="162/411357.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="162/411358.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="162/411359.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="162/411360.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,18 +39,18 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01491388</part>
          <part localtype="identifier">http://viaf.org/viaf/61653633 / http://viaf.org/viaf/203375543</part>
          <part localtype="identifier">http://d-nb.info/gnd/116215631 / http://d-nb.info/gnd/174874901</part>
          <part localtype="name">Bodemann</part>
          <part localtype="vorname">Eduard</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01345687</part>
          <part localtype="identifier">http://viaf.org/viaf/71489973</part>
          <part localtype="identifier">http://d-nb.info/gnd/1090340923 /   http://d-nb.info/gnd/118958461</part>
@@ -74,11 +70,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>weltliche</part>
@@ -104,10 +104,7 @@
       <head>Beschreibung</head>
       <p>Briefabschrift BP an Eckhart (1719-03-19). Auf 2r begleitende Zeilen von Bodemann (königl. Rat und Bibliothekar). Der Brief trägt heute die Signatur: NLB Hannover, Ms. 228, Nr. 8; es handelt sich nicht um das einzige in Hannover aufbewahrte Schreiben BPs an Eckhart.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Bodemann: Wilhelm ROTHERT, Allgemeine hannoversche Biographie, 1: Hannoversche Männer und Frauen seit 1866 (Hannover 1912). Zu Eckhart: Stefan BENZ, Johann Georg von Eckhart (1674–1730), in: Fränkische Lebensbilder. Fünfzehnter Band, hg. von Alfred WENDEHORST (Veröffentlichungen der Gesellschaft für Fränkische Geschichte, Reihe VII A 15, Neustadt an der Aisch 1993) 135–156; Thomas WALLNIG, Johann Georg Eckhart als Verwerter von Leibniz' Kollektaneen: Geschichtsforscher in höfischen Diensten oder gelehrter Beamter?, in: Leibniz als Sammler und Verwerter historischer Quellen, hg. von Nora GÄDEKE (Wolfenbüttel 2012) 189–210. Zu Brief: Thomas WALLNIG, Die Briefe von Johann Georg Eckhart an Bernhard Pez in Text und Kommentar (ungedr. Staatsprüfungsarbeit am Institut für Österreichische Geschichtsforschung, Wien 2001).</p>
-   </bibliography>
+
 
 
 

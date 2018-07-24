@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia25">Kt. 85 Varia 25</container>
+      <container localtype="file" containerid="melk_Kt85Varia25_fz1">Faszikel 1</container>
+      <unitid>Nr. 43</unitid>
       <unittitle>Bio-bibliographische Notizen zu Hildegard von Bingen, Elisabeth von Schönau und Hrotsvit von Gandersheim</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/430006.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="647/430006.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="647/430007.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="647/430008.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="647/430009.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hl. Hildegard von Bingen</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hl. Elisabeth von Schönau</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hl. Hrotsvit von Gandersheim</part>
       </persname>
@@ -65,21 +61,33 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4285340-0" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Disibodenberg (Frauenklause)</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3059</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4285340-0</part>
+         <part localtype="identifier">http://viaf.org/viaf/248203508</part>
+         <part localtype="identifier">http://www.geonames.org/2858073/odernheim.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4715040-3" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bursfelder Kongregation</part>
          <part>Schönau</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3950</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4715040-3</part>
+         <part localtype="identifier">http://viaf.org/viaf/239658818</part>
+         <part localtype="identifier">http://www.geonames.org/2825602/strueth.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4391712-4" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Gandersheim (Benediktinerinnen)</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/71</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4391712-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/238752738</part>
+         <part localtype="identifier">http://www.geonames.org/2953456/bad-gandersheim.html</part>
       </corpname>
    </controlaccess>
 
@@ -88,10 +96,7 @@
       <head>Beschreibung</head>
       <p>Bio-bibliographische Notizen zu Hildegard von Bingen, Elisabeth von Schönau und Hrotsvit von Gandersheim. Selbe Hand wie Karton 85 Varia 25, Fasz. 1, Nr. 44.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Hrotsvit von Gandersheim: Fidel RÄDLE, Hrotsvit von Gandersheim, in: Die deutsche Literatur des Mittelalters. Verfasserlexikon, 4, hg. von Kurt RUH et al. (Berlin–New York 21983) col. 196–210. Zu Elisabeth von Schönau und Hildegard von Bingen: Anne L. CLARK, Elisabeth of Schönau. A Twelfth-Century Visionary (Middle Ages Series, Philadelphia 1992); Stephan HILPISCH, Elisabeth von Schönau und Hildegard von Bingen, in: Schönauer Elisabeth Jubiläum 1965. Festschrift anläßlich des achthundertjährigen Todestages der heiligen Elisabeth von Schönau (Limburg an der Lahn 1965) 51–58.</p>
-   </bibliography>
+
 
 
 

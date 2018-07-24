@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 29</unitid>
       <unittitle>Schriftstellerkatalog der Reichenau</unittitle>
-      <unitdate>um 1709</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/413068.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="226/413068.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="226/413069.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="226/413070.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="226/413071.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="226/413072.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="226/413073.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="226/413074.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="226/413075.tif"/>
-      </daoset>
    </did>
 
 
@@ -47,86 +39,86 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Erlebald von Reichenau</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Wetti von Reichenau</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Tatto von Kempten</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Reimannus "Monachus"</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Konrad von Reichenau</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Walahfrid Strabo</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Ermenrich von Ellwangen</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hatto III.</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Rado von Reichenau</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Rupert (OSB Reichenau)</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Warmann von Reichenau</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Berno von Reichenau</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Arnefrid von Reichenau</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Wetter</part>
          <part localtype="vorname">Wolfgang</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Konrad von Zimmern</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00169252</part>
          <part localtype="identifier">http://viaf.org/viaf/300481545</part>
          <part localtype="identifier">http://d-nb.info/gnd/1034798588</part>
          <part localtype="name">Egon</part>
          <part localtype="vorname">Johannes</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Waldo von Reichenau</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hatto I.</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hermann von Reichenau</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Heinrich von Karpfen</part>
       </persname>
@@ -140,10 +132,14 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4193476-3" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Reichenau</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20359</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4193476-3</part>
+         <part localtype="identifier">http://viaf.org/viaf/244595494</part>
+         <part localtype="identifier">http://www.geonames.org/3209418/reichenau.html</part>
       </corpname>
    </controlaccess>
 
@@ -161,10 +157,7 @@
       <p>Schriftstellerkatalog des Klosters Reichenau von Wetter, Beilage zu Wetter an BP (1709-11-21). Vgl. Abschrift in Karton 7 Patres 9, Fasz. 2, Nr. 89, 146v–151r.
 </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Reichenau: Ursula BEGRICH, Reichenau, in: Helvetia Sacra, Abt. III: Die Orden mit Benediktinerregel, 1: Frühe Klöster, die Benediktiner und Benediktinerinnen in der Schweiz, hg. von Elsanne GILOMEN-SCHENKEL, Teil 2 (Bern 1986) 1059–1100; Franz QUARTHAL–Paul Berthold RUPP–Klaus SCHREINER–Georg WIELAND–Friedrich WIELANDT, Reichenau, in: Germania Benedictina, 5: Die Benediktinerklöster in Baden-Württemberg, hg. von Franz QUARTHAL–Hansmartin DECKER-HAUFF–Klaus SCHREINER (Augsburg 1975) 503–548. Zu Wetter und Korrespondenz mit BP: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</p>
-   </bibliography>
+
 
 
 

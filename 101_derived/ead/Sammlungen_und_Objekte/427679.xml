@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia24">Kt. 85 Varia 24</container>
+      <container localtype="file" containerid="melk_Kt85Varia24_fz2">Faszikel 2</container>
+      <unitid>Nr. 12</unitid>
       <unittitle>Katalog von Benediktinerklöstern in Deutschland, Österreich, Belgien und Frankreich; Bio-bibliographische Notizen zu Metzler und Kisel</unittitle>
-      <unitdate>nach 1677</unitdate>
       <didnote localtype="datenote">Das genannte Werk von Kisel datiert 1677.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/427679.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="599/427679.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="599/427680.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="599/427681.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="599/427682.tif"/>
-      </daoset>
    </did>
 
 
@@ -46,11 +42,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Metzler</part>
          <part localtype="vorname">Thomas</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Kisel</part>
          <part localtype="vorname">Philipp</part>
       </persname>
@@ -64,11 +60,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/5024707-4" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Oberschwäbische Kongregation</part>
          <part>Zwiefalten</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20399</part>
+         <part localtype="identifier">http://d-nb.info/gnd/5024707-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/146121339</part>
+         <part localtype="identifier">http://www.geonames.org/2803545/zwiefalten.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -81,10 +81,7 @@
       <head>Beschreibung</head>
       <p>Katalog von Benediktinerklöstern in Deutschland, Österreich, Belgien und Frankreich (darunter u.a. Göttweig, Garsten, Admont, Banz, Rott am Inn, Scheyern, Achin bei Douai, Ettal), die im 11. und 12. Jahrhundert gegründet oder dem Benediktinerorden übertragen worden sind. Danach bio-bibliographische Notizen zu Metzler und Kisel. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Metzler: Pirmin LINDNER, Fünf Professbücher süddeutscher Benediktiner-Abteien. Beiträge zu einem Monasticon-benedictinum Germaniae, 3: Professbuch der Benediktiner-Abtei Zwiefalten (Kempten–München 1910). Zu Kisel: Carlos SOMMERVOGEL, Bibliothèque de la Compagnie de Jésus. Nouvelle édition (11 Bde., Bruxelles–Paris 1890–1932).</p>
-   </bibliography>
+
 
 
 

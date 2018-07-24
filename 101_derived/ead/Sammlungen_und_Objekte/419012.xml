@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 30</unitid>
       <unittitle>Brief: Angehrn (?) an Besange</unittitle>
-      <unitdate>1746-11</unitdate>
       <didnote localtype="datenote">Datumsangabe nach dem attischen Kalender, entweder 21. oder 22. November.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/419012.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="346/419012.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="346/419013.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="346/419014.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="346/419015.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,21 +39,21 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp01145103</part>
          <part localtype="identifier">http://viaf.org/viaf/3697349</part>
          <part localtype="identifier">http://d-nb.info/gnd/135718430</part>
          <part localtype="name">Angehrn</part>
          <part localtype="vorname">Beda</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00989755</part>
          <part localtype="identifier">http://viaf.org/viaf/3607256 / http://viaf.org/viaf/187909296</part>
          <part localtype="identifier">http://d-nb.info/gnd/131511017 / http://d-nb.info/gnd/179027964</part>
          <part localtype="name">Besange</part>
          <part localtype="vorname">Hieronymus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Angehrn</part>
          <part localtype="vorname">Benedikt Maria</part>
       </persname>
@@ -77,29 +73,44 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1088891446" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Helvetische Kongregation</part>
          <part>St. Gallen</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1088891446</part>
+         <part localtype="identifier">http://viaf.org/viaf/266765811</part>
+         <part localtype="identifier">http://www.geonames.org/2658822/sankt-gallen.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2046531-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Kremsmünster</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/4025</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2046531-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/312583113</part>
+         <part localtype="identifier">http://www.geonames.org/11548388/kloster-kremsmuenster.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2093432-4" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Beuroner Kongregation</part>
          <part>Neresheim</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20561</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2093432-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/142570913</part>
+         <part localtype="identifier">http://www.geonames.org/11282404/neresheim-abbey.html</part>
       </corpname>
    </controlaccess>
 
@@ -108,10 +119,7 @@
       <head>Beschreibung</head>
       <p>Brief Beda (Angehrn?) an Besange in Kremsmünster, in griechischer Sprache. Aufgrund des Briefinhalts (Beda schreibt z.B. dass er sich über ein Wiedersehen freuen würde und er nennt Besange seinen Lehrer der griechischen Sprache) liegt die Vermutung nahe, dass sich die Briefpartner Beda und Besange persönlich gekannt haben. Ersterer befand sich im November 1746 in Melk, wie er im Brief schreibt. In den Melker Prioratsephemeriden (durchgesehen wurde der Zeitraum von September bis Ende November 1746, da Beda im Brief schreibt, dass er am 22. September von "seiner Stadt" aufgebrochen ist) findet sich jedoch kein Hinweis auf einen Beda. Aufgrund der ähnlichen Lebensläufe (Angehrn (*1725) und Besange (*1726) haben beide 1744 Profess abgelegt, Angehrn in St. Gallen, Besange in Kremsmünster; Angehrn wurde 1749 zum Priester geweiht, Besange 1750) liegt eine Identifizierung mit Beda Angehrn (Abt von St. Gallen 1767–1796) nahe. Auch das stellenweise recht elementare Griechisch könnte auf einen eher jungen Mönch (Angehrn wäre zum Zeitpunkt des Briefes im 21. Lebensjahr gewesen) hindeuten. Ein Verwandter Beda Angehrns war Abt Benedikt Maria Angehrn von Neresheim.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Besange: Altman KELLNER, Professbuch des Stiftes Kremsmünster (Kremsmünster 1968); Justus SCHMIDT, Linzer Kunstchronik, 2: Die Dichter, Schriftsteller und Gelehrten (Sonderpublikationen zur Linzer Stadtgeschichte, Linz 1951). Zu Angehrn: Johannes DUFT–Anton GÖSSI–Werner VOGLER, St. Gallen, in: Helvetia Sacra, Abt. III: Die Orden mit Benediktinerregel, 1: Frühe Klöster, die Benediktiner und Benediktinerinnen in der Schweiz, hg. von Elsanne GILOMEN-SCHENKEL, Teil 2 (Bern 1986) 1180–1369; Rudolf HENGGELER, Monasticon-Benedictinum Helvetiae, 1: Profeßbuch der fürstlichen Benediktinerabtei der Heiligen Gallus und Otmar zu St. Gallen (Zug o.J. [1929]). Zu den Melker Prioratsephemeriden: Stabilitas loci und vita activa. Die Mobilität der Konventualen des barocken Benediktinerstiftes Melk anhand der Prioratsephemeriden, in: Leben und Alltag in böhmisch-mährischen und niederösterreichischen Klöstern in Spätmittelalter und Neuzeit. Referate der gleichnamigen Tagung in Brno vom 28. bis 29. Oktober 2008, hg. von Heidemarie SPECHT–Tomáš CERNUŠÁK (Monastica Historia 1, St. Pölten–Brno 2011) 245–265. Zu Benedikt Maria Angehrn: Ulrich L. LEHNER, Enlightened Monks. The German Benedictines 1740–1803 (Oxford et al. 2011).</p>
-   </bibliography>
+
 
 
 

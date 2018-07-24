@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 17</unitid>
       <unittitle>Briefabschrift: Wydemann an BP</unittitle>
-      <unitdate>um 1900</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung um 1900.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/410895.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="118/410895.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="118/410896.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="118/410897.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="118/410898.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="118/410899.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="118/410900.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="118/410901.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="118/410902.tif"/>
-      </daoset>
    </did>
 
 
@@ -47,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Wydemann</part>
          <part localtype="vorname">Leopold</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -65,16 +57,23 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/3011144-4" source="GND">
          <part>geistliche</part>
          <part>Kartäuser</part>
          <part>Gaming</part>
+         <part localtype="identifier">http://d-nb.info/gnd/3011144-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/155471057</part>
+         <part localtype="identifier">http://www.geonames.org/2778949/gaming.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -91,10 +90,7 @@
       <head>Beschreibung</head>
       <p>Briefabschrift Wydemann an BP (1720-01-17). Zahlreiche Fehler des wohl jugendlichen Abschreibers.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Gaming: Thomas AIGNER, Gaming, in: Monasticon Cartusiense II, hg. von James HOGG–Alain GIRARD–Daniel LE BLÉVEC (Salzburg 2004) 82–86; Anton ERDINGER, Beiträge zur Geschichte der Karthause Gaming. Geschichtliche Beilagen zu den Consistorial-Currenden der Diöcese St. Pölten 5 (1895) 1–82; Josef FEIL, Original-Beiträge zur Geschichte der Aufhebung mehrer [!] Klöster in Niederösterreich. Oesterreichische Blätter für Literatur und Kunst, Geographie, Geschichte, Statistik und Naturkunde 2 (1845) 306–310, 315–318, 449–452, 540–544, 571–573; Walter HILDEBRAND, Kartause Gaming. Ausstellung anlässlich der Wiederherstellung des Herzogsgrabes. Herzog Albrecht II. und die Kartause Gaming (Gaming 1985); Heinrich ZEISSBERG, Zur Geschichte der Kartause Gaming. Archiv für Österreichische Geschichte 60 (1880) 562–596. Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 

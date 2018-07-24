@@ -13,36 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 38</unitid>
       <unittitle>Abschrift eines Brieftraktaktes Gerhochs von Reichersberg "Opusculum ad cardinales"</unittitle>
-      <unitdate>18. Jh.</unitdate>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/413119.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="235/413119.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="235/413137.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="235/413138.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="235/413139.tif"/>
-         <dao daotype="derived" coverage="whole" label="11v" href="235/413140.tif"/>
-         <dao daotype="derived" coverage="whole" label="12r" href="235/413141.tif"/>
-         <dao daotype="derived" coverage="whole" label="12v" href="235/413142.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="235/413120.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="235/413121.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="235/413122.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="235/413123.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="235/413124.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="235/413125.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="235/413126.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="235/413127.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="235/413128.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="235/413129.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="235/413130.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="235/413131.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="235/413132.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="235/413133.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="235/413134.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="235/413135.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="235/413136.tif"/>
-      </daoset>
    </did>
 
 
@@ -63,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name"/>
          <part localtype="vorname">Gerhoch von Reichersberg</part>
       </persname>
@@ -77,10 +53,13 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2033438-2" source="GND">
          <part>geistliche</part>
          <part>Augustiner-Chorherren</part>
          <part>Reichersberg</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2033438-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/245395737</part>
+         <part localtype="identifier">http://www.geonames.org/2767754/reichersberg.html</part>
       </corpname>
    </controlaccess>
 
@@ -89,10 +68,7 @@
       <head>Beschreibung</head>
       <p>Abschrift eines Brieftraktaktes ("Opusculum ad cardinales") Gerhochs von Reichersberg an das Kardinalskolleg (von 1166). Thema ist das 1159 ausgebrochene Alexandrinische Schisma. Vermerk: "ex codice Reichersbergensis coenobii". Laut Classen und Repertorium fontium ist das "Opusculum" im Admonter Cod. 434, fol. 200r–216v überliefert. Kollationiert wurde laut Vermerk des 19. Jh. mit "einer andern Copie eines Göttweiger Cod.". Vgl. eine weitere Abschrift in Karton 85 Varia 28, Fasz. 2, Nr. 27.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zum "Opusculum": Peter CLASSEN, Gerhoch von Reichersberg. Eine Biographie mit einem Anhang über die Quellen, ihre handschriftliche Überlieferung und ihre Chronologie (Wiesbaden 1960); Peter CLASSEN, Aus der Werkstatt Gerhochs von Reichersberg. Studien zur Entstehung und Überlieferung von Briefen, Briefsammlungen und Widmungen. Deutsches Archiv für Erforschung des Mittelalters 23 (1967) 31–92. Edition: Opusculum ad Cardinales, hg. von Ernst SACKUR, in: MGH Libelli de lite imperatorum et pontificum 3 (Hannover 1897) 399–411.</p>
-   </bibliography>
+
 
 
 

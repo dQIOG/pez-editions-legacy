@@ -13,32 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz1">Faszikel 1</container>
+      <unitid>Nr. 48</unitid>
       <unittitle>Briefauszüge: Sigler an Baumbach und BP</unittitle>
-      <unitdate>19. Jh.</unitdate>
       <didnote localtype="datenote">Im Zusammenhang mit der Pez-Forschung im 19. Jahrhundert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/419651.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="364/419651.tif"/>
-         <dao daotype="derived" coverage="whole" label="10r" href="364/419669.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="364/419670.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="364/419652.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="364/419653.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="364/419654.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="364/419655.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="364/419656.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="364/419657.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="364/419658.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="364/419659.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="364/419660.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="364/419661.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="364/419662.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="364/419663.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="364/419664.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="364/419665.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="364/419666.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="364/419667.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="364/419668.tif"/>
-      </daoset>
    </did>
 
 
@@ -59,22 +39,22 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00575112</part>
          <part localtype="identifier">http://viaf.org/viaf/45207068</part>
          <part localtype="identifier">http://d-nb.info/gnd/123371554</part>
          <part localtype="name">Baumbach</part>
          <part localtype="vorname">Hyazinth</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Sigler</part>
          <part localtype="vorname">Georg Konrad</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Mayer</part>
          <part localtype="vorname">Theodor</part>
       </persname>
@@ -91,17 +71,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4074038-9" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bursfelder Kongregation</part>
          <part>Fulda</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/30121</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4074038-9</part>
+         <part localtype="identifier">http://viaf.org/viaf/237710601</part>
+         <part localtype="identifier">http://www.geonames.org/2923822/fulda.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -142,10 +130,7 @@
       <head>Beschreibung</head>
       <p>Auszüge aus den Briefen Sigler an Baumbach und BP, Hand Mayer. Datierungen teilweise irrig. Am Ende Abschrift der "Epitomen literarum" an einen unbekannten Adressaten (1710-11-10) mit Angaben zu einer Bibliotheksreise nach Würzburg, wo Sigler die Bestände im Karmeliterkloster, im Schottenkloster St. Jakob, in St. Stephan und in der Kartause eingesehen hat; vgl. dazu Brief Sigler an BP (1713-07-11). Der Auszug "Epitomen literarum" hat sich im Original in Karton 7 Patres 6 = Band 1 der Pezbriefe fol. 213r–v und abschriftlich in Karton 7 Patres 9, Fasz. 2, Nr. 89 = Abschriftencodex (AC) fol. 74v–77v erhalten.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Mayer: Catalogus religiosorum ordinis S.P. Benedicti in monasterio Mellicensi (Wien 1855). Zu Briefen nach 1715: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. Zu Briefen 1709 bis 1715: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</p>
-   </bibliography>
+
 
 
 

@@ -13,20 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia24">Kt. 85 Varia 24</container>
+      <container localtype="file" containerid="melk_Kt85Varia24_fz2">Faszikel 2</container>
+      <unitid>Nr. 14</unitid>
       <unittitle>Bibliographische Notizen zu Autoren in den Acta sanctorum</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/427685.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="601/427685.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="601/427686.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="601/427687.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="601/427688.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="601/427689.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="601/427690.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="601/427691.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="601/427692.tif"/>
-      </daoset>
    </did>
 
 
@@ -47,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -61,11 +53,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -74,10 +70,7 @@
       <head>Beschreibung</head>
       <p>Bibliographische Notizen zu Autoren in den Acta Sanctorum mit dem Titel: "Dubia ex Bollandicis scriptoribus". Folgende Werke werden unter anderem genannt: Ferdinando UGHELLI, Italia Sacra (9 Bde., Rom 1644–1662; Nachdruck Venedig 1717–1722), Gerhard Johannes VOSSIUS, De historicis latinis libri III (Leiden 1627), William CAVE, Scriptorum ecclesiasticorum historia literaria (2 Bde., London 1688–1698; Nachdruck Basel 1741). Hand BP.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zum Werk der Bollandisten: Jan Marco SAWILLA, Antiquarianismus, Hagiographie und Historie im 17. Jahrhundert. Zum Werk der Bollandisten. Ein wissenschaftshistorischer Versuch (Frühe Neuzeit. Studien und Dokumente zur deutschen Literatur und Kultur im europäischen Kontext 131, Tübingen 2009).</p>
-   </bibliography>
+
 
 
 

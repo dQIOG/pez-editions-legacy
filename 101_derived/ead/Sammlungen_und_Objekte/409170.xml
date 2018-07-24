@@ -13,18 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 47</unitid>
       <unittitle>Notizen, Werkskatalog zu Ziegelbauer</unittitle>
-      <unitdate>nach 1750</unitdate>
       <didnote localtype="datenote">Wohl kurz nach dessen Tod angelegt.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/409170.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="65/409170.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="65/409171.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="65/409172.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="65/409173.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="65/409174.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="65/409175.tif"/>
-      </daoset>
    </did>
 
 
@@ -48,7 +42,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Ziegelbauer</part>
          <part localtype="vorname">Magnoald</part>
       </persname>
@@ -62,11 +56,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/5024707-4" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Oberschwäbische Kongregation</part>
          <part>Zwiefalten</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20399</part>
+         <part localtype="identifier">http://d-nb.info/gnd/5024707-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/146121339</part>
+         <part localtype="identifier">http://www.geonames.org/2803545/zwiefalten.html</part>
       </corpname>
       <corpname>
          <part>weltliche</part>
@@ -79,10 +77,7 @@
       <head>Beschreibung</head>
       <p>Biographische Notizen und Werkskatalog zu Ziegelbauer, verfasst als Nachruf seitens der Olmützer Akademie vermutlich bald nach seinem Tod 1750.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Ziegelbauer: Martin RUF, P. Magnoald Ziegelbauer OSB (1688–1750). Ein Gelehrtenleben des Barocks. Ellwanger Jahrbuch 32 (1987/88) 85–108.</p>
-   </bibliography>
+
 
 
 

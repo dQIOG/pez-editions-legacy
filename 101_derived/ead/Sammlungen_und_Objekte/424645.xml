@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz1">Faszikel 1</container>
+      <unitid>Nr. 34</unitid>
       <unittitle>Abschrift: Lobrede Pantaleons auf Molitor</unittitle>
-      <unitdate>1712</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/424645.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="535/424645.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="535/424646.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,19 +39,19 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Brunner</part>
          <part localtype="vorname">Augustin</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pantaleon</part>
          <part localtype="vorname">Heinrich</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Molitor</part>
          <part localtype="vorname">Kaspar</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -70,16 +68,26 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1088887708" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>St. Blasien</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/20387</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1088887708</part>
+         <part localtype="identifier">http://d-nb.info/gnd/65372-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/133695851</part>
+         <part localtype="identifier">http://viaf.org/viaf/170307029</part>
+         <part localtype="identifier">http://www.geonames.org/11204877/kloster-sankt-blasien.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -96,10 +104,7 @@
       <head>Beschreibung</head>
       <p>Lobrede Pantaleons auf Molitor, Hand Brunner. Die Abschrift der Rede ist überschrieben mit: "Henrici Pantaleonis de abbate Casparo I. monasterii S. Blasii iudicium. In tertia parte Teutscher nation helden buech, Basilea editi, mihi fol. 416". Beilage zu Brief Brunner an BP (1712-10-23). Vgl. Abschrift in Karton 7 Patres 9, Fasz. 2, Nr. 89, 54r–55r. Ordnungsvermerk: "222".</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Molitor: Alfons SCHÄFER, St. Blasien, in: Helvetia Sacra, Abt. III: Die Orden mit Benediktinerregel, 1: Frühe Klöster, die Benediktiner und Benediktinerinnen in der Schweiz, Teil 2, hg. von Elsanne GILOMEN-SCHENKEL (Bern 1986) 1166–1176. Zu Pantaleons Heldenbuch: Alexander SCHMIDT, Vaterlandsliebe und Religionskonflikt. Politische Diskurse im Alten Reich (1555–1648) (Studies in medieval and reformation traditions 126, Leiden 2007). Zu Brief: Thomas WALLNIG–Thomas STOCKINGER, Die gelehrte Korrespondenz der Brüder Pez. Text, Regesten, Kommentare, 1: 1709–1715 (QIÖG 2/1, Wien–München 2010).</p>
-   </bibliography>
+
 
 
 

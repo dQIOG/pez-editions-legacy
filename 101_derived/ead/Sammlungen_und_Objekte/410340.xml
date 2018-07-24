@@ -13,22 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 67</unitid>
       <unittitle>Notizen, Werkskatalog zu Caramuel y Lobkowitz</unittitle>
-      <unitdate>nach 1671</unitdate>
       <didnote localtype="datenote">Biographie und Werkkatalog Stand von ca. 1671.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/410340.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="85/410340.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="85/410341.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="85/410342.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="85/410343.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="85/410344.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="85/410345.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="85/410346.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="85/410347.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="85/410348.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="85/410349.tif"/>
-      </daoset>
    </did>
 
 
@@ -52,7 +42,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Caramuel y Lobkowitz</part>
          <part localtype="vorname">Juan </part>
       </persname>
@@ -71,6 +61,8 @@
          <part>Zisterzienser</part>
          <part>Kastilien-León</part>
          <part>La Santa Espina</part>
+         <part localtype="identifier">http://viaf.org/viaf/151369900</part>
+         <part localtype="identifier">http://www.geonames.org/8015079/la-santa-espina.html</part>
       </corpname>
    </controlaccess>
 
@@ -79,10 +71,7 @@
       <head>Beschreibung</head>
       <p>Biographie und systematischer Werkskatalog des Juan Caramuel y Lobkowitz. Biographie inc. "F. Joannes Caramuel Lobkowitz Laurentio Caramuele nobili Lutzemburgensi et domina Catharina Frissaea, Lobkowitziae clarae in Germania domus propagine, Matriti natus est 23. die Maii anno 1606. In pueritiae omnis mathematicarum artium amore ita vehementer exarsit etc." Werkskatalog: "Librorum editorum seriem dabimus ex catalogo, quem ipse confecit et sub rhythmicae initium evulgari curavit, ordine aliquantulum immutato. Latina haec sunt grammatici argumenti etc." Es folgen "Dialectici autem et philosophici", "Mathematici", "Theologici argumenti sunt sequentia", "Iuridica sive civilis sive canonici argumenti haec, aut iuridico-historica", "Historia sacra aut profana" und Bücher auf Spanisch. Dann ein Nachtrag: "De aliis nos ipse, cum Romae nunc sit, reddidit certiores".  Am Schluß noch einige Titel späterer Werke von anderer Hand hinzugefügt.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Lobkowitz: Anselm Maria ALBAREDA, La Congregació benedictina de Montserrat a l’Austria i a la Bohèmia (segles XVIIè – XIXè). Analecta Montserratensia 5 (1922) 11–280; Julián VELARDE LOMBRAÑA, Juan Caramuel, vida y obra (Colección El Basilisco, Oviedo 1989).</p>
-   </bibliography>
+
 
 
 

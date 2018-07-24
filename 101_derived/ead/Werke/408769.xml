@@ -13,44 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz1">Faszikel 1</container>
+      <unitid>Nr. 40</unitid>
       <unittitle>Manuskript: "Puncta contra reverendissimum dominum abbatem Mellicensem ad illustrissimam et excellentissimam nuntiaturam Viennae data a patre Bernardo Pez"</unittitle>
-      <unitdate>um 1723</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/408769.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="58/408769.tif"/>
-         <dao daotype="derived" coverage="whole" label="10v" href="58/408788.tif"/>
-         <dao daotype="derived" coverage="whole" label="11r" href="58/408789.tif"/>
-         <dao daotype="derived" coverage="whole" label="11v" href="58/408790.tif"/>
-         <dao daotype="derived" coverage="whole" label="12r" href="58/408791.tif"/>
-         <dao daotype="derived" coverage="whole" label="12v" href="58/408792.tif"/>
-         <dao daotype="derived" coverage="whole" label="13r" href="58/408793.tif"/>
-         <dao daotype="derived" coverage="whole" label="13v" href="58/408794.tif"/>
-         <dao daotype="derived" coverage="whole" label="14r" href="58/408795.tif"/>
-         <dao daotype="derived" coverage="whole" label="14v" href="58/408796.tif"/>
-         <dao daotype="derived" coverage="whole" label="15r" href="58/408797.tif"/>
-         <dao daotype="derived" coverage="whole" label="15v" href="58/408798.tif"/>
-         <dao daotype="derived" coverage="whole" label="16r" href="58/408799.tif"/>
-         <dao daotype="derived" coverage="whole" label="16v" href="58/408800.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="58/408770.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="58/408771.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="58/408772.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="58/408773.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="58/408774.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="58/408775.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="58/408776.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="58/408777.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="58/408778.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="58/408779.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="58/408780.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="58/408781.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="58/408782.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="58/408783.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="58/408784.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="58/408785.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="58/408786.tif"/>
-         <dao daotype="derived" coverage="whole" label="" href="58/408787.tif"/>
-      </daoset>
    </did>
 
 
@@ -71,7 +39,7 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -85,11 +53,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -103,10 +75,7 @@
       <head>Beschreibung</head>
       <p>Manuskript "Puncta contra reverendissimum dominum abbatem Mellicensem ad illustrissimam et excellentissimam Nuntiaturam Viennae data a patre Bernardo Pez". Ident mit Karton 7 Patres 9, Fasz. 1, Nr. 39. Zu den "Capitula" vgl. auch Karton 3 Äbte 6, Fasz. 2.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu den "Capitula" des Melker Konvents: Hugo HANTSCH, Bernhard Pez und Abt Berthold Dietmayr. MIÖG 71 (1963) 128–139.</p>
-   </bibliography>
+
 
 
 

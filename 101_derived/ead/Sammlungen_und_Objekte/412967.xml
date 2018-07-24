@@ -13,28 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres10">Kt. 07 Patres 10</container>
+      <container localtype="file" containerid="melk_Kt07Patres10_fz3">Faszikel 3</container>
+      <unitid>Nr. 17</unitid>
       <unittitle>Abschrift: "Notata quaedam de origine, fundatione et exemptione monasterii Gottwicensis ex manuscripto quodam monasterii desumpta"</unittitle>
-      <unitdate>um 1716</unitdate>
       <didnote localtype="datenote">BPs Conspectus ist 1716 erschienen.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/412967.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="214/412967.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="214/412968.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="214/412969.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="214/412970.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="214/412971.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="214/412972.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="214/412973.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="214/412974.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="214/412975.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="214/412976.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="214/412977.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="214/412978.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="214/412979.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="214/412980.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="214/412981.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="214/412982.tif"/>
-      </daoset>
    </did>
 
 
@@ -55,11 +39,11 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00378571</part>
          <part localtype="identifier">http://viaf.org/viaf/40112353</part>
          <part localtype="identifier">http://d-nb.info/gnd/115629203</part>
@@ -76,17 +60,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/2103432-1" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Göttweig</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/4035</part>
+         <part localtype="identifier">http://d-nb.info/gnd/2103432-1</part>
+         <part localtype="identifier">http://viaf.org/viaf/245287151</part>
+         <part localtype="identifier">http://www.geonames.org/2778228/stift-goettweig.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>weltliche</part>
@@ -99,10 +91,7 @@
       <head>Beschreibung</head>
       <p>Abschrift der Gründungsgeschichte von Göttweig aus der Vita Altmanni, abgeschrieben aus einer Göttweiger Handschrift. Danach "Epistola Traiectensis ecclesiae ad Fridericum episcopum de Tanchelmo seductore", also die Abschrift eines Briefes der Kanoniker von Utrecht an Erzbischof Friedrich von Köln (1112/14) gegen den Ketzer Tanchelm aus Antwerpen. Teil des Codex Udalrici, den BP in einer Zwettler Handschrift gefunden hatte und edieren wollte. Eine Inhaltsübersicht des Cod. wurde in BPs Conspectus insignis Codicis Diplomatico-Historico-Epistularis Udalrici Babenbergensis (o.O. 1716) publiziert. Daraus entspann sich die Kontroverse mit Gentilotti. </p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Göttweig: Clemens Anton LASHOFER, Professbuch des Benediktinerstiftes Göttweig. Zur 900-Jahr-Feier der Gründung des Klosters (SMGB Ergbd. 26, St. Ottilien 1983). Zu Göttweiger Handschriften: Vinzenz WERL, Manuscripten-Catalog der Stifts-Bibliothek zu Göttweig (2 Bde., Göttweig 1843; handschriftlich). Edition der Vita: Vita Altmanni, hg. von Wilhelm WATTENBACH, in: MGH SS 12 (Hannover 1856) 228–243. Zu "Epistola Traiectensis": August POTTHAST (Begr.), Repertorium fontium historiae medii aevi, 4: D-E-F-Gez (Rom 1976). Zur Auseinandersetzung zwischen BP und Gentilotti: Ines PEPER, Il carteggio erudito di Giovanni Benedetto Gentilotti d'Engelsbrunn (1672-1725), bibliotecario imperiale, in: Le carte vive. Epistolari e carteggi nel Settecento. Atti del primo Convegno internazionale di studi del Centro di Ricerca sugli Epistolari del Settecento, Verona, 4-6 dicembre 2008, hg. von Corrado VIOLA (Biblioteca del XVIII secolo 16, Roma 2011) 479–487; Koloman SCHÖNHOFER, P. Bernhard Pez (22.2.1683–27.3.1735), P. Hieronymus Pez (24.2.1685–14.10.1762), Benediktiner von Melk (Leben, Bedeutung und Werke) (ungedr. theol. Dipl.Arb., Innsbruck 1973).</p>
-   </bibliography>
+
 
 
 

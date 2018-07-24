@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres11">Kt. 07 Patres 11</container>
+      <container localtype="file" containerid="melk_Kt07Patres11_fz3">Faszikel 3</container>
+      <unitid>Nr. 10</unitid>
       <unittitle>Bibliographische Notizen zu (Cassinenser) Konzilspublikationen</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/421165.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="422/421165.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="422/421166.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,13 +39,13 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://viaf.org/viaf/3695703</part>
          <part localtype="identifier">http://d-nb.info/gnd/135655706</part>
          <part localtype="name">Buchels</part>
          <part localtype="vorname">Johann</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://viaf.org/viaf/89654761 / http://viaf.org/viaf/1247145857143722922971</part>
          <part localtype="identifier">http://d-nb.info/gnd/1089637853</part>
          <part localtype="name">Caffarelli</part>
@@ -71,11 +69,14 @@
          <part>Benediktiner</part>
          <part>Cassinenser Kongregation</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/1087296986" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Cassinenser Kongregation</part>
          <part>Montecassino</part>
+         <part localtype="identifier">http://d-nb.info/gnd/1087296986</part>
+         <part localtype="identifier">http://viaf.org/viaf/133865391</part>
+         <part localtype="identifier">http://www.geonames.org/3173005/abbazia-di-montecassino.html</part>
       </corpname>
       <corpname>
          <part>weltliche</part>
@@ -91,10 +92,7 @@
       <head>Beschreibung</head>
       <p>Bibliographische Notizen zu Konzils-Publikationen der Cassinenser Kongregation aus dem 16. und 17. Jahrhundert. Am Ende Brieftext und Unterschrift (Kürzel) von Buchels.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Cassinensern: Arcangelo BOSSI, Matricula monachorum Congregationis Casinensis Ordinis S. Benedicti, 1: 1409–1699, hg. von Leandro NOVELLI–Giovanni SPINELLI (Pubblicazioni del Centro Storico Benedettino Italiano 3, Cesena 1983); Tommaso Domenico LECCISOTTI, Congregationis S. Iustinae de Padua O. S. B. ordinationes capitulorum generalium (2 Bde., Miscellanea Cassinese 16–17, Montecassino 1939); Raphael MOLITOR, Aus der Rechtsgeschichte benediktinischer Verbände. Untersuchungen und Skizzen (3 Bde., Münster 1928–1933); Massimo ZAGGIA, Tra Mantova e la Sicilia nel Cinquecento (Biblioteca mantovana 2, 3 Bde., Firenze 2003).</p>
-   </bibliography>
+
 
 
 

@@ -13,30 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt07Patres09">Kt. 07 Patres 09</container>
+      <container localtype="file" containerid="melk_Kt07Patres09_fz2">Faszikel 2</container>
+      <unitid>Nr. 73</unitid>
       <unittitle>Brief: Wydemann an BP</unittitle>
-      <unitdate>um 1731</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/411540.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="173/411540.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="173/411541.tif"/>
-         <dao daotype="derived" coverage="whole" label="2r" href="173/411542.tif"/>
-         <dao daotype="derived" coverage="whole" label="2v" href="173/411543.tif"/>
-         <dao daotype="derived" coverage="whole" label="3r" href="173/411544.tif"/>
-         <dao daotype="derived" coverage="whole" label="3v" href="173/411545.tif"/>
-         <dao daotype="derived" coverage="whole" label="4r" href="173/411546.tif"/>
-         <dao daotype="derived" coverage="whole" label="4v" href="173/411547.tif"/>
-         <dao daotype="derived" coverage="whole" label="5r" href="173/411548.tif"/>
-         <dao daotype="derived" coverage="whole" label="5v" href="173/411549.tif"/>
-         <dao daotype="derived" coverage="whole" label="6r" href="173/411550.tif"/>
-         <dao daotype="derived" coverage="whole" label="6v" href="173/411551.tif"/>
-         <dao daotype="derived" coverage="whole" label="7r" href="173/411552.tif"/>
-         <dao daotype="derived" coverage="whole" label="7v" href="173/411553.tif"/>
-         <dao daotype="derived" coverage="whole" label="8r" href="173/411554.tif"/>
-         <dao daotype="derived" coverage="whole" label="8v" href="173/411555.tif"/>
-         <dao daotype="derived" coverage="whole" label="9r" href="173/411556.tif"/>
-         <dao daotype="derived" coverage="whole" label="9v" href="173/411557.tif"/>
-      </daoset>
    </did>
 
 
@@ -57,15 +39,15 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Wydemann</part>
          <part localtype="vorname">Leopold</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">http://thesaurus.cerl.org/record/cnp00908264 / 
 http://thesaurus.cerl.org/record/cnp00167742</part>
          <part localtype="identifier">http://viaf.org/viaf/50384677</part>
@@ -73,7 +55,7 @@ http://thesaurus.cerl.org/record/cnp00167742</part>
          <part localtype="name">Hansiz</part>
          <part localtype="vorname">Markus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name"/>
          <part localtype="vorname">Hl. Rupert</part>
       </persname>
@@ -87,16 +69,23 @@ http://thesaurus.cerl.org/record/cnp00167742</part>
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/3011144-4" source="GND">
          <part>geistliche</part>
          <part>Kartäuser</part>
          <part>Gaming</part>
+         <part localtype="identifier">http://d-nb.info/gnd/3011144-4</part>
+         <part localtype="identifier">http://viaf.org/viaf/155471057</part>
+         <part localtype="identifier">http://www.geonames.org/2778949/gaming.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
       <corpname>
          <part>geistliche</part>
@@ -115,10 +104,7 @@ http://thesaurus.cerl.org/record/cnp00167742</part>
       <head>Beschreibung</head>
       <p>Undatierter Brief Wydemann an BP, enthält eine Abhandlung über den Streit BPs mit Hansiz um den Hl. Rupert.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Gaming: Thomas AIGNER, Gaming, in: Monasticon Cartusiense II, hg. von James HOGG–Alain GIRARD–Daniel LE BLÉVEC (Salzburg 2004) 82–86; Anton ERDINGER, Beiträge zur Geschichte der Karthause Gaming. Geschichtliche Beilagen zu den Consistorial-Currenden der Diöcese St. Pölten 5 (1895) 1–82; Josef FEIL, Original-Beiträge zur Geschichte der Aufhebung mehrer [!] Klöster in Niederösterreich. Oesterreichische Blätter für Literatur und Kunst, Geographie, Geschichte, Statistik und Naturkunde 2 (1845) 306–310, 315–318, 449–452, 540–544, 571–573; Walter HILDEBRAND, Kartause Gaming. Ausstellung anlässlich der Wiederherstellung des Herzogsgrabes. Herzog Albrecht II. und die Kartause Gaming (Gaming 1985); Heinrich ZEISSBERG, Zur Geschichte der Kartause Gaming. Archiv für Österreichische Geschichte 60 (1880) 562–596. Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243. Zur Kontroverse zwischen BP und Hansiz: Stefan BENZ, Zwischen Tradition und Kritik. Katholische Geschichtsschreibung im barocken Heiligen Römischen Reich (Historische Studien 473, Husum 2003); Koloman SCHÖNHOFER, P. Bernhard Pez (22.2.1683–27.3.1735), P. Hieronymus Pez (24.2.1685–14.10.1762), Benediktiner von Melk (Leben, Bedeutung und Werke) (ungedr. theol. Dipl.Arb., Innsbruck 1973). Zum Hl. Rupert: Herwig WOLFRAM, Die Zeit der Agilolfinger – Rupert und Virgil, in: Geschichte Salzburgs. Stadt und Land, 1: Vorgeschichte, Altertum, Mittelalter, Teil 1, hg. von Heinz DOPSCH (Salzburg 1981) 121–150; Herwig WOLFRAM,  Grenzen und Räume. Geschichte Österreichs vor seiner Entstehung (Österreichische Geschichte 378-907, Wien 1995) 105–124.</p>
-   </bibliography>
+
 
 
 

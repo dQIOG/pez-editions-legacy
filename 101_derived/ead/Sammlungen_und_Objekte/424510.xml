@@ -13,16 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia23">Kt. 85 Varia 23</container>
+      <container localtype="file" containerid="melk_Kt85Varia23_fz1">Faszikel 1</container>
+      <unitid>Nr. 27</unitid>
       <unittitle>Schriftstellerkatalog von Tegernsee</unittitle>
-      <unitdate/>
       <didnote localtype="datenote">Undatiert.</didnote>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/424510.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1" href="528/424510.tif"/>
-         <dao daotype="derived" coverage="whole" label="2" href="528/424511.tif"/>
-         <dao daotype="derived" coverage="whole" label="3" href="528/424512.tif"/>
-         <dao daotype="derived" coverage="whole" label="4" href="528/424513.tif"/>
-      </daoset>
    </did>
 
 
@@ -43,26 +39,26 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Hueber</part>
          <part localtype="vorname">Alphons</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Sartorius</part>
          <part localtype="vorname">Konrad</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="identifier">https://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00636882</part>
          <part localtype="identifier">http://viaf.org/viaf/74614492</part>
          <part localtype="identifier">http://d-nb.info/gnd/116859687</part>
          <part localtype="name">Auceps</part>
          <part localtype="vorname">Chrysogonus</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Rehling</part>
          <part localtype="vorname">Sebastian</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Hueber</part>
          <part localtype="vorname">Nikolaus</part>
       </persname>
@@ -76,11 +72,15 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/809501-2" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Tegernsee</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3551</part>
+         <part localtype="identifier">http://d-nb.info/gnd/809501-2</part>
+         <part localtype="identifier">http://viaf.org/viaf/139580416</part>
+         <part localtype="identifier">http://www.geonames.org/2823679/tegernsee.html</part>
       </corpname>
    </controlaccess>
 
@@ -89,10 +89,7 @@
       <head>Beschreibung</head>
       <p>Schriftstellerkatalog von Tegernsee mit dem Titel: "Nomina quorundam scriptorum Tegernseensium", Hand Hueber. Vgl. auch Schriftstellerkatalog in Karton 85 Varia 23, Fasz. 1, Nr. 22.</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu den Schriftstellern: Pirmin LINDNER, Familia S. Quirini in Tegernsee. Die Äbte und Mönche der Benediktiner-Abtei Tegernsee von den ältesten Zeiten bis zu ihrem Aussterben (1861) und ihr literarischer Nachlass. Oberbayerisches Archiv für vaterländische Geschichte 50 (1897) 18–130; 50 Ergh. (1898) 1–318.</p>
-   </bibliography>
+
 
 
 

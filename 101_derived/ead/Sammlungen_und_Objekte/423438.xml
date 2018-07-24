@@ -13,14 +13,12 @@
             <part>Stiftsarchiv</part>
          </corpname>
       </repository>
+      <container localtype="box" containerid="melk_Kt85Varia22">Kt. 85 Varia 22</container>
+      <container localtype="file" containerid="melk_Kt85Varia22_fz3">Faszikel 3</container>
+      <unitid>Nr. 09</unitid>
       <unittitle>Abschrift: Montivillanus (Perkhofer?), Epitaph auf Treffler</unittitle>
-      <unitdate>1716</unitdate>
       <didnote localtype="datenote"/>
       <dao daotype="derived" coverage="whole" label="TEI Manuskriptbeschreibung" href="msDesc/423438.xml"/>
-      <daoset>
-         <dao daotype="derived" coverage="whole" label="1r" href="494/423438.tif"/>
-         <dao daotype="derived" coverage="whole" label="1v" href="494/423439.tif"/>
-      </daoset>
    </did>
 
 
@@ -41,19 +39,19 @@
 
    <controlaccess>
       <head>Personen</head>  
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Treffler</part>
          <part localtype="vorname">Florian</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name"/>
          <part localtype="vorname">Wolfgang "Montivillanus"</part>
       </persname>
-      <persname relator="Urheber">
+      <persname relator="cre">
          <part localtype="name">Meichelbeck</part>
          <part localtype="vorname">Karl</part>
       </persname>
-      <persname relator="behandelte Person">
+      <persname relator="rcp">
          <part localtype="name">Pez</part>
          <part localtype="vorname">Bernhard</part>
       </persname>
@@ -70,17 +68,25 @@
 
    <controlaccess>
       <head>Institutionen</head>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/4212238-7" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Bayerische Kongregation</part>
          <part>Benediktbeuern</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/1061</part>
+         <part localtype="identifier">http://d-nb.info/gnd/4212238-7</part>
+         <part localtype="identifier">http://viaf.org/viaf/28145424487686830934</part>
+         <part localtype="identifier">http://www.geonames.org/2951104/benediktbeuern.html</part>
       </corpname>
-      <corpname>
+      <corpname identifier="http://d-nb.info/gnd/82463-X" source="GND">
          <part>geistliche</part>
          <part>Benediktiner</part>
          <part>Österreichische Kongregation</part>
          <part>Melk</part>
+         <part localtype="identifier">http://klosterdatenbank.germania-sacra.de/gsn/3265</part>
+         <part localtype="identifier">http://d-nb.info/gnd/82463-X</part>
+         <part localtype="identifier">http://viaf.org/viaf/316399876</part>
+         <part localtype="identifier">http://www.geonames.org/7536060/kloster-melk.html</part>
       </corpname>
    </controlaccess>
 
@@ -97,10 +103,7 @@
       <head>Beschreibung</head>
       <p>Abschrift des Epitaphs auf Treffler (gest. 1565). Zu Treffler vgl. die Abschrift von Montivillanus' Lobgedicht in Karton 85 Varia 22, Fasz. 3, Nr. 10. Später abgedruckt in Karl MEICHELBECK, Chronicon Benedictoburanum (2 Bde., München 1751–1753). Beilage zu Brief Meichelbeck an BP (1716-10-04).</p>
    </scopecontent>
-   <bibliography>
-      <head>Literatur</head>
-      <p>Zu Treffler: Josef HEMMERLE, Das Bistum Augsburg, 1: Die Benediktinerabtei Benediktbeuern (Germania Sacra N. F. 28, Die Bistümer der Kirchenprovinz Mainz, Berlin–New York 1991); Pirmin LINDNER, Fünf Professbücher süddeutscher Benediktiner-Abteien. Beiträge zu einem Monasticon-benedictinum Germaniae, 4: Professbuch der Benediktiner-Abtei Benediktbeuern (Kempten–München 1910). Zu Meichelbeck: Thomas STOCKINGER, War Karl Meichelbeck ein "deutscher Mauriner"?, in: Europäische Geschichtskulturen um 1700 zwischen Gelehrsamkeit, Politik und Konfession, hg. von Thomas WALLNIG–Thomas STOCKINGER–Ines PEPER–Patrick FISKA (Berlin–Boston 2012) 135–168. Zu Brief: Christine GLASSNER, Verzeichnis der im Nachlass der Melker Historiker Bernhard und Hieronymus Pez erhaltenen Briefe. SMGB 110 (1999) 195–243.</p>
-   </bibliography>
+
 
 
 
