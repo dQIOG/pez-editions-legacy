@@ -24,8 +24,8 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <placeName></placeName>
-                  <repository></repository>
+                  <institution>Stift Melk</institution>
+                  <repository>Stiftsbibliothek</repository>
                   <idno type="signature"><!-- Redmine-Feld "Signatur" --></idno>
                </msIdentifier>
                <physDesc>
@@ -47,12 +47,13 @@
             <correspAction type="sent">
                <persName><!-- Redmine-Feld "Sender" --></persName>
                <date><!-- Redmine-Feld "Date" --></date>
+               <placeName><!-- Redmine-Feld "Place" --></placeName>
             </correspAction>
             <correspAction type="received">
                <persName><!-- Redmine-Feld "Recipient" --></persName>
             </correspAction>
             <correspContext>
-               <ref type="next">
+               <ref type="prev">
                   <idno type="pezEd"><!-- Redmine-Relation "follows" --></idno>
                </ref>
                <ref type="next">
