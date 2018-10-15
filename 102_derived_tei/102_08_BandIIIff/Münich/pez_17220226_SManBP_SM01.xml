@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" level="a"><!-- Redmine-Field "subject" --></title>
+            <title type="main" level="a">1722-02-26 Sigismund Münich an Bernhard Pez</title>
             <title type="sub">Digital Edition</title>
             <principal>Thomas Wallnig</principal>
          </titleStmt>
@@ -13,7 +13,8 @@
          </publicationStmt>
          <notesStmt>
             <relatedItem type="publishedIn">
-               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 3: XXXX–XXXX.</bibl>
+               <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 3:
+                  XXXX–XXXX.</bibl>
             </relatedItem>
             <relatedItem type="secondaryLiterature">
                <listBibl>
@@ -31,10 +32,12 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent><!-- Redmine-Feld "size" --></extent>
+                        <extent/>
                      </supportDesc>
                   </objectDesc>
-                  <accMat type="attachments"><!-- Redmine-Feld "Attachments" --></accMat>
+                  <accMat type="attachments">
+                     <p/>
+                  </accMat>
                </physDesc>
             </msDesc>
          </sourceDesc>
@@ -45,26 +48,24 @@
          </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName><!-- Redmine-Feld "Sender" --></persName>
-               <date><!-- Redmine-Feld "Date" --></date>
-               <placeName><!-- Redmine-Feld "Place" --></placeName>
+               <persName>Sigismund Münich</persName>
+               <date>1722-02-26</date>
+               <placeName>Admont</placeName>
             </correspAction>
             <correspAction type="received">
-               <persName><!-- Redmine-Feld "Recipient" --></persName>
+               <persName>Bernhard Pez</persName>
             </correspAction>
             <correspContext>
-               <ref type="prev">
-                  <idno type="pezEd"><!-- Redmine-Relation "follows" --></idno>
-               </ref>
                <ref type="next">
-                  <idno type="pezEd"><!-- Redmine-Relation "precedes" --></idno>
+                  <idno type="pezEd">11259</idno>
                </ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc>
          <listChange>
-            <change type="creation" who="#twallnig" when="2018-06-05T10:02:40.956+02:00">Created TEI dokument.</change>
+            <change type="creation" who="#twallnig" when="2018-06-05T10:02:40.956+02:00">Created TEI
+               dokument.</change>
          </listChange>
       </revisionDesc>
    </teiHeader>
@@ -88,9 +89,7 @@
          </div>
       </body>
       <back>
-         <div type="commentary">
-            <!-- Kommentar -->
-         </div>
+         <div type="commentary"><!-- Kommentar --></div>
       </back>
    </text>
 </TEI>

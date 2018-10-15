@@ -28,7 +28,7 @@
                 <xsl:sequence select="if ($field/@multiple = 'true') then $field/value/value else $field/value"/>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:comment>Unknown field "<xsl:value-of select="$aspect"/>"</xsl:comment>
+                <xsl:message>Unknown or inexistant field "<xsl:value-of select="$aspect"/>"</xsl:message>
             </xsl:otherwise>
         </xsl:choose> 
     </xsl:function>
@@ -167,17 +167,18 @@
         <xsl:param name="md" tunnel="yes"/>
         <xsl:variable name="nextLetter" select="_:get-md($md,'precedes')"/>
         <xsl:variable name="prevLetter" select="_:get-md($md,'follows')"/>
-        <xsl:message select="$md"></xsl:message>
-        <xsl:if test="$nextLetter">
-            <ref type="next">
-                <idno type="pezEd"><xsl:value-of select="$nextLetter"/></idno>
-            </ref>
-        </xsl:if>
-        <xsl:if test="$prevLetter">
-            <ref type="prev">
-                <idno type="pezEd"><xsl:value-of select="$prevLetter"/></idno>
-            </ref>
-        </xsl:if>
+        <xsl:copy>
+            <xsl:if test="$nextLetter">
+                <ref type="next">
+                    <idno type="pezEd"><xsl:value-of select="$nextLetter"/></idno>
+                </ref>
+            </xsl:if>
+            <xsl:if test="$prevLetter">
+                <ref type="prev">
+                    <idno type="pezEd"><xsl:value-of select="$prevLetter"/></idno>
+                </ref>
+            </xsl:if>
+        </xsl:copy>
     </xsl:template>
     
     <xsl:template match="t:creation/t:origDate">
