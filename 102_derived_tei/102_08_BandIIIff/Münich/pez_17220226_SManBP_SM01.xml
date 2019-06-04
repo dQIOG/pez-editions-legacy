@@ -73,7 +73,7 @@
       <front>
          <div type="editorialNote">
             <div type="regest">
-               <p xml:space="preserve">REGEST enthält viele Namen, von Jean Mabillon bis Anselm Schramb</p>
+               <p xml:space="preserve"><seg type="context" n="1" xml:id="kny_pyy_yhb">REGEST enthält viele Namen, von Jean</seg> <seg type="context" n="2" xml:id="ak3_vyy_yhb">Mabillon bis Anselm Schramb</seg></p>
             </div>
             <div type="remarks">
                <p>{$remarks}</p>
@@ -85,11 +85,17 @@
       </front>
       <body>
          <div type="edition">
-            <p xml:space="preserve">Editionstext is a long way....</p>
+            <opener><pb n= "1r"/><salute xml:space="preserve">Summe venerando patri.</salute> </opener> 
+            <p xml:space="preserve"><seg type="context" n="1" xml:id="sr5_b1z_yhb">Editionstext</seg> <seg type="context" n="1" xml:id="hlg_g1z_yhb">is a long way...</seg>Muli homines eruditi scripserunt epistolas, <seg type="lemma" corresp="#com_tsq_1bz_yhb">quia nimio otio</seg> uterentur.</p>
          </div>
       </body>
       <back>
-         <div type="commentary"><!-- Kommentar --></div>
+         <div type="commentary">
+            <note xml:id="com_tsq_1bz_yhb">
+               <ref type="context">2</ref>
+               <label>quia nimio otio</label>
+               <p xml:space="preserve"/>
+            </note><!-- Kommentar --></div>
       </back>
    </text>
 </TEI>
