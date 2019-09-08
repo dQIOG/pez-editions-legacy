@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="18.0">
+<project version="20.1">
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="18.0" xml:space="preserve">
+            <serialized version="20.1" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>autocheck.addons.enable</String>
@@ -24,6 +24,26 @@
                                 </field>
                                 <field name="renderString">
                                     <String>Anrede</String>
+                                </field>
+                                <field name="enabled">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="accelerator">
+                                    <null/>
+                                </field>
+                            </codeTemplateItem>
+                            <codeTemplateItem>
+                                <field name="contentType">
+                                    <String>text/any</String>
+                                </field>
+                                <field name="unparsedInsertString">
+                                    <String>&lt;anchor type="app-start" xml:id="${xpath_eval(format-number(count(preceding::anchor[@type='app-end'])+1, 'app000'))}"/>${selection}&lt;anchor xml:id="${xpath_eval(format-number(count(preceding::anchor[@type='app-end'])+1, 'app000'))}e" type="app-end"/></String>
+                                </field>
+                                <field name="descriptionString">
+                                    <String></String>
+                                </field>
+                                <field name="renderString">
+                                    <String>Apparat-anchors</String>
                                 </field>
                                 <field name="enabled">
                                     <Boolean>true</Boolean>
@@ -743,6 +763,27 @@ Note: If the XPath expression is not defined this argument is ignored&lt;/li>&lt
                                     <String>text/css</String>
                                 </field>
                                 <field name="unparsedInsertString">
+                                    <String>operation, 'ro.sync.ecss.extensions.commons.operations.ReloadContentOperation',
+          arg-markAsNotModified, 'false'</String>
+                                </field>
+                                <field name="descriptionString">
+                                    <String>&lt;html>&lt;head>&lt;/head>&lt;body>Description:&lt;p style="margin-left:10px;">Reloads the content of the editor by reading again from the URL used to open it&lt;/p>&lt;br/>Arguments: &lt;ul>&lt;li>&lt;b>markAsNotModified&lt;/b> = After reloading the content the editor may appear as modified. Sometimes, the content is already present on the file server, so the user should not save it again. This flags can be used in these cases to prevent the editor from showing as modified&lt;/li>&lt;/ul> &lt;br/> Template: &lt;br/>&lt;p style="margin-left:10px;">operation, 'ro.sync.ecss.extensions.commons.operations.ReloadContentOperation',&lt;br/>          arg-markAsNotModified, 'false'&lt;/p>&lt;/body>&lt;/html></String>
+                                </field>
+                                <field name="renderString">
+                                    <String>op_ReloadContentOperation</String>
+                                </field>
+                                <field name="enabled">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="accelerator">
+                                    <null/>
+                                </field>
+                            </codeTemplateItem>
+                            <codeTemplateItem>
+                                <field name="contentType">
+                                    <String>text/css</String>
+                                </field>
+                                <field name="unparsedInsertString">
                                     <String>operation, 'ro.sync.ecss.extensions.commons.operations.RemovePseudoClassOperation',
           arg-elementLocation, '.',
           arg-name, ''</String>
@@ -1383,6 +1424,47 @@ Expansion is enabled by default.&lt;/li>&lt;/ul> &lt;br/> Template: &lt;br/>&lt;
                                 </field>
                                 <field name="renderString">
                                     <String>oxy_combobox</String>
+                                </field>
+                                <field name="enabled">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="accelerator">
+                                    <null/>
+                                </field>
+                            </codeTemplateItem>
+                            <codeTemplateItem>
+                                <field name="contentType">
+                                    <String>text/css</String>
+                                </field>
+                                <field name="unparsedInsertString">
+                                    <String>oxy_compound_action(
+         name, oxy_getActionName('framework.id', 'Fallback'),
+         description, 'Insert an "element" and then rename it to "rename"',
+	oxy_action(
+		name, 'Insert', 
+		description, 'Insert an element after the current one', 
+		operation, 'ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation', 
+		icon, url('insert.png'), 
+		arg-fragment, '&lt;element>&lt;/element>',
+		arg-insertLocation, '.',
+		arg-insertPosition, 'After'
+	),
+	oxy_action(
+	    name, 'Rename', 
+	    description, 'Renames the current element', 
+	    operation, 'ro.sync.ecss.extensions.commons.operations.RenameElementOperation',
+	    arg-elementName, 'rename',
+	    arg-elementLocation, '.'
+	)
+)
+
+</String>
+                                </field>
+                                <field name="descriptionString">
+                                    <String>A list of actions with common parameters.</String>
+                                </field>
+                                <field name="renderString">
+                                    <String>oxy_compound_action</String>
                                 </field>
                                 <field name="enabled">
                                     <Boolean>true</Boolean>
@@ -2055,6 +2137,27 @@ Note: If the XPath expression is not defined this argument is ignored&lt;/li>&lt
                                     <String>text/less</String>
                                 </field>
                                 <field name="unparsedInsertString">
+                                    <String>operation, 'ro.sync.ecss.extensions.commons.operations.ReloadContentOperation',
+          arg-markAsNotModified, 'false'</String>
+                                </field>
+                                <field name="descriptionString">
+                                    <String>&lt;html>&lt;head>&lt;/head>&lt;body>Description:&lt;p style="margin-left:10px;">Reloads the content of the editor by reading again from the URL used to open it&lt;/p>&lt;br/>Arguments: &lt;ul>&lt;li>&lt;b>markAsNotModified&lt;/b> = After reloading the content the editor may appear as modified. Sometimes, the content is already present on the file server, so the user should not save it again. This flags can be used in these cases to prevent the editor from showing as modified&lt;/li>&lt;/ul> &lt;br/> Template: &lt;br/>&lt;p style="margin-left:10px;">operation, 'ro.sync.ecss.extensions.commons.operations.ReloadContentOperation',&lt;br/>          arg-markAsNotModified, 'false'&lt;/p>&lt;/body>&lt;/html></String>
+                                </field>
+                                <field name="renderString">
+                                    <String>op_ReloadContentOperation</String>
+                                </field>
+                                <field name="enabled">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="accelerator">
+                                    <null/>
+                                </field>
+                            </codeTemplateItem>
+                            <codeTemplateItem>
+                                <field name="contentType">
+                                    <String>text/less</String>
+                                </field>
+                                <field name="unparsedInsertString">
                                     <String>operation, 'ro.sync.ecss.extensions.commons.operations.RemovePseudoClassOperation',
           arg-elementLocation, '.',
           arg-name, ''</String>
@@ -2913,6 +3016,177 @@ Expansion is enabled by default.&lt;/li>&lt;/ul> &lt;br/> Template: &lt;br/>&lt;
                                 </field>
                                 <field name="renderString">
                                     <String>oxy_video</String>
+                                </field>
+                                <field name="enabled">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="accelerator">
+                                    <null/>
+                                </field>
+                            </codeTemplateItem>
+                            <codeTemplateItem>
+                                <field name="contentType">
+                                    <String>text/markdown</String>
+                                </field>
+                                <field name="unparsedInsertString">
+                                    <String>
+Term${caret}
+:   Definition.
+
+</String>
+                                </field>
+                                <field name="descriptionString">
+                                    <String>Insert a definition list entry</String>
+                                </field>
+                                <field name="renderString">
+                                    <String>definition-entry</String>
+                                </field>
+                                <field name="enabled">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="accelerator">
+                                    <null/>
+                                </field>
+                            </codeTemplateItem>
+                            <codeTemplateItem>
+                                <field name="contentType">
+                                    <String>text/markdown</String>
+                                </field>
+                                <field name="unparsedInsertString">
+                                    <String># ConceptTitle${caret} {.concept}
+
+Content</String>
+                                </field>
+                                <field name="descriptionString">
+                                    <String>[DITA] Insert concept topic</String>
+                                </field>
+                                <field name="renderString">
+                                    <String>dita-concept</String>
+                                </field>
+                                <field name="enabled">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="accelerator">
+                                    <null/>
+                                </field>
+                            </codeTemplateItem>
+                            <codeTemplateItem>
+                                <field name="contentType">
+                                    <String>text/markdown</String>
+                                </field>
+                                <field name="unparsedInsertString">
+                                    <String>
+## ExampleTitle${caret} {.example}
+
+Content
+</String>
+                                </field>
+                                <field name="descriptionString">
+                                    <String>[DITA] Insert example</String>
+                                </field>
+                                <field name="renderString">
+                                    <String>dita-example</String>
+                                </field>
+                                <field name="enabled">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="accelerator">
+                                    <null/>
+                                </field>
+                            </codeTemplateItem>
+                            <codeTemplateItem>
+                                <field name="contentType">
+                                    <String>text/markdown</String>
+                                </field>
+                                <field name="unparsedInsertString">
+                                    <String># ReferenceTitle${caret} {.reference}
+
+## Section {.section}
+
+Content</String>
+                                </field>
+                                <field name="descriptionString">
+                                    <String>[DITA] Insert reference topic</String>
+                                </field>
+                                <field name="renderString">
+                                    <String>dita-reference</String>
+                                </field>
+                                <field name="enabled">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="accelerator">
+                                    <null/>
+                                </field>
+                            </codeTemplateItem>
+                            <codeTemplateItem>
+                                <field name="contentType">
+                                    <String>text/markdown</String>
+                                </field>
+                                <field name="unparsedInsertString">
+                                    <String>
+## SectionTitle${caret} {.section}
+
+Content
+</String>
+                                </field>
+                                <field name="descriptionString">
+                                    <String>[DITA] Insert section</String>
+                                </field>
+                                <field name="renderString">
+                                    <String>dita-section</String>
+                                </field>
+                                <field name="enabled">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="accelerator">
+                                    <null/>
+                                </field>
+                            </codeTemplateItem>
+                            <codeTemplateItem>
+                                <field name="contentType">
+                                    <String>text/markdown</String>
+                                </field>
+                                <field name="unparsedInsertString">
+                                    <String># TaskTitle${caret} {.task}
+
+Context
+
+1.  Command
+
+    Info.
+
+Results.
+</String>
+                                </field>
+                                <field name="descriptionString">
+                                    <String>[DITA] Insert task topic</String>
+                                </field>
+                                <field name="renderString">
+                                    <String>dita-task</String>
+                                </field>
+                                <field name="enabled">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="accelerator">
+                                    <null/>
+                                </field>
+                            </codeTemplateItem>
+                            <codeTemplateItem>
+                                <field name="contentType">
+                                    <String>text/markdown</String>
+                                </field>
+                                <field name="unparsedInsertString">
+                                    <String>
+1.  Command${caret}
+
+    Info.
+</String>
+                                </field>
+                                <field name="descriptionString">
+                                    <String>[DITA] Insert task step</String>
+                                </field>
+                                <field name="renderString">
+                                    <String>dita-task-step</String>
                                 </field>
                                 <field name="enabled">
                                     <Boolean>true</Boolean>
@@ -6151,6 +6425,28 @@ ${caret}</String>
                                     <String>text/xsl</String>
                                 </field>
                                 <field name="unparsedInsertString">
+                                    <String>&lt;xsl:template name="xsl:initial-template">
+	${caret}
+&lt;/xsl:template></String>
+                                </field>
+                                <field name="descriptionString">
+                                    <String>Insert Initial Template.</String>
+                                </field>
+                                <field name="renderString">
+                                    <String>tini</String>
+                                </field>
+                                <field name="enabled">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="accelerator">
+                                    <null/>
+                                </field>
+                            </codeTemplateItem>
+                            <codeTemplateItem>
+                                <field name="contentType">
+                                    <String>text/xsl</String>
+                                </field>
+                                <field name="unparsedInsertString">
                                     <String>&lt;xsl:template match="${caret}">
       
 &lt;/xsl:template></String>
@@ -6496,282 +6792,6 @@ ${caret}</String>
                                 </field>
                                 <field name="renderString">
                                     <String>xsl</String>
-                                </field>
-                                <field name="enabled">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="accelerator">
-                                    <null/>
-                                </field>
-                            </codeTemplateItem>
-                            <codeTemplateItem>
-                                <field name="contentType">
-                                    <String>text/css</String>
-                                </field>
-                                <field name="unparsedInsertString">
-                                    <String>operation, 'ro.sync.ecss.extensions.commons.operations.ReloadContentOperation',
-          arg-markAsNotModified, 'false'</String>
-                                </field>
-                                <field name="descriptionString">
-                                    <String>&lt;html>&lt;head>&lt;/head>&lt;body>Description:&lt;p style="margin-left:10px;">Reloads the content of the editor by reading again from the URL used to open it&lt;/p>&lt;br/>Arguments: &lt;ul>&lt;li>&lt;b>markAsNotModified&lt;/b> = After reloading the content the editor may appear as modified. Sometimes, the content is already present on the file server, so the user should not save it again. This flags can be used in these cases to prevent the editor from showing as modified&lt;/li>&lt;/ul> &lt;br/> Template: &lt;br/>&lt;p style="margin-left:10px;">operation, 'ro.sync.ecss.extensions.commons.operations.ReloadContentOperation',&lt;br/>          arg-markAsNotModified, 'false'&lt;/p>&lt;/body>&lt;/html></String>
-                                </field>
-                                <field name="renderString">
-                                    <String>op_ReloadContentOperation</String>
-                                </field>
-                                <field name="enabled">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="accelerator">
-                                    <null/>
-                                </field>
-                            </codeTemplateItem>
-                            <codeTemplateItem>
-                                <field name="contentType">
-                                    <String>text/css</String>
-                                </field>
-                                <field name="unparsedInsertString">
-                                    <String>oxy_compound_action(
-         name, oxy_getActionName('framework.id', 'Fallback'),
-         description, 'Insert an "element" and then rename it to "rename"',
-	oxy_action(
-		name, 'Insert', 
-		description, 'Insert an element after the current one', 
-		operation, 'ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation', 
-		icon, url('insert.png'), 
-		arg-fragment, '&lt;element>&lt;/element>',
-		arg-insertLocation, '.',
-		arg-insertPosition, 'After'
-	),
-	oxy_action(
-	    name, 'Rename', 
-	    description, 'Renames the current element', 
-	    operation, 'ro.sync.ecss.extensions.commons.operations.RenameElementOperation',
-	    arg-elementName, 'rename',
-	    arg-elementLocation, '.'
-	)
-)
-
-</String>
-                                </field>
-                                <field name="descriptionString">
-                                    <String>A list of actions with common parameters.</String>
-                                </field>
-                                <field name="renderString">
-                                    <String>oxy_compound_action</String>
-                                </field>
-                                <field name="enabled">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="accelerator">
-                                    <null/>
-                                </field>
-                            </codeTemplateItem>
-                            <codeTemplateItem>
-                                <field name="contentType">
-                                    <String>text/less</String>
-                                </field>
-                                <field name="unparsedInsertString">
-                                    <String>operation, 'ro.sync.ecss.extensions.commons.operations.ReloadContentOperation',
-          arg-markAsNotModified, 'false'</String>
-                                </field>
-                                <field name="descriptionString">
-                                    <String>&lt;html>&lt;head>&lt;/head>&lt;body>Description:&lt;p style="margin-left:10px;">Reloads the content of the editor by reading again from the URL used to open it&lt;/p>&lt;br/>Arguments: &lt;ul>&lt;li>&lt;b>markAsNotModified&lt;/b> = After reloading the content the editor may appear as modified. Sometimes, the content is already present on the file server, so the user should not save it again. This flags can be used in these cases to prevent the editor from showing as modified&lt;/li>&lt;/ul> &lt;br/> Template: &lt;br/>&lt;p style="margin-left:10px;">operation, 'ro.sync.ecss.extensions.commons.operations.ReloadContentOperation',&lt;br/>          arg-markAsNotModified, 'false'&lt;/p>&lt;/body>&lt;/html></String>
-                                </field>
-                                <field name="renderString">
-                                    <String>op_ReloadContentOperation</String>
-                                </field>
-                                <field name="enabled">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="accelerator">
-                                    <null/>
-                                </field>
-                            </codeTemplateItem>
-                            <codeTemplateItem>
-                                <field name="contentType">
-                                    <String>text/markdown</String>
-                                </field>
-                                <field name="unparsedInsertString">
-                                    <String>
-Term${caret}
-:   Definition.
-
-</String>
-                                </field>
-                                <field name="descriptionString">
-                                    <String>Insert a definition list entry</String>
-                                </field>
-                                <field name="renderString">
-                                    <String>definition-entry</String>
-                                </field>
-                                <field name="enabled">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="accelerator">
-                                    <null/>
-                                </field>
-                            </codeTemplateItem>
-                            <codeTemplateItem>
-                                <field name="contentType">
-                                    <String>text/markdown</String>
-                                </field>
-                                <field name="unparsedInsertString">
-                                    <String># ConceptTitle${caret} {.concept}
-
-Content</String>
-                                </field>
-                                <field name="descriptionString">
-                                    <String>[DITA] Insert concept topic</String>
-                                </field>
-                                <field name="renderString">
-                                    <String>dita-concept</String>
-                                </field>
-                                <field name="enabled">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="accelerator">
-                                    <null/>
-                                </field>
-                            </codeTemplateItem>
-                            <codeTemplateItem>
-                                <field name="contentType">
-                                    <String>text/markdown</String>
-                                </field>
-                                <field name="unparsedInsertString">
-                                    <String>
-## ExampleTitle${caret} {.example}
-
-Content
-</String>
-                                </field>
-                                <field name="descriptionString">
-                                    <String>[DITA] Insert example</String>
-                                </field>
-                                <field name="renderString">
-                                    <String>dita-example</String>
-                                </field>
-                                <field name="enabled">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="accelerator">
-                                    <null/>
-                                </field>
-                            </codeTemplateItem>
-                            <codeTemplateItem>
-                                <field name="contentType">
-                                    <String>text/markdown</String>
-                                </field>
-                                <field name="unparsedInsertString">
-                                    <String># ReferenceTitle${caret} {.reference}
-
-## Section {.section}
-
-Content</String>
-                                </field>
-                                <field name="descriptionString">
-                                    <String>[DITA] Insert reference topic</String>
-                                </field>
-                                <field name="renderString">
-                                    <String>dita-reference</String>
-                                </field>
-                                <field name="enabled">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="accelerator">
-                                    <null/>
-                                </field>
-                            </codeTemplateItem>
-                            <codeTemplateItem>
-                                <field name="contentType">
-                                    <String>text/markdown</String>
-                                </field>
-                                <field name="unparsedInsertString">
-                                    <String>
-## SectionTitle${caret} {.section}
-
-Content
-</String>
-                                </field>
-                                <field name="descriptionString">
-                                    <String>[DITA] Insert section</String>
-                                </field>
-                                <field name="renderString">
-                                    <String>dita-section</String>
-                                </field>
-                                <field name="enabled">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="accelerator">
-                                    <null/>
-                                </field>
-                            </codeTemplateItem>
-                            <codeTemplateItem>
-                                <field name="contentType">
-                                    <String>text/markdown</String>
-                                </field>
-                                <field name="unparsedInsertString">
-                                    <String># TaskTitle${caret} {.task}
-
-Context
-
-1.  Command
-
-    Info.
-
-Results.
-</String>
-                                </field>
-                                <field name="descriptionString">
-                                    <String>[DITA] Insert task topic</String>
-                                </field>
-                                <field name="renderString">
-                                    <String>dita-task</String>
-                                </field>
-                                <field name="enabled">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="accelerator">
-                                    <null/>
-                                </field>
-                            </codeTemplateItem>
-                            <codeTemplateItem>
-                                <field name="contentType">
-                                    <String>text/markdown</String>
-                                </field>
-                                <field name="unparsedInsertString">
-                                    <String>
-1.  Command${caret}
-
-    Info.
-</String>
-                                </field>
-                                <field name="descriptionString">
-                                    <String>[DITA] Insert task step</String>
-                                </field>
-                                <field name="renderString">
-                                    <String>dita-task-step</String>
-                                </field>
-                                <field name="enabled">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="accelerator">
-                                    <null/>
-                                </field>
-                            </codeTemplateItem>
-                            <codeTemplateItem>
-                                <field name="contentType">
-                                    <String>text/xsl</String>
-                                </field>
-                                <field name="unparsedInsertString">
-                                    <String>&lt;xsl:template name="xsl:initial-template">
-	${caret}
-&lt;/xsl:template></String>
-                                </field>
-                                <field name="descriptionString">
-                                    <String>Insert Initial Template.</String>
-                                </field>
-                                <field name="renderString">
-                                    <String>tini</String>
                                 </field>
                                 <field name="enabled">
                                     <Boolean>true</Boolean>
@@ -7431,6 +7451,9 @@ Results.
                                     <null/>
                                 </field>
                                 <field name="customAttributeValueEditor">
+                                    <null/>
+                                </field>
+                                <field name="textModeExternalObjectInsertionHandler">
                                     <null/>
                                 </field>
                             </documentTypeDescriptor>
@@ -11358,6 +11381,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                     <null/>
                                 </field>
                                 <field name="customAttributeValueEditor">
+                                    <null/>
+                                </field>
+                                <field name="textModeExternalObjectInsertionHandler">
                                     <null/>
                                 </field>
                             </documentTypeDescriptor>
@@ -15344,6 +15370,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                 <field name="customAttributeValueEditor">
                                     <null/>
                                 </field>
+                                <field name="textModeExternalObjectInsertionHandler">
+                                    <null/>
+                                </field>
                             </documentTypeDescriptor>
                         </documentTypeDescriptor-array>
                     </entry>
@@ -15870,7 +15899,7 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                 <field name="addCommentsForValidationErrors">
                                                     <Boolean>true</Boolean>
                                                 </field>
-                                                <field name="generateByteCode">
+                                                <field name="streamingEnabled">
                                                     <Boolean>false</Boolean>
                                                 </field>
                                                 <field name="allowCallsOnExtensionFunctions">
@@ -15878,6 +15907,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                 </field>
                                                 <field name="registerSaxonCEExtensions">
                                                     <Boolean>true</Boolean>
+                                                </field>
+                                                <field name="enableAssertions">
+                                                    <Boolean>false</Boolean>
                                                 </field>
                                                 <field name="showVersionWarnings">
                                                     <Boolean>false</Boolean>
@@ -15909,8 +15941,8 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                 <field name="stripWS">
                                                     <String>saxon.strip.ws.none</String>
                                                 </field>
-                                                <field name="optimizationLevel">
-                                                    <String>0</String>
+                                                <field name="optimizationEnabled">
+                                                    <Boolean>true</Boolean>
                                                 </field>
                                                 <field name="useConfigFile">
                                                     <Boolean>false</Boolean>
@@ -16025,7 +16057,7 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                 <field name="addCommentsForValidationErrors">
                                                     <Boolean>true</Boolean>
                                                 </field>
-                                                <field name="generateByteCode">
+                                                <field name="streamingEnabled">
                                                     <Boolean>false</Boolean>
                                                 </field>
                                                 <field name="allowCallsOnExtensionFunctions">
@@ -16033,6 +16065,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                 </field>
                                                 <field name="registerSaxonCEExtensions">
                                                     <Boolean>true</Boolean>
+                                                </field>
+                                                <field name="enableAssertions">
+                                                    <Boolean>false</Boolean>
                                                 </field>
                                                 <field name="showVersionWarnings">
                                                     <Boolean>false</Boolean>
@@ -16064,8 +16099,8 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                 <field name="stripWS">
                                                     <String>saxon.strip.ws.none</String>
                                                 </field>
-                                                <field name="optimizationLevel">
-                                                    <String>0</String>
+                                                <field name="optimizationEnabled">
+                                                    <Boolean>true</Boolean>
                                                 </field>
                                                 <field name="useConfigFile">
                                                     <Boolean>false</Boolean>
@@ -17045,7 +17080,7 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                 <field name="addCommentsForValidationErrors">
                                                     <Boolean>true</Boolean>
                                                 </field>
-                                                <field name="generateByteCode">
+                                                <field name="streamingEnabled">
                                                     <Boolean>false</Boolean>
                                                 </field>
                                                 <field name="allowCallsOnExtensionFunctions">
@@ -17053,6 +17088,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                 </field>
                                                 <field name="registerSaxonCEExtensions">
                                                     <Boolean>true</Boolean>
+                                                </field>
+                                                <field name="enableAssertions">
+                                                    <Boolean>false</Boolean>
                                                 </field>
                                                 <field name="showVersionWarnings">
                                                     <Boolean>false</Boolean>
@@ -17084,8 +17122,8 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                 <field name="stripWS">
                                                     <String>saxon.strip.ws.none</String>
                                                 </field>
-                                                <field name="optimizationLevel">
-                                                    <String>0</String>
+                                                <field name="optimizationEnabled">
+                                                    <Boolean>true</Boolean>
                                                 </field>
                                                 <field name="useConfigFile">
                                                     <Boolean>false</Boolean>
@@ -18132,17 +18170,14 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                 <field name="isEnabledLinkedTreeModel">
                                                     <Boolean>false</Boolean>
                                                 </field>
-                                                <field name="isEnabledXQuery30Support">
-                                                    <Boolean>false</Boolean>
-                                                </field>
                                                 <field name="errorRecoverPolicy">
                                                     <String>saxon.recover.with.warning</String>
                                                 </field>
                                                 <field name="stripWS">
                                                     <String>saxon.strip.ws.none</String>
                                                 </field>
-                                                <field name="optimizationLevel">
-                                                    <String>0</String>
+                                                <field name="optimizationEnabled">
+                                                    <Boolean>true</Boolean>
                                                 </field>
                                                 <field name="useConfigFile">
                                                     <Boolean>false</Boolean>
