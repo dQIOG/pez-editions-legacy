@@ -21,7 +21,7 @@
                <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
             </relatedItem>
             <relatedItem type="otherEdition">
-               <bibl>Schelhorn, Amoenitates 13 279–284 Nr. I (S).</bibl>
+               <bibl xml:id="schelhorn_ed">Schelhorn, Amoenitates 13 279–284 Nr. I (S).</bibl>
             </relatedItem>
             <relatedItem type="secondaryLiterature">
                <listBibl>
@@ -42,37 +42,16 @@
                    - Wie wird der Verlust des Originals kodiert? (eigentlich nicht Teil der Liste, weil eben kein Textzeuge.)
                    - wie wird die Typologie der Textzeugen kodiert? 
                -->
-               <witness ana="#original"/>
-               <witness xml:id="B" ana="#manuscriptCopy">
-                  <msDesc>
-                     <msIdentifier>
-                        <country>Austria</country>
-                        <institution>Stift Melk</institution>
-                        <repository>StiA Melk</repository>
-                        <idno>StiA Melk Karton 7 Patres 9, Abschriftencodex 117r–119v</idno>
-                     </msIdentifier>
-                  </msDesc>
-               </witness>
-               <witness xml:id="C" ana="#concept">
-                  <msDesc>
-                     <msIdentifier>
-                        <country>France</country>
-                        <institution>Bibliothèque nationale de France</institution>
-                        <collection>Fonds français</collection>
-                        <idno>BN FF 17680, 244r–v</idno>
-                     </msIdentifier>
-                  </msDesc>
-               </witness>
-               <witness xml:id="S" ana="#edition">
-                  <bibl>Schelhorn, Amoenitates 13 279–284 Nr. I.</bibl>
-               </witness>
+               <witness ana="#original"><!-- TODO Notiz, dass Original verloren ist --></witness>
+               <witness xml:id="B" ana="#manuscriptCopy"><rs type="ms"><!-- TODO Link zu TODO Manuskript-Liste -->StiA Melk Karton 7 Patres 9, Abschriftencodex</rs> <locus>117r–119v</locus></witness>
+               <witness xml:id="C" ana="#concept"><rs type="ms">BN FF 17680</rs> <locus>244r–v</locus></witness>
+               <witness xml:id="S" ana="#edition" sameAs="#schelhorn_ed"><!-- TODO Ergänzen, wieso eine Edition als Textzeuge angeführt wird. --></witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
             <p>Dem Editionstext wird die Überlieferung B zugrunde gelegt, jedoch nach C und S emendiert, wo diese miteinander übereinstimmend eine andere Lesart bieten. Inhalte aus dem Konzept, die in den auf der Ausfertigung fußenden Überlieferungen fehlen, werden im Regest zwischen Asterisci gesetzt.</p>
-            
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -121,6 +100,7 @@
       <revisionDesc>
          <listChange>
             <change type="creation" who="#ds" when="2017-02-27T09:44:16.455+01:00">Automatically upconverted from DOCX document.</change>
+            <change type="markup" who="#ds" when="2019-09-09">Finished manual encoding of critical apparatus.</change>
          </listChange>
       </revisionDesc>
    </teiHeader>
@@ -142,19 +122,28 @@
       <body>
          <div type="edition">
             <p xml:space="preserve"><pb n="1r"/><anchor type="app-start" xml:id="app001"/>Reverende admodum pater ac religiosissime domine.<anchor type="app-end" xml:id="ap001e"/></p>
-            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e5591"><anchor type="app-start" xml:id="app002"/>Cum nihil aequius esse videatur, quam ut fratres ad eiusdem familiae decus promovendum conspirantes mutuo sese auxilio iuvent, is nedum urbanitatis, sed et humanitatis expers sit, qui laborum tuorum ordinis nostri gloriae atque utilitati cessurorum consors <pb n="1v"/> esse manum commodando refugiat. <seg type="lemma" corresp="#d4618e6102">Adiutores igitur in partem operis vocati</seg> venire non renuemus.<!-- im Apparat steht der satzabschließende Punkt HINTER der Sigle. --><anchor type="app-end" xml:id="app002e"/> Me prae caeteris ad ferendam opem, quamcunque potuerim, paratum inveniet reverenda paternitas vestra. Sed moram, quaeso, aliis curis <anchor type="app-start" xml:id="app003"/>iam nimium<anchor type="app-end" xml:id="app003e"/> distracto tantillam concedat, donec solutus historiam ordinis <anchor type="app-start" xml:id="app004"/>nostri<anchor type="app-end" xml:id="app004e"/> iam coeptam <anchor type="app-start" xml:id="app005"/>persequi<anchor type="app-end" xml:id="app005e"/> valeam. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e5619"><anchor type="app-start" xml:id="app006"/>Non te fugit<anchor type="app-end" xml:id="app006e"/>, reverende admodum pater, nostrum domnum Joannem Mabillonium <anchor type="app-start" xml:id="app007"/>toto orbe eruditionis laude celeberrimum<anchor type="app-end" xml:id="app007e"/> Annales ordinis <anchor type="app-start" xml:id="app008"/>Benedictini<anchor type="app-end" xml:id="app008e"/> Latino <anchor type="app-start" xml:id="app009"/>sermone<anchor xml:id="app009e" type="app-end"/> conscribere coepisse. Quatuor iam operis volumina in folio magno omnium eruditorum applausu prodierunt. Quintum, quo rerum historia usque ad sancti Bernardi obitum <anchor type="app-start" xml:id="app010"/>perducitur<anchor xml:id="app010e" type="app-end"/>, praelo paratum habebat, cum mors nihil miserans senem <anchor type="app-start" xml:id="app011"/>septuagenario maiorem<anchor xml:id="app011e" type="app-end"/> e vivis sustulit. Continuandum opus sibi susceperat discipulus eius domnus <anchor type="app-start" xml:id="app012"/>Theodoricus<anchor xml:id="app012e" type="app-end"/> Ruinart, sed et ipsum iam manum <anchor type="app-start" xml:id="app013"/>admovere<anchor xml:id="app013e" type="app-end"/> meditantem mors nondum <anchor type="app-start" xml:id="app014"/>exsatiata<anchor xml:id="app014e" type="app-end"/> paucis abhinc mensibus <anchor type="app-start" xml:id="app015"/>absumpsit<anchor xml:id="app015e" type="app-end"/>. Ne vero tam praeclarum opus imperfectum iaceret (quod timebant eruditi quique), mihi coepta persequendi provinciam demandarunt superiores <anchor type="app-start" xml:id="app016"/>nostrae congregationis<anchor xml:id="app016e" type="app-end"/>. <anchor type="app-start" xml:id="app017"/>Utinam alteri cuipiam peritiori demandassent, ingeniique ac eruditionis tenuitatem iure merito excusantem audire voluissent! Sed demum detrectatum <pb n="2r"/> onus subire compulsus collum gemebundus submisi<anchor xml:id="app017e" type="app-end"/>. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e5700"><anchor type="app-start" xml:id="app018"/>Prius tamen, quam operi me accingam<anchor xml:id="app018e" type="app-end"/>, absolvenda mihi est nova <seg type="lemma" corresp="#d4618e6116">editio, <anchor type="app-start" xml:id="app019"/>quam suscepi, librorum sancti Irenaei</seg> episcopi Lugdunensis et martyris Adversus haereses<anchor xml:id="app019e" type="app-end"/>, quae sub praelo est aestate proxima Deo <anchor type="app-start" xml:id="app020"/>favente<anchor xml:id="app020e" type="app-end"/>. exitura. <anchor type="app-start" xml:id="app021"/>His<anchor xml:id="app021e" type="app-end"/> curis solutus totus in Annales <anchor type="app-start" xml:id="app022"/>incumbam<anchor xml:id="app022e" type="app-end"/>, tumque <seg type="lemma" corresp="#d4618e6123">Mabillonii scrinia</seg> omnia commentariosque <anchor type="app-start" xml:id="app023"/>e<anchor xml:id="app023e" type="app-end"/> variis monasteriis vel iam missos vel posthac mittendos diligentius recensens inspiciensque, si quid <anchor type="app-start" xml:id="app024"/>occurrerit<anchor xml:id="app024e" type="app-end"/>, quo reverendae paternitatis vestrae consilium<note place="foot" xml:id="d4618e5748">	<hi rend="italic">reverendae ... consilium: consilium vestrum</hi> C.</note> iuvari posse putem, id exscribi quantocyusque<note place="foot" xml:id="d4618e5754">	<hi rend="italic">quantociusque</hi> S; <hi rend="italic">et ad [</hi>durchgestrichen <hi rend="italic">vestram] paternitatem vestram</hi> C.</note> mitti curabo. </seg><seg type="context" n="4" xml:space="preserve" xml:id="d4618e5766">Iam dudum vota tua adhuc tamen ignota antevenientes<note place="foot" xml:id="d4618e5768">	<hi rend="italic">dudum ... antevenientes</hi> fehlt C.</note> <seg type="lemma" corresp="#d4618e6128">encyclicas ad Gallicana monasteria litteras scripsimus</seg><note place="foot" xml:id="d4618e5774">	<hi rend="italic" xml:space="preserve">dedimus </hi>C.</note>, quibus inter alia plura de iisdem omnino ea percontamur, quae tu sciscitaris ex nobis<note place="foot" xml:id="d4618e5780">	<hi rend="italic">quibus ... ex nobis: quibus rogavimus, ut nobiscum communicare dignentur, quaecumque ad illustrandam ordinis historiam ab anno praesertim 1000 conferre posse noverint, ac inprimis non omittant viros illustres uniuscuiusque monasterii, et si quid scriptis mandaverint aut iam editum aut hactenus in bibliothecarum forulis delitescens, id diligenter significent</hi> C.</note>. Easdem brevi<note place="foot" xml:id="d4618e5786">	<hi rend="italic" xml:space="preserve">Easdem brevi: Post Pascha epistolas </hi>C.</note> <seg type="lemma" corresp="#d4618e6135">iterabo</seg>; minusque festinantium tarditatem urgens<note place="foot" xml:id="d4618e5792">	Danach durchgestrichen <hi rend="italic">in viris illustribus</hi> C.</note> virorum illustrium historiae, operum eorum catalogo etc.<note place="foot" xml:id="d4618e5799">	C, S; fehlt B.</note> acrius adhuc insistam. Hoc enim utrique nostrum commune est argumentum, ut de ordinis scriptoribus<note place="foot" xml:id="d4618e5802">	<hi rend="italic">ordinis scriptoribus: [</hi>durchgestrichen <hi rend="italic">viris illustri] ordinis nostri viris illustribus</hi> C.</note> agamus; cum eo tantum<note place="foot" xml:id="d4618e5811">	C, S; <hi rend="italic">tamen</hi> B.</note> discrimine, quod id operis tui primarium ac praecipuum sit caput, mei vero accessio quaedam<note place="foot" xml:id="d4618e5817">	<hi rend="italic">id operis ... quaedam</hi> fehlt C.</note>; quaeque<note place="foot" xml:id="d4618e5823">	<hi rend="italic">quae</hi> C.</note> tu<note place="foot" xml:id="d4618e5829">	Danach <hi rend="italic">reverende admodum pater</hi> C.</note> fusiori<note place="foot" xml:id="d4618e5836">	Davor durchgestrichen <hi rend="italic">fusiori st</hi> C.</note> ac enucleatiori stylo persecuturus<note place="foot" xml:id="d4618e5842">	C, S; <hi rend="italic">prosecuturus</hi> B.</note> es, eadem<note place="foot" xml:id="d4618e5848">	<hi rend="italic">eodem</hi> S.</note> ego breviori complexurus<note place="foot" xml:id="d4618e5854">	C, S; <hi rend="italic">complexus</hi> B.</note> sum. Tantisper igitur exspectare si velis, donec a caeteris negotiis vacuus operi <pb n="2v"/> manum admoveam<note place="foot" xml:id="d4618e5862">	C, S; <hi rend="italic">adhibeam</hi> B.</note>, quidquid<note place="foot" xml:id="d4618e5869">	Davor <hi rend="italic">si</hi> C.</note> sub manum venerit, quod in rem tuam faciat, id ex animo communicabo. Nam alioqui turbulentis hisce temporibus quidpiam ad vos tuto<note place="foot" xml:id="d4618e5875">	Fehlt C.</note> transmittere difficillimum esset<note place="foot" xml:id="d4618e5878">	<hi rend="italic">difficillimum esset: vix ac ne vix quidem possemus</hi> C.</note>. </seg><seg type="context" n="5" xml:space="preserve" xml:id="d4618e5884">Interim, reverende admodum pater<note place="foot" xml:id="d4618e5886">	<hi rend="italic">reverende ... pater</hi> fehlt C.</note>, tibi omnino comparanda sunt<note place="foot" xml:id="d4618e5892">	<hi rend="italic">comparanda sunt</hi> über der Zeile eingefügt C.</note> nec segni manu evolvenda<note place="foot" xml:id="d4618e5898">	Danach durchgestrichen <hi rend="italic">sunt</hi> C.</note> priora quatuor Annalium ordinis nostri volumina a Mabillonio in lucem emissa. Neque te laboris poenitebit: plura enim in iis de scriptoribus nostris dicta<note place="foot" xml:id="d4618e5904">	<hi rend="italic">de scriptoribus ... dicta: haud dubie</hi> C.</note> reperies, quae ad rem tuam faciant quam maxime. Idem fere dixerim de Actis sanctorum ordinis nostri ab eodem Mabillonio collectis novem voluminibus in folio, quorum singulis praemissae sunt praefationes omni eruditionis genere refertae. Idem etiam de Veteribus analectis quatuor voluminibus<note place="foot" xml:id="d4618e5910">	<hi rend="italic">tomis</hi> C.</note> in octavo et de Veterum scriptorum spicilegio 13<note place="foot" xml:id="d4618e5917">	Auslassung in C.</note> voluminibus in quarto, quos quidem libros commemoro, quia licet iam dudum<note place="foot" xml:id="d4618e5920">	<hi rend="italic">quia ... dudum</hi> in C wiederholt.</note> tum a Mabillonio, tum ab aliis e<note place="foot" xml:id="d4618e5926">	Fehlt C.</note> nostris vulgati sint, iamque in his ipsis regionibus rarissimi<note place="foot" xml:id="d4618e5929">	Danach <hi rend="italic">sint</hi> C.</note>, in vestras remotiores nondum forte penetrare potuerint. <seg type="lemma" corresp="#d4618e6140">Si Gallice nosset</seg> reverenda paternitas vestra, consulerem etiam, sibi emeret Gallice scriptum<note place="foot" xml:id="d4618e5935">	<hi rend="italic" xml:space="preserve">Gallice scriptum: Gallicum </hi>C.</note> librum, cui titulus est: Bibliotheca auctorum<note place="foot" xml:id="d4618e5941">	C, S; <hi rend="italic" xml:space="preserve">authorum </hi>B.</note> ecclesiasticorum ab Elia Du Pin doctore theologo<note place="foot" xml:id="d4618e5948">	Fehlt C.</note> Parisiensi collecta et in plures tomos in octavo distributa, in qua auctorum omnium ecclesiasticorum librorumque ab iis conscriptorum <pb n="3r"/> historia, catalogus et argumentum a primis ecclesiae temporibus ad nostra usque pertexitur, auctoresque etiamnum viventes recensentur. Hic nequicquam mentionem inicerem Guillelmi <seg type="lemma" corresp="#d4618e6147">Cave Angli Historiae litterariae</seg> scriptorum ecclesiasticorum a Christo nato ad annum usque 1517 duobus tomis in folio. Cum enim Genevae excusa sit anno 1693, haud<note place="foot" xml:id="d4618e5953">	Davor durchgestrichen <hi rend="italic">forte ad vos usque pervenit</hi> C.</note> dubium, quin ad vos usque pervenerit. Bibliothecae Cluniacensis, Cisterciensis, Floriacensis variaeque Auberti Miraei elucubrationes<note place="foot" xml:id="d4618e5959">	<hi rend="italic">lucubrationes</hi> S.</note> libri notissimi sunt<note place="foot" xml:id="d4618e5965">	<hi rend="italic">Bibliothecae ... sunt</hi> fehlt C.</note>. Haec interim ad reverendam paternitatem vestram<note place="foot" xml:id="d4618e5971">	Danach durchgestrichen <hi rend="italic">scr</hi> C.</note> rescribo, donec alia, quae<note place="foot" xml:id="d4618e5978">	Danach durchgestrichen <hi rend="italic">votis eius</hi> C.</note> exspectationi<note place="foot" xml:id="d4618e5984">	Davor <hi rend="italic">ac</hi> C.</note> eius<note place="foot" xml:id="d4618e5990">	Über der Zeile eingefügt C.</note> paulo magis respondeant, scribere possim. </seg><seg type="context" n="6" xml:space="preserve" xml:id="d4618e5993">Sed si quid pro votis deinceps<note place="foot" xml:id="d4618e5995">	Danach durchgestrichen <hi rend="italic">communi</hi> C.</note> vobiscum communicare valeam<note place="foot" xml:id="d4618e6001">	<hi rend="italic">communicare valeam: communicem</hi> C.</note>, spero vicissim ea a vobis pro humanitate vestra subsidia<note place="foot" xml:id="d4618e6007">	<hi rend="italic">pro ... subsidia: subsidia mihi</hi> C.</note> non denegatum iri, quae ad illustrandam tum Mellicensis, tum vicinorum monasteriorum historiam conferre posse intellexeritis: qualia sunt<note place="foot" xml:id="d4618e6013">	<hi rend="italic">qualia sunt: qualis est</hi> C.</note> fundationis monasteriorum origo et historia, privilegia et immunitates; fundatorum ac praecipuorum benefactorum nomina, dotes et chartae donationum; abbatum series, viri illustres ac tum horum, tum illorum praecipua quaeque gesta, scripta, dies obitus etc.; quid memoria dignius in monasteriis acciderit; antiqua, si quae sint, summorum pontificum, imperatorum, regum aut aliarum nobilium personarum diplomata; vetera monumenta, sepulchra<note place="foot" xml:id="d4618e6019">	<hi rend="italic">sepulcra</hi> S.</note>, epitaphia, inscriptiones et alia id genus, quae Annalibus <pb n="3v"/> inseri pro iure suo debeant<note place="foot" xml:id="d4618e6028">	<hi rend="italic">fundationis monasteriorum ... debeant: [</hi>durchgestrichen <hi rend="italic">abbatum vestr] fundationis vestrae historia, fundatorum ac praecipuorum benefactorum nomina, abbatum vestrorum series, viri illustres ac tum horum, tum illorum praecipua quaeque gesta, scripta, dies obitus etc.; antiqua, si quae habeatis, imperatorum ac summorum pontificum diplomata, vetera monumenta, epitaphia et alia id genus</hi> C.</note>. Cuius quidem investigationis curam nollem, sibi ipsi sumeret<note place="foot" xml:id="d4618e6037">	<hi rend="italic" xml:space="preserve">ipsi sumeret: sumeret ipsa </hi>C.</note> reverenda paternitas vestra; absit enim, ut a melioribus studiis eam interpellem; sed forte benevolos quospiam e suis reperiet, qui hanc a me, imo<note place="foot" xml:id="d4618e6043">	<hi rend="italic">immo</hi> S.</note> a toto ordine Benedictino<note place="foot" xml:id="d4618e6049">	<hi rend="italic">imo ... Benedictino</hi> fehlt C.</note> gratiam inire non dedignabuntur. Utere tu, reverende admodum pater, meam operam, ut voles: totum<note place="foot" xml:id="d4618e6055">	<hi rend="italic">Utere ... totum: Quidquid est operae meae quantulaecumque, id tibi lubens offero; totumque</hi> C.</note> me tibi mandatisque tuis<note place="foot" xml:id="d4618e6062">	Danach <hi rend="italic">ex animo</hi> C.</note> addico. </seg><seg type="context" n="7" xml:space="preserve" xml:id="d4618e6068">Hanc epistolam ad reverendum patrem Mauritium Müllerum S. Galli bibliothecae praefectum<note place="foot" xml:id="d4618e6070">	<hi rend="italic">bibliothecae praefectum: bibliothecarium</hi> C.</note> mitto, ut tibi perferendam curet. Neque enim alia scribendi suppetit via, donec tam diu optatam pacem Deus terris<note place="foot" xml:id="d4618e6076">	<hi rend="italic">Deus terris: terris Deus</hi> C.</note> reddiderit. Vale, reverende admodum et erudite pater<note place="foot" xml:id="d4618e6082">	<hi rend="italic" xml:space="preserve">Vale ... pater: Vale, admodum reverende ac erudite [erudite </hi>korrigiert aus <hi rend="italic">de] pater</hi> C; C endet hier.</note> ac religiosissime domine, cuius consila fortunet Deus, precor.</seg></p>
-            <p xml:space="preserve">Reverendae admodum paternitatis ac religiosissimae dominationis vestrae devotissimus et obsequentissimus in Christo servus ac frater frater Renatus Massuet monachus Benedictinus manu propria<note place="foot" xml:id="d4618e6093">	<hi rend="italic">manu propria</hi> fehlt S.</note>.</p>
+            <p xml:space="preserve"><seg type="context" n="1" xml:space="preserve" xml:id="d4618e5591"><anchor type="app-start" xml:id="app002"/>Cum nihil aequius esse videatur, quam ut fratres ad eiusdem familiae decus promovendum conspirantes mutuo sese auxilio iuvent, is nedum urbanitatis, sed et humanitatis expers sit, qui laborum tuorum ordinis nostri gloriae atque utilitati cessurorum consors <pb n="1v"/> esse manum commodando refugiat. <seg type="lemma" corresp="#d4618e6102">Adiutores igitur in partem operis vocati</seg> venire non renuemus.<!-- im Apparat steht der satzabschließende Punkt HINTER der Sigle. --><anchor type="app-end" xml:id="app002e"/> Me prae caeteris ad ferendam opem, quamcunque potuerim, paratum inveniet reverenda paternitas vestra. Sed moram, quaeso, aliis curis <anchor type="app-start" xml:id="app003"/>iam nimium<anchor type="app-end" xml:id="app003e"/> distracto tantillam concedat, donec solutus historiam ordinis <anchor type="app-start" xml:id="app004"/>nostri<anchor type="app-end" xml:id="app004e"/> iam coeptam <anchor type="app-start" xml:id="app005"/>persequi<anchor type="app-end" xml:id="app005e"/> valeam. </seg><seg type="context" n="2" xml:space="preserve" xml:id="d4618e5619"><anchor type="app-start" xml:id="app006"/>Non te fugit<anchor type="app-end" xml:id="app006e"/>, reverende admodum pater, nostrum domnum Joannem Mabillonium <anchor type="app-start" xml:id="app007"/>toto orbe eruditionis laude celeberrimum<anchor type="app-end" xml:id="app007e"/> Annales ordinis <anchor type="app-start" xml:id="app008"/>Benedictini<anchor type="app-end" xml:id="app008e"/> Latino <anchor type="app-start" xml:id="app009"/>sermone<anchor xml:id="app009e" type="app-end"/> conscribere coepisse. Quatuor iam operis volumina in folio magno omnium eruditorum applausu prodierunt. Quintum, quo rerum historia usque ad sancti Bernardi obitum <anchor type="app-start" xml:id="app010"/>perducitur<anchor xml:id="app010e" type="app-end"/>, praelo paratum habebat, cum mors nihil miserans senem <anchor type="app-start" xml:id="app011"/>septuagenario maiorem<anchor xml:id="app011e" type="app-end"/> e vivis sustulit. Continuandum opus sibi susceperat discipulus eius domnus <anchor type="app-start" xml:id="app012"/>Theodoricus<anchor xml:id="app012e" type="app-end"/> Ruinart, sed et ipsum iam manum <anchor type="app-start" xml:id="app013"/>admovere<anchor xml:id="app013e" type="app-end"/> meditantem mors nondum <anchor type="app-start" xml:id="app014"/>exsatiata<anchor xml:id="app014e" type="app-end"/> paucis abhinc mensibus <anchor type="app-start" xml:id="app015"/>absumpsit<anchor xml:id="app015e" type="app-end"/>. Ne vero tam praeclarum opus imperfectum iaceret (quod timebant eruditi quique), mihi coepta persequendi provinciam demandarunt superiores <anchor type="app-start" xml:id="app016"/>nostrae congregationis<anchor xml:id="app016e" type="app-end"/>. <anchor type="app-start" xml:id="app017"/>Utinam alteri cuipiam peritiori demandassent, ingeniique ac eruditionis tenuitatem iure merito excusantem audire voluissent! Sed demum detrectatum <pb n="2r"/> onus subire compulsus collum gemebundus submisi<anchor xml:id="app017e" type="app-end"/>. </seg><seg type="context" n="3" xml:space="preserve" xml:id="d4618e5700"><anchor type="app-start" xml:id="app018"/>Prius tamen, quam operi me accingam<anchor xml:id="app018e" type="app-end"/>, absolvenda mihi est nova <seg type="lemma" corresp="#d4618e6116">editio, <anchor type="app-start" xml:id="app019"/>quam suscepi, librorum sancti Irenaei</seg> episcopi Lugdunensis et martyris Adversus haereses<anchor xml:id="app019e" type="app-end"/>, quae sub praelo est aestate proxima Deo <anchor type="app-start" xml:id="app020"/>favente<anchor xml:id="app020e" type="app-end"/>. exitura. <anchor type="app-start" xml:id="app021"/>His<anchor xml:id="app021e" type="app-end"/> curis solutus totus in Annales <anchor type="app-start" xml:id="app022"/>incumbam<anchor xml:id="app022e" type="app-end"/>, tumque <seg type="lemma" corresp="#d4618e6123">Mabillonii scrinia</seg> omnia commentariosque <anchor type="app-start" xml:id="app023"/>e<anchor xml:id="app023e" type="app-end"/> variis monasteriis vel iam missos vel posthac mittendos diligentius recensens inspiciensque, si quid <anchor type="app-start" xml:id="app024"/>occurrerit<anchor xml:id="app024e" type="app-end"/>, quo <anchor type="app-start" xml:id="app025"/>reverendae paternitatis vestrae consilium<anchor type="app-end" xml:id="app025e"/> iuvari posse putem, id exscribi <anchor type="app-start" xml:id="app026"/>quantocyusque<anchor type="app-end" xml:id="app026e"/> mitti curabo. </seg>
+               <seg type="context" n="4" xml:space="preserve" xml:id="d4618e5766">Iam <anchor type="app-start" xml:id="app027"/>dudum vota tua adhuc tamen ignota antevenientes<anchor type="app-end" xml:id="app027e"/> <seg type="lemma" corresp="#d4618e6128">encyclicas ad Gallicana monasteria litteras <anchor type="app-start" xml:id="app028"/>scripsimus<anchor type="app-end" xml:id="app028e"/></seg>, <anchor type="app-start" xml:id="app029"/>quibus inter alia plura de iisdem omnino ea percontamur, quae tu sciscitaris ex nobis<anchor type="app-end" xml:id="app029e"/>. <anchor type="app-start" xml:id="app030"/>Easdem brevi<anchor type="app-end" xml:id="app030e"/> <seg type="lemma" corresp="#d4618e6135">iterabo</seg>; minusque festinantium tarditatem <anchor type="app-start" xml:id="app031"/>urgens<anchor type="app-end" xml:id="app031e"/> virorum illustrium historiae, operum eorum catalogo <anchor type="app-start" xml:id="app032"/>etc.<anchor type="app-end" xml:id="app032e"/> acrius adhuc insistam. Hoc enim utrique nostrum commune est argumentum, ut de <anchor type="app-start" xml:id="app033"/>ordinis scriptoribus<anchor type="app-end" xml:id="app033e"/> agamus; cum eo <anchor type="app-start" xml:id="app034"/>tantum<anchor type="app-end" xml:id="app034e"/> discrimine, quod <anchor type="app-start" xml:id="app035"/>id operis tui primarium ac praecipuum sit caput, mei vero accessio quaedam<anchor type="app-end" xml:id="app035e"/>; <anchor type="app-start" xml:id="app036"/>quaeque<anchor type="app-end" xml:id="app036e"/> <anchor type="app-start" xml:id="app037"/>tu<anchor type="app-end" xml:id="app037e"/> <anchor type="app-start" xml:id="app038"/>fusiori<anchor type="app-end" xml:id="app038e"/> ac enucleatiori stylo <anchor type="app-start" xml:id="app039"/>persecuturus<anchor type="app-end" xml:id="app039e"/> es, <anchor type="app-start" xml:id="app040"/>eadem<anchor type="app-end" xml:id="app040e"/> ego breviori <anchor type="app-start" xml:id="app041"/>complexurus<anchor type="app-end" xml:id="app041e"/> sum. Tantisper igitur exspectare si velis, donec a caeteris negotiis vacuus operi <pb n="2v"/> manum <anchor type="app-start" xml:id="app042"/>admoveam<anchor type="app-end" xml:id="app042e"/>, <anchor type="app-start" xml:id="app043"/>quidquid<anchor type="app-end" xml:id="app043e"/> sub manum venerit, quod in rem tuam faciat, id ex animo communicabo. Nam alioqui turbulentis hisce temporibus quidpiam ad vos <anchor type="app-start" xml:id="app044"/>tuto<anchor type="app-end" xml:id="app044e"/> transmittere <anchor type="app-start" xml:id="app045"/>difficillimum esset<anchor type="app-end" xml:id="app045e"/>. </seg><seg type="context" n="5" xml:space="preserve" xml:id="d4618e5884">Interim, <anchor type="app-start" xml:id="app046"/>reverende admodum pater<anchor type="app-end" xml:id="app046e"/>, tibi omnino <anchor type="app-start" xml:id="app047"/>comparanda sunt<anchor type="app-end" xml:id="app047e"/> nec segni manu <anchor type="app-start" xml:id="app048"/>evolvenda<anchor type="app-end" xml:id="app048e"/> priora quatuor Annalium ordinis nostri volumina a Mabillonio in lucem emissa. Neque te laboris poenitebit: plura enim in iis <anchor type="app-start" xml:id="app049"/>de scriptoribus nostris dicta<anchor type="app-end" xml:id="app049e"/> reperies, quae ad rem tuam faciant quam maxime. Idem fere dixerim de Actis sanctorum ordinis nostri ab eodem Mabillonio collectis novem voluminibus in folio, quorum singulis praemissae sunt praefationes omni eruditionis genere refertae. Idem etiam de Veteribus analectis quatuor <anchor type="app-start" xml:id="app050"/>voluminibus<anchor type="app-end" xml:id="app050e"/><app from="#app050" to="#app050e"><rdg wit="#C">tomis</rdg></app> in octavo et de Veterum scriptorum spicilegio <anchor type="app-start" xml:id="app051"/>13<anchor type="app-end" xml:id="app051e"/> voluminibus in quarto, quos quidem libros commemoro, <anchor type="app-start" xml:id="app052"/>quia licet iam dudum<anchor type="app-end" xml:id="app052e"/> tum a Mabillonio, tum ab aliis <anchor type="app-start" xml:id="app053"/>e<anchor type="app-end" xml:id="app053e"/> nostris vulgati sint, iamque in his ipsis regionibus <anchor type="app-start" xml:id="app054"/>rarissimi<anchor type="app-end" xml:id="app054e"/>, in vestras remotiores nondum forte penetrare potuerint. <seg type="lemma" corresp="#d4618e6140">Si Gallice nosset</seg> reverenda paternitas vestra, consulerem etiam, sibi emeret <anchor type="app-start" xml:id="app056"/>Gallice scriptum<anchor type="app-end" xml:id="app056e"/> librum, cui titulus est: Bibliotheca <anchor type="app-start" xml:id="app057"/>auctorum<anchor type="app-end" xml:id="app057e"/><app from="#app057" to="#app057e"><lem wit="#C #S">auctorum</lem><rdg wit="#B">authorum</rdg></app> ecclesiasticorum ab Elia Du Pin doctore <anchor type="app-start" xml:id="app058"/>theologo<anchor type="app-end" xml:id="app058e"/> Parisiensi collecta et in plures tomos in octavo distributa, in qua auctorum omnium ecclesiasticorum librorumque ab iis conscriptorum <pb n="3r"/> historia, catalogus et argumentum a primis ecclesiae temporibus ad nostra usque pertexitur, auctoresque etiamnum viventes recensentur. Hic nequicquam mentionem inicerem Guillelmi <seg type="lemma" corresp="#d4618e6147">Cave Angli Historiae litterariae</seg> scriptorum ecclesiasticorum a Christo nato ad annum usque 1517 duobus tomis in folio. Cum enim Genevae excusa sit anno 1693, <anchor type="app-start" xml:id="app055"/>haud<anchor type="app-end" xml:id="app055e"/> dubium, quin ad vos usque pervenerit. <anchor type="app-start" xml:id="app060"/>Bibliothecae Cluniacensis, Cisterciensis, Floriacensis variaeque Auberti Miraei <anchor type="app-start" xml:id="app059"/>elucubrationes<anchor type="app-end" xml:id="app059e"/> libri notissimi sunt<anchor type="app-end" xml:id="app060e"/>. Haec interim ad reverendam paternitatem <anchor type="app-start" xml:id="app061"/>vestram<anchor type="app-end" xml:id="app061e"/> rescribo, donec alia, <anchor type="app-start" xml:id="app062"/>quae<anchor type="app-end" xml:id="app062e"/> <anchor type="app-start" xml:id="app063"/>exspectationi<anchor type="app-end" xml:id="app063e"/> <anchor type="app-start" xml:id="app064"/>eius<anchor type="app-end" xml:id="app064e"/> paulo magis respondeant, scribere possim. </seg><seg type="context" n="6" xml:space="preserve" xml:id="d4618e5993">Sed si quid pro votis <anchor type="app-start" xml:id="app065"/>deinceps<anchor type="app-end" xml:id="app065e"/> vobiscum <anchor type="app-start" xml:id="app078"/>communicare valeam<anchor type="app-end" xml:id="app078e"/>, spero vicissim ea a vobis <anchor type="app-start" xml:id="app079"/>pro humanitate vestra subsidia<anchor type="app-end" xml:id="app079e"/> non denegatum iri, quae ad illustrandam tum Mellicensis, tum vicinorum monasteriorum historiam conferre posse intellexeritis: <anchor type="app-start" xml:id="app077"/>qualia sunt<anchor type="app-end" xml:id="app077e"/> <anchor type="app-start" xml:id="app076"/>fundationis monasteriorum origo et historia, privilegia et immunitates; fundatorum ac praecipuorum benefactorum nomina, dotes et chartae donationum; abbatum series, viri illustres ac tum horum, tum illorum praecipua quaeque gesta, scripta, dies obitus etc.; quid memoria dignius in monasteriis acciderit; antiqua, si quae sint, summorum pontificum, imperatorum, regum aut aliarum nobilium personarum diplomata; vetera monumenta, <anchor type="app-start" xml:id="app075"/>sepulchra<anchor type="app-end" xml:id="app075e"/>, epitaphia, inscriptiones et alia id genus, quae Annalibus <pb n="3v"/> inseri pro iure suo debeant<anchor type="app-end" xml:id="app076e"/>. Cuius quidem investigationis curam nollem, sibi <anchor type="app-start" xml:id="app074"/>ipsi sumeret<anchor type="app-end" xml:id="app074e"/> reverenda paternitas vestra; absit enim, ut a melioribus studiis eam interpellem; sed forte benevolos quospiam e suis reperiet, qui hanc a me, <anchor type="app-start" xml:id="app072"/><anchor type="app-start" xml:id="app073"/>imo<anchor type="app-end" xml:id="app072e"/> a toto ordine Benedictino<anchor type="app-end" xml:id="app073e"/> gratiam inire non dedignabuntur. <anchor type="app-start" xml:id="app071"/>Utere tu, reverende admodum pater, meam operam, ut voles: totum<anchor type="app-end" xml:id="app071e"/> me tibi mandatisque <anchor type="app-start" xml:id="app070"/>tuis<anchor type="app-end" xml:id="app070e"/> addico. </seg><seg type="context" n="7" xml:space="preserve" xml:id="d4618e6068">Hanc epistolam ad reverendum patrem Mauritium Müllerum S. Galli <anchor type="app-start" xml:id="app069"/>bibliothecae praefectum<anchor type="app-end" xml:id="app069e"/> mitto, ut tibi perferendam curet. Neque enim alia scribendi suppetit via, donec tam diu optatam pacem <anchor type="app-start" xml:id="app068"/>Deus terris<anchor type="app-end" xml:id="app068e"/> reddiderit. <anchor type="app-start" xml:id="app067"/>Vale, reverende admodum et erudite pater<anchor type="app-end" xml:id="app067e"/> ac religiosissime domine, cuius consila fortunet Deus, precor.</seg></p>
+            <p xml:space="preserve">Reverendae admodum paternitatis ac religiosissimae dominationis vestrae devotissimus et obsequentissimus in Christo servus ac frater frater Renatus Massuet monachus Benedictinus <anchor type="app-start" xml:id="app066"/>manu propria<anchor type="app-end" xml:id="app066e"/><app from="#app066" to="#app066e"><rdg wit="#S"/></app>.</p>
             <p xml:space="preserve">Parisiis. In monasterio S. Germani a Pratis die 7. Martii 1710.</p>
          </div>
       </body>
       <back>
          <div type="apparatus">
             <app from="#app001" to="#app001e">
-               <rdg wit="#C"><note>In <ref target="#C">C</ref> statt der Anrede: </note>Reverendo patri Bernardo Pez Melli censi monacho ac bibliothecario.</rdg>
+               <rdg wit="#C"><note>In <ref type="witness" target="#C">C</ref> statt der Anrede: </note>Reverendo
+                  patri Bernardo Pez Melli censi monacho ac bibliothecario.</rdg>
             </app>
             <app from="#app002" to="#app002e">
                <lem wit="#B">Cum nihil <gap/> renuemus.</lem>
-               <rdg wit="#C">Nihil aequius videtur, quam ut fratres a fratribus adiuventur, ubi potissimum illi in eiusdem familiae decus promovendum toto pectore incumbunt. Quin consilium a reverenda paternitate vestra susceptum laudem mereatur et in ordinis nostri gloriam, immo et totius reipublicae literariae utilitatem redundet, nemo negaverit. Absit igitur, honorificis laboribus vestris favorem denegemus manumque commodare detrectemus ei, qui scriptorum nostrorum nominis memoriam cum omni posteritate adaequare studet. Suppetias lubenter feremus, ut et ipsi ea ratione in operis partem venire possimus.</rdg>
+               <rdg wit="#C">Nihil aequius videtur, quam ut fratres a fratribus adiuventur, ubi
+                  potissimum illi in eiusdem familiae decus promovendum toto pectore incumbunt. Quin
+                  consilium a reverenda paternitate vestra susceptum laudem mereatur et in ordinis
+                  nostri gloriam, immo et totius reipublicae literariae utilitatem redundet, nemo
+                  negaverit. Absit igitur, honorificis laboribus vestris favorem denegemus manumque
+                  commodare detrectemus ei, qui scriptorum nostrorum nominis memoriam cum omni
+                  posteritate adaequare studet. Suppetias lubenter feremus, ut et ipsi ea ratione in
+                  operis partem venire possimus.</rdg>
             </app>
             <app from="#app003" to="#app003e">
                <rdg wit="#C"/>
@@ -175,7 +164,7 @@
                <rdg wit="#C">toto orbe nominis gloria <sic>celeberrimus</sic></rdg>
             </app>
             <app from="#app008" to="#app008e">
-               <wit wit="#C">nostri</wit>
+               <rdg wit="#C">nostri</rdg>
             </app>
             <app from="#app009" to="#app009e">
                <rdg wit="#C">idiomate</rdg>
@@ -206,7 +195,8 @@
             </app>
             <app from="#app017" to="#app017e">
                <lem wit="#B">Utinam alteri <gap/> submisi</lem>
-               <rdg wit="#C">Detrectavi quidem diutius, suscepi tandem gemebundus, ingenii ac eruditionis meae tenuitatis probe conscius</rdg>
+               <rdg wit="#C">Detrectavi quidem diutius, suscepi tandem gemebundus, ingenii ac
+                  eruditionis meae tenuitatis probe conscius</rdg>
             </app>
             <app from="#app018" to="#app018e">
                <lem wit="#B">Prius <gap/> accingam</lem>
@@ -214,7 +204,8 @@
             </app>
             <app from="#app019" to="#app019e">
                <lem wit="#B">quam suscepi <gap/> Adversus haereses</lem>
-               <rdg wit="#C">a me concinnata operum sancti Irenaei episcopi Lugdunensis ac martyris</rdg>
+               <rdg wit="#C">a me concinnata operum sancti Irenaei episcopi Lugdunensis ac
+                  martyris</rdg>
             </app>
             <app from="#app020" to="#app020e">
                <rdg wit="#C">dante</rdg>
@@ -232,6 +223,204 @@
             </app>
             <app from="#app024" to="#app024e">
                <rdg source="#S">occurrit</rdg>
+            </app>
+            <app from="#app025" to="#app025e">
+               <lem>reverendae <gap/> consilium</lem>
+               <rdg wit="#C">consilium vestrum</rdg>
+            </app>
+            <app from="#app026" to="#app026e">
+               <rdg wit="#S">quantociusque</rdg>
+               <rdg wit="#C">et ad <del>vestram</del> paternitatem vestram</rdg>
+            </app>
+            <app from="#app027" to="#app027e">
+               <lem>dudum <gap/> antevenientes</lem>
+               <rdg wit="#C"/>
+            </app>
+            <app from="#app028" to="#app028e">
+               <rdg wit="#C">dedimus</rdg>
+            </app>
+            <app from="#app029" to="#app029e">
+               <lem>quibus <gap/> ex nobis</lem>
+               <rdg wit="#C">quibus rogavimus, ut nobiscum communicare dignentur, quaecumque ad
+                  illustrandam ordinis historiam ab anno praesertim 1000 conferre posse noverint, ac
+                  inprimis non omittant viros illustres uniuscuiusque monasterii, et si quid
+                  scriptis mandaverint aut iam editum aut hactenus in bibliothecarum forulis
+                  delitescens, id diligenter significent</rdg>
+            </app>
+            <app from="#app030" to="#app030e">
+               <rdg wit="#C">Post Pascha epistolas</rdg>
+            </app>
+            <app from="#app031" to="#app031e">
+               <witDetail wit="#C">Danach durchgestrichen <mentioned>in viris
+                     illustribus</mentioned></witDetail>
+               <rdg wit="#C">urgens <del>in viris illustribus</del></rdg>
+            </app>
+            <app from="#app032" to="#app032e">
+               <!-- Wg. der angeführten Siglen (#C #S), muss ein <lem>-Element angesetzt werden; um nicht den Eindruck zu erwecken, dass das Bezugswort in C und S fehlt (was der Fall wäre, wenn widersinnigerweise <lem> leer wäre), wird auch das Bezugswort wiederholt (obwohl die Fußnote im Druck _kein_ Lemma hat und es sich auch nicht um eine Kürzung handelt) -->
+               <lem wit="#C #S">etc.</lem>
+               <rdg wit="#B"/>
+            </app>
+            <app from="#app033" to="#app033e">
+               <rdg wit="#C"><del>viris illustri</del> ordinis nostri viris illustribus</rdg>
+            </app>
+            <app from="#app034" to="#app034e">
+               <lem wit="#C #S">tantum</lem>
+               <rdg wit="#B">tamen</rdg>
+            </app>
+            <app from="#app035" to="#app035e">
+               <lem>id operis <gap/> quaedam</lem>
+               <rdg wit="#C"/>
+            </app>
+            <app from="#app036" to="#app036e">
+               <rdg wit="#C">quae</rdg>
+            </app>
+            <app from="#app037" to="#app037e">
+               <rdg wit="#C">tu reverende admodum pater</rdg>
+               <witDetail wit="#C">Danach <mentioned>reverende admodum pater</mentioned></witDetail>
+            </app>
+            <app from="#app038" to="#app038e">
+               <rdg wit="#C"><del>fusiori st</del> fusiori</rdg>
+               <witDetail wit="#C">Davor durchgestrichen <mentioned>fusiori
+                  st</mentioned></witDetail>
+            </app>
+            <app from="#app039" to="#app039e">
+               <lem wit="#C #S">persecuturus</lem>
+               <rdg wit="#B">prosecuturus</rdg>
+            </app>
+            <app from="#app040" to="#app040e">
+               <rdg wit="#S">eodem</rdg>
+            </app>
+            <app from="#app041" to="#app041e">
+               <lem wit="#C #S">complexurus</lem>
+               <rdg wit="#B">complexus</rdg>
+            </app>
+            <app from="#app042" to="#app042e">
+               <lem wit="#C #S">admoveam</lem>
+               <rdg wit="#B">adhibeam</rdg>
+            </app>
+            <app from="#app043" to="#app043e">
+               <rdg wit="#C">si quidquid</rdg>
+               <witDetail wit="#C">Davor <mentioned>si</mentioned> in <ref type="witness" target="#C">C</ref></witDetail>
+            </app>
+            <app from="#app044" to="#app044e">
+               <rdg wit="#C"/>
+            </app>
+            <app from="#app045" to="#app045e">
+               <rdg wit="#C">vix ac ne vix quidem possemus</rdg>
+            </app>
+            <app from="#app046" to="#app046e">
+               <lem>reverende <gap/> pater</lem>
+               <rdg wit="#C"/>
+            </app>
+            <app from="#app047" to="#app047e">
+               <rdg wit="#C"><add place="above">comparanda sunt</add></rdg>
+            </app>
+            <app from="#app048" to="#app048e">
+               <rdg wit="#C">evolvenda <del>sunt</del></rdg>
+               <witDetail wit="#C">Danach durchgestrichen <mentioned>sunt</mentioned>.</witDetail>
+            </app>
+            <app from="#app049" to="#app049e">
+               <lem>de scriptoribus <gap/> dicta</lem>
+               <rdg wit="#C">haud dubie</rdg>
+            </app>
+            <app from="#app051" to="#app051e">
+               <witDetail wit="#C">Auslassung in <ref type="witness" target="#C">C</ref></witDetail>
+            </app>
+            <app from="#app052" to="#app052e">
+               <lem>quia <gap/> dudum</lem>
+               <witDetail wit="#C"> in <ref type="witness" target="#C">C</ref> wiederholt</witDetail>
+            </app>
+            <app from="#app053" to="#app053e">
+               <rdg wit="#C"/>
+            </app>
+            <app from="#app054" to="#app054e">
+               <rdg wit="#C">rarissimi sint</rdg>
+               <witDetail wit="#C">Danach <mentioned>sint</mentioned></witDetail>
+            </app>
+            <app from="#app055" to="#app055e">
+               <rdg wit="#C"><del>forte ad vos usque pervenit</del> haud</rdg>
+               <witDetail wit="#C">Davor durchgestrichen <mentioned>forte ad vos usque pervenit</mentioned></witDetail>
+            </app>
+            <app from="#app056" to="#app056e">
+               <rdg wit="#C">Gallicum</rdg>
+            </app>
+            <app from="#app058" to="#app058e">
+               <rdg wit="#C"/>
+            </app>
+            <app from="#app059" to="#app059e"><rdg wit="#S">lucubrationes</rdg></app>
+            <app from="#app060" to="#app060e">
+               <!-- Überschneidet sich mit Apparateintrag 59 -->
+               <lem>Bibliothecae <gap/> sunt</lem>
+               <rdg wit="#C"/>
+            </app>
+            <app from="#app061" to="#app061e">
+               <rdg wit="#C">vestram <del>scr</del></rdg>
+               <witDetail wit="#C">Danach durchgestrichen <mentioned>scr</mentioned></witDetail>
+            </app>
+            <app from="#app062" to="#app062e">
+               <rdg wit="#C">quae <del>votis eius</del></rdg>
+               <witDetail wit="#C">Danach durchgestrichen <mentioned>votis
+                  eius</mentioned></witDetail>
+            </app>
+            <app from="#app063" to="#app063e">
+               <rdg wit="#C">ac exspectationi</rdg>
+               <witDetail wit="#C">Davor <mentioned>ac</mentioned></witDetail>
+            </app>
+            <app from="#app064" to="#app064e">
+               <!-- Auch hier wird der Text des Lemmas wiederholt -->
+               <lem wit="#C"><add place="above">eius</add></lem>
+            </app>
+            <app from="#app078" to="#app078e">
+               <rdg wit="#C">communicem</rdg>
+            </app>
+            <app from="#app079" to="#app079e">
+               <lem>pro <gap/>subsidia</lem>
+               <rdg wit="#C">subsidia mihi</rdg>
+            </app>
+            <app from="#app065" to="#app065e">
+               <rdg wit="#C">deinceps <del>communi</del></rdg>
+               <witDetail wit="#C">Danach durchgestrichen <mentioned>communi</mentioned></witDetail>
+            </app>
+            <app from="#app073" to="#app073e">
+               <lem>imo <gap/> Benedictino</lem>
+               <rdg wit="#C"/>
+            </app>
+            <app from="#app075" to="#app075e">
+               <rdg wit="#S">sepulcra</rdg>
+            </app>
+            <app from="#app077" to="#app077e">
+               <rdg wit="#C">qualis est</rdg>
+            </app>
+            <app from="#app076" to="#app076e">
+               <lem>fundationis monasteriorum <gap/> debeant</lem>
+               <rdg wit="#C"><del>abbatum vestr</del> fundationis vestrae historia, fundatorum ac praecipuorum benefactorum nomina, abbatum vestrorum series, viri illustres ac tum horum, tum illorum praecipua quaeque gesta, scripta, dies obitus etc.; antiqua, si quae habeatis, imperatorum ac summorum pontificum diplomata, vetera monumenta, epitaphia et alia id genus</rdg>
+            </app>
+            <app from="#app074" to="#app074e">
+               <lem>ipsi sumeret</lem>
+               <rdg wit="#C">sumeret ipsa</rdg>
+            </app>
+            <app from="#app072" to="#app072e">
+               <rdg wit="#S">imo</rdg>
+            </app>
+            <app from="#app071" to="#app071e">
+               <lem>Utere <gap/>totum</lem>
+               <rdg wit="#C">Quidquid est operae meae quantulaecumque, id tibi lubens offero;
+                  totumque</rdg>
+            </app>
+            <app from="#app070" to="#app070e">
+               <rdg wit="#C">tuis ex animo</rdg>
+               <witDetail wit="#C">Danach <mentioned>ex animo</mentioned></witDetail>
+            </app>
+            <app from="#app069" to="#app069e">
+               <rdg wit="#C">bibliothecarium</rdg>
+            </app>
+            <app from="#app068" to="#app068e">
+               <lem>Deus terris</lem>
+               <rdg wit="#C">terris Deus</rdg>
+            </app>
+            <app from="#app067" to="#app067e">
+               <lem>Vale <gap/> pater</lem>
+               <rdg wit="#C">Vale, admodum reverende ac <subst><del>de</del><add>erudite</add></subst> pater; <note><ref type="witness" target="#C">C</ref> endet hier</note></rdg>
             </app>
          </div>
          <div type="commentary">
