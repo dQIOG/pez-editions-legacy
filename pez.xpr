@@ -37,13 +37,33 @@
                                     <String>text/any</String>
                                 </field>
                                 <field name="unparsedInsertString">
-                                    <String>&lt;anchor type="app-start" xml:id="${xpath_eval(format-number(count(preceding::anchor[@type='app-end'])+1, 'app000'))}"/>${selection}&lt;anchor xml:id="${xpath_eval(format-number(count(preceding::anchor[@type='app-end'])+1, 'app000'))}e" type="app-end"/></String>
+                                    <String>&lt;anchor type="app-start" xml:id="${xpath_eval(format-number(max(root()//tei:anchor[@type = 'app-start']/number(substring-after(@xml:id,'app')))+1,'app000'))}"/>${selection}&lt;anchor type="app-end" xml:id="${xpath_eval(format-number(max(root()//tei:anchor[@type = 'app-start']/number(substring-after(@xml:id,'app')))+1,'app000'))}e"/>&lt;app from="#${xpath_eval(format-number(max(root()//tei:anchor[@type = 'app-start']/number(substring-after(@xml:id,'app')))+1,'app000'))}" to="#${xpath_eval(format-number(max(root()//tei:anchor[@type = 'app-start']/number(substring-after(@xml:id,'app')))+1,'app000'))}e">&lt;rdg wit="${caret}">&lt;/rdg>&lt;/app></String>
                                 </field>
                                 <field name="descriptionString">
                                     <String></String>
                                 </field>
                                 <field name="renderString">
-                                    <String>Apparat-anchors</String>
+                                    <String>Apparat – Eintrag</String>
+                                </field>
+                                <field name="enabled">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="accelerator">
+                                    <null/>
+                                </field>
+                            </codeTemplateItem>
+                            <codeTemplateItem>
+                                <field name="contentType">
+                                    <String>text/any</String>
+                                </field>
+                                <field name="unparsedInsertString">
+                                    <String>&lt;anchor type="app-start" xml:id="${xpath_eval(format-number(max(root()//tei:anchor[@type = 'app-start']/number(substring-after(@xml:id,'app')))+1,'app000'))}"/>${selection}&lt;anchor type="app-end" xml:id="${xpath_eval(format-number(max(root()//tei:anchor[@type = 'app-start']/number(substring-after(@xml:id,'app')))+1,'app000'))}e"/>&lt;app from="#${xpath_eval(format-number(max(root()//tei:anchor[@type = 'app-start']/number(substring-after(@xml:id,'app')))+1,'app000'))}" to="#${xpath_eval(format-number(max(root()//tei:anchor[@type = 'app-start']/number(substring-after(@xml:id,'app')))+1,'app000'))}e">&lt;lem>${xpath_eval(if (count(tokenize('${selection}','\s+')) gt 2) then (tokenize('${selection}','\s+')[1],' &lt;gap/>', tokenize('${selection}','\s+')[last()]) else '${selection}')}&lt;/lem>&lt;rdg wit="${caret}">&lt;/rdg>&lt;/app></String>
+                                </field>
+                                <field name="descriptionString">
+                                    <String></String>
+                                </field>
+                                <field name="renderString">
+                                    <String>Apparat – Eintrag mit &lt;lem></String>
                                 </field>
                                 <field name="enabled">
                                     <Boolean>true</Boolean>
@@ -15395,6 +15415,9 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                             <String>title</String>
                             <String>p</String>
                             <String>seg</String>
+                            <String>tei:lem</String>
+                            <String>tei:rdg</String>
+                            <String>tei:witDetail</String>
                         </String-array>
                     </entry>
                     <entry>
@@ -15444,11 +15467,11 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>001_src/UNIDAM-Exporte/Bilder-1-794.xml</String>
+                                    <String>102_derived_tei/102_03_extracted_letters/</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Nachlass: export nach msDesc</String>
+                                        <String>Add type on index-rs</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -15459,11 +15482,11 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>102_derived_tei/102_03_extracted_letters/</String>
+                                    <String>001_src/UNIDAM-Exporte/Bilder-1-794.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Add type on index-rs</String>
+                                        <String>Nachlass: export nach msDesc</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
