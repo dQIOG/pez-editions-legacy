@@ -16,12 +16,11 @@
             <idno type="pezEd">48</idno>
          </publicationStmt>
          <notesStmt>
-            <witDetail wit="#S"></witDetail>
             <relatedItem type="publishedIn">
                <bibl>Die gelehrte Korrespondenz der Brüder Pez, Text, Regesten, Kommentare; Band 1: 1709–1715.</bibl>
             </relatedItem>
             <relatedItem type="otherEdition">
-               <bibl>Schelhorn, Amoenitates 13 279–284 Nr. I (S).</bibl>
+               <bibl xml:id="schelhorn_ed">Schelhorn, Amoenitates 13 279–284 Nr. I (S).</bibl>
             </relatedItem>
             <relatedItem type="secondaryLiterature">
                <listBibl>
@@ -42,37 +41,16 @@
                    - Wie wird der Verlust des Originals kodiert? (eigentlich nicht Teil der Liste, weil eben kein Textzeuge.)
                    - wie wird die Typologie der Textzeugen kodiert? 
                -->
-               <witness ana="#original"/>
-               <witness xml:id="B" ana="#manuscriptCopy">
-                  <msDesc>
-                     <msIdentifier>
-                        <country>Austria</country>
-                        <institution>Stift Melk</institution>
-                        <repository>StiA Melk</repository>
-                        <idno>StiA Melk Karton 7 Patres 9, Abschriftencodex 117r–119v</idno>
-                     </msIdentifier>
-                  </msDesc>
-               </witness>
-               <witness xml:id="C" ana="#concept">
-                  <msDesc>
-                     <msIdentifier>
-                        <country>France</country>
-                        <institution>Bibliothèque nationale de France</institution>
-                        <collection>Fonds français</collection>
-                        <idno>BN FF 17680, 244r–v</idno>
-                     </msIdentifier>
-                  </msDesc>
-               </witness>
-               <witness xml:id="S" ana="#edition">
-                  <bibl>Schelhorn, Amoenitates 13 279–284 Nr. I.</bibl>
-               </witness>
+               <witness ana="#original">...</witness>
+               <witness xml:id="B" ana="#manuscriptCopy"><rs type="ms">StiA Melk Karton 7 Patres 9, Abschriftencodex</rs> <locus>117r–119v</locus></witness>
+               <witness xml:id="C" ana="#concept"><rs type="ms">BN FF 17680</rs> <locus>244r–v</locus></witness>
+               <witness xml:id="S" ana="#edition" sameAs="#schelhorn_ed"></witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
             <p>Dem Editionstext wird die Überlieferung B zugrunde gelegt, jedoch nach C und S emendiert, wo diese miteinander übereinstimmend eine andere Lesart bieten. Inhalte aus dem Konzept, die in den auf der Ausfertigung fußenden Überlieferungen fehlen, werden im Regest zwischen Asterisci gesetzt.</p>
-            
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
