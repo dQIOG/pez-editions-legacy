@@ -22,16 +22,17 @@
    </teiHeader>
    <text>
       <body>
-         <schemaSpec ident="myTEI" start="TEI">
+         <schemaSpec ident="pez" start="TEI">
             <moduleRef key="tei"/>
             <moduleRef key="header"/>
             <moduleRef key="core"/>
             <moduleRef key="textstructure"/>
-            <moduleRef key="linking"/>
+            <moduleRef key="linking" include="seg ab anchor"/>
             <moduleRef key="namesdates"/>
             <moduleRef key="msdescription"/>
             <moduleRef key="analysis"/>
-            <moduleRef key="textcrit"/>
+            <moduleRef key="textcrit" include="app rdg lem witDetail listWit witness"/>
+            <moduleRef key="transcr" include="subst"/>
          </schemaSpec>
       </body>
    </text>
