@@ -146,6 +146,7 @@
                   operis partem venire possimus.</rdg>
             </app>
             <app from="#app003" to="#app003e">
+               <lem wit="#B">iam nimium</lem>
                <rdg wit="#C"/>
             </app>
             <app from="#app004" to="#app004e">
@@ -160,7 +161,7 @@
                <rdg wit="#C">Novisti sane</rdg>
             </app>
             <app from="#app007" to="#app007e">
-               <lem>toto orbe <gap/> celeberrimum</lem>
+               <lem wit="#B">toto orbe <gap/> celeberrimum</lem>
                <rdg wit="#C">toto orbe nominis gloria <sic>celeberrimus</sic></rdg>
             </app>
             <app from="#app008" to="#app008e">
@@ -179,15 +180,17 @@
                <rdg wit="#C">Theodericus</rdg>
             </app>
             <app from="#app013" to="#app013e">
+               <lem wit="#B">admovere</lem>
                <!-- Der Text von C lässt sich so allerdings nicht wiederherstellen! -->
-               <witDetail wit="#C">danach durchgestrichen <mentioned>para</mentioned></witDetail>
+               <witDetail wit="#C">Danach durchgestrichen <mentioned>para</mentioned></witDetail>
+               <rdg wit="#C">admovere <del>para</del></rdg>
             </app>
             <app from="#app014" to="#app014e">
                <rdg wit="#C">nondum satiata: inclementer</rdg>
             </app>
             <app from="#app015" to="#app015e">
                <lem wit="#B #C">absumpsit</lem>
-               <rdg wit="#S"><!-- oder @source ?! -->absumsit</rdg>
+               <rdg wit="#S">absumsit</rdg>
             </app>
             <app from="#app016" to="#app016e">
                <lem wit="#B #C">nostrae congregationis</lem>
@@ -217,9 +220,8 @@
                <rdg source="#S">incubam</rdg>
             </app>
             <app from="#app023" to="#app023e">
-               <rdg wit="#C">a</rdg>
-               <!-- ?? bezieht sich „davor durchgestrichen…“ auf C? -->
-               <witDetail wit="#C">davor durchgestrichen <mentioned>a iam</mentioned>.</witDetail>
+               <rdg wit="#C" xml:space="preserve"><del>a iam</del> a</rdg>
+               <witDetail wit="#C" xml:space="preserve"><mentioned>a</mentioned> <ref type="witness" target="#C">C</ref>, davor durchgestrichen <mentioned>a iam</mentioned>.</witDetail>
             </app>
             <app from="#app024" to="#app024e">
                <rdg source="#S">occurrit</rdg>
@@ -324,7 +326,8 @@
                <rdg wit="#C">haud dubie</rdg>
             </app>
             <app from="#app051" to="#app051e">
-               <witDetail wit="#C">Auslassung in <ref type="witness" target="#C">C</ref></witDetail>
+               <!--ev. nicht notwendig: <witDetail wit="#C">Auslassung in <ref type="witness" target="#C">C</ref></witDetail>-->
+               <rdg wit="#C"><space/></rdg>
             </app>
             <app from="#app052" to="#app052e">
                <lem>quia <gap/> dudum</lem>
@@ -369,6 +372,7 @@
             <app from="#app064" to="#app064e">
                <!-- Auch hier wird der Text des Lemmas wiederholt -->
                <lem wit="#C"><add place="above">eius</add></lem>
+               <witDetail wit="#C">Über der Zeile eingefügt <ref type="witness">C</ref>.</witDetail>
             </app>
             <app from="#app078" to="#app078e">
                <rdg wit="#C">communicem</rdg>
@@ -420,7 +424,8 @@
             </app>
             <app from="#app067" to="#app067e">
                <lem>Vale <gap/> pater</lem>
-               <rdg wit="#C">Vale, admodum reverende ac <subst><del>de</del><add>erudite</add></subst> pater; <note><ref type="witness" target="#C">C</ref> endet hier</note></rdg>
+               <witDetail wit="#C"><mentioned>Vale, admodum reverende ac erudite [erudite </mentioned> korrigiert aus <mentioned>de</mentioned>] peter <ref type="witness">C</ref>; <ref type="witness" target="#C">C</ref> endet hier</witDetail>
+               <rdg wit="#C">Vale, admodum reverende ac <subst><del>de</del><add>erudite</add></subst> pater</rdg>
             </app>
          </div>
          <div type="commentary">
