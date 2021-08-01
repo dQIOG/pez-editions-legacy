@@ -3,7 +3,9 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="2.0">
     <xsl:output indent="yes"/>
-    <xsl:param name="baseUri" select="'https://id.acdh.oeaw.ac.at/pez/pez-nachlass/'"></xsl:param>
+    <xsl:param name="baseUri" select="'https://id.acdh.oeaw.ac.at/pez/pez-nachlass/'"/>
+    <xsl:param name="idnoDoc" select="'../001_src/Personen_IR-bearbeitet_TW20180724.xml'"></xsl:param>
+    <xsl:variable name="idnos" select="doc($idnoDoc)"/>
     <xsl:template match="/">
         <TEI xmlns="http://www.tei-c.org/ns/1.0">
             <teiHeader>
@@ -23,10 +25,18 @@
                 <body>
                     <p>Some text here.</p>
                     <listPerson>
-                        <xsl:for-each select="//Person">
+                        <xsl:for-each select="//Person[./@id]">
+                            <xsl:variable name="personId">
+                                <xsl:value-of select="data(./@id)"/>
+                            </xsl:variable>
+                            <xsl:variable name="idno">
+                                <xsl:value-of select="$idnos//row[
+                                    descendant::MatchedPersonID/text() = $personId and descendant::Status/text() = 's' and descendant::ManualGND/text()
+                                    ][1]/ManualGND/text()"/>
+                            </xsl:variable>
                             <person>
                                 <xsl:attribute name="xml:id">
-                                    <xsl:value-of select="concat('person__', data(@id))"/>
+                                    <xsl:value-of select="concat('person__', $personId)"/>
                                 </xsl:attribute>
                                 <persName>
                                     <persName type="pref">
@@ -44,6 +54,11 @@
                                         </xsl:if>
                                     </persName>
                                 </persName>
+                                <xsl:if test="starts-with($idno, 'http')">
+                                    <idno type="GND">
+                                        <xsl:value-of select="tokenize($idno, ' ')[last()]"/>
+                                    </idno>
+                                </xsl:if>
                                 <xsl:for-each select=".//Bild">
                                     <xsl:if test="data(./@relation)">
                                         <ptr>
@@ -55,8 +70,8 @@
                                             </xsl:attribute>
                                         </ptr>
                                     </xsl:if>
-                                    
                                 </xsl:for-each>
+                                
                             </person>
                         </xsl:for-each>
                     </listPerson>
