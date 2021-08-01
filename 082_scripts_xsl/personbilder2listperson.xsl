@@ -3,6 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="2.0">
     <xsl:output indent="yes"/>
+    <xsl:param name="baseUri" select="'https://id.acdh.oeaw.ac.at/pez/pez-nachlass/'"></xsl:param>
     <xsl:template match="/">
         <TEI xmlns="http://www.tei-c.org/ns/1.0">
             <teiHeader>
@@ -43,6 +44,19 @@
                                         </xsl:if>
                                     </persName>
                                 </persName>
+                                <xsl:for-each select=".//Bild">
+                                    <xsl:if test="data(./@relation)">
+                                        <ptr>
+                                            <xsl:attribute name="target">
+                                                <xsl:value-of select="concat($baseUri, 'msDesc_', data(@bildid), '.xml') "/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="type">
+                                                <xsl:value-of select="lower-case(tokenize(data(@relation), ' ')[1])"/>
+                                            </xsl:attribute>
+                                        </ptr>
+                                    </xsl:if>
+                                    
+                                </xsl:for-each>
                             </person>
                         </xsl:for-each>
                     </listPerson>
