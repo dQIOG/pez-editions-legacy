@@ -81,7 +81,7 @@ Result:
       <bild id="410304">./084/410304.tif</bild>
       <bild id="410305">./084/410305.tif</bild>
       <bild id="410306">./084/410306.tif</bild>
-   …
+      …
 ```
 
 Output: `ueberschuessige_tifs.xml`
@@ -108,5 +108,15 @@ NB This step could actually be removed.
 
 Running `082_scripts_xsl/apply_unidam_export_patches.xsl` on the msDesc documents in `102_derived_tei/102_07_bequest/msDesc/` inserts the missing file references in the orginal data.
 
-The oxygen transformation scenario "msDesc – apply unidam patches" is configured to 
+The oxygen transformation scenario *Nachlass – Patch msDesc 05 – apply patches* is configured to 
 be run as the standard transformation on that directory.
+
+### 6. Verify 
+
+Running `083_scripts_xquery/patch_unidam_export_verify.xquery` on `ueberschuessige_tifs.xml` should report if TIFF files which cannot be found in the msDesc documents.
+
+(It **does** report the known bug of a duplicate object with ID 411000 which references the images 411994–411997.)
+
+oXygen transformation scenario *Nachlass – Patch msDesc 05 – apply patches*
+
+
