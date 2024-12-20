@@ -83,11 +83,6 @@ for key, value in d.items():
     orgname = ET.Element("{http://www.tei-c.org/ns/1.0}orgName")
     orgname.text = value["name"]
     org.append(orgname)
-    for mention in value["mentiones"]:
-        ptr = ET.Element("{http://www.tei-c.org/ns/1.0}ptr")
-        ptr.attrib["target"] = mention["id"]
-        ptr.attrib["n"] = mention["title"]
-        org.append(ptr)
     for idno in value["ids"]:
         idno_el = ET.Element("{http://www.tei-c.org/ns/1.0}idno")
         idno_el.text = idno
@@ -100,6 +95,11 @@ for key, value in d.items():
         else:
             idno_el.attrib["type"] = "other"
         org.append(idno_el)
+    for mention in value["mentiones"]:
+        ptr = ET.Element("{http://www.tei-c.org/ns/1.0}ptr")
+        ptr.attrib["target"] = f'msDesc_{mention["id"]}'
+        ptr.attrib["n"] = mention["title"]
+        org.append(ptr)
     listorg.append(org)
 doc.tree_to_file("102_derived_tei/102_07_bequest/listorg.xml")
 
